@@ -8,7 +8,9 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
+use Symfony\Component\Serializer\Normalizer\AbstractObjectNormalizer;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
+use Symfony\Component\Serializer\Normalizer\PropertyNormalizer;
 use Symfony\Component\Serializer\Serializer;
 
 class RuleExportCommand extends ContainerAwareCommand
@@ -30,10 +32,14 @@ class RuleExportCommand extends ContainerAwareCommand
         $output->writeln("Start to export rules:");
         foreach ($this->rules() as $rule) {
             $output->writeln("\t".$rule);
+
+            $entries = [];
             foreach ($this->list($rule) as $entry) {
                 $output->writeln("\t\t{$entry->getName()}");
-                $this->export($entry);
+                $entries[] = $entry;
             }
+
+            $this->export($entries);
         }
     }
 
@@ -80,23 +86,34 @@ class RuleExportCommand extends ContainerAwareCommand
             }
             $fs->copy(
                 $file->getPathname(),
-                $this->absPath(self::PATH_BACKUP.$file->getFilename()),
+                $this->absPath(self::PATH_BACKUP.'/'.$file->getFilename()),
                 true
             );
             $fs->remove($file->getPathname());
         }
     }
 
-    private function export(RuleInterface $entry): void
+    private function export(array $entries): void
     {
         $fs = new Filesystem();
-        $reflect = new \ReflectionClass($entry);
+        $serializer = new Serializer([new PropertyNormalizer()], [new JsonEncoder()]);
+
+        $reflect = new \ReflectionClass(reset($entries));
         $file = $reflect->getShortName().'.json';
 
-        $serializer = new Serializer([new ObjectNormalizer()], [new JsonEncoder()]);
-        $json = $serializer->serialize($entry, JsonEncoder::FORMAT);
+        $normalized = [];
+        foreach ($entries as $entry) {
+            $normalized[] = $serializer->normalize($entry, null, [
+                AbstractObjectNormalizer::ENABLE_MAX_DEPTH
+            ]);
+        }
 
-        $fs->appendToFile($this->absPath(self::PATH_CURRENT.'/'.$file), $json);
+        $serialized = $serializer->encode($normalized, JsonEncoder::FORMAT);
+
+        $fs->appendToFile(
+            $this->absPath(self::PATH_CURRENT.'/'.$file),
+            json_encode(json_decode($serialized), JSON_PRETTY_PRINT+JSON_UNESCAPED_UNICODE)
+        );
     }
 
     private function absPath(string $path): string
