@@ -1,9 +1,6 @@
 [
     {
-        "arcane": {
-            "id": 1,
-            "name": "Arcane élémentaire"
-        },
+        "arcane": 1,
         "id": 1,
         "name": "Combustion"
     }

@@ -3,14 +3,12 @@
 namespace App\Command;
 
 use App\Entity\Rule\RuleInterface;
+use App\Serializer\Normalizer\RuleNormalizer;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
-use Symfony\Component\Serializer\Normalizer\AbstractObjectNormalizer;
-use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
-use Symfony\Component\Serializer\Normalizer\PropertyNormalizer;
 use Symfony\Component\Serializer\Serializer;
 
 class RuleExportCommand extends ContainerAwareCommand
@@ -96,16 +94,14 @@ class RuleExportCommand extends ContainerAwareCommand
     private function export(array $entries): void
     {
         $fs = new Filesystem();
-        $serializer = new Serializer([new PropertyNormalizer()], [new JsonEncoder()]);
+        $serializer = new Serializer([new RuleNormalizer()], [new JsonEncoder()]);
 
         $reflect = new \ReflectionClass(reset($entries));
         $file = $reflect->getShortName().'.json';
 
         $normalized = [];
         foreach ($entries as $entry) {
-            $normalized[] = $serializer->normalize($entry, null, [
-                AbstractObjectNormalizer::ENABLE_MAX_DEPTH
-            ]);
+            $normalized[] = $serializer->normalize($entry);
         }
 
         $serialized = $serializer->encode($normalized, JsonEncoder::FORMAT);
