@@ -35,5 +35,13 @@ class RuleImportCommand extends AbstractRuleCommand
 
     private function backup(): void
     {
+        foreach ($this->rules() as $rule) {
+            $entries = [];
+            foreach ($this->list($rule->namespace) as $entry) {
+                $entries[] = $entry;
+            }
+
+            $this->export(self::PATH_BACKUP_IMPORT, $rule, $entries);
+        }
     }
 }
