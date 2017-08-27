@@ -7,41 +7,31 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class RuleImportCommand extends AbstractRuleCommand
 {
-
     protected function configure()
     {
-        $this->setName('rule:import');
+        $this->setName(self::BASE_NAME.':import');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeln("Backup old data");
+        parent::execute($input, $output);
+
         $this->backup();
 
-        $output->writeln("Start to import rules:");
-        foreach (new \DirectoryIterator($this->absPath(self::PATH_CURRENT)) as $file) {
-            if($file->isDot()) {
-                continue;
-            }
-
-            $output->writeln("\tApp\Entity\Rule\\".$file->getBasename('.json'));
-
-            $entries = json_decode(file_get_contents($file->getPathname()), true);
-            foreach ($entries as $entry) {
-                $output->writeln("\t\t{$entry['name']}");
-            }
-        }
+        $this->output->writeln(sprintf(
+            'Start to import rules from %s',
+            $this->absPath(self::PATH_CURRENT)
+        ));
+        $this->importFrom($this->absPath(self::PATH_CURRENT));
     }
 
     private function backup(): void
     {
-        foreach ($this->rules() as $rule) {
-            $entries = [];
-            foreach ($this->list($rule->namespace) as $entry) {
-                $entries[] = $entry;
-            }
+        $this->output->writeln(sprintf(
+            'Create backup at %s',
+            $this->absPath(self::PATH_BACKUP_IMPORT)
+        ));
 
-            $this->export(self::PATH_BACKUP_IMPORT, $rule, $entries);
-        }
+        $this->exportTo($this->absPath(self::PATH_BACKUP_IMPORT));
     }
 }

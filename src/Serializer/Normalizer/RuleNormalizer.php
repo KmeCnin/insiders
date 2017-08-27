@@ -3,9 +3,9 @@
 namespace App\Serializer\Normalizer;
 
 use App\Entity\Rule\RuleInterface;
-use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
+use Symfony\Component\Serializer\Normalizer\AbstractObjectNormalizer;
 
-class RuleNormalizer extends AbstractNormalizer
+class RuleNormalizer extends AbstractObjectNormalizer
 {
     public function supportsNormalization($data, $format = null)
     {
@@ -30,7 +30,15 @@ class RuleNormalizer extends AbstractNormalizer
 
     public function denormalize($data, $class, $format = null, array $context = array())
     {
+        $normalizedData = $this->prepareForDenormalization($data);
+        $reflectionClass = new \ReflectionClass($class);
+        $object = $this->instantiateObject($normalizedData, $class, $context, $reflectionClass, false, $format);
 
+        foreach ($normalizedData as $attribute => $value) {
+            if ($this->nameConverter) {
+                $attribute = $this->nameConverter->denormalize($attribute);
+            }
+        }
     }
 
     private function extractAttributes($object): array
@@ -40,6 +48,13 @@ class RuleNormalizer extends AbstractNormalizer
         $attributes = array();
         foreach ($reflectionObject->getProperties() as $property) {
             $attributes[] = $property->name;
+
+            $value = $this->validateAndDenormalize($class, $attribute, $value, $format, $context);
+            try {
+                $this->setAttributeValue($object, $attribute, $value, $format, $context);
+            } catch (InvalidArgumentException $e) {
+                throw new UnexpectedValueException($e->getMessage(), $e->getCode(), $e);
+            }
         }
 
         return $attributes;

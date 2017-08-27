@@ -15,13 +15,23 @@ class MetaRule
         $this->short = $short;
     }
 
-    public static function fromFile(\DirectoryIterator $file): ?self
+    public static function fromPhp(\DirectoryIterator $file): ?self
+    {
+        return self::from($file, 'php');
+    }
+
+    public static function fromJson(\DirectoryIterator $file): ?self
+    {
+        return self::from($file, 'json');
+    }
+
+    private static function from(\DirectoryIterator $file, string $extension): ?self
     {
         if($file->isDot()) {
             return null;
         }
 
-        $class = $file->getBasename('.php');
+        $class = $file->getBasename('.'.$extension);
         $namespace = 'App\Entity\Rule\\'.$class;
         try {
             $instance = new $namespace();

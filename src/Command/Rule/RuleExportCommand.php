@@ -10,30 +10,29 @@ class RuleExportCommand extends AbstractRuleCommand
 {
     protected function configure()
     {
-        $this->setName('rule:export');
+        $this->setName(self::BASE_NAME.':export');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeln("Backup old data");
+        parent::execute($input, $output);
+
         $this->backup();
 
-        $output->writeln("Start to export rules:");
-        foreach ($this->rules() as $rule) {
-            $output->writeln("\t".$rule->namespace);
-
-            $entries = [];
-            foreach ($this->list($rule->namespace) as $entry) {
-                $output->writeln("\t\t{$entry->getName()}");
-                $entries[] = $entry;
-            }
-
-            $this->export(self::PATH_CURRENT, $rule, $entries);
-        }
+        $this->output->writeln(sprintf(
+            'Start to export rules to %s',
+            $this->absPath(self::PATH_CURRENT)
+        ));
+        $this->exportTo($this->absPath(self::PATH_CURRENT));
     }
 
     private function backup(): void
     {
+        $this->output->writeln(sprintf(
+            'Create backup at %s',
+            $this->absPath(self::PATH_BACKUP_EXPORT)
+        ));
+
         $fs = new Filesystem();
 
         foreach (new \DirectoryIterator($this->absPath(self::PATH_CURRENT)) as $file) {
