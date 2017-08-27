@@ -1,22 +1,17 @@
 <?php
 
-namespace App\Command;
+namespace App\Command\Rule;
 
 use App\Entity\Rule\RuleInterface;
 use App\Serializer\Normalizer\RuleNormalizer;
-use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Serializer;
 
-class RuleExportCommand extends ContainerAwareCommand
+class RuleExportCommand extends AbstractRuleCommand
 {
-    const PATH_BACKUP = '/../public/rules/backup';
-    const PATH_CURRENT = '/../public/rules/current';
-    const PATH_RULES = '/Entity/Rule';
-
     protected function configure()
     {
         $this->setName('rule:export');
@@ -84,7 +79,7 @@ class RuleExportCommand extends ContainerAwareCommand
             }
             $fs->copy(
                 $file->getPathname(),
-                $this->absPath(self::PATH_BACKUP.'/'.$file->getFilename()),
+                $this->absPath(self::PATH_BACKUP_EXPORT.'/'.$file->getFilename()),
                 true
             );
             $fs->remove($file->getPathname());
@@ -110,10 +105,5 @@ class RuleExportCommand extends ContainerAwareCommand
             $this->absPath(self::PATH_CURRENT.'/'.$file),
             json_encode(json_decode($serialized), JSON_PRETTY_PRINT+JSON_UNESCAPED_UNICODE)
         );
-    }
-
-    private function absPath(string $path): string
-    {
-        return $this->getContainer()->get('kernel')->getRootDir().$path;
     }
 }
