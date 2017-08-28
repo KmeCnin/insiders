@@ -33,5 +33,17 @@ class RuleImportCommand extends AbstractRuleCommand
         ));
 
         $this->exportTo($this->absPath(self::PATH_BACKUP_IMPORT));
+
+        $this->output->writeln('Delete current data from database');
+        // TODO: save export in order to backup if failed.
+        foreach ($this->databaseRules() as $metaRule) {
+            $cmd = $this->em->getClassMetadata($metaRule->namespace);
+            $connection = $this->em->getConnection();
+            $dbPlatform = $connection->getDatabasePlatform();
+            $connection->query('SET FOREIGN_KEY_CHECKS=0');
+            $q = $dbPlatform->getTruncateTableSql($cmd->getTableName());
+            $connection->executeUpdate($q);
+            $connection->query('SET FOREIGN_KEY_CHECKS=1');
+        }
     }
 }

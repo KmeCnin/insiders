@@ -2,8 +2,10 @@
 
 namespace App\Command\Rule;
 
+use App\Entity\Rule\Ability;
+use App\Entity\Rule\Arcane;
 use App\Entity\Rule\RuleInterface;
-use App\Serializer\Normalizer\RuleNormalizer;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -26,12 +28,15 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
     protected $output;
     /** @var Serializer */
     protected $serializer;
+    /** @var EntityManagerInterface */
+    protected $em;
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->input = $input;
         $this->output = $output;
-        $this->serializer = new Serializer([new RuleNormalizer()], [new JsonEncoder()]);
+        $this->em = $this->getContainer()->get('doctrine.orm.entity_manager');
+        $this->serializer = $this->getContainer()->get('jms_serializer');
     }
 
     protected function absPath(string $path): string
@@ -60,7 +65,7 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
             $fs->appendToFile(
                 $dir.'/'.$rule->short.'.json',
                 json_encode(
-                    json_decode($serialized),
+                    json_decode($serialized, true),
                     JSON_PRETTY_PRINT+JSON_UNESCAPED_UNICODE
                 )
             );
@@ -69,16 +74,19 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
 
     protected function importFrom(string $dir)
     {
-        $em = $this->getContainer()->get('doctrine.orm.entity_manager');
-
         foreach ($this->jsonRules() as $rule) {
             $this->output->writeln("\t".$rule->namespace);
 
+            /** @var RuleInterface $entry */
             foreach ($this->jsonEntries($rule, $dir) as $entry) {
                 $this->output->writeln("\t\t{$entry->getName()}");
-                $em->persist($entry);
+                if ($this->em->find(get_class($entry), $entry->getId())) {
+                    $this->em->merge($entry);
+                } else {
+                    $this->em->persist($entry);
+                }
+                $this->em->flush();
             }
-            $em->flush();
         }
     }
 
@@ -103,15 +111,19 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
      */
     protected function jsonRules(): \Iterator
     {
-        foreach (new \DirectoryIterator($this->absPath(self::PATH_CURRENT)) as $file) {
-            $metaRule = MetaRule::fromJson($file);
+        yield new MetaRule(Arcane::class);
+        yield new MetaRule(Ability::class);
 
-            if (null === $metaRule) {
-                continue;
-            }
 
-            yield $metaRule;
-        }
+//        foreach (new \DirectoryIterator($this->absPath(self::PATH_CURRENT)) as $file) {
+//            $metaRule = MetaRule::fromJson($file);
+//
+//            if (null === $metaRule) {
+//                continue;
+//            }
+//
+//            yield $metaRule;
+//        }
     }
 
     /**
@@ -125,17 +137,19 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
     }
 
     /**
-     * @return RuleInterface[]
+     * @return RuleInterface[]|\Iterator
      */
-    protected function jsonEntries(MetaRule $rule, string $dir): array
+    protected function jsonEntries(MetaRule $rule, string $dir): \Iterator
     {
         $path = $dir.'/'.$rule->short.'.json';
         $entries = file_get_contents($path);
 
-        return $this->serializer->deserialize(
-            $entries,
-            $rule->namespace,
-            JsonEncoder::FORMAT
-        );
+        foreach (json_decode($entries, true) as $entry) {
+            yield $this->serializer->deserialize(
+                json_encode($entry),
+                $rule->namespace,
+                JsonEncoder::FORMAT
+            );
+        }
     }
 }

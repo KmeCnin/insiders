@@ -1,7 +1,14 @@
 [
     {
-        "arcane": 1,
         "id": 1,
-        "name": "Combustion"
+        "id_string": "combustion",
+        "name": "Combustion",
+        "deleted": false,
+        "arcane": {
+            "id": 1,
+            "id_string": "éléments",
+            "name": "Arcane élémentaire",
+            "deleted": false
+        }
     }
 ]

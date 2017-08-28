@@ -9,10 +9,11 @@ class MetaRule
     public $namespace;
     public $short;
 
-    public function __construct(string $namespace, string $short)
+    public function __construct(string $namespace)
     {
         $this->namespace = $namespace;
-        $this->short = $short;
+        $parts = explode('\\', $namespace);
+        $this->short = end($parts);
     }
 
     public static function fromPhp(\DirectoryIterator $file): ?self
@@ -43,9 +44,6 @@ class MetaRule
             return null;
         }
 
-        $reflect = new \ReflectionClass($instance);
-        $short = $reflect->getShortName();
-
-        return new static($namespace, $short);
+        return new static($namespace);
     }
 }
