@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Transporter;
+namespace App\Service\Transporter;
 
 interface TransporterInterface
 {

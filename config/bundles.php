@@ -9,5 +9,4 @@ return [
     'Doctrine\Bundle\DoctrineBundle\DoctrineBundle' => ['all' => true],
     'JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle' => ['all' => true],
     'Symfony\Bundle\WebServerBundle\WebServerBundle' => ['dev' => true],
-    'JMS\SerializerBundle\JMSSerializerBundle' => ['all' => true],
 ];

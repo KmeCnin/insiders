@@ -2,22 +2,24 @@
 
 namespace App\Command\Rule;
 
-use App\Entity\Rule\Ability;
-use App\Entity\Rule\Arcane;
 use App\Entity\Rule\RuleInterface;
+use App\Service\Transporter\RuleTransporter;
+use App\Service\Transporter\TransporterInterface;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
+use Symfony\Component\Serializer\Normalizer\ArrayDenormalizer;
+use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
 
 abstract class AbstractRuleCommand extends ContainerAwareCommand
 {
-    const PATH_BACKUP_EXPORT = '/Command/Rule/Backup/Export';
+    const PATH_BACKUP_EXPORT = DIRECTORY_SEPARATOR.'Command'.DIRECTORY_SEPARATOR.'Rule'.DIRECTORY_SEPARATOR.'Backup'.DIRECTORY_SEPARATOR.'Export';
     const PATH_BACKUP_IMPORT = '/Command/Rule/Backup/Import';
-    const PATH_CURRENT = '/../public/rules';
+    const PATH_CURRENT = DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'rules';
     const PATH_RULES = '/Entity/Rule';
 
     const BASE_NAME = 'rule';
@@ -30,13 +32,19 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
     protected $serializer;
     /** @var EntityManagerInterface */
     protected $em;
+    /** @var TransporterInterface */
+    protected $transporter;
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->input = $input;
         $this->output = $output;
         $this->em = $this->getContainer()->get('doctrine.orm.entity_manager');
-        $this->serializer = $this->getContainer()->get('jms_serializer');
+        $this->serializer = new Serializer(
+            [new ObjectNormalizer(), new ArrayDenormalizer()],
+            [new JsonEncoder()]
+        );
+        $this->transporter = $this->getContainer()->get(RuleTransporter::class);
     }
 
     protected function absPath(string $path): string
@@ -77,16 +85,11 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
         foreach ($this->jsonRules() as $rule) {
             $this->output->writeln("\t".$rule->namespace);
 
-            /** @var RuleInterface $entry */
             foreach ($this->jsonEntries($rule, $dir) as $entry) {
                 $this->output->writeln("\t\t{$entry->getName()}");
-                if ($this->em->find(get_class($entry), $entry->getId())) {
-                    $this->em->merge($entry);
-                } else {
-                    $this->em->persist($entry);
-                }
-                $this->em->flush();
+                $this->em->persist($entry);
             }
+            $this->em->flush();
         }
     }
 
@@ -111,19 +114,15 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
      */
     protected function jsonRules(): \Iterator
     {
-        yield new MetaRule(Arcane::class);
-        yield new MetaRule(Ability::class);
+        foreach (new \DirectoryIterator($this->absPath(self::PATH_CURRENT)) as $file) {
+            $metaRule = MetaRule::fromJson($file);
 
+            if (null === $metaRule) {
+                continue;
+            }
 
-//        foreach (new \DirectoryIterator($this->absPath(self::PATH_CURRENT)) as $file) {
-//            $metaRule = MetaRule::fromJson($file);
-//
-//            if (null === $metaRule) {
-//                continue;
-//            }
-//
-//            yield $metaRule;
-//        }
+            yield $metaRule;
+        }
     }
 
     /**
@@ -137,19 +136,17 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
     }
 
     /**
-     * @return RuleInterface[]|\Iterator
+     * @return RuleInterface[]
      */
-    protected function jsonEntries(MetaRule $rule, string $dir): \Iterator
+    protected function jsonEntries(MetaRule $rule, string $dir): array
     {
         $path = $dir.'/'.$rule->short.'.json';
         $entries = file_get_contents($path);
 
-        foreach (json_decode($entries, true) as $entry) {
-            yield $this->serializer->deserialize(
-                json_encode($entry),
-                $rule->namespace,
-                JsonEncoder::FORMAT
-            );
-        }
+        return $this->serializer->deserialize(
+            $entries,
+            $rule->namespace.'[]',
+            JsonEncoder::FORMAT
+        );
     }
 }

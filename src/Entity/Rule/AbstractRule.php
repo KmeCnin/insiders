@@ -4,7 +4,6 @@ namespace App\Entity\Rule;
 
 use App\Entity\AbstractEntity;
 use Doctrine\ORM\Mapping as ORM;
-use JMS\Serializer\Annotation as Serializer;
 
 abstract class AbstractRule extends AbstractEntity implements RuleInterface
 {
@@ -14,7 +13,6 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      * @ORM\Column(type="integer")
-     * @Serializer\Type("integer")
      */
     protected $id;
 
@@ -22,7 +20,6 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
      * @var string
      *
      * @ORM\Column(type="string")
-     * @Serializer\Type("string")
      */
     protected $idString;
 
@@ -30,7 +27,6 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
      * @var string
      *
      * @ORM\Column(type="string", nullable=false)
-     * @Serializer\Type("string")
      */
     protected $name;
 
@@ -38,7 +34,6 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
      * @var bool
      *
      * @ORM\Column(type="boolean", nullable=false)
-     * @Serializer\Type("boolean")
      */
     protected $deleted;
 
