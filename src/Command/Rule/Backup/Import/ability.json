@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Combustion",
         "arcane_id": "1",
-        "id_string": "foo",
+        "slug": "foo",
         "deleted": "0"
     }
 ]

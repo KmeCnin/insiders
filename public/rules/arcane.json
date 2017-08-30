@@ -2,7 +2,19 @@
     {
         "id": "1",
         "name": "Arcane élémentaire",
-        "id_string": "éléments",
+        "slug": "éléments",
+        "deleted": "0"
+    },
+    {
+        "id": "2",
+        "name": "Arcane cinétique",
+        "slug": "cinétique",
+        "deleted": "0"
+    },
+    {
+        "id": "3",
+        "name": "Arcane cinétique",
+        "slug": "cinétique",
         "deleted": "0"
     }
 ]

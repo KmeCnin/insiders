@@ -21,7 +21,7 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
      *
      * @ORM\Column(type="string")
      */
-    protected $idString;
+    protected $slug;
 
     /**
      * @var string
@@ -54,14 +54,14 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
         return $this;
     }
 
-    public function getIdString(): ?string
+    public function getSlug(): ?string
     {
-        return $this->idString;
+        return $this->slug;
     }
 
-    public function setIdString(string $id): self
+    public function setSlug(string $slug): self
     {
-        $this->idString = $id;
+        $this->slug = $slug;
 
         return $this;
     }

@@ -8,9 +8,9 @@ interface RuleInterface
 
     public function setId(int $id);
 
-    public function getIdString(): ?string;
+    public function getSlug(): ?string;
 
-    public function setIdString(string $id);
+    public function setSlug(string $slug);
 
     public function getName(): ?string;
 
