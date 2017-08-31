@@ -4,6 +4,9 @@ namespace App\Service\Transporter;
 
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Service\Serializer\Encoder\PrettyJsonEncoder;
+use App\Service\Serializer\Normalizer\SQLNormalizer;
+use App\Service\Serializer\Serializer;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -13,28 +16,25 @@ class RuleTransporter implements TransporterInterface
 {
     private $em;
     private $connection;
+    private $serializer;
     /** @var OutputInterface */
     private $output;
 
-    public function __construct(EntityManagerInterface $em)
-    {
+    public function __construct(EntityManagerInterface $em) {
         $this->em = $em;
         $this->connection = $em->getConnection();
+        $this->serializer = new Serializer(
+            new SQLNormalizer($em),
+            new PrettyJsonEncoder()
+        );
     }
 
-    public function entities()
+    protected function entities()
     {
         return [
             Arcane::class,
             Ability::class,
         ];
-    }
-
-    protected function fromNamespaceToFile(string $namespace)
-    {
-        $nameConverter = new CamelCaseToSnakeCaseNameConverter();
-        $parts = explode('\\', $namespace);
-        return $nameConverter->normalize(array_pop($parts));
     }
 
     public function export(string $to)
@@ -51,10 +51,7 @@ class RuleTransporter implements TransporterInterface
             $filePath = $to.'/'.$this->fromNamespaceToFile($entity).'.json';
             $fs->appendToFile(
                 $filePath,
-                json_encode(
-                    $data,
-                    JSON_PRETTY_PRINT+JSON_UNESCAPED_UNICODE
-                )
+                $this->serializer->serialize($data)
             );
             $this->log("    <info>Done</info> into file ".$filePath);
         }
@@ -67,7 +64,7 @@ class RuleTransporter implements TransporterInterface
             $this->log("Importing entity <comment>".$entity."</comment> into table <comment>".$table."</comment>...");
 
             $filePath = $from.'/'.$this->fromNamespaceToFile($entity).'.json';
-            $data = json_decode(file_get_contents($filePath), true);
+            $data = $this->serializer->deserialize(file_get_contents($filePath));
 
             foreach ($data as $entry) {
                 $columns = implode(', ', array_keys($entry));
@@ -87,7 +84,14 @@ class RuleTransporter implements TransporterInterface
         $this->output = $output;
     }
 
-    private function log(string $msg)
+    protected function fromNamespaceToFile(string $namespace)
+    {
+        $nameConverter = new CamelCaseToSnakeCaseNameConverter();
+        $parts = explode('\\', $namespace);
+        return $nameConverter->normalize(array_pop($parts));
+    }
+
+    protected function log(string $msg)
     {
         if ($this->output) {
             $this->output->writeln($msg);

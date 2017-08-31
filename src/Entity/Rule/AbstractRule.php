@@ -19,7 +19,7 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
     /**
      * @var string
      *
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", unique=true)
      */
     protected $slug;
 

@@ -2,34 +2,31 @@
 
 namespace App\Command\Rule;
 
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 
 class RuleImportCommand extends AbstractRuleCommand
 {
-    const PATH_BACKUP_IMPORT = '/Command/Rule/Backup/Import';
+    const PATH_BACKUP = '/Command/Rule/Backup/Import';
 
     protected function configure()
     {
+        parent::configure();
+
         $this->setName(self::BASE_NAME.':import');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function transport(): void
     {
-        parent::execute($input, $output);
-
-        $this->backup();
-
         $this->output->writeln(
             'Importing <comment>rules</comment> data from json files to database...'
         );
+
         $this->transporter->import($this->absPath(self::PATH_PUBLIC));
     }
 
-    private function backup(): void
+    protected function backup(): void
     {
-        $backupPath = $this->absPath(self::PATH_BACKUP_IMPORT);
+        $backupPath = $this->absPath(self::PATH_BACKUP);
         $this->output->writeln(sprintf(
             'Creating backup at <comment>%s</comment>',
             $backupPath
@@ -47,5 +44,16 @@ class RuleImportCommand extends AbstractRuleCommand
         $this->transporter->export($backupPath);
 
         $this->output->writeln("");
+    }
+
+    protected function recover(): void
+    {
+        $backupPath = $this->absPath(self::PATH_BACKUP);
+        $this->output->writeln(sprintf(
+            'Recovering backup from <comment>%s</comment>',
+            $backupPath
+        ));
+
+        $this->transporter->import($backupPath);
     }
 }

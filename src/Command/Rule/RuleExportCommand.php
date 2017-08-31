@@ -2,34 +2,31 @@
 
 namespace App\Command\Rule;
 
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 
 class RuleExportCommand extends AbstractRuleCommand
 {
-    const PATH_BACKUP_EXPORT = '/Command/Rule/Backup/Export';
+    const PATH_BACKUP = '/Command/Rule/Backup/Export';
 
     protected function configure()
     {
+        parent::configure();
+
         $this->setName(self::BASE_NAME.':export');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function transport(): void
     {
-        parent::execute($input, $output);
-
-        $this->backup();
-
         $this->output->writeln(
             'Exporting <comment>rules</comment> data from database to json files...'
         );
+
         $this->transporter->export($this->absPath(self::PATH_PUBLIC));
     }
 
-    private function backup(): void
+    protected function backup(): void
     {
-        $backupPath = $this->absPath(self::PATH_BACKUP_EXPORT);
+        $backupPath = $this->absPath(self::PATH_BACKUP);
         $publicPath = $this->absPath(self::PATH_PUBLIC);
         $this->output->writeln(sprintf(
             'Creating backup at <comment>%s</comment>',
@@ -40,11 +37,36 @@ class RuleExportCommand extends AbstractRuleCommand
         $fs = new Filesystem();
         foreach (new \DirectoryIterator($publicPath) as $file) {
             if (!$file->isDot()) {
-                $fs->copy($file->getPathname(), $backupPath.'/'.$file->getBasename());
+                $fs->copy(
+                    $file->getPathname(),
+                    $backupPath.'/'.$file->getBasename(),
+                    true
+                );
                 $fs->remove($file->getPathname());
             }
         }
 
         $this->output->writeln("    <info>Done</info>.\n");
+    }
+
+    protected function recover(): void
+    {
+        $backupPath = $this->absPath(self::PATH_BACKUP);
+        $publicPath = $this->absPath(self::PATH_PUBLIC);
+        $this->output->writeln(sprintf(
+            'Recovering backup from <comment>%s</comment>',
+            $backupPath
+        ));
+
+        $fs = new Filesystem();
+        foreach (new \DirectoryIterator($backupPath) as $file) {
+            if (!$file->isDot()) {
+                $fs->copy(
+                    $file->getPathname(),
+                    $publicPath.'/'.$file->getBasename(),
+                    true
+                );
+            }
+        }
     }
 }
