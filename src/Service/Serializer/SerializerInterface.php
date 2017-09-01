@@ -4,7 +4,7 @@ namespace App\Service\Serializer;
 
 interface SerializerInterface
 {
-    public function serialize($data): string;
+    public function serialize($data, $from = null): string;
 
-    public function deserialize(string $data);
+    public function deserialize(string $data, $to = null);
 }

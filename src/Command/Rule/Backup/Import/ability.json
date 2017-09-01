@@ -1,9 +1,9 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Combustion",
-        "arcane_id": "1",
-        "slug": "foo",
-        "deleted": "0"
+        "arcane": "elements",
+        "slug": "combustion",
+        "deleted": false
     }
 ]

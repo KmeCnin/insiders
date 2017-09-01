@@ -51,7 +51,7 @@ class RuleTransporter implements TransporterInterface
             $filePath = $to.'/'.$this->fromNamespaceToFile($entity).'.json';
             $fs->appendToFile(
                 $filePath,
-                $this->serializer->serialize($data)
+                $this->serializer->serialize($data, $entity)
             );
             $this->log("    <info>Done</info> into file ".$filePath);
         }
@@ -64,7 +64,7 @@ class RuleTransporter implements TransporterInterface
             $this->log("Importing entity <comment>".$entity."</comment> into table <comment>".$table."</comment>...");
 
             $filePath = $from.'/'.$this->fromNamespaceToFile($entity).'.json';
-            $data = $this->serializer->deserialize(file_get_contents($filePath));
+            $data = $this->serializer->deserialize(file_get_contents($filePath), $entity);
 
             foreach ($data as $entry) {
                 $columns = implode(', ', array_keys($entry));

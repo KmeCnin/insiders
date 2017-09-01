@@ -1,50 +1,50 @@
 [
     {
-        "id": "1",
-        "name": "Arcane élémentaire",
+        "id": 1,
+        "name": "Arcane élémentaire2",
         "slug": "elements",
-        "deleted": "0"
+        "deleted": false
     },
     {
-        "id": "2",
+        "id": 2,
         "name": "Arcane cinétique",
         "slug": "kinetic",
-        "deleted": "0"
+        "deleted": false
     },
     {
-        "id": "3",
+        "id": 3,
         "name": "Arcane de la vie",
         "slug": "life",
-        "deleted": "0"
+        "deleted": false
     },
     {
-        "id": "4",
+        "id": 4,
         "name": "Arcane de la mort",
         "slug": "death",
-        "deleted": "0"
+        "deleted": false
     },
     {
-        "id": "5",
+        "id": 5,
         "name": "Arcane de l'espace-temps",
         "slug": "space-time",
-        "deleted": "0"
+        "deleted": false
     },
     {
-        "id": "6",
+        "id": 6,
         "name": "Arcane de l'intellect",
         "slug": "intellect",
-        "deleted": "0"
+        "deleted": false
     },
     {
-        "id": "7",
+        "id": 7,
         "name": "Arcane éthéré",
         "slug": "ether",
-        "deleted": "0"
+        "deleted": false
     },
     {
-        "id": "8",
+        "id": 8,
         "name": "Arcane coercitif",
         "slug": "coercive",
-        "deleted": "0"
+        "deleted": false
     }
 ]

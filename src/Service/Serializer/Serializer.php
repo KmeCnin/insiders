@@ -16,15 +16,15 @@ class Serializer implements SerializerInterface
         $this->encoder = $encoder;
     }
 
-    public function serialize($data): string
+    public function serialize($data, $from = null): string
     {
-        $normalized = $this->normalizer->normalize($data);
+        $normalized = $this->normalizer->normalize($data, $from);
         return $this->encoder->encode($normalized);
     }
 
-    public function deserialize(string $data)
+    public function deserialize(string $data, $to = null)
     {
         $decoded = $this->encoder->decode($data);
-        return $this->normalizer->denormalize($decoded);
+        return $this->normalizer->denormalize($decoded, $to);
     }
 }
