@@ -4,6 +4,9 @@ namespace App\Service\Transporter;
 
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Entity\Rule\Champion;
+use App\Entity\Rule\Characteristic;
+use App\Entity\Rule\Deity;
 use App\Service\Serializer\Encoder\PrettyJsonEncoder;
 use App\Service\Serializer\Normalizer\SQLNormalizer;
 use App\Service\Serializer\Serializer;
@@ -33,7 +36,10 @@ class RuleTransporter implements TransporterInterface
     {
         return [
             Arcane::class,
+            Characteristic::class,
             Ability::class,
+            Deity::class,
+            Champion::class,
         ];
     }
 
@@ -68,7 +74,7 @@ class RuleTransporter implements TransporterInterface
 
             foreach ($data as $entry) {
                 $columns = implode(', ', array_keys($entry));
-                $values = '"'.implode('", "', array_values($entry)).'"';
+                $values = implode(', ', array_values($entry));
 
                 $sql = "REPLACE INTO $table ($columns) VALUES ($values)";
                 $this->connection->query('SET FOREIGN_KEY_CHECKS=0');

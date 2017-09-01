@@ -79,8 +79,12 @@ class SQLNormalizer implements NormalizerInterface
             : $property.'_id';
     }
 
-    private function castToNormalized(string $value, string $property, ClassMetadata $meta)
+    private function castToNormalized(?string $value, string $property, ClassMetadata $meta)
     {
+        if (null === $value) {
+            return null;
+        }
+
         if ($meta->hasField($property)) {
             switch ($meta->getTypeOfField($property)) {
                 case Type::BIGINT:
@@ -111,14 +115,18 @@ class SQLNormalizer implements NormalizerInterface
         ));
     }
 
-    private function castToDenormalized($value, string $property, ClassMetadata $meta): string
+    private function castToDenormalized($value, string $property, ClassMetadata $meta): ?string
     {
+        if (null === $value) {
+            return 'NULL';
+        }
+
         if ($meta->hasField($property)) {
             switch ($meta->getTypeOfField($property)) {
                 case Type::BOOLEAN:
                     return $value ? '1' : '0';
                 default:
-                    return (string) $value;
+                    return (string) '"'.str_replace('"', '\"', $value).'"';
             }
         }
 

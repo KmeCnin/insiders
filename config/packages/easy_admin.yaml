@@ -1,4 +1,8 @@
 easy_admin:
     entities:
-        - App\Entity\Rule\Ability
+        # RuleInterface
         - App\Entity\Rule\Arcane
+        - App\Entity\Rule\Characteristic
+        - App\Entity\Rule\Ability
+        - App\Entity\Rule\Deity
+        - App\Entity\Rule\Champion

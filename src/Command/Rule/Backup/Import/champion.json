@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "deity": "valerius",
+        "dignity": "L'écaille brûlante",
+        "description": "Il s'agit d'un demi-dragon (humanoïde à tête de dragon, paire d'ailes, écailles, griffes) en armure. Autant violent que son Dieu, il voue sa vie à la guerre en menant des armées sans autres but que la destruction.\r\nSon pêché mignon est de rejoindre un conflit existant en tant que général de l'armée perdante puis de changer de camps une fois la tendance inversée à multiples reprises afin de faire durer le conflit aussi longtemps que possible aisni que s'enorgueillir d'avoir un rôle si décisif.",
+        "slug": "baros",
+        "name": "Baros",
+        "deleted": false
+    },
+    {
+        "id": 2,
+        "deity": "solenia",
+        "dignity": "Le pélerin vagabond",
+        "description": "Il s'agit d'un vieil homme calme et taiseux portant une simple toge sobre et usée. Il parcourt les continents offrant son aide à ceux qui en ont réellement besoin et vieil à ne jamais prendre partie dans les conflits armés.",
+        "slug": "etanael",
+        "name": "Etanael",
+        "deleted": false
+    },
+    {
+        "id": 3,
+        "deity": "choln",
+        "dignity": "Le chevalier noir",
+        "description": "Il porte en permanence une armure noire complète qui ne laisse deviner que ses yeux brillants d'une lueure rouge. Certains disent qu'il ne reste plus rien de réellement vivant sous ce harnois. Il développe depuis plus d'un siècle une citadelle fortifiée et fait grandir ses armées nécromantiques pour étendre son influence.",
+        "slug": "malenius",
+        "name": "Malenius",
+        "deleted": false
+    },
+    {
+        "id": 4,
+        "deity": "penelas",
+        "dignity": "Le cavalier zelé",
+        "description": "Il revète une armure de chevalier d'une extrême noblesse, portant en permanence un immense étendard aux couleurs de sa Déesse. Corlan est conscient qu'en tant que Champion de Penelas, ses jours sont comptés. En effet peu de Champions ont réussit à satisfaire la divinité plus de quelques mois. Embrassant cette malédiction, il donne en permanence le meilleur de lui même, quitte à en faire trop, pour éviter de se faire désintégrer d'un claquement de doigts.",
+        "slug": "corlan",
+        "name": "Corlan",
+        "deleted": false
+    },
+    {
+        "id": 5,
+        "deity": "lovnir",
+        "dignity": "L'hermite repentit",
+        "description": "Il s'agit d'un ancien richissime bourgeois qui dépensait son incalculable fortune dans la fête et la luxure. Touché par la grâce de Lovnir, il s'exclut de la vie sociale pour se consacrer à la méditation et rechercher une existance dépourvue de désirs.",
+        "slug": "jonnas",
+        "name": "Jonnas",
+        "deleted": false
+    },
+    {
+        "id": 6,
+        "deity": "ozz",
+        "dignity": "L'insolente stratège",
+        "description": "C'est une femme à la peau noire comme du charbon et au regard teinté d'une lueure mauve. Rien ne l'intéresse que d'élaborer des plans compliqués parfois prévus sur des décénies dans le seul but de démontrer son écrasante supériorité intellectuelle.",
+        "slug": "marlite",
+        "name": "Marlite",
+        "deleted": false
+    }
+]
