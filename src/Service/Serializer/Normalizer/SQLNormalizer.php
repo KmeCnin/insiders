@@ -9,6 +9,8 @@ use Doctrine\ORM\Mapping\ClassMetadata;
 
 class SQLNormalizer implements NormalizerInterface
 {
+    const NULL = 'NULL';
+
     protected $em;
 
     public function __construct(EntityManagerInterface $em)
@@ -104,7 +106,7 @@ class SQLNormalizer implements NormalizerInterface
         if ($assoc = $meta->getAssociationMapping($property)) {
             /** @var RuleInterface $entity */
             $entity = $this->em->getRepository($assoc['targetEntity'])->find($value);
-            return $entity->getSlug();
+            return $entity ? $entity->getSlug() : null;
         }
 
         throw new \Exception(sprintf(
@@ -118,7 +120,7 @@ class SQLNormalizer implements NormalizerInterface
     private function castToDenormalized($value, string $property, ClassMetadata $meta): ?string
     {
         if (null === $value) {
-            return 'NULL';
+            return self::NULL;
         }
 
         if ($meta->hasField($property)) {
@@ -134,7 +136,7 @@ class SQLNormalizer implements NormalizerInterface
             /** @var RuleInterface $entity */
             $entity = $this->em->getRepository($assoc['targetEntity'])
                 ->findOneBy(['slug' => $value]);
-            return $entity->getId();
+            return $entity ? $entity->getId() : self::NULL;
         }
 
         throw new \Exception(sprintf(

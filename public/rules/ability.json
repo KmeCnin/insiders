@@ -4,6 +4,7 @@
         "name": "Combustion",
         "arcane": "elements",
         "slug": "combustion",
-        "deleted": false
+        "deleted": false,
+        "description": ""
     }
 ]

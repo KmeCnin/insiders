@@ -40,6 +40,7 @@ class RuleTransporter implements TransporterInterface
             Ability::class,
             Deity::class,
             Champion::class,
+            Deity::class, // Must be done again in order to refer Champions
         ];
     }
 
