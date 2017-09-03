@@ -8,7 +8,7 @@ use App\Entity\Rule\Champion;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
 use App\Service\Serializer\Encoder\PrettyJsonEncoder;
-use App\Service\Serializer\Normalizer\SQLNormalizer;
+use App\Service\Serializer\Normalizer\RuleNormalizer;
 use App\Service\Serializer\Serializer;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -22,17 +22,20 @@ class RuleTransporter implements TransporterInterface
     private $serializer;
     /** @var OutputInterface */
     private $output;
+    /** @var string[] */
+    private $entities;
 
     public function __construct(EntityManagerInterface $em) {
         $this->em = $em;
         $this->connection = $em->getConnection();
         $this->serializer = new Serializer(
-            new SQLNormalizer($em),
+            new RuleNormalizer($em),
             new PrettyJsonEncoder()
         );
+        $this->entities = $this->defaultEntities();
     }
 
-    protected function entities()
+    protected function defaultEntities()
     {
         return [
             Arcane::class,
@@ -47,18 +50,17 @@ class RuleTransporter implements TransporterInterface
     public function export(string $to)
     {
         $fs = new Filesystem();
-        foreach ($this->entities() as $entity) {
+        foreach ($this->entities as $entity) {
             $this->log("Exporting entity <comment>".$entity."</comment>...");
 
-            $table = $this->em->getClassMetadata($entity)->getTableName();
-            $data = $this->connection
-                ->executeQuery("SELECT * FROM $table")
-                ->fetchAll();
+            $entities = $this->em
+                ->getRepository($entity)
+                ->findAll();
 
             $filePath = $to.'/'.$this->fromNamespaceToFile($entity).'.json';
             $fs->appendToFile(
                 $filePath,
-                $this->serializer->serialize($data, $entity)
+                $this->serializer->serialize($entities)
             );
             $this->log("    <info>Done</info> into file ".$filePath);
         }
@@ -66,7 +68,7 @@ class RuleTransporter implements TransporterInterface
 
     public function import(string $from)
     {
-        foreach ($this->entities() as $entity) {
+        foreach ($this->entities as $entity) {
             $table = $this->em->getClassMetadata($entity)->getTableName();
             $this->log("Importing entity <comment>".$entity."</comment> into table <comment>".$table."</comment>...");
 
@@ -89,6 +91,11 @@ class RuleTransporter implements TransporterInterface
     public function setOutput(OutputInterface $output)
     {
         $this->output = $output;
+    }
+
+    public function setEntities(array $entities)
+    {
+        $this->entities = $entities;
     }
 
     protected function fromNamespaceToFile(string $namespace)

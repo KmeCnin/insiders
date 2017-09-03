@@ -35,7 +35,7 @@ class RuleImportCommand extends AbstractRuleCommand
         // Remove old backup.
         $fs = new Filesystem();
         foreach (new \DirectoryIterator($backupPath) as $file) {
-            if (!$file->isDot()) {
+            if (!$file->isDot() && $this->fileIsHandled($file)) {
                 $fs->remove($file->getPathname());
             }
         }
