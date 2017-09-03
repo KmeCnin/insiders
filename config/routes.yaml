@@ -1,5 +1,10 @@
-admin:
+website:
     resource: ../src/Controller/
+    type: annotation
+
+admin:
+    resource: '@EasyAdminBundle/Controller/AdminController.php'
+    prefix: /admin
     type: annotation
 
 fos_user:

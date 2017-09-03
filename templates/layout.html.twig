@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Les initiés{% endblock %}</title>
+        {% block css %}
+            <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        {% endblock %}
+    </head>
+<body>
+    {{ include('menu.html.twig') }}
+    {% block content %}{% endblock %}
+</body>
+</html>
