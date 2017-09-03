@@ -1,10 +1,7 @@
 [
     {
-        "__initializer__": null,
-        "__cloner__": null,
-        "__isInitialized__": true,
-        "lazyPropertiesDefaults": [],
         "dignity": "L'écaille brûlante",
+        "deity": "valerius",
         "description": "Il s'agit d'un demi-dragon (humanoïde à tête de dragon, paire d'ailes, écailles, griffes) en armure. Autant violent que son Dieu, il voue sa vie à la guerre en menant des armées sans autres but que la destruction.\r\nSon pêché mignon est de rejoindre un conflit existant en tant que général de l'armée perdante puis de changer de camps une fois la tendance inversée à multiples reprises afin de faire durer le conflit aussi longtemps que possible aisni que s'enorgueillir d'avoir un rôle si décisif.",
         "id": 1,
         "slug": "baros",
@@ -12,11 +9,8 @@
         "deleted": false
     },
     {
-        "__initializer__": null,
-        "__cloner__": null,
-        "__isInitialized__": true,
-        "lazyPropertiesDefaults": [],
         "dignity": "Le pélerin vagabond",
+        "deity": "solenia",
         "description": "Il s'agit d'un vieil homme calme et taiseux portant une simple toge sobre et usée. Il parcourt les continents offrant son aide à ceux qui en ont réellement besoin et vieil à ne jamais prendre partie dans les conflits armés.",
         "id": 2,
         "slug": "etanael",
@@ -24,11 +18,8 @@
         "deleted": false
     },
     {
-        "__initializer__": null,
-        "__cloner__": null,
-        "__isInitialized__": true,
-        "lazyPropertiesDefaults": [],
         "dignity": "Le chevalier noir",
+        "deity": "choln",
         "description": "Il porte en permanence une armure noire complète qui ne laisse deviner que ses yeux brillants d'une lueure rouge. Certains disent qu'il ne reste plus rien de réellement vivant sous ce harnois. Il développe depuis plus d'un siècle une citadelle fortifiée et fait grandir ses armées nécromantiques pour étendre son influence.",
         "id": 3,
         "slug": "malenius",
@@ -36,11 +27,8 @@
         "deleted": false
     },
     {
-        "__initializer__": null,
-        "__cloner__": null,
-        "__isInitialized__": true,
-        "lazyPropertiesDefaults": [],
         "dignity": "Le cavalier zelé",
+        "deity": "penelas",
         "description": "Il revète une armure de chevalier d'une extrême noblesse, portant en permanence un immense étendard aux couleurs de sa Déesse. Corlan est conscient qu'en tant que Champion de Penelas, ses jours sont comptés. En effet peu de Champions ont réussit à satisfaire la divinité plus de quelques mois. Embrassant cette malédiction, il donne en permanence le meilleur de lui même, quitte à en faire trop, pour éviter de se faire désintégrer d'un claquement de doigts.",
         "id": 4,
         "slug": "corlan",
@@ -48,11 +36,8 @@
         "deleted": false
     },
     {
-        "__initializer__": null,
-        "__cloner__": null,
-        "__isInitialized__": true,
-        "lazyPropertiesDefaults": [],
         "dignity": "L'hermite repentit",
+        "deity": "lovnir",
         "description": "Il s'agit d'un ancien richissime bourgeois qui dépensait son incalculable fortune dans la fête et la luxure. Touché par la grâce de Lovnir, il s'exclut de la vie sociale pour se consacrer à la méditation et rechercher une existance dépourvue de désirs.",
         "id": 5,
         "slug": "jonnas",
@@ -60,11 +45,8 @@
         "deleted": false
     },
     {
-        "__initializer__": null,
-        "__cloner__": null,
-        "__isInitialized__": true,
-        "lazyPropertiesDefaults": [],
         "dignity": "L'insolente stratège",
+        "deity": "ozz",
         "description": "C'est une femme à la peau noire comme du charbon et au regard teinté d'une lueure mauve. Rien ne l'intéresse que d'élaborer des plans compliqués parfois prévus sur des décénies dans le seul but de démontrer son écrasante supériorité intellectuelle.",
         "id": 6,
         "slug": "marlite",

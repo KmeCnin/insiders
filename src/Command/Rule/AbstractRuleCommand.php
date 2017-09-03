@@ -4,8 +4,6 @@ namespace App\Command\Rule;
 
 use App\Service\Transporter\RuleTransporter;
 use App\Service\Transporter\TransporterInterface;
-use Doctrine\ORM\Mapping\DefaultNamingStrategy;
-use Doctrine\ORM\Mapping\NamingStrategy;
 use Doctrine\ORM\Mapping\UnderscoreNamingStrategy;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;
@@ -69,8 +67,12 @@ abstract class AbstractRuleCommand extends ContainerAwareCommand
         return $this->getContainer()->get('kernel')->getRootDir().$path;
     }
 
-    protected function fileIsHandled(\SplFileInfo $file): bool
+    protected function fileIsHandled(\DirectoryIterator $file): bool
     {
+        if ($file->isDot()) {
+            return false;
+        }
+
         if (null === $this->entity) {
             return true;
         }

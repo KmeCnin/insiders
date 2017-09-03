@@ -5,9 +5,8 @@ namespace App\Service\Serializer\Normalizer;
 use App\Entity\EntityInterface;
 use App\Entity\Rule\Increase;
 use App\Entity\Rule\RuleInterface;
-use Doctrine\DBAL\Types\Type;
 use Doctrine\ORM\EntityManagerInterface;
-use Doctrine\ORM\Mapping\ClassMetadata;
+use Symfony\Component\PropertyAccess\PropertyAccess;
 
 class RuleNormalizer implements NormalizerInterface
 {
@@ -33,18 +32,9 @@ class RuleNormalizer implements NormalizerInterface
 
     public function denormalize(array $array, $namespace = null)
     {
-        $meta = $this->em->getClassMetadata($namespace);
-
         $denormalized = [];
         foreach ($array as $key => $entry) {
-            foreach ($entry as $property => $value) {
-                $field = $this->doctrinePropertyToSqlField($property, $meta);
-                $denormalized[$key][$field] = $this->castToDenormalized(
-                    $value,
-                    $property,
-                    $meta
-                );
-            }
+            $denormalized[] = $this->castToDenormalized($namespace, $entry);
         }
 
         return $denormalized;
@@ -71,31 +61,6 @@ class RuleNormalizer implements NormalizerInterface
         return $properties;
     }
 
-    private function sqlFieldToDoctrineProperty(string $field, ClassMetadata $meta): string
-    {
-        if ($meta->hasField($field)) {
-            return $field;
-        }
-
-        $property = preg_replace('/_id$/', '', $field);
-        if ($meta->getAssociationMapping($property)) {
-            return $property;
-        }
-
-        throw new \Exception(sprintf(
-            'Property %s does not exists in class %s',
-            $field,
-            $meta->getName()
-        ));
-    }
-
-    private function doctrinePropertyToSqlField(string $property, ClassMetadata $meta): string
-    {
-        return $meta->hasField($property)
-            ? $property
-            : $property.'_id';
-    }
-
     private function castToNormalized(\ReflectionProperty $property, EntityInterface $entity)
     {
         $property->setAccessible(true);
@@ -120,33 +85,39 @@ class RuleNormalizer implements NormalizerInterface
         ));
     }
 
-    private function castToDenormalized($value, string $property, ClassMetadata $meta): ?string
+    private function castToDenormalized(string $namespace, array $entry): EntityInterface
     {
-        if (null === $value) {
-            return self::NULL;
-        }
+        $accessor = PropertyAccess::createPropertyAccessor();
+        $meta = $this->em->getClassMetadata($namespace);
+        $entity = new $namespace();
 
-        if ($meta->hasField($property)) {
-            switch ($meta->getTypeOfField($property)) {
-                case Type::BOOLEAN:
-                    return $value ? '1' : '0';
-                default:
-                    return (string) '"'.str_replace('"', '\"', $value).'"';
+        foreach ($entry as $property => $value) {
+            if ($meta->hasField($property)) {
+                $accessor->setValue($entity, $property, $value);
+            } elseif ($meta->hasAssociation($property) &&
+                $assoc = $meta->getAssociationMapping($property)
+            ) {
+                $subNamespace = $assoc['targetEntity'];
+                if (is_iterable($value)) {
+                    $collection = [];
+                    foreach ($value as $subEntry) {
+                        $collection[] = $this->castToDenormalized(
+                            $subNamespace,
+                            $subEntry
+                        );
+                    }
+                    $accessor->setValue($entity, $property, $collection);
+                } else {
+                    $accessor->setValue(
+                        $entity,
+                        $property,
+                        $this->em->getRepository($subNamespace)
+                            ->findOneBy(['slug' => $value])
+                    );
+                }
             }
         }
 
-        if ($assoc = $meta->getAssociationMapping($property)) {
-            /** @var RuleInterface $entity */
-            $entity = $this->em->getRepository($assoc['targetEntity'])
-                ->findOneBy(['slug' => $value]);
-            return $entity ? $entity->getId() : self::NULL;
-        }
-
-        throw new \Exception(sprintf(
-            'No type found for property %s with value %s in class %s',
-            $property,
-            $value,
-            $meta->getName()
-        ));
+        return $entity;
     }
 }

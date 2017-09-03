@@ -36,7 +36,7 @@ class Ability extends AbstractRule
     /**
      * @var Increase[]|Collection
      *
-     * @ORM\OneToMany(targetEntity="Increase", mappedBy="ability", cascade={"all"})
+     * @ORM\OneToMany(targetEntity="Increase", mappedBy="ability", cascade={"all"}, orphanRemoval=true)
      */
     protected $increases;
 

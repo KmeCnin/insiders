@@ -36,7 +36,7 @@ class RuleExportCommand extends AbstractRuleCommand
         // Remove old backup.
         $fs = new Filesystem();
         foreach (new \DirectoryIterator($publicPath) as $file) {
-            if (!$file->isDot() && $this->fileIsHandled($file)) {
+            if ($this->fileIsHandled($file)) {
                 $fs->copy(
                     $file->getPathname(),
                     $backupPath.'/'.$file->getBasename(),
@@ -60,7 +60,7 @@ class RuleExportCommand extends AbstractRuleCommand
 
         $fs = new Filesystem();
         foreach (new \DirectoryIterator($backupPath) as $file) {
-            if (!$file->isDot() && $this->fileIsHandled($file)) {
+            if ($this->fileIsHandled($file)) {
                 $fs->copy(
                     $file->getPathname(),
                     $publicPath.'/'.$file->getBasename(),

@@ -493,5 +493,15 @@
         "slug": "presumption-of-innocence",
         "name": "Présomption d'innocence",
         "deleted": false
+    },
+    {
+        "arcane": "coercive",
+        "short": "Foo",
+        "description": "",
+        "increases": [],
+        "id": 50,
+        "slug": "foo",
+        "name": "Foo",
+        "deleted": false
     }
 ]

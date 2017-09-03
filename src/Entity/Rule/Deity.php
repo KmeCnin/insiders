@@ -67,7 +67,7 @@ class Deity extends AbstractRule
         return $this->champion;
     }
 
-    public function setChampion(Champion $champion): self
+    public function setChampion(?Champion $champion): self
     {
         $this->champion = $champion;
 

@@ -45,7 +45,7 @@ easy_admin:
         Champion:
             class: App\Entity\Rule\Champion
             list:
-                fields: ['id', 'name', 'dignity', 'deleted']
+                fields: ['id', 'name', 'dignity', 'deity', 'deleted']
                 sort: ['id', 'ASC']
         Characteristic:
             class: App\Entity\Rule\Characteristic
