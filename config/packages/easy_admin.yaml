@@ -1,8 +1,64 @@
 easy_admin:
+    list:
+        max_results: 50
+    site_name: Insiders
+    design:
+        form_theme: 'vertical'
+        menu:
+            - { label: 'General' }
+            - User
+            - { label: 'Rules' }
+            - Arcane
+            - Ability
+            - Champion
+            - Characteristic
+            - Deity
     entities:
-        # RuleInterface
-        - App\Entity\Rule\Arcane
-        - App\Entity\Rule\Characteristic
-        - App\Entity\Rule\Ability
-        - App\Entity\Rule\Deity
-        - App\Entity\Rule\Champion
+        # General
+        User:
+            class: App\Entity\User
+        # Rules
+        Arcane:
+            class: App\Entity\Rule\Arcane
+            list:
+                fields: ['id', 'name', 'deleted']
+                sort: ['id', 'ASC']
+        Ability:
+            class: App\Entity\Rule\Ability
+            list:
+                fields: ['id', 'name', 'arcane', 'short', 'deleted']
+                sort: ['id', 'ASC']
+            form:
+                fields:
+                    - name
+                    - arcane
+                    - short
+                    - deleted
+                    - description
+                    -
+                        property: increases
+                        type: collection
+                        type_options:
+                            entry_type: App\Form\Type\IncreaseType
+                            by_reference: false
+
+        Champion:
+            class: App\Entity\Rule\Champion
+            list:
+                fields: ['id', 'name', 'dignity', 'deleted']
+                sort: ['id', 'ASC']
+        Characteristic:
+            class: App\Entity\Rule\Characteristic
+            list:
+                fields: ['id', 'name', 'deleted']
+                sort: ['id', 'ASC']
+        Deity:
+            class: App\Entity\Rule\Deity
+            list:
+                fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'deleted']
+                sort: ['id', 'ASC']
+        Increase:
+            class: App\Entity\Rule\Increase
+            list:
+                fields: ['id', 'arcane', 'deleted']
+                sort: ['id', 'ASC']

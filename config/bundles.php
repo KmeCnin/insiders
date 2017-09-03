@@ -11,4 +11,6 @@ return [
     'Symfony\Bundle\WebServerBundle\WebServerBundle' => ['dev' => true],
     'Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle' => ['all' => true],
     'JMS\SerializerBundle\JMSSerializerBundle' => ['all' => true],
+    'Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle' => ['all' => true],
+    'FOS\UserBundle\FOSUserBundle' => ['all' => true],
 ];

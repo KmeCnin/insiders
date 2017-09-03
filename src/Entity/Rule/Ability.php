@@ -2,6 +2,8 @@
 
 namespace App\Entity\Rule;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -20,9 +22,30 @@ class Ability extends AbstractRule
     /**
      * @var string
      *
+     * @ORM\Column(type="string")
+     */
+    protected $short;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(type="text")
      */
     protected $description;
+
+    /**
+     * @var Increase[]|Collection
+     *
+     * @ORM\OneToMany(targetEntity="Increase", mappedBy="ability", cascade={"all"})
+     */
+    protected $increases;
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->increases = new ArrayCollection([]);
+    }
 
     public function getArcane(): ?Arcane
     {
@@ -36,6 +59,18 @@ class Ability extends AbstractRule
         return $this;
     }
 
+    public function getShort(): ?string
+    {
+        return $this->short;
+    }
+
+    public function setShort(string $short): self
+    {
+        $this->short = $short;
+
+        return $this;
+    }
+
     public function getDescription(): ?string
     {
         return $this->description;
@@ -44,6 +79,38 @@ class Ability extends AbstractRule
     public function setDescription(string $description): self
     {
         $this->description = $description;
+
+        return $this;
+    }
+
+    public function getIncreases(): iterable
+    {
+        return $this->increases;
+    }
+
+    public function setIncreases(iterable $increases): self
+    {
+        $this->increases->clear();
+        foreach ($increases as $increase) {
+            $this->addIncrease($increase);
+        }
+
+        return $this;
+    }
+
+    public function addIncrease(Increase $increase): self
+    {
+        if (!$this->increases->contains($increase)) {
+            $increase->setAbility($this);
+            $this->increases->add($increase);
+        }
+
+        return $this;
+    }
+
+    public function removeIncrease(Increase $increase): self
+    {
+        $this->increases->removeElement($increase);
 
         return $this;
     }

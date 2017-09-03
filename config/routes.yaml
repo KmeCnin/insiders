@@ -1,9 +1,6 @@
-#index:
-#    path: /
-#    defaults: { _controller: 'App\Controller\DefaultController::index' }
+admin:
+    resource: ../src/Controller/
+    type: annotation
 
-# Depends on sensio/framework-extra-bundle, doctrine/annotations, and doctrine/cache
-#   install with composer req sensio/framework-extra-bundle annot
-#controllers:
-#    resource: ../src/Controller/
-#    type: annotation
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

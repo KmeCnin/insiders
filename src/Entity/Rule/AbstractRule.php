@@ -78,7 +78,7 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
         return $this;
     }
 
-    public function isDeleted(): ?bool
+    public function isDeleted(): bool
     {
         return $this->deleted;
     }

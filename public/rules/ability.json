@@ -1,10 +1,443 @@
 [
     {
         "id": 1,
-        "name": "Combustion",
         "arcane": "elements",
+        "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de créer un feu à partir de matériaux inflammables, cuire de la nourriture, résister aux températures extrêmement froides, etc.\r\nIl n'est cependant pas immunisé aux brûlures et doit veiller à ne pas se blesser lui-même.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I.",
         "slug": "combustion",
+        "name": "Combustion",
         "deleted": false,
-        "description": ""
+        "short": "Peut initier des réactions de combustion"
+    },
+    {
+        "id": 2,
+        "arcane": "elements",
+        "description": "",
+        "slug": "electrocution",
+        "name": "Courant électrique",
+        "deleted": false,
+        "short": "Peut créer des courants électriques au contact"
+    },
+    {
+        "id": 3,
+        "arcane": "elements",
+        "description": "",
+        "slug": "sound",
+        "name": "Onde sonore",
+        "deleted": false,
+        "short": "Peut projeter des ondes sonores puissantes"
+    },
+    {
+        "id": 4,
+        "arcane": "elements",
+        "description": "",
+        "slug": "lightning",
+        "name": "Foudre",
+        "deleted": false,
+        "short": "Peut invoquer des orages"
+    },
+    {
+        "id": 5,
+        "arcane": "elements",
+        "description": "",
+        "slug": "electromagnetism",
+        "name": "Électromagnétisme",
+        "deleted": false,
+        "short": "Maîtrise les champs magnétiques"
+    },
+    {
+        "id": 6,
+        "arcane": "elements",
+        "description": "",
+        "slug": "tectonic",
+        "name": "Tectonique",
+        "deleted": false,
+        "short": "Peut créer des tremblements de terre"
+    },
+    {
+        "id": 7,
+        "arcane": "elements",
+        "description": "",
+        "slug": "thermodynamics",
+        "name": "Thermodynamique",
+        "deleted": false,
+        "short": "Peut faire rapidement varier la température"
+    },
+    {
+        "id": 8,
+        "arcane": "elements",
+        "description": "",
+        "slug": "mineral-fists",
+        "name": "Poings minéraux",
+        "deleted": false,
+        "short": "Possède des poings dont la solidité peut briser n'importe quel matériau"
+    },
+    {
+        "id": 9,
+        "arcane": "kinetic",
+        "description": "",
+        "slug": "psychokinesis",
+        "name": "Psychokinèse",
+        "deleted": false,
+        "short": "Peut déplacer les objets légers par la pensée"
+    },
+    {
+        "id": 10,
+        "arcane": "kinetic",
+        "description": "",
+        "slug": "forced-manipulation",
+        "name": "Manipulation forcée",
+        "deleted": false,
+        "short": "Peut contrôler les mouvements d'un personnage"
+    },
+    {
+        "id": 11,
+        "arcane": "kinetic",
+        "description": "",
+        "slug": "pull",
+        "name": "Attraction",
+        "deleted": false,
+        "short": "Peut attirer des objets à sois"
+    },
+    {
+        "id": 12,
+        "arcane": "kinetic",
+        "description": "",
+        "slug": "push",
+        "name": "Répulsion",
+        "deleted": false,
+        "short": "Génère un champ de force répulsif"
+    },
+    {
+        "id": 13,
+        "arcane": "kinetic",
+        "description": "",
+        "slug": "levitation",
+        "name": "Lévitation",
+        "deleted": false,
+        "short": "Se déplace dans les airs"
+    },
+    {
+        "id": 14,
+        "arcane": "life",
+        "description": "",
+        "slug": "vital-force",
+        "name": "Transfert de force vitale",
+        "deleted": false,
+        "short": "Peut insuffler son énergie vitale dans un être vivant"
+    },
+    {
+        "id": 15,
+        "arcane": "life",
+        "description": "",
+        "slug": "guardian",
+        "name": "Ange gardien",
+        "deleted": false,
+        "short": "Peut protéger ses alliés à distance"
+    },
+    {
+        "id": 16,
+        "arcane": "life",
+        "description": "",
+        "slug": "transform",
+        "name": "Changement de forme",
+        "deleted": false,
+        "short": "Peut alterner entre plusieurs formes physiques"
+    },
+    {
+        "id": 17,
+        "arcane": "life",
+        "description": "",
+        "slug": "force-field",
+        "name": "Champ de force",
+        "deleted": false,
+        "short": "Peut créer des murs de force"
+    },
+    {
+        "id": 18,
+        "arcane": "life",
+        "description": "",
+        "slug": "mineral-body",
+        "name": "Corps minéral",
+        "deleted": false,
+        "short": "Possède un corps extrêmement résistant aux coups et blessures"
+    },
+    {
+        "id": 19,
+        "arcane": "death",
+        "description": "",
+        "slug": "necrosis",
+        "name": "Nécrose",
+        "deleted": false,
+        "short": "Corrompt la vie au contact"
+    },
+    {
+        "id": 20,
+        "arcane": "death",
+        "description": "",
+        "slug": "vampirisme",
+        "name": "Vampirisme",
+        "deleted": false,
+        "short": "Aspire la vie au contact"
+    },
+    {
+        "id": 21,
+        "arcane": "death",
+        "description": "",
+        "slug": "blood-pact",
+        "name": "Pacte de sang",
+        "deleted": false,
+        "short": "Peut sacrifier son intégrité physique pour blesser à coup sûr"
+    },
+    {
+        "id": 22,
+        "arcane": "death",
+        "description": "",
+        "slug": "necromancy",
+        "name": "Nécromancie",
+        "deleted": false,
+        "short": "Peut redonner vie à des corps inanimés"
+    },
+    {
+        "id": 23,
+        "arcane": "death",
+        "description": "",
+        "slug": "morbid-aura",
+        "name": "Aura morbide",
+        "deleted": false,
+        "short": "Dégage une atmosphère malsaine"
+    },
+    {
+        "id": 24,
+        "arcane": "death",
+        "description": "",
+        "slug": "phylactery",
+        "name": "Phylactère",
+        "deleted": false,
+        "short": "Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel"
+    },
+    {
+        "id": 25,
+        "arcane": "death",
+        "description": "",
+        "slug": "life-perception",
+        "name": "Perception de la vie",
+        "deleted": false,
+        "short": "A conscience des formes de vies qui l'entourent"
+    },
+    {
+        "id": 26,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "vision",
+        "name": "Vision",
+        "deleted": false,
+        "short": "Peut voir le présent, le passé ou le futur d'une entité éloignée"
+    },
+    {
+        "id": 27,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "anticipation",
+        "name": "Anticipation",
+        "deleted": false,
+        "short": "Peut prévoir un événement imminent"
+    },
+    {
+        "id": 28,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "fast-forward",
+        "name": "Accélération du temps",
+        "deleted": false,
+        "short": "Peut accélérer l'écoulement du temps localement"
+    },
+    {
+        "id": 29,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "slow-motion",
+        "name": "Ralentissement du temps",
+        "deleted": false,
+        "short": "Peut ralentir l'écoulement du temps localement"
+    },
+    {
+        "id": 30,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "tracking",
+        "name": "Localisation",
+        "deleted": false,
+        "short": "Connaît l'emplacement de tout ce avec quoi il a été en contact"
+    },
+    {
+        "id": 31,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "teleport",
+        "name": "Téléportation",
+        "deleted": false,
+        "short": "Peut se rendre instantanément dans un lieu déjà visité"
+    },
+    {
+        "id": 32,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "velocity",
+        "name": "Vélocité",
+        "deleted": false,
+        "short": "Peut courber l’espace afin de se déplacer très rapidement"
+    },
+    {
+        "id": 33,
+        "arcane": "space-time",
+        "description": "",
+        "slug": "duplication",
+        "name": "Dédoublement",
+        "deleted": false,
+        "short": "Peut se dédoubler"
+    },
+    {
+        "id": 34,
+        "arcane": "intellect",
+        "description": "",
+        "slug": "telepathy",
+        "name": "Télépathie",
+        "deleted": false,
+        "short": "Peut communiquer avec un personnage à distance"
+    },
+    {
+        "id": 35,
+        "arcane": "intellect",
+        "description": "",
+        "slug": "pooling",
+        "name": "Partage d'expérience",
+        "deleted": false,
+        "short": "Chaque membre utilise la maîtrise du meilleur élément de l'équipe"
+    },
+    {
+        "id": 36,
+        "arcane": "intellect",
+        "description": "",
+        "slug": "confessions",
+        "name": "Confidence",
+        "deleted": false,
+        "short": "Peut forcer une cible à ne dire que la vérité"
+    },
+    {
+        "id": 37,
+        "arcane": "intellect",
+        "description": "",
+        "slug": "familiar",
+        "name": "Familier",
+        "deleted": false,
+        "short": "Contrôle un animal qui devient une extension de son esprit"
+    },
+    {
+        "id": 38,
+        "arcane": "intellect",
+        "description": "",
+        "slug": "invocation",
+        "name": "Invocation",
+        "deleted": false,
+        "short": "Peut donner vie physiquement à un souvenir d'une créature rencontrée"
+    },
+    {
+        "id": 39,
+        "arcane": "intellect",
+        "description": "",
+        "slug": "spells",
+        "name": "Sorts",
+        "deleted": false,
+        "short": "Peut utiliser plusieurs capacités arcaniques de manière limitée"
+    },
+    {
+        "id": 40,
+        "arcane": "ether",
+        "description": "",
+        "slug": "ghost-walk",
+        "name": "Marche fantomatique",
+        "deleted": false,
+        "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements"
+    },
+    {
+        "id": 41,
+        "arcane": "ether",
+        "description": "",
+        "slug": "invisibility",
+        "name": "Invisibilité",
+        "deleted": false,
+        "short": "Peut s’entourer d'une aura éthérée le rendant très difficilement repérable"
+    },
+    {
+        "id": 42,
+        "arcane": "ether",
+        "description": "",
+        "slug": "identity-theft",
+        "name": "Usurpation d'identité",
+        "deleted": false,
+        "short": "Peut modeler son apparence pour se faire passer pour quelqu’un d’autre"
+    },
+    {
+        "id": 43,
+        "arcane": "ether",
+        "description": "",
+        "slug": "misleading-appearance",
+        "name": "Apparence trompeuse",
+        "deleted": false,
+        "short": "Peut se faire passer pour n’importe quoi"
+    },
+    {
+        "id": 44,
+        "arcane": "ether",
+        "description": "",
+        "slug": "lure",
+        "name": "Leurres",
+        "deleted": false,
+        "short": "Peut créer des faux doubles de lui-même"
+    },
+    {
+        "id": 45,
+        "arcane": "ether",
+        "description": "",
+        "slug": "illusion",
+        "name": "Illusion",
+        "deleted": false,
+        "short": "Peut créer de faux objets"
+    },
+    {
+        "id": 46,
+        "arcane": "coercive",
+        "description": "",
+        "slug": "distraction",
+        "name": "Distraction",
+        "deleted": false,
+        "short": "Peut s’insinuer dans l’esprit de ses adversaires pour les perturber"
+    },
+    {
+        "id": 47,
+        "arcane": "coercive",
+        "description": "",
+        "slug": "betrayal",
+        "name": "Trahison",
+        "deleted": false,
+        "short": "Peut forcer un personnage à attaquer ses alliés"
+    },
+    {
+        "id": 48,
+        "arcane": "coercive",
+        "description": "",
+        "slug": "persuasion",
+        "name": "Persuasion",
+        "deleted": false,
+        "short": "Peut faire croire à des mensonges peu vraisemblables"
+    },
+    {
+        "id": 49,
+        "arcane": "coercive",
+        "description": "",
+        "slug": "presumption-of-innocence",
+        "name": "Présomption d'innocence",
+        "deleted": false,
+        "short": "Peut éviter toutes confrontations"
     }
 ]
