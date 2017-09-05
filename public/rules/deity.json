@@ -7,7 +7,7 @@
         "id": 1,
         "slug": "valerius",
         "name": "Valerius",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "L'Archange lumineuse",
@@ -17,7 +17,7 @@
         "id": 2,
         "slug": "solenia",
         "name": "Solenia",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "La Peste rampente",
@@ -27,7 +27,7 @@
         "id": 3,
         "slug": "choln",
         "name": "Choln",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "Le Dieu aux milles visages",
@@ -37,7 +37,7 @@
         "id": 4,
         "slug": "jira",
         "name": "Jira",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "L'usurpateur",
@@ -47,7 +47,7 @@
         "id": 5,
         "slug": "medev",
         "name": "Medev",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "L'aveugle omnisciente",
@@ -57,7 +57,7 @@
         "id": 6,
         "slug": "penelas",
         "name": "Penelas",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "L'essence du monde",
@@ -67,7 +67,7 @@
         "id": 7,
         "slug": "dalecarlica",
         "name": "Dalecarlica",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "Le jeune sage",
@@ -77,7 +77,7 @@
         "id": 8,
         "slug": "lovnir",
         "name": "Lovnir",
-        "deleted": false
+        "enabled": true
     },
     {
         "dignity": "Le grand marionnetiste",
@@ -87,6 +87,6 @@
         "id": 9,
         "slug": "ozz",
         "name": "Ozz",
-        "deleted": false
+        "enabled": true
     }
 ]

@@ -21,19 +21,19 @@ easy_admin:
         Arcane:
             class: App\Entity\Rule\Arcane
             list:
-                fields: ['id', 'name', 'deleted']
+                fields: ['id', 'name', 'enabled']
                 sort: ['id', 'ASC']
         Ability:
             class: App\Entity\Rule\Ability
             list:
-                fields: ['id', 'name', 'arcane', 'short', 'deleted']
+                fields: ['id', 'name', 'arcane', 'short', 'enabled']
                 sort: ['id', 'ASC']
             form:
                 fields:
                     - name
                     - arcane
                     - short
-                    - deleted
+                    - enabled
                     - description
                     -
                         property: increases
@@ -45,20 +45,20 @@ easy_admin:
         Champion:
             class: App\Entity\Rule\Champion
             list:
-                fields: ['id', 'name', 'dignity', 'deity', 'deleted']
+                fields: ['id', 'name', 'dignity', 'deity', 'enabled']
                 sort: ['id', 'ASC']
         Characteristic:
             class: App\Entity\Rule\Characteristic
             list:
-                fields: ['id', 'name', 'deleted']
+                fields: ['id', 'name', 'enabled']
                 sort: ['id', 'ASC']
         Deity:
             class: App\Entity\Rule\Deity
             list:
-                fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'deleted']
+                fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
                 sort: ['id', 'ASC']
         Increase:
             class: App\Entity\Rule\Increase
             list:
-                fields: ['id', 'arcane', 'deleted']
+                fields: ['id', 'arcane', 'enabled']
                 sort: ['id', 'ASC']
