@@ -9,7 +9,7 @@
         "id": 1,
         "slug": "baros",
         "name": "Baros",
-        "deleted": false
+        "enabled": false
     },
     {
         "__initializer__": null,
@@ -21,7 +21,7 @@
         "id": 2,
         "slug": "etanael",
         "name": "Etanael",
-        "deleted": false
+        "enabled": false
     },
     {
         "__initializer__": null,
@@ -33,7 +33,7 @@
         "id": 3,
         "slug": "malenius",
         "name": "Malenius",
-        "deleted": false
+        "enabled": false
     },
     {
         "__initializer__": null,
@@ -45,7 +45,7 @@
         "id": 4,
         "slug": "corlan",
         "name": "Corlan",
-        "deleted": false
+        "enabled": false
     },
     {
         "__initializer__": null,
@@ -57,7 +57,7 @@
         "id": 5,
         "slug": "jonnas",
         "name": "Jonnas",
-        "deleted": false
+        "enabled": false
     },
     {
         "__initializer__": null,
@@ -69,6 +69,6 @@
         "id": 6,
         "slug": "marlite",
         "name": "Marlite",
-        "deleted": false
+        "enabled": false
     }
 ]

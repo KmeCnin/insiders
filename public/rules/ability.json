@@ -12,7 +12,7 @@
         "id": 1,
         "slug": "combustion",
         "name": "Combustion",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "elements",
@@ -22,7 +22,7 @@
         "id": 2,
         "slug": "electrocution",
         "name": "Courant électrique",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "elements",
@@ -32,7 +32,7 @@
         "id": 3,
         "slug": "sound",
         "name": "Onde sonore",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "elements",
@@ -42,7 +42,7 @@
         "id": 4,
         "slug": "lightning",
         "name": "Foudre",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "elements",
@@ -52,7 +52,7 @@
         "id": 5,
         "slug": "electromagnetism",
         "name": "Électromagnétisme",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "elements",
@@ -62,7 +62,7 @@
         "id": 6,
         "slug": "tectonic",
         "name": "Tectonique",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "elements",
@@ -72,7 +72,7 @@
         "id": 7,
         "slug": "thermodynamics",
         "name": "Thermodynamique",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "elements",
@@ -82,7 +82,7 @@
         "id": 8,
         "slug": "mineral-fists",
         "name": "Poings minéraux",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "kinetic",
@@ -92,7 +92,7 @@
         "id": 9,
         "slug": "psychokinesis",
         "name": "Psychokinèse",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "kinetic",
@@ -102,7 +102,7 @@
         "id": 10,
         "slug": "forced-manipulation",
         "name": "Manipulation forcée",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "kinetic",
@@ -112,7 +112,7 @@
         "id": 11,
         "slug": "pull",
         "name": "Attraction",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "kinetic",
@@ -122,7 +122,7 @@
         "id": 12,
         "slug": "push",
         "name": "Répulsion",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "kinetic",
@@ -132,7 +132,7 @@
         "id": 13,
         "slug": "levitation",
         "name": "Lévitation",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "life",
@@ -142,7 +142,7 @@
         "id": 14,
         "slug": "vital-force",
         "name": "Transfert de force vitale",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "life",
@@ -152,7 +152,7 @@
         "id": 15,
         "slug": "guardian",
         "name": "Ange gardien",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "life",
@@ -162,7 +162,7 @@
         "id": 16,
         "slug": "transform",
         "name": "Changement de forme",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "life",
@@ -172,7 +172,7 @@
         "id": 17,
         "slug": "force-field",
         "name": "Champ de force",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "life",
@@ -182,7 +182,7 @@
         "id": 18,
         "slug": "mineral-body",
         "name": "Corps minéral",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "death",
@@ -192,7 +192,7 @@
         "id": 19,
         "slug": "necrosis",
         "name": "Nécrose",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "death",
@@ -202,7 +202,7 @@
         "id": 20,
         "slug": "vampirisme",
         "name": "Vampirisme",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "death",
@@ -212,7 +212,7 @@
         "id": 21,
         "slug": "blood-pact",
         "name": "Pacte de sang",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "death",
@@ -222,7 +222,7 @@
         "id": 22,
         "slug": "necromancy",
         "name": "Nécromancie",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "death",
@@ -232,7 +232,7 @@
         "id": 23,
         "slug": "morbid-aura",
         "name": "Aura morbide",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "death",
@@ -242,7 +242,7 @@
         "id": 24,
         "slug": "phylactery",
         "name": "Phylactère",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "death",
@@ -252,7 +252,7 @@
         "id": 25,
         "slug": "life-perception",
         "name": "Perception de la vie",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -262,7 +262,7 @@
         "id": 26,
         "slug": "vision",
         "name": "Vision",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -272,7 +272,7 @@
         "id": 27,
         "slug": "anticipation",
         "name": "Anticipation",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -282,7 +282,7 @@
         "id": 28,
         "slug": "fast-forward",
         "name": "Accélération du temps",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -292,7 +292,7 @@
         "id": 29,
         "slug": "slow-motion",
         "name": "Ralentissement du temps",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -302,7 +302,7 @@
         "id": 30,
         "slug": "tracking",
         "name": "Localisation",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -312,7 +312,7 @@
         "id": 31,
         "slug": "teleport",
         "name": "Téléportation",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -322,7 +322,7 @@
         "id": 32,
         "slug": "velocity",
         "name": "Vélocité",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "space-time",
@@ -332,7 +332,7 @@
         "id": 33,
         "slug": "duplication",
         "name": "Dédoublement",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "intellect",
@@ -342,7 +342,7 @@
         "id": 34,
         "slug": "telepathy",
         "name": "Télépathie",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "intellect",
@@ -352,7 +352,7 @@
         "id": 35,
         "slug": "pooling",
         "name": "Partage d'expérience",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "intellect",
@@ -362,7 +362,7 @@
         "id": 36,
         "slug": "confessions",
         "name": "Confidence",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "intellect",
@@ -372,7 +372,7 @@
         "id": 37,
         "slug": "familiar",
         "name": "Familier",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "intellect",
@@ -382,7 +382,7 @@
         "id": 38,
         "slug": "invocation",
         "name": "Invocation",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "intellect",
@@ -392,7 +392,7 @@
         "id": 39,
         "slug": "spells",
         "name": "Sorts",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "ether",
@@ -402,7 +402,7 @@
         "id": 40,
         "slug": "ghost-walk",
         "name": "Marche fantomatique",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "ether",
@@ -412,7 +412,7 @@
         "id": 41,
         "slug": "invisibility",
         "name": "Invisibilité",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "ether",
@@ -422,7 +422,7 @@
         "id": 42,
         "slug": "identity-theft",
         "name": "Usurpation d'identité",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "ether",
@@ -432,7 +432,7 @@
         "id": 43,
         "slug": "misleading-appearance",
         "name": "Apparence trompeuse",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "ether",
@@ -442,7 +442,7 @@
         "id": 44,
         "slug": "lure",
         "name": "Leurres",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "ether",
@@ -452,7 +452,7 @@
         "id": 45,
         "slug": "illusion",
         "name": "Illusion",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "coercive",
@@ -462,7 +462,7 @@
         "id": 46,
         "slug": "distraction",
         "name": "Distraction",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "coercive",
@@ -472,7 +472,7 @@
         "id": 47,
         "slug": "betrayal",
         "name": "Trahison",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "coercive",
@@ -482,7 +482,7 @@
         "id": 48,
         "slug": "persuasion",
         "name": "Persuasion",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "coercive",
@@ -492,7 +492,7 @@
         "id": 49,
         "slug": "presumption-of-innocence",
         "name": "Présomption d'innocence",
-        "deleted": false
+        "enabled": true
     },
     {
         "arcane": "coercive",
@@ -502,6 +502,6 @@
         "id": 50,
         "slug": "foo",
         "name": "Foo",
-        "deleted": false
+        "enabled": true
     }
 ]
