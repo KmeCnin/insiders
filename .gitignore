@@ -10,3 +10,4 @@
 ###< symfony/web-server-bundle ###
 
 .idea
+config/packages/dev/doctrine_local.yaml
