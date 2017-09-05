@@ -3,12 +3,7 @@
         "arcane": "elements",
         "short": "Peut initier des réactions de combustion",
         "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de créer un feu à partir de matériaux inflammables, cuire de la nourriture, résister aux températures extrêmement froides, etc.\r\nIl n'est cependant pas immunisé aux brûlures et doit veiller à ne pas se blesser lui-même.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I.",
-        "increases": [
-            {
-                "short": "Augmente d'un degré la blessure infligée",
-                "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de créer un feu à partir de matériaux inflammables, cuire de la nourriture, résister aux températures extrêmement froides, etc.\r\nIl n'est cependant pas immunisé aux brûlures et doit veiller à ne pas se blesser lui-même.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II."
-            }
-        ],
+        "increases": [],
         "id": 1,
         "slug": "combustion",
         "name": "Combustion",
