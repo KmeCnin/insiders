@@ -35,11 +35,11 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
      *
      * @ORM\Column(type="boolean", nullable=false)
      */
-    protected $deleted;
+    protected $enabled;
 
     public function __construct()
     {
-        $this->setDeleted(false);
+        $this->setEnabled(true);
     }
 
     public function getId(): ?int
@@ -78,14 +78,14 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
         return $this;
     }
 
-    public function isDeleted(): bool
+    public function isEnabled(): bool
     {
-        return $this->deleted;
+        return $this->enabled;
     }
 
-    public function setDeleted(bool $deleted): self
+    public function setEnabled(bool $enabled): self
     {
-        $this->deleted = $deleted;
+        $this->enabled = $enabled;
 
         return $this;
     }

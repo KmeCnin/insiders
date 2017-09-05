@@ -16,9 +16,9 @@ interface RuleInterface
 
     public function setName(string $name);
 
-    public function isDeleted(): bool;
+    public function isEnabled(): bool;
 
-    public function setDeleted(bool $deleted);
+    public function setEnabled(bool $enabled);
 
     public function __toString(): string;
 }
