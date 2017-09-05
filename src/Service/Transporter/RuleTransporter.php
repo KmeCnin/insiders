@@ -16,7 +16,6 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Id\AssignedGenerator;
 use Doctrine\ORM\Mapping\ClassMetadata;
-use Doctrine\ORM\PersistentCollection;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\PropertyAccess\PropertyAccess;
@@ -88,17 +87,7 @@ class RuleTransporter implements TransporterInterface
 
             /** @var RuleInterface $entity */
             foreach ($entities as $entity) {
-                if ($existing = $this->em->find(get_class($entity), $entity->getId())) {
-                    /** @var RuleInterface $existing */
-                    $this->removeSecondaryRules($existing);
-                    $this->em->merge($entity);
-                } else {
-                    $this->em->persist($entity);
-                    // Disable auto generated id.
-                    $meta = $this->em->getClassMetaData(get_class($entity));
-                    $meta->setIdGeneratorType(ClassMetadata::GENERATOR_TYPE_NONE);
-                    $meta->setIdGenerator(new AssignedGenerator());
-                }
+                $this->em->persist($entity);
             }
             $this->em->flush();
             $this->log("    <info>Done</info>.");

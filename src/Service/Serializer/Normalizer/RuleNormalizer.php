@@ -90,6 +90,9 @@ class RuleNormalizer implements NormalizerInterface
         $accessor = PropertyAccess::createPropertyAccessor();
         $meta = $this->em->getClassMetadata($namespace);
         $entity = new $namespace();
+        if (isset($entry['id'])) {
+            $entity = $this->em->find($namespace, $entry['id']) ?: new $namespace();
+        }
 
         foreach ($entry as $property => $value) {
             if ($meta->hasField($property)) {
