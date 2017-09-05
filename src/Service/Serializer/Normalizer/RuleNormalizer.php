@@ -85,13 +85,14 @@ class RuleNormalizer implements NormalizerInterface
         ));
     }
 
-    private function castToDenormalized(string $namespace, array $entry, RuleInterface $entity = null): EntityInterface
+    private function castToDenormalized(string $namespace, array $entry): EntityInterface
     {
         $accessor = PropertyAccess::createPropertyAccessor();
         $meta = $this->em->getClassMetadata($namespace);
-        $entity = isset($entry['id'])
-            ? $this->em->find($namespace, $entry['id']) ?: new $namespace()
-            : new $namespace();
+        $entity = new $namespace();
+        if (isset($entry['id'])) {
+            $entity = $this->em->find($namespace, $entry['id']) ?: new $namespace();
+        }
 
         foreach ($entry as $property => $value) {
             if ($meta->hasField($property)) {
