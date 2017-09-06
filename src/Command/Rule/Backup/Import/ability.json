@@ -1,5 +1,9 @@
 [
     {
+        "id": 1,
+        "slug": "combustion",
+        "name": "Combustion",
+        "enabled": true,
         "arcane": "elements",
         "short": "Peut initier des réactions de combustion",
         "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de créer un feu à partir de matériaux inflammables, cuire de la nourriture, résister aux températures extrêmement froides, etc.\r\nIl n'est cependant pas immunisé aux brûlures et doit veiller à ne pas se blesser lui-même.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I.",
@@ -8,500 +12,496 @@
                 "short": "Augmente d'un degré la blessure infligée",
                 "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de créer un feu à partir de matériaux inflammables, cuire de la nourriture, résister aux températures extrêmement froides, etc.\r\nIl n'est cependant pas immunisé aux brûlures et doit veiller à ne pas se blesser lui-même.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II."
             }
-        ],
-        "id": 1,
-        "slug": "combustion",
-        "name": "Combustion",
-        "enabled": false
+        ]
     },
     {
-        "arcane": "elements",
-        "short": "Peut créer des courants électriques au contact",
-        "description": "",
-        "increases": [],
         "id": 2,
         "slug": "electrocution",
         "name": "Courant électrique",
-        "enabled": false
+        "enabled": true,
+        "arcane": "elements",
+        "short": "Peut créer des courants électriques au contact",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "elements",
-        "short": "Peut projeter des ondes sonores puissantes",
-        "description": "",
-        "increases": [],
         "id": 3,
         "slug": "sound",
         "name": "Onde sonore",
-        "enabled": false
+        "enabled": true,
+        "arcane": "elements",
+        "short": "Peut projeter des ondes sonores puissantes",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "elements",
-        "short": "Peut invoquer des orages",
-        "description": "",
-        "increases": [],
         "id": 4,
         "slug": "lightning",
         "name": "Foudre",
-        "enabled": false
+        "enabled": true,
+        "arcane": "elements",
+        "short": "Peut invoquer des orages",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "elements",
-        "short": "Maîtrise les champs magnétiques",
-        "description": "",
-        "increases": [],
         "id": 5,
         "slug": "electromagnetism",
         "name": "Électromagnétisme",
-        "enabled": false
+        "enabled": true,
+        "arcane": "elements",
+        "short": "Maîtrise les champs magnétiques",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "elements",
-        "short": "Peut créer des tremblements de terre",
-        "description": "",
-        "increases": [],
         "id": 6,
         "slug": "tectonic",
         "name": "Tectonique",
-        "enabled": false
+        "enabled": true,
+        "arcane": "elements",
+        "short": "Peut créer des tremblements de terre",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "elements",
-        "short": "Peut faire rapidement varier la température",
-        "description": "",
-        "increases": [],
         "id": 7,
         "slug": "thermodynamics",
         "name": "Thermodynamique",
-        "enabled": false
+        "enabled": true,
+        "arcane": "elements",
+        "short": "Peut faire rapidement varier la température",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "elements",
-        "short": "Possède des poings dont la solidité peut briser n'importe quel matériau",
-        "description": "",
-        "increases": [],
         "id": 8,
         "slug": "mineral-fists",
         "name": "Poings minéraux",
-        "enabled": false
+        "enabled": true,
+        "arcane": "elements",
+        "short": "Possède des poings dont la solidité peut briser n'importe quel matériau",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "kinetic",
-        "short": "Peut déplacer les objets légers par la pensée",
-        "description": "",
-        "increases": [],
         "id": 9,
         "slug": "psychokinesis",
         "name": "Psychokinèse",
-        "enabled": false
+        "enabled": true,
+        "arcane": "kinetic",
+        "short": "Peut déplacer les objets légers par la pensée",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "kinetic",
-        "short": "Peut contrôler les mouvements d'un personnage",
-        "description": "",
-        "increases": [],
         "id": 10,
         "slug": "forced-manipulation",
         "name": "Manipulation forcée",
-        "enabled": false
+        "enabled": true,
+        "arcane": "kinetic",
+        "short": "Peut contrôler les mouvements d'un personnage",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "kinetic",
-        "short": "Peut attirer des objets à sois",
-        "description": "",
-        "increases": [],
         "id": 11,
         "slug": "pull",
         "name": "Attraction",
-        "enabled": false
+        "enabled": true,
+        "arcane": "kinetic",
+        "short": "Peut attirer des objets à sois",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "kinetic",
-        "short": "Génère un champ de force répulsif",
-        "description": "",
-        "increases": [],
         "id": 12,
         "slug": "push",
         "name": "Répulsion",
-        "enabled": false
+        "enabled": true,
+        "arcane": "kinetic",
+        "short": "Génère un champ de force répulsif",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "kinetic",
-        "short": "Se déplace dans les airs",
-        "description": "",
-        "increases": [],
         "id": 13,
         "slug": "levitation",
         "name": "Lévitation",
-        "enabled": false
+        "enabled": true,
+        "arcane": "kinetic",
+        "short": "Se déplace dans les airs",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "life",
-        "short": "Peut insuffler son énergie vitale dans un être vivant",
-        "description": "",
-        "increases": [],
         "id": 14,
         "slug": "vital-force",
         "name": "Transfert de force vitale",
-        "enabled": false
+        "enabled": true,
+        "arcane": "life",
+        "short": "Peut insuffler son énergie vitale dans un être vivant",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "life",
-        "short": "Peut protéger ses alliés à distance",
-        "description": "",
-        "increases": [],
         "id": 15,
         "slug": "guardian",
         "name": "Ange gardien",
-        "enabled": false
+        "enabled": true,
+        "arcane": "life",
+        "short": "Peut protéger ses alliés à distance",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "life",
-        "short": "Peut alterner entre plusieurs formes physiques",
-        "description": "",
-        "increases": [],
         "id": 16,
         "slug": "transform",
         "name": "Changement de forme",
-        "enabled": false
+        "enabled": true,
+        "arcane": "life",
+        "short": "Peut alterner entre plusieurs formes physiques",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "life",
-        "short": "Peut créer des murs de force",
-        "description": "",
-        "increases": [],
         "id": 17,
         "slug": "force-field",
         "name": "Champ de force",
-        "enabled": false
+        "enabled": true,
+        "arcane": "life",
+        "short": "Peut créer des murs de force",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "life",
-        "short": "Possède un corps extrêmement résistant aux coups et blessures",
-        "description": "",
-        "increases": [],
         "id": 18,
         "slug": "mineral-body",
         "name": "Corps minéral",
-        "enabled": false
+        "enabled": true,
+        "arcane": "life",
+        "short": "Possède un corps extrêmement résistant aux coups et blessures",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "death",
-        "short": "Corrompt la vie au contact",
-        "description": "",
-        "increases": [],
         "id": 19,
         "slug": "necrosis",
         "name": "Nécrose",
-        "enabled": false
+        "enabled": true,
+        "arcane": "death",
+        "short": "Corrompt la vie au contact",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "death",
-        "short": "Aspire la vie au contact",
-        "description": "",
-        "increases": [],
         "id": 20,
         "slug": "vampirisme",
         "name": "Vampirisme",
-        "enabled": false
+        "enabled": true,
+        "arcane": "death",
+        "short": "Aspire la vie au contact",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "death",
-        "short": "Peut sacrifier son intégrité physique pour blesser à coup sûr",
-        "description": "",
-        "increases": [],
         "id": 21,
         "slug": "blood-pact",
         "name": "Pacte de sang",
-        "enabled": false
+        "enabled": true,
+        "arcane": "death",
+        "short": "Peut sacrifier son intégrité physique pour blesser à coup sûr",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "death",
-        "short": "Peut redonner vie à des corps inanimés",
-        "description": "",
-        "increases": [],
         "id": 22,
         "slug": "necromancy",
         "name": "Nécromancie",
-        "enabled": false
+        "enabled": true,
+        "arcane": "death",
+        "short": "Peut redonner vie à des corps inanimés",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "death",
-        "short": "Dégage une atmosphère malsaine",
-        "description": "",
-        "increases": [],
         "id": 23,
         "slug": "morbid-aura",
         "name": "Aura morbide",
-        "enabled": false
+        "enabled": true,
+        "arcane": "death",
+        "short": "Dégage une atmosphère malsaine",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "death",
-        "short": "Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel",
-        "description": "",
-        "increases": [],
         "id": 24,
         "slug": "phylactery",
         "name": "Phylactère",
-        "enabled": false
+        "enabled": true,
+        "arcane": "death",
+        "short": "Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "death",
-        "short": "A conscience des formes de vies qui l'entourent",
-        "description": "",
-        "increases": [],
         "id": 25,
         "slug": "life-perception",
         "name": "Perception de la vie",
-        "enabled": false
+        "enabled": true,
+        "arcane": "death",
+        "short": "A conscience des formes de vies qui l'entourent",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Peut voir le présent, le passé ou le futur d'une entité éloignée",
-        "description": "",
-        "increases": [],
         "id": 26,
         "slug": "vision",
         "name": "Vision",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Peut voir le présent, le passé ou le futur d'une entité éloignée",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Peut prévoir un événement imminent",
-        "description": "",
-        "increases": [],
         "id": 27,
         "slug": "anticipation",
         "name": "Anticipation",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Peut prévoir un événement imminent",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Peut accélérer l'écoulement du temps localement",
-        "description": "",
-        "increases": [],
         "id": 28,
         "slug": "fast-forward",
         "name": "Accélération du temps",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Peut accélérer l'écoulement du temps localement",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Peut ralentir l'écoulement du temps localement",
-        "description": "",
-        "increases": [],
         "id": 29,
         "slug": "slow-motion",
         "name": "Ralentissement du temps",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Peut ralentir l'écoulement du temps localement",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Connaît l'emplacement de tout ce avec quoi il a été en contact",
-        "description": "",
-        "increases": [],
         "id": 30,
         "slug": "tracking",
         "name": "Localisation",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Connaît l'emplacement de tout ce avec quoi il a été en contact",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Peut se rendre instantanément dans un lieu déjà visité",
-        "description": "",
-        "increases": [],
         "id": 31,
         "slug": "teleport",
         "name": "Téléportation",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Peut se rendre instantanément dans un lieu déjà visité",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Peut courber l’espace afin de se déplacer très rapidement",
-        "description": "",
-        "increases": [],
         "id": 32,
         "slug": "velocity",
         "name": "Vélocité",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Peut courber l’espace afin de se déplacer très rapidement",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "space-time",
-        "short": "Peut se dédoubler",
-        "description": "",
-        "increases": [],
         "id": 33,
         "slug": "duplication",
         "name": "Dédoublement",
-        "enabled": false
+        "enabled": true,
+        "arcane": "space-time",
+        "short": "Peut se dédoubler",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "intellect",
-        "short": "Peut communiquer avec un personnage à distance",
-        "description": "",
-        "increases": [],
         "id": 34,
         "slug": "telepathy",
         "name": "Télépathie",
-        "enabled": false
+        "enabled": true,
+        "arcane": "intellect",
+        "short": "Peut communiquer avec un personnage à distance",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "intellect",
-        "short": "Chaque membre utilise la maîtrise du meilleur élément de l'équipe",
-        "description": "",
-        "increases": [],
         "id": 35,
         "slug": "pooling",
         "name": "Partage d'expérience",
-        "enabled": false
+        "enabled": true,
+        "arcane": "intellect",
+        "short": "Chaque membre utilise la maîtrise du meilleur élément de l'équipe",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "intellect",
-        "short": "Peut forcer une cible à ne dire que la vérité",
-        "description": "",
-        "increases": [],
         "id": 36,
         "slug": "confessions",
         "name": "Confidence",
-        "enabled": false
+        "enabled": true,
+        "arcane": "intellect",
+        "short": "Peut forcer une cible à ne dire que la vérité",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "intellect",
-        "short": "Contrôle un animal qui devient une extension de son esprit",
-        "description": "",
-        "increases": [],
         "id": 37,
         "slug": "familiar",
         "name": "Familier",
-        "enabled": false
+        "enabled": true,
+        "arcane": "intellect",
+        "short": "Contrôle un animal qui devient une extension de son esprit",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "intellect",
-        "short": "Peut donner vie physiquement à un souvenir d'une créature rencontrée",
-        "description": "",
-        "increases": [],
         "id": 38,
         "slug": "invocation",
         "name": "Invocation",
-        "enabled": false
+        "enabled": true,
+        "arcane": "intellect",
+        "short": "Peut donner vie physiquement à un souvenir d'une créature rencontrée",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "intellect",
-        "short": "Peut utiliser plusieurs capacités arcaniques de manière limitée",
-        "description": "",
-        "increases": [],
         "id": 39,
         "slug": "spells",
         "name": "Sorts",
-        "enabled": false
+        "enabled": true,
+        "arcane": "intellect",
+        "short": "Peut utiliser plusieurs capacités arcaniques de manière limitée",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "ether",
-        "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
-        "description": "",
-        "increases": [],
         "id": 40,
         "slug": "ghost-walk",
         "name": "Marche fantomatique",
-        "enabled": false
+        "enabled": true,
+        "arcane": "ether",
+        "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "ether",
-        "short": "Peut s’entourer d'une aura éthérée le rendant très difficilement repérable",
-        "description": "",
-        "increases": [],
         "id": 41,
         "slug": "invisibility",
         "name": "Invisibilité",
-        "enabled": false
+        "enabled": true,
+        "arcane": "ether",
+        "short": "Peut s’entourer d'une aura éthérée le rendant très difficilement repérable",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "ether",
-        "short": "Peut modeler son apparence pour se faire passer pour quelqu’un d’autre",
-        "description": "",
-        "increases": [],
         "id": 42,
         "slug": "identity-theft",
         "name": "Usurpation d'identité",
-        "enabled": false
+        "enabled": true,
+        "arcane": "ether",
+        "short": "Peut modeler son apparence pour se faire passer pour quelqu’un d’autre",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "ether",
-        "short": "Peut se faire passer pour n’importe quoi",
-        "description": "",
-        "increases": [],
         "id": 43,
         "slug": "misleading-appearance",
         "name": "Apparence trompeuse",
-        "enabled": false
+        "enabled": true,
+        "arcane": "ether",
+        "short": "Peut se faire passer pour n’importe quoi",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "ether",
-        "short": "Peut créer des faux doubles de lui-même",
-        "description": "",
-        "increases": [],
         "id": 44,
         "slug": "lure",
         "name": "Leurres",
-        "enabled": false
+        "enabled": true,
+        "arcane": "ether",
+        "short": "Peut créer des faux doubles de lui-même",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "ether",
-        "short": "Peut créer de faux objets",
-        "description": "",
-        "increases": [],
         "id": 45,
         "slug": "illusion",
         "name": "Illusion",
-        "enabled": false
+        "enabled": true,
+        "arcane": "ether",
+        "short": "Peut créer de faux objets",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "coercive",
-        "short": "Peut s’insinuer dans l’esprit de ses adversaires pour les perturber",
-        "description": "",
-        "increases": [],
         "id": 46,
         "slug": "distraction",
         "name": "Distraction",
-        "enabled": false
+        "enabled": true,
+        "arcane": "coercive",
+        "short": "Peut s’insinuer dans l’esprit de ses adversaires pour les perturber",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "coercive",
-        "short": "Peut forcer un personnage à attaquer ses alliés",
-        "description": "",
-        "increases": [],
         "id": 47,
         "slug": "betrayal",
         "name": "Trahison",
-        "enabled": false
+        "enabled": true,
+        "arcane": "coercive",
+        "short": "Peut forcer un personnage à attaquer ses alliés",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "coercive",
-        "short": "Peut faire croire à des mensonges peu vraisemblables",
-        "description": "",
-        "increases": [],
         "id": 48,
         "slug": "persuasion",
         "name": "Persuasion",
-        "enabled": false
+        "enabled": true,
+        "arcane": "coercive",
+        "short": "Peut faire croire à des mensonges peu vraisemblables",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "coercive",
-        "short": "Peut éviter toutes confrontations",
-        "description": "",
-        "increases": [],
         "id": 49,
         "slug": "presumption-of-innocence",
         "name": "Présomption d'innocence",
-        "enabled": false
+        "enabled": true,
+        "arcane": "coercive",
+        "short": "Peut éviter toutes confrontations",
+        "description": "",
+        "increases": []
     },
     {
-        "arcane": "coercive",
-        "short": "Foo",
-        "description": "",
-        "increases": [],
         "id": 50,
         "slug": "foo",
         "name": "Foo",
-        "enabled": false
+        "enabled": true,
+        "arcane": "coercive",
+        "short": "Foo",
+        "description": "",
+        "increases": []
     }
 ]
