@@ -12,7 +12,7 @@ services:
         autoconfigure: true
         # this means you cannot fetch services directly from the container via $container->get()
         # if you need to do this, you can override this setting on individual services
-        public: false
+        public: true
 
     # makes classes in src/ available to be used as services
     # this creates a service per class whose id is the fully-qualified class name
@@ -26,10 +26,14 @@ services:
     # and have a tag that allows actions to type-hint services
     App\Controller\:
         resource: '../src/Controller'
-        public: true
         tags: ['controller.service_arguments']
 
-    App\Service\Transporter\:
-        resource: '../src/Service/Transporter/*'
+    # FormTypes
+    App\Form\Type\:
+        resource: '../src/Form/Type'
         autowire: true
-        public: true
+
+    App\Service\Transporter\RuleTransporter:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@form.factory'

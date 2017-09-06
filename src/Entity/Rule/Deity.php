@@ -85,4 +85,16 @@ class Deity extends AbstractRule
 
         return $this;
     }
+
+    public function normalize(): array
+    {
+        return array_merge(parent::normalize(), [
+            'dignity' => $this->getDignity(),
+            'arcane' => $this->getArcane()->getSlug(),
+            'champion' => $this->getChampion()
+                ? $this->getChampion()->getSlug()
+                : null,
+            'description' => $this->getDescription(),
+        ]);
+    }
 }

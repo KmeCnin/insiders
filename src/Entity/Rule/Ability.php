@@ -45,6 +45,8 @@ class Ability extends AbstractRule
         parent::__construct();
 
         $this->increases = new ArrayCollection([]);
+        $this->setShort('');
+        $this->setDescription('');
     }
 
     public function getArcane(): ?Arcane
@@ -83,7 +85,7 @@ class Ability extends AbstractRule
         return $this;
     }
 
-    public function getIncreases(): iterable
+    public function getIncreases(): \Traversable
     {
         return $this->increases;
     }
@@ -113,5 +115,17 @@ class Ability extends AbstractRule
         $this->increases->removeElement($increase);
 
         return $this;
+    }
+
+    public function normalize(): array
+    {
+        return array_merge(parent::normalize(), [
+            'arcane' => $this->getArcane()->getSlug(),
+            'short' => $this->getShort(),
+            'description' => $this->getDescription(),
+            'increases' => array_map(function (Increase $increase) {
+                return $increase->normalize();
+            }, iterator_to_array($this->getIncreases())),
+        ]);
     }
 }

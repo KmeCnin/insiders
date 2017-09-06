@@ -39,7 +39,7 @@ easy_admin:
                         property: increases
                         type: collection
                         type_options:
-                            entry_type: App\Form\Type\IncreaseType
+                            entry_type: App\Form\Type\Rule\IncreaseType
                             by_reference: false
 
         Champion:

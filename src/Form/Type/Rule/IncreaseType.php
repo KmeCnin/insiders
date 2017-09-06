@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Form\Type;
+namespace App\Form\Type\Rule;
 
 use App\Entity\Rule\Increase;
 use Symfony\Component\Form\AbstractType;
@@ -13,16 +13,20 @@ class IncreaseType extends AbstractType
 {
     public function configureOptions(OptionsResolver $resolver)
     {
-        $resolver->setDefaults([
+        $resolver->setDefaults(array(
             'data_class' => Increase::class,
-        ]);
+        ));
     }
 
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('short', TextType::class)
-            ->add('description', TextareaType::class)
+            ->add('short', TextType::class, [
+                'empty_data' => '',
+            ])
+            ->add('description', TextareaType::class, [
+                'empty_data' => '',
+            ])
         ;
     }
 }
