@@ -3,24 +3,24 @@
         "id": 1,
         "slug": "force",
         "name": "Imposer",
-        "deleted": false
+        "enabled": true
     },
     {
         "id": 2,
         "slug": "resist",
         "name": "Résister",
-        "deleted": false
+        "enabled": true
     },
     {
         "id": 3,
         "slug": "reveal",
         "name": "Dévoiler",
-        "deleted": false
+        "enabled": true
     },
     {
         "id": 4,
         "slug": "hide",
         "name": "Dissimuler",
-        "deleted": false
+        "enabled": true
     }
 ]

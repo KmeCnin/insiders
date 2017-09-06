@@ -3,9 +3,10 @@
 namespace App\Entity\Rule;
 
 use App\Entity\AbstractEntity;
+use App\Entity\NormalizableInterface;
 use Doctrine\ORM\Mapping as ORM;
 
-abstract class AbstractRule extends AbstractEntity implements RuleInterface
+abstract class AbstractRule extends AbstractEntity implements RuleInterface, NormalizableInterface
 {
     /**
      * @var int
@@ -93,5 +94,15 @@ abstract class AbstractRule extends AbstractEntity implements RuleInterface
     public function __toString(): string
     {
         return $this->name;
+    }
+
+    public function normalize(): array
+    {
+        return [
+            'id' => $this->getId(),
+            'slug' => $this->getSlug(),
+            'name' => $this->getName(),
+            'enabled' => $this->isEnabled(),
+        ];
     }
 }

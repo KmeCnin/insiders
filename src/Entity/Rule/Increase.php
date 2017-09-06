@@ -31,6 +31,24 @@ class Increase extends AbstractSecondaryRule
      */
     protected $description;
 
+    public function __construct()
+    {
+        $this->setShort('');
+        $this->setDescription('');
+    }
+
+    public function getAbility(): ?Ability
+    {
+        return $this->ability;
+    }
+
+    public function setAbility(Ability $ability): self
+    {
+        $this->ability = $ability;
+
+        return $this;
+    }
+
     public function getShort(): ?string
     {
         return $this->short;
@@ -55,15 +73,11 @@ class Increase extends AbstractSecondaryRule
         return $this;
     }
 
-    public function getAbility(): ?Ability
+    public function normalize(): array
     {
-        return $this->ability;
-    }
-
-    public function setAbility(Ability $ability): self
-    {
-        $this->ability = $ability;
-
-        return $this;
+        return [
+            'short' => $this->getShort(),
+            'description' => $this->getDescription(),
+        ];
     }
 }
