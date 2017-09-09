@@ -35,6 +35,24 @@ class AbilityType extends AbstractRuleType
                     return $arcane->getSlug();
                 }
             ])
+            ->add('abilitiesRequired', EntityType::class, [
+                'class' => Ability::class,
+                'choice_value' => function ($ability) {
+                    if (!$ability instanceof Ability) {
+                        return null;
+                    }
+                    return $ability->getSlug();
+                }
+            ])
+            ->add('abilitiesUnlocked', EntityType::class, [
+                'class' => Ability::class,
+                'choice_value' => function ($ability) {
+                    if (!$ability instanceof Ability) {
+                        return null;
+                    }
+                    return $ability->getSlug();
+                }
+            ])
             ->add('short', TextType::class, [
                 'empty_data' => '',
             ])

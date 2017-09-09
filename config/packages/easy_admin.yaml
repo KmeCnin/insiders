@@ -33,6 +33,14 @@ easy_admin:
                     - name
                     - arcane
                     - short
+                    -
+                        property: abilitiesRequired
+                        type_options:
+                            by_reference: false
+                    -
+                        property: abilitiesUnlocked
+                        type_options:
+                            by_reference: false
                     - enabled
                     - description
                     -
