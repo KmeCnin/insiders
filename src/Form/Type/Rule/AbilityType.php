@@ -37,6 +37,7 @@ class AbilityType extends AbstractRuleType
             ])
             ->add('abilitiesRequired', EntityType::class, [
                 'class' => Ability::class,
+                'multiple' => true,
                 'choice_value' => function ($ability) {
                     if (!$ability instanceof Ability) {
                         return null;
@@ -46,6 +47,7 @@ class AbilityType extends AbstractRuleType
             ])
             ->add('abilitiesUnlocked', EntityType::class, [
                 'class' => Ability::class,
+                'multiple' => true,
                 'choice_value' => function ($ability) {
                     if (!$ability instanceof Ability) {
                         return null;

@@ -217,6 +217,12 @@ class Ability extends AbstractRule
             'increases' => array_map(function (Increase $increase) {
                 return $increase->normalize();
             }, iterator_to_array($this->getIncreases())),
+            'abilitiesRequired' => array_map(function (Ability $ability) {
+                return $ability->getSlug();
+            }, iterator_to_array($this->getAbilitiesRequired())),
+            'abilitiesUnlocked' => array_map(function (Ability $ability) {
+                return $ability->getSlug();
+            }, iterator_to_array($this->getAbilitiesUnlocked())),
         ]);
     }
 }
