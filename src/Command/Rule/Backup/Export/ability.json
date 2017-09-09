@@ -6,11 +6,11 @@
         "enabled": true,
         "arcane": "elements",
         "short": "Peut initier des réactions de combustion",
-        "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de créer un feu à partir de matériaux inflammables, cuire de la nourriture, résister aux températures extrêmement froides, etc.\r\nIl n'est cependant pas immunisé aux brûlures et doit veiller à ne pas se blesser lui-même.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I.",
+        "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I.\r\nIl résiste aux brûlures.",
         "increases": [
             {
                 "short": "Augmente d'un degré la blessure infligée",
-                "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de créer un feu à partir de matériaux inflammables, cuire de la nourriture, résister aux températures extrêmement froides, etc.\r\nIl n'est cependant pas immunisé aux brûlures et doit veiller à ne pas se blesser lui-même.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II."
+                "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II.\r\nIl résiste aux brûlures."
             }
         ]
     },
@@ -20,9 +20,14 @@
         "name": "Courant électrique",
         "enabled": true,
         "arcane": "elements",
-        "short": "Peut créer des courants électriques au contact",
-        "description": "",
-        "increases": []
+        "short": "Peut générer des courants électriques",
+        "description": "Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies à distance, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions.",
+        "increases": [
+            {
+                "short": "Augmente la portée des décharges produites",
+                "description": "Le personnage est capable de produire des décharges électriques puissantes à distance, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies à distance, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions."
+            }
+        ]
     },
     {
         "id": 3,
@@ -31,8 +36,13 @@
         "enabled": true,
         "arcane": "elements",
         "short": "Peut projeter des ondes sonores puissantes",
-        "description": "",
-        "increases": []
+        "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\nIl peut également simuler des sons très simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop précis ou délicats comme de la musique.\r\nDans tous les cas, les ondes sonores générées sont issues du joueur et ne peuvent pas partir de sources distantes.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut sonner un personnage, lui faisant automatiquement échouer son prochain jet de Résister.\r\nIl résiste aux sons.",
+        "increases": [
+            {
+                "short": "Blesse en plus de sonner",
+                "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de blesser et sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I et sonner un personnage, lui faisant automatiquement échouer son prochain jet de Résister.\r\nIl résiste aux sons."
+            }
+        ]
     },
     {
         "id": 4,
@@ -41,7 +51,7 @@
         "enabled": true,
         "arcane": "elements",
         "short": "Peut invoquer des orages",
-        "description": "",
+        "description": "Foo",
         "increases": []
     },
     {
