@@ -30,6 +30,7 @@ easy_admin:
                 sort: ['id', 'ASC']
             form:
                 fields:
+                    - slug
                     - name
                     - arcane
                     - short

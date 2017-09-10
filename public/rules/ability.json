@@ -15,7 +15,8 @@
         ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": [
-            "lightning"
+            "lightning",
+            "tectonic"
         ]
     },
     {
@@ -34,7 +35,8 @@
         ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": [
-            "lightning"
+            "lightning",
+            "electromagnetism"
         ]
     },
     {
@@ -52,7 +54,10 @@
             }
         ],
         "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesUnlocked": [
+            "electromagnetism",
+            "tectonic"
+        ]
     },
     {
         "id": 4,
@@ -61,8 +66,13 @@
         "enabled": true,
         "arcane": "elements",
         "short": "Peut invoquer des orages",
-        "description": "Foo",
-        "increases": [],
+        "description": "Le personnage est capable de commander la météo environnante.\r\nCela lui permet par exemple d'invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants. Il doit également réussir un jet de Défendre (contre lui-même) pour résister à sa propre attaque (blessures réduites de I rang en cas d'échec grâce à ses résistances contre les brûlures et l'électrocution).",
+        "increases": [
+            {
+                "short": "Ne s'inflige pas de blessures",
+                "description": "Le personnage est capable de commander la météo environnante.\r\nCela lui permet par exemple d'invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants excepté lui-même."
+            }
+        ],
         "abilitiesRequired": [
             "combustion",
             "electrocution"
@@ -76,9 +86,12 @@
         "enabled": true,
         "arcane": "elements",
         "short": "Maîtrise les champs magnétiques",
-        "description": "",
+        "description": "Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.\r\nCela lui permet par exemple d'aimanter des équipements métalliques à distance, de savoir s'orienter en permanence (il localise le Nord magnétique), attirer à lui des objets métalliques, etc.\r\n\r\nGrâce à un jet d'Attaque à distance il peut désarmer un adversaire équipé d'une arme métallique et envoyer son arme loin de lui.\r\nGrâce à un jet d'Attaque à distance il peut plaquer au sol un adversaire équipé d'une armure métallique.",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "electrocution",
+            "sound"
+        ],
         "abilitiesUnlocked": []
     },
     {
@@ -87,10 +100,13 @@
         "name": "Tectonique",
         "enabled": true,
         "arcane": "elements",
-        "short": "Peut créer des tremblements de terre",
-        "description": "",
+        "short": "Peut créer des séismes",
+        "description": "Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.\r\nCela lui permet par exemple de briser un rocher d'un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.\r\n\r\nGrâce à un jet d'Attaque à distance il peut faire tomber les adversaires à portée.",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "combustion",
+            "sound"
+        ],
         "abilitiesUnlocked": []
     },
     {
@@ -100,22 +116,34 @@
         "enabled": true,
         "arcane": "elements",
         "short": "Peut faire rapidement varier la température",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d'une zone précise.\r\nCela lui permet par exemple de solidifier ou vaporiser de l'eau, geler ou brûler des tissus vivants au contact, etc.\r\n\r\nGrâce à un jet d'Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).\r\nGrâce à un jet d'Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.\r\nIl résiste aux brûlures.\r\nIl résiste aux gelures.",
+        "increases": [
+            {
+                "short": "Peut faire chauffer du métal à blanc",
+                "description": "Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d'une zone précise.\r\nCela lui permet par exemple de solidifier ou vaporiser de l'eau, geler ou brûler des tissus vivants au contact, chauffer à blanc des pièces métalliques, etc.\r\n\r\nGrâce à un jet d'Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).\r\nGrâce à un jet d'Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.\r\nIl résiste aux brûlures.\r\nIl résiste aux gelures.\r\nIl peut chauffer à blanc les extrémités de ses armes en métal (épée, dague, pointes de flèche...) leur conférant un bonus d'un degré de blessure supplémentaire."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
     {
         "id": 8,
         "slug": "mineral-fists",
-        "name": "Poings minéraux",
+        "name": "Poings d'obsylène",
         "enabled": true,
-        "arcane": "elements",
-        "short": "Possède des poings dont la solidité peut briser n'importe quel matériau",
-        "description": "",
-        "increases": [],
+        "arcane": "life",
+        "short": "Possède des poings dont la solidité peut briser le métal",
+        "description": "Les extrémités des membres du personnage sont faites d'un matériau noir extrêmement solide appelé obsylène.\r\nCela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets en métal non équipés, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.",
+        "increases": [
+            {
+                "short": "Détruit les équipements portés",
+                "description": "Les extrémités des membres du personnage sont faites d'un matériau noir extrêmement solide appelé obsylène.\r\nCela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets ou des équipements en métal, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.\r\nGrâce à un jet d'Attaquer au contact contre un adversaire suivit d'un jet d'Imposer contre un équipement, il peut le détruire."
+            }
+        ],
         "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesUnlocked": [
+            "mineral-body"
+        ]
     },
     {
         "id": 9,
@@ -124,19 +152,7 @@
         "enabled": true,
         "arcane": "kinetic",
         "short": "Peut déplacer les objets légers par la pensée",
-        "description": "",
-        "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
-    },
-    {
-        "id": 10,
-        "slug": "forced-manipulation",
-        "name": "Manipulation forcée",
-        "enabled": true,
-        "arcane": "kinetic",
-        "short": "Peut contrôler les mouvements d'un personnage",
-        "description": "",
+        "description": "Le personnage peut déplacer la matière par la pensée.\r\nCela lui permet par exemple de déplacer en l'air tout objet non tenu et inanimé qu'il aurait été capable de soulever, de forcer un personnage à s'attaquer lui-même, de faire lâcher un équipement, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut utiliser l'arme du personnage ciblé contre lui ou le désarmer.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -148,7 +164,7 @@
         "enabled": true,
         "arcane": "kinetic",
         "short": "Peut attirer des objets à sois",
-        "description": "",
+        "description": "Le personnage peut générer un champ de force attractif centré sur lui-même.\r\nCela lui permet par exemple d'attirer à lui tout objet inanimé qu'il aurait été capable de soulever et s'en saisir immédiatement, d'empêcher un adversaire de fuir, d'attirer un adversaire vers lui, etc.\r\n\r\nGrâce à un jet d'Imposer à distance, il peut attirer à lui un objet tenu par un adversaire et le saisir avec une main libre.\r\nGrâce à un jet d'Imposer à distance, il peut attirer vers lui un adversaire qui se retrouve alors au contact.\r\nLes adversaires au contact du joueur doivent d'abord réussir un jet de Résister pour pouvoir s'en éloigner.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -160,7 +176,7 @@
         "enabled": true,
         "arcane": "kinetic",
         "short": "Génère un champ de force répulsif",
-        "description": "",
+        "description": "Le personnage peut générer un champ de force répulsif centré sur lui-même.\r\nCela lui permet par exemple de se protéger des tirs ennemies, d'amortir les chutes, de repousser un adversaire, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut renvoyer un projectile qui le vise. S'il réussit, il effectue un nouveau jet d'Attaquer pour toucher l'expéditeur.\r\nLes adversaires doivent d'abord réussir un jet de Résister pour pouvoir d'approcher au contact du personnage.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -172,8 +188,13 @@
         "enabled": true,
         "arcane": "kinetic",
         "short": "Se déplace dans les airs",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habituelle sans besoin de concentration particulière.",
+        "increases": [
+            {
+                "short": "Augmente la vitesse de déplacement",
+                "description": "Le personnage peut se déplacer dans les airs à une vitesse surnaturelle sans besoin de concentration particulière."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -183,9 +204,14 @@
         "name": "Transfert de force vitale",
         "enabled": true,
         "arcane": "life",
-        "short": "Peut insuffler son énergie vitale dans un être vivant",
-        "description": "",
-        "increases": [],
+        "short": "Peut insuffler son énergie vitale",
+        "description": "Le personnage est capable de projeter son énergie vitale dans un être vivant.\r\nCela lui permet par exemple de guérir les blessures de ses alliés, d'inhiber le poison présent dans la nourriture et l'eau, de redonner vie à des végétaux morts, etc.\r\n\r\nGrâce à un jet de Résister au contact contre une blessure, il peut la guérir immédiatement (au lieu d'attendre un jour) et retenter une guérison autant de fois qu'il le souhaite.",
+        "increases": [
+            {
+                "short": "Augmente la portée du transfert",
+                "description": "Le personnage est capable de projeter son énergie vitale dans un être vivant.\r\nCela lui permet par exemple de guérir les blessures de ses alliés, d'inhiber le poison présent dans la nourriture et l'eau, de redonner vie à des végétaux morts, etc.\r\n\r\nGrâce à un jet de Résister à distance contre une blessure, il peut la guérir immédiatement (au lieu d'attendre un jour) et retenter une guérison autant de fois qu'il le souhaite."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -196,8 +222,13 @@
         "enabled": true,
         "arcane": "life",
         "short": "Peut protéger ses alliés à distance",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage peut projeter une aura protectrice autour d'un allier.\r\nChaque tour il peut choisir un allié au contact à protéger. Si cet allié doit lancer un jet de Défendre, il utilise à la place les scores d'Instinct et de Maîtrise en Résister du personnage. De plus l'allié bénéficie également de tous les bonus liés à la caractéristique Résister du personnage (équipement, capacités arcanique...), exactement comme si c'était le personnage lui-même qui devait lancer le jet.\r\nEn cas d'échec c'est tout de même l'allié qui reçoit la blessure.",
+        "increases": [
+            {
+                "short": "Peut protéger à distance",
+                "description": "Le personnage peut projeter une aura protectrice autour d'un allier.\r\nChaque tour il peut choisir un allié à distance à protéger. Si cet allié doit lancer un jet de Défendre, il utilise à la place les scores d'Instinct et de Maîtrise en Résister du personnage. De plus l'allié bénéficie également de tous les bonus liés à la caractéristique Résister du personnage (équipement, capacités arcanique...), exactement comme si c'était le personnage lui-même qui devait lancer le jet.\r\nEn cas d'échec c'est tout de même l'allié qui reçoit la blessure."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -208,8 +239,25 @@
         "enabled": true,
         "arcane": "life",
         "short": "Peut alterner entre plusieurs formes physiques",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage est capable de modifier son corps en se transformant rapidement en une forme prédéfinie.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques.",
+        "increases": [
+            {
+                "short": "Choisit une nouvelle forme",
+                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en deux formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+            },
+            {
+                "short": "Choisit une nouvelle forme",
+                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en trois formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+            },
+            {
+                "short": "Choisit une nouvelle forme",
+                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en quatre formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+            },
+            {
+                "short": "Choisit une nouvelle forme",
+                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en cinq formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -218,33 +266,40 @@
         "slug": "force-field",
         "name": "Champ de force",
         "enabled": true,
-        "arcane": "life",
+        "arcane": "kinetic",
         "short": "Peut créer des murs de force",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage est capable de créer des champs de force ne pouvant être déplacé et n'étant pas soumis à la gravité.\r\nCela lui permet par exemple de créer une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.\r\n\r\nLes individus (y compris le personnage) désirant ignorer le champ de force doivent réussir un jet d'Imposer contre le personnage à chaque fois qu'ils le traverse ou lancent un projectile au travers.",
+        "increases": [
+            {
+                "short": "Champ de force sélectif",
+                "description": "Le personnage est capable de créer des champs de force ne pouvant être déplacé et n'étant pas soumis à la gravité.\r\nCela lui permet par exemple de créer une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.\r\n\r\nLe personnage peut choisir les personnages et les objets pouvant traverser le champ de force sans résistance.\r\nLes individus désirant ignorer le champ de force doivent réussir un jet d'Imposer contre le personnage à chaque fois qu'ils le traverse ou lancent un projectile au travers."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
     {
         "id": 18,
         "slug": "mineral-body",
-        "name": "Corps minéral",
+        "name": "Corps d'obsylène",
         "enabled": true,
         "arcane": "life",
         "short": "Possède un corps extrêmement résistant aux coups et blessures",
-        "description": "",
+        "description": "Le corps du personnage est fait d'un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "mineral-fists"
+        ],
         "abilitiesUnlocked": []
     },
     {
         "id": 19,
         "slug": "necrosis",
-        "name": "Nécrose",
+        "name": "Contact nécrotique",
         "enabled": true,
         "arcane": "death",
-        "short": "Corrompt la vie au contact",
-        "description": "",
+        "short": "Corrompt la vie",
+        "description": "Le personnage décompose les cellules vivantes au contact.\r\nCela lui permet par exemple de décomposer de la végétation, nécroser ses adversaires, affaiblir des constructions en bois, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d'un degré à chaque tour.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -256,8 +311,13 @@
         "enabled": true,
         "arcane": "death",
         "short": "Aspire la vie au contact",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage aspire l'énergie vitale des êtres vivants.\r\nCela lui permet par exemple de se soigner au contact d'adversaires ou de petits animaux, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré I et grâce à un jet de Résister peut tenter de soigner une de ses blessures.",
+        "increases": [
+            {
+                "short": "Augmente la capacité d'absorption",
+                "description": "Le personnage aspire l'énergie vitale des êtres vivants.\r\nCela lui permet par exemple de se soigner au contact d'adversaires ou de petits animaux, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II et grâce à un jet de Résister peut tenter de soigner une de ses blessures."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -268,8 +328,13 @@
         "enabled": true,
         "arcane": "death",
         "short": "Peut sacrifier son intégrité physique pour blesser à coup sûr",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré II afin d'infliger également automatiquement une blessure de degré II à un adversaire à distance.",
+        "increases": [
+            {
+                "short": "Diminue les blessures reçues",
+                "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré I afin d'infliger également automatiquement une blessure de degré II à un adversaire à distance."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -280,8 +345,29 @@
         "enabled": true,
         "arcane": "death",
         "short": "Peut redonner vie à des corps inanimés",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres.",
+        "increases": [
+            {
+                "short": "Augmente le nombre de morts-vivants animables",
+                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le double de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+            },
+            {
+                "short": "Augmente le nombre de morts-vivants animables",
+                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le triple de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+            },
+            {
+                "short": "Augmente le nombre de morts-vivants animables",
+                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas quatre fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+            },
+            {
+                "short": "Augmente le nombre de morts-vivants animables",
+                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas cinq fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+            },
+            {
+                "short": "Augmente le nombre de morts-vivants animables",
+                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas six fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -292,7 +378,7 @@
         "enabled": true,
         "arcane": "death",
         "short": "Dégage une atmosphère malsaine",
-        "description": "",
+        "description": "Le personnage est constamment entouré d'un nuage mortel qui détruit la végétation avoisinante et empêche les personnages de se soigner.\r\n\r\nTous les personnages à distance (excepté les morts-vivants et ceux possédant également Aura morbide) ne peuvent plus être soignés (même pas par Transfert de force vitale).",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -304,7 +390,7 @@
         "enabled": true,
         "arcane": "death",
         "short": "Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel",
-        "description": "",
+        "description": "Le personnage possède un réceptacle particulier dans lequel il choisit de transférer une partie de ses points d'Instinct de Résister (il doit en conserver au minimum 1). Il peut par la suite, tant qu’il est en contact avec son phylactère, changer comme il le souhaite cette répartition. Les points d'Instinct ainsi transférés ne sont pas utilisables. Si le phylactère est détruit, les points de Résister sont alors perdus à jamais.\r\n\r\nA chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de Résister supplémentaire avec le score de Résister de son phylactère pour tenter directement de la guérir. Cela fonctionne quelque soit la distance entre le personnage et le phylactère.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -316,7 +402,7 @@
         "enabled": true,
         "arcane": "death",
         "short": "A conscience des formes de vies qui l'entourent",
-        "description": "",
+        "description": "Le personnage a conscience de l’existence des formes de vies alentours (végétales et animales).\r\nCela lui permet par exemple de se repérer sans lumière, percevoir les personnages invisibles, de localiser de la végétation, etc.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -328,8 +414,17 @@
         "enabled": true,
         "arcane": "space-time",
         "short": "Peut voir le présent, le passé ou le futur d'une entité éloignée",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage est capable de faire des rêves extralucides sur commande.\r\nCela lui permet par exemple d'avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions passées de personnages ayant tenu l'objet ou ayant été en contact avec le personnage en question, etc.\r\n\r\nAvant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le passé d’un personnage, d’un lieu, d’un animal de son choix à distance. Il doit pour cela réussir un jet de Dévoiler opposé à un jet de Dissimuler de la cible en question.",
+        "increases": [
+            {
+                "short": "Peut voir le présent",
+                "description": "Le personnage est capable de faire des rêves extralucides sur commande.\r\nCela lui permet par exemple d'avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions, au choix, présentes ou passées de personnages ayant tenu l'objet ou ayant été en contact avec le personnage en question, etc.\r\n\r\nAvant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le présent ou le passé d’un personnage, d’un lieu, d’un animal de son choix à distance. Il doit pour cela réussir un jet de Dévoiler opposé à un jet de Dissimuler de la cible en question."
+            },
+            {
+                "short": "Peut voir le futur",
+                "description": "Le personnage est capable de faire des rêves extralucides sur commande.\r\nCela lui permet par exemple d'avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions, au choix, présentes, passées ou futures de personnages ayant tenu l'objet ou ayant été en contact avec le personnage en question, etc.\r\n\r\nAvant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le présent, le passé ou le futur d’un personnage, d’un lieu, d’un animal de son choix à distance. Il doit pour cela réussir un jet de Dévoiler opposé à un jet de Dissimuler de la cible en question."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },

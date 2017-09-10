@@ -12,6 +12,10 @@
                 "short": "Augmente d'un degré la blessure infligée",
                 "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II.\r\nIl résiste aux brûlures."
             }
+        ],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": [
+            "lightning"
         ]
     },
     {
@@ -27,6 +31,10 @@
                 "short": "Augmente la portée des décharges produites",
                 "description": "Le personnage est capable de produire des décharges électriques puissantes à distance, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies à distance, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions."
             }
+        ],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": [
+            "lightning"
         ]
     },
     {
@@ -42,7 +50,9 @@
                 "short": "Blesse en plus de sonner",
                 "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de blesser et sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I et sonner un personnage, lui faisant automatiquement échouer son prochain jet de Résister.\r\nIl résiste aux sons."
             }
-        ]
+        ],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 4,
@@ -52,7 +62,12 @@
         "arcane": "elements",
         "short": "Peut invoquer des orages",
         "description": "Foo",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [
+            "combustion",
+            "electrocution"
+        ],
+        "abilitiesUnlocked": []
     },
     {
         "id": 5,
@@ -62,7 +77,9 @@
         "arcane": "elements",
         "short": "Maîtrise les champs magnétiques",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 6,
@@ -72,7 +89,9 @@
         "arcane": "elements",
         "short": "Peut créer des tremblements de terre",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 7,
@@ -82,7 +101,9 @@
         "arcane": "elements",
         "short": "Peut faire rapidement varier la température",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 8,
@@ -92,7 +113,9 @@
         "arcane": "elements",
         "short": "Possède des poings dont la solidité peut briser n'importe quel matériau",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 9,
@@ -102,7 +125,9 @@
         "arcane": "kinetic",
         "short": "Peut déplacer les objets légers par la pensée",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 10,
@@ -112,7 +137,9 @@
         "arcane": "kinetic",
         "short": "Peut contrôler les mouvements d'un personnage",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 11,
@@ -122,7 +149,9 @@
         "arcane": "kinetic",
         "short": "Peut attirer des objets à sois",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 12,
@@ -132,7 +161,9 @@
         "arcane": "kinetic",
         "short": "Génère un champ de force répulsif",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 13,
@@ -142,7 +173,9 @@
         "arcane": "kinetic",
         "short": "Se déplace dans les airs",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 14,
@@ -152,7 +185,9 @@
         "arcane": "life",
         "short": "Peut insuffler son énergie vitale dans un être vivant",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 15,
@@ -162,7 +197,9 @@
         "arcane": "life",
         "short": "Peut protéger ses alliés à distance",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 16,
@@ -172,7 +209,9 @@
         "arcane": "life",
         "short": "Peut alterner entre plusieurs formes physiques",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 17,
@@ -182,7 +221,9 @@
         "arcane": "life",
         "short": "Peut créer des murs de force",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 18,
@@ -192,7 +233,9 @@
         "arcane": "life",
         "short": "Possède un corps extrêmement résistant aux coups et blessures",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 19,
@@ -202,7 +245,9 @@
         "arcane": "death",
         "short": "Corrompt la vie au contact",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 20,
@@ -212,7 +257,9 @@
         "arcane": "death",
         "short": "Aspire la vie au contact",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 21,
@@ -222,7 +269,9 @@
         "arcane": "death",
         "short": "Peut sacrifier son intégrité physique pour blesser à coup sûr",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 22,
@@ -232,7 +281,9 @@
         "arcane": "death",
         "short": "Peut redonner vie à des corps inanimés",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 23,
@@ -242,7 +293,9 @@
         "arcane": "death",
         "short": "Dégage une atmosphère malsaine",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 24,
@@ -252,7 +305,9 @@
         "arcane": "death",
         "short": "Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 25,
@@ -262,7 +317,9 @@
         "arcane": "death",
         "short": "A conscience des formes de vies qui l'entourent",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 26,
@@ -272,7 +329,9 @@
         "arcane": "space-time",
         "short": "Peut voir le présent, le passé ou le futur d'une entité éloignée",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 27,
@@ -282,7 +341,9 @@
         "arcane": "space-time",
         "short": "Peut prévoir un événement imminent",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 28,
@@ -292,7 +353,9 @@
         "arcane": "space-time",
         "short": "Peut accélérer l'écoulement du temps localement",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 29,
@@ -302,7 +365,9 @@
         "arcane": "space-time",
         "short": "Peut ralentir l'écoulement du temps localement",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 30,
@@ -312,7 +377,9 @@
         "arcane": "space-time",
         "short": "Connaît l'emplacement de tout ce avec quoi il a été en contact",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 31,
@@ -322,7 +389,9 @@
         "arcane": "space-time",
         "short": "Peut se rendre instantanément dans un lieu déjà visité",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 32,
@@ -332,7 +401,9 @@
         "arcane": "space-time",
         "short": "Peut courber l’espace afin de se déplacer très rapidement",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 33,
@@ -342,7 +413,9 @@
         "arcane": "space-time",
         "short": "Peut se dédoubler",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 34,
@@ -352,7 +425,9 @@
         "arcane": "intellect",
         "short": "Peut communiquer avec un personnage à distance",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 35,
@@ -362,7 +437,9 @@
         "arcane": "intellect",
         "short": "Chaque membre utilise la maîtrise du meilleur élément de l'équipe",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 36,
@@ -372,7 +449,9 @@
         "arcane": "intellect",
         "short": "Peut forcer une cible à ne dire que la vérité",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 37,
@@ -382,7 +461,9 @@
         "arcane": "intellect",
         "short": "Contrôle un animal qui devient une extension de son esprit",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 38,
@@ -392,7 +473,9 @@
         "arcane": "intellect",
         "short": "Peut donner vie physiquement à un souvenir d'une créature rencontrée",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 39,
@@ -402,7 +485,9 @@
         "arcane": "intellect",
         "short": "Peut utiliser plusieurs capacités arcaniques de manière limitée",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 40,
@@ -412,7 +497,9 @@
         "arcane": "ether",
         "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 41,
@@ -422,7 +509,9 @@
         "arcane": "ether",
         "short": "Peut s’entourer d'une aura éthérée le rendant très difficilement repérable",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 42,
@@ -432,7 +521,9 @@
         "arcane": "ether",
         "short": "Peut modeler son apparence pour se faire passer pour quelqu’un d’autre",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 43,
@@ -442,7 +533,9 @@
         "arcane": "ether",
         "short": "Peut se faire passer pour n’importe quoi",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 44,
@@ -452,7 +545,9 @@
         "arcane": "ether",
         "short": "Peut créer des faux doubles de lui-même",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 45,
@@ -462,7 +557,9 @@
         "arcane": "ether",
         "short": "Peut créer de faux objets",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 46,
@@ -472,7 +569,9 @@
         "arcane": "coercive",
         "short": "Peut s’insinuer dans l’esprit de ses adversaires pour les perturber",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 47,
@@ -482,7 +581,9 @@
         "arcane": "coercive",
         "short": "Peut forcer un personnage à attaquer ses alliés",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 48,
@@ -492,7 +593,9 @@
         "arcane": "coercive",
         "short": "Peut faire croire à des mensonges peu vraisemblables",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 49,
@@ -502,7 +605,9 @@
         "arcane": "coercive",
         "short": "Peut éviter toutes confrontations",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     },
     {
         "id": 50,
@@ -512,6 +617,8 @@
         "arcane": "coercive",
         "short": "Foo",
         "description": "",
-        "increases": []
+        "increases": [],
+        "abilitiesRequired": [],
+        "abilitiesUnlocked": []
     }
 ]
