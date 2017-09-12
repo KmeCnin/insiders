@@ -2,49 +2,49 @@
     {
         "id": 1,
         "slug": "elements",
-        "name": "Arcane élémentaire",
+        "name": "La Source",
         "enabled": true
     },
     {
         "id": 2,
         "slug": "kinetic",
-        "name": "Arcane cinétique",
+        "name": "L'Ether",
         "enabled": true
     },
     {
         "id": 3,
         "slug": "life",
-        "name": "Arcane de la vie",
+        "name": "L'Essence",
         "enabled": true
     },
     {
         "id": 4,
         "slug": "death",
-        "name": "Arcane de la mort",
+        "name": "La Purge",
         "enabled": true
     },
     {
         "id": 5,
         "slug": "space-time",
-        "name": "Arcane de l'espace-temps",
+        "name": "La Toile",
         "enabled": true
     },
     {
         "id": 6,
         "slug": "intellect",
-        "name": "Arcane de l'intellect",
+        "name": "L'Esprit",
         "enabled": true
     },
     {
         "id": 7,
         "slug": "ether",
-        "name": "Arcane éthéré",
+        "name": "Le Voile",
         "enabled": true
     },
     {
         "id": 8,
         "slug": "coercive",
-        "name": "Arcane coercitif",
+        "name": "L'Etau",
         "enabled": true
     }
 ]

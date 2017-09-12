@@ -328,11 +328,11 @@
         "enabled": true,
         "arcane": "death",
         "short": "Peut sacrifier son intégrité physique pour blesser à coup sûr",
-        "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré II afin d'infliger également automatiquement une blessure de degré II à un adversaire à distance.",
+        "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré II afin d'essayer d'infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister.",
         "increases": [
             {
                 "short": "Diminue les blessures reçues",
-                "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré I afin d'infliger également automatiquement une blessure de degré II à un adversaire à distance."
+                "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré I afin d'essayer d'infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister."
             }
         ],
         "abilitiesRequired": [],
@@ -345,12 +345,8 @@
         "enabled": true,
         "arcane": "death",
         "short": "Peut redonner vie à des corps inanimés",
-        "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres.",
+        "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le double de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres.",
         "increases": [
-            {
-                "short": "Augmente le nombre de morts-vivants animables",
-                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le double de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
-            },
             {
                 "short": "Augmente le nombre de morts-vivants animables",
                 "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le triple de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
@@ -366,6 +362,10 @@
             {
                 "short": "Augmente le nombre de morts-vivants animables",
                 "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas six fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+            },
+            {
+                "short": "Augmente le nombre de morts-vivants animables",
+                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas sept fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
             }
         ],
         "abilitiesRequired": [],
@@ -435,10 +435,13 @@
         "enabled": true,
         "arcane": "space-time",
         "short": "Peut prévoir un événement imminent",
-        "description": "",
+        "description": "Le personnage voit en permanence une fraction de seconde dans le futur.\r\nCela lui permet par exemple de pressentir un danger imminent, un choix désastreux, le coup d'un adversaire, etc.\r\n\r\nGrâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre l'adversaire ciblé. Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu'à effectuer le jet.",
         "increases": [],
         "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesUnlocked": [
+            "fast-forward",
+            "slow-motion"
+        ]
     },
     {
         "id": 28,
@@ -447,9 +450,11 @@
         "enabled": true,
         "arcane": "space-time",
         "short": "Peut accélérer l'écoulement du temps localement",
-        "description": "",
+        "description": "Le personnage peut accélérer le temps sur une zone restreinte.\r\nCela lui permet par exemple d'accélérer la pousse de la végétation, d'aggraver les blessures d'un ennemie, d'achever un adversaire inconscient à distance.\r\n\r\nGrâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augmenter d'un degré chacune des blessures de la cible.\r\nIl peut accélérer les projectiles qu'il lance (flèches, armes de jet...) pour augmenter d'un degré la blessure infligée.",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "anticipation"
+        ],
         "abilitiesUnlocked": []
     },
     {
@@ -459,9 +464,11 @@
         "enabled": true,
         "arcane": "space-time",
         "short": "Peut ralentir l'écoulement du temps localement",
-        "description": "",
+        "description": "Le personnage peut ralentir le temps sur une zone restreinte.\r\nCela lui permet de ralentir une chute, esquiver des projectiles, ralentir un adversaire.\r\n\r\nLorsque le personnage est amené à effectuer un jet de Défendre, il peut utiliser son score d'Instinct en Dévoiler à la place de Résister.\r\nLorsque le personnage attaque au contact, il peut infliger une blessure d'un degré supplémentaire.",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "anticipation"
+        ],
         "abilitiesUnlocked": []
     },
     {
@@ -471,10 +478,13 @@
         "enabled": true,
         "arcane": "space-time",
         "short": "Connaît l'emplacement de tout ce avec quoi il a été en contact",
-        "description": "",
+        "description": "Le personnage garde un lien fort avec tout ce avec quoi il est entré en contact au moins une fois.\r\nCela lui permet par exemple de pouvoir s'orienter en permanence, de localiser précisément la source d'un son qu'il perçoit, de localiser un objet ou un être vivant, etc.\r\n\r\nGrâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.",
         "increases": [],
         "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesUnlocked": [
+            "teleport",
+            "telepathy"
+        ]
     },
     {
         "id": 31,
@@ -483,9 +493,11 @@
         "enabled": true,
         "arcane": "space-time",
         "short": "Peut se rendre instantanément dans un lieu déjà visité",
-        "description": "",
+        "description": "Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant. Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter.",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "tracking"
+        ],
         "abilitiesUnlocked": []
     },
     {
@@ -493,9 +505,9 @@
         "slug": "velocity",
         "name": "Vélocité",
         "enabled": true,
-        "arcane": "space-time",
-        "short": "Peut courber l’espace afin de se déplacer très rapidement",
-        "description": "",
+        "arcane": "kinetic",
+        "short": "Se déplace à une vitesse surnaturelle",
+        "description": "Le personnage utilise sa maîtrise de l'arcane cinétique afin d’accélérer grandement ses mouvements.\r\nCela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle, etc.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -507,8 +519,17 @@
         "enabled": true,
         "arcane": "space-time",
         "short": "Peut se dédoubler",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.",
+        "increases": [
+            {
+                "short": "Peut créer plus de clones",
+                "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Chaque double créé possède un point gratuit dans une caractéristique au choix du personnage ce qui lui permet de ne créer un clone qu'avec seulement 3 de ses points de caractéristique. Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques."
+            },
+            {
+                "short": "Peut créer plus de clones",
+                "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Chaque double créé possède un point gratuit dans deux caractéristiques au choix du personnage ce qui lui permet de ne créer un clone qu'avec seulement 3 de ses points de caractéristique. Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -519,9 +540,11 @@
         "enabled": true,
         "arcane": "intellect",
         "short": "Peut communiquer avec un personnage à distance",
-        "description": "",
+        "description": "Le personnage peut communiquer mentalement avec un personnage ou un animal à distance. S'il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue. Une fois le message transmit, la cible peut ensuite répondre mentalement par une phrase. Il n'a pas besoin de parler la même langue que la cible pour comprendre et être compris (il peut même communiquer avec des animaux en utilisant des mots simples).",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "tracking"
+        ],
         "abilitiesUnlocked": []
     },
     {
@@ -531,7 +554,7 @@
         "enabled": true,
         "arcane": "intellect",
         "short": "Chaque membre utilise la maîtrise du meilleur élément de l'équipe",
-        "description": "",
+        "description": "Le personnage choisit des personnages à distance. Chaque personnage choisit ainsi utilise pour chaque caractéristique le score de Maîtrise de son allié possédant le meilleur score.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -541,9 +564,9 @@
         "slug": "confessions",
         "name": "Confidence",
         "enabled": true,
-        "arcane": "intellect",
+        "arcane": "coercive",
         "short": "Peut forcer une cible à ne dire que la vérité",
-        "description": "",
+        "description": "Le personnage peut se rendre dans l'esprit d'un individu et le forcer à répondre à une question sans mentir. Le personnage doit parler la même langue que sa cible.\r\n\r\nGrâce à un jet de Dévoiler à distance le personnage peut s'insinuer dans l'esprit de sa cible et lui poser une question à laquelle elle devra répondre le plus honnêtement possible. En cas d’échec au jet, la cible se rend compte de la tentative d'intrusion et ne peut plus être interrogée tant qu'elle reste sur ses gardes.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -555,8 +578,17 @@
         "enabled": true,
         "arcane": "intellect",
         "short": "Contrôle un animal qui devient une extension de son esprit",
-        "description": "",
-        "increases": [],
+        "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, percevoir à la place du familier (il contrôle tous ses sens), pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au score d'Instinct en Dévoiler du personnage.",
+        "increases": [
+            {
+                "short": "Familier plus puissant",
+                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, percevoir à la place du familier (il contrôle tous ses sens), pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au double du score d'Instinct en Dévoiler du personnage."
+            },
+            {
+                "short": "Familier plus puissant",
+                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, percevoir à la place du familier (il contrôle tous ses sens), pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au triple du score d'Instinct en Dévoiler du personnage."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -566,21 +598,30 @@
         "name": "Invocation",
         "enabled": true,
         "arcane": "intellect",
-        "short": "Peut donner vie physiquement à un souvenir d'une créature rencontrée",
-        "description": "",
-        "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
-    },
-    {
-        "id": 39,
-        "slug": "spells",
-        "name": "Sorts",
-        "enabled": true,
-        "arcane": "intellect",
-        "short": "Peut utiliser plusieurs capacités arcaniques de manière limitée",
-        "description": "",
-        "increases": [],
+        "short": "Peut donner vie à un souvenir d'une créature rencontrée",
+        "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer qu'une créature à la fois.",
+        "increases": [
+            {
+                "short": "Invoque plus de créatures",
+                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que deux créatures à la fois."
+            },
+            {
+                "short": "Invoque plus de créatures",
+                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que trois créatures à la fois."
+            },
+            {
+                "short": "Invoque plus de créatures",
+                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que quatre créatures à la fois."
+            },
+            {
+                "short": "Invoque plus de créatures",
+                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que cinq créatures à la fois."
+            },
+            {
+                "short": "Invoque plus de créatures",
+                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que six créatures à la fois."
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -591,10 +632,12 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
-        "description": "",
+        "description": "Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.\r\nIl ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).",
         "increases": [],
         "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesUnlocked": [
+            "invisibility"
+        ]
     },
     {
         "id": 41,
@@ -603,9 +646,11 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Peut s’entourer d'une aura éthérée le rendant très difficilement repérable",
-        "description": "",
+        "description": "Le personnage peut se rendre invisible à volonté. Il doit pour cela se concentrer et ne peux entreprendre d'action complexe (comme se battre...) sans perdre son camouflage.\r\nLes autres personnages se doutant de sa présence peuvent tenter un jet de Dévoiler pour le localiser avant chaque action entreprise (Attaquer, Percevoir...).",
         "increases": [],
-        "abilitiesRequired": [],
+        "abilitiesRequired": [
+            "ghost-walk"
+        ],
         "abilitiesUnlocked": []
     },
     {
@@ -699,18 +744,6 @@
         "enabled": true,
         "arcane": "coercive",
         "short": "Peut éviter toutes confrontations",
-        "description": "",
-        "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
-    },
-    {
-        "id": 50,
-        "slug": "foo",
-        "name": "Foo",
-        "enabled": true,
-        "arcane": "coercive",
-        "short": "Foo",
         "description": "",
         "increases": [],
         "abilitiesRequired": [],
