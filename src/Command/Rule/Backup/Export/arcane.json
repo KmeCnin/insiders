@@ -7,7 +7,7 @@
     },
     {
         "id": 2,
-        "slug": "kinetic",
+        "slug": "ether",
         "name": "L'Ether",
         "enabled": true
     },
@@ -37,7 +37,7 @@
     },
     {
         "id": 7,
-        "slug": "ether",
+        "slug": "illusion",
         "name": "Le Voile",
         "enabled": true
     },
