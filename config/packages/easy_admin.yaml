@@ -66,8 +66,8 @@ easy_admin:
             list:
                 fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
                 sort: ['id', 'ASC']
-        Increase:
-            class: App\Entity\Rule\Increase
+        StuffProperty:
+            class: App\Entity\Rule\StuffProperty
             list:
-                fields: ['id', 'arcane', 'enabled']
+                fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
                 sort: ['id', 'ASC']
