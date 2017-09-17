@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "slug": "luminous",
+        "name": "Lumineux",
+        "enabled": true,
+        "price": 2000,
+        "stuffKinds": [
+            "weapon",
+            "armor",
+            "shield",
+            "object"
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "bound",
+        "name": "Lié",
+        "enabled": true,
+        "price": 5000,
+        "stuffKinds": [
+            "weapon",
+            "object"
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "orichalcum",
+        "name": "Orichalque",
+        "enabled": true,
+        "price": 36000,
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": 4,
+        "slug": "fireproof",
+        "name": "Ignifugé",
+        "enabled": true,
+        "price": 5000,
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "insulating",
+        "name": "Isolant",
+        "enabled": true,
+        "price": 5000,
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "wound-I",
+        "name": "Blessure de degré I",
+        "enabled": true,
+        "price": 9000,
+        "stuffKinds": [
+            "weapon"
+        ]
+    }
+]

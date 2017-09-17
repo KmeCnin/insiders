@@ -10,9 +10,12 @@ easy_admin:
             - { label: 'Rules' }
             - Arcane
             - Ability
+            - CanonicalStuff
             - Champion
             - Characteristic
             - Deity
+            - StuffKind
+            - StuffProperty
     entities:
         # General
         User:
@@ -50,7 +53,32 @@ easy_admin:
                         type_options:
                             entry_type: App\Form\Type\Rule\IncreaseType
                             by_reference: false
-
+        CanonicalStuff:
+            class: App\Entity\Rule\CanonicalStuff
+            list:
+                fields:
+                    - id
+                    - name
+                    -
+                        property: stuff.kind
+                        label: Kind
+                    -
+                        property: stuff.quality
+                        label: Quality
+                    -
+                        property: stuff.properties
+                        label: Properties
+                        type: array
+                    - enabled
+                sort: ['id', 'ASC']
+            form:
+                fields:
+                    - slug
+                    - name
+                    - enabled
+                    -
+                        property: stuff
+                        type: App\Form\Type\StuffType
         Champion:
             class: App\Entity\Rule\Champion
             list:
@@ -66,8 +94,13 @@ easy_admin:
             list:
                 fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
                 sort: ['id', 'ASC']
+        StuffKind:
+            class: App\Entity\Rule\StuffKind
+            list:
+                fields: ['id', 'name', 'enabled']
+                sort: ['id', 'ASC']
         StuffProperty:
             class: App\Entity\Rule\StuffProperty
             list:
-                fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
+                fields: ['id', 'name', 'short', 'price', { property: stuffKinds, label: Kinds, type: array }, 'enabled']
                 sort: ['id', 'ASC']

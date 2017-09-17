@@ -6,7 +6,7 @@ use App\Entity\AbstractEntity;
 use App\Entity\NormalizableInterface;
 use Doctrine\ORM\Mapping as ORM;
 
-abstract class AbstractSecondaryRule extends AbstractEntity implements SecondaryRuleInterface, NormalizableInterface
+abstract class AbstractSecondaryRule implements SecondaryRuleInterface, NormalizableInterface
 {
     /**
      * @var int

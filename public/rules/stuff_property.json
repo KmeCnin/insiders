@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "slug": "luminous",
+        "name": "Lumineux",
+        "enabled": true,
+        "price": 2000,
+        "short": "Peut émettre de la lumière à la demande.",
+        "stuffKinds": [
+            "weapon",
+            "armor",
+            "shield",
+            "object"
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "bound",
+        "name": "Lié",
+        "enabled": true,
+        "price": 5000,
+        "short": "Ne peut pas être désarmé.",
+        "stuffKinds": [
+            "weapon",
+            "object"
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "orichalcum",
+        "name": "Orichalque",
+        "enabled": true,
+        "price": 36000,
+        "short": "Confère une résistance contre les blessures physiques.",
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": 4,
+        "slug": "fireproof",
+        "name": "Ignifugé",
+        "enabled": true,
+        "price": 5000,
+        "short": "Confère une résistance contre les brûlures.",
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "insulating",
+        "name": "Isolant",
+        "enabled": true,
+        "price": 5000,
+        "short": "Confère une résistance contre les électrocutions.",
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "wound-I",
+        "name": "Blessure de degré I",
+        "enabled": true,
+        "price": 9000,
+        "short": "Inflige une blessure de degré I",
+        "stuffKinds": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 7,
+        "slug": "wound-II",
+        "name": "Blessure de degré II",
+        "enabled": true,
+        "price": 18000,
+        "short": "Inflige une blessure de degré II",
+        "stuffKinds": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 8,
+        "slug": "wound-III",
+        "name": "Blessure de degré III",
+        "enabled": true,
+        "price": 36000,
+        "short": "Inflige une blessure de degré III",
+        "stuffKinds": [
+            "weapon"
+        ]
+    }
+]

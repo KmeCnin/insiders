@@ -2,36 +2,38 @@
 
 namespace App\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
+
 /**
  * @ORM\Entity
  */
-class Character extends Entity
+class Character extends AbstractEntity
 {
     /**
      * @var int
      *
-     * @ORM\Column(type="int", nullable=false)
+     * @ORM\Column(type="integer", nullable=false)
      */
     protected $proficiencyForce;
 
     /**
      * @var int
      *
-     * @ORM\Column(type="int", nullable=false)
+     * @ORM\Column(type="integer", nullable=false)
      */
     protected $proficiencyResist;
 
     /**
      * @var int
      *
-     * @ORM\Column(type="int", nullable=false)
+     * @ORM\Column(type="integer", nullable=false)
      */
     protected $proficiencyReveal;
 
     /**
      * @var int
      *
-     * @ORM\Column(type="int", nullable=false)
+     * @ORM\Column(type="integer", nullable=false)
      */
     protected $proficiencyHide;
 
@@ -40,7 +42,7 @@ class Character extends Entity
         return $this->proficiencyForce;
     }
 
-    public function setProficiencyForce(int $proficiencyForce): Entity
+    public function setProficiencyForce(int $proficiencyForce): self
     {
         $this->proficiencyForce = $proficiencyForce;
 
@@ -52,7 +54,7 @@ class Character extends Entity
         return $this->proficiencyResist;
     }
 
-    public function setProficiencyResist(int $proficiencyResist): Entity
+    public function setProficiencyResist(int $proficiencyResist): self
     {
         $this->proficiencyResist = $proficiencyResist;
 
@@ -64,7 +66,7 @@ class Character extends Entity
         return $this->proficiencyReveal;
     }
 
-    public function setProficiencyReveal(int $proficiencyReveal): Entity
+    public function setProficiencyReveal(int $proficiencyReveal): self
     {
         $this->proficiencyReveal = $proficiencyReveal;
 
@@ -76,7 +78,7 @@ class Character extends Entity
         return $this->proficiencyHide;
     }
 
-    public function setProficiencyHide(int $proficiencyHide): Entity
+    public function setProficiencyHide(int $proficiencyHide): self
     {
         $this->proficiencyHide = $proficiencyHide;
 

@@ -9,7 +9,8 @@ use App\Entity\Rule\Champion;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
 use App\Entity\Rule\RuleInterface;
-use App\Form\Type\Rule\AbilityType;
+use App\Entity\Rule\StuffKind;
+use App\Entity\Rule\StuffProperty;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -46,6 +47,8 @@ class RuleTransporter implements TransporterInterface
             Champion::class,
             // Only for import, must be done again in order to refer previous ids:
             Deity::class,
+            StuffKind::class,
+            StuffProperty::class,
         ];
     }
 

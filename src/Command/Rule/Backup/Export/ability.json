@@ -186,7 +186,7 @@
         "slug": "levitation",
         "name": "Lévitation",
         "enabled": true,
-        "arcane": "ether",
+        "arcane": "intellect",
         "short": "Se déplace dans les airs",
         "description": "Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habituelle sans besoin de concentration particulière.",
         "increases": [
@@ -400,7 +400,7 @@
         "slug": "life-perception",
         "name": "Perception de la vie",
         "enabled": true,
-        "arcane": "death",
+        "arcane": "intellect",
         "short": "A conscience des formes de vies qui l'entourent",
         "description": "Le personnage a conscience de l’existence des formes de vies alentours (végétales et animales).\r\nCela lui permet par exemple de se repérer sans lumière, percevoir les personnages invisibles, de localiser de la végétation, etc.",
         "increases": [],
@@ -505,7 +505,7 @@
         "slug": "velocity",
         "name": "Vélocité",
         "enabled": true,
-        "arcane": "ether",
+        "arcane": "life",
         "short": "Se déplace à une vitesse surnaturelle",
         "description": "Le personnage utilise sa maîtrise de l'arcane cinétique afin d’accélérer grandement ses mouvements.\r\nCela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle, etc.",
         "increases": [],
@@ -517,7 +517,7 @@
         "slug": "duplication",
         "name": "Dédoublement",
         "enabled": true,
-        "arcane": "space-time",
+        "arcane": "life",
         "short": "Peut se dédoubler",
         "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.",
         "increases": [
@@ -578,15 +578,15 @@
         "enabled": true,
         "arcane": "intellect",
         "short": "Contrôle un animal qui devient une extension de son esprit",
-        "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, percevoir à la place du familier (il contrôle tous ses sens), pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au score d'Instinct en Dévoiler du personnage.",
+        "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au score d'Instinct en Dévoiler du personnage.",
         "increases": [
             {
                 "short": "Familier plus puissant",
-                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, percevoir à la place du familier (il contrôle tous ses sens), pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au double du score d'Instinct en Dévoiler du personnage."
+                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au double du score d'Instinct en Dévoiler du personnage."
             },
             {
                 "short": "Familier plus puissant",
-                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, percevoir à la place du familier (il contrôle tous ses sens), pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au triple du score d'Instinct en Dévoiler du personnage."
+                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au triple du score d'Instinct en Dévoiler du personnage."
             }
         ],
         "abilitiesRequired": [],

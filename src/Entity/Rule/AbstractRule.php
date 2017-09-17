@@ -2,11 +2,10 @@
 
 namespace App\Entity\Rule;
 
-use App\Entity\AbstractEntity;
 use App\Entity\NormalizableInterface;
 use Doctrine\ORM\Mapping as ORM;
 
-abstract class AbstractRule extends AbstractEntity implements RuleInterface, NormalizableInterface
+abstract class AbstractRule implements RuleInterface, NormalizableInterface
 {
     /**
      * @var int

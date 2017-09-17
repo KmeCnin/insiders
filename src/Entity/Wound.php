@@ -2,10 +2,12 @@
 
 namespace App\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
+
 /**
  * @ORM\Entity
  */
-class Wound extends Entity
+class Wound extends AbstractEntity
 {
     public static function createDegree(int $degree): self
     {
