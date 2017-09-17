@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "slug": "knuckleduster",
+        "name": "Poings américains",
+        "enabled": true,
+        "quality": 0,
+        "kind": "weapon",
+        "properties": [
+            "wound-I"
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "battle-stick",
+        "name": "Bâton de combat",
+        "enabled": true,
+        "quality": 1,
+        "kind": "weapon",
+        "properties": [
+            "wound-I"
+        ]
+    }
+]

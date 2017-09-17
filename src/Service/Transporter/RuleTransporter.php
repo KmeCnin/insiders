@@ -5,6 +5,7 @@ namespace App\Service\Transporter;
 use App\Entity\NormalizableInterface;
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Entity\Rule\CanonicalStuff;
 use App\Entity\Rule\Champion;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
@@ -49,6 +50,7 @@ class RuleTransporter implements TransporterInterface
             Deity::class,
             StuffKind::class,
             StuffProperty::class,
+            CanonicalStuff::class,
         ];
     }
 

@@ -65,10 +65,15 @@ easy_admin:
                     -
                         property: stuff.quality
                         label: Quality
+                        type: integer
                     -
                         property: stuff.properties
                         label: Properties
                         type: array
+                    -
+                        property: stuff.price
+                        label: Price
+                        type: integer
                     - enabled
                 sort: ['id', 'ASC']
             form:
@@ -102,5 +107,5 @@ easy_admin:
         StuffProperty:
             class: App\Entity\Rule\StuffProperty
             list:
-                fields: ['id', 'name', 'short', 'price', { property: stuffKinds, label: Kinds, type: array }, 'enabled']
+                fields: ['id', 'name', 'short', 'price', { property: stuffKinds, type: array }, 'enabled']
                 sort: ['id', 'ASC']

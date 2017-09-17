@@ -67,9 +67,11 @@
         "name": "Blessure de degré I",
         "enabled": true,
         "price": 9000,
-        "short": "Inflige une blessure de degré I",
+        "short": "Inflige une blessure de degré I.",
         "stuffKinds": [
-            "weapon"
+            "weapon",
+            "armor",
+            "shield"
         ]
     },
     {
@@ -78,7 +80,7 @@
         "name": "Blessure de degré II",
         "enabled": true,
         "price": 18000,
-        "short": "Inflige une blessure de degré II",
+        "short": "Inflige une blessure de degré II.",
         "stuffKinds": [
             "weapon"
         ]
@@ -89,7 +91,18 @@
         "name": "Blessure de degré III",
         "enabled": true,
         "price": 36000,
-        "short": "Inflige une blessure de degré III",
+        "short": "Inflige une blessure de degré III.",
+        "stuffKinds": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 9,
+        "slug": "ranged",
+        "name": "Distance",
+        "enabled": true,
+        "price": 9000,
+        "short": "Peut attaquer à distance.",
         "stuffKinds": [
             "weapon"
         ]

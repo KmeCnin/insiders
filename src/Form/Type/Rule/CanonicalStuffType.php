@@ -3,7 +3,10 @@
 namespace App\Form\Type\Rule;
 
 use App\Entity\Rule\CanonicalStuff;
-use App\Form\Type\StuffType;
+use App\Entity\Rule\StuffKind;
+use App\Entity\Rule\StuffProperty;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -20,7 +23,28 @@ class CanonicalStuffType extends AbstractRuleType
     {
         parent::buildForm($builder, $options);
 
-        $builder->add('stuff', StuffType::class);
+        $builder
+            ->add('kind', EntityType::class, [
+                'class' => StuffKind::class,
+                'choice_value' => function ($kind) {
+                    if (!$kind instanceof StuffKind) {
+                        return null;
+                    }
+                    return $kind->getSlug();
+                }
+            ])
+            ->add('quality', IntegerType::class)
+            ->add('properties', EntityType::class, [
+                'class' => StuffProperty::class,
+                'multiple' => true,
+                'choice_value' => function ($property) {
+                    if (!$property instanceof StuffProperty) {
+                        return null;
+                    }
+                    return $property->getSlug();
+                }
+            ])
+        ;
     }
 
     public function getParent()

@@ -5,6 +5,7 @@ namespace App\Entity;
 use App\Entity\Rule\StuffKind;
 use App\Entity\Rule\StuffProperty;
 use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -65,12 +66,12 @@ class Stuff extends AbstractEntity
         return $this;
     }
 
-    public function getProperties(): \Traversable
+    public function getProperties(): Collection
     {
         return $this->properties;
     }
 
-    public function setProperties(\Traversable $properties): self
+    public function setProperties(Collection $properties): self
     {
         $this->properties->clear();
         foreach ($properties as $property) {
@@ -98,12 +99,11 @@ class Stuff extends AbstractEntity
 
     public function getPrice(): int
     {
-        return array_reduce(
-            $this->properties,
-            function (int $price, StuffProperty $property) {
-                return $price + $property->getPrice();
-            },
-            0
-        ) + ($this->quality * 9000);
+        $price = 0;
+        foreach ($this->properties as $property) {
+            $price += $property->getPrice();
+        }
+
+        return $price + $this->quality * 9000;
     }
 }

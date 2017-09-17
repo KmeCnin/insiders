@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "slug": "knuckleduster",
+        "name": "Poings américains",
+        "enabled": true,
+        "quality": 0,
+        "kind": "weapon",
+        "properties": [
+            "wound-I"
+        ]
+    }
+]
