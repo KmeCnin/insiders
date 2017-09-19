@@ -63,8 +63,12 @@ easy_admin:
                         property: stuff.kind
                         label: Kind
                     -
-                        property: stuff.quality
-                        label: Quality
+                        property: stuff.expendable
+                        label: Expendable
+                        type: boolean
+                    -
+                        property: stuff.effectiveness
+                        label: Effectiveness
                         type: integer
                     -
                         property: stuff.properties

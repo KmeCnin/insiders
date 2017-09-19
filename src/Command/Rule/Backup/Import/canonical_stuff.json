@@ -2,10 +2,11 @@
     {
         "id": 1,
         "slug": "knuckleduster",
-        "name": "Poings américains",
+        "name": "Surin",
         "enabled": true,
-        "quality": 0,
+        "effectiveness": 0,
         "kind": "weapon",
+        "expendable": false,
         "properties": [
             "wound-I"
         ]
@@ -15,10 +16,237 @@
         "slug": "battle-stick",
         "name": "Bâton de combat",
         "enabled": true,
-        "quality": 1,
+        "effectiveness": 1,
         "kind": "weapon",
+        "expendable": false,
         "properties": [
             "wound-I"
+        ]
+    },
+    {
+        "id": 4,
+        "slug": "dagger",
+        "name": "Dague",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-II"
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "short-bow",
+        "name": "Arc court",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "ranged"
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "one-hand-sword",
+        "name": "Épée à une main",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-II"
+        ]
+    },
+    {
+        "id": 7,
+        "slug": "long-bow",
+        "name": "Arc long",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "ranged"
+        ]
+    },
+    {
+        "id": 8,
+        "slug": "light-crossbow",
+        "name": "Arbalète légère",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "ranged"
+        ]
+    },
+    {
+        "id": 9,
+        "slug": "two-hand-sword",
+        "name": "Épée à deux mains",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-II"
+        ]
+    },
+    {
+        "id": 10,
+        "slug": "heavy-crossbow",
+        "name": "Arbalète lourde",
+        "enabled": true,
+        "effectiveness": 3,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "ranged"
+        ]
+    },
+    {
+        "id": 11,
+        "slug": "leather-armor",
+        "name": "Armure en cuire",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "armor",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": 12,
+        "slug": "chainmail",
+        "name": "Cotte de maille",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "armor",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": 13,
+        "slug": "harness",
+        "name": "Harnois",
+        "enabled": true,
+        "effectiveness": 3,
+        "kind": "armor",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": 14,
+        "slug": "shield",
+        "name": "Écu",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "shield",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": 15,
+        "slug": "bulwark",
+        "name": "Pavois",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "shield",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": 16,
+        "slug": "ointment",
+        "name": "Onguent",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "object",
+        "expendable": true,
+        "properties": []
+    },
+    {
+        "id": 17,
+        "slug": "bandage",
+        "name": "Bandages",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "object",
+        "expendable": true,
+        "properties": []
+    },
+    {
+        "id": 18,
+        "slug": "arrow",
+        "name": "Flèche",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": true,
+        "properties": [
+            "wound-I"
+        ]
+    },
+    {
+        "id": 19,
+        "slug": "bolt",
+        "name": "Carreau",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": true,
+        "properties": [
+            "wound-II"
+        ]
+    },
+    {
+        "id": 20,
+        "slug": "perforating-arrow",
+        "name": "Flèche perforante",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": true,
+        "properties": [
+            "wound-II"
+        ]
+    },
+    {
+        "id": 21,
+        "slug": "perforating-bolt",
+        "name": "Carreau perforant",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": true,
+        "properties": [
+            "wound-III"
+        ]
+    },
+    {
+        "id": 22,
+        "slug": "accuracy-arrow",
+        "name": "Flèche de précision",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "weapon",
+        "expendable": true,
+        "properties": [
+            "wound-I"
+        ]
+    },
+    {
+        "id": 23,
+        "slug": "accuracy-bolt",
+        "name": "Carreau de précision",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "weapon",
+        "expendable": true,
+        "properties": [
+            "wound-II"
         ]
     }
 ]

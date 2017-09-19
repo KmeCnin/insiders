@@ -49,14 +49,14 @@ class CanonicalStuff extends AbstractRule
         return $this;
     }
 
-    public function getQuality(): ?int
+    public function getEffectiveness(): ?int
     {
-        return $this->stuff->getQuality();
+        return $this->stuff->getEffectiveness();
     }
 
-    public function setQuality(int $quality): self
+    public function setEffectiveness(int $effectiveness): self
     {
-        $this->stuff->setQuality($quality);
+        $this->stuff->setEffectiveness($effectiveness);
 
         return $this;
     }
@@ -92,6 +92,18 @@ class CanonicalStuff extends AbstractRule
         return $this;
     }
 
+    public function isExpendable(): ?bool
+    {
+        return $this->stuff->isExpendable();
+    }
+
+    public function setExpendable(bool $expendable): self
+    {
+        $this->stuff->setExpendable($expendable);
+
+        return $this;
+    }
+
     public function getPrice(): int
     {
         return $this->stuff->getPrice();
@@ -100,8 +112,9 @@ class CanonicalStuff extends AbstractRule
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
-            'quality' => $this->getStuff()->getQuality(),
+            'effectiveness' => $this->getStuff()->getEffectiveness(),
             'kind' => $this->getStuff()->getKind()->getSlug(),
+            'expendable' => $this->getStuff()->isExpendable(),
             'properties' => array_map(function (StuffProperty $property) {
                 return $property->getSlug();
             }, iterator_to_array($this->getStuff()->getProperties())),

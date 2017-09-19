@@ -13,12 +13,16 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Stuff extends AbstractEntity
 {
+    const BASE_PRICE = 9000;
+
+    const FRACTION_PRICE = 50;
+
     /**
      * @var int
      *
      * @ORM\Column(type="integer", nullable=false)
      */
-    protected $quality;
+    protected $effectiveness;
 
     /**
      * @var StuffKind
@@ -26,6 +30,13 @@ class Stuff extends AbstractEntity
      * @ORM\ManyToOne(targetEntity="App\Entity\Rule\StuffKind")
      */
     protected $kind;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(type="boolean")
+     */
+    protected $expendable;
 
     /**
      * @var StuffProperty[]
@@ -38,18 +49,19 @@ class Stuff extends AbstractEntity
     {
         parent::__construct();
 
+        $this->expendable = false;
         $this->properties = new ArrayCollection([]);
     }
 
-    public function getQuality(): ?int
+    public function getEffectiveness(): ?int
     {
-        return $this->quality;
+        return $this->effectiveness;
     }
 
-    public function setQuality(int $quality): self
+    public function setEffectiveness(int $effectiveness): self
     {
-        $this->quality = $quality;
-        $this->setRank($quality);
+        $this->effectiveness = $effectiveness;
+        $this->setRank($effectiveness);
 
         return $this;
     }
@@ -97,6 +109,18 @@ class Stuff extends AbstractEntity
         return $this;
     }
 
+    public function isExpendable(): ?bool
+    {
+        return $this->expendable;
+    }
+
+    public function setExpendable(bool $expendable): self
+    {
+        $this->expendable = $expendable;
+
+        return $this;
+    }
+
     public function getPrice(): int
     {
         $price = 0;
@@ -104,6 +128,7 @@ class Stuff extends AbstractEntity
             $price += $property->getPrice();
         }
 
-        return $price + $this->quality * 9000;
+        $price += $this->effectiveness * self::BASE_PRICE;
+        return $this->expendable ? $price/self::FRACTION_PRICE : $price;
     }
 }
