@@ -35,7 +35,7 @@
         "name": "Jira",
         "enabled": true,
         "dignity": "Le Dieu aux milles visages",
-        "arcane": "ether",
+        "arcane": "illusion",
         "champion": null,
         "description": "Jira est un Dieu méticuleux et calculateur. Il incite ses fidèles à mettre au point des plans complexes et réflechis et à triompher par la ruse plus tôt que par la force. Comme son nom le suggère, il est impossible de lui attribuer une unique apparence mais le commun des mortels le représente souvent par un homme sans visage vêtu d'une robe bleue richement ornée."
     },
@@ -45,7 +45,7 @@
         "name": "Medev",
         "enabled": true,
         "dignity": "L'usurpateur",
-        "arcane": "ether",
+        "arcane": "illusion",
         "champion": null,
         "description": "Medev est un Dieu très récent, enciennement Champion de Jira, il a réussit par une habile démonstration d'intelligence et de fourberie à rejoindre l'Elyséum et acquérire des pouvoirs divins. Une portion croissante des anciens fidèles à Jira le vénèrent désormais, impressionnés par son ascension éclatante que certains qualifient d'\"ultime duperie\". Grâce à son passé de mortel, l'apparence de Medev est la mieux connue des divinités arcaniques. Il s'agit d'un homme ellancé à la peau très pâle et aux cheveux d'un noir profond. Il se dissimule souvent dans un voile pourpre richement décoré."
     },
@@ -75,7 +75,7 @@
         "name": "Lovnir",
         "enabled": true,
         "dignity": "Le jeune sage",
-        "arcane": "kinetic",
+        "arcane": "ether",
         "champion": "jonnas",
         "description": "Lovnir est un Dieu mesuré et pragmatique. Il récompense ceux qui font preuve d'abnégation et d'austérité et condamne la superficialité et la recherche du plaisir instantané. Il est dépeint comme un jeune garçon d'une quinzaine d'années couronné d'immenses bois de cerfs, lévitant les jambes croisées, vêtu d'une simple toge ocre usée."
     },
