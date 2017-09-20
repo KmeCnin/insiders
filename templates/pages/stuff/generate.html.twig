@@ -1,0 +1,6 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    {{ form(form) }}<br>
+    {{ include('includes/rules/canonical_stuff.html.twig', [stuff]) }}
+{% endblock %}

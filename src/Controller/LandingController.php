@@ -2,16 +2,16 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class HomeController extends Controller
+class LandingController extends AbstractController
 {
     /**
      * @Route("/", name="home")
      */
     public function indexAction()
     {
-        return $this->render('home.html.twig');
+        return $this->render('landing/home.html.twig');
     }
 }
