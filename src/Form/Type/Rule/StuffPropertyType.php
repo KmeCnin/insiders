@@ -5,7 +5,7 @@ namespace App\Form\Type\Rule;
 use App\Entity\Rule\StuffKind;
 use App\Entity\Rule\StuffProperty;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
-use Symfony\Component\Form\Extension\Core\Type\IntegerType;
+use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -24,9 +24,7 @@ class StuffPropertyType extends AbstractRuleType
         parent::buildForm($builder, $options);
 
         $builder
-            ->add('price', IntegerType::class, [
-                'empty_data' => '',
-            ])
+            ->add('fp', NumberType::class)
             ->add('short', TextType::class, [
                 'empty_data' => '',
             ])

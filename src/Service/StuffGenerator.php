@@ -2,57 +2,78 @@
 
 namespace App\Service;
 
-use App\Entity\Rule\CanonicalStuff;
 use App\Entity\Stuff;
-use Doctrine\ORM\EntityManagerInterface;
 
 class StuffGenerator
 {
-    private $em;
+    private $picker;
 
-    public function __construct(EntityManagerInterface $em)
+    public function __construct(StuffPicker $picker)
     {
-        $this->em = $em;
+        $this->picker = $picker;
     }
 
-    public function pickRandomStuff(): CanonicalStuff
+    public function generateBudgetedStuff(int $budget): Stuff
     {
-        return $this->pickOne(
-            $this->em->getRepository(CanonicalStuff::class)->findAll()
-        );
+        $stuff = $this->picker->pickStuffCheaperThan($budget);
+
+        if ($stuff->getPrice() < $budget) {
+            $this->upgrade($stuff, $budget);
+        }
+
+        return $stuff;
     }
 
-    public function pickBudgetedStuff(int $budget): CanonicalStuff
+    private function upgrade(Stuff $stuff, int $budget): void
     {
-        $list = $this->em->getRepository(CanonicalStuff::class)->findAll();
-        usort($list, function (CanonicalStuff $a, CanonicalStuff $b) {
-            return $a->getPrice() > $b->getPrice();
-        });
-
-        $bestPrice = reset($list)->getPrice();
-        foreach ($list as $key => $stuff) {
-            if ($stuff->getPrice() > $budget) {
-                $bestPrice = isset($list[$key-1])
-                    ? $list[$key-1]->getPrice()
-                    : reset($list)->getPrice();
-                break;
+        if (rand(1, 100) <= 75) {
+            $upgraded = $this->improveQuality($stuff, $budget);
+            if (!$upgraded) {
+                $upgraded = $this->addProperty($stuff, $budget);
+            }
+        } else {
+            $upgraded = $this->addProperty($stuff, $budget);
+            if (!$upgraded) {
+                $upgraded = $this->improveQuality($stuff, $budget);
             }
         }
 
-        return $this->pickOne(
-            array_filter($list, function (CanonicalStuff $stuff) use ($bestPrice) {
-                return $stuff->getPrice() === $bestPrice;
-            })
+        if ($upgraded && $stuff->getPrice() < $budget) {
+            $this->upgrade($stuff, $budget);
+        }
+    }
+
+    private function improveQuality(Stuff $stuff, int $budget): bool
+    {
+        if ($stuff->getEffectiveness() >= 5) {
+            return false;
+        }
+
+        $required = Stuff::fpToPrice($stuff, Stuff::EFFECTIVENESS_FP);
+        if ($required <= $budget - $stuff->getPrice()) {
+            $stuff->incrementEffectiveness();
+            return true;
+        }
+
+        return false;
+    }
+
+    private function addProperty(Stuff $stuff, int $budget): bool
+    {
+        if ($stuff->getProperties()->count() >= 5) {
+            return false;
+        }
+
+        $property = $this->picker->pickPropertyCompatible(
+            $stuff,
+            Stuff::priceToFp($stuff, $budget - $stuff->getPrice())
         );
-    }
 
-    public function generateRandomStuff(): Stuff
-    {
-        return new Stuff();
-    }
+        if ($property) {
+            $stuff->addProperty($property);
+            return true;
+        }
 
-    private function pickOne(array $list)
-    {
-        return $list[array_rand($list)];
+        return false;
     }
 }

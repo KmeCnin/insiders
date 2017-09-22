@@ -2,17 +2,14 @@
 
 namespace App\Controller;
 
-use App\Entity\Stuff;
-use App\Form\Type\StuffType;
 use App\Service\StuffGenerator;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class StuffController extends AbstractController
+class StuffController extends AppController
 {
     private $generator;
 
@@ -21,29 +18,29 @@ class StuffController extends AbstractController
         $this->generator = $generator;
     }
 
-    /**
-     * @Route("/stuff/create", name="stuff.create")
-     */
-    public function createAction(Request $request): Response
-    {
-        $stuff = new Stuff();
-
-        $form = $this
-            ->createForm(StuffType::class, $stuff)
-            ->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($stuff);
-            $em->flush();
-
-            return $this->redirectToRoute('home');
-        }
-
-        return $this->render('pages/crud/edit.html.twig', [
-            'form' => $form->createView(),
-        ]);
-    }
+//    /**
+//     * @Route("/stuff/create", name="stuff.create")
+//     */
+//    public function createAction(Request $request): Response
+//    {
+//        $stuff = new Stuff();
+//
+//        $form = $this
+//            ->createForm(StuffType::class, $stuff)
+//            ->handleRequest($request);
+//
+//        if ($form->isSubmitted() && $form->isValid()) {
+//            $em = $this->getDoctrine()->getManager();
+//            $em->persist($stuff);
+//            $em->flush();
+//
+//            return $this->redirectToRoute('home');
+//        }
+//
+//        return $this->render('pages/crud/edit.html.twig', [
+//            'form' => $form->createView(),
+//        ]);
+//    }
 
     /**
      * @Route("/stuff/generate", name="stuff.generate")
@@ -62,7 +59,7 @@ class StuffController extends AbstractController
         $stuff = null;
         if ($form->isSubmitted() && $form->isValid()) {
             $data = $form->getData();
-            $stuff = $this->generator->pickBudgetedStuff($data['budget']);
+            $stuff = $this->generator->generateBudgetedStuff($data['budget']);
         }
 
         return $this->render('pages/stuff/generate.html.twig', [

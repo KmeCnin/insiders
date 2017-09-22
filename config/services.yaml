@@ -11,15 +11,23 @@ services:
         autoconfigure: true
         public: true
 
+    App\Command\:
+        resource: '../src/Command'
+        autowire: true
+
     App\Form\Type\:
         resource: '../src/Form/Type'
         autowire: true
+
+    App\Service\StuffGenerator:
+        arguments:
+            - '@App\Service\StuffPicker'
+
+    App\Service\StuffPicker:
+        arguments:
+            - '@doctrine.orm.entity_manager'
 
     App\Service\Transporter\RuleTransporter:
         arguments:
             - '@doctrine.orm.entity_manager'
             - '@form.factory'
-
-    App\Service\StuffGenerator:
-        arguments:
-            - '@doctrine.orm.entity_manager'

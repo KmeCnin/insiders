@@ -111,5 +111,5 @@ easy_admin:
         StuffProperty:
             class: App\Entity\Rule\StuffProperty
             list:
-                fields: ['id', 'name', 'short', 'price', { property: stuffKinds, type: array }, 'enabled']
+                fields: ['id', 'name', 'short', 'fp', { property: stuffKinds, type: array }, 'enabled']
                 sort: ['id', 'ASC']

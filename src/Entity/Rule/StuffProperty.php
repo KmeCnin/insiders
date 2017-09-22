@@ -11,12 +11,11 @@ use Doctrine\ORM\Mapping as ORM;
 class StuffProperty extends AbstractRule
 {
     /**
-     * @var int
+     * @var float
      *
-     * @ORM\Column(type="integer", nullable=false)
+     * @ORM\Column(type="float", nullable=false)
      */
-    protected $price;
-
+    protected $fp;
     /**
      * @var string
      *
@@ -38,14 +37,14 @@ class StuffProperty extends AbstractRule
         $this->stuffKinds = new ArrayCollection([]);
     }
 
-    public function getPrice(): ?int
+    public function getFp(): ?float
     {
-        return $this->price;
+        return $this->fp;
     }
 
-    public function setPrice(int $price): self
+    public function setFp(float $fp): self
     {
-        $this->price = $price;
+        $this->fp = $fp;
 
         return $this;
     }
@@ -96,7 +95,7 @@ class StuffProperty extends AbstractRule
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
-            'price' => $this->getPrice(),
+            'fp' => $this->getFp(),
             'short' => $this->getShort(),
             'stuffKinds' => array_map(function (StuffKind $kind) {
                 return $kind->getSlug();
