@@ -4,6 +4,7 @@ namespace App\Service;
 
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Entity\Rule\Deity;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -32,6 +33,7 @@ class MarkdownRenderer
     {
         return [
             Ability::class => 'abilities',
+            Deity::class => 'deities',
         ];
     }
 
@@ -58,6 +60,11 @@ class MarkdownRenderer
                 $parameters = [
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
                     'abilities' => $this->em->getRepository(Ability::class)->findAll(),
+                ];
+                break;
+            case Deity::class:
+                $parameters = [
+                    'deities' => $this->em->getRepository(Deity::class)->findAll(),
                 ];
                 break;
             default:
