@@ -64,7 +64,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 - Ne s&#039;inflige plus de blessures
 
 
-### Électromagnétisme
+### Électromagnétisme
 
 **Maîtrise les champs magnétiques**
 
