@@ -11,6 +11,8 @@
 {# @var arcane \App\Entity\Rule\Arcane #}
 ## {{ arcane.name }}
 
+{{ arcane.description }}
+
 {% for ability in abilities %}
 {# @var ability \App\Entity\Rule\Ability #}
 {% if ability.arcane == arcane %}

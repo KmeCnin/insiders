@@ -1,50 +1,66 @@
 [
     {
         "id": 1,
-        "slug": "elements",
+        "slug": "source",
         "name": "La Source",
-        "enabled": true
+        "enabled": true,
+        "short": "La Source est l'énergie qui parcourt le monde matériel",
+        "description": "Le monde matériel inanimé est parcourut de différents éléments qui constituent sont essence et régulent les interactions entre les choses. Un élément est un phénomène qui implique une fluctuation de l'état de la matière comme une réaction de chimique de combustion, une onde sonore, un champ électromagnétique, un courant électrique, un flux thermique, etc.\r\n\r\nLes initiés capables de gouverner cette essence élémentaire sont à même d'enflammer l'air, d'électrifier leurs ennemis, d’aimanter des équipements métalliques, de faire fortement varier la température locale, de modifier la météo, etc."
     },
     {
         "id": 2,
         "slug": "ether",
         "name": "L'Ether",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 3,
         "slug": "life",
         "name": "L'Essence",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 4,
         "slug": "death",
         "name": "La Purge",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 5,
         "slug": "space-time",
         "name": "La Toile",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 6,
         "slug": "intellect",
         "name": "L'Esprit",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 7,
         "slug": "illusion",
         "name": "Le Voile",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 8,
         "slug": "coercive",
         "name": "L'Etau",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     }
 ]
