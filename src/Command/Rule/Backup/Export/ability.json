@@ -4,7 +4,7 @@
         "slug": "combustion",
         "name": "Combustion",
         "enabled": true,
-        "arcane": "elements",
+        "arcane": "source",
         "short": "Peut initier des réactions de combustion",
         "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I.\r\nIl résiste aux brûlures.",
         "increases": [
@@ -24,7 +24,7 @@
         "slug": "electrocution",
         "name": "Courant électrique",
         "enabled": true,
-        "arcane": "elements",
+        "arcane": "source",
         "short": "Peut générer des courants électriques",
         "description": "Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies au contact, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions.",
         "increases": [
@@ -44,7 +44,7 @@
         "slug": "sound",
         "name": "Onde sonore",
         "enabled": true,
-        "arcane": "elements",
+        "arcane": "source",
         "short": "Peut projeter des ondes sonores puissantes",
         "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\nIl peut également simuler des sons très simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop précis ou délicats comme de la musique.\r\nDans tous les cas, les ondes sonores générées sont issues du joueur et ne peuvent pas partir de sources distantes.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut sonner un personnage, qui minimisera alors automatiquement son  prochain jet de Résister.\r\nIl résiste aux sons.",
         "increases": [
@@ -64,7 +64,7 @@
         "slug": "lightning",
         "name": "Foudre",
         "enabled": true,
-        "arcane": "elements",
+        "arcane": "source",
         "short": "Peut invoquer des orages",
         "description": "Le personnage est capable de commander la météo environnante.\r\nCela lui permet par exemple d'invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants. Il doit également réussir un jet de Défendre (contre lui-même) pour résister à sa propre attaque (blessures réduites de I rang en cas d'échec grâce à ses résistances contre les brûlures et l'électrocution).",
         "increases": [
@@ -84,7 +84,7 @@
         "slug": "electromagnetism",
         "name": "Électromagnétisme",
         "enabled": true,
-        "arcane": "elements",
+        "arcane": "source",
         "short": "Maîtrise les champs magnétiques",
         "description": "Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.\r\nCela lui permet par exemple d'aimanter des équipements métalliques à distance, de savoir s'orienter en permanence (il localise le Nord magnétique), attirer à lui des objets métalliques, etc.\r\n\r\nGrâce à un jet d'Attaque à distance il peut désarmer un adversaire équipé d'une arme métallique et envoyer son arme loin de lui.\r\nGrâce à un jet d'Attaque à distance il peut plaquer au sol un adversaire équipé d'une armure métallique.",
         "increases": [],
@@ -99,7 +99,7 @@
         "slug": "tectonic",
         "name": "Tectonique",
         "enabled": true,
-        "arcane": "elements",
+        "arcane": "source",
         "short": "Peut créer des séismes",
         "description": "Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.\r\nCela lui permet par exemple de briser un rocher d'un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.\r\n\r\nGrâce à un jet d'Attaque à distance il peut faire tomber les adversaires à portée.",
         "increases": [],
@@ -114,7 +114,7 @@
         "slug": "thermodynamics",
         "name": "Thermodynamique",
         "enabled": true,
-        "arcane": "elements",
+        "arcane": "source",
         "short": "Peut faire rapidement varier la température",
         "description": "Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d'une zone précise.\r\nCela lui permet par exemple de solidifier ou vaporiser de l'eau, geler ou brûler des tissus vivants au contact, etc.\r\n\r\nGrâce à un jet d'Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).\r\nGrâce à un jet d'Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.\r\nIl résiste aux brûlures.\r\nIl résiste aux gelures.",
         "increases": [

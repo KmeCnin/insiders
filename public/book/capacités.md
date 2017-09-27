@@ -6,6 +6,12 @@
 [La Source](#la-source) - [L&#039;Ether](#lether) - [L&#039;Essence](#lessence) - [La Purge](#la-purge) - [La Toile](#la-toile) - [L&#039;Esprit](#lesprit) - [Le Voile](#le-voile) - [L&#039;Etau](#letau)
 ## La Source
 
+Le monde matériel inanimé est parcourut de différents éléments qui constituent sont essence et régulent les interactions entre les choses. Un élément est un phénomène qui implique une fluctuation de l&#039;état de la matière comme une réaction de chimique de combustion, une onde sonore, un champ électromagnétique, un courant électrique, un flux thermique, etc.
+
+Les initiés capables de gouverner cette essence élémentaire sont à même d&#039;enflammer l&#039;air, d&#039;électrifier leurs ennemis, d’aimanter des équipements métalliques, de faire fortement varier la température locale, de modifier la météo, etc.
+
+Cet arcane destructeur et polyvalent convient aux individus désireux d’affronter leurs ennemies de manière frontale et de dompter les forces naturelles.
+
 ### Combustion
 
 **Peut initier des réactions de combustion**
@@ -109,6 +115,12 @@ Il résiste aux gelures.
 
 ## L&#039;Ether
 
+Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide dicte à la matière la manière dont elle doit se mouvoir et interagir.
+
+Les initiés capables de percevoir et maîtriser cette substance ténue sont à même de déplacer la matière par la pensée, qu&#039;elle soit animée ou non, de solidifier l&#039;Ether pour en faire des barrières infranchissables, de se déplacer à des vitesses surpassant les limites physiques, etc.
+
+Cet arcane puissant bien que discret convient aux personnalités recherchant l&#039;efficacité avant la grandiloquence et désireux de faire de leur environnement leur meilleur allié.
+
 ### Psychokinèse
 
 **Peut déplacer les objets légers par la pensée**
@@ -153,6 +165,8 @@ Les individus (y compris le personnage) désirant ignorer le champ de force doiv
 
 
 ## L&#039;Essence
+
+
 
 ### Poings d&#039;obsylène
 
@@ -239,6 +253,8 @@ La moindre blessure de degré I suffit à le détruire complètement. La blessur
 
 ## La Purge
 
+
+
 ### Contact nécrotique
 
 **Corrompt la vie**
@@ -311,6 +327,8 @@ A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de 
 
 ## La Toile
 
+
+
 ### Vision
 
 **Peut voir le présent, le passé ou le futur d&#039;une entité éloignée**
@@ -380,6 +398,8 @@ Le personnage peut se déplacer instantanément dans un lieu où il a déjà ét
 
 ## L&#039;Esprit
 
+
+
 ### Lévitation
 
 **Se déplace dans les airs**
@@ -444,6 +464,8 @@ Le personnage ne peut invoquer qu&#039;une créature à la fois.
 
 
 ## Le Voile
+
+
 
 ### Marche fantomatique
 
@@ -510,6 +532,8 @@ Il ne peut maintenir qu&#039;une illusion à la fois.
 
 
 ## L&#039;Etau
+
+
 
 ### Confidence
 

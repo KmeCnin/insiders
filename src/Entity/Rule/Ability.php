@@ -69,7 +69,7 @@ class Ability extends AbstractRule
     {
         parent::__construct();
 
-            $this->increases = new ArrayCollection([]);
+        $this->increases = new ArrayCollection([]);
         $this->abilitiesRequired = new ArrayCollection();
         $this->abilitiesUnlocked = new ArrayCollection();
         $this->setShort('');
