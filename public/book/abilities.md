@@ -2,9 +2,9 @@
 - [Capacités](/abilities.md.twig)
 # Capacités
 
-## La Source
+## La Source
 
-### Combustion
+### Combustion
 
 **Peut initier des réactions de combustion**
 
