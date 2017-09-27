@@ -19,7 +19,7 @@
 {% for required in ability.abilitiesRequired %}
 {# @var required \App\Entity\Rule\Ability #}
 {% if loop.index > 1 %}, {% endif %}
-[{{ required.name }}](#{{ required.name|replace({' ': "-"}) }}){% endfor %}
+[{{ required.name }}](#{{ required.name|replace({' ': "-"})|lower }}){% endfor %}
 
 
 {% endif %}
