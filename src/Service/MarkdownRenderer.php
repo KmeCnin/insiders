@@ -37,6 +37,14 @@ class MarkdownRenderer
         ];
     }
 
+    public static function files(): array
+    {
+        return [
+            Ability::class => 'capacités',
+            Deity::class => 'divinités',
+        ];
+    }
+
     public static function view(string $namespace): string
     {
         return 'markdown/'.self::entities()[$namespace].'.md.twig';
@@ -45,9 +53,9 @@ class MarkdownRenderer
     public function export(): void
     {
         $fs = new Filesystem();
-        foreach (self::entities() as $namespace => $slug) {
+        foreach (self::files() as $namespace => $file) {
             $this->log("Exporting entity <comment>".$namespace."</comment>...");
-            $filePath = $this->root.self::PATH_EXPORT.'/'.$slug.'.md';
+            $filePath = $this->root.self::PATH_EXPORT.'/'.$file.'.md';
             $fs->dumpFile($filePath, $this->render($namespace));
             $this->log("    <info>Done</info> into file ".$filePath);
         }

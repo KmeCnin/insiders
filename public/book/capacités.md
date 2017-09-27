@@ -1,4 +1,6 @@
-**Pages:** [Capacités](/abilities.md.twig) - [Divinités](/deities.md.twig)
+**Pages:**
+[Capacités](../blob/master/public/book/capacités.md) -
+[Divinités](../blob/master/public/book/divinités.md)
 # Capacités
 **Arcanes:**
 [La Source](#la-source) - [L&#039;Ether](#lether) - [L&#039;Essence](#lessence) - [La Purge](#la-purge) - [La Toile](#la-toile) - [L&#039;Esprit](#lesprit) - [Le Voile](#le-voile) - [L&#039;Etau](#letau)

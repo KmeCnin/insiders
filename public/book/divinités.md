@@ -1,4 +1,6 @@
-**Pages:** [Capacités](/abilities.md.twig) - [Divinités](/deities.md.twig)
+**Pages:**
+[Capacités](../blob/master/public/book/capacités.md) -
+[Divinités](../blob/master/public/book/divinités.md)
 # Divinités
 
 ## Valerius "Le Dragon à 5 têtes"
