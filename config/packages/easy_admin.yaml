@@ -16,6 +16,7 @@ easy_admin:
             - Deity
             - StuffKind
             - StuffProperty
+            - StuffPropertyKind
     entities:
         # General
         User:
@@ -111,5 +112,10 @@ easy_admin:
         StuffProperty:
             class: App\Entity\Rule\StuffProperty
             list:
-                fields: ['id', 'name', 'short', 'price', { property: stuffKinds, type: array }, 'enabled']
+                fields: ['id', 'name', 'kind', 'short', 'fp', { property: stuffKinds, type: array }, 'enabled']
+                sort: ['id', 'ASC']
+        StuffPropertyKind:
+            class: App\Entity\Rule\StuffPropertyKind
+            list:
+                fields: ['id', 'name', 'enabled']
                 sort: ['id', 'ASC']

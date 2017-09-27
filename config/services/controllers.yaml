@@ -1,0 +1,4 @@
+services:
+    App\Controller\StuffController:
+        arguments:
+            - '@App\Service\StuffGenerator'

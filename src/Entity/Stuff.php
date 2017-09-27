@@ -13,9 +13,19 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Stuff extends AbstractEntity
 {
-    const BASE_PRICE = 9000;
+    // Price equivalent to 1 FP.
+    const FP_PRICE = 10000;
+    // Number of expendables equivalent to the same permanent stuff.
+    const EXPENDABLE_FRACTION = 50;
+    // FP of one degree of effectiveness.
+    const EFFECTIVENESS_FP = 0.9;
 
-    const FRACTION_PRICE = 50;
+    /**
+     * @var string
+     *
+     * @ORM\Column(type="string")
+     */
+    protected $name;
 
     /**
      * @var int
@@ -53,6 +63,18 @@ class Stuff extends AbstractEntity
         $this->properties = new ArrayCollection([]);
     }
 
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): self
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
     public function getEffectiveness(): ?int
     {
         return $this->effectiveness;
@@ -62,6 +84,14 @@ class Stuff extends AbstractEntity
     {
         $this->effectiveness = $effectiveness;
         $this->setRank($effectiveness);
+
+        return $this;
+    }
+
+    public function incrementEffectiveness(): self
+    {
+        $this->effectiveness++;
+        $this->setRank($this->effectiveness);
 
         return $this;
     }
@@ -78,6 +108,9 @@ class Stuff extends AbstractEntity
         return $this;
     }
 
+    /**
+     * @return StuffProperty[]
+     */
     public function getProperties(): Collection
     {
         return $this->properties;
@@ -121,14 +154,36 @@ class Stuff extends AbstractEntity
         return $this;
     }
 
+    public function isWeapon(): bool
+    {
+        return $this->getKind()->getSlug() === StuffKind::KIND_WEAPON;
+    }
+
     public function getPrice(): int
     {
-        $price = 0;
+        // Properties
+        $fp = 0;
         foreach ($this->properties as $property) {
-            $price += $property->getPrice();
+            $fp += $property->getFp();
         }
 
-        $price += $this->effectiveness * self::BASE_PRICE;
-        return $this->expendable ? $price/self::FRACTION_PRICE : $price;
+        // Effectiveness
+        $fp += $this->effectiveness * self::EFFECTIVENESS_FP;
+
+        return self::fpToPrice($this, $fp);
+    }
+
+    public static function priceToFp(Stuff $stuff, int $price): float
+    {
+        return $stuff->expendable
+            ? $price / (self::FP_PRICE*self::EXPENDABLE_FRACTION)
+            : $price / self::FP_PRICE;
+    }
+
+    public static function fpToPrice(Stuff $stuff, float $fp): int
+    {
+        return $stuff->expendable
+            ? $fp * (self::FP_PRICE/self::EXPENDABLE_FRACTION)
+            : $fp * self::FP_PRICE;
     }
 }

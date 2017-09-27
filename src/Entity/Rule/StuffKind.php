@@ -9,4 +9,5 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class StuffKind extends AbstractRule
 {
+    const KIND_WEAPON = 'weapon';
 }
