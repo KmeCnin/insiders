@@ -2,6 +2,7 @@
 
 namespace App\Command\Rule;
 
+use App\Service\MarkdownRenderer;
 use Symfony\Component\Filesystem\Filesystem;
 
 class RuleExportCommand extends AbstractRuleCommand
@@ -18,10 +19,16 @@ class RuleExportCommand extends AbstractRuleCommand
     protected function transport(): void
     {
         $this->output->writeln(
-            'Exporting <comment>rules</comment> data from database to json files...'
+            'Exporting <comment>rules</comment> data from database to <comment>json</comment> files...'
         );
-
         $this->transporter->export($this->absPath(self::PATH_PUBLIC));
+
+        $this->output->writeln(
+            "\n".'Exporting <comment>rules</comment> data from database to <comment>markdown</comment> files...'
+        );
+        $this->getContainer()->get(MarkdownRenderer::class)
+            ->setOutput($this->output)
+            ->export();
     }
 
     protected function backup(): void

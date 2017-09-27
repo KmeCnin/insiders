@@ -30,6 +30,13 @@ class StuffProperty extends AbstractRule
      */
     protected $stuffKinds;
 
+    /**
+     * @var StuffPropertyKind
+     *
+     * @ORM\ManyToOne(targetEntity="StuffPropertyKind")
+     */
+    protected $kind;
+
     public function __construct()
     {
         parent::__construct();
@@ -92,11 +99,34 @@ class StuffProperty extends AbstractRule
         return $this;
     }
 
+    public function getKind(): ?StuffPropertyKind
+    {
+        return $this->kind;
+    }
+
+    public function setKind(StuffPropertyKind $kind): self
+    {
+        $this->kind = $kind;
+
+        return $this;
+    }
+
+    public function isWound(): bool
+    {
+        return $this->getKind()->getSlug() === StuffPropertyKind::KIND_WOUND;
+    }
+
+    public function isNotWound(): bool
+    {
+        return $this->getKind()->getSlug() !== StuffPropertyKind::KIND_WOUND;
+    }
+
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
             'fp' => $this->getFp(),
             'short' => $this->getShort(),
+            'kind' => $this->getKind()->getSlug(),
             'stuffKinds' => array_map(function (StuffKind $kind) {
                 return $kind->getSlug();
             }, iterator_to_array($this->getStuffKinds())),

@@ -26,10 +26,10 @@
         "enabled": true,
         "arcane": "elements",
         "short": "Peut générer des courants électriques",
-        "description": "Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies à distance, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions.",
+        "description": "Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies au contact, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions.",
         "increases": [
             {
-                "short": "Augmente la portée des décharges produites",
+                "short": "Peut blesser à distance",
                 "description": "Le personnage est capable de produire des décharges électriques puissantes à distance, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies à distance, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions."
             }
         ],
@@ -49,7 +49,7 @@
         "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\nIl peut également simuler des sons très simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop précis ou délicats comme de la musique.\r\nDans tous les cas, les ondes sonores générées sont issues du joueur et ne peuvent pas partir de sources distantes.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut sonner un personnage, qui minimisera alors automatiquement son  prochain jet de Résister.\r\nIl résiste aux sons.",
         "increases": [
             {
-                "short": "Blesse en plus de sonner",
+                "short": "Inflige une blessure de degré I en plus de sonner",
                 "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de blesser et sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I et sonner un personnage, qui minimisera alors automatiquement son prochain jet de Résister.\r\nIl résiste aux sons."
             }
         ],
@@ -69,7 +69,7 @@
         "description": "Le personnage est capable de commander la météo environnante.\r\nCela lui permet par exemple d'invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants. Il doit également réussir un jet de Défendre (contre lui-même) pour résister à sa propre attaque (blessures réduites de I rang en cas d'échec grâce à ses résistances contre les brûlures et l'électrocution).",
         "increases": [
             {
-                "short": "Ne s'inflige pas de blessures",
+                "short": "Ne s'inflige plus de blessures",
                 "description": "Le personnage est capable de commander la météo environnante.\r\nCela lui permet par exemple d'invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants excepté lui-même."
             }
         ],
@@ -119,7 +119,7 @@
         "description": "Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d'une zone précise.\r\nCela lui permet par exemple de solidifier ou vaporiser de l'eau, geler ou brûler des tissus vivants au contact, etc.\r\n\r\nGrâce à un jet d'Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).\r\nGrâce à un jet d'Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.\r\nIl résiste aux brûlures.\r\nIl résiste aux gelures.",
         "increases": [
             {
-                "short": "Peut faire chauffer du métal à blanc",
+                "short": "Peut faire chauffer du métal à blanc et augmenter les blessures de ses armes d'un degré",
                 "description": "Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d'une zone précise.\r\nCela lui permet par exemple de solidifier ou vaporiser de l'eau, geler ou brûler des tissus vivants au contact, chauffer à blanc des pièces métalliques, etc.\r\n\r\nGrâce à un jet d'Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).\r\nGrâce à un jet d'Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.\r\nIl résiste aux brûlures.\r\nIl résiste aux gelures.\r\nIl peut chauffer à blanc les extrémités de ses armes en métal (épée, dague, pointes de flèche...) leur conférant un bonus d'un degré de blessure supplémentaire."
             }
         ],
@@ -136,7 +136,7 @@
         "description": "Les extrémités des membres du personnage sont faites d'un matériau noir extrêmement solide appelé obsylène.\r\nCela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets en métal non équipés, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.",
         "increases": [
             {
-                "short": "Détruit les équipements portés",
+                "short": "Détruit également les équipements portés",
                 "description": "Les extrémités des membres du personnage sont faites d'un matériau noir extrêmement solide appelé obsylène.\r\nCela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets ou des équipements en métal, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.\r\nGrâce à un jet d'Attaquer au contact contre un adversaire suivit d'un jet d'Imposer contre un équipement, il peut le détruire."
             }
         ],
@@ -191,7 +191,7 @@
         "description": "Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habituelle sans besoin de concentration particulière.",
         "increases": [
             {
-                "short": "Augmente la vitesse de déplacement",
+                "short": "Augmente la vitesse de déplacement de manière surnaturelle",
                 "description": "Le personnage peut se déplacer dans les airs à une vitesse surnaturelle sans besoin de concentration particulière."
             }
         ],
@@ -208,7 +208,7 @@
         "description": "Le personnage est capable de projeter son énergie vitale dans un être vivant.\r\nCela lui permet par exemple de guérir les blessures de ses alliés, d'inhiber le poison présent dans la nourriture et l'eau, de redonner vie à des végétaux morts, etc.\r\n\r\nGrâce à un jet de Résister au contact contre une blessure, il peut la guérir immédiatement (au lieu d'attendre un jour) et retenter une guérison autant de fois qu'il le souhaite.",
         "increases": [
             {
-                "short": "Augmente la portée du transfert",
+                "short": "Peut guérir à distance",
                 "description": "Le personnage est capable de projeter son énergie vitale dans un être vivant.\r\nCela lui permet par exemple de guérir les blessures de ses alliés, d'inhiber le poison présent dans la nourriture et l'eau, de redonner vie à des végétaux morts, etc.\r\n\r\nGrâce à un jet de Résister à distance contre une blessure, il peut la guérir immédiatement (au lieu d'attendre un jour) et retenter une guérison autant de fois qu'il le souhaite."
             }
         ],
@@ -314,7 +314,7 @@
         "description": "Le personnage aspire l'énergie vitale des êtres vivants.\r\nCela lui permet par exemple de se soigner au contact d'adversaires ou de petits animaux, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré I et grâce à un jet de Résister peut tenter de soigner une de ses blessures.",
         "increases": [
             {
-                "short": "Augmente la capacité d'absorption",
+                "short": "Augmente d'un degré la blessure infligée",
                 "description": "Le personnage aspire l'énergie vitale des êtres vivants.\r\nCela lui permet par exemple de se soigner au contact d'adversaires ou de petits animaux, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II et grâce à un jet de Résister peut tenter de soigner une de ses blessures."
             }
         ],
@@ -331,7 +331,7 @@
         "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré II afin d'essayer d'infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister.",
         "increases": [
             {
-                "short": "Diminue les blessures reçues",
+                "short": "Diminue d'un degré la blessure reçue",
                 "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré I afin d'essayer d'infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister."
             }
         ],
@@ -348,23 +348,23 @@
         "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le double de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres.",
         "increases": [
             {
-                "short": "Augmente le nombre de morts-vivants animables",
+                "short": "Peut animer trois fois son score de Résister",
                 "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le triple de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
             },
             {
-                "short": "Augmente le nombre de morts-vivants animables",
+                "short": "Peut animer quatre fois son score de Résister",
                 "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas quatre fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
             },
             {
-                "short": "Augmente le nombre de morts-vivants animables",
+                "short": "Peut animer cinq fois son score de Résister",
                 "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas cinq fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
             },
             {
-                "short": "Augmente le nombre de morts-vivants animables",
+                "short": "Peut animer six fois son score de Résister",
                 "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas six fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
             },
             {
-                "short": "Augmente le nombre de morts-vivants animables",
+                "short": "Peut animer sept fois son score de Résister",
                 "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas sept fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
             }
         ],
@@ -522,12 +522,12 @@
         "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.",
         "increases": [
             {
-                "short": "Peut créer plus de clones",
+                "short": "Chaque clone possède un point dans une caractéristique au choix",
                 "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Chaque double créé possède un point gratuit dans une caractéristique au choix du personnage ce qui lui permet de ne créer un clone qu'avec seulement 3 de ses points de caractéristique. Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques."
             },
             {
-                "short": "Peut créer plus de clones",
-                "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Chaque double créé possède un point gratuit dans deux caractéristiques au choix du personnage ce qui lui permet de ne créer un clone qu'avec seulement 3 de ses points de caractéristique. Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques."
+                "short": "Chaque clone possède un point dans deux caractéristiques au choix",
+                "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Chaque double créé possède un point gratuit dans deux caractéristiques au choix du personnage ce qui lui permet de ne créer un clone qu'avec seulement 2 de ses points de caractéristique. Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques."
             }
         ],
         "abilitiesRequired": [],
@@ -581,12 +581,12 @@
         "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au score d'Instinct en Dévoiler du personnage.",
         "increases": [
             {
-                "short": "Familier plus puissant",
-                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au double du score d'Instinct en Dévoiler du personnage."
+                "short": "Le FP du familier peut être le double du score de Dévoiler",
+                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au double du score d'Instinct en Dévoiler du personnage."
             },
             {
-                "short": "Familier plus puissant",
-                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe personnage doit posséder au moins autant de points d'Instinct en Découvrir que le Facteur de Puissance du familier.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au triple du score d'Instinct en Dévoiler du personnage."
+                "short": "Le FP du familier peut être le triple du score de Dévoiler",
+                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au triple du score d'Instinct en Dévoiler du personnage."
             }
         ],
         "abilitiesRequired": [],
@@ -602,23 +602,23 @@
         "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer qu'une créature à la fois.",
         "increases": [
             {
-                "short": "Invoque plus de créatures",
+                "short": "Invoque deux créatures à la fois",
                 "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que deux créatures à la fois."
             },
             {
-                "short": "Invoque plus de créatures",
+                "short": "Invoque trois créatures à la fois",
                 "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que trois créatures à la fois."
             },
             {
-                "short": "Invoque plus de créatures",
+                "short": "Invoque quatre créatures à la fois",
                 "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que quatre créatures à la fois."
             },
             {
-                "short": "Invoque plus de créatures",
+                "short": "Invoque cinq créatures à la fois",
                 "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que cinq créatures à la fois."
             },
             {
-                "short": "Invoque plus de créatures",
+                "short": "Invoque six créatures à la fois",
                 "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que six créatures à la fois."
             }
         ],
@@ -675,7 +675,7 @@
         "description": "Le personnage est capable de projeter une aura immatérielle autour de lui.\r\nCela lui permet de se faire passer pour n'importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L'illusion suit le personnage où qu'il aille, elle peut être active pour simuler la respiration ou les mouvements d'êtres vivants mais est purement visuelle.\r\nUn personnage ayant un doute et réussissant un jet de Dévoiler ou un personnage entrant en contact avec l'illusion peut le voir tel qu'il est vraiment (il a alors conscience de la tentative de supercherie).",
         "increases": [
             {
-                "short": "Simule des sons",
+                "short": "Simule également des sons simples",
                 "description": "Le personnage est capable de projeter une aura immatérielle autour de lui.\r\nCela lui permet de se faire passer pour n'importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L'illusion suit le personnage où qu'il aille, elle peut être active pour simuler la respiration ou les mouvements d'êtres vivants. Il peut également simuler des sons simples comme de la respiration, des grognements, des pas, etc. mais pas de paroles ou de musiques.\r\nUn personnage ayant un doute et réussissant un jet de Dévoiler ou un personnage entrant en contact avec l'illusion peut le voir tel qu'il est vraiment (il a alors conscience de la tentative de supercherie)."
             }
         ],
@@ -692,11 +692,11 @@
         "description": "Le personnage peut créer des doubles illusoires de lui-même.\r\nIl peut en invoquer jusqu’à un maximum égale à son score d'Instinct en Dissimuler mais doit les invoquer un par un.\r\nLes doubles agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel. Un adversaire doit réussir un jet de Dévoiler sur chaque double individuellement pour déceler la supercherie.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLe moindre contact le transperçant suffit à le détruire complètement.",
         "increases": [
             {
-                "short": "Augmente le nombre de doubles",
+                "short": "Peut créer autant de doubles que le double de son score de Dissimuler",
                 "description": "Le personnage peut créer des doubles illusoires de lui-même.\r\nIl peut en invoquer jusqu’à un maximum égale au double de son score d'Instinct en Dissimuler et peut les invoquer deux par deux.\r\nLes doubles agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel. Un adversaire doit réussir un jet de Dévoiler sur chaque double individuellement pour déceler la supercherie.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLe moindre contact le transperçant suffit à le détruire complètement."
             },
             {
-                "short": "Augmente le nombre de doubles",
+                "short": "Peut créer autant de doubles que le triple de son score de Dissimuler",
                 "description": "Le personnage peut créer des doubles illusoires de lui-même.\r\nIl peut en invoquer jusqu’à un maximum égale au triple de son score d'Instinct en Dissimuler et peut les invoquer trois par trois.\r\nLes doubles agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel. Un adversaire doit réussir un jet de Dévoiler sur chaque double individuellement pour déceler la supercherie.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLe moindre contact le transperçant suffit à le détruire complètement."
             }
         ],
@@ -713,11 +713,11 @@
         "description": "Le personnage peut créer un objet inanimé immatériel.\r\nCela lui permet par exemple de créer une petite construction (comme un pan de mur, un autel...), un équipement, un animal, un personnage, etc. L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée.\r\nUn personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.\r\nIl ne peut maintenir qu'une illusion à la fois.",
         "increases": [
             {
-                "short": "Peut créer plus d'illusions et plus grandes",
+                "short": "Peut maintenir deux illusions simultanément de la taille d'une petite habitation",
                 "description": "Le personnage peut créer un objet inanimé immatériel.\r\nCela lui permet par exemple de créer une construction de taille moyenne (comme une cabane, une barque, une arme de siège...), un râtelier, une meute d'animaux, un groupe de personnages, etc. L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée.\r\nUn personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.\r\nIl ne peut maintenir que deux illusions à la fois."
             },
             {
-                "short": "Peut créer plus d'illusions et plus grandes",
+                "short": "Peut maintenir trois illusions simultanément de la taille d'un grand bâtiment",
                 "description": "Le personnage peut créer un objet inanimé immatériel.\r\nCela lui permet par exemple de créer une construction de grande taille (comme un manoir, un navire...), une armée, etc. L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée.\r\nUn personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.\r\nIl ne peut maintenir que trois illusions à la fois."
             }
         ],
@@ -734,7 +734,7 @@
         "description": "Le personnage peut semer le doute dans un esprit.\r\nCela lui permet par exemple de pouvoir détourner l'attention d'une cible pendant un instant, d'affaiblir un esprit à corrompre, etc.\r\nLa cible n'est alors pas consciente de l'origine de l'agression.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut distraire une cible qui minimisera alors automatiquement son prochain jet de Dévoiler.",
         "increases": [
             {
-                "short": "Blesse en plus de distraire",
+                "short": "Inflige une blessure de degré I en plus de distraire",
                 "description": "Le personnage peut semer le doute dans un esprit.\r\nCela lui permet par exemple de pouvoir détourner l'attention d'une cible pendant un instant, d'affaiblir un esprit à corrompre, de blesser à distance, etc.\r\nLa cible n'est alors pas consciente de l'origine de l'agression.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut distraire une ciblequi minimisera alors automatiquement son prochain jet de Dévoiler.\r\nIl peut alors également choisir d'infliger une blessure de degré I."
             }
         ],

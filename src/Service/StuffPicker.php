@@ -3,10 +3,9 @@
 namespace App\Service;
 
 use App\Entity\Rule\CanonicalStuff;
-use App\Entity\Rule\StuffKind;
 use App\Entity\Rule\StuffProperty;
+use App\Entity\Rule\StuffPropertyKind;
 use App\Entity\Stuff;
-use Doctrine\Common\Collections\Criteria;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\Query\Expr\Join;
@@ -35,6 +34,30 @@ class StuffPicker
         );
     }
 
+    public function pickPermanentStuff(): ?Stuff
+    {
+        return $this->pickCanonicalStuff(false)->getStuff();
+    }
+
+    public function pickExpendableStuff(): ?Stuff
+    {
+        return $this->pickCanonicalStuff(true)->getStuff();
+    }
+
+    protected function pickCanonicalStuff(bool $expendable): ?CanonicalStuff
+    {
+        $list = $this->stuffRepository->createQueryBuilder('canonical')
+            ->join('canonical.stuff', 'stuff')
+            ->andWhere('stuff.expendable = :expendable')
+            ->andWhere('canonical.enabled = 1')
+            ->setParameter('expendable', $expendable)
+            ->getQuery()
+            ->getResult()
+        ;
+
+        return $this->pickOne($list);
+    }
+
     public function pickStuffCheaperThan(int $budget): ?Stuff
     {
         return $this->pickCanonicalStuffCheaperThan($budget)->getStuff();
@@ -46,25 +69,37 @@ class StuffPicker
 
     public function pickPropertyCompatible(Stuff $stuff, float $maxFp): ?StuffProperty
     {
-        $woundProperties = $this->getWoundProperties();
+        $woundProperties = array_map(
+            function (StuffProperty $property) {
+                return $property->getId();
+            },
+            $this->getWoundProperties()
+        );
 
         $excluded = [];
         foreach ($stuff->getProperties() as $property) {
-            /** @var StuffProperty $property */
+            if ($property->isWound()) {
+                array_merge($excluded, $woundProperties);
+                continue;
+            }
             $excluded[] = $property->getId();
         }
 
-        $list = $this->propertyRepository->createQueryBuilder('property')
+        $builder = $this->propertyRepository->createQueryBuilder('property')
             ->join('property.stuffKinds', 'kind', Join::WITH, 'kind = :kind')
             ->andWhere('property.fp <= :maxFp')
-            ->andWhere('property.id NOT IN (:excluded)')
             ->andWhere('property.enabled = 1')
             ->setParameter('maxFp', $maxFp)
-            ->setParameter('excluded', $excluded)
             ->setParameter('kind', $stuff->getKind())
-            ->getQuery()
-            ->getResult()
         ;
+
+        if (count($excluded)) {
+            $builder
+                ->andWhere('property.id NOT IN (:excluded)')
+                ->setParameter('excluded', $excluded);
+        }
+
+        $list = $builder->getQuery()->getResult();
 
         return $this->pickOne($list);
     }
@@ -72,11 +107,23 @@ class StuffPicker
     public function getWoundProperties(): array
     {
         return $this->propertyRepository->createQueryBuilder('property')
-            ->andWhere('property.slug LIKE :match')
+            ->join('property.kind', 'kind')
+            ->andWhere('kind.slug != :wound')
             ->andWhere('property.enabled = 1')
-            ->setParameter('match', 'wound-%')
+            ->setParameter('wound', StuffPropertyKind::KIND_WOUND)
             ->getQuery()
             ->getResult()
+            ;
+    }
+
+    public function getProperty(string $slug): StuffProperty
+    {
+        return $this->propertyRepository->createQueryBuilder('property')
+            ->andWhere('property.slug = :slug')
+            ->andWhere('property.enabled = 1')
+            ->setParameter('slug', $slug)
+            ->getQuery()
+            ->getSingleResult()
         ;
     }
 

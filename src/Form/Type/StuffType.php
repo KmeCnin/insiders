@@ -8,6 +8,7 @@ use App\Entity\Stuff;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\IntegerType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -25,6 +26,7 @@ class StuffType extends AbstractEntityType
         parent::buildForm($builder, $options);
 
         $builder
+            ->add('name', TextType::class)
             ->add('kind', EntityType::class, [
                 'class' => StuffKind::class,
                 'choice_value' => function ($kind) {

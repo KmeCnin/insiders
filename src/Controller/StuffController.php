@@ -59,7 +59,7 @@ class StuffController extends AppController
         $stuff = null;
         if ($form->isSubmitted() && $form->isValid()) {
             $data = $form->getData();
-            $stuff = $this->generator->generateBudgetedStuff($data['budget']);
+            $stuff = $this->generator->generatePermanentStuff($data['budget']);
         }
 
         return $this->render('pages/stuff/generate.html.twig', [

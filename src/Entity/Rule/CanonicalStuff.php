@@ -37,6 +37,14 @@ class CanonicalStuff extends AbstractRule
         return $this;
     }
 
+    public function setName(string $name): AbstractRule
+    {
+        parent::setName($name);
+        $this->stuff->setName($name);
+
+        return $this;
+    }
+
     public function getKind(): ?StuffKind
     {
         return $this->stuff->getKind();
@@ -112,12 +120,12 @@ class CanonicalStuff extends AbstractRule
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
-            'effectiveness' => $this->getStuff()->getEffectiveness(),
-            'kind' => $this->getStuff()->getKind()->getSlug(),
-            'expendable' => $this->getStuff()->isExpendable(),
+            'effectiveness' => $this->getEffectiveness(),
+            'kind' => $this->getKind()->getSlug(),
+            'expendable' => $this->isExpendable(),
             'properties' => array_map(function (StuffProperty $property) {
                 return $property->getSlug();
-            }, iterator_to_array($this->getStuff()->getProperties())),
+            }, iterator_to_array($this->getProperties())),
         ]);
     }
 }

@@ -19,6 +19,12 @@ services:
         resource: '../src/Form/Type'
         autowire: true
 
+    App\Service\MarkdownRenderer:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@twig'
+            - '%kernel.root_dir%'
+
     App\Service\StuffGenerator:
         arguments:
             - '@App\Service\StuffPicker'

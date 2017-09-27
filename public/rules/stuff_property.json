@@ -3,9 +3,10 @@
         "id": 1,
         "slug": "luminous",
         "name": "Lumineux",
-        "enabled": true,
+        "enabled": false,
         "fp": 0.2,
         "short": "Peut émettre de la lumière à la demande.",
+        "kind": "default",
         "stuffKinds": [
             "weapon",
             "armor",
@@ -20,6 +21,7 @@
         "enabled": true,
         "fp": 0.5,
         "short": "Ne peut pas être désarmé.",
+        "kind": "default",
         "stuffKinds": [
             "weapon",
             "object"
@@ -32,6 +34,7 @@
         "enabled": true,
         "fp": 3.6,
         "short": "Confère une résistance contre les blessures physiques.",
+        "kind": "default",
         "stuffKinds": [
             "armor",
             "shield"
@@ -44,6 +47,7 @@
         "enabled": true,
         "fp": 0.5,
         "short": "Confère une résistance contre les brûlures.",
+        "kind": "default",
         "stuffKinds": [
             "armor",
             "shield"
@@ -56,6 +60,7 @@
         "enabled": true,
         "fp": 0.5,
         "short": "Confère une résistance contre les électrocutions.",
+        "kind": "default",
         "stuffKinds": [
             "armor",
             "shield"
@@ -68,6 +73,7 @@
         "enabled": true,
         "fp": 0.9,
         "short": "Inflige une blessure de degré I.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon",
             "armor",
@@ -81,6 +87,7 @@
         "enabled": true,
         "fp": 1.8,
         "short": "Inflige une blessure de degré II.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon"
         ]
@@ -92,6 +99,7 @@
         "enabled": true,
         "fp": 3.6,
         "short": "Inflige une blessure de degré III.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon"
         ]
@@ -103,6 +111,7 @@
         "enabled": true,
         "fp": 0.9,
         "short": "Peut attaquer à distance.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon"
         ]

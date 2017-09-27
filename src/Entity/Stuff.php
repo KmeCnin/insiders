@@ -21,6 +21,13 @@ class Stuff extends AbstractEntity
     const EFFECTIVENESS_FP = 0.9;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(type="string")
+     */
+    protected $name;
+
+    /**
      * @var int
      *
      * @ORM\Column(type="integer", nullable=false)
@@ -56,6 +63,18 @@ class Stuff extends AbstractEntity
         $this->properties = new ArrayCollection([]);
     }
 
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): self
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
     public function getEffectiveness(): ?int
     {
         return $this->effectiveness;
@@ -89,6 +108,9 @@ class Stuff extends AbstractEntity
         return $this;
     }
 
+    /**
+     * @return StuffProperty[]
+     */
     public function getProperties(): Collection
     {
         return $this->properties;
@@ -130,6 +152,11 @@ class Stuff extends AbstractEntity
         $this->expendable = $expendable;
 
         return $this;
+    }
+
+    public function isWeapon(): bool
+    {
+        return $this->getKind()->getSlug() === StuffKind::KIND_WEAPON;
     }
 
     public function getPrice(): int

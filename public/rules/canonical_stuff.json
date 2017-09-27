@@ -37,8 +37,8 @@
     },
     {
         "id": 5,
-        "slug": "short-bow",
-        "name": "Arc court",
+        "slug": "bow",
+        "name": "Arc",
         "enabled": true,
         "effectiveness": 1,
         "kind": "weapon",
@@ -60,21 +60,9 @@
         ]
     },
     {
-        "id": 7,
-        "slug": "long-bow",
-        "name": "Arc long",
-        "enabled": true,
-        "effectiveness": 2,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "ranged"
-        ]
-    },
-    {
         "id": 8,
-        "slug": "light-crossbow",
-        "name": "Arbalète légère",
+        "slug": "crossbow",
+        "name": "Arbalète",
         "enabled": true,
         "effectiveness": 2,
         "kind": "weapon",
@@ -93,18 +81,6 @@
         "expendable": false,
         "properties": [
             "wound-II"
-        ]
-    },
-    {
-        "id": 10,
-        "slug": "heavy-crossbow",
-        "name": "Arbalète lourde",
-        "enabled": true,
-        "effectiveness": 3,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "ranged"
         ]
     },
     {
@@ -195,54 +171,6 @@
         "name": "Carreau",
         "enabled": true,
         "effectiveness": 0,
-        "kind": "weapon",
-        "expendable": true,
-        "properties": [
-            "wound-II"
-        ]
-    },
-    {
-        "id": 20,
-        "slug": "perforating-arrow",
-        "name": "Flèche perforante",
-        "enabled": true,
-        "effectiveness": 0,
-        "kind": "weapon",
-        "expendable": true,
-        "properties": [
-            "wound-II"
-        ]
-    },
-    {
-        "id": 21,
-        "slug": "perforating-bolt",
-        "name": "Carreau perforant",
-        "enabled": true,
-        "effectiveness": 0,
-        "kind": "weapon",
-        "expendable": true,
-        "properties": [
-            "wound-III"
-        ]
-    },
-    {
-        "id": 22,
-        "slug": "accuracy-arrow",
-        "name": "Flèche de précision",
-        "enabled": true,
-        "effectiveness": 1,
-        "kind": "weapon",
-        "expendable": true,
-        "properties": [
-            "wound-I"
-        ]
-    },
-    {
-        "id": 23,
-        "slug": "accuracy-bolt",
-        "name": "Carreau de précision",
-        "enabled": true,
-        "effectiveness": 1,
         "kind": "weapon",
         "expendable": true,
         "properties": [

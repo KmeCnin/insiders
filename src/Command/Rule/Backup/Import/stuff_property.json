@@ -4,8 +4,9 @@
         "slug": "luminous",
         "name": "Lumineux",
         "enabled": false,
-        "fp": 0,
+        "fp": 0.2,
         "short": "Peut émettre de la lumière à la demande.",
+        "kind": "default",
         "stuffKinds": [
             "weapon",
             "armor",
@@ -18,8 +19,9 @@
         "slug": "bound",
         "name": "Lié",
         "enabled": true,
-        "fp": 0,
+        "fp": 0.5,
         "short": "Ne peut pas être désarmé.",
+        "kind": "default",
         "stuffKinds": [
             "weapon",
             "object"
@@ -30,8 +32,9 @@
         "slug": "orichalcum",
         "name": "Orichalque",
         "enabled": true,
-        "fp": 0,
+        "fp": 3.6,
         "short": "Confère une résistance contre les blessures physiques.",
+        "kind": "default",
         "stuffKinds": [
             "armor",
             "shield"
@@ -42,8 +45,9 @@
         "slug": "fireproof",
         "name": "Ignifugé",
         "enabled": true,
-        "fp": 0,
+        "fp": 0.5,
         "short": "Confère une résistance contre les brûlures.",
+        "kind": "default",
         "stuffKinds": [
             "armor",
             "shield"
@@ -54,8 +58,9 @@
         "slug": "insulating",
         "name": "Isolant",
         "enabled": true,
-        "fp": 0,
+        "fp": 0.5,
         "short": "Confère une résistance contre les électrocutions.",
+        "kind": "default",
         "stuffKinds": [
             "armor",
             "shield"
@@ -66,8 +71,9 @@
         "slug": "wound-I",
         "name": "Blessure de degré I",
         "enabled": true,
-        "fp": 0,
+        "fp": 0.9,
         "short": "Inflige une blessure de degré I.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon",
             "armor",
@@ -79,8 +85,9 @@
         "slug": "wound-II",
         "name": "Blessure de degré II",
         "enabled": true,
-        "fp": 0,
+        "fp": 1.8,
         "short": "Inflige une blessure de degré II.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon"
         ]
@@ -90,8 +97,9 @@
         "slug": "wound-III",
         "name": "Blessure de degré III",
         "enabled": true,
-        "fp": 0,
+        "fp": 3.6,
         "short": "Inflige une blessure de degré III.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon"
         ]
@@ -101,8 +109,9 @@
         "slug": "ranged",
         "name": "Distance",
         "enabled": true,
-        "fp": 0,
+        "fp": 0.9,
         "short": "Peut attaquer à distance.",
+        "kind": "wound",
         "stuffKinds": [
             "weapon"
         ]
