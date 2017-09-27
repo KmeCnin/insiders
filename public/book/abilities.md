@@ -2,9 +2,9 @@
 - [Capacités](/abilities.md.twig)
 # Capacités
 
-## La Source
+## La Source
 
-### Combustion
+### Combustion
 
 **Peut initier des réactions de combustion**
 
@@ -18,7 +18,7 @@ Il résiste aux brûlures.
 - Augmente d&#039;un degré la blessure infligée
 
 
-### Courant électrique
+### Courant électrique
 
 **Peut générer des courants électriques**
 
@@ -32,7 +32,7 @@ Il résiste aux électrocutions.
 - Peut blesser à distance
 
 
-### Onde sonore
+### Onde sonore
 
 **Peut projeter des ondes sonores puissantes**
 
@@ -48,7 +48,7 @@ Il résiste aux sons.
 - Inflige une blessure de degré I en plus de sonner
 
 
-### Foudre
+### Foudre
 
 **Peut invoquer des orages**
 
@@ -64,7 +64,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 - Ne s&#039;inflige plus de blessures
 
 
-### Électromagnétisme
+### Électromagnétisme
 
 **Maîtrise les champs magnétiques**
 
@@ -77,7 +77,7 @@ Cela lui permet par exemple d&#039;aimanter des équipements métalliques à dis
 Grâce à un jet d&#039;Attaque à distance il peut désarmer un adversaire équipé d&#039;une arme métallique et envoyer son arme loin de lui.
 Grâce à un jet d&#039;Attaque à distance il peut plaquer au sol un adversaire équipé d&#039;une armure métallique.
 
-### Tectonique
+### Tectonique
 
 **Peut créer des séismes**
 
@@ -89,7 +89,7 @@ Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de cr�
 
 Grâce à un jet d&#039;Attaque à distance il peut faire tomber les adversaires à portée.
 
-### Thermodynamique
+### Thermodynamique
 
 **Peut faire rapidement varier la température**
 
@@ -105,9 +105,9 @@ Il résiste aux gelures.
 - Peut faire chauffer du métal à blanc et augmenter les blessures de ses armes d&#039;un degré
 
 
-## L&#039;Ether
+## L&#039;Ether
 
-### Psychokinèse
+### Psychokinèse
 
 **Peut déplacer les objets légers par la pensée**
 
@@ -116,7 +116,7 @@ Cela lui permet par exemple de déplacer en l&#039;air tout objet non tenu et in
 
 Grâce à un jet d&#039;Attaquer à distance, il peut utiliser l&#039;arme du personnage ciblé contre lui ou le désarmer.
 
-### Attraction
+### Attraction
 
 **Peut attirer des objets à sois**
 
@@ -127,7 +127,7 @@ Grâce à un jet d&#039;Imposer à distance, il peut attirer à lui un objet ten
 Grâce à un jet d&#039;Imposer à distance, il peut attirer vers lui un adversaire qui se retrouve alors au contact.
 Les adversaires au contact du joueur doivent d&#039;abord réussir un jet de Résister pour pouvoir s&#039;en éloigner.
 
-### Répulsion
+### Répulsion
 
 **Génère un champ de force répulsif**
 
@@ -137,7 +137,7 @@ Cela lui permet par exemple de se protéger des tirs ennemies, d&#039;amortir le
 Grâce à un jet d&#039;Attaquer à distance, il peut renvoyer un projectile qui le vise. S&#039;il réussit, il effectue un nouveau jet d&#039;Attaquer pour toucher l&#039;expéditeur.
 Les adversaires doivent d&#039;abord réussir un jet de Résister pour pouvoir d&#039;approcher au contact du personnage.
 
-### Champ de force
+### Champ de force
 
 **Peut créer des murs de force**
 
@@ -150,9 +150,9 @@ Les individus (y compris le personnage) désirant ignorer le champ de force doiv
 - Champ de force sélectif
 
 
-## L&#039;Essence
+## L&#039;Essence
 
-### Poings d&#039;obsylène
+### Poings d&#039;obsylène
 
 **Possède des poings dont la solidité peut briser le métal**
 
@@ -165,7 +165,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 - Détruit également les équipements portés
 
 
-### Transfert de force vitale
+### Transfert de force vitale
 
 **Peut insuffler son énergie vitale**
 
@@ -178,7 +178,7 @@ Grâce à un jet de Résister au contact contre une blessure, il peut la guérir
 - Peut guérir à distance
 
 
-### Ange gardien
+### Ange gardien
 
 **Peut protéger ses alliés à distance**
 
@@ -190,7 +190,7 @@ En cas d&#039;échec c&#039;est tout de même l&#039;allié qui reçoit la bless
 - Peut protéger à distance
 
 
-### Changement de forme
+### Changement de forme
 
 **Peut alterner entre plusieurs formes physiques**
 
@@ -204,7 +204,7 @@ En découvrant cette capacité le personnage choisit une forme qui doit posséde
 - Choisit une nouvelle forme
 
 
-### Corps d&#039;obsylène
+### Corps d&#039;obsylène
 
 **Possède un corps extrêmement résistant aux coups et blessures**
 
@@ -213,14 +213,14 @@ En découvrant cette capacité le personnage choisit une forme qui doit posséde
 
 Le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).
 
-### Vélocité
+### Vélocité
 
 **Se déplace à une vitesse surnaturelle**
 
 Le personnage utilise sa maîtrise de l&#039;arcane cinétique afin d’accélérer grandement ses mouvements.
 Cela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle, etc.
 
-### Dédoublement
+### Dédoublement
 
 **Peut se dédoubler**
 
@@ -235,9 +235,9 @@ La moindre blessure de degré I suffit à le détruire complètement. La blessur
 - Chaque clone possède un point dans deux caractéristiques au choix
 
 
-## La Purge
+## La Purge
 
-### Contact nécrotique
+### Contact nécrotique
 
 **Corrompt la vie**
 
@@ -246,7 +246,7 @@ Cela lui permet par exemple de décomposer de la végétation, nécroser ses adv
 
 Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d&#039;un degré à chaque tour.
 
-### Vampirisme
+### Vampirisme
 
 **Aspire la vie au contact**
 
@@ -259,7 +259,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 - Augmente d&#039;un degré la blessure infligée
 
 
-### Pacte de sang
+### Pacte de sang
 
 **Peut sacrifier son intégrité physique pour blesser à coup sûr**
 
@@ -271,7 +271,7 @@ Il peut s&#039;infliger une blessure de degré II afin d&#039;essayer d&#039;inf
 - Diminue d&#039;un degré la blessure reçue
 
 
-### Nécromancie
+### Nécromancie
 
 **Peut redonner vie à des corps inanimés**
 
@@ -291,7 +291,7 @@ La moindre blessure de degré I suffit à les réduire définitivement en cendre
 - Peut animer sept fois son score de Résister
 
 
-### Aura morbide
+### Aura morbide
 
 **Dégage une atmosphère malsaine**
 
@@ -299,7 +299,7 @@ Le personnage est constamment entouré d&#039;un nuage mortel qui détruit la v�
 
 Tous les personnages à distance (excepté les morts-vivants et ceux possédant également Aura morbide) ne peuvent plus être soignés (même pas par Transfert de force vitale).
 
-### Phylactère
+### Phylactère
 
 **Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel**
 
@@ -307,9 +307,9 @@ Le personnage possède un réceptacle particulier dans lequel il choisit de tran
 
 A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de Résister supplémentaire avec le score de Résister de son phylactère pour tenter directement de la guérir. Cela fonctionne quelque soit la distance entre le personnage et le phylactère.
 
-## La Toile
+## La Toile
 
-### Vision
+### Vision
 
 **Peut voir le présent, le passé ou le futur d&#039;une entité éloignée**
 
@@ -323,7 +323,7 @@ Avant de s’endormir le personnage peut décider d’utiliser cette capacité p
 - Peut voir le futur
 
 
-### Anticipation
+### Anticipation
 
 **Peut prévoir un événement imminent**
 
@@ -332,7 +332,7 @@ Cela lui permet par exemple de pressentir un danger imminent, un choix désastre
 
 Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre l&#039;adversaire ciblé. Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
 
-### Accélération du temps
+### Accélération du temps
 
 **Peut accélérer l&#039;écoulement du temps localement**
 
@@ -345,7 +345,7 @@ Cela lui permet par exemple d&#039;accélérer la pousse de la végétation, d&#
 Grâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augmenter d&#039;un degré chacune des blessures de la cible.
 Il peut accélérer les projectiles qu&#039;il lance (flèches, armes de jet...) pour augmenter d&#039;un degré la blessure infligée.
 
-### Ralentissement du temps
+### Ralentissement du temps
 
 **Peut ralentir l&#039;écoulement du temps localement**
 
@@ -358,7 +358,7 @@ Cela lui permet de ralentir une chute, esquiver des projectiles, ralentir un adv
 Lorsque le personnage est amené à effectuer un jet de Défendre, il peut utiliser son score d&#039;Instinct en Dévoiler à la place de Résister.
 Lorsque le personnage attaque au contact, il peut infliger une blessure d&#039;un degré supplémentaire.
 
-### Localisation
+### Localisation
 
 **Connaît l&#039;emplacement de tout ce avec quoi il a été en contact**
 
@@ -367,7 +367,7 @@ Cela lui permet par exemple de pouvoir s&#039;orienter en permanence, de localis
 
 Grâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.
 
-### Téléportation
+### Téléportation
 
 **Peut se rendre instantanément dans un lieu déjà visité**
 
@@ -376,9 +376,9 @@ Grâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant ave
 
 Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant. Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter.
 
-## L&#039;Esprit
+## L&#039;Esprit
 
-### Lévitation
+### Lévitation
 
 **Se déplace dans les airs**
 
@@ -388,14 +388,14 @@ Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habi
 - Augmente la vitesse de déplacement de manière surnaturelle
 
 
-### Perception de la vie
+### Perception de la vie
 
 **A conscience des formes de vies qui l&#039;entourent**
 
 Le personnage a conscience de l’existence des formes de vies alentours (végétales et animales).
 Cela lui permet par exemple de se repérer sans lumière, percevoir les personnages invisibles, de localiser de la végétation, etc.
 
-### Télépathie
+### Télépathie
 
 **Peut communiquer avec un personnage à distance**
 
@@ -404,13 +404,13 @@ Cela lui permet par exemple de se repérer sans lumière, percevoir les personna
 
 Le personnage peut communiquer mentalement avec un personnage ou un animal à distance. S&#039;il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue. Une fois le message transmit, la cible peut ensuite répondre mentalement par une phrase. Il n&#039;a pas besoin de parler la même langue que la cible pour comprendre et être compris (il peut même communiquer avec des animaux en utilisant des mots simples).
 
-### Partage d&#039;expérience
+### Partage d&#039;expérience
 
 **Chaque membre utilise la maîtrise du meilleur élément de l&#039;équipe**
 
 Le personnage choisit des personnages à distance. Chaque personnage choisit ainsi utilise pour chaque caractéristique le score de Maîtrise de son allié possédant le meilleur score.
 
-### Familier
+### Familier
 
 **Contrôle un animal qui devient une extension de son esprit**
 
@@ -424,7 +424,7 @@ Le Facteur de Puissance du familier ne peut pas être supérieur au score d&#039
 - Le FP du familier peut être le triple du score de Dévoiler
 
 
-### Invocation
+### Invocation
 
 **Peut donner vie à un souvenir d&#039;une créature rencontrée**
 
@@ -441,16 +441,16 @@ Le personnage ne peut invoquer qu&#039;une créature à la fois.
 - Invoque six créatures à la fois
 
 
-## Le Voile
+## Le Voile
 
-### Marche fantomatique
+### Marche fantomatique
 
 **Ne fait aucun bruit et ne laisse pas de trace lors des déplacements**
 
 Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.
 Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
 
-### Invisibilité
+### Invisibilité
 
 **Peut s’entourer d&#039;une aura éthérée le rendant très difficilement repérable**
 
@@ -460,13 +460,13 @@ Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans
 Le personnage peut se rendre invisible à volonté. Il doit pour cela se concentrer et ne peux entreprendre d&#039;action complexe (comme se battre...) sans perdre son camouflage.
 Les autres personnages se doutant de sa présence peuvent tenter un jet de Dévoiler pour le localiser avant chaque action entreprise (Attaquer, Percevoir...).
 
-### Usurpation d&#039;identité
+### Usurpation d&#039;identité
 
 **Peut modeler son apparence pour se faire passer pour quelqu’un d’autre**
 
 Le personnage est capable de simuler à la perfection les traits, les mimiques, la voix, etc. d’une personne dont il a eu l’occasion de percevoir ces informations (voir, entendre, toucher...). Aucun jet n’est requis, le joueur imite à la perfection les traits dont il a connaissance mais cela n&#039;empêche pas un ennemie d’avoir un doute en fonction de son comportement ou autre détail, dans ce cas l&#039;adversaire peut tenter un jet de Dévoiler pour découvrir la supercherie. La cible de l’usurpation d’identité doit être de la même espèce que le joueur ou une espèce proche.
 
-### Apparence trompeuse
+### Apparence trompeuse
 
 **Peut se faire passer pour n’importe quoi**
 
@@ -478,7 +478,7 @@ Un personnage ayant un doute et réussissant un jet de Dévoiler ou un personnag
 - Simule également des sons simples
 
 
-### Leurres
+### Leurres
 
 **Peut créer des faux doubles de lui-même**
 
@@ -493,7 +493,7 @@ Le moindre contact le transperçant suffit à le détruire complètement.
 - Peut créer autant de doubles que le triple de son score de Dissimuler
 
 
-### Illusion
+### Illusion
 
 **Peut créer de faux objets**
 
@@ -507,9 +507,9 @@ Il ne peut maintenir qu&#039;une illusion à la fois.
 - Peut maintenir trois illusions simultanément de la taille d&#039;un grand bâtiment
 
 
-## L&#039;Etau
+## L&#039;Etau
 
-### Confidence
+### Confidence
 
 **Peut forcer une cible à ne dire que la vérité**
 
@@ -517,7 +517,7 @@ Le personnage peut se rendre dans l&#039;esprit d&#039;un individu et le forcer 
 
 Grâce à un jet de Dévoiler à distance le personnage peut s&#039;insinuer dans l&#039;esprit de sa cible et lui poser une question à laquelle elle devra répondre le plus honnêtement possible. En cas d’échec au jet, la cible se rend compte de la tentative d&#039;intrusion et ne peut plus être interrogée tant qu&#039;elle reste sur ses gardes.
 
-### Distraction
+### Distraction
 
 **Peut s’insinuer dans l’esprit de ses adversaires pour les perturber**
 
@@ -531,7 +531,7 @@ Grâce à un jet de Dissimuler à distance, il peut distraire une cible qui mini
 - Inflige une blessure de degré I en plus de distraire
 
 
-### Trahison
+### Trahison
 
 **Peut forcer un personnage à attaquer ses alliés**
 
@@ -544,7 +544,7 @@ Il peut donc par exemple le forcer à attaquer un allier, soigner un ennemie, s&
 
 Grâce à un jet de Dissimuler à distance, il peut obliger la cible à accomplir une unique action de son choix.
 
-### Persuasion
+### Persuasion
 
 **Peut faire croire à des mensonges peu vraisemblables**
 
@@ -553,7 +553,7 @@ Il maximise automatiquement tous ses jets de Dissimuler pour les mensonges plaus
 
 Grâce à un jet de Dissimuler à distance, il peut tenter de faire croire un mensonge particulièrement peu vraisemblable.
 
-### Pacifisme
+### Pacifisme
 
 **Sait se rendre amicale instantanement**
 

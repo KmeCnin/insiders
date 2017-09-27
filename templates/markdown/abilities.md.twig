@@ -5,12 +5,12 @@
 
 {% for arcane in arcanes %}
 {# @var arcane \App\Entity\Rule\Arcane #}
-## {{ arcane.name }}
+## {{ arcane.name }}
 
 {% for ability in abilities %}
 {# @var ability \App\Entity\Rule\Ability #}
 {% if ability.arcane == arcane %}
-### {{ ability.name }}
+### {{ ability.name }}
 
 **{{ ability.short }}**
 
