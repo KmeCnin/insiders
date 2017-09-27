@@ -2,13 +2,16 @@
 
 {% block content %}
 # Capacités
+
 {% for arcane in arcanes %}
 {# @var arcane \App\Entity\Rule\Arcane #}
 ## {{ arcane.name }}
+
 {% for ability in abilities %}
 {# @var ability \App\Entity\Rule\Ability #}
 {% if ability.arcane == arcane %}
 ### {{ ability.name }}
+
 **{{ ability.short }}**
 
 {% if ability.abilitiesRequired|length > 0 %}
