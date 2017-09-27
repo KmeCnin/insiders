@@ -209,7 +209,7 @@ En découvrant cette capacité le personnage choisit une forme qui doit posséde
 **Possède un corps extrêmement résistant aux coups et blessures**
 
 **Nécessite:**
-[Poings d&#039;obsylène](#poings-d&#039;obsylène)
+[Poings d&#039;obsylène](#poings-dobsylène)
 
 Le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).
 
