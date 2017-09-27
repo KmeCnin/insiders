@@ -1,0 +1,20 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Divinités
+
+{% for deity in deities %}
+{# @var deity \App\Entity\Rule\Deity #}
+## {{ deity.name }} "{{ deity.dignity }}"
+**Arcane :** {{ deity.arcane }}
+
+{{ deity.description }}
+{% if deity.champion and deity.champion.enabled %}
+### {{ deity.champion.name }} "{{ deity.champion.dignity }}"
+Champion de **{{ deity.name }}**.
+
+{{ deity.champion.description }}
+{% endif %}
+
+{% endfor %}
+{% endblock %}

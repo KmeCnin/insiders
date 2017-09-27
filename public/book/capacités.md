@@ -1,7 +1,9 @@
-# Table des matières
-- [Capacités](/abilities.md.twig)
+**Pages:**
+[Capacités](../book/capacités.md) -
+[Divinités](../book/divinités.md)
 # Capacités
-
+**Arcanes:**
+[La Source](#la-source) - [L&#039;Ether](#lether) - [L&#039;Essence](#lessence) - [La Purge](#la-purge) - [La Toile](#la-toile) - [L&#039;Esprit](#lesprit) - [Le Voile](#le-voile) - [L&#039;Etau](#letau)
 ## La Source
 
 ### Combustion
@@ -53,7 +55,7 @@ Il résiste aux sons.
 **Peut invoquer des orages**
 
 **Nécessite:**
-[Combustion](#Combustion), [Courant électrique](#Courant-électrique)
+[Combustion](#combustion), [Courant électrique](#courant-électrique)
 
 Le personnage est capable de commander la météo environnante.
 Cela lui permet par exemple d&#039;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.
@@ -69,7 +71,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 **Maîtrise les champs magnétiques**
 
 **Nécessite:**
-[Courant électrique](#Courant-électrique), [Onde sonore](#Onde-sonore)
+[Courant électrique](#courant-électrique), [Onde sonore](#onde-sonore)
 
 Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.
 Cela lui permet par exemple d&#039;aimanter des équipements métalliques à distance, de savoir s&#039;orienter en permanence (il localise le Nord magnétique), attirer à lui des objets métalliques, etc.
@@ -82,7 +84,7 @@ Grâce à un jet d&#039;Attaque à distance il peut plaquer au sol un adversaire
 **Peut créer des séismes**
 
 **Nécessite:**
-[Combustion](#Combustion), [Onde sonore](#Onde-sonore)
+[Combustion](#combustion), [Onde sonore](#onde-sonore)
 
 Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.
 Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
@@ -209,7 +211,7 @@ En découvrant cette capacité le personnage choisit une forme qui doit posséde
 **Possède un corps extrêmement résistant aux coups et blessures**
 
 **Nécessite:**
-[Poings d&#039;obsylène](#Poings-d&#039;obsylène)
+[Poings d&#039;obsylène](#poings-dobsylène)
 
 Le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).
 
@@ -337,7 +339,7 @@ Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son procha
 **Peut accélérer l&#039;écoulement du temps localement**
 
 **Nécessite:**
-[Anticipation](#Anticipation)
+[Anticipation](#anticipation)
 
 Le personnage peut accélérer le temps sur une zone restreinte.
 Cela lui permet par exemple d&#039;accélérer la pousse de la végétation, d&#039;aggraver les blessures d&#039;un ennemie, d&#039;achever un adversaire inconscient à distance.
@@ -350,7 +352,7 @@ Il peut accélérer les projectiles qu&#039;il lance (flèches, armes de jet...)
 **Peut ralentir l&#039;écoulement du temps localement**
 
 **Nécessite:**
-[Anticipation](#Anticipation)
+[Anticipation](#anticipation)
 
 Le personnage peut ralentir le temps sur une zone restreinte.
 Cela lui permet de ralentir une chute, esquiver des projectiles, ralentir un adversaire.
@@ -372,7 +374,7 @@ Grâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant ave
 **Peut se rendre instantanément dans un lieu déjà visité**
 
 **Nécessite:**
-[Localisation](#Localisation)
+[Localisation](#localisation)
 
 Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant. Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter.
 
@@ -400,7 +402,7 @@ Cela lui permet par exemple de se repérer sans lumière, percevoir les personna
 **Peut communiquer avec un personnage à distance**
 
 **Nécessite:**
-[Localisation](#Localisation)
+[Localisation](#localisation)
 
 Le personnage peut communiquer mentalement avec un personnage ou un animal à distance. S&#039;il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue. Une fois le message transmit, la cible peut ensuite répondre mentalement par une phrase. Il n&#039;a pas besoin de parler la même langue que la cible pour comprendre et être compris (il peut même communiquer avec des animaux en utilisant des mots simples).
 
@@ -455,7 +457,7 @@ Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans
 **Peut s’entourer d&#039;une aura éthérée le rendant très difficilement repérable**
 
 **Nécessite:**
-[Marche fantomatique](#Marche-fantomatique)
+[Marche fantomatique](#marche-fantomatique)
 
 Le personnage peut se rendre invisible à volonté. Il doit pour cela se concentrer et ne peux entreprendre d&#039;action complexe (comme se battre...) sans perdre son camouflage.
 Les autres personnages se doutant de sa présence peuvent tenter un jet de Dévoiler pour le localiser avant chaque action entreprise (Attaquer, Percevoir...).
@@ -536,7 +538,7 @@ Grâce à un jet de Dissimuler à distance, il peut distraire une cible qui mini
 **Peut forcer un personnage à attaquer ses alliés**
 
 **Nécessite:**
-[Distraction](#Distraction)
+[Distraction](#distraction)
 
 Le personnage peut contrôler momentanément l&#039;esprit d&#039;une cible.
 Cela lui permet au choix d&#039;insérer un sentiment extrême d&#039;agressivité, de bienveillance, de peur envers un personnage (qu&#039;il soit allié ou ennemi).
