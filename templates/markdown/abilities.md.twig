@@ -2,6 +2,10 @@
 
 {% block content %}
 # Capacités
+**Arcanes:**
+{% for arcane in arcanes %}
+{% if loop.index > 1 %} - {% endif %}
+[{{ arcane.name }}](#{{ arcane.name|replace({' ': '-', "'": ''})|lower }}){% endfor %}
 
 {% for arcane in arcanes %}
 {# @var arcane \App\Entity\Rule\Arcane #}
