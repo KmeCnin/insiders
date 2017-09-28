@@ -115,7 +115,7 @@ Il résiste aux gelures.
 
 ## L&#039;Ether
 
-Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide dicte à la matière la manière dont elle doit se mouvoir et interagir.
+Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide imprêgne chaque chose et remplit le vide le rendant présent partout tout en étant imperceptible. L&#039;Ether dicte à la matière la manière dont elle doit se mouvoir et interagir.
 
 Les initiés capables de percevoir et maîtriser cette substance ténue sont à même de déplacer la matière par la pensée, qu&#039;elle soit animée ou non, de solidifier l&#039;Ether pour en faire des barrières infranchissables, de se déplacer à des vitesses surpassant les limites physiques, etc.
 
@@ -164,9 +164,20 @@ Les individus (y compris le personnage) désirant ignorer le champ de force doiv
 - Champ de force sélectif
 
 
+### Vélocité
+
+**Se déplace à une vitesse surnaturelle**
+
+Le personnage utilise sa maîtrise de l&#039;arcane cinétique afin d’accélérer grandement ses mouvements.
+Cela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle, etc.
+
 ## L&#039;Essence
 
+La vie est une force mystérieuse animée d&#039;une énergie puissante appelée Essence. Tous les êtres vivants, animaux et végétaux sont animés par se torrent qui coule en eux sans pour autant en être conscient. Il s&#039;agit pourtant du constituant de toute vie capable de la préserver, de la protéger ou même de la faire se surpasser. 
 
+Rare sont les individus capable de ressentir les courants d&#039;énergie qui parcourent les vivants mais une fois ce potentiel maîtrisé, certains initiés sont alors capables de faire se refermer des plaies en un instant, de protéger la vie de leurs alliés à distance, ou même de surpasser les limites physiques de leur propre corps, etc.
+
+Cet arcane protecteur et bienfaisant est indispensable à ceux cherchant à protéger la vie sous toutes ses formes ou à dépasser leur compétences naturelles.
 
 ### Poings d&#039;obsylène
 
@@ -228,13 +239,6 @@ En découvrant cette capacité le personnage choisit une forme qui doit posséde
 [Poings d&#039;obsylène](#poings-dobsylène)
 
 Le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).
-
-### Vélocité
-
-**Se déplace à une vitesse surnaturelle**
-
-Le personnage utilise sa maîtrise de l&#039;arcane cinétique afin d’accélérer grandement ses mouvements.
-Cela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle, etc.
 
 ### Dédoublement
 

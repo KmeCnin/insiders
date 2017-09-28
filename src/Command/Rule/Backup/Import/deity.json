@@ -5,7 +5,7 @@
         "name": "Valerius",
         "enabled": true,
         "dignity": "Le Dragon à 5 têtes",
-        "arcane": "elements",
+        "arcane": "source",
         "champion": "baros",
         "description": "Valerius est un Dieu susceptible et colérique. Il récompense les actions brutales et destructrices et déteste les compromis. L'imaginaire collectif le représente sous la forme d'un gigantesque dragon à 5 têtes dont chaque tête symbolise un élément particulier."
     },
@@ -35,7 +35,7 @@
         "name": "Jira",
         "enabled": true,
         "dignity": "Le Dieu aux milles visages",
-        "arcane": "illusion",
+        "arcane": "veil",
         "champion": null,
         "description": "Jira est un Dieu méticuleux et calculateur. Il incite ses fidèles à mettre au point des plans complexes et réflechis et à triompher par la ruse plus tôt que par la force. Comme son nom le suggère, il est impossible de lui attribuer une unique apparence mais le commun des mortels le représente souvent par un homme sans visage vêtu d'une robe bleue richement ornée."
     },
@@ -45,7 +45,7 @@
         "name": "Medev",
         "enabled": true,
         "dignity": "L'usurpateur",
-        "arcane": "illusion",
+        "arcane": "veil",
         "champion": null,
         "description": "Medev est un Dieu très récent, enciennement Champion de Jira, il a réussit par une habile démonstration d'intelligence et de fourberie à rejoindre l'Elyséum et acquérire des pouvoirs divins. Une portion croissante des anciens fidèles à Jira le vénèrent désormais, impressionnés par son ascension éclatante que certains qualifient d'\"ultime duperie\". Grâce à son passé de mortel, l'apparence de Medev est la mieux connue des divinités arcaniques. Il s'agit d'un homme ellancé à la peau très pâle et aux cheveux d'un noir profond. Il se dissimule souvent dans un voile pourpre richement décoré."
     },
@@ -55,7 +55,7 @@
         "name": "Penelas",
         "enabled": true,
         "dignity": "L'aveugle omnisciente",
-        "arcane": "intellect",
+        "arcane": "spirit",
         "champion": "corlan",
         "description": "Penelas est une Déesse immpatiente et flegmatique. Elle ne concidère pas particulièrement ses fidèles mais n'hésite pas à punir quiconque l'ennuie ou l'agace. On la représente complètement nue dans des positions langoureuses les yeux toujours clos."
     },
@@ -65,7 +65,7 @@
         "name": "Dalecarlica",
         "enabled": true,
         "dignity": "L'essence du monde",
-        "arcane": "space-time",
+        "arcane": "web",
         "champion": null,
         "description": "Dalecarlica est une entité divine sereine et pacifique. Elle ne s'intéresse que trés peu aux animaux et porte son intérêt principalement sur les végétaux et les minéraux. Il s'agit d'un arbre gigantesque aux dimensions suréalistes. Dalecarlica n'a jamais élu de Champion car elle n'en a encore jamais trouvé d'assez digne et de confiance."
     },
@@ -85,7 +85,7 @@
         "name": "Ozz",
         "enabled": true,
         "dignity": "Le grand marionnetiste",
-        "arcane": "coercive",
+        "arcane": "vice",
         "champion": "marlite",
         "description": "Ozz est un Dieu manipulateur et sur de lui. Il récompense les actes sournois et audacieux et déteste le manque de subtilité et la bêtise. Il est représenté comme un homme masqué encapuchonné dans une élégante robe sombre."
     }

@@ -1,50 +1,66 @@
 [
     {
         "id": 1,
-        "slug": "elements",
+        "slug": "source",
         "name": "La Source",
-        "enabled": true
+        "enabled": true,
+        "short": "La Source est l'énergie qui parcourt le monde matériel",
+        "description": "Le monde matériel inanimé est parcourut de différents éléments qui constituent sont essence et régulent les interactions entre les choses. Un élément est un phénomène qui implique une fluctuation de l'état de la matière comme une réaction de chimique de combustion, une onde sonore, un champ électromagnétique, un courant électrique, un flux thermique, etc.\r\n\r\nLes initiés capables de gouverner cette essence élémentaire sont à même d'enflammer l'air, d'électrifier leurs ennemis, d’aimanter des équipements métalliques, de faire fortement varier la température locale, de modifier la météo, etc.\r\n\r\nCet arcane destructeur et polyvalent convient aux individus désireux d’affronter leurs ennemies de manière frontale et de dompter les forces naturelles."
     },
     {
         "id": 2,
         "slug": "ether",
         "name": "L'Ether",
-        "enabled": true
+        "enabled": true,
+        "short": "L'Ether est le fluide invisible dans lequel le monde matériel est plongé",
+        "description": "Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide imprêgne chaque chose et remplit le vide le rendant présent partout tout en étant imperceptible. L'Ether dicte à la matière la manière dont elle doit se mouvoir et interagir.\r\n\r\nLes initiés capables de percevoir et maîtriser cette substance ténue sont à même de déplacer la matière par la pensée, qu'elle soit animée ou non, de solidifier l'Ether pour en faire des barrières infranchissables, de se déplacer à des vitesses surpassant les limites physiques, etc.\r\n\r\nCet arcane puissant bien que discret convient aux personnalités recherchant l'efficacité avant la grandiloquence et désireux de faire de leur environnement leur meilleur allié."
     },
     {
         "id": 3,
         "slug": "life",
         "name": "L'Essence",
-        "enabled": true
+        "enabled": true,
+        "short": "L'Essence est l'énergie qui anime la vie",
+        "description": "La vie est une force mystérieuse animée d'une énergie puissante appelée Essence. Tous les êtres vivants, animaux et végétaux sont animés par se torrent qui coule en eux sans pour autant en être conscient. Il s'agit pourtant du constituant de toute vie capable de la préserver, de la protéger ou même de la faire se surpasser. \r\n\r\nRare sont les individus capable de ressentir les courants d'énergie qui parcourent les vivants mais une fois ce potentiel maîtrisé, certains initiés sont alors capables de faire se refermer des plaies en un instant, de protéger la vie de leurs alliés à distance, ou même de surpasser les limites physiques de leur propre corps, etc.\r\n\r\nCet arcane protecteur et bienfaisant est indispensable à ceux cherchant à protéger la vie sous toutes ses formes ou à dépasser leur compétences naturelles."
     },
     {
         "id": 4,
         "slug": "death",
         "name": "La Purge",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 5,
-        "slug": "space-time",
+        "slug": "web",
         "name": "La Toile",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 6,
-        "slug": "intellect",
+        "slug": "spirit",
         "name": "L'Esprit",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 7,
-        "slug": "illusion",
+        "slug": "veil",
         "name": "Le Voile",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     },
     {
         "id": 8,
-        "slug": "coercive",
+        "slug": "vice",
         "name": "L'Etau",
-        "enabled": true
+        "enabled": true,
+        "short": "",
+        "description": ""
     }
 ]
