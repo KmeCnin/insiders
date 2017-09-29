@@ -52,7 +52,7 @@
         "slug": "veil",
         "name": "Le Voile",
         "enabled": true,
-        "short": "",
+        "short": "Le Voile est le brouillard subtil qui altère la réalité",
         "description": ""
     },
     {
@@ -60,7 +60,7 @@
         "slug": "vice",
         "name": "L'Etau",
         "enabled": true,
-        "short": "",
+        "short": "L'Etau est la force qui contraint la volonté",
         "description": ""
     }
 ]
