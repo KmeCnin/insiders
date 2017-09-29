@@ -36,7 +36,7 @@
         "slug": "web",
         "name": "La Toile",
         "enabled": true,
-        "short": "La Toile est le support qui gouverne le monde matériel",
+        "short": "La Toile est la trame qui supporte le monde matériel",
         "description": "La réalité repose sur un support intengible appelé Toile qui définit les lois physiques du monde matériel. Ce suport garant de la trame de l'espace-temps, gouverne l'écoulement du temps aussi bien que les distances qui composent l'espace. \r\n\r\nLes maîtres de la Toile sont capables de ressentir et gouverner les subtiles fluctuations de l'espace-temps. Cela leur permet de projeter leur esprit dans d'autres temporalités ou de transporter leur corps vers des lieux éloignés. \r\n\r\nCet arcane stratégique et polyvalent est trés apprecié des sages souhaitant ne jamais être pris au dépourvus et toujours garder une longueur d'avance sur leurs adversaires."
     },
     {
@@ -44,8 +44,8 @@
         "slug": "spirit",
         "name": "L'Esprit",
         "enabled": true,
-        "short": "",
-        "description": ""
+        "short": "L'Esprit est la force qui gouverne l'existence",
+        "description": "L'énergie qui anime les êtres vivants a beau être puissante, elle n'est rien sans une force pour la contenir et la diriger, il s'agit de l'Esprit. C'est de cette contrainte qu'émerge la conscience des individus leur permettant de suivre un objectif, de penser, de rêver, etc. \r\n\r\nLes initiés maîtrisant l'Esprit sont non seulement capables de percevoir les êtres spirituels environnants mais également d'échanger des informations avec eux. Les plus doués peuvent même donner corps à leur imaginaire ou déplacer leur propre esprit dans un autre individu. \r\n\r\nCet arcane créatif et collaboratif permet à ses pratiquants de laisser libre cours à leur imagination et de conserver en permanence des liens discrets avec leur groupe."
     },
     {
         "id": 7,
