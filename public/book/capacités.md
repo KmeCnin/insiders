@@ -151,6 +151,16 @@ Cela lui permet par exemple de se protéger des tirs ennemies, d&#039;amortir le
 Grâce à un jet d&#039;Attaquer à distance, il peut renvoyer un projectile qui le vise. S&#039;il réussit, il effectue un nouveau jet d&#039;Attaquer pour toucher l&#039;expéditeur.
 Les adversaires doivent d&#039;abord réussir un jet de Résister pour pouvoir d&#039;approcher au contact du personnage.
 
+### Lévitation
+
+**Se déplace dans les airs**
+
+Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habituelle sans besoin de concentration particulière.
+
+**Augmentations:**
+- Augmente la vitesse de déplacement de manière surnaturelle
+
+
 ### Champ de force
 
 **Peut créer des murs de force**
@@ -257,7 +267,11 @@ La moindre blessure de degré I suffit à le détruire complètement. La blessur
 
 ## La Purge
 
+L&#039;écoulement naturel de l&#039;Essence peut être altéré par une énergie obscure appellée Purge. Il s&#039;agit d&#039;une anomalie dont les conséquences peuvent parfois être bien pire que le simple décés de l&#039;individu qui en fait les frais. 
 
+Les adeptes de cet arcane sont capables de corrompre le flux de l&#039;Essence pour vider leurs adversaire de leur force vitale ou au contraire la faire affluer dans des corps inanimés pour recréer un simulacre de vie. 
+
+Cet arcane mortel et vicié regroupe les individus les plus maléfiques qui ne se satisfont pas de la simple mort de leurs adversaire mais désirent également les faire soufrir et transformer leur cadavre en marionettes serviles.
 
 ### Contact nécrotique
 
@@ -331,7 +345,11 @@ A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de 
 
 ## La Toile
 
+La réalité repose sur un support intengible appelé Toile qui définit les lois physiques du monde matériel. Ce suport garant de la trame de l&#039;espace-temps, gouverne l&#039;écoulement du temps aussi bien que les distances qui composent l&#039;espace. 
 
+Les maîtres de la Toile sont capables de ressentir et gouverner les subtiles fluctuations de l&#039;espace-temps. Cela leur permet de projeter leur esprit dans d&#039;autres temporalités ou de transporter leur corps vers des lieux éloignés. 
+
+Cet arcane stratégique et polyvalent est trés apprecié des sages souhaitant ne jamais être pris au dépourvus et toujours garder une longueur d&#039;avance sur leurs adversaires.
 
 ### Vision
 
@@ -402,17 +420,11 @@ Le personnage peut se déplacer instantanément dans un lieu où il a déjà ét
 
 ## L&#039;Esprit
 
+L&#039;énergie qui anime les êtres vivants a beau être puissante, elle n&#039;est rien sans une force pour la contenir et la diriger, il s&#039;agit de l&#039;Esprit. C&#039;est de cette contrainte qu&#039;émerge la conscience des individus leur permettant de suivre un objectif, de penser, de rêver, etc. 
 
+Les initiés maîtrisant l&#039;Esprit sont non seulement capables de percevoir les êtres spirituels environnants mais également d&#039;échanger des informations avec eux. Les plus doués peuvent même donner corps à leur imaginaire ou déplacer leur propre esprit dans un autre individu. 
 
-### Lévitation
-
-**Se déplace dans les airs**
-
-Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habituelle sans besoin de concentration particulière.
-
-**Augmentations:**
-- Augmente la vitesse de déplacement de manière surnaturelle
-
+Cet arcane créatif et collaboratif permet à ses pratiquants de laisser libre cours à leur imagination et de conserver en permanence des liens discrets avec leur groupe.
 
 ### Perception de la vie
 
