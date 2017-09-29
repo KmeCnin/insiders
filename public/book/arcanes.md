@@ -1,6 +1,7 @@
 **Pages:**
 [Arcanes](../book/arcanes.md) -
 [Capacités](../book/capacités.md) -
+[Caracteristiques](../book/caractéristiques.md) -
 [Divinités](../book/divinités.md)
 # Arcanes
 ## La Source
