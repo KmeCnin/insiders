@@ -33,6 +33,7 @@ class MarkdownRenderer
     {
         return [
             Ability::class => 'abilities',
+            Arcane::class => 'arcanes',
             Deity::class => 'deities',
         ];
     }
@@ -41,6 +42,7 @@ class MarkdownRenderer
     {
         return [
             Ability::class => 'capacités',
+            Arcane::class => 'arcanes',
             Deity::class => 'divinités',
         ];
     }
@@ -68,6 +70,11 @@ class MarkdownRenderer
                 $parameters = [
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
                     'abilities' => $this->em->getRepository(Ability::class)->findAll(),
+                ];
+                break;
+            case Arcane::class:
+                $parameters = [
+                    'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
                 ];
                 break;
             case Deity::class:
