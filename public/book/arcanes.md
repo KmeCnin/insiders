@@ -8,7 +8,7 @@
 
 **La Source est l&#039;énergie qui parcourt le monde matériel**
 
-Le monde matériel inanimé est parcourut de différents éléments qui constituent sont essence et régulent les interactions entre les choses. Un élément est un phénomène qui implique une fluctuation de l&#039;état de la matière comme une réaction de chimique de combustion, une onde sonore, un champ électromagnétique, un courant électrique, un flux thermique, etc.
+Le monde matériel inanimé est parcouru de différents éléments qui constituent son essence et régulent les interactions entre les choses. Un élément est un phénomène qui implique une fluctuation de l&#039;état de la matière comme une réaction chimique de combustion, une onde sonore, un champ électromagnétique, un courant électrique, un flux thermique, etc.
 
 Les initiés capables de gouverner cette essence élémentaire sont à même d&#039;enflammer l&#039;air, d&#039;électrifier leurs ennemis, d’aimanter des équipements métalliques, de faire fortement varier la température locale, de modifier la météo, etc.
 
@@ -17,7 +17,7 @@ Cet arcane destructeur et polyvalent convient aux individus désireux d’affron
 
 **L&#039;Ether est le fluide invisible dans lequel le monde matériel est plongé**
 
-Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide imprêgne chaque chose et remplit le vide le rendant présent partout tout en étant imperceptible. L&#039;Ether dicte à la matière la manière dont elle doit se mouvoir et interagir.
+Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide imprègne chaque chose et remplit le vide, le rendant présent partout tout en étant imperceptible. L&#039;Ether dicte à la matière la manière dont elle doit se mouvoir et interagir.
 
 Les initiés capables de percevoir et maîtriser cette substance ténue sont à même de déplacer la matière par la pensée, qu&#039;elle soit animée ou non, de solidifier l&#039;Ether pour en faire des barrières infranchissables, de se déplacer à des vitesses surpassant les limites physiques, etc.
 
