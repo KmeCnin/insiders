@@ -97,7 +97,7 @@ easy_admin:
         Characteristic:
             class: App\Entity\Rule\Characteristic
             list:
-                fields: ['id', 'name', 'enabled']
+                fields: ['id', 'name', 'short', 'enabled']
                 sort: ['id', 'ASC']
         Deity:
             class: App\Entity\Rule\Deity
