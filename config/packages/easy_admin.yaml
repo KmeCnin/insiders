@@ -25,7 +25,7 @@ easy_admin:
         Arcane:
             class: App\Entity\Rule\Arcane
             list:
-                fields: ['id', 'name', 'enabled']
+                fields: ['id', 'name', 'short', 'enabled']
                 sort: ['id', 'ASC']
         Ability:
             class: App\Entity\Rule\Ability

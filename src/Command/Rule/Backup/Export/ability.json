@@ -186,7 +186,7 @@
         "slug": "levitation",
         "name": "Lévitation",
         "enabled": true,
-        "arcane": "spirit",
+        "arcane": "ether",
         "short": "Se déplace dans les airs",
         "description": "Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habituelle sans besoin de concentration particulière.",
         "increases": [

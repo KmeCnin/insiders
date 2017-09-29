@@ -28,31 +28,31 @@
         "slug": "death",
         "name": "La Purge",
         "enabled": true,
-        "short": "",
-        "description": ""
+        "short": "La Purge est la force qui corrompt la vie",
+        "description": "L'écoulement naturel de l'Essence peut être altéré par une énergie obscure appellée Purge. Il s'agit d'une anomalie dont les conséquences peuvent parfois être bien pire que le simple décés de l'individu qui en fait les frais. \r\n\r\nLes adeptes de cet arcane sont capables de corrompre le flux de l'Essence pour vider leurs adversaire de leur force vitale ou au contraire la faire affluer dans des corps inanimés pour recréer un simulacre de vie. \r\n\r\nCet arcane mortel et vicié regroupe les individus les plus maléfiques qui ne se satisfont pas de la simple mort de leurs adversaire mais désirent également les faire soufrir et transformer leur cadavre en marionettes serviles."
     },
     {
         "id": 5,
         "slug": "web",
         "name": "La Toile",
         "enabled": true,
-        "short": "",
-        "description": ""
+        "short": "La Toile est la trame qui supporte le monde matériel",
+        "description": "La réalité repose sur un support intengible appelé Toile qui définit les lois physiques du monde matériel. Ce suport garant de la trame de l'espace-temps, gouverne l'écoulement du temps aussi bien que les distances qui composent l'espace. \r\n\r\nLes maîtres de la Toile sont capables de ressentir et gouverner les subtiles fluctuations de l'espace-temps. Cela leur permet de projeter leur esprit dans d'autres temporalités ou de transporter leur corps vers des lieux éloignés. \r\n\r\nCet arcane stratégique et polyvalent est trés apprecié des sages souhaitant ne jamais être pris au dépourvus et toujours garder une longueur d'avance sur leurs adversaires."
     },
     {
         "id": 6,
         "slug": "spirit",
         "name": "L'Esprit",
         "enabled": true,
-        "short": "",
-        "description": ""
+        "short": "L'Esprit est la force qui gouverne l'existence",
+        "description": "L'énergie qui anime les êtres vivants a beau être puissante, elle n'est rien sans une force pour la contenir et la diriger, il s'agit de l'Esprit. C'est de cette contrainte qu'émerge la conscience des individus leur permettant de suivre un objectif, de penser, de rêver, etc. \r\n\r\nLes initiés maîtrisant l'Esprit sont non seulement capables de percevoir les êtres spirituels environnants mais également d'échanger des informations avec eux. Les plus doués peuvent même donner corps à leur imaginaire ou déplacer leur propre esprit dans un autre individu. \r\n\r\nCet arcane créatif et collaboratif permet à ses pratiquants de laisser libre cours à leur imagination et de conserver en permanence des liens discrets avec leur groupe."
     },
     {
         "id": 7,
         "slug": "veil",
         "name": "Le Voile",
         "enabled": true,
-        "short": "",
+        "short": "Le Voile est le brouillard subtil qui altère la réalité",
         "description": ""
     },
     {
@@ -60,7 +60,7 @@
         "slug": "vice",
         "name": "L'Etau",
         "enabled": true,
-        "short": "",
+        "short": "L'Etau est la force qui contraint la volonté",
         "description": ""
     }
 ]
