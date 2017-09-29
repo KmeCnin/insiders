@@ -1,4 +1,5 @@
 **Pages:**
+[Arcanes](../book/arcanes.md) -
 [Capacités](../book/capacités.md) -
 [Divinités](../book/divinités.md)
 # Divinités
@@ -65,7 +66,7 @@ Champion de **Lovnir**.
 Il s&#039;agit d&#039;un ancien richissime bourgeois qui dépensait son incalculable fortune dans la fête et la luxure. Touché par la grâce de Lovnir, il s&#039;exclut de la vie sociale pour se consacrer à la méditation et rechercher une existance dépourvue de désirs.
 
 ## Ozz "Le grand marionnetiste"
-**Arcane :** L&#039;Etau
+**Arcane :** L&#039;Étau
 
 Ozz est un Dieu manipulateur et sur de lui. Il récompense les actes sournois et audacieux et déteste le manque de subtilité et la bêtise. Il est représenté comme un homme masqué encapuchonné dans une élégante robe sombre.
 ### Marlite "L&#039;insolente stratège"

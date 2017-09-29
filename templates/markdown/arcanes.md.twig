@@ -1,0 +1,13 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Arcanes
+{% for arcane in arcanes %}
+{# @var arcane \App\Entity\Rule\Arcane #}
+## {{ arcane.name }}
+
+**{{ arcane.short }}**
+
+{{ arcane.description }}
+{% endfor %}
+{% endblock %}
