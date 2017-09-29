@@ -2,8 +2,10 @@
 
 namespace App\Service;
 
+use App\Entity\Character;
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -34,6 +36,7 @@ class MarkdownRenderer
         return [
             Ability::class => 'abilities',
             Arcane::class => 'arcanes',
+            Characteristic::class => 'characteristics',
             Deity::class => 'deities',
         ];
     }
@@ -43,6 +46,7 @@ class MarkdownRenderer
         return [
             Ability::class => 'capacités',
             Arcane::class => 'arcanes',
+            Characteristic::class => 'caractéristiques',
             Deity::class => 'divinités',
         ];
     }
@@ -75,6 +79,11 @@ class MarkdownRenderer
             case Arcane::class:
                 $parameters = [
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
+                ];
+                break;
+            case Characteristic::class:
+                $parameters = [
+                    'characteristics' => $this->em->getRepository(Characteristic::class)->findAll(),
                 ];
                 break;
             case Deity::class:

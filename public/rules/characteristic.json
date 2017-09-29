@@ -3,24 +3,32 @@
         "id": 1,
         "slug": "force",
         "name": "Imposer",
-        "enabled": true
+        "enabled": true,
+        "short": "Capacité à contraindre autrui",
+        "description": "Capacité à contraindre autrui"
     },
     {
         "id": 2,
         "slug": "resist",
         "name": "Résister",
-        "enabled": true
+        "enabled": true,
+        "short": "Capacité à maintenir son intégrité",
+        "description": "Capacité à maintenir son intégrité"
     },
     {
         "id": 3,
         "slug": "reveal",
         "name": "Dévoiler",
-        "enabled": true
+        "enabled": true,
+        "short": "Capacité à assimiler de l'information",
+        "description": "Capacité à assimiler de l'information"
     },
     {
         "id": 4,
         "slug": "hide",
         "name": "Dissimuler",
-        "enabled": true
+        "enabled": true,
+        "short": "Capacité à occulter de l'information",
+        "description": "Capacité à occulter de l'information"
     }
 ]
