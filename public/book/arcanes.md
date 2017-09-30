@@ -26,11 +26,11 @@ Cet arcane puissant bien que discret convient aux personnalités recherchant l&#
 
 **L&#039;Essence est l&#039;énergie qui anime la vie**
 
-La vie est une force mystérieuse animée d&#039;une énergie puissante appelée Essence. Tous les êtres vivants, animaux et végétaux sont animés par se torrent qui coule en eux sans pour autant en être conscient. Il s&#039;agit pourtant du constituant de toute vie capable de la préserver, de la protéger ou même de la faire se surpasser. 
+La vie est une force mystérieuse animée d&#039;une énergie puissante appelée Essence. Tous les êtres vivants, animaux et végétaux sont animés par ce torrent qui coule en eux sans pour autant en être conscients. Il s&#039;agit pourtant du constituant de toute vie capable de la préserver, de la protéger ou même de la faire se surpasser. 
 
-Rare sont les individus capable de ressentir les courants d&#039;énergie qui parcourent les vivants mais une fois ce potentiel maîtrisé, certains initiés sont alors capables de faire se refermer des plaies en un instant, de protéger la vie de leurs alliés à distance, ou même de surpasser les limites physiques de leur propre corps, etc.
+Rares sont les individus capables de ressentir les courants d&#039;énergie qui parcourent les vivants mais une fois ce potentiel maîtrisé, certains initiés sont alors capables de faire se refermer des plaies en un instant, de protéger la vie de leurs alliés à distance, ou même de surpasser les limites physiques de leur propre corps, etc.
 
-Cet arcane protecteur et bienfaisant est indispensable à ceux cherchant à protéger la vie sous toutes ses formes ou à dépasser leur compétences naturelles.
+Cet arcane protecteur et bienfaisant est indispensable à ceux cherchant à protéger la vie sous toutes ses formes ou à dépasser leurs compétences naturelles.
 ## La Purge
 
 **La Purge est la force qui corrompt la vie**
@@ -39,7 +39,7 @@ L&#039;écoulement naturel de l&#039;Essence peut être altéré par une énergi
 
 Les adeptes de cet arcane sont capables de corrompre le flux de l&#039;Essence pour vider leurs adversaire de leur force vitale ou au contraire la faire affluer dans des corps inanimés pour recréer un simulacre de vie. 
 
-Cet arcane mortel et vicié regroupe les individus les plus maléfiques qui ne se satisfont pas de la simple mort de leurs adversaire mais désirent également les faire souffrir et transformer leur cadavre en marionettes serviles.
+Cet arcane mortel et vicié regroupe les individus les plus maléfiques qui ne se satisfont pas de la simple mort de leurs adversaires mais désirent également les faire souffrir et transformer leur cadavre en marionette servile.
 ## La Toile
 
 **La Toile est la trame qui supporte le monde matériel**
@@ -48,7 +48,7 @@ La réalité repose sur un support intangible appelé Toile qui définit les loi
 
 Les maîtres de la Toile sont capables de ressentir et gouverner les subtiles fluctuations de l&#039;espace-temps. Cela leur permet de projeter leur esprit dans d&#039;autres temporalités ou de transporter leur corps vers des lieux éloignés. 
 
-Cet arcane stratégique et polyvalent est très apprécié des sages souhaitant ne jamais être pris au dépourvus et toujours garder une longueur d&#039;avance sur leurs adversaires.
+Cet arcane stratégique et polyvalent est très apprécié des sages souhaitant ne jamais être pris au dépourvu et toujours garder une longueur d&#039;avance sur leurs adversaires.
 ## L&#039;Esprit
 
 **L&#039;Esprit est la force qui gouverne l&#039;existence**
@@ -64,9 +64,9 @@ Cet arcane créatif et collaboratif permet à ses pratiquants de laisser libre c
 
 Entre la réalité du monde matériel et la perception qu&#039;en ont les êtres vivants se glisse une couche ténue appelée Voile. Cette nappe invisible est la cause des mirages, illusions d&#039;optiques et autres hallucinations que l&#039;on expérimente couramment.
 
-Certains initiés sont capables de manipuler ce film subtile pour se dissimuler, tromper leurs adversaires ou plus généralement simuler tout ce que leur imagination peut concevoir.
+Certains initiés sont capables de manipuler ce film subtil pour se dissimuler, tromper leurs adversaires ou plus généralement simuler tout ce que leur imagination peut concevoir.
 
-Cet arcane subtile et fourbe est très recherché par les maîtres assassins et particulièrement apprécié des individus préférant l&#039;usage de la ruse au combat frontal.
+Cet arcane ingénieux et fourbe est très recherché par les maîtres assassins et particulièrement apprécié des individus préférant l&#039;usage de la ruse au combat frontal.
 ## L&#039;Étau
 
 **L&#039;Étau est la force qui contraint la volonté**
