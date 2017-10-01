@@ -2,11 +2,13 @@
 
 namespace App\Service;
 
-use App\Entity\Character;
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Entity\Rule\Attribute;
+use App\Entity\Rule\CanonicalStuff;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
+use App\Entity\Rule\StuffKind;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -35,9 +37,11 @@ class MarkdownRenderer
     {
         return [
             Ability::class => 'abilities',
+            Attribute::class => 'attributes',
             Arcane::class => 'arcanes',
             Characteristic::class => 'characteristics',
             Deity::class => 'deities',
+            CanonicalStuff::class => 'stuffs',
         ];
     }
 
@@ -45,9 +49,11 @@ class MarkdownRenderer
     {
         return [
             Ability::class => 'capacités',
+            Attribute::class => 'attributs',
             Arcane::class => 'arcanes',
             Characteristic::class => 'caractéristiques',
             Deity::class => 'divinités',
+            CanonicalStuff::class => 'équipements',
         ];
     }
 
@@ -76,6 +82,11 @@ class MarkdownRenderer
                     'abilities' => $this->em->getRepository(Ability::class)->findAll(),
                 ];
                 break;
+            case Attribute::class:
+                $parameters = [
+                    'attributes' => $this->em->getRepository(Attribute::class)->findAll(),
+                ];
+                break;
             case Arcane::class:
                 $parameters = [
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
@@ -89,6 +100,18 @@ class MarkdownRenderer
             case Deity::class:
                 $parameters = [
                     'deities' => $this->em->getRepository(Deity::class)->findAll(),
+                ];
+                break;
+            case CanonicalStuff::class:
+                $parameters = [
+                    'weapons' => $this->em->getRepository(CanonicalStuff::class)
+                        ->findAllWeapons(),
+                    'armors' => $this->em->getRepository(CanonicalStuff::class)
+                        ->findAllArmors(),
+                    'objects' => $this->em->getRepository(CanonicalStuff::class)
+                        ->findAllObjects(),
+                    'expendables' => $this->em->getRepository(CanonicalStuff::class)
+                        ->findAllExpendables(),
                 ];
                 break;
             default:

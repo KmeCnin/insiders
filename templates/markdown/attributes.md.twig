@@ -1,0 +1,13 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Attributs physiques
+{% for attribute in attributes %}
+{# @var attribute \App\Entity\Rule\Attribute #}
+## {{ attribute.name }}
+
+**{{ attribute.short }}**
+
+{{ attribute.description }}
+{% endfor %}
+{% endblock %}

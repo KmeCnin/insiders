@@ -8,8 +8,9 @@ easy_admin:
             - { label: 'General' }
             - User
             - { label: 'Rules' }
-            - Arcane
             - Ability
+            - Attribute
+            - Arcane
             - CanonicalStuff
             - Champion
             - Characteristic
@@ -22,11 +23,6 @@ easy_admin:
         User:
             class: App\Entity\User
         # Rules
-        Arcane:
-            class: App\Entity\Rule\Arcane
-            list:
-                fields: ['id', 'name', 'short', 'enabled']
-                sort: ['id', 'ASC']
         Ability:
             class: App\Entity\Rule\Ability
             list:
@@ -54,6 +50,16 @@ easy_admin:
                         type_options:
                             entry_type: App\Form\Type\Rule\IncreaseType
                             by_reference: false
+        Attribute:
+            class: App\Entity\Rule\Attribute
+            list:
+                fields: ['id', 'name', 'short', 'pc', 'enabled']
+                sort: ['id', 'ASC']
+        Arcane:
+            class: App\Entity\Rule\Arcane
+            list:
+                fields: ['id', 'name', 'short', 'enabled']
+                sort: ['id', 'ASC']
         CanonicalStuff:
             class: App\Entity\Rule\CanonicalStuff
             list:
