@@ -8,40 +8,40 @@
 {% if loop.index > 1 %} - {% endif %}
 [{{ arcane.name }}](#{{ arcane.name|replace({' ': '-', "'": ''})|lower }}){% endfor %}
 
-    {% for arcane in arcanes %}
+{% for arcane in arcanes %}
 {# @var arcane \App\Entity\Rule\Arcane #}
 ## {{ arcane.name }}
 
 {{ arcane.short }}
 
-        {% for ability in abilities %}
+{% for ability in abilities %}
 {# @var ability \App\Entity\Rule\Ability #}
-            {% if ability.arcane == arcane %}
+{% if ability.arcane == arcane %}
 ### {{ ability.name }}
 
 **{{ ability.short }}**
 
-                {% if ability.abilitiesRequired|length > 0 %}
+{% if ability.abilitiesRequired|length > 0 %}
 **Nécessite:**
-                    {% for required in ability.abilitiesRequired %}
+{% for required in ability.abilitiesRequired %}
 {# @var required \App\Entity\Rule\Ability #}
-                        {% if loop.index > 1 %}, {% endif %}
+{% if loop.index > 1 %}, {% endif %}
 [{{ required.name }}](#{{ required.name|replace({' ': '-', "'": ''})|lower }}){% endfor %}
 
 
-                {% endif %}
+{% endif %}
 {{ ability.description }}
 
-                {% if ability.increases|length > 0 %}
+{% if ability.increases|length > 0 %}
 **Augmentations:**
-                    {% for increase in ability.increases %}
+{% for increase in ability.increases %}
 {# @var increase \App\Entity\Rule\Increase #}
 - {{ increase.short }}
-                    {% endfor %}
+{% endfor %}
 
 
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
 {% endblock %}
