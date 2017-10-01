@@ -1,0 +1,42 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Equipements
+
+## Armes
+
+|Genre|Allonge|Propriété|Prix|
+|---|---:|---|---:|
+{% for weapon in weapons %}
+{# @var weapon \App\Entity\Rule\CanonicalStuff #}
+{{ weapon.name }}|{{ weapon.effectiveness }}|{{ weapon.properties|join(', ')|default(' ') }}|{{ weapon.price }}
+{% endfor %}
+
+## Armures
+
+|Genre|Protection|Propriété|Prix|
+|---|---:|---|---:|
+{% for armor in armors %}
+{# @var armor \App\Entity\Rule\CanonicalStuff #}
+{{ armor.name }}|{{ armor.effectiveness }}|{{ armor.properties|join(', ')|default(' ') }}|{{ armor.price }}
+{% endfor %}
+
+## Objets
+
+|Genre|Efficacité|Propriété|Prix|
+|---|---:|---|---:|
+{% for object in objects %}
+{# @var object \App\Entity\Rule\CanonicalStuff #}
+{{ object.name }}|{{ object.effectiveness }}|{{ object.properties|join(', ')|default(' ') }}|{{ object.price }}
+{% endfor %}
+
+## Consommables
+
+|Genre|Efficacité|Propriété|Prix|
+|---|---:|---|---:|
+{% for expendable in expendables %}
+{# @var expendable \App\Entity\Rule\CanonicalStuff #}
+{{ expendable.name }}|{{ expendable.effectiveness }}|{{ expendable.properties|join(', ')|default(' ') }}|{{ expendable.price }}
+{% endfor %}
+
+{% endblock %}

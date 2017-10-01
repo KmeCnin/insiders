@@ -1,8 +1,10 @@
 **Pages:**
+[Attributs physiques](../book/attributs.md) -
 [Arcanes](../book/arcanes.md) -
-[Capacités](../book/capacités.md) -
+[Capacités arcaniques](../book/capacités.md) -
 [Caracteristiques](../book/caractéristiques.md) -
-[Divinités](../book/divinités.md)
+[Divinités](../book/divinités.md) -
+[Equipements](../book/équipements.md)
 # Arcanes
 ## La Source
 
