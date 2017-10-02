@@ -776,7 +776,7 @@
         "enabled": true,
         "arcane": "vice",
         "short": "Sait se rendre amicale instantanément",
-        "description": "Le personnage peut modifier le comportement des êtres vivants à son égare.\r\nCela lui permet par exemple de faire oublier ses actions belliqueuses à un adversaire, dresser un animale sauvage, obtenir la coopération d'un personnage, etc.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut faire en sorte que la cible ne le considère plus comme un ennemi jusqu'à la prochaine action agressive qu'il entreprend.",
+        "description": "Le personnage peut modifier le comportement des êtres vivants à son égard.\r\nCela lui permet par exemple de faire oublier ses actions belliqueuses à un adversaire, dresser un animale sauvage, obtenir la coopération d'un personnage, etc.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut faire en sorte que la cible ne le considère plus comme un ennemi jusqu'à la prochaine action agressive qu'il entreprend.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
