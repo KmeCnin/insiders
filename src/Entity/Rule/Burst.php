@@ -5,17 +5,10 @@ namespace App\Entity\Rule;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\DeityRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\BurstRepository")
  */
-class Deity extends AbstractRule
+class Burst extends AbstractRule
 {
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="string")
-     */
-    protected $dignity;
-
     /**
      * @var Arcane
      *
@@ -25,11 +18,11 @@ class Deity extends AbstractRule
     private $arcane;
 
     /**
-     * @var Champion
+     * @var string
      *
-     * @ORM\OneToOne(targetEntity="Champion")
+     * @ORM\Column(type="string")
      */
-    private $champion;
+    protected $short;
 
     /**
      * @var string
@@ -38,16 +31,12 @@ class Deity extends AbstractRule
      */
     protected $description;
 
-    public function getDignity(): ?string
+    public function __construct()
     {
-        return $this->dignity;
-    }
+        parent::__construct();
 
-    public function setDignity(string $dignity): self
-    {
-        $this->dignity = $dignity;
-
-        return $this;
+        $this->setShort('');
+        $this->setDescription('');
     }
 
     public function getArcane(): ?Arcane
@@ -62,14 +51,14 @@ class Deity extends AbstractRule
         return $this;
     }
 
-    public function getChampion(): ?Champion
+    public function getShort(): ?string
     {
-        return $this->champion;
+        return $this->short;
     }
 
-    public function setChampion(?Champion $champion): self
+    public function setShort(string $short): self
     {
-        $this->champion = $champion;
+        $this->short = $short;
 
         return $this;
     }
@@ -89,11 +78,8 @@ class Deity extends AbstractRule
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
-            'dignity' => $this->getDignity(),
             'arcane' => $this->getArcane()->getSlug(),
-            'champion' => $this->getChampion()
-                ? $this->getChampion()->getSlug()
-                : null,
+            'short' => $this->getShort(),
             'description' => $this->getDescription(),
         ]);
     }

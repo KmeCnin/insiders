@@ -3,6 +3,7 @@
 [Arcanes](../book/arcanes.md) -
 [Capacités arcaniques](../book/capacités.md) -
 [Caracteristiques](../book/caractéristiques.md) -
+[Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
 [Equipements](../book/équipements.md)
 # Arcanes
@@ -41,7 +42,7 @@ L&#039;écoulement naturel de l&#039;Essence peut être altéré par une énergi
 
 Les adeptes de cet arcane sont capables de corrompre le flux de l&#039;Essence pour vider leurs adversaire de leur force vitale ou au contraire la faire affluer dans des corps inanimés pour recréer un simulacre de vie. 
 
-Cet arcane mortel et vicié regroupe les individus les plus maléfiques qui ne se satisfont pas de la simple mort de leurs adversaires mais désirent également les faire souffrir et transformer leur cadavre en marionette servile.
+Cet arcane mortel et vicié regroupe les individus les plus maléfiques qui ne se satisfont pas de la simple mort de leurs adversaires mais désirent également les faire souffrir et transformer leur cadavre en marionnette servile.
 ## La Toile
 
 **La Toile est la trame qui supporte le monde matériel**

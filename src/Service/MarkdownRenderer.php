@@ -5,6 +5,7 @@ namespace App\Service;
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
 use App\Entity\Rule\Attribute;
+use App\Entity\Rule\Burst;
 use App\Entity\Rule\CanonicalStuff;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
@@ -39,6 +40,7 @@ class MarkdownRenderer
             Ability::class => 'abilities',
             Attribute::class => 'attributes',
             Arcane::class => 'arcanes',
+            Burst::class => 'bursts',
             Characteristic::class => 'characteristics',
             Deity::class => 'deities',
             CanonicalStuff::class => 'stuffs',
@@ -51,6 +53,7 @@ class MarkdownRenderer
             Ability::class => 'capacités',
             Attribute::class => 'attributs',
             Arcane::class => 'arcanes',
+            Burst::class => 'décharges',
             Characteristic::class => 'caractéristiques',
             Deity::class => 'divinités',
             CanonicalStuff::class => 'équipements',
@@ -90,6 +93,12 @@ class MarkdownRenderer
             case Arcane::class:
                 $parameters = [
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
+                ];
+                break;
+            case Burst::class:
+                $parameters = [
+                    'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
+                    'bursts' => $this->em->getRepository(Burst::class)->findAll(),
                 ];
                 break;
             case Characteristic::class:

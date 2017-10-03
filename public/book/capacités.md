@@ -3,17 +3,18 @@
 [Arcanes](../book/arcanes.md) -
 [Capacités arcaniques](../book/capacités.md) -
 [Caracteristiques](../book/caractéristiques.md) -
+[Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
 [Equipements](../book/équipements.md)
 # Capacités
 
 **Arcanes:**
-[La Source](#la-source) - [L&#039;Ether](#lether) - [L&#039;Essence](#lessence) - [La Purge](#la-purge) - [La Toile](#la-toile) - [L&#039;Esprit](#lesprit) - [Le Voile](#le-voile) - [L&#039;Étau](#létau)
-## La Source
+[La Source](#anchor-source) - [L&#039;Ether](#anchor-ether) - [L&#039;Essence](#anchor-life) - [La Purge](#anchor-death) - [La Toile](#anchor-web) - [L&#039;Esprit](#anchor-spirit) - [Le Voile](#anchor-veil) - [L&#039;Étau](#anchor-vice)
+## <a name="anchor-source"></a>La Source
 
 La Source est l&#039;énergie qui parcourt le monde matériel
 
-### Combustion
+### <a name="anchor-combustion"></a>Combustion
 
 **Peut initier des réactions de combustion**
 
@@ -27,7 +28,7 @@ Il résiste aux brûlures.
 - Augmente d&#039;un degré la blessure infligée
 
 
-### Courant électrique
+### <a name="anchor-electrocution"></a>Courant électrique
 
 **Peut générer des courants électriques**
 
@@ -41,7 +42,7 @@ Il résiste aux électrocutions.
 - Peut blesser à distance
 
 
-### Onde sonore
+### <a name="anchor-sound"></a>Onde sonore
 
 **Peut projeter des ondes sonores puissantes**
 
@@ -57,12 +58,12 @@ Il résiste aux sons.
 - Inflige une blessure de degré I en plus de sonner
 
 
-### Foudre
+### <a name="anchor-lightning"></a>Foudre
 
 **Peut invoquer des orages**
 
 **Nécessite:**
-[Combustion](#combustion), [Courant électrique](#courant-électrique)
+[Combustion](#anchor-combustion), [Courant électrique](#anchor-electrocution)
 
 Le personnage est capable de commander la météo environnante.
 Cela lui permet par exemple d&#039;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.
@@ -73,12 +74,12 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 - Ne s&#039;inflige plus de blessures
 
 
-### Électromagnétisme
+### <a name="anchor-electromagnetism"></a>Électromagnétisme
 
 **Maîtrise les champs magnétiques**
 
 **Nécessite:**
-[Courant électrique](#courant-électrique), [Onde sonore](#onde-sonore)
+[Courant électrique](#anchor-electrocution), [Onde sonore](#anchor-sound)
 
 Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.
 Cela lui permet par exemple d&#039;aimanter des équipements métalliques à distance, de savoir s&#039;orienter en permanence (il localise le Nord magnétique), attirer à lui des objets métalliques, etc.
@@ -86,19 +87,19 @@ Cela lui permet par exemple d&#039;aimanter des équipements métalliques à dis
 Grâce à un jet d&#039;Attaque à distance il peut désarmer un adversaire équipé d&#039;une arme métallique et envoyer son arme loin de lui.
 Grâce à un jet d&#039;Attaque à distance il peut plaquer au sol un adversaire équipé d&#039;une armure métallique.
 
-### Tectonique
+### <a name="anchor-tectonic"></a>Tectonique
 
 **Peut créer des séismes**
 
 **Nécessite:**
-[Combustion](#combustion), [Onde sonore](#onde-sonore)
+[Combustion](#anchor-combustion), [Onde sonore](#anchor-sound)
 
 Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.
 Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
 
 Grâce à un jet d&#039;Attaque à distance il peut faire tomber les adversaires à portée.
 
-### Thermodynamique
+### <a name="anchor-thermodynamics"></a>Thermodynamique
 
 **Peut faire rapidement varier la température**
 
@@ -114,11 +115,11 @@ Il résiste aux gelures.
 - Peut faire chauffer du métal à blanc et augmenter les blessures de ses armes d&#039;un degré
 
 
-## L&#039;Ether
+## <a name="anchor-ether"></a>L&#039;Ether
 
 L&#039;Ether est le fluide invisible dans lequel le monde matériel est plongé
 
-### Psychokinèse
+### <a name="anchor-psychokinesis"></a>Psychokinèse
 
 **Peut déplacer les objets légers par la pensée**
 
@@ -127,7 +128,7 @@ Cela lui permet par exemple de déplacer en l&#039;air tout objet non tenu et in
 
 Grâce à un jet d&#039;Attaquer à distance, il peut utiliser l&#039;arme du personnage ciblé contre lui ou le désarmer.
 
-### Attraction
+### <a name="anchor-pull"></a>Attraction
 
 **Peut attirer des objets à sois**
 
@@ -138,7 +139,7 @@ Grâce à un jet d&#039;Imposer à distance, il peut attirer à lui un objet ten
 Grâce à un jet d&#039;Imposer à distance, il peut attirer vers lui un adversaire qui se retrouve alors au contact.
 Les adversaires au contact du joueur doivent d&#039;abord réussir un jet de Résister pour pouvoir s&#039;en éloigner.
 
-### Répulsion
+### <a name="anchor-push"></a>Répulsion
 
 **Génère un champ de force répulsif**
 
@@ -148,7 +149,7 @@ Cela lui permet par exemple de se protéger des tirs ennemies, d&#039;amortir le
 Grâce à un jet d&#039;Attaquer à distance, il peut renvoyer un projectile qui le vise. S&#039;il réussit, il effectue un nouveau jet d&#039;Attaquer pour toucher l&#039;expéditeur.
 Les adversaires doivent d&#039;abord réussir un jet de Résister pour pouvoir d&#039;approcher au contact du personnage.
 
-### Lévitation
+### <a name="anchor-levitation"></a>Lévitation
 
 **Se déplace dans les airs**
 
@@ -158,7 +159,7 @@ Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habi
 - Augmente la vitesse de déplacement de manière surnaturelle
 
 
-### Champ de force
+### <a name="anchor-force-field"></a>Champ de force
 
 **Peut créer des murs de force**
 
@@ -171,18 +172,18 @@ Les individus (y compris le personnage) désirant ignorer le champ de force doiv
 - Champ de force sélectif
 
 
-### Vélocité
+### <a name="anchor-velocity"></a>Vélocité
 
 **Se déplace à une vitesse surnaturelle**
 
 Le personnage utilise sa maîtrise de l&#039;arcane cinétique afin d’accélérer grandement ses mouvements.
 Cela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle, etc.
 
-## L&#039;Essence
+## <a name="anchor-life"></a>L&#039;Essence
 
 L&#039;Essence est l&#039;énergie qui anime la vie
 
-### Poings d&#039;obsylène
+### <a name="anchor-mineral-fists"></a>Poings d&#039;obsylène
 
 **Possède des poings dont la solidité peut briser le métal**
 
@@ -195,7 +196,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 - Détruit également les équipements portés
 
 
-### Transfert de force vitale
+### <a name="anchor-vital-force"></a>Transfert de force vitale
 
 **Peut insuffler son énergie vitale**
 
@@ -208,7 +209,7 @@ Grâce à un jet de Résister au contact contre une blessure, il peut la guérir
 - Peut guérir à distance
 
 
-### Ange gardien
+### <a name="anchor-guardian"></a>Ange gardien
 
 **Peut protéger ses alliés à distance**
 
@@ -220,7 +221,7 @@ En cas d&#039;échec c&#039;est tout de même l&#039;allié qui reçoit la bless
 - Peut protéger à distance
 
 
-### Changement de forme
+### <a name="anchor-transform"></a>Changement de forme
 
 **Peut alterner entre plusieurs formes physiques**
 
@@ -234,16 +235,16 @@ En découvrant cette capacité le personnage choisit une forme qui doit posséde
 - Choisit une nouvelle forme
 
 
-### Corps d&#039;obsylène
+### <a name="anchor-mineral-body"></a>Corps d&#039;obsylène
 
 **Possède un corps extrêmement résistant aux coups et blessures**
 
 **Nécessite:**
-[Poings d&#039;obsylène](#poings-dobsylène)
+[Poings d&#039;obsylène](#anchor-mineral-fists)
 
 Le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).
 
-### Dédoublement
+### <a name="anchor-duplication"></a>Dédoublement
 
 **Peut se dédoubler**
 
@@ -258,11 +259,11 @@ La moindre blessure de degré I suffit à le détruire complètement. La blessur
 - Chaque clone possède un point dans deux caractéristiques au choix
 
 
-## La Purge
+## <a name="anchor-death"></a>La Purge
 
 La Purge est la force qui corrompt la vie
 
-### Contact nécrotique
+### <a name="anchor-necrosis"></a>Contact nécrotique
 
 **Corrompt la vie**
 
@@ -271,7 +272,7 @@ Cela lui permet par exemple de décomposer de la végétation, nécroser ses adv
 
 Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d&#039;un degré à chaque tour.
 
-### Vampirisme
+### <a name="anchor-vampirisme"></a>Vampirisme
 
 **Aspire la vie au contact**
 
@@ -284,7 +285,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 - Augmente d&#039;un degré la blessure infligée
 
 
-### Pacte de sang
+### <a name="anchor-blood-pact"></a>Pacte de sang
 
 **Peut sacrifier son intégrité physique pour blesser à coup sûr**
 
@@ -296,7 +297,7 @@ Il peut s&#039;infliger une blessure de degré II afin d&#039;essayer d&#039;inf
 - Diminue d&#039;un degré la blessure reçue
 
 
-### Nécromancie
+### <a name="anchor-necromancy"></a>Nécromancie
 
 **Peut redonner vie à des corps inanimés**
 
@@ -316,7 +317,7 @@ La moindre blessure de degré I suffit à les réduire définitivement en cendre
 - Peut animer sept fois son score de Résister
 
 
-### Aura morbide
+### <a name="anchor-morbid-aura"></a>Aura morbide
 
 **Dégage une atmosphère malsaine**
 
@@ -324,7 +325,7 @@ Le personnage est constamment entouré d&#039;un nuage mortel qui détruit la v�
 
 Tous les personnages à distance (excepté les morts-vivants et ceux possédant également Aura morbide) ne peuvent plus être soignés (même pas par Transfert de force vitale).
 
-### Phylactère
+### <a name="anchor-phylactery"></a>Phylactère
 
 **Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel**
 
@@ -332,11 +333,11 @@ Le personnage possède un réceptacle particulier dans lequel il choisit de tran
 
 A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de Résister supplémentaire avec le score de Résister de son phylactère pour tenter directement de la guérir. Cela fonctionne quelque soit la distance entre le personnage et le phylactère.
 
-## La Toile
+## <a name="anchor-web"></a>La Toile
 
 La Toile est la trame qui supporte le monde matériel
 
-### Vision
+### <a name="anchor-vision"></a>Vision
 
 **Peut voir le présent, le passé ou le futur d&#039;une entité éloignée**
 
@@ -350,7 +351,7 @@ Avant de s’endormir le personnage peut décider d’utiliser cette capacité p
 - Peut voir le futur
 
 
-### Anticipation
+### <a name="anchor-anticipation"></a>Anticipation
 
 **Peut prévoir un événement imminent**
 
@@ -359,12 +360,12 @@ Cela lui permet par exemple de pressentir un danger imminent, un choix désastre
 
 Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre l&#039;adversaire ciblé. Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
 
-### Accélération du temps
+### <a name="anchor-fast-forward"></a>Accélération du temps
 
 **Peut accélérer l&#039;écoulement du temps localement**
 
 **Nécessite:**
-[Anticipation](#anticipation)
+[Anticipation](#anchor-anticipation)
 
 Le personnage peut accélérer le temps sur une zone restreinte.
 Cela lui permet par exemple d&#039;accélérer la pousse de la végétation, d&#039;aggraver les blessures d&#039;un ennemie, d&#039;achever un adversaire inconscient à distance.
@@ -372,12 +373,12 @@ Cela lui permet par exemple d&#039;accélérer la pousse de la végétation, d&#
 Grâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augmenter d&#039;un degré chacune des blessures de la cible.
 Il peut accélérer les projectiles qu&#039;il lance (flèches, armes de jet...) pour augmenter d&#039;un degré la blessure infligée.
 
-### Ralentissement du temps
+### <a name="anchor-slow-motion"></a>Ralentissement du temps
 
 **Peut ralentir l&#039;écoulement du temps localement**
 
 **Nécessite:**
-[Anticipation](#anticipation)
+[Anticipation](#anchor-anticipation)
 
 Le personnage peut ralentir le temps sur une zone restreinte.
 Cela lui permet de ralentir une chute, esquiver des projectiles, ralentir un adversaire.
@@ -385,7 +386,7 @@ Cela lui permet de ralentir une chute, esquiver des projectiles, ralentir un adv
 Lorsque le personnage est amené à effectuer un jet de Défendre, il peut utiliser son score d&#039;Instinct en Dévoiler à la place de Résister.
 Lorsque le personnage attaque au contact, il peut infliger une blessure d&#039;un degré supplémentaire.
 
-### Localisation
+### <a name="anchor-tracking"></a>Localisation
 
 **Connaît l&#039;emplacement de tout ce avec quoi il a été en contact**
 
@@ -394,42 +395,42 @@ Cela lui permet par exemple de pouvoir s&#039;orienter en permanence, de localis
 
 Grâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.
 
-### Téléportation
+### <a name="anchor-teleport"></a>Téléportation
 
 **Peut se rendre instantanément dans un lieu déjà visité**
 
 **Nécessite:**
-[Localisation](#localisation)
+[Localisation](#anchor-tracking)
 
 Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant. Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter.
 
-## L&#039;Esprit
+## <a name="anchor-spirit"></a>L&#039;Esprit
 
 L&#039;Esprit est la force qui gouverne l&#039;existence
 
-### Perception de la vie
+### <a name="anchor-life-perception"></a>Perception de la vie
 
 **A conscience des formes de vies qui l&#039;entourent**
 
 Le personnage a conscience de l’existence des formes de vies alentours (végétales et animales).
 Cela lui permet par exemple de se repérer sans lumière, percevoir les personnages invisibles, de localiser de la végétation, etc.
 
-### Télépathie
+### <a name="anchor-telepathy"></a>Télépathie
 
 **Peut communiquer avec un personnage à distance**
 
 **Nécessite:**
-[Localisation](#localisation)
+[Localisation](#anchor-tracking)
 
 Le personnage peut communiquer mentalement avec un personnage ou un animal à distance. S&#039;il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue. Une fois le message transmit, la cible peut ensuite répondre mentalement par une phrase. Il n&#039;a pas besoin de parler la même langue que la cible pour comprendre et être compris (il peut même communiquer avec des animaux en utilisant des mots simples).
 
-### Partage d&#039;expérience
+### <a name="anchor-pooling"></a>Partage d&#039;expérience
 
 **Chaque membre utilise la maîtrise du meilleur élément de l&#039;équipe**
 
 Le personnage choisit des personnages à distance. Chaque personnage choisit ainsi utilise pour chaque caractéristique le score de Maîtrise de son allié possédant le meilleur score.
 
-### Familier
+### <a name="anchor-familiar"></a>Familier
 
 **Contrôle un animal qui devient une extension de son esprit**
 
@@ -443,7 +444,7 @@ Le Facteur de Puissance du familier ne peut pas être supérieur au score d&#039
 - Le FP du familier peut être le triple du score de Dévoiler
 
 
-### Invocation
+### <a name="anchor-invocation"></a>Invocation
 
 **Peut donner vie à un souvenir d&#039;une créature rencontrée**
 
@@ -460,34 +461,34 @@ Le personnage ne peut invoquer qu&#039;une créature à la fois.
 - Invoque six créatures à la fois
 
 
-## Le Voile
+## <a name="anchor-veil"></a>Le Voile
 
 Le Voile est le brouillard subtil qui altère la réalité
 
-### Marche fantomatique
+### <a name="anchor-ghost-walk"></a>Marche fantomatique
 
 **Ne fait aucun bruit et ne laisse pas de trace lors des déplacements**
 
 Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.
 Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
 
-### Invisibilité
+### <a name="anchor-invisibility"></a>Invisibilité
 
 **Peut s’entourer d&#039;une aura éthérée le rendant très difficilement repérable**
 
 **Nécessite:**
-[Marche fantomatique](#marche-fantomatique)
+[Marche fantomatique](#anchor-ghost-walk)
 
 Le personnage peut se rendre invisible à volonté. Il doit pour cela se concentrer et ne peux entreprendre d&#039;action complexe (comme se battre...) sans perdre son camouflage.
 Les autres personnages se doutant de sa présence peuvent tenter un jet de Dévoiler pour le localiser avant chaque action entreprise (Attaquer, Percevoir...).
 
-### Usurpation d&#039;identité
+### <a name="anchor-identity-theft"></a>Usurpation d&#039;identité
 
 **Peut modeler son apparence pour se faire passer pour quelqu’un d’autre**
 
 Le personnage est capable de simuler à la perfection les traits, les mimiques, la voix, etc. d’une personne dont il a eu l’occasion de percevoir ces informations (voir, entendre, toucher...). Aucun jet n’est requis, le joueur imite à la perfection les traits dont il a connaissance mais cela n&#039;empêche pas un ennemie d’avoir un doute en fonction de son comportement ou autre détail, dans ce cas l&#039;adversaire peut tenter un jet de Dévoiler pour découvrir la supercherie. La cible de l’usurpation d’identité doit être de la même espèce que le joueur ou une espèce proche.
 
-### Apparence trompeuse
+### <a name="anchor-misleading-appearance"></a>Apparence trompeuse
 
 **Peut se faire passer pour n’importe quoi**
 
@@ -499,7 +500,7 @@ Un personnage ayant un doute et réussissant un jet de Dévoiler ou un personnag
 - Simule également des sons simples
 
 
-### Leurres
+### <a name="anchor-lure"></a>Leurres
 
 **Peut créer des faux doubles de lui-même**
 
@@ -514,7 +515,7 @@ Le moindre contact le transperçant suffit à le détruire complètement.
 - Peut créer autant de doubles que le triple de son score de Dissimuler
 
 
-### Illusion
+### <a name="anchor-illusion"></a>Illusion
 
 **Peut créer de faux objets**
 
@@ -528,11 +529,11 @@ Il ne peut maintenir qu&#039;une illusion à la fois.
 - Peut maintenir trois illusions simultanément de la taille d&#039;un grand bâtiment
 
 
-## L&#039;Étau
+## <a name="anchor-vice"></a>L&#039;Étau
 
 L&#039;Étau est la force qui contraint la volonté
 
-### Confidence
+### <a name="anchor-confessions"></a>Confidence
 
 **Peut forcer une cible à ne dire que la vérité**
 
@@ -540,7 +541,7 @@ Le personnage peut se rendre dans l&#039;esprit d&#039;un individu et le forcer 
 
 Grâce à un jet de Dévoiler à distance le personnage peut s&#039;insinuer dans l&#039;esprit de sa cible et lui poser une question à laquelle elle devra répondre le plus honnêtement possible. En cas d’échec au jet, la cible se rend compte de la tentative d&#039;intrusion et ne peut plus être interrogée tant qu&#039;elle reste sur ses gardes.
 
-### Distraction
+### <a name="anchor-distraction"></a>Distraction
 
 **Peut s’insinuer dans l’esprit de ses adversaires pour les perturber**
 
@@ -554,12 +555,12 @@ Grâce à un jet de Dissimuler à distance, il peut distraire une cible qui mini
 - Inflige une blessure de degré I en plus de distraire
 
 
-### Trahison
+### <a name="anchor-betrayal"></a>Trahison
 
 **Peut forcer un personnage à attaquer ses alliés**
 
 **Nécessite:**
-[Distraction](#distraction)
+[Distraction](#anchor-distraction)
 
 Le personnage peut contrôler momentanément l&#039;esprit d&#039;une cible.
 Cela lui permet au choix d&#039;insérer un sentiment extrême d&#039;agressivité, de bienveillance, de peur envers un personnage (qu&#039;il soit allié ou ennemi).
@@ -567,7 +568,7 @@ Il peut donc par exemple le forcer à attaquer un allier, soigner un ennemie, s&
 
 Grâce à un jet de Dissimuler à distance, il peut obliger la cible à accomplir une unique action de son choix.
 
-### Persuasion
+### <a name="anchor-persuasion"></a>Persuasion
 
 **Peut faire croire à des mensonges peu vraisemblables**
 
@@ -576,11 +577,11 @@ Il maximise automatiquement tous ses jets de Dissimuler pour les mensonges plaus
 
 Grâce à un jet de Dissimuler à distance, il peut tenter de faire croire un mensonge particulièrement peu vraisemblable.
 
-### Pacifisme
+### <a name="anchor-pacifism"></a>Pacifisme
 
 **Sait se rendre amicale instantanément**
 
-Le personnage peut modifier le comportement des êtres vivants à son égare.
+Le personnage peut modifier le comportement des êtres vivants à son égard.
 Cela lui permet par exemple de faire oublier ses actions belliqueuses à un adversaire, dresser un animale sauvage, obtenir la coopération d&#039;un personnage, etc.
 
 Grâce à un jet de Dissimuler à distance, il peut faire en sorte que la cible ne le considère plus comme un ennemi jusqu&#039;à la prochaine action agressive qu&#039;il entreprend.

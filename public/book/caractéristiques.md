@@ -3,22 +3,23 @@
 [Arcanes](../book/arcanes.md) -
 [Capacités arcaniques](../book/capacités.md) -
 [Caracteristiques](../book/caractéristiques.md) -
+[Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
 [Equipements](../book/équipements.md)
 # Caractéristiques
 ## Imposer
 
-**Capacité à contraindre autrui**
+**Force et habileté**
 
 ## Résister
 
-**Capacité à maintenir son intégrité**
+**Vigueur et réflexes**
 
 ## Dévoiler
 
-**Capacité à assimiler de l&#039;information**
+**Intelligence et lucidité**
 
 ## Dissimuler
 
-**Capacité à occulter de l&#039;information**
+**Ruse et charisme**
 

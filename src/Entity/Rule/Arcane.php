@@ -5,7 +5,7 @@ namespace App\Entity\Rule;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="App\Repository\ArcaneRepository")
  */
 class Arcane extends AbstractRule
 {

@@ -3,6 +3,7 @@
 [Arcanes](../book/arcanes.md) -
 [Capacités arcaniques](../book/capacités.md) -
 [Caracteristiques](../book/caractéristiques.md) -
+[Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
 [Equipements](../book/équipements.md)
 # Divinités

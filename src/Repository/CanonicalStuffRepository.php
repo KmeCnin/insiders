@@ -5,10 +5,9 @@ namespace App\Repository;
 use App\Entity\Rule\CanonicalStuff;
 use App\Entity\Rule\StuffKind;
 use App\Entity\Stuff;
-use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\Query\Expr\Join;
 
-class CanonicalStuffRepository extends EntityRepository
+class CanonicalStuffRepository extends AbstractRuleRepository
 {
     public function findAllWeapons(): array
     {
