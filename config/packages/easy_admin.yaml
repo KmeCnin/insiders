@@ -11,6 +11,7 @@ easy_admin:
             - Ability
             - Attribute
             - Arcane
+            - Burst
             - CanonicalStuff
             - Champion
             - Characteristic
@@ -59,6 +60,11 @@ easy_admin:
             class: App\Entity\Rule\Arcane
             list:
                 fields: ['id', 'name', 'short', 'enabled']
+                sort: ['id', 'ASC']
+        Burst:
+            class: App\Entity\Rule\Burst
+            list:
+                fields: ['id', 'name', 'short', 'arcane', 'enabled']
                 sort: ['id', 'ASC']
         CanonicalStuff:
             class: App\Entity\Rule\CanonicalStuff
