@@ -8,7 +8,7 @@
 [Equipements](../book/équipements.md)
 # Attributs physiques
 
-
+Un initié ou une aberration absorbant la puissance d'un cristal d'arcanite peut développer des mutations physiques extraordinaires appelées **attributs physiques**.
 
 ## Blessure de degré I
 
