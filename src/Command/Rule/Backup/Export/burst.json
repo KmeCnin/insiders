@@ -34,5 +34,14 @@
         "arcane": "death",
         "short": "Crée un serviteur puissant à partir d'un cadavre",
         "description": "Peut réanimer un personnage ou un animal sous forme de mort-vivant. La cible est alors réanimée, ses blessures soignées et ses souvenirs ante-mortem conservés. Mais les membres amputés ne sont pas ressoudés et l'état de décomposition du cadavre reste le même.\r\n\r\nSi le FP de la cible est au moins inférieur de 5 points à celui de l'initié la réanimant, elle devient alors un serviteur inconditionnel du personnage exécutant alors le moindre de ses ordres au mieux de ses capacités sans jamais les discuter. Dans le cas contraire, la cible conserve son libre arbitre et pourrait très bien se retourner contre le personnage si elle le désire. Avant de lancer le rituel, le personnage sait si sa cible pourra être contrôlée ou non."
+    },
+    {
+        "id": 5,
+        "slug": "retry",
+        "name": "Seconde chance",
+        "enabled": true,
+        "arcane": "web",
+        "short": "Reviens quelques instants dans le passé",
+        "description": "L'initié effectue un bon dans le passé d'environ 5 minutes. Tous les événements ayant eu lieu dans cet interval de temps sont annulés mais l'initié est le seul à en conserve tout de même un souvenir."
     }
 ]

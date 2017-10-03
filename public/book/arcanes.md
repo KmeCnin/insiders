@@ -7,6 +7,9 @@
 [Divinités](../book/divinités.md) -
 [Equipements](../book/équipements.md)
 # Arcanes
+
+Les initiés sont capables d'absorber l'énergie des cristaux d'arcanite pour débloquer une sensibilité particulière à des aspects de la réalités appelés **arcanes**. Un initié ayant débloqué un arcane spécifique acquière alors une compréhension singulière de cette facette de la réalité lui permettant de débloquer par la suite des capacités arcaniques surnaturelles.
+
 ## La Source
 
 **La Source est l&#039;énergie qui parcourt le monde matériel**

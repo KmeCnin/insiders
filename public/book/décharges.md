@@ -8,7 +8,7 @@
 [Equipements](../book/équipements.md)
 # Décharges d'arcanite
 
-Un initié en possession d'un cristal d'arcanite peut décider de dépenser une charge pour réaliser une action particulièrement puissante appellée **décharge d'arcanite**. L'initié doit avoir débloqué l'arcane correspondant et la charge ainsi dépensée est perdue à jamais.
+Un initié en possession d'un cristal d'arcanite peut décider de dépenser une charge pour réaliser une action particulièrement puissante appelée **décharge d'arcanite**. L'initié doit pour cela avoir préalablement débloqué l'arcane correspondant. La charge ainsi dépensée est perdue à jamais.
 
 ## La Source
 ### Fléau

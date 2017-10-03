@@ -8,6 +8,8 @@
 [Equipements](../book/équipements.md)
 # Capacités
 
+Un initié ou une aberration maîtrisant un arcane particulier est capable d'apprendre des capacités liées à ce dernier lui conférant alors des pouvoirs surnaturels.
+
 **Arcanes:**
 [La Source](#anchor-source) - [L&#039;Ether](#anchor-ether) - [L&#039;Essence](#anchor-life) - [La Purge](#anchor-death) - [La Toile](#anchor-web) - [L&#039;Esprit](#anchor-spirit) - [Le Voile](#anchor-veil) - [L&#039;Étau](#anchor-vice)
 ## <a name="anchor-source"></a>La Source
