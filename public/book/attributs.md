@@ -7,6 +7,9 @@
 [Divinités](../book/divinités.md) -
 [Equipements](../book/équipements.md)
 # Attributs physiques
+
+
+
 ## Blessure de degré I
 
 **1 PC. Inflige une blessure de degré I au contact**
