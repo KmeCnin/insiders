@@ -272,7 +272,7 @@ La Purge est la force qui corrompt la vie
 Le personnage décompose les cellules vivantes au contact.
 Cela lui permet par exemple de décomposer de la végétation, nécroser ses adversaires, affaiblir des constructions en bois, etc.
 
-Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d&#039;un degré à chaque tour.
+Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d&#039;un degré à chaque tour jusqu&#039;à un maximum de degré III.
 
 ### <a name="anchor-vampirisme"></a>Vampirisme
 
@@ -549,7 +549,7 @@ Grâce à un jet de Dévoiler à distance le personnage peut s&#039;insinuer dan
 
 Le personnage peut semer le doute dans un esprit.
 Cela lui permet par exemple de pouvoir détourner l&#039;attention d&#039;une cible pendant un instant, d&#039;affaiblir un esprit à corrompre, etc.
-La cible n&#039;est alors pas consciente de l&#039;origine de l&#039;agression.
+En cas de réussite, la cible n&#039;est alors pas consciente de l&#039;origine de l&#039;agression.
 
 Grâce à un jet de Dissimuler à distance, il peut distraire une cible qui minimisera alors automatiquement son prochain jet de Dévoiler.
 
@@ -587,4 +587,17 @@ Le personnage peut modifier le comportement des êtres vivants à son égard.
 Cela lui permet par exemple de faire oublier ses actions belliqueuses à un adversaire, dresser un animale sauvage, obtenir la coopération d&#039;un personnage, etc.
 
 Grâce à un jet de Dissimuler à distance, il peut faire en sorte que la cible ne le considère plus comme un ennemi jusqu&#039;à la prochaine action agressive qu&#039;il entreprend.
+
+### <a name="anchor-memory-leak"></a>Manipulation de mémoire
+
+**Permet de réécrire des souvenirs**
+
+Le personnage peut insérer de nouveaux souvenirs dans l&#039;esprit d&#039;une cible.
+Cela lui permet par exemple de faire croire à la cible qu&#039;elle a déjà rencontré le personnage, qu&#039;il lui a déjà sauvé la vie dans le passé, qu&#039;elle a comis un acte répréhensible, etc. En cas d&#039;échec, la cible se rend compte de la tentative de manipulation et de son origine.
+
+Grâce à un jet de Dissimuler au contact, il peut créer un faux souvenir qui doit être court (quelques minutes tout au plus) que cible concidèrera comme réel.
+
+**Augmentations:**
+- Permet également de supprimer un souvenir précis
+
 
