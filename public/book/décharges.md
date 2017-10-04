@@ -43,5 +43,20 @@ Si le FP de la cible est au moins inférieur de 5 points à celui de l&#039;init
 
 L&#039;initié effectue un bon dans le passé d&#039;environ 5 minutes. Tous les événements ayant eu lieu dans cet interval de temps sont annulés mais l&#039;initié est le seul à en conserve tout de même un souvenir.
 ## L&#039;Esprit
+### Permutation
+
+**Transfert son esprit dans un autre corps**
+
+L&#039;initié échange de corps avec une cible à distance. Il se retrouve alors en possession d&#039;un nouveau corps abandonnant complètement son enveloppe précédente. Il conserve ses scores d&#039;Instinct en Dévoiler et Dissimuler, ses points de maîtrise dans toutes les caractéristiques et ses capacités arcaniques. Il abandonne ses points d&#039;Instinct en Imposer et Résister ainsi que ses attributs physiques et acquière celles de son nouveau corps.
 ## Le Voile
+### Disparition
+
+**Camoufle complètement une trés grande zone**
+
+Permet de rendre invisible de manière permanente le contenu d&#039;une sphère d&#039;un diamètre maximum de 500 mètres. Tous les bâtiments et êtres vivant présents dans la zone sont invisibles également. L&#039;initié lançant le rituel peut décider du paysage qu&#039;il veut laisser paraître vu de l&#039;extérieur. Un observateur présent à l&#039;intérieur de la sphère n&#039;est plus affecté par le sort et voit alors normalement.
 ## L&#039;Étau
+### Effacement de mémoire
+
+**Supprime les souvenirs récents d&#039;un individu**
+
+Permet de faire oublier à un personnage les événements vécus durant les dernières 24 heures. L&#039;initié effectuant le rituel peut décider de conserver certains souvenirs de sa cible.
