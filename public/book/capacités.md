@@ -590,12 +590,12 @@ Grâce à un jet de Dissimuler à distance, il peut faire en sorte que la cible 
 
 ### <a name="anchor-memory-leak"></a>Manipulation de mémoire
 
-**Permet de réécrire des souvenirs**
+**Permet de réécrire un souvenir**
 
-Le personnage peut insérer de nouveaux souvenirs dans l&#039;esprit d&#039;une cible.
+Le personnage peut insérer un nouveau souvenir dans l&#039;esprit d&#039;une cible.
 Cela lui permet par exemple de faire croire à la cible qu&#039;elle a déjà rencontré le personnage, qu&#039;il lui a déjà sauvé la vie dans le passé, qu&#039;elle a comis un acte répréhensible, etc. En cas d&#039;échec, la cible se rend compte de la tentative de manipulation et de son origine.
 
-Grâce à un jet de Dissimuler au contact, il peut créer un faux souvenir qui doit être court (quelques minutes tout au plus) que cible concidèrera comme réel.
+Grâce à un jet de Dissimuler au contact, il peut créer un faux souvenir qui doit être court (quelques secondes tout au plus) que la cible concidèrera comme réel.
 
 **Augmentations:**
 - Permet également de supprimer un souvenir précis
