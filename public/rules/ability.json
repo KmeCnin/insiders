@@ -792,7 +792,7 @@
         "increases": [
             {
                 "short": "Permet également de supprimer un souvenir précis",
-                "description": "Le personnage peut insérer de nouveaux souvenirs ou en supprimer des anciens dans l'esprit d'une cible.\r\nCela lui permet par exemple de faire croire à la cible qu'elle a déjà rencontré le personnage, qu'il lui a déjà sauvé la vie dans le passé, qu'elle a comis un acte répréhensible, lui faire oublier une action du personnage à son égare, etc. En cas d'échec, la cible se rend compte de la tentative de manipulation et de son origine.\r\n\r\nGrâce à un jet de Dissimuler au contact, il peut créer ou supprimer souvenir qui doit être court (quelques minutes tout au plus) et l'insérer dans l'esprit d'un personnage ou d'un animal."
+                "description": "Le personnage peut insérer de nouveaux souvenirs ou en supprimer des anciens dans l'esprit d'une cible.\r\nCela lui permet par exemple de faire croire à la cible qu'elle a déjà rencontré le personnage, qu'il lui a déjà sauvé la vie dans le passé, qu'elle a comis un acte répréhensible, lui faire oublier une action du personnage à son égare, etc. En cas d'échec, la cible se rend compte de la tentative de manipulation et de son origine.\r\n\r\nGrâce à un jet de Dissimuler au contact, il peut créer ou supprimer souvenir qui doit être court (quelques secondes tout au plus) et l'insérer dans l'esprit d'un personnage ou d'un animal."
             }
         ],
         "abilitiesRequired": [],
