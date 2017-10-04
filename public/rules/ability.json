@@ -299,7 +299,7 @@
         "enabled": true,
         "arcane": "death",
         "short": "Corrompt la vie",
-        "description": "Le personnage décompose les cellules vivantes au contact.\r\nCela lui permet par exemple de décomposer de la végétation, nécroser ses adversaires, affaiblir des constructions en bois, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d'un degré à chaque tour.",
+        "description": "Le personnage décompose les cellules vivantes au contact.\r\nCela lui permet par exemple de décomposer de la végétation, nécroser ses adversaires, affaiblir des constructions en bois, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d'un degré à chaque tour jusqu'à un maximum de degré III.",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
