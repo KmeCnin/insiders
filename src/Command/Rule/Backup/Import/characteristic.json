@@ -5,7 +5,7 @@
         "name": "Imposer",
         "enabled": true,
         "short": "Force et habileté",
-        "description": "La caractéristique Imposer d'un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à aggresser un autre personnage, à évoluer dans son environnement, à viser, etc."
+        "description": "La caractéristique Imposer d'un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à agresser un autre personnage, à évoluer dans son environnement, à viser, etc."
     },
     {
         "id": 2,
