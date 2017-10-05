@@ -44,7 +44,7 @@ class RulesController extends AbstractController
     }
 
     /**
-     * @Route("/règles/décharges-d-arcanite", name="rules.bursts")
+     * @Route("/règles/décharges-d'arcanite", name="rules.bursts")
      */
     public function burstsAction()
     {
