@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "CinzelDecorative-Bold";
+  src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Mermaid";
+  src: url("../../fonts/mermaid/Mermaid1001.ttf") format("ttf");
+}
+
+$font-family-primary : "CinzelDecorative-Bold";
+$font-family-secondary : "Mermaid";
+
+$primary-color : #F0E6D2;
+$secondary-color : #FFCB64;
+
+$font-size : 14px;
+$line-height : 18px;
