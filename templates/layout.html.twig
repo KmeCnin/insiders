@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Les initiés{% endblock %}</title>
-        <link rel="stylesheet" href="{{ asset('resources/css/style.css') }}">
-        {% block css %}{% endblock %}
-    </head>
-    <body>
-        {{ include('includes/menu.html.twig') }}
-        {% block content %}caca{% endblock %}
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Les initiés{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('resources/style/css/style.css') }}">
+    {% block css %}{% endblock %}
+  </head>
+  <body>
+    {{ include('includes/menu.html.twig') }}
+    {% block content %}{% endblock %}
+  </body>
 </html>
