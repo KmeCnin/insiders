@@ -14,7 +14,7 @@ Un initié ou une aberration maîtrisant un arcane particulier est capable d'acq
 [La Source](#anchor-source) - [L&#039;Ether](#anchor-ether) - [L&#039;Essence](#anchor-life) - [La Purge](#anchor-death) - [La Toile](#anchor-web) - [L&#039;Esprit](#anchor-spirit) - [Le Voile](#anchor-veil) - [L&#039;Étau](#anchor-vice)
 ## <a name="anchor-source"></a>La Source
 
-La Source est l&#039;énergie qui parcourt le monde matériel
+L&#039;énergie qui parcourt le monde matériel
 
 ### <a name="anchor-combustion"></a>Combustion
 
@@ -119,7 +119,7 @@ Il résiste aux gelures.
 
 ## <a name="anchor-ether"></a>L&#039;Ether
 
-L&#039;Ether est le fluide invisible dans lequel le monde matériel est plongé
+Le fluide invisible dans lequel le monde matériel est plongé
 
 ### <a name="anchor-psychokinesis"></a>Psychokinèse
 
@@ -183,7 +183,7 @@ Cela lui permet par exemple de toujours être le plus prompt à réagir, de cour
 
 ## <a name="anchor-life"></a>L&#039;Essence
 
-L&#039;Essence est l&#039;énergie qui anime la vie
+L&#039;énergie qui anime la vie
 
 ### <a name="anchor-mineral-fists"></a>Poings d&#039;obsylène
 
@@ -263,7 +263,7 @@ La moindre blessure de degré I suffit à le détruire complètement. La blessur
 
 ## <a name="anchor-death"></a>La Purge
 
-La Purge est la force qui corrompt la vie
+La force qui corrompt la vie
 
 ### <a name="anchor-necrosis"></a>Contact nécrotique
 
@@ -337,7 +337,7 @@ A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de 
 
 ## <a name="anchor-web"></a>La Toile
 
-La Toile est la trame qui supporte le monde matériel
+La trame qui supporte le monde matériel
 
 ### <a name="anchor-vision"></a>Vision
 
@@ -408,7 +408,7 @@ Le personnage peut se déplacer instantanément dans un lieu où il a déjà ét
 
 ## <a name="anchor-spirit"></a>L&#039;Esprit
 
-L&#039;Esprit est la force qui gouverne l&#039;existence
+La force qui gouverne l&#039;existence
 
 ### <a name="anchor-life-perception"></a>Perception de la vie
 
@@ -465,7 +465,7 @@ Le personnage ne peut invoquer qu&#039;une créature à la fois.
 
 ## <a name="anchor-veil"></a>Le Voile
 
-Le Voile est le brouillard subtil qui altère la réalité
+Le brouillard subtil qui altère la réalité
 
 ### <a name="anchor-ghost-walk"></a>Marche fantomatique
 
@@ -533,7 +533,7 @@ Il ne peut maintenir qu&#039;une illusion à la fois.
 
 ## <a name="anchor-vice"></a>L&#039;Étau
 
-L&#039;Étau est la force qui contraint la volonté
+La force qui contraint la volonté
 
 ### <a name="anchor-confessions"></a>Confidence
 
