@@ -14,7 +14,7 @@ class UniverseController extends AbstractController
      */
     public function indexAction()
     {
-        return $this->render('pages/rules/index.html.twig');
+        return $this->render('pages/universe/index.html.twig');
     }
 
     /**
