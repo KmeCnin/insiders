@@ -1,0 +1,22 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Décharges d'arcanite
+
+Un initié en possession d'un cristal d'arcanite peut décider de dépenser une charge pour réaliser une action particulièrement puissante appelée **décharge d'arcanite**. L'initié doit pour cela avoir préalablement débloqué l'arcane correspondant. La charge ainsi dépensée est perdue à jamais.
+
+{% for arcane in arcanes %}
+{# @var arcane \App\Entity\Rule\Arcane #}
+## {{ arcane.name }}
+{% for burst in bursts %}
+{# @var burst \App\Entity\Rule\Burst #}
+{% if burst.arcane == arcane %}
+### {{ burst.name }}
+
+**{{ burst.short }}**
+
+{{ burst.description }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endblock %}

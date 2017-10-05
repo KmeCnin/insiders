@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "slug": "disaster",
+        "name": "Fléau",
+        "enabled": true,
+        "arcane": "source",
+        "short": "Invoque un désastre naturel de grande ampleur",
+        "description": "Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magnétude, un raz-de-marée (si une grande étendue d'eau est à proximité), une tornade, une explosion volcanique, etc. Le phénomène dure pendant quelques minutes, détruit les constructions en toile ou en bois et endomage sérieusement les constructions en pierre sur une zone de 1 km de diamètre."
+    },
+    {
+        "id": 2,
+        "slug": "ascent",
+        "name": "Ascension",
+        "enabled": true,
+        "arcane": "ether",
+        "short": "Élève une structure imposante dans les airs",
+        "description": "Permet de faire léviter de manière permanente une demi-sphère de terrain d'un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu'à 500 mètres d'altitude. Les limites de la parcelle de terrain concernée ne peuvent couper un être vivant ou un bâtiment en deux."
+    },
+    {
+        "id": 3,
+        "slug": "resurrect",
+        "name": "Résurrection",
+        "enabled": true,
+        "arcane": "life",
+        "short": "Ressuscite un personnage décédé",
+        "description": "Ramène à la vie un personnage ou un animal mort. Pour que cela fonctionne tous les membres de la cible doivent être présents et bien placés, les membres amputés pourront alors être ressoudés. La cible doit également ne pas être en état de décomposition trop avancé. La cible est alors réanimée, ses blessures soignées et ses souvenirs ante-mortem conservés."
+    },
+    {
+        "id": 4,
+        "slug": "animate",
+        "name": "Animation",
+        "enabled": true,
+        "arcane": "death",
+        "short": "Crée un serviteur puissant à partir d'un cadavre",
+        "description": "Peut réanimer un personnage ou un animal sous forme de mort-vivant. La cible est alors réanimée, ses blessures soignées et ses souvenirs ante-mortem conservés. Mais les membres amputés ne sont pas ressoudés et l'état de décomposition du cadavre reste le même.\r\n\r\nSi le FP de la cible est au moins inférieur de 5 points à celui de l'initié la réanimant, elle devient alors un serviteur inconditionnel du personnage exécutant alors le moindre de ses ordres au mieux de ses capacités sans jamais les discuter. Dans le cas contraire, la cible conserve son libre arbitre et pourrait très bien se retourner contre le personnage si elle le désire. Avant de lancer le rituel, le personnage sait si sa cible pourra être contrôlée ou non."
+    },
+    {
+        "id": 5,
+        "slug": "retry",
+        "name": "Seconde chance",
+        "enabled": true,
+        "arcane": "web",
+        "short": "Reviens quelques instants dans le passé",
+        "description": "L'initié effectue un bon dans le passé d'environ 5 minutes. Tous les événements ayant eu lieu dans cet interval de temps sont annulés mais l'initié est le seul à en conserve tout de même un souvenir."
+    },
+    {
+        "id": 6,
+        "slug": "permutation",
+        "name": "Permutation",
+        "enabled": true,
+        "arcane": "spirit",
+        "short": "Transfert son esprit dans un autre corps",
+        "description": "L'initié échange de corps avec une cible à distance. Il se retrouve alors en possession d'un nouveau corps abandonnant complètement son enveloppe précédente. Il conserve ses scores d'Instinct en Dévoiler et Dissimuler, ses points de maîtrise dans toutes les caractéristiques et ses capacités arcaniques. Il abandonne ses points d'Instinct en Imposer et Résister ainsi que ses attributs physiques et acquière celles de son nouveau corps."
+    },
+    {
+        "id": 7,
+        "slug": "vanish",
+        "name": "Disparition",
+        "enabled": true,
+        "arcane": "veil",
+        "short": "Camoufle complètement une trés grande zone",
+        "description": "Permet de rendre invisible de manière permanente le contenu d'une sphère d'un diamètre maximum de 500 mètres. Tous les bâtiments et êtres vivant présents dans la zone sont invisibles également. L'initié lançant le rituel peut décider du paysage qu'il veut laisser paraître vu de l'extérieur. Un observateur présent à l'intérieur de la sphère n'est plus affecté par le sort et voit alors normalement."
+    },
+    {
+        "id": 8,
+        "slug": "erase",
+        "name": "Effacement de mémoire",
+        "enabled": true,
+        "arcane": "vice",
+        "short": "Supprime les souvenirs récents d'un individu",
+        "description": "Permet de faire oublier à un personnage les événements vécus durant les dernières 24 heures. L'initié effectuant le rituel peut décider de conserver certains souvenirs de sa cible."
+    }
+]

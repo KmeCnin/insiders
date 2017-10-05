@@ -1,0 +1,16 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Caractéristiques
+
+
+
+{% for characteristic in characteristics %}
+{# @var characteristic \App\Entity\Rule\Characteristic #}
+## {{ characteristic.name }}
+
+**{{ characteristic.short }}**
+
+{{ characteristic.description }}
+{% endfor %}
+{% endblock %}

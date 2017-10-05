@@ -1,0 +1,20 @@
+{# @var stuff \App\Entity\Rule\CanonicalStuff #}
+<strong>
+{% if stuff.expendable %}
+    Consommable
+{% else %}
+    {{ stuff.kind.name }}
+{% endif %}
+</strong><br>
+Prix: {{ stuff.price }}<br>
+{% if stuff.kind.slug == 'weapon' %}
+    Attaquer
+{% elseif stuff.kind.slug in ['armor', 'shield'] %}
+    Défendre
+{% else %}
+    Utiliser
+{% endif %}
++{{ stuff.effectiveness }}<br>
+{% if stuff.properties.count > 0 %}
+    Propriété(s) : {{ stuff.properties|join(', ') }}<br>
+{% endif %}

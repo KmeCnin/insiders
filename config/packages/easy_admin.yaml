@@ -8,21 +8,22 @@ easy_admin:
             - { label: 'General' }
             - User
             - { label: 'Rules' }
-            - Arcane
             - Ability
+            - Attribute
+            - Arcane
+            - Burst
+            - CanonicalStuff
             - Champion
             - Characteristic
             - Deity
+            - StuffKind
+            - StuffProperty
+            - StuffPropertyKind
     entities:
         # General
         User:
             class: App\Entity\User
         # Rules
-        Arcane:
-            class: App\Entity\Rule\Arcane
-            list:
-                fields: ['id', 'name', 'enabled']
-                sort: ['id', 'ASC']
         Ability:
             class: App\Entity\Rule\Ability
             list:
@@ -30,9 +31,18 @@ easy_admin:
                 sort: ['id', 'ASC']
             form:
                 fields:
+                    - slug
                     - name
                     - arcane
                     - short
+                    -
+                        property: abilitiesRequired
+                        type_options:
+                            by_reference: false
+                    -
+                        property: abilitiesUnlocked
+                        type_options:
+                            by_reference: false
                     - enabled
                     - description
                     -
@@ -41,7 +51,56 @@ easy_admin:
                         type_options:
                             entry_type: App\Form\Type\Rule\IncreaseType
                             by_reference: false
-
+        Attribute:
+            class: App\Entity\Rule\Attribute
+            list:
+                fields: ['id', 'name', 'short', 'pc', 'enabled']
+                sort: ['id', 'ASC']
+        Arcane:
+            class: App\Entity\Rule\Arcane
+            list:
+                fields: ['id', 'name', 'short', 'enabled']
+                sort: ['id', 'ASC']
+        Burst:
+            class: App\Entity\Rule\Burst
+            list:
+                fields: ['id', 'name', 'short', 'arcane', 'enabled']
+                sort: ['id', 'ASC']
+        CanonicalStuff:
+            class: App\Entity\Rule\CanonicalStuff
+            list:
+                fields:
+                    - id
+                    - name
+                    -
+                        property: stuff.kind
+                        label: Kind
+                    -
+                        property: stuff.expendable
+                        label: Expendable
+                        type: boolean
+                    -
+                        property: stuff.effectiveness
+                        label: Effectiveness
+                        type: integer
+                    -
+                        property: stuff.properties
+                        label: Properties
+                        type: array
+                    -
+                        property: stuff.price
+                        label: Price
+                        type: integer
+                    - enabled
+                sort: ['id', 'ASC']
+            form:
+                fields:
+                    - slug
+                    - name
+                    - enabled
+                    -
+                        property: stuff
+                        type: App\Form\Type\StuffType
         Champion:
             class: App\Entity\Rule\Champion
             list:
@@ -50,15 +109,25 @@ easy_admin:
         Characteristic:
             class: App\Entity\Rule\Characteristic
             list:
-                fields: ['id', 'name', 'enabled']
+                fields: ['id', 'name', 'short', 'enabled']
                 sort: ['id', 'ASC']
         Deity:
             class: App\Entity\Rule\Deity
             list:
                 fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
                 sort: ['id', 'ASC']
-        Increase:
-            class: App\Entity\Rule\Increase
+        StuffKind:
+            class: App\Entity\Rule\StuffKind
             list:
-                fields: ['id', 'arcane', 'enabled']
+                fields: ['id', 'name', 'enabled']
+                sort: ['id', 'ASC']
+        StuffProperty:
+            class: App\Entity\Rule\StuffProperty
+            list:
+                fields: ['id', 'name', 'kind', 'short', 'fp', { property: stuffKinds, type: array }, 'enabled']
+                sort: ['id', 'ASC']
+        StuffPropertyKind:
+            class: App\Entity\Rule\StuffPropertyKind
+            list:
+                fields: ['id', 'name', 'enabled']
                 sort: ['id', 'ASC']

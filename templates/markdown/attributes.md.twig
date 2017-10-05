@@ -1,0 +1,16 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Attributs physiques
+
+Un initié ou une aberration absorbant la puissance d'un cristal d'arcanite peut développer des mutations physiques extraordinaires appelées **attributs physiques**.
+
+{% for attribute in attributes %}
+{# @var attribute \App\Entity\Rule\Attribute #}
+## {{ attribute.name }}
+
+**{{ attribute.pC }} PC. {{ attribute.short }}**
+
+{{ attribute.description }}
+{% endfor %}
+{% endblock %}
