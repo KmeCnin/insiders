@@ -62,7 +62,7 @@ class StuffController extends AppController
             $stuff = $this->generator->generatePermanentStuff($data['budget']);
         }
 
-        return $this->render('pages/stuff/generate.html.twig', [
+        return $this->render('pages/tools/stuff/generate.html.twig', [
             'form' => $form->createView(),
             'stuff' => $stuff,
         ]);

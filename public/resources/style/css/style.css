@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "CinzelDecorative-Bold";
+  src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("otf"); }
+@font-face {
+  font-family: "Mermaid";
+  src: url("../../fonts/mermaid/Mermaid1001.ttf") format("ttf"); }
+body {
+  margin: 0; }
+
+h1 {
+  margin: 5px 0 5px 0;
+  font-size: 3em;
+  font-family: "CinzelDecorative-Bold";
+  text-transform: uppercase;
+  color: #F0E6D2; }
+
+h2 {
+  margin-top: 0;
+  font-size: 3em;
+  font-family: "CinzelDecorative-Bold";
+  color: #FFCB64; }
+
+.menu {
+  height: 60px;
+  background: url(../../images/menu-pattern.png); }
+
+.header-home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 50px;
+  background: url(../../images/bg-header-home.jpg) no-repeat; }
+  .header-home img {
+    width: 500px;
+    height: auto; }
+
+/*# sourceMappingURL=style.css.map */
