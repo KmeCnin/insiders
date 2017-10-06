@@ -6,7 +6,7 @@
         "enabled": true,
         "arcane": "source",
         "short": "Invoque un désastre naturel de grande ampleur",
-        "description": "Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magnétude, un raz-de-marée (si une grande étendue d'eau est à proximité), une tornade, une explosion volcanique, etc."
+        "description": "Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magnétude, un raz-de-marée (si une grande étendue d'eau est à proximité), une tornade, une explosion volcanique, etc. Le phénomène dure pendant quelques minutes, détruit les constructions en toile ou en bois et endomage sérieusement les constructions en pierre sur une zone de 1 km de diamètre."
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Élève une structure imposante dans les airs",
-        "description": "Permet de faire léviter de manière permanente une demi-sphère de terrain d'un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu'à 500 mètres d'altitude."
+        "description": "Permet de faire léviter de manière permanente une demi-sphère de terrain d'un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu'à 500 mètres d'altitude. Les limites de la parcelle de terrain concernée ne peuvent couper un être vivant ou un bâtiment en deux."
     },
     {
         "id": 3,

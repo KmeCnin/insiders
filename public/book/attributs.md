@@ -8,31 +8,25 @@
 [Equipements](../book/équipements.md)
 # Attributs physiques
 
-Un initié ou une aberration absorbant la puissance d'un cristal d'arcanite peut développer des mutations physiques extraordinaires appelées **attributs physiques**.
+Un initié ou une aberration absorbant la puissance d&#039;un cristal d&#039;arcanite peut développer des mutations physiques extraordinaires appelées **attributs physiques**.
 
 ## Blessure de degré I
 
 **1 PC. Inflige une blessure de degré I au contact**
 
-Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires. 
-Il se peut aussi que le personnage soit tout simplement un expert en art martial capable de viser des points létaux.
-Dans tous les cas, le personnage est capable d’infliger des blessures de degré I au contact en réussissant un jet d’Imposer.
+Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires. Il se peut aussi que le personnage soit tout simplement un expert en art martial capable de viser des points létaux. Dans tous les cas, le personnage est capable d’infliger des blessures de degré I au contact en réussissant un jet d’Imposer.
 ## Blessure de degré II
 
 **2 PC. Inflige une blessure de degré II au contact**
 
-Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires. 
-Dans tous les cas, le personnage est capable d’infliger des blessures de degré II au contact en réussissant un jet d’Imposer.
+Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires. Dans tous les cas, le personnage est capable d’infliger des blessures de degré II au contact en réussissant un jet d’Imposer.
 ## Blessure de degré III
 
 **4 PC. Inflige une blessure de degré III au contact**
 
-Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires.
-Dans tous les cas, le personnage est capable d’infliger des blessures de degré III au contact en réussissant un jet d’Imposer.
+Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires. Dans tous les cas, le personnage est capable d’infliger des blessures de degré III au contact en réussissant un jet d’Imposer.
 ## Ailes
 
 **2 PC. Peut se déplacer dans les airs**
 
-Le personnage possède une grande paire d&#039;ailes.
-
-Il peut se déplacer dans les airs à sa vitesse de déplacement habituelle.
+Le personnage possède une grande paire d&#039;ailes. Il peut se déplacer dans les airs à sa vitesse de déplacement habituelle.

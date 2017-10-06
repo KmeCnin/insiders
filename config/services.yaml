@@ -37,3 +37,6 @@ services:
         arguments:
             - '@doctrine.orm.entity_manager'
             - '@form.factory'
+
+    App\Service\TwigExtension:
+        arguments: ~

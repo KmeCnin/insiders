@@ -3,7 +3,7 @@
 {% block content %}
 # Capacités
 
-Un initié ou une aberration maîtrisant un arcane particulier est capable d'acquérir des **capacités** liées à ce dernier lui conférant alors des pouvoirs surnaturels.
+{{ lexicon.description|markdown }}
 
 **Arcanes:**
 {% for arcane in arcanes %}
@@ -32,7 +32,7 @@ Un initié ou une aberration maîtrisant un arcane particulier est capable d'acq
 
 
 {% endif %}
-{{ ability.description }}
+{{ ability.description|markdown }}
 
 {% if ability.increases|length > 0 %}
 **Augmentations:**
