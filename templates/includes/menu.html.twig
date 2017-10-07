@@ -1,3 +1,30 @@
 <nav class="menu">
+  <img src="{{ asset('resources/images/logo-navbar.png') }}" alt="Logo">
 
+  <ul class="tabs">
+    <li>
+      <a href="rules.html.twig">Règles</a>
+      <ul class="dropdown">
+        <li><a href="#">Caractéristiques</a></li>
+        <li><a href="#">Arcanes</a></li>
+        <li><a href="#">Capacités</a></li>
+        <li><a href="#">Décharges</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="rules.html.twig">Univers</a>
+    </li>
+    <li>
+      <a href="rules.html.twig">Outils</a>
+    </li>
+  </ul>
+
+  <div class="login-wrapper">
+    <div class="login-id">
+      <span>Pierre-Chanel</span>
+      <span>Maître du jeu</span>
+    </div>
+    <div class="login-picture"></div>
+    <img src="{{ asset('resources/images/arrow-down.svg') }}" alt="arrow">
+  </div>
 </nav>

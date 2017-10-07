@@ -5,6 +5,7 @@
   font-family: "Mermaid";
   src: url("../../fonts/mermaid/Mermaid1001.ttf") format("ttf"); }
 body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0; }
 
 h1 {
@@ -20,18 +21,91 @@ h2 {
   font-family: "CinzelDecorative-Bold";
   color: #FFCB64; }
 
+a {
+  text-decoration: none; }
+
 .menu {
   height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-bottom: solid 1px #FFCB64;
   background: url(../../images/menu-pattern.png); }
+  .menu img {
+    width: 8%; }
+  .menu .tabs {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .menu .tabs li {
+      margin: 0 40px; }
+      .menu .tabs li a {
+        font-family: "CinzelDecorative-Bold";
+        color: #F0E6D2; }
+  .menu .dropdown {
+    position: absolute;
+    top: 71px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-radius: 2px;
+    background: #1A191D; }
+    .menu .dropdown li {
+      margin: 0;
+      padding: 5px 40px 5px 20px;
+      border: 1px solid #FFCB64;
+      border-top: none; }
+      .menu .dropdown li a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8em;
+        font-weight: 300; }
+    .menu .dropdown li:first-of-type {
+      border-radius: 2px 2px 0 0; }
+    .menu .dropdown li:last-of-type {
+      border-radius: 0 0 2px 2px; }
+  .menu .login-wrapper {
+    width: 22%;
+    display: flex;
+    justify-content: flex-end; }
+    .menu .login-wrapper .login-id span {
+      display: block;
+      text-align: right;
+      color: #F0E6D2; }
+    .menu .login-wrapper .login-id span:first-of-type {
+      font-size: 0.9em;
+      font-weight: 400; }
+    .menu .login-wrapper .login-id span:last-of-type {
+      font-size: 0.7em;
+      font-weight: 300; }
+    .menu .login-wrapper .login-picture {
+      width: 50px;
+      height: 50px;
+      margin: 0 20px 0 15px;
+      border-radius: 100%;
+      border: 1px solid #F0E6D2;
+      background: url(../../images/portrait.jpg) no-repeat;
+      background-size: 110%; }
+    .menu .login-wrapper img {
+      width: 10px;
+      height: auto;
+      cursor: pointer; }
 
 .header-home {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  align-items: flex-end;
-  padding-right: 50px;
   background: url(../../images/bg-header-home.jpg) no-repeat; }
   .header-home img {
     width: 500px;
     height: auto; }
+  .header-home h1 {
+    margin-bottom: 15px;
+    font-size: 3em; }
+  .header-home h2 {
+    font-size: 2em; }
 
 /*# sourceMappingURL=style.css.map */
