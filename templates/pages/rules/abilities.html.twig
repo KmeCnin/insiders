@@ -3,4 +3,159 @@
 {# /règles/capacités-arcaniques #}
 {# @var abilities \App\Entity\Rule\Ability #}
 
-{% block content %}{% endblock %}
+{% block content %}
+  <header class="header header-abilities">
+      <h1>Les règles</h1>
+      <h2>Capacités</h2>
+  </header>
+
+  <section>
+    <div class="breadcrumb">
+      <a href="#">
+        <div class="breadcrumb-text active">
+          <img src="{{ asset('resources/images/picto-arcanes/source.svg') }}" alt="La Source">
+          <h4>La Source</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="breadcrumb-text">
+          <img src="{{ asset('resources/images/picto-arcanes/lether.svg') }}" alt="L'Ether">
+          <h4>L'Ether</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="breadcrumb-text">
+          <img src="{{ asset('resources/images/picto-arcanes/lessence.svg') }}" alt="L'Essence">
+          <h4>L'Essence</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="breadcrumb-text">
+          <img src="{{ asset('resources/images/picto-arcanes/purge.svg') }}" alt="La Purge">
+          <h4>La Purge</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="breadcrumb-text">
+          <img src="{{ asset('resources/images/picto-arcanes/toile.svg') }}" alt="La Toile">
+          <h4>La Toile</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="breadcrumb-text">
+          <img src="{{ asset('resources/images/picto-arcanes/lesprit.svg') }}" alt="L'Esprit">
+          <h4>L'Esprit</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="breadcrumb-text">
+          <img src="{{ asset('resources/images/picto-arcanes/voile.svg') }}" alt="Le Voile">
+          <h4>Le Voile</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="breadcrumb-text">
+          <img src="{{ asset('resources/images/picto-arcanes/letau.svg') }}" alt="L' Etau">
+          <h4>L'Etau</h4>
+        </div>
+        <div class="breadcrumb-bullet">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+    </div>
+
+    <div class="block block-description">
+      <p>Un initié ou une aberration maîtrisant un arcane particulier est capable d'acquérir des capacités liées à ce dernier lui conférant alors des pouvoirs surnaturels.</p>
+    </div>
+
+    <div class="ablitie-wrapper">
+      <div>
+        <div class="title-wrapper">
+          <div class="title">
+            <img src="{{ asset('resources/images/picto-arcanes/source.svg') }}" alt="La Source">
+            <h1>La Source</h1>
+          </div>
+          <span>La Source est l'énergie qui parcourt le monde matériel</span>
+        </div>
+      </div>
+
+      <div class="block block-abilities">
+        <div class="abilities-description">
+          <div class="abilities-title">
+            <h2>Combustion</h2>
+            <span>Peut initier des réactions de combustion</span>
+            <div class="abilities-underline"></div>
+          </div>
+
+          <p>Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté. Cela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.</p>
+
+          <p>Grâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I. Il résiste aux brûlures.</p>
+
+          <div class="abilities-title">
+            <span>Augmentations:</span>
+          </div>
+          <p>Augmente d'un degré la blessure infligée</p>
+        </div>
+
+        <div class="bg-abilities1"></div>
+      </div>
+
+      <div class="block block-abilities reverse">
+        <div class="abilities-description">
+          <div class="abilities-title">
+            <h2>Courant electrique</h2>
+            <span>Peut générer des courants électriques</span>
+            <div class="abilities-underline"></div>
+          </div>
+
+          <p>Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté. Cela lui permet par exemple d'électrocuter ses ennemies au contact, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.</p>
+
+          <p>Grâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II. Il résiste aux électrocutions.</p>
+
+          <div class="abilities-title">
+            <span>Augmentations:</span>
+          </div>
+          <p>Peut blesser à distance</p>
+        </div>
+
+        <div class="bg-abilities2"></div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
