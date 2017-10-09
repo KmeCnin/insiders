@@ -8,13 +8,13 @@
 [Equipements](../book/équipements.md)
 # Divinités arcaniques
 
-L'Elyseum, point d'impact de la météorite d'arcanite, abrite une poignée de **divinités arcaniques**, êtres tout-puissants autant craint que vénérés.<br>
-Ils cohabitent tant bien que mal dans une trêve apparente mais n'hésitent pas à se combattre indirectement à l'aide d'agents de leur volonté appelés **champions**. Ces derniers sont des êtres élus dans le but de représenter leur Dieu sur tous les continents.<br>
-En effet, leurs Dieux ne peuvent se permettre de quitter l'Elyseum sans risquer de perdre définitivement leur place au sein de cette réserve illimitée de puissance arcanique.<br>
-<br>
-Les divinités se limitent en général à un seul champion car elles vivent dans la peur constante de se voir dépassées par leur serviteur. Certaines ne voit même pas d'intérêt à choisir un représentant et préfèrent rester loin des préoccupations continentales.<br>
-<br>
-Chaque divinité possède sa propre Église de fidèles composée d'initiés mais également d'individus normaux. Mais un initié n'est pas obligé de vénérer un quelconque Dieu.
+L&#039;Elyseum, point d&#039;impact de la météorite d&#039;arcanite, abrite une poignée de **divinités arcaniques**, êtres tout-puissants autant craint que vénérés.  
+ Ils cohabitent tant bien que mal dans une trêve apparente mais n&#039;hésitent pas à se combattre indirectement à l&#039;aide d&#039;agents de leur volonté appelés **champions**. Ces derniers sont des êtres élus dans le but de représenter leur Dieu sur tous les continents.  
+ En effet, leurs Dieux ne peuvent se permettre de quitter l&#039;Elyseum sans risquer de perdre définitivement leur place au sein de cette réserve illimitée de puissance arcanique.
+
+Les divinités se limitent en général à un seul champion car elles vivent dans la peur constante de se voir dépassées par leur serviteur. Certaines ne voit même pas d&#039;intérêt à choisir un représentant et préfèrent rester loin des préoccupations continentales.
+
+Chaque divinité possède sa propre Église de fidèles composée d&#039;initiés mais également d&#039;individus normaux. Mais un initié n&#039;est pas obligé de vénérer un quelconque Dieu.
 
 ## Valerius "Le Dragon à 5 têtes"
 **Arcane :** La Source
@@ -23,8 +23,7 @@ Valerius est un Dieu susceptible et colérique. Il récompense les actions bruta
 ### Baros "L&#039;écaille brûlante"
 Champion de **Valerius**.
 
-Il s&#039;agit d&#039;un demi-dragon (humanoïde à tête de dragon, paire d&#039;ailes, écailles, griffes) en armure. Autant violent que son Dieu, il voue sa vie à la guerre en menant des armées sans autres but que la destruction.
-Son pêché mignon est de rejoindre un conflit existant en tant que général de l&#039;armée perdante puis de changer de camps une fois la tendance inversée à multiples reprises afin de faire durer le conflit aussi longtemps que possible aisni que s&#039;enorgueillir d&#039;avoir un rôle si décisif.
+Il s&#039;agit d&#039;un demi-dragon (humanoïde à tête de dragon, paire d&#039;ailes, écailles, griffes) en armure. Autant violent que son Dieu, il voue sa vie à la guerre en menant des armées sans autres but que la destruction. Son pêché mignon est de rejoindre un conflit existant en tant que général de l&#039;armée perdante puis de changer de camps une fois la tendance inversée à multiples reprises afin de faire durer le conflit aussi longtemps que possible aisni que s&#039;enorgueillir d&#039;avoir un rôle si décisif.
 
 ## Solenia "L&#039;Archange lumineuse"
 **Arcane :** L&#039;Essence

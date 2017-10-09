@@ -4,7 +4,7 @@
         "slug": "source",
         "name": "La Source",
         "enabled": true,
-        "short": "La Source est l'énergie qui parcourt le monde matériel",
+        "short": "L'énergie qui parcourt le monde matériel",
         "description": "Le monde matériel inanimé est parcouru de différents éléments qui constituent son essence et régulent les interactions entre les choses. Un élément est un phénomène qui implique une fluctuation de l'état de la matière comme une réaction chimique de combustion, une onde sonore, un champ électromagnétique, un courant électrique, un flux thermique, etc.\r\n\r\nLes initiés capables de gouverner cette essence élémentaire sont à même d'enflammer l'air, d'électrifier leurs ennemis, d’aimanter des équipements métalliques, de faire fortement varier la température locale, de modifier la météo, etc.\r\n\r\nCet arcane destructeur et polyvalent convient aux individus désireux d’affronter leurs ennemies de manière frontale et de dompter les forces naturelles."
     },
     {
@@ -12,7 +12,7 @@
         "slug": "ether",
         "name": "L'Ether",
         "enabled": true,
-        "short": "L'Ether est le fluide invisible dans lequel le monde matériel est plongé",
+        "short": "Le fluide invisible dans lequel le monde matériel est plongé",
         "description": "Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide imprègne chaque chose et remplit le vide, le rendant présent partout tout en étant imperceptible. L'Ether dicte à la matière la manière dont elle doit se mouvoir et interagir.\r\n\r\nLes initiés capables de percevoir et maîtriser cette substance ténue sont à même de déplacer la matière par la pensée, qu'elle soit animée ou non, de solidifier l'Ether pour en faire des barrières infranchissables, de se déplacer à des vitesses surpassant les limites physiques, etc.\r\n\r\nCet arcane puissant bien que discret convient aux personnalités recherchant l'efficacité avant la grandiloquence et désireux de faire de leur environnement leur meilleur allié."
     },
     {
@@ -20,7 +20,7 @@
         "slug": "life",
         "name": "L'Essence",
         "enabled": true,
-        "short": "L'Essence est l'énergie qui anime la vie",
+        "short": "L'énergie qui anime la vie",
         "description": "La vie est une force mystérieuse animée d'une énergie puissante appelée Essence. Tous les êtres vivants, animaux et végétaux sont animés par ce torrent qui coule en eux sans pour autant en être conscients. Il s'agit pourtant du constituant de toute vie capable de la préserver, de la protéger ou même de la faire se surpasser. \r\n\r\nRares sont les individus capables de ressentir les courants d'énergie qui parcourent les vivants mais une fois ce potentiel maîtrisé, certains initiés sont alors capables de faire se refermer des plaies en un instant, de protéger la vie de leurs alliés à distance, ou même de surpasser les limites physiques de leur propre corps, etc.\r\n\r\nCet arcane protecteur et bienfaisant est indispensable à ceux cherchant à protéger la vie sous toutes ses formes ou à dépasser leurs compétences naturelles."
     },
     {
@@ -28,7 +28,7 @@
         "slug": "death",
         "name": "La Purge",
         "enabled": true,
-        "short": "La Purge est la force qui corrompt la vie",
+        "short": "La force qui corrompt la vie",
         "description": "L'écoulement naturel de l'Essence peut être altéré par une énergie obscure appelée Purge. Il s'agit d'une anomalie dont les conséquences peuvent parfois être bien pire que le simple décès de l'individu qui en fait les frais. \r\n\r\nLes adeptes de cet arcane sont capables de corrompre le flux de l'Essence pour vider leurs adversaire de leur force vitale ou au contraire la faire affluer dans des corps inanimés pour recréer un simulacre de vie. \r\n\r\nCet arcane mortel et vicié regroupe les individus les plus maléfiques qui ne se satisfont pas de la simple mort de leurs adversaires mais désirent également les faire souffrir et transformer leur cadavre en marionnette servile."
     },
     {
@@ -36,7 +36,7 @@
         "slug": "web",
         "name": "La Toile",
         "enabled": true,
-        "short": "La Toile est la trame qui supporte le monde matériel",
+        "short": "La trame qui supporte le monde matériel",
         "description": "La réalité repose sur un support intangible appelé Toile qui définit les lois physiques du monde matériel. Ce support garant de la trame de l'espace-temps, gouverne l'écoulement du temps aussi bien que les distances qui composent l'espace. \r\n\r\nLes maîtres de la Toile sont capables de ressentir et gouverner les subtiles fluctuations de l'espace-temps. Cela leur permet de projeter leur esprit dans d'autres temporalités ou de transporter leur corps vers des lieux éloignés. \r\n\r\nCet arcane stratégique et polyvalent est très apprécié des sages souhaitant ne jamais être pris au dépourvu et toujours garder une longueur d'avance sur leurs adversaires."
     },
     {
@@ -44,7 +44,7 @@
         "slug": "spirit",
         "name": "L'Esprit",
         "enabled": true,
-        "short": "L'Esprit est la force qui gouverne l'existence",
+        "short": "La force qui gouverne l'existence",
         "description": "L'énergie qui anime les êtres vivants a beau être puissante, elle n'est rien sans une force pour la contenir et la diriger, il s'agit de l'Esprit. C'est de cette contrainte qu'émerge la conscience des individus leur permettant de suivre un objectif, de penser, de rêver, etc. \r\n\r\nLes initiés maîtrisant l'Esprit sont non seulement capables de percevoir les êtres spirituels environnants mais également d'échanger des informations avec eux. Les plus doués peuvent même donner corps à leur imaginaire ou déplacer leur propre esprit dans un autre individu. \r\n\r\nCet arcane créatif et collaboratif permet à ses pratiquants de laisser libre cours à leur imagination et de conserver en permanence des liens discrets avec leur groupe."
     },
     {
@@ -52,7 +52,7 @@
         "slug": "veil",
         "name": "Le Voile",
         "enabled": true,
-        "short": "Le Voile est le brouillard subtil qui altère la réalité",
+        "short": "Le brouillard subtil qui altère la réalité",
         "description": "Entre la réalité du monde matériel et la perception qu'en ont les êtres vivants se glisse une couche ténue appelée Voile. Cette nappe invisible est la cause des mirages, illusions d'optiques et autres hallucinations que l'on expérimente couramment.\r\n\r\nCertains initiés sont capables de manipuler ce film subtil pour se dissimuler, tromper leurs adversaires ou plus généralement simuler tout ce que leur imagination peut concevoir.\r\n\r\nCet arcane ingénieux et fourbe est très recherché par les maîtres assassins et particulièrement apprécié des individus préférant l'usage de la ruse au combat frontal."
     },
     {
@@ -60,7 +60,7 @@
         "slug": "vice",
         "name": "L'Étau",
         "enabled": true,
-        "short": "L'Étau est la force qui contraint la volonté",
+        "short": "La force qui contraint la volonté",
         "description": "Les esprits les plus forts sont capables de contraindre les plus faibles à l'aide d'une force spirituelle que l'on nomme Étau. Cette puissante énergie mentale créée par un esprit affûté peut pénétrer d'autres consciences alentours.\r\n\r\nLes adeptes de l’Étau s’immiscent dans les recoins les plus profonds de l'intellect pour troubler leurs ennemis, les berner ou les forcer à commettre les actes les plus abjectes.\r\n\r\nCet arcane manipulateur et sournois est prisé par ceux convaincus que la meilleure manière de gagner un combat reste encore de ne pas y être impliqué."
     }
 ]

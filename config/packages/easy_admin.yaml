@@ -16,6 +16,7 @@ easy_admin:
             - Champion
             - Characteristic
             - Deity
+            - Lexicon
             - StuffKind
             - StuffProperty
             - StuffPropertyKind
@@ -116,6 +117,17 @@ easy_admin:
             list:
                 fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
                 sort: ['id', 'ASC']
+        Lexicon:
+            class: App\Entity\Rule\LexiconEntry
+            list:
+                fields: ['id', 'name', 'short', 'enabled']
+                sort: ['id', 'ASC']
+            form:
+                fields:
+                    - { property: slug }
+                    - { property: name }
+                    - { property: short }
+                    - { property: description, type: ckeditor }
         StuffKind:
             class: App\Entity\Rule\StuffKind
             list:

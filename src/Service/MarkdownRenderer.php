@@ -9,7 +9,7 @@ use App\Entity\Rule\Burst;
 use App\Entity\Rule\CanonicalStuff;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
-use App\Entity\Rule\StuffKind;
+use App\Entity\Rule\LexiconEntry;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -41,9 +41,9 @@ class MarkdownRenderer
             Attribute::class => 'attributes',
             Arcane::class => 'arcanes',
             Burst::class => 'bursts',
+            CanonicalStuff::class => 'stuffs',
             Characteristic::class => 'characteristics',
             Deity::class => 'deities',
-            CanonicalStuff::class => 'stuffs',
         ];
     }
 
@@ -54,9 +54,9 @@ class MarkdownRenderer
             Attribute::class => 'attributs',
             Arcane::class => 'arcanes',
             Burst::class => 'décharges',
+            CanonicalStuff::class => 'équipements',
             Characteristic::class => 'caractéristiques',
             Deity::class => 'divinités',
-            CanonicalStuff::class => 'équipements',
         ];
     }
 
@@ -81,38 +81,38 @@ class MarkdownRenderer
         switch ($namespace) {
             case Ability::class:
                 $parameters = [
+                    'lexicon' => $this->em->getRepository(LexiconEntry::class)
+                        ->findOneBy(['slug' => 'ability']),
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
                     'abilities' => $this->em->getRepository(Ability::class)->findAll(),
                 ];
                 break;
             case Attribute::class:
                 $parameters = [
+                    'lexicon' => $this->em->getRepository(LexiconEntry::class)
+                        ->findOneBy(['slug' => 'attribute']),
                     'attributes' => $this->em->getRepository(Attribute::class)->findAll(),
                 ];
                 break;
             case Arcane::class:
                 $parameters = [
+                    'lexicon' => $this->em->getRepository(LexiconEntry::class)
+                        ->findOneBy(['slug' => 'arcane']),
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
                 ];
                 break;
             case Burst::class:
                 $parameters = [
+                    'lexicon' => $this->em->getRepository(LexiconEntry::class)
+                        ->findOneBy(['slug' => 'burst']),
                     'arcanes' => $this->em->getRepository(Arcane::class)->findAll(),
                     'bursts' => $this->em->getRepository(Burst::class)->findAll(),
                 ];
                 break;
-            case Characteristic::class:
-                $parameters = [
-                    'characteristics' => $this->em->getRepository(Characteristic::class)->findAll(),
-                ];
-                break;
-            case Deity::class:
-                $parameters = [
-                    'deities' => $this->em->getRepository(Deity::class)->findAll(),
-                ];
-                break;
             case CanonicalStuff::class:
                 $parameters = [
+                    'lexicon' => $this->em->getRepository(LexiconEntry::class)
+                        ->findOneBy(['slug' => 'stuff']),
                     'weapons' => $this->em->getRepository(CanonicalStuff::class)
                         ->findAllWeapons(),
                     'armors' => $this->em->getRepository(CanonicalStuff::class)
@@ -121,6 +121,20 @@ class MarkdownRenderer
                         ->findAllObjects(),
                     'expendables' => $this->em->getRepository(CanonicalStuff::class)
                         ->findAllExpendables(),
+                ];
+                break;
+            case Characteristic::class:
+                $parameters = [
+                    'lexicon' => $this->em->getRepository(LexiconEntry::class)
+                        ->findOneBy(['slug' => 'characteristic']),
+                    'characteristics' => $this->em->getRepository(Characteristic::class)->findAll(),
+                ];
+                break;
+            case Deity::class:
+                $parameters = [
+                    'lexicon' => $this->em->getRepository(LexiconEntry::class)
+                        ->findOneBy(['slug' => 'deity']),
+                    'deities' => $this->em->getRepository(Deity::class)->findAll(),
                 ];
                 break;
             default:
