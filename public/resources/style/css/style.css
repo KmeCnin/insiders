@@ -5,298 +5,244 @@
   font-family: "Mermaid";
   src: url("../../fonts/mermaid/Mermaid1001.ttf") format("ttf"); }
 body {
-  font-family: 'Open Sans', sans-serif;
   margin: 0;
-  color: #2D3132; }
+  font-family: 'Open Sans', sans-serif;
+  color: #2D3132;
+  background: #000; }
 
+/* ========== GENERAL ========== */
 h1 {
-  margin: 5px 0;
-  font-size: 3em;
   font-family: "CinzelDecorative-Bold";
-  text-transform: uppercase;
   color: #F0E6D2; }
 
 h2 {
-  margin: 0 0 25px 0;
-  font-size: 3em;
   font-family: "CinzelDecorative-Bold";
   color: #FFCB64; }
 
 a {
   text-decoration: none; }
 
-.navbar {
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 20px;
-  border-bottom: solid 1px #FFCB64;
-  background: url(../../images/menu-pattern.png); }
-  .navbar img {
-    width: 8%; }
-  .navbar .tabs {
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-    .navbar .tabs li {
-      margin: 0 40px; }
-      .navbar .tabs li a {
-        font-family: "CinzelDecorative-Bold";
-        color: #F0E6D2; }
-      .navbar .tabs li .underline {
-        display: none;
-        width: 65px;
-        height: 5px;
-        position: absolute;
-        top: 65px;
-        background: #FFCB64; }
-    .navbar .tabs li:hover .underline {
-      display: block; }
-  .navbar .dropdown {
-    display: none;
-    position: absolute;
-    top: 71px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    border-radius: 2px;
-    background: #1A191D; }
-    .navbar .dropdown li {
-      margin: 0;
-      padding: 5px 40px 5px 20px;
-      border: 1px solid #FFCB64;
-      border-top: none; }
-      .navbar .dropdown li a {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.8em;
-        font-weight: 300; }
-    .navbar .dropdown li:first-of-type {
-      border-radius: 2px 2px 0 0; }
-    .navbar .dropdown li:last-of-type {
-      border-radius: 0 0 2px 2px; }
-  .navbar .login-wrapper {
-    width: 22%;
-    display: flex;
-    justify-content: flex-end; }
-    .navbar .login-wrapper .login-id span {
-      display: block;
-      text-align: right;
-      color: #F0E6D2; }
-    .navbar .login-wrapper .login-id span:first-of-type {
-      font-size: 0.9em;
-      font-weight: 400; }
-    .navbar .login-wrapper .login-id span:last-of-type {
-      font-size: 0.7em;
-      font-weight: 300; }
-    .navbar .login-wrapper .login-picture {
-      width: 50px;
-      height: 50px;
-      margin: 0 20px 0 15px;
-      border-radius: 100%;
-      border: 1px solid #F0E6D2;
-      background: url(../../images/portrait.jpg) no-repeat;
-      background-size: 110%; }
-    .navbar .login-wrapper img {
-      width: 10px;
-      height: auto;
-      cursor: pointer; }
+main {
+  background: url(../../images/bg-main.jpg) no-repeat; }
+  main .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px 30px; }
 
-.header {
-  min-height: 550px;
+header {
+  height: 700px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
   flex-direction: column;
-  padding: 0 150px 100px 0; }
-  .header h1 {
-    margin-bottom: 15px;
-    font-size: 3em; }
-  .header h2 {
-    font-size: 2em; }
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 100px 0 0; }
+  header h1 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    text-transform: uppercase; }
+  header h2 {
+    margin-top: 20px;
+    font-size: 2.5em; }
 
 .header-home {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background: url(../../images/bg-header-home2.jpg) no-repeat; }
+  background: url(../../images/home/home-header-bg.jpg) no-repeat; }
   .header-home img {
-    width: 500px;
-    height: auto; }
+    width: 400px; }
 
 .header-abilities {
-  box-sizing: border-box;
   background: url(../../images/bg-header-abilities.jpg) no-repeat; }
 
-section {
-  padding: 100px;
-  background: url(../../images/bg-home.jpg) no-repeat; }
-  section h1 {
-    margin-bottom: 20px;
-    font-size: 1.7em;
-    text-transform: inherit;
-    color: #F0E6D2; }
-  section .block-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0 150px 0; }
-  section .block-description {
-    width: 78%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto auto 50px auto; }
-    section .block-description p {
-      max-width: 700px;
-      font-family: "Mermaid";
-      font-size: 1.2em;
-      line-height: 24px;
-      color: #F0E6D2; }
-  section .block {
-    position: relative;
-    border-radius: 2px;
-    border: 1px solid #FFCB64; }
-  section .block-home-1,
-  section .block-home-2,
-  section .block-home-3 {
-    width: 350px;
-    height: 360px; }
-  section .block-home-1 {
-    background: url(../../images/home-short-bg1.png) no-repeat;
-    background-size: cover; }
-  section .block-home-2 {
-    background: url(../../images/home-short-bg2.png) no-repeat;
-    background-size: cover; }
-  section .block-home-3 {
-    background: url(../../images/home-short-bg3.png) no-repeat;
-    background-size: cover; }
-  section .block-short {
+.header-arcanes {
+  background: url(../../images/bg-header-arcanes.jpg) no-repeat; }
+
+.breadcrum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px; }
+  .breadcrum .line {
     width: 100%;
-    height: 90px;
+    height: 1px;
+    background: #FFCB64; }
+  .breadcrum .breadcrum-items {
+    position: absolute;
+    display: flex; }
+    .breadcrum .breadcrum-items a {
+      width: 90px;
+      position: relative;
+      bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 5px; }
+      .breadcrum .breadcrum-items a img {
+        height: 25px;
+        margin-bottom: 8px;
+        opacity: 0.3;
+        transition: opacity 0.5s; }
+      .breadcrum .breadcrum-items a span {
+        margin-bottom: 2px;
+        font-family: "CinzelDecorative-Bold";
+        font-size: 0.8em;
+        color: #F0E6D2;
+        opacity: 0.3;
+        transition: opacity 0.5s; }
+      .breadcrum .breadcrum-items a .bullets {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px; }
+        .breadcrum .breadcrum-items a .bullets .bullet-default {
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          border-radius: 100%;
+          border: 1px solid #FFCB64;
+          background: #F98D08; }
+        .breadcrum .breadcrum-items a .bullets .bullet-active {
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          background: rgba(255, 191, 0, 0.5);
+          opacity: 0;
+          transition: opacity 0.5s; }
+    .breadcrum .breadcrum-items a.active img,
+    .breadcrum .breadcrum-items a.active span,
+    .breadcrum .breadcrum-items a.active .bullet-active,
+    .breadcrum .breadcrum-items a:hover img,
+    .breadcrum .breadcrum-items a:hover span,
+    .breadcrum .breadcrum-items a:hover .bullet-active {
+      opacity: 1; }
+
+.section-horizontal {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0; }
+
+.block-wrapper {
+  margin-top: 30px; }
+
+.block {
+  position: relative;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #FFCB64; }
+
+.block-home1,
+.block-home2,
+.block-home3 {
+  width: 350px;
+  height: 340px; }
+
+.block-home1 {
+  background: url(../../images/home/home-short-bg1.png) no-repeat;
+  background-size: cover; }
+
+.block-home2 {
+  margin: 0 30px;
+  background: url(../../images/home/home-short-bg2.png) no-repeat;
+  background-size: cover; }
+
+.block-home3 {
+  background: url(../../images/home/home-short-bg3.png) no-repeat;
+  background-size: cover; }
+
+.block-short {
+  height: 90px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #FFCB64;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7); }
+  .block-short img {
+    position: relative;
+    bottom: 25px; }
+  .block-short p {
+    max-width: 250px;
+    position: relative;
+    bottom: 20px;
+    margin: auto;
+    font-weight: 300;
+    color: #F0E6D2; }
+
+.block-intro {
+  margin-bottom: 70px;
+  text-align: center; }
+  .block-intro p {
+    max-width: 750px;
+    margin: 20px auto;
+    font-family: "Mermaid";
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #F0E6D2; }
+
+.block-title div {
+  display: flex; }
+  .block-title div img {
+    margin-right: 15px; }
+  .block-title div h1 {
+    margin: 10px 0; }
+.block-title span {
+  font-family: "Mermaid";
+  font-size: 1.1em;
+  color: #FFCB64; }
+
+.block-split {
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+  background: url(../../images/block-pattern.png); }
+  .block-split img {
+    height: 90%;
     position: absolute;
     bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 1px solid #FFCB64;
-    background: rgba(0, 0, 0, 0.58);
-    color: #F0E6D2; }
-    section .block-short img {
-      position: relative;
-      bottom: 25px;
-      margin: auto; }
-    section .block-short p {
-      max-width: 260px;
-      position: relative;
-      bottom: 35px;
-      text-align: center;
-      font-weight: 300; }
+    top: 15px;
+    right: 145px; }
+  .block-split .block-content {
+    width: 60%;
+    padding: 30px;
+    text-align: justify; }
+    .block-split .block-content .block-content-title h2 {
+      margin: 0 0 3px 0;
+      color: #2D3132; }
+    .block-split .block-content .block-content-title span {
+      font-family: "Mermaid";
+      font-size: 1.2em;
+      color: #8B6F4D; }
+    .block-split .block-content .block-content-title .title-underline {
+      height: 1px;
+      margin-top: 10px;
+      background: #FFCB64; }
+  .block-split .bg-abilities1,
+  .block-split .bg-abilities2 {
+    width: 40%;
+    min-height: 100%; }
+  .block-split .bg-abilities1 {
+    background: url(../../images/abilities/combustion.png) no-repeat;
+    background-size: cover; }
+  .block-split .bg-abilities2 {
+    background: url(../../images/abilities/courant-electrique.jpg) no-repeat;
+    background-size: cover; }
 
-.breadcrumb {
-  width: 75%;
-  height: 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px auto 70px auto;
-  padding: 0 20px;
-  background: #FFCB64; }
-  .breadcrumb a {
-    position: relative;
-    bottom: 35px;
-    margin: 0 20px;
-    text-align: center; }
-  .breadcrumb a:hover .bullet-active {
-    display: block; }
-  .breadcrumb .breadcrumb-text {
-    width: 75px;
-    height: 70px;
-    position: relative;
-    top: 5px;
-    opacity: 0.2;
-    transition: opacity 0.5s; }
-    .breadcrumb .breadcrumb-text h4 {
-      margin-top: 3px;
-      text-transform: inherit;
-      font-family: "CinzelDecorative-Bold";
-      font-size: 0.8em;
-      color: #F0E6D2; }
-  .breadcrumb .breadcrumb-text:hover {
-    opacity: 1; }
-  .breadcrumb .breadcrumb-text.active {
-    opacity: 1; }
-  .breadcrumb .breadcrumb-bullet {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .breadcrumb .breadcrumb-bullet .bullet-default {
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      border-radius: 100%;
-      border: 1px solid #FFCB64;
-      background: #FF7100; }
-    .breadcrumb .breadcrumb-bullet .bullet-active {
-      display: none;
-      width: 28px;
-      height: 28px;
-      border-radius: 100%;
-      background: rgba(255, 113, 0, 0.5);
-      transition: background 0.5s; }
-    .breadcrumb .breadcrumb-bullet .bullet-active.active {
-      display: block; }
+.reverse {
+  flex-direction: row-reverse; }
+  .reverse img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    top: 25px;
+    right: 375px; }
 
-.ablitie-wrapper {
-  max-width: 78%;
-  margin: auto; }
-  .ablitie-wrapper .title-wrapper .title {
-    display: flex; }
-    .ablitie-wrapper .title-wrapper .title img {
-      width: 35px;
-      margin-right: 10px; }
-    .ablitie-wrapper .title-wrapper .title h1 {
-      margin-bottom: 10px; }
-  .ablitie-wrapper .title-wrapper span {
-    font-family: "Mermaid";
-    font-size: 1.2em;
-    color: #FFCB64; }
-  .ablitie-wrapper .block-abilities {
-    display: flex;
-    margin-top: 15px;
-    text-align: justify;
-    font-weight: 300;
-    background: url(../../images/block-pattern.png); }
-    .ablitie-wrapper .block-abilities .abilities-description {
-      width: 60%;
-      padding: 25px; }
-      .ablitie-wrapper .block-abilities .abilities-description .abilities-title h2 {
-        margin-bottom: 5px;
-        font-size: 1.2em;
-        color: #2D3132; }
-      .ablitie-wrapper .block-abilities .abilities-description .abilities-title span {
-        font-family: "Mermaid";
-        font-size: 1.2em;
-        color: #8B6F4D; }
-      .ablitie-wrapper .block-abilities .abilities-description .abilities-title .abilities-underline {
-        height: 1px;
-        margin-top: 20px;
-        background: #FFCB64; }
-    .ablitie-wrapper .block-abilities .bg-abilities1,
-    .ablitie-wrapper .block-abilities .bg-abilities2 {
-      width: 40%;
-      min-height: 100%; }
-    .ablitie-wrapper .block-abilities .bg-abilities1 {
-      background: url(../../images/abilities/combustion.png) no-repeat;
-      background-size: 100%; }
-    .ablitie-wrapper .block-abilities .bg-abilities2 {
-      background: url(../../images/abilities/courant-electrique.jpg) no-repeat;
-      background-size: 100%; }
-  .ablitie-wrapper .reverse {
-    flex-direction: row-reverse; }
+.block-description {
+  margin-top: 20px;
+  padding: 30px;
+  text-align: justify;
+  background: url(../../images/block-pattern.png); }
+  .block-description img {
+    position: absolute;
+    top: -120px;
+    right: -295px; }
 
 /*# sourceMappingURL=style.css.map */

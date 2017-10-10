@@ -3,9 +3,139 @@
 {# /universe/arcanes #}
 {# @var arcanes \App\Entity\Rule\Arcane #}
 
-{% block content %}
-  <header class="header header-abilities">
-    <h1>L'Univers</h1>
-    <h2>Arcanes</h2>
-  </header>
+{% block page %}arcanes{% endblock %}
+
+{% block header %} 
+  <h1>L'Univers</h1>
+  <h2>Arcanes</h2>
+{% endblock %}
+
+{% block container %} 
+  <!-- Breadcrum - Fil d'ariane -->
+  <div class="breadcrum">
+    <div class="line"></div>
+    <div class="breadcrum-items">
+      <a href="#" class="active">
+        <img src="{{ asset('resources/images/arcanes/source.svg') }}" alt="La Source">
+        <span>La Source</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <img src="{{ asset('resources/images/arcanes/ether.svg') }}" alt="L'Ether">
+        <span>L'Ether</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <img src="{{ asset('resources/images/arcanes/essence.svg') }}" alt="L'Essence">
+        <span>L'Essence</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <img src="{{ asset('resources/images/arcanes/purge.svg') }}" alt="La Purge">
+        <span>La Purge</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <img src="{{ asset('resources/images/arcanes/toile.svg') }}" alt="La Toile">
+        <span>La Toile</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <img src="{{ asset('resources/images/arcanes/esprit.svg') }}" alt="L'Esprit">
+        <span>L'Esprit</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <img src="{{ asset('resources/images/arcanes/voile.svg') }}" alt="Le Voile">
+        <span>Le Voile</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+
+      <a href="#">
+        <img src="{{ asset('resources/images/arcanes/etau.svg') }}" alt="L'Etau">
+        <span>L'Etau</span>
+        <div class="bullets">
+          <div class="bullet-default"></div>
+          <div class="bullet-active"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="block block-intro">
+    <p>Les initiés sont capables d'absorber l'énergie des cristaux d'arcanite pour débloquer une sensibilité particulière à des aspects de la réalités appelés arcanes. Un initié ayant débloqué un arcane spécifique acquière alors une compréhension singulière de cette facette de la réalité lui permettant de débloquer par la suite des capacités arcaniques surnaturelles.</p>
+  </div>
+
+  <section>
+    <div class="block-wrapper">
+      <div class="block-title">
+        <div>
+          <img src="{{ asset('resources/images/arcanes/source.svg') }}" alt="La Source">
+          <h1>La Source</h1>
+        </div>
+        <span>La Source est l'énergie qui parcourt le monde matériel</span>
+      </div>
+
+      <div class="block block-description">
+        <div class="block-content">
+          <p>Le monde matériel inanimé est parcouru de différents éléments qui constituent son essence et régulent les interactions entre les choses. Un élément est un phénomène qui implique une fluctuation de l'état de la matière comme une réaction chimique de combustion, une onde sonore, un champ électromagnétique, un courant électrique, un flux thermique, etc.</p>
+
+          <p>Les initiés capables de gouverner cette essence élémentaire sont à même d'enflammer l'air, d'électrifier leurs ennemis, d’aimanter des équipements métalliques, de faire fortement varier la température locale, de modifier la météo, etc.</p>
+
+          <p>Cet arcane destructeur et polyvalent convient aux individus désireux d’affronter leurs ennemies de manière frontale et de dompter les forces naturelles.</p>
+
+          <img src="{{ asset('resources/images/arcanes/source-bg.svg') }}" alt="La Source">
+        </div>
+      </div>
+    </div>
+
+    <div class="block-wrapper">
+      <div class="block-title">
+        <div>
+          <img src="{{ asset('resources/images/arcanes/ether.svg') }}" alt="L'Ether">
+          <h1>L'Ether</h1>
+        </div>
+        <span>L'Ether est le fluide invisible dans lequel le monde matériel est plongé</span>
+      </div>
+
+      <div class="block block-description">
+        <div class="block-content">
+          <p>Le monde matériel inanimé baigne dans une substance invisible, impalpable et mystérieuse appelée Ether. Ce fluide imprègne chaque chose et remplit le vide, le rendant présent partout tout en étant imperceptible. L'Ether dicte à la matière la manière dont elle doit se mouvoir et interagir.</p>
+
+          <p>Les initiés capables de percevoir et maîtriser cette substance ténue sont à même de déplacer la matière par la pensée, qu'elle soit animée ou non, de solidifier l'Ether pour en faire des barrières infranchissables, de se déplacer à des vitesses surpassant les limites physiques, etc.</p>
+
+          <p>Cet arcane puissant bien que discret convient aux personnalités recherchant l'efficacité avant la grandiloquence et désireux de faire de leur environnement leur meilleur allié.</p>
+
+          <img src="{{ asset('resources/images/arcanes/ether-bg.svg') }}" alt="La Source">
+        </div>
+      </div>
+    </div>
+  </section>
 {% endblock %}
