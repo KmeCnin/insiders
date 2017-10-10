@@ -41,6 +41,7 @@ header {
   align-items: flex-end;
   justify-content: center;
   padding: 0 100px 0 0;
+  background-size: cover;
 
   h1 {
     margin-bottom: 0px;
@@ -57,7 +58,7 @@ header {
 }
 
 .header-home {
-  background: url(../../images/home/home-header-bg.jpg) no-repeat;
+  background-image: url(../../images/home/home-header-bg.jpg);
 
   img {
     width: 400px;
@@ -65,11 +66,11 @@ header {
 }
 
 .header-abilities {
-  background: url(../../images/bg-header-abilities.jpg) no-repeat;
+  background-image: url(../../images/bg-header-abilities.jpg);
 }
 
 .header-arcanes {
-  background: url(../../images/bg-header-arcanes.jpg) no-repeat;
+  background-image: url(../../images/bg-header-arcanes.jpg);
 }
 
 .breadcrum {
@@ -230,12 +231,12 @@ header {
   text-align: center;
 
   p {
-    max-width: 750px;
+    max-width: 700px;
     margin: 20px auto;
 
     font-family: $font-family-secondary ;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.4em;
     color: $primary-color;
   }
 }
