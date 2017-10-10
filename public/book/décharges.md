@@ -8,20 +8,20 @@
 [Equipements](../book/équipements.md)
 # Décharges d'arcanite
 
-Un initié en possession d'un cristal d'arcanite peut décider de dépenser une charge pour réaliser une action particulièrement puissante appelée **décharge d'arcanite**. L'initié doit pour cela avoir préalablement débloqué l'arcane correspondant. La charge ainsi dépensée est perdue à jamais.
+Un initié en possession d&#039;un cristal d&#039;arcanite peut décider de dépenser une charge pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;arcane correspondant. La charge ainsi dépensée est perdue à jamais.
 
 ## La Source
 ### Fléau
 
 **Invoque un désastre naturel de grande ampleur**
 
-Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magnétude, un raz-de-marée (si une grande étendue d&#039;eau est à proximité), une tornade, une explosion volcanique, etc.
+Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magnétude, un raz-de-marée (si une grande étendue d&#039;eau est à proximité), une tornade, une explosion volcanique, etc. Le phénomène dure pendant quelques minutes, détruit les constructions en toile ou en bois et endomage sérieusement les constructions en pierre sur une zone de 1 km de diamètre.
 ## L&#039;Ether
 ### Ascension
 
 **Élève une structure imposante dans les airs**
 
-Permet de faire léviter de manière permanente une demi-sphère de terrain d&#039;un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu&#039;à 500 mètres d&#039;altitude.
+Permet de faire léviter de manière permanente une demi-sphère de terrain d&#039;un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu&#039;à 500 mètres d&#039;altitude. Les limites de la parcelle de terrain concernée ne peuvent couper un être vivant ou un bâtiment en deux.
 ## L&#039;Essence
 ### Résurrection
 
@@ -33,9 +33,7 @@ Ramène à la vie un personnage ou un animal mort. Pour que cela fonctionne tous
 
 **Crée un serviteur puissant à partir d&#039;un cadavre**
 
-Peut réanimer un personnage ou un animal sous forme de mort-vivant. La cible est alors réanimée, ses blessures soignées et ses souvenirs ante-mortem conservés. Mais les membres amputés ne sont pas ressoudés et l&#039;état de décomposition du cadavre reste le même.
-
-Si le FP de la cible est au moins inférieur de 5 points à celui de l&#039;initié la réanimant, elle devient alors un serviteur inconditionnel du personnage exécutant alors le moindre de ses ordres au mieux de ses capacités sans jamais les discuter. Dans le cas contraire, la cible conserve son libre arbitre et pourrait très bien se retourner contre le personnage si elle le désire. Avant de lancer le rituel, le personnage sait si sa cible pourra être contrôlée ou non.
+Peut réanimer un personnage ou un animal sous forme de mort-vivant. La cible est alors réanimée, ses blessures soignées et ses souvenirs ante-mortem conservés. Mais les membres amputés ne sont pas ressoudés et l&#039;état de décomposition du cadavre reste le même. Si le FP de la cible est au moins inférieur de 5 points à celui de l&#039;initié la réanimant, elle devient alors un serviteur inconditionnel du personnage exécutant alors le moindre de ses ordres au mieux de ses capacités sans jamais les discuter. Dans le cas contraire, la cible conserve son libre arbitre et pourrait très bien se retourner contre le personnage si elle le désire. Avant de lancer le rituel, le personnage sait si sa cible pourra être contrôlée ou non.
 ## La Toile
 ### Seconde chance
 

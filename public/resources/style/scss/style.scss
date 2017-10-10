@@ -2,41 +2,349 @@
 
 body {
   margin: 0;
+
+  font-family: 'Open Sans', sans-serif;
+  color: $text-color;
+  background: #000;
 }
 
-h1 {
-  margin: 5px 0 5px 0;
+/* ========== GENERAL ========== */
 
-  font-size: 3em;
+h1 {
   font-family: $font-family-primary;
-  text-transform: uppercase;
   color: $primary-color;
 }
 
 h2 {
-  margin-top: 0;
-
-  font-size: 3em;
   font-family: $font-family-primary;
   color: $secondary-color;
 }
 
-.menu {
-  height: 60px;
-
-  background: url(../../images/menu-pattern.png);
+a {
+  text-decoration: none;
 }
 
-.header-home {
+main {
+  background: url(../../images/bg-main.jpg) no-repeat;
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px 30px;
+  }
+}
+
+header {
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-right: 50px;
+  justify-content: center;
+  padding: 0 100px 0 0;
+  background-size: cover;
 
-  background: url(../../images/bg-header-home.jpg)no-repeat;
+  h1 {
+    margin-bottom: 0px;
 
-  img {
-    width: 500px;
-    height: auto;
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-top: 20px;
+
+    font-size: 2.5em;
   }
 }
+
+.header-home {
+  background-image: url(../../images/home/home-header-bg.jpg);
+
+  img {
+    width: 400px;
+  }
+}
+
+.header-abilities {
+  background-image: url(../../images/bg-header-abilities.jpg);
+}
+
+.header-arcanes {
+  background-image: url(../../images/bg-header-arcanes.jpg);
+}
+
+.breadcrum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+
+  .line {
+    width: 100%;
+    height: 1px;
+
+    background: $secondary-color;
+  }
+
+  .breadcrum-items {
+    position: absolute;
+    display: flex;
+
+    a {
+      width: 90px;
+      position: relative;
+      bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 5px;
+  
+      img {
+        height: 25px;
+        margin-bottom: 8px;
+
+        opacity: 0.3;
+        transition: opacity 0.5s;
+      }
+  
+      span {
+        margin-bottom: 2px;
+
+        font-family: $font-family-primary;
+        font-size: 0.8em;
+        color: $primary-color;
+        opacity: 0.3;
+        transition: opacity 0.5s;
+      }
+  
+      .bullets {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+  
+        .bullet-default {
+          width: 10px;
+          height: 10px;
+          position: absolute;
+  
+          border-radius: 100%;
+          border: 1px solid $secondary-color;
+          background: #F98D08;
+        }
+  
+        .bullet-active {
+          width: 30px;
+          height: 30px;
+  
+          border-radius: 100%;
+          background: rgba(255, 191, 0, 0.5);
+          opacity: 0;
+          transition: opacity 0.5s;
+        }
+      }
+    }
+
+    a.active img,
+    a.active span,
+    a.active .bullet-active,
+    a:hover img,
+    a:hover span,
+    a:hover .bullet-active {
+      opacity: 1;
+    }
+  }
+}
+
+.section-horizontal {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.block-wrapper {
+  margin-top: 30px;
+}
+
+.block {
+  position: relative;
+  padding: 10px;
+
+  border-radius: 2px;
+  border: 1px solid $secondary-color;
+}
+
+.block-home1,
+.block-home2,
+.block-home3 {
+  width: 350px;
+  height: 340px;
+}
+
+.block-home1 {
+  background: url(../../images/home/home-short-bg1.png) no-repeat;
+  background-size: cover;
+}
+
+.block-home2 {
+  margin: 0 30px;
+
+  background: url(../../images/home/home-short-bg2.png) no-repeat;
+  background-size: cover;
+}
+
+.block-home3 {
+  background: url(../../images/home/home-short-bg3.png) no-repeat;
+  background-size: cover;
+}
+
+.block-short {
+  height: 90px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-top: 1px solid $secondary-color;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.70);
+
+  img {
+    position: relative;
+    bottom: 25px;
+  }
+
+  p {
+    max-width: 250px;
+    position: relative;
+    bottom: 20px;
+    margin: auto;
+
+    font-weight: 300;
+    color: $primary-color;
+  }
+}
+
+.block-intro {
+  margin-bottom: 70px;
+
+  text-align: center;
+
+  p {
+    max-width: 700px;
+    margin: 20px auto;
+
+    font-family: $font-family-secondary ;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: $primary-color;
+  }
+}
+
+.block-title {
+  div {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    h1 {
+      margin: 10px 0;
+    }
+  }
+
+  span {
+    font-family: $font-family-secondary ;
+    font-size: 1.1em;
+    color: $secondary-color;
+  }
+}
+
+.block-split {
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+
+  background: url(../../images/block-pattern.png);
+
+  img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    top: 15px;
+    right: 145px;
+  }
+
+  .block-content {
+    width: 60%;
+    padding: 30px;
+
+    text-align: justify;
+
+    .block-content-title {
+      h2 {
+        margin: 0 0 3px 0;
+    
+        color: $text-color;
+      }
+    
+      span {
+        font-family: $font-family-secondary ;
+        font-size: 1.2em;
+        color: $text-info-color;
+      }
+    
+      .title-underline {
+        height: 1px;
+        margin-top: 10px;
+    
+        background: $secondary-color;
+      }
+    }
+  }
+
+  .bg-abilities1,
+  .bg-abilities2 {
+    width: 40%;
+    min-height: 100%;
+  }
+
+  .bg-abilities1 {
+    background: url(../../images/abilities/combustion.png) no-repeat;
+    background-size: cover;
+  }
+
+  .bg-abilities2 {
+    background: url(../../images/abilities/courant-electrique.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+
+  img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    top: 25px;
+    right: 375px;
+  }
+}
+
+.block-description {
+  margin-top: 20px;
+  padding: 30px;
+
+  text-align: justify;
+  background: url(../../images/block-pattern.png);
+
+  img {
+    position: absolute;
+    top: -120px;
+    right: -295px;
+  }
+}
+
+

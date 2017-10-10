@@ -1,9 +1,36 @@
 {% extends 'layout.html.twig' %}
 
-{% block content %}
-  <header class="header-home">
-      <img src="{{ asset('resources/images/logo.png') }}" alt="Logo">
-      <h1>Rejoignez les initiés</h1>
-      <h2>Vivez l'aventure</h2>
-  </header>
+{% block page %}home{% endblock %}
+
+{% block header %} 
+  <img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">
+  <h1>Rejoignez Les Initiés</h1>
+  <h2>Vivez l'aventure</h2>
+{% endblock %}
+
+{% block container %} 
+  <h1>Le jeu de rôle</h1>
+
+  <section class="section-horizontal">
+    <div class="block block-home1">
+      <div class="block-short">
+        <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
+        <p>Incarnez le personnage de vos rêves</p>
+      </div>
+    </div>
+
+    <div class="block block-home2">
+      <div class="block-short">
+        <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
+        <p>Concentrez-vous sur le role play et non sur les règles</p>
+      </div>
+    </div>
+
+    <div class="block block-home3">
+      <div class="block-short">
+        <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
+        <p>Découvrez un univers fantastique surprenant</p>
+      </div>
+    </div>
+  </section>
 {% endblock %}

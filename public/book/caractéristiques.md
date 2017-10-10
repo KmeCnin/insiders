@@ -8,8 +8,6 @@
 [Equipements](../book/équipements.md)
 # Caractéristiques
 
-
-
 ## Imposer
 
 **Force et habileté**

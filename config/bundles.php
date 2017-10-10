@@ -13,4 +13,5 @@ return [
     'JMS\SerializerBundle\JMSSerializerBundle' => ['all' => true],
     'Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle' => ['all' => true],
     'FOS\UserBundle\FOSUserBundle' => ['all' => true],
+    'Ivory\CKEditorBundle\IvoryCKEditorBundle' => ['all' => true],
 ];
