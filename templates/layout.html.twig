@@ -9,6 +9,15 @@
   </head>
   <body>
     {{ include('includes/menu.html.twig') }}
-    {% block content %}{% endblock %}
-  </body>
+
+    <header class="header header-{% block page %}{% endblock %}">
+      {% block header %}{% endblock %}
+    </header>
+
+    <main>
+      <div class="container">
+        {% block container %}{% endblock %}
+      </div>
+    </main>
+</body>
 </html>
