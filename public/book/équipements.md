@@ -19,6 +19,7 @@ Arc|1|Distance|18000
 Épée à une main|1|Blessure de degré II|27000
 Arbalète|2|Distance|27000
 Épée à deux mains|2|Blessure de degré II|36000
+Carquois|0|Blessure de degré I|9000
 
 ## Armures
 

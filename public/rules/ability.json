@@ -6,11 +6,11 @@
         "enabled": true,
         "arcane": "source",
         "short": "Peut initier des réactions de combustion",
-        "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I.\r\nIl résiste aux brûlures.",
+        "description": "<p>Le personnage est capable d&#39;enflammer l&#39;air environnant en un instant, il contr&ocirc;le parfaitement la puissance et la port&eacute;e de son pouvoir lui permettant de r&eacute;gler l&#39;intensit&eacute; de la r&eacute;action &agrave; volont&eacute;.<br \/>\r\nCela lui permet par exemple de br&ucirc;ler ses ennemies &agrave; distance, cr&eacute;er un feu &agrave; partir de mat&eacute;riaux inflammables, cuire de la nourriture, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut infliger une blessure de degr&eacute; I.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux br&ucirc;lures.<\/p>",
         "increases": [
             {
                 "short": "Augmente d'un degré la blessure infligée",
-                "description": "Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté.\r\nCela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II.\r\nIl résiste aux brûlures."
+                "description": "<p>Le personnage est capable d&#39;enflammer l&#39;air environnant en un instant, il contr&ocirc;le parfaitement la puissance et la port&eacute;e de son pouvoir lui permettant de r&eacute;gler l&#39;intensit&eacute; de la r&eacute;action &agrave; volont&eacute;.<br \/>\r\nCela lui permet par exemple de br&ucirc;ler ses ennemies &agrave; distance, cr&eacute;er un feu &agrave; partir de mat&eacute;riaux inflammables, cuire de la nourriture, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut infliger une blessure de degr&eacute; II.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux br&ucirc;lures.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -26,11 +26,11 @@
         "enabled": true,
         "arcane": "source",
         "short": "Peut générer des courants électriques",
-        "description": "Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies au contact, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions.",
+        "description": "<p>Le personnage est capable de produire des d&eacute;charges &eacute;lectriques puissantes au contact, il contr&ocirc;le parfaitement la puissance de son pouvoir lui permettant de r&eacute;gler l&#39;intensit&eacute; du courant &agrave; volont&eacute;.<br \/>\r\nCela lui permet par exemple d&#39;&eacute;lectrocuter ses ennemies au contact, &eacute;mettre un halo lumineux, d&eacute;livrer un courant &eacute;lectrique dans une surface conductrice, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer au contact, il peut infliger une blessure de degr&eacute; II.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance aux &eacute;lectrocutions.<\/p>",
         "increases": [
             {
                 "short": "Peut blesser à distance",
-                "description": "Le personnage est capable de produire des décharges électriques puissantes à distance, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté.\r\nCela lui permet par exemple d'électrocuter ses ennemies à distance, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré II.\r\nIl résiste aux électrocutions."
+                "description": "<p>Le personnage est capable de produire des d&eacute;charges &eacute;lectriques puissantes &agrave; distance, il contr&ocirc;le parfaitement la puissance de son pouvoir lui permettant de r&eacute;gler l&#39;intensit&eacute; du courant &agrave; volont&eacute;.<br \/>\r\nCela lui permet par exemple d&#39;&eacute;lectrocuter ses ennemies &agrave; distance, &eacute;mettre un halo lumineux, d&eacute;livrer un courant &eacute;lectrique dans une surface conductrice, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut infliger une blessure de degr&eacute; II.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance aux &eacute;lectrocutions.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -46,11 +46,11 @@
         "enabled": true,
         "arcane": "source",
         "short": "Peut projeter des ondes sonores puissantes",
-        "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\nIl peut également simuler des sons très simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop précis ou délicats comme de la musique.\r\nDans tous les cas, les ondes sonores générées sont issues du joueur et ne peuvent pas partir de sources distantes.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut sonner un personnage, qui minimisera alors automatiquement son  prochain jet de Résister.\r\nIl résiste aux sons.",
+        "description": "<p>Le personnage est capable de g&eacute;n&eacute;rer des ondes violentes dont il peut contr&ocirc;ler la puissance et la direction avec pr&eacute;cision.<br \/>\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilom&egrave;tres, etc. Il peut &eacute;galement simuler des sons tr&egrave;s simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop pr&eacute;cis ou d&eacute;licats comme de la musique. Dans tous les cas, les ondes sonores g&eacute;n&eacute;r&eacute;es sont issues du joueur et ne peuvent pas partir de sources distantes.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut sonner un personnage, qui minimisera alors automatiquement son prochain jet de R&eacute;sister.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance aux ondes sonores puissantes.<\/p>",
         "increases": [
             {
                 "short": "Inflige une blessure de degré I en plus de sonner",
-                "description": "Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.\r\nCela lui permet de blesser et sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I et sonner un personnage, qui minimisera alors automatiquement son prochain jet de Résister.\r\nIl résiste aux sons."
+                "description": "<p>Le personnage est capable de g&eacute;n&eacute;rer des ondes violentes dont il peut contr&ocirc;ler la puissance et la direction avec pr&eacute;cision.<br \/>\r\nCela lui permet de blesser et sonner ses ennemies, de se faire entendre sur plusieurs kilom&egrave;tres, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut infliger une blessure de degr&eacute; I et sonner un personnage, qui minimisera alors automatiquement son prochain jet de R&eacute;sister.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance aux ondes sonores puissantes.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -66,11 +66,11 @@
         "enabled": true,
         "arcane": "source",
         "short": "Peut invoquer des orages",
-        "description": "Le personnage est capable de commander la météo environnante.\r\nCela lui permet par exemple d'invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants. Il doit également réussir un jet de Défendre (contre lui-même) pour résister à sa propre attaque (blessures réduites de I rang en cas d'échec grâce à ses résistances contre les brûlures et l'électrocution).",
+        "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer au contact, il peut infliger une blessure de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me.<\/p>",
         "increases": [
             {
-                "short": "Ne s'inflige plus de blessures",
-                "description": "Le personnage est capable de commander la météo environnante.\r\nCela lui permet par exemple d'invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants excepté lui-même."
+                "short": "Peut exclure des personnages de la zone foudroyée",
+                "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer au contact, il peut infliger une blessure de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me et les autres personnages qu&#39;il choisit d&#39;exclure de la zone.<\/p>"
             }
         ],
         "abilitiesRequired": [
@@ -86,7 +86,7 @@
         "enabled": true,
         "arcane": "source",
         "short": "Maîtrise les champs magnétiques",
-        "description": "Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.\r\nCela lui permet par exemple d'aimanter des équipements métalliques à distance, de savoir s'orienter en permanence (il localise le Nord magnétique), attirer à lui des objets métalliques, etc.\r\n\r\nGrâce à un jet d'Attaque à distance il peut désarmer un adversaire équipé d'une arme métallique et envoyer son arme loin de lui.\r\nGrâce à un jet d'Attaque à distance il peut plaquer au sol un adversaire équipé d'une armure métallique.",
+        "description": "<p>Le personnage est capable de percevoir et contr&ocirc;ler les champs magn&eacute;tiques terrestres.<br \/>\r\nCela lui permet par exemple d&#39;aimanter des &eacute;quipements m&eacute;talliques &agrave; distance, de savoir s&#39;orienter en permanence (il localise l&#39;Elyseum), attirer &agrave; lui des objets m&eacute;talliques, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaque &agrave; distance il peut d&eacute;sarmer autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armes m&eacute;talliques et envoyer les&nbsp;armes loin d&#39;eux.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Attaque &agrave; distance il peut plaquer au sol autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armures m&eacute;talliques.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "electrocution",
@@ -101,7 +101,7 @@
         "enabled": true,
         "arcane": "source",
         "short": "Peut créer des séismes",
-        "description": "Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.\r\nCela lui permet par exemple de briser un rocher d'un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.\r\n\r\nGrâce à un jet d'Attaque à distance il peut faire tomber les adversaires à portée.",
+        "description": "<p>Le personnage est capable de produire des ondes puissantes se d&eacute;pla&ccedil;ant dans la terre et la roche.<br \/>\r\nCela lui permet par exemple de briser un rocher d&#39;un simple contact, de cr&eacute;er des ondes de chocs, de fragiliser des constructions, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaque &agrave; distance il peut faire tomber les adversaires &agrave; port&eacute;e qui subissent alors une blessure de degr&eacute; I.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "combustion",
@@ -116,11 +116,11 @@
         "enabled": true,
         "arcane": "source",
         "short": "Peut faire rapidement varier la température",
-        "description": "Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d'une zone précise.\r\nCela lui permet par exemple de solidifier ou vaporiser de l'eau, geler ou brûler des tissus vivants au contact, etc.\r\n\r\nGrâce à un jet d'Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).\r\nGrâce à un jet d'Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.\r\nIl résiste aux brûlures.\r\nIl résiste aux gelures.",
+        "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement faire varier la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier ou vaporiser de l&#39;eau, geler ou br&ucirc;ler des tissus vivants au contact, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaque au contact, il peut infliger une blessure de degr&eacute; I (au choix en gelant ou br&ucirc;lant son adversaire).<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut d&eacute;sarmer un adversaire en chauffant son arme m&eacute;tallique tenue en main.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux br&ucirc;lures.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux gelures.<\/p>",
         "increases": [
             {
                 "short": "Peut faire chauffer du métal à blanc et augmenter les blessures de ses armes d'un degré",
-                "description": "Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d'une zone précise.\r\nCela lui permet par exemple de solidifier ou vaporiser de l'eau, geler ou brûler des tissus vivants au contact, chauffer à blanc des pièces métalliques, etc.\r\n\r\nGrâce à un jet d'Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).\r\nGrâce à un jet d'Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.\r\nIl résiste aux brûlures.\r\nIl résiste aux gelures.\r\nIl peut chauffer à blanc les extrémités de ses armes en métal (épée, dague, pointes de flèche...) leur conférant un bonus d'un degré de blessure supplémentaire."
+                "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement faire varier la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier ou vaporiser de l&#39;eau, geler ou br&ucirc;ler des tissus vivants au contact, chauffer &agrave; blanc des pi&egrave;ces m&eacute;talliques, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; I (au choix en gelant ou br&ucirc;lant son adversaire).<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut d&eacute;sarmer un adversaire en chauffant son arme m&eacute;tallique tenue en main.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux br&ucirc;lures.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux gelures.<br \/>\r\nIl peut chauffer &agrave; blanc les extr&eacute;mit&eacute;s de ses armes en m&eacute;tal (&eacute;p&eacute;e, dague, pointes de fl&egrave;che...) leur conf&eacute;rant un bonus d&#39;un degr&eacute; de blessure suppl&eacute;mentaire.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -133,11 +133,11 @@
         "enabled": true,
         "arcane": "life",
         "short": "Possède des poings dont la solidité peut briser le métal",
-        "description": "Les extrémités des membres du personnage sont faites d'un matériau noir extrêmement solide appelé obsylène.\r\nCela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets en métal non équipés, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.",
+        "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage sont faites d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; obsyl&egrave;ne.<br \/>\r\nCela lui permet par exemple de combattre &agrave; main nue, de briser des surfaces en bois, de d&eacute;truire des objets en m&eacute;tal non &eacute;quip&eacute;s, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer&nbsp;au contact, il peut infliger une blessure de degr&eacute; II.<\/p>",
         "increases": [
             {
                 "short": "Détruit également les équipements portés",
-                "description": "Les extrémités des membres du personnage sont faites d'un matériau noir extrêmement solide appelé obsylène.\r\nCela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets ou des équipements en métal, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II.\r\nGrâce à un jet d'Attaquer au contact contre un adversaire suivit d'un jet d'Imposer contre un équipement, il peut le détruire."
+                "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage sont faites d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; obsyl&egrave;ne.<br \/>\r\nCela lui permet par exemple de combattre &agrave; main nue, de briser des surfaces en bois, de d&eacute;truire des objets ou des &eacute;quipements en m&eacute;tal, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; II.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer au contact contre un adversaire suivit d&#39;un jet d&#39;Imposer contre un &eacute;quipement, il peut le d&eacute;truire.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -152,7 +152,7 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Peut déplacer les objets légers par la pensée",
-        "description": "Le personnage peut déplacer la matière par la pensée.\r\nCela lui permet par exemple de déplacer en l'air tout objet non tenu et inanimé qu'il aurait été capable de soulever, de forcer un personnage à s'attaquer lui-même, de faire lâcher un équipement, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut utiliser l'arme du personnage ciblé contre lui ou le désarmer.",
+        "description": "<p>Le personnage peut d&eacute;placer la mati&egrave;re par la pens&eacute;e.<br \/>\r\nCela lui permet par exemple de d&eacute;placer en l&#39;air tout objet non tenu et inanim&eacute; qu&#39;il aurait &eacute;t&eacute; capable de soulever, de forcer un personnage &agrave; s&#39;attaquer lui-m&ecirc;me, de faire l&acirc;cher un &eacute;quipement, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut utiliser l&#39;arme du personnage cibl&eacute; contre lui ou le d&eacute;sarmer.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -164,7 +164,7 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Peut attirer des objets à sois",
-        "description": "Le personnage peut générer un champ de force attractif centré sur lui-même.\r\nCela lui permet par exemple d'attirer à lui tout objet inanimé qu'il aurait été capable de soulever et s'en saisir immédiatement, d'empêcher un adversaire de fuir, d'attirer un adversaire vers lui, etc.\r\n\r\nGrâce à un jet d'Imposer à distance, il peut attirer à lui un objet tenu par un adversaire et le saisir avec une main libre.\r\nGrâce à un jet d'Imposer à distance, il peut attirer vers lui un adversaire qui se retrouve alors au contact.\r\nLes adversaires au contact du joueur doivent d'abord réussir un jet de Résister pour pouvoir s'en éloigner.",
+        "description": "<p>Le personnage peut g&eacute;n&eacute;rer un champ de force attractif centr&eacute; sur lui-m&ecirc;me.<br \/>\r\nCela lui permet par exemple d&#39;attirer &agrave; lui tout objet inanim&eacute; qu&#39;il aurait &eacute;t&eacute; capable de soulever et s&#39;en saisir imm&eacute;diatement, d&#39;emp&ecirc;cher un adversaire de fuir, d&#39;attirer un adversaire vers lui, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut attirer &agrave; lui un objet tenu par un adversaire et le saisir avec une main libre.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut attirer vers lui un adversaire qui se retrouve alors au contact.<br \/>\r\nLes adversaires au contact du joueur doivent d&#39;abord r&eacute;ussir un jet de R&eacute;sister pour pouvoir s&#39;en &eacute;loigner.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -176,7 +176,7 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Génère un champ de force répulsif",
-        "description": "Le personnage peut générer un champ de force répulsif centré sur lui-même.\r\nCela lui permet par exemple de se protéger des tirs ennemies, d'amortir les chutes, de repousser un adversaire, etc.\r\n\r\nGrâce à un jet d'Attaquer à distance, il peut renvoyer un projectile qui le vise. S'il réussit, il effectue un nouveau jet d'Attaquer pour toucher l'expéditeur.\r\nLes adversaires doivent d'abord réussir un jet de Résister pour pouvoir d'approcher au contact du personnage.",
+        "description": "<p>Le personnage peut g&eacute;n&eacute;rer un champ de force r&eacute;pulsif centr&eacute; sur lui-m&ecirc;me.<br \/>\r\nCela lui permet par exemple de se prot&eacute;ger des tirs ennemies, d&#39;amortir les chutes, de repousser un adversaire, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut renvoyer un projectile qui le vise. S&#39;il r&eacute;ussit, il effectue un nouveau jet d&#39;Attaquer pour toucher l&#39;exp&eacute;diteur.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut propulser un adversaire de force loin de lui.<br \/>\r\nLes adversaires doivent d&#39;abord r&eacute;ussir un jet de R&eacute;sister pour pouvoir approcher au contact du personnage.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -188,11 +188,11 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Se déplace dans les airs",
-        "description": "Le personnage peut se déplacer dans les airs à sa vitesse de déplacement habituelle sans besoin de concentration particulière.",
+        "description": "<p>Le personnage peut se d&eacute;placer dans les airs &agrave; sa vitesse de d&eacute;placement habituelle sans besoin de concentration particuli&egrave;re.<\/p>",
         "increases": [
             {
                 "short": "Augmente la vitesse de déplacement de manière surnaturelle",
-                "description": "Le personnage peut se déplacer dans les airs à une vitesse surnaturelle sans besoin de concentration particulière."
+                "description": "<p>Le personnage peut se d&eacute;placer dans les airs &agrave; une vitesse surnaturelle (environ 100 km\/h)&nbsp;sans besoin de concentration particuli&egrave;re.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -205,11 +205,11 @@
         "enabled": true,
         "arcane": "life",
         "short": "Peut insuffler son énergie vitale",
-        "description": "Le personnage est capable de projeter son énergie vitale dans un être vivant.\r\nCela lui permet par exemple de guérir les blessures de ses alliés, d'inhiber le poison présent dans la nourriture et l'eau, de redonner vie à des végétaux morts, etc.\r\n\r\nGrâce à un jet de Résister au contact contre une blessure, il peut la guérir immédiatement (au lieu d'attendre un jour) et retenter une guérison autant de fois qu'il le souhaite.",
+        "description": "<p>Le personnage est capable de projeter son &eacute;nergie vitale dans un &ecirc;tre vivant.<br \/>\r\nCela lui permet par exemple de gu&eacute;rir les blessures de ses alli&eacute;s, d&#39;inhiber le poison pr&eacute;sent dans la nourriture et l&#39;eau, de redonner vie &agrave; des v&eacute;g&eacute;taux morts, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de R&eacute;sister au contact contre une blessure, il peut la gu&eacute;rir imm&eacute;diatement (au lieu d&#39;attendre un jour) et retenter une gu&eacute;rison autant de fois qu&#39;il le souhaite.<\/p>",
         "increases": [
             {
                 "short": "Peut guérir à distance",
-                "description": "Le personnage est capable de projeter son énergie vitale dans un être vivant.\r\nCela lui permet par exemple de guérir les blessures de ses alliés, d'inhiber le poison présent dans la nourriture et l'eau, de redonner vie à des végétaux morts, etc.\r\n\r\nGrâce à un jet de Résister à distance contre une blessure, il peut la guérir immédiatement (au lieu d'attendre un jour) et retenter une guérison autant de fois qu'il le souhaite."
+                "description": "<p>Le personnage est capable de projeter son &eacute;nergie vitale dans un &ecirc;tre vivant.<br \/>\r\nCela lui permet par exemple de gu&eacute;rir les blessures de ses alli&eacute;s, d&#39;inhiber le poison pr&eacute;sent dans la nourriture et l&#39;eau, de redonner vie &agrave; des v&eacute;g&eacute;taux morts, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de R&eacute;sister &agrave; distance contre une blessure, il peut la gu&eacute;rir imm&eacute;diatement (au lieu d&#39;attendre un jour) et retenter une gu&eacute;rison autant de fois qu&#39;il le souhaite.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -222,11 +222,11 @@
         "enabled": true,
         "arcane": "life",
         "short": "Peut protéger ses alliés à distance",
-        "description": "Le personnage peut projeter une aura protectrice autour d'un allier.\r\nChaque tour il peut choisir un allié au contact à protéger. Si cet allié doit lancer un jet de Défendre, il utilise à la place les scores d'Instinct et de Maîtrise en Résister du personnage. De plus l'allié bénéficie également de tous les bonus liés à la caractéristique Résister du personnage (équipement, capacités arcanique...), exactement comme si c'était le personnage lui-même qui devait lancer le jet.\r\nEn cas d'échec c'est tout de même l'allié qui reçoit la blessure.",
+        "description": "<p>Le personnage peut projeter une aura protectrice autour d&#39;un allier.<br \/>\r\nChaque tour il peut choisir un alli&eacute; au contact &agrave; prot&eacute;ger mais cela ne l&#39;emp&ecirc;che pas d&#39;agir en m&ecirc;me temps. Si cet alli&eacute; doit lancer un jet de D&eacute;fendre, il utilise &agrave; la place les scores d&#39;Instinct et de Ma&icirc;trise en R&eacute;sister du personnage. De plus l&#39;alli&eacute; b&eacute;n&eacute;ficie &eacute;galement de tous les bonus li&eacute;s &agrave; la caract&eacute;ristique R&eacute;sister du personnage (&eacute;quipement, capacit&eacute;s arcanique...), exactement comme si c&#39;&eacute;tait le personnage lui-m&ecirc;me qui devait lancer le jet. En cas d&#39;&eacute;chec c&#39;est tout de m&ecirc;me l&#39;alli&eacute; qui re&ccedil;oit la blessure.<\/p>",
         "increases": [
             {
                 "short": "Peut protéger à distance",
-                "description": "Le personnage peut projeter une aura protectrice autour d'un allier.\r\nChaque tour il peut choisir un allié à distance à protéger. Si cet allié doit lancer un jet de Défendre, il utilise à la place les scores d'Instinct et de Maîtrise en Résister du personnage. De plus l'allié bénéficie également de tous les bonus liés à la caractéristique Résister du personnage (équipement, capacités arcanique...), exactement comme si c'était le personnage lui-même qui devait lancer le jet.\r\nEn cas d'échec c'est tout de même l'allié qui reçoit la blessure."
+                "description": "<p>Le personnage peut projeter une aura protectrice autour d&#39;un allier.<br \/>\r\nChaque tour il peut choisir un alli&eacute; &agrave; distance &agrave; prot&eacute;ger mais cela ne l&#39;emp&ecirc;che pas d&#39;agir en m&ecirc;me temps. Si cet alli&eacute; doit lancer un jet de D&eacute;fendre, il utilise &agrave; la place les scores d&#39;Instinct et de Ma&icirc;trise en R&eacute;sister du personnage. De plus l&#39;alli&eacute; b&eacute;n&eacute;ficie &eacute;galement de tous les bonus li&eacute;s &agrave; la caract&eacute;ristique R&eacute;sister du personnage (&eacute;quipement, capacit&eacute;s arcanique...), exactement comme si c&#39;&eacute;tait le personnage lui-m&ecirc;me qui devait lancer le jet. En cas d&#39;&eacute;chec c&#39;est tout de m&ecirc;me l&#39;alli&eacute; qui re&ccedil;oit la blessure.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -239,23 +239,23 @@
         "enabled": true,
         "arcane": "life",
         "short": "Peut alterner entre plusieurs formes physiques",
-        "description": "Le personnage est capable de modifier son corps en se transformant rapidement en une forme prédéfinie.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques.",
+        "description": "<p>Le personnage est capable de modifier son corps en se transformant rapidement en une forme pr&eacute;d&eacute;finie.<br \/>\r\nEn d&eacute;couvrant cette capacit&eacute; le personnage choisit une forme qui doit poss&eacute;der le m&ecirc;me total de points de cr&eacute;ation r&eacute;arrang&eacute;s comme il le souhaite entre score d&#39;Instinct de ses caract&eacute;ristiques et attributs physiques. Il conserve cependant les m&ecirc;mes points de Ma&icirc;trise et les m&ecirc;mes capacit&eacute;s arcaniques.<\/p>",
         "increases": [
             {
                 "short": "Choisit une nouvelle forme",
-                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en deux formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+                "description": "<p>Le personnage est capable de modifier son corps en se transformant rapidement en deux formes pr&eacute;d&eacute;finies.<br \/>\r\nEn d&eacute;couvrant cette capacit&eacute; le personnage choisit une forme qui doit poss&eacute;der le m&ecirc;me total de points de cr&eacute;ation r&eacute;arrang&eacute;s comme il le souhaite entre score d&#39;Instinct de ses caract&eacute;ristiques et attributs physiques. Il conserve cependant les m&ecirc;mes points de Ma&icirc;trise et les m&ecirc;mes capacit&eacute;s arcaniques.<\/p>"
             },
             {
                 "short": "Choisit une nouvelle forme",
-                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en trois formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+                "description": "<p>Le personnage est capable de modifier son corps en se transformant rapidement en trois formes pr&eacute;d&eacute;finies.<br \/>\r\nEn d&eacute;couvrant cette capacit&eacute; le personnage choisit une forme qui doit poss&eacute;der le m&ecirc;me total de points de cr&eacute;ation r&eacute;arrang&eacute;s comme il le souhaite entre score d&#39;Instinct de ses caract&eacute;ristiques et attributs physiques. Il conserve cependant les m&ecirc;mes points de Ma&icirc;trise et les m&ecirc;mes capacit&eacute;s arcaniques.<\/p>"
             },
             {
                 "short": "Choisit une nouvelle forme",
-                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en quatre formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+                "description": "<p>Le personnage est capable de modifier son corps en se transformant rapidement en quatre formes pr&eacute;d&eacute;finies.<br \/>\r\nEn d&eacute;couvrant cette capacit&eacute; le personnage choisit une forme qui doit poss&eacute;der le m&ecirc;me total de points de cr&eacute;ation r&eacute;arrang&eacute;s comme il le souhaite entre score d&#39;Instinct de ses caract&eacute;ristiques et attributs physiques. Il conserve cependant les m&ecirc;mes points de Ma&icirc;trise et les m&ecirc;mes capacit&eacute;s arcaniques.<\/p>"
             },
             {
                 "short": "Choisit une nouvelle forme",
-                "description": "Le personnage est capable de modifier son corps en se transformant rapidement en cinq formes prédéfinies.\r\nEn découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d'Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques."
+                "description": "<p>Le personnage est capable de modifier son corps en se transformant rapidement en cinq formes pr&eacute;d&eacute;finies.<br \/>\r\nEn d&eacute;couvrant cette capacit&eacute; le personnage choisit une forme qui doit poss&eacute;der le m&ecirc;me total de points de cr&eacute;ation r&eacute;arrang&eacute;s comme il le souhaite entre score d&#39;Instinct de ses caract&eacute;ristiques et attributs physiques. Il conserve cependant les m&ecirc;mes points de Ma&icirc;trise et les m&ecirc;mes capacit&eacute;s arcaniques.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -268,11 +268,11 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Peut créer des murs de force",
-        "description": "Le personnage est capable de créer des champs de force ne pouvant être déplacé et n'étant pas soumis à la gravité.\r\nCela lui permet par exemple de créer une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.\r\n\r\nLes individus (y compris le personnage) désirant ignorer le champ de force doivent réussir un jet d'Imposer contre le personnage à chaque fois qu'ils le traverse ou lancent un projectile au travers.",
+        "description": "<p>Le personnage est capable de cr&eacute;er des champs de force ne pouvant pas &ecirc;tre d&eacute;plac&eacute; et n&#39;&eacute;tant pas soumis &agrave; la gravit&eacute;.<br \/>\r\nCela lui permet par exemple de cr&eacute;er une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.<br \/>\r\nLes individus (y compris le personnage) d&eacute;sirant ignorer le champ de force doivent r&eacute;ussir un jet d&#39;Imposer contre le personnage &agrave; chaque fois qu&#39;ils le traverse ou lancent un projectile au travers.<\/p>",
         "increases": [
             {
                 "short": "Champ de force sélectif",
-                "description": "Le personnage est capable de créer des champs de force ne pouvant être déplacé et n'étant pas soumis à la gravité.\r\nCela lui permet par exemple de créer une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.\r\n\r\nLe personnage peut choisir les personnages et les objets pouvant traverser le champ de force sans résistance.\r\nLes individus désirant ignorer le champ de force doivent réussir un jet d'Imposer contre le personnage à chaque fois qu'ils le traverse ou lancent un projectile au travers."
+                "description": "<p>Le personnage est capable de cr&eacute;er des champs de force ne pouvant &ecirc;tre d&eacute;plac&eacute; et n&#39;&eacute;tant pas soumis &agrave; la gravit&eacute;.<br \/>\r\nCela lui permet par exemple de cr&eacute;er une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.<br \/>\r\nLe personnage peut choisir les personnages et les objets pouvant traverser le champ de force sans r&eacute;sistance.<br \/>\r\nLes individus d&eacute;sirant ignorer le champ de force doivent r&eacute;ussir un jet d&#39;Imposer contre le personnage &agrave; chaque fois qu&#39;ils le traverse ou lancent un projectile au travers.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -285,7 +285,7 @@
         "enabled": true,
         "arcane": "life",
         "short": "Possède un corps extrêmement résistant aux coups et blessures",
-        "description": "Le corps du personnage est fait d'un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).",
+        "description": "<p>Le corps du personnage est fait d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; obsyl&egrave;ne lui conf&eacute;rant une r&eacute;sistance contre les blessures physiques (armes, projectiles, coups...).<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "mineral-fists"
@@ -299,7 +299,7 @@
         "enabled": true,
         "arcane": "death",
         "short": "Corrompt la vie",
-        "description": "Le personnage décompose les cellules vivantes au contact.\r\nCela lui permet par exemple de décomposer de la végétation, nécroser ses adversaires, affaiblir des constructions en bois, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré I dont la gravité augmente d'un degré à chaque tour jusqu'à un maximum de degré III.",
+        "description": "<p>Le personnage d&eacute;compose les cellules vivantes au contact.<br \/>\r\nCela lui permet par exemple de d&eacute;composer de la v&eacute;g&eacute;tation, n&eacute;croser ses adversaires, affaiblir des constructions en bois, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; I dont la gravit&eacute; augmente d&#39;un degr&eacute; &agrave; chaque tour jusqu&#39;&agrave; un maximum de degr&eacute; III.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -311,11 +311,11 @@
         "enabled": true,
         "arcane": "death",
         "short": "Aspire la vie au contact",
-        "description": "Le personnage aspire l'énergie vitale des êtres vivants.\r\nCela lui permet par exemple de se soigner au contact d'adversaires ou de petits animaux, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré I et grâce à un jet de Résister peut tenter de soigner une de ses blessures.",
+        "description": "<p>Le personnage aspire l&#39;&eacute;nergie vitale des &ecirc;tres vivants.<br \/>\r\nCela lui permet par exemple de se soigner au contact d&#39;adversaires ou de petits animaux, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; I et gr&acirc;ce &agrave; un jet de R&eacute;sister peut tenter de soigner une de ses blessures.<\/p>",
         "increases": [
             {
                 "short": "Augmente d'un degré la blessure infligée",
-                "description": "Le personnage aspire l'énergie vitale des êtres vivants.\r\nCela lui permet par exemple de se soigner au contact d'adversaires ou de petits animaux, etc.\r\n\r\nGrâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II et grâce à un jet de Résister peut tenter de soigner une de ses blessures."
+                "description": "<p>Le personnage aspire l&#39;&eacute;nergie vitale des &ecirc;tres vivants.<br \/>\r\nCela lui permet par exemple de se soigner au contact d&#39;adversaires ou de petits animaux, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer au contact, il peut infliger une blessure de degr&eacute; II et gr&acirc;ce &agrave; un jet de R&eacute;sister peut tenter de soigner une de ses blessures.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -328,11 +328,11 @@
         "enabled": true,
         "arcane": "death",
         "short": "Peut sacrifier son intégrité physique pour blesser à coup sûr",
-        "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré II afin d'essayer d'infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister.",
+        "description": "<p>Le personnage est capable de cr&eacute;er un lien maudit entre lui et un adversaire.<\/p>\r\n\r\n<p>Il peut s&#39;infliger une blessure de degr&eacute; II afin d&#39;essayer d&#39;infliger une blessure de degr&eacute; II &agrave; un adversaire &agrave; distance qui minimise alors sont jet de R&eacute;sister.<\/p>",
         "increases": [
             {
                 "short": "Diminue d'un degré la blessure reçue",
-                "description": "Le personnage est capable de créer un lien maudit entre lui et un adversaire.\r\n\r\nIl peut s'infliger une blessure de degré I afin d'essayer d'infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister."
+                "description": "<p>Le personnage est capable de cr&eacute;er un lien maudit entre lui et un adversaire.<\/p>\r\n\r\n<p>Il peut s&#39;infliger une blessure de degr&eacute; I afin d&#39;essayer d&#39;infliger une blessure de degr&eacute; II &agrave; un adversaire &agrave; distance qui minimise alors sont jet de R&eacute;sister.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -345,27 +345,27 @@
         "enabled": true,
         "arcane": "death",
         "short": "Peut redonner vie à des corps inanimés",
-        "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le double de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres.",
+        "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de mort-vivants dont les FP cumul&eacute;s ne d&eacute;passent pas le double de son score d&#39;Instinct en R&eacute;sister.<br \/>\r\nUn mort-vivant a ses scores d&rsquo;Imposer et R&eacute;sister au moins &eacute;gaux &agrave; 1 et D&eacute;voiler et Dissimuler toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des attributs physiques tant que les PC utilis&eacute;s sont comptabilis&eacute;s dans leur FP total. Tous les mort-vivants ont l&#39;attribut physique Perception de la vie de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur FP total.<br \/>\r\nLes morts-vivants ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>",
         "increases": [
             {
                 "short": "Peut animer trois fois son score de Résister",
-                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas le triple de son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+                "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de mort-vivants dont les FP cumul&eacute;s ne d&eacute;passent pas le triple de son score d&#39;Instinct en R&eacute;sister.<br \/>\r\nUn mort-vivant a ses scores d&rsquo;Imposer et R&eacute;sister au moins &eacute;gaux &agrave; 1 et D&eacute;voiler et Dissimuler toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des attributs physiques tant que les PC utilis&eacute;s sont comptabilis&eacute;s dans leur FP total. Tous les mort-vivants ont l&#39;attribut Perception de la vie de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur FP total.<br \/>\r\nLes morts-vivants ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>"
             },
             {
                 "short": "Peut animer quatre fois son score de Résister",
-                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas quatre fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+                "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de mort-vivants dont les FP cumul&eacute;s ne d&eacute;passent pas quatre fois son score d&#39;Instinct en R&eacute;sister.<br \/>\r\nUn mort-vivant a ses scores d&rsquo;Imposer et R&eacute;sister au moins &eacute;gaux &agrave; 1 et D&eacute;voiler et Dissimuler toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des attributs physiques tant que les PC utilis&eacute;s sont comptabilis&eacute;s dans leur FP total. Tous les mort-vivants ont l&#39;attribut Perception de la vie de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur FP total.<br \/>\r\nLes morts-vivants ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>"
             },
             {
                 "short": "Peut animer cinq fois son score de Résister",
-                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas cinq fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+                "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de mort-vivants dont les FP cumul&eacute;s ne d&eacute;passent pas cinq fois son score d&#39;Instinct en R&eacute;sister.<br \/>\r\nUn mort-vivant a ses scores d&rsquo;Imposer et R&eacute;sister au moins &eacute;gaux &agrave; 1 et D&eacute;voiler et Dissimuler toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des attributs physiques tant que les PC utilis&eacute;s sont comptabilis&eacute;s dans leur FP total. Tous les mort-vivants ont l&#39;attribut Perception de la vie de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur FP total.<br \/>\r\nLes morts-vivants ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>"
             },
             {
                 "short": "Peut animer six fois son score de Résister",
-                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas six fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+                "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de mort-vivants dont les FP cumul&eacute;s ne d&eacute;passent pas six fois son score d&#39;Instinct en R&eacute;sister.<br \/>\r\nUn mort-vivant a ses scores d&rsquo;Imposer et R&eacute;sister au moins &eacute;gaux &agrave; 1 et D&eacute;voiler et Dissimuler toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des attributs physiques tant que les PC utilis&eacute;s sont comptabilis&eacute;s dans leur FP total. Tous les mort-vivants ont l&#39;attribut Perception de la vie de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur FP total.<br \/>\r\nLes morts-vivants ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>"
             },
             {
                 "short": "Peut animer sept fois son score de Résister",
-                "description": "Le personnage peut redonner vie aux morts et les controller.\r\nCela lui permet d'animer un nombre de mort-vivants dont les FP cumulés ne dépassent pas sept fois son score d'Instinct en Résister.\r\n\r\nUn mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0.\r\nIl peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l'attribut Perception de la vie de manière innée et non comptabilisé dans leur FP total.\r\nLes morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à les réduire définitivement en cendres."
+                "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de mort-vivants dont les FP cumul&eacute;s ne d&eacute;passent pas sept fois son score d&#39;Instinct en R&eacute;sister.<br \/>\r\nUn mort-vivant a ses scores d&rsquo;Imposer et R&eacute;sister au moins &eacute;gaux &agrave; 1 et D&eacute;voiler et Dissimuler toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des attributs physiques tant que les PC utilis&eacute;s sont comptabilis&eacute;s dans leur FP total. Tous les mort-vivants ont l&#39;attribut Perception de la vie de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur FP total.<br \/>\r\nLes morts-vivants ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -378,7 +378,7 @@
         "enabled": true,
         "arcane": "death",
         "short": "Dégage une atmosphère malsaine",
-        "description": "Le personnage est constamment entouré d'un nuage mortel qui détruit la végétation avoisinante et empêche les personnages de se soigner.\r\n\r\nTous les personnages à distance (excepté les morts-vivants et ceux possédant également Aura morbide) ne peuvent plus être soignés (même pas par Transfert de force vitale).",
+        "description": "<p>Le personnage est constamment entour&eacute; d&#39;un nuage mortel qui d&eacute;truit la v&eacute;g&eacute;tation avoisinante et emp&ecirc;che les autres personnages de se soigner.<\/p>\r\n\r\n<p>Tous les personnages &agrave; distance (except&eacute; les morts-vivants et ceux poss&eacute;dant &eacute;galement Aura morbide) ne peuvent plus &ecirc;tre soign&eacute;s (m&ecirc;me pas par Transfert de force vitale).<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -390,8 +390,13 @@
         "enabled": true,
         "arcane": "death",
         "short": "Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel",
-        "description": "Le personnage possède un réceptacle particulier dans lequel il choisit de transférer une partie de ses points d'Instinct de Résister (il doit en conserver au minimum 1). Il peut par la suite, tant qu’il est en contact avec son phylactère, changer comme il le souhaite cette répartition. Les points d'Instinct ainsi transférés ne sont pas utilisables. Si le phylactère est détruit, les points de Résister sont alors perdus à jamais.\r\n\r\nA chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de Résister supplémentaire avec le score de Résister de son phylactère pour tenter directement de la guérir. Cela fonctionne quelque soit la distance entre le personnage et le phylactère.",
-        "increases": [],
+        "description": "<p>Le personnage poss&egrave;de un r&eacute;ceptacle particulier dans lequel il choisit de transf&eacute;rer une partie de ses points d&#39;Instinct de R&eacute;sister (il doit en conserver au minimum 1). Le score d&#39;Instinct en r&eacute;sister du r&eacute;cipient est &eacute;gale aux nombre de points transf&eacute;r&eacute;s par le personnage.<br \/>\r\nIl peut par la suite, tant qu&rsquo;il est en contact avec son phylact&egrave;re, changer comme il le souhaite cette r&eacute;partition. Les points d&#39;Instinct ainsi transf&eacute;r&eacute;s ne sont pas utilisables (ils ne sont plus comptabilis&eacute;s dans les jets de R&eacute;sister du personnage). Si le phylact&egrave;re est d&eacute;truit, les points de R&eacute;sister sont alors perdus &agrave; jamais.<\/p>\r\n\r\n<p>A chaque fois qu&rsquo;il re&ccedil;oit une blessure, le personnage peut lancer un jet de R&eacute;sister suppl&eacute;mentaire avec le score de R&eacute;sister de son phylact&egrave;re pour tenter directement de la gu&eacute;rir. Cela fonctionne quelque soit la distance entre le personnage et le phylact&egrave;re.<\/p>",
+        "increases": [
+            {
+                "short": "Chaque point stocké dans le phylactère est considéré doublé",
+                "description": "<p>Le personnage poss&egrave;de un r&eacute;ceptacle particulier dans lequel il choisit de transf&eacute;rer une partie de ses points d&#39;Instinct de R&eacute;sister (il doit en conserver au minimum 1). Le score d&#39;Instinct en r&eacute;sister du r&eacute;cipient est &eacute;gale au double du&nbsp;nombre de points transf&eacute;r&eacute;s par le personnage.<br \/>\r\nIl peut par la suite, tant qu&rsquo;il est en contact avec son phylact&egrave;re, changer comme il le souhaite cette r&eacute;partition. Les points d&#39;Instinct ainsi transf&eacute;r&eacute;s ne sont pas utilisables (ils ne sont plus comptabilis&eacute;s dans les jets de R&eacute;sister du personnage). Si le phylact&egrave;re est d&eacute;truit, les points de R&eacute;sister sont alors perdus &agrave; jamais.<\/p>\r\n\r\n<p>A chaque fois qu&rsquo;il re&ccedil;oit une blessure, le personnage peut lancer un jet de R&eacute;sister suppl&eacute;mentaire avec le score de R&eacute;sister de son phylact&egrave;re pour tenter directement de la gu&eacute;rir. Cela fonctionne quelque soit la distance entre le personnage et le phylact&egrave;re.<\/p>"
+            }
+        ],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
     },
@@ -402,7 +407,7 @@
         "enabled": true,
         "arcane": "spirit",
         "short": "A conscience des formes de vies qui l'entourent",
-        "description": "Le personnage a conscience de l’existence des formes de vies alentours (végétales et animales).\r\nCela lui permet par exemple de se repérer sans lumière, percevoir les personnages invisibles, de localiser de la végétation, etc.",
+        "description": "<p>Le personnage a conscience de l&rsquo;existence des formes de vies alentours (v&eacute;g&eacute;tales et animales).<br \/>\r\nCela lui permet par exemple de se rep&eacute;rer sans lumi&egrave;re, percevoir les personnages invisibles, de localiser de la v&eacute;g&eacute;tation, etc.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -414,15 +419,15 @@
         "enabled": true,
         "arcane": "web",
         "short": "Peut voir le présent, le passé ou le futur d'une entité éloignée",
-        "description": "Le personnage est capable de faire des rêves extralucides sur commande.\r\nCela lui permet par exemple d'avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions passées de personnages ayant tenu l'objet ou ayant été en contact avec le personnage en question, etc.\r\n\r\nAvant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le passé d’un personnage, d’un lieu, d’un animal de son choix à distance. Il doit pour cela réussir un jet de Dévoiler opposé à un jet de Dissimuler de la cible en question.",
+        "description": "<p>Le personnage est capable de faire des r&ecirc;ves extralucides sur commande.<br \/>\r\nCela lui permet par exemple d&#39;avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions pass&eacute;es de personnages ayant tenu l&#39;objet ou ayant &eacute;t&eacute; en contact avec le personnage en question, etc.<\/p>\r\n\r\n<p>Avant de s&rsquo;endormir le personnage peut d&eacute;cider d&rsquo;utiliser cette capacit&eacute; pour faire un r&ecirc;ve extralucide lui d&eacute;voilant des informations sur le pass&eacute; d&rsquo;un personnage, d&rsquo;un lieu, d&rsquo;un animal de son choix &agrave; distance.<br \/>\r\nIl doit pour cela r&eacute;ussir un jet de D&eacute;voiler oppos&eacute; &agrave; un jet de Dissimuler de la cible en question.<\/p>",
         "increases": [
             {
                 "short": "Peut voir le présent",
-                "description": "Le personnage est capable de faire des rêves extralucides sur commande.\r\nCela lui permet par exemple d'avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions, au choix, présentes ou passées de personnages ayant tenu l'objet ou ayant été en contact avec le personnage en question, etc.\r\n\r\nAvant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le présent ou le passé d’un personnage, d’un lieu, d’un animal de son choix à distance. Il doit pour cela réussir un jet de Dévoiler opposé à un jet de Dissimuler de la cible en question."
+                "description": "<p>Le personnage est capable de faire des r&ecirc;ves extralucides sur commande.<br \/>\r\nCela lui permet par exemple d&#39;avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions, au choix, pr&eacute;sentes ou pass&eacute;es de personnages ayant tenu l&#39;objet ou ayant &eacute;t&eacute; en contact avec le personnage en question, etc.<\/p>\r\n\r\n<p>Avant de s&rsquo;endormir le personnage peut d&eacute;cider d&rsquo;utiliser cette capacit&eacute; pour faire un r&ecirc;ve extralucide lui d&eacute;voilant des informations sur le pr&eacute;sent ou le pass&eacute; d&rsquo;un personnage, d&rsquo;un lieu, d&rsquo;un animal de son choix &agrave; distance.<br \/>\r\nIl doit pour cela r&eacute;ussir un jet de D&eacute;voiler oppos&eacute; &agrave; un jet de Dissimuler de la cible en question.<\/p>"
             },
             {
                 "short": "Peut voir le futur",
-                "description": "Le personnage est capable de faire des rêves extralucides sur commande.\r\nCela lui permet par exemple d'avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions, au choix, présentes, passées ou futures de personnages ayant tenu l'objet ou ayant été en contact avec le personnage en question, etc.\r\n\r\nAvant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le présent, le passé ou le futur d’un personnage, d’un lieu, d’un animal de son choix à distance. Il doit pour cela réussir un jet de Dévoiler opposé à un jet de Dissimuler de la cible en question."
+                "description": "<p>Le personnage est capable de faire des r&ecirc;ves extralucides sur commande.<br \/>\r\nCela lui permet par exemple d&#39;avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions, au choix, pr&eacute;sentes, pass&eacute;es ou futures de personnages ayant tenu l&#39;objet ou ayant &eacute;t&eacute; en contact avec le personnage en question, etc.<\/p>\r\n\r\n<p>Avant de s&rsquo;endormir le personnage peut d&eacute;cider d&rsquo;utiliser cette capacit&eacute; pour faire un r&ecirc;ve extralucide lui d&eacute;voilant des informations sur le pr&eacute;sent, le pass&eacute; ou le futur d&rsquo;un personnage, d&rsquo;un lieu, d&rsquo;un animal de son choix &agrave; distance.<br \/>\r\nIl doit pour cela r&eacute;ussir un jet de D&eacute;voiler oppos&eacute; &agrave; un jet de Dissimuler de la cible en question.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -435,7 +440,7 @@
         "enabled": true,
         "arcane": "web",
         "short": "Peut prévoir un événement imminent",
-        "description": "Le personnage voit en permanence une fraction de seconde dans le futur.\r\nCela lui permet par exemple de pressentir un danger imminent, un choix désastreux, le coup d'un adversaire, etc.\r\n\r\nGrâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre l'adversaire ciblé. Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu'à effectuer le jet.",
+        "description": "<p>Le personnage voit en permanence une fraction de seconde dans le futur.<br \/>\r\nCela lui permet par exemple de pressentir un danger imminent, un choix d&eacute;sastreux, le coup d&#39;un adversaire, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de D&eacute;voiler contre un personnage, il peut maximiser son prochain jet oppos&eacute; contre l&#39;adversaire cibl&eacute;.<br \/>\r\nPour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#39;&agrave; effectuer le jet.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": [
@@ -450,7 +455,7 @@
         "enabled": true,
         "arcane": "web",
         "short": "Peut accélérer l'écoulement du temps localement",
-        "description": "Le personnage peut accélérer le temps sur une zone restreinte.\r\nCela lui permet par exemple d'accélérer la pousse de la végétation, d'aggraver les blessures d'un ennemie, d'achever un adversaire inconscient à distance.\r\n\r\nGrâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augmenter d'un degré chacune des blessures de la cible.\r\nIl peut accélérer les projectiles qu'il lance (flèches, armes de jet...) pour augmenter d'un degré la blessure infligée.",
+        "description": "<p>Le personnage peut acc&eacute;l&eacute;rer le temps sur une zone restreinte.<br \/>\r\nCela lui permet par exemple d&#39;acc&eacute;l&eacute;rer la pousse de la v&eacute;g&eacute;tation, d&#39;aggraver les blessures d&#39;un ennemi, d&#39;achever un adversaire inconscient &agrave; distance.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de D&eacute;voiler &agrave; distance oppos&eacute; &agrave; un adversaire, il peut augmenter d&#39;un degr&eacute; chacune des blessures de la cible.<br \/>\r\nIl peut acc&eacute;l&eacute;rer les projectiles qu&#39;il lance (fl&egrave;ches, armes de jet...) pour augmenter d&#39;un degr&eacute; la blessure inflig&eacute;e.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "anticipation"
@@ -464,7 +469,7 @@
         "enabled": true,
         "arcane": "web",
         "short": "Peut ralentir l'écoulement du temps localement",
-        "description": "Le personnage peut ralentir le temps sur une zone restreinte.\r\nCela lui permet de ralentir une chute, esquiver des projectiles, ralentir un adversaire.\r\n\r\nLorsque le personnage est amené à effectuer un jet de Défendre, il peut utiliser son score d'Instinct en Dévoiler à la place de Résister.\r\nLorsque le personnage attaque au contact, il peut infliger une blessure d'un degré supplémentaire.",
+        "description": "<p>Le personnage peut ralentir le temps sur une zone restreinte.<br \/>\r\nCela lui permet de ralentir une chute, esquiver des projectiles, prendre le temps de frapper un point vital, etc.<\/p>\r\n\r\n<p>Lorsque le personnage est amen&eacute; &agrave; effectuer un jet de D&eacute;fendre, il peut utiliser un jet de D&eacute;voiler &agrave; la place de R&eacute;sister.<br \/>\r\nLorsque le personnage attaque au contact, il peut infliger une blessure d&#39;un degr&eacute; suppl&eacute;mentaire.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "anticipation"
@@ -478,7 +483,7 @@
         "enabled": true,
         "arcane": "web",
         "short": "Connaît l'emplacement de tout ce avec quoi il a été en contact",
-        "description": "Le personnage garde un lien fort avec tout ce avec quoi il est entré en contact au moins une fois.\r\nCela lui permet par exemple de pouvoir s'orienter en permanence, de localiser précisément la source d'un son qu'il perçoit, de localiser un objet ou un être vivant, etc.\r\n\r\nGrâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.",
+        "description": "<p>Le personnage garde un lien fort avec tout ce avec quoi il est entr&eacute; en contact au moins une fois.<br \/>\r\nCela lui permet par exemple de pouvoir s&#39;orienter en permanence, de localiser pr&eacute;cis&eacute;ment la source d&#39;un son qu&#39;il per&ccedil;oit, de localiser un objet ou un &ecirc;tre vivant, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de D&eacute;voiler, il peut localiser un objet ou un &ecirc;tre vivant avec lequel il a d&eacute;j&agrave; &eacute;t&eacute; en contact (physique ou visuel). En cas de succ&egrave;s, il conna&icirc;t la direction (&agrave; vol d&rsquo;oiseau), le sens et la distance &agrave; laquelle se situe la cible. En cas d&rsquo;&eacute;chec, le lien est perdu jusqu&rsquo;au prochain contact physique.<br \/>\r\nGr&acirc;ce &agrave; un jet de D&eacute;voiler &agrave; distance, il peut cr&eacute;er un lien de localisation avec un adversaire en visuel comme si il avait d&eacute;j&agrave; &eacute;t&eacute; en contact avec lui.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": [
@@ -493,7 +498,7 @@
         "enabled": true,
         "arcane": "web",
         "short": "Peut se rendre instantanément dans un lieu déjà visité",
-        "description": "Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant. Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter.",
+        "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant. Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "tracking"
@@ -507,7 +512,7 @@
         "enabled": true,
         "arcane": "ether",
         "short": "Se déplace à une vitesse surnaturelle",
-        "description": "Le personnage utilise sa maîtrise de l'arcane cinétique afin d’accélérer grandement ses mouvements.\r\nCela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle, etc.",
+        "description": "<p>Le personnage utilise sa ma&icirc;trise de l&#39;arcane cin&eacute;tique afin d&rsquo;acc&eacute;l&eacute;rer grandement ses mouvements.<br \/>\r\nCela lui permet par exemple de toujours &ecirc;tre le plus prompt &agrave; r&eacute;agir, de courir &agrave; une vitesse surnaturelle (environ 100 km\/h), etc.<br \/>\r\nCela ne lui permet cependent pas de combattre ou r&eacute;aliser des actions particuli&egrave;res plus rapidement, seul&nbsp;son d&eacute;placement est acc&eacute;l&eacute;r&eacute;.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -519,15 +524,11 @@
         "enabled": true,
         "arcane": "life",
         "short": "Peut se dédoubler",
-        "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.",
+        "description": "<p>Le personnage peut cr&eacute;er des doubles de lui-m&ecirc;me en utilisant ses points d&#39;Instinct personnels (un double doit poss&eacute;der au minimum 1 point d&#39;Instinct dans chaque caract&eacute;ristique). Les points ainsi transf&eacute;r&eacute;s sont inutilisables par le personnage original.<br \/>\r\nLes doubles poss&egrave;dent tous les &eacute;quipements et capacit&eacute;s du personnage ainsi que ses points de ma&icirc;trise. Les &eacute;quipements disparaissent une fois l&acirc;ch&eacute;s ou le double d&eacute;truit. Le personnage n&#39;a pas conscience de ce que ses doubles per&ccedil;oivent jusqu&#39;&agrave; ce qu&#39;ils soient d&eacute;truits, &agrave; ce moment il acqui&egrave;re tous leurs souvenirs.<br \/>\r\nLes doubles ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; le d&eacute;truire compl&egrave;tement. La blessure est alors directement transf&eacute;r&eacute;e sur le personnage. Une fois un double d&eacute;truit, le personnage r&eacute;cup&egrave;re ses points de caract&eacute;ristiques.<br \/>\r\nSi le personnage original devait mourir, il peut alors transf&eacute;rer son &acirc;me dans un de ses doubles qui r&eacute;cup&egrave;re alors les points d&#39;Instinct du personnage d&eacute;c&eacute;d&eacute; ainsi que la derni&egrave;re blessure qui lui a &eacute;t&eacute; inflig&eacute;e.<\/p>",
         "increases": [
             {
-                "short": "Chaque clone possède un point dans une caractéristique au choix",
-                "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Chaque double créé possède un point gratuit dans une caractéristique au choix du personnage ce qui lui permet de ne créer un clone qu'avec seulement 3 de ses points de caractéristique. Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques."
-            },
-            {
                 "short": "Chaque clone possède un point dans deux caractéristiques au choix",
-                "description": "Le personnage peut créer des doubles de lui-même en utilisant ses points d'Instinct personnels (un double doit posséder au minimum 1 point d'Instinct dans chaque caractéristique). Chaque double créé possède un point gratuit dans deux caractéristiques au choix du personnage ce qui lui permet de ne créer un clone qu'avec seulement 2 de ses points de caractéristique. Les points ainsi transférés sont inutilisables.\r\nLes doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit.\r\nLe personnage n'a pas conscience de ce que ses doubles perçoivent jusqu'à ce qu'ils soient détruits, à ce moment il acquière tous leurs souvenirs.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLa moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques."
+                "description": "<p>Le personnage peut cr&eacute;er des doubles de lui-m&ecirc;me en utilisant ses points d&#39;Instinct personnels (un double doit poss&eacute;der au minimum 1 point d&#39;Instinct dans chaque caract&eacute;ristique). Chaque double cr&eacute;&eacute; poss&egrave;de un point gratuit dans deux caract&eacute;ristiques au choix du personnage ce qui lui permet de ne cr&eacute;er un clone qu&#39;avec seulement 2 de ses points de caract&eacute;ristique. Les points ainsi transf&eacute;r&eacute;s sont inutilisables par le personnage original.<br \/>\r\nLes doubles poss&egrave;dent tous les &eacute;quipements et capacit&eacute;s du personnage ainsi que ses points de ma&icirc;trise. Les &eacute;quipements disparaissent une fois l&acirc;ch&eacute;s ou le double d&eacute;truit. Le personnage n&#39;a pas conscience de ce que ses doubles per&ccedil;oivent jusqu&#39;&agrave; ce qu&#39;ils soient d&eacute;truits, &agrave; ce moment il acqui&egrave;re tous leurs souvenirs.<br \/>\r\nLes doubles ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; le d&eacute;truire compl&egrave;tement. La blessure est alors directement transf&eacute;r&eacute;e sur le personnage. Une fois un double d&eacute;truit, le personnage r&eacute;cup&egrave;re ses points de caract&eacute;ristiques.<br \/>\r\nSi le personnage original devait mourir, il peut alors transf&eacute;rer son &acirc;me dans un de ses doubles qui r&eacute;cup&egrave;re alors les points d&#39;Instinct du personnage d&eacute;c&eacute;d&eacute; ainsi que la derni&egrave;re blessure qui lui a &eacute;t&eacute; inflig&eacute;e.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -540,7 +541,7 @@
         "enabled": true,
         "arcane": "spirit",
         "short": "Peut communiquer avec un personnage à distance",
-        "description": "Le personnage peut communiquer mentalement avec un personnage ou un animal à distance. S'il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue. Une fois le message transmit, la cible peut ensuite répondre mentalement par une phrase. Il n'a pas besoin de parler la même langue que la cible pour comprendre et être compris (il peut même communiquer avec des animaux en utilisant des mots simples).",
+        "description": "<p>Le personnage peut communiquer mentalement avec un personnage ou un animal &agrave; distance.<br \/>\r\nS&#39;il a d&eacute;j&agrave; communiqu&eacute; avec sa cible au moins une fois en face &agrave; face, il peut lui parler sans limite de port&eacute;e, sinon, elle doit &ecirc;tre &agrave; port&eacute;e de vue.<br \/>\r\nUne fois le message transmit, la cible peut ensuite r&eacute;pondre mentalement par une phrase. Il n&#39;a pas besoin de parler la m&ecirc;me langue que la cible pour comprendre et &ecirc;tre compris (il peut m&ecirc;me communiquer avec des animaux en utilisant des mots simples).<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "tracking"
@@ -554,7 +555,7 @@
         "enabled": true,
         "arcane": "spirit",
         "short": "Chaque membre utilise la maîtrise du meilleur élément de l'équipe",
-        "description": "Le personnage choisit des personnages à distance. Chaque personnage choisit ainsi utilise pour chaque caractéristique le score de Maîtrise de son allié possédant le meilleur score.",
+        "description": "<p>Le personnage choisit des personnages &agrave; distance qui doivent &ecirc;tre consentants et forment alors un groupe li&eacute; spirituelment.<br \/>\r\nChaque personnage li&eacute;&nbsp;ainsi utilise pour chacune de ses caract&eacute;ristiques le score de Ma&icirc;trise du membre du groupe&nbsp;poss&eacute;dant le meilleur score.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -566,7 +567,7 @@
         "enabled": true,
         "arcane": "vice",
         "short": "Peut forcer une cible à ne dire que la vérité",
-        "description": "Le personnage peut se rendre dans l'esprit d'un individu et le forcer à répondre à une question sans mentir. Le personnage doit parler la même langue que sa cible.\r\n\r\nGrâce à un jet de Dévoiler à distance le personnage peut s'insinuer dans l'esprit de sa cible et lui poser une question à laquelle elle devra répondre le plus honnêtement possible. En cas d’échec au jet, la cible se rend compte de la tentative d'intrusion et ne peut plus être interrogée tant qu'elle reste sur ses gardes.",
+        "description": "<p>Le personnage peut se rendre dans l&#39;esprit d&#39;un individu et le forcer &agrave; r&eacute;pondre &agrave; une question sans mentir.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de D&eacute;voiler &agrave; distance le personnage peut s&#39;insinuer dans l&#39;esprit de sa cible et lui poser une question &agrave; voix haute &agrave; laquelle elle devra r&eacute;pondre le plus honn&ecirc;tement possible. En cas d&rsquo;&eacute;chec au jet, la cible se rend compte de la tentative d&#39;intrusion et ne peut plus &ecirc;tre interrog&eacute;e tant qu&#39;elle reste sur ses gardes.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -578,15 +579,15 @@
         "enabled": true,
         "arcane": "spirit",
         "short": "Contrôle un animal qui devient une extension de son esprit",
-        "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au score d'Instinct en Dévoiler du personnage.",
+        "description": "<p>Le personnage choisit un animal avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal.<br \/>\r\nPendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nSi le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale. Le Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>",
         "increases": [
             {
                 "short": "Le FP du familier peut être le double du score de Dévoiler",
-                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au double du score d'Instinct en Dévoiler du personnage."
+                "description": "<p>Le personnage choisit un animal avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal. Pendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nSi le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale. Le Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au double du score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>"
             },
             {
                 "short": "Le FP du familier peut être le triple du score de Dévoiler",
-                "description": "Le personnage choisit un animal avec lequel il crée un lien psychique définitif.\r\nLe personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d'instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d'Instinct en Imposer et Résister de l'animal. Pendant ce temps le corps du personnage reste statique et sans défense.\r\nSi le familier est tué, une blessure de degré III est infligée au personnage. C'est le seul moyen de rompre le lien. Le personnage peut ensuite créer un nouveau lien avec un autre animale.\r\nLe Facteur de Puissance du familier ne peut pas être supérieur au triple du score d'Instinct en Dévoiler du personnage."
+                "description": "<p>Le personnage choisit un animal avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal. Pendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nSi le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale. Le Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au triple du score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -599,27 +600,23 @@
         "enabled": true,
         "arcane": "spirit",
         "short": "Peut donner vie à un souvenir d'une créature rencontrée",
-        "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer qu'une créature à la fois.",
+        "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur au triple du score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>",
         "increases": [
             {
-                "short": "Invoque deux créatures à la fois",
-                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que deux créatures à la fois."
+                "short": "Peut invoquer quatre fois son score de Dévoiler",
+                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; quatre fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
             },
             {
-                "short": "Invoque trois créatures à la fois",
-                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que trois créatures à la fois."
+                "short": "Peut invoquer cinq fois son score de Dévoiler",
+                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; cinq&nbsp;fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
             },
             {
-                "short": "Invoque quatre créatures à la fois",
-                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que quatre créatures à la fois."
+                "short": "Peut invoquer six fois son score de Dévoiler",
+                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; six fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
             },
             {
-                "short": "Invoque cinq créatures à la fois",
-                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que cinq créatures à la fois."
-            },
-            {
-                "short": "Invoque six créatures à la fois",
-                "description": "Le personnage peut créer une copie d'une créature qu'il a déjà rencontré dans le passé.\r\nLa créature ciblée ne doit pas avoir un Facteur de Puissance supérieur au score d'Instinct de Dévoiler du personnage.\r\nLa créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d'être détruite. La moindre blessure de degré I suffit à la détruire complètement.\r\nLe personnage ne peut invoquer que six créatures à la fois."
+                "short": "Peut invoquer sept fois son score de Dévoiler",
+                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; sept fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -632,7 +629,7 @@
         "enabled": true,
         "arcane": "veil",
         "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
-        "description": "Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.\r\nIl ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).",
+        "description": "<p>Le personnage ne fait aucun bruit de pas ni d&rsquo;&eacute;quipement lorsqu&rsquo;il se d&eacute;place.<br \/>\r\nIl ne laisse aucun trace permettant de le pister (en for&ecirc;t, dans la neige, dans le sable...).<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": [
@@ -646,7 +643,7 @@
         "enabled": true,
         "arcane": "veil",
         "short": "Peut s’entourer d'une aura éthérée le rendant très difficilement repérable",
-        "description": "Le personnage peut se rendre invisible à volonté. Il doit pour cela se concentrer et ne peux entreprendre d'action complexe (comme se battre...) sans perdre son camouflage.\r\nLes autres personnages se doutant de sa présence peuvent tenter un jet de Dévoiler pour le localiser avant chaque action entreprise (Attaquer, Percevoir...).",
+        "description": "<p>Le personnage peut se rendre invisible &agrave; volont&eacute;.<br \/>\r\nIl doit pour cela se concentrer et ne peux entreprendre d&#39;action complexe (comme se battre...) sans perdre son camouflage.<\/p>\r\n\r\n<p>Les autres personnages se doutant de sa pr&eacute;sence peuvent tenter un jet de D&eacute;voiler pour le localiser avant chaque action entreprise (Attaquer, Percevoir...).<br \/>\r\nCeux ne se doutant pas de sa pr&eacute;sance minimise syst&eacute;matiquements tous leurs jets de D&eacute;voiler destin&eacute;s &agrave; percevoir le personnage.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "ghost-walk"
@@ -660,7 +657,7 @@
         "enabled": true,
         "arcane": "veil",
         "short": "Peut modeler son apparence pour se faire passer pour quelqu’un d’autre",
-        "description": "Le personnage est capable de simuler à la perfection les traits, les mimiques, la voix, etc. d’une personne dont il a eu l’occasion de percevoir ces informations (voir, entendre, toucher...). Aucun jet n’est requis, le joueur imite à la perfection les traits dont il a connaissance mais cela n'empêche pas un ennemie d’avoir un doute en fonction de son comportement ou autre détail, dans ce cas l'adversaire peut tenter un jet de Dévoiler pour découvrir la supercherie. La cible de l’usurpation d’identité doit être de la même espèce que le joueur ou une espèce proche.",
+        "description": "<p>Le personnage est capable de simuler &agrave; la perfection les traits, les mimiques, la voix, etc. d&rsquo;une personne dont il a eu l&rsquo;occasion de percevoir ces informations (voir, entendre, toucher...).<br \/>\r\nAucun jet n&rsquo;est requis, le joueur imite &agrave; la perfection les traits dont il a connaissance mais cela n&#39;emp&ecirc;che pas un ennemie d&rsquo;avoir un doute en fonction de son comportement ou autre d&eacute;tail, dans ce cas l&#39;adversaire peut tenter un jet de D&eacute;voiler pour d&eacute;couvrir la supercherie.<br \/>\r\nLa cible de l&rsquo;usurpation d&rsquo;identit&eacute; doit &ecirc;tre de la m&ecirc;me esp&egrave;ce que le joueur ou une esp&egrave;ce proche.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -672,11 +669,11 @@
         "enabled": true,
         "arcane": "veil",
         "short": "Peut se faire passer pour n’importe quoi",
-        "description": "Le personnage est capable de projeter une aura immatérielle autour de lui.\r\nCela lui permet de se faire passer pour n'importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L'illusion suit le personnage où qu'il aille, elle peut être active pour simuler la respiration ou les mouvements d'êtres vivants mais est purement visuelle.\r\nUn personnage ayant un doute et réussissant un jet de Dévoiler ou un personnage entrant en contact avec l'illusion peut le voir tel qu'il est vraiment (il a alors conscience de la tentative de supercherie).",
+        "description": "<p>Le personnage est capable de projeter une aura immat&eacute;rielle autour de lui.<br \/>\r\nCela lui permet de se faire passer pour n&#39;importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L&#39;illusion suit le personnage o&ugrave; qu&#39;il aille, elle peut &ecirc;tre active pour simuler la respiration ou les mouvements d&#39;&ecirc;tres vivants mais est purement visuelle.<\/p>\r\n\r\n<p>Un personnage ayant un doute et r&eacute;ussissant un jet de D&eacute;voiler ou un personnage entrant en contact avec l&#39;illusion peut le voir tel qu&#39;il est vraiment (il a alors conscience de la tentative de supercherie).<\/p>",
         "increases": [
             {
                 "short": "Simule également des sons simples",
-                "description": "Le personnage est capable de projeter une aura immatérielle autour de lui.\r\nCela lui permet de se faire passer pour n'importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L'illusion suit le personnage où qu'il aille, elle peut être active pour simuler la respiration ou les mouvements d'êtres vivants. Il peut également simuler des sons simples comme de la respiration, des grognements, des pas, etc. mais pas de paroles ou de musiques.\r\nUn personnage ayant un doute et réussissant un jet de Dévoiler ou un personnage entrant en contact avec l'illusion peut le voir tel qu'il est vraiment (il a alors conscience de la tentative de supercherie)."
+                "description": "<p>Le personnage est capable de projeter une aura immat&eacute;rielle autour de lui.<br \/>\r\nCela lui permet de se faire passer pour n&#39;importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L&#39;illusion suit le personnage o&ugrave; qu&#39;il aille, elle peut &ecirc;tre active pour simuler la respiration ou les mouvements d&#39;&ecirc;tres vivants.<br \/>\r\nIl peut &eacute;galement simuler des sons simples comme de la respiration, des grognements, des pas, etc. mais pas de paroles ou de musiques.<\/p>\r\n\r\n<p>Un personnage ayant un doute et r&eacute;ussissant un jet de D&eacute;voiler ou un personnage entrant en contact avec l&#39;illusion peut le voir tel qu&#39;il est vraiment (il a alors conscience de la tentative de supercherie).<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -689,15 +686,15 @@
         "enabled": true,
         "arcane": "veil",
         "short": "Peut créer des faux doubles de lui-même",
-        "description": "Le personnage peut créer des doubles illusoires de lui-même.\r\nIl peut en invoquer jusqu’à un maximum égale à son score d'Instinct en Dissimuler mais doit les invoquer un par un.\r\nLes doubles agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel. Un adversaire doit réussir un jet de Dévoiler sur chaque double individuellement pour déceler la supercherie.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLe moindre contact le transperçant suffit à le détruire complètement.",
+        "description": "<p>Le personnage peut cr&eacute;er des doubles illusoires de lui-m&ecirc;me.<br \/>\r\nIl peut en invoquer jusqu&rsquo;&agrave; un maximum &eacute;gal&nbsp;&agrave; son score d&#39;Instinct en Dissimuler mais doit les invoquer un par un. Les doubles agissent exactement comme le d&eacute;sire le personnage mais sont incapables d&rsquo;interagir avec le monde mat&eacute;riel.<\/p>\r\n\r\n<p>Un adversaire doit r&eacute;ussir un jet de D&eacute;voiler sur chaque double individuellement pour d&eacute;celer la supercherie. Les doubles ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. Le moindre contact le transper&ccedil;ant suffit &agrave; le d&eacute;truire compl&egrave;tement.<\/p>",
         "increases": [
             {
                 "short": "Peut créer autant de doubles que le double de son score de Dissimuler",
-                "description": "Le personnage peut créer des doubles illusoires de lui-même.\r\nIl peut en invoquer jusqu’à un maximum égale au double de son score d'Instinct en Dissimuler et peut les invoquer deux par deux.\r\nLes doubles agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel. Un adversaire doit réussir un jet de Dévoiler sur chaque double individuellement pour déceler la supercherie.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLe moindre contact le transperçant suffit à le détruire complètement."
+                "description": "<p>Le personnage peut cr&eacute;er des doubles illusoires de lui-m&ecirc;me.<br \/>\r\nIl peut en invoquer jusqu&rsquo;&agrave; un maximum &eacute;gale au double de son score d&#39;Instinct en Dissimuler et peut les invoquer deux par deux. Les doubles agissent exactement comme le d&eacute;sire le personnage mais sont incapables d&rsquo;interagir avec le monde mat&eacute;riel.<\/p>\r\n\r\n<p>Un adversaire doit r&eacute;ussir un jet de D&eacute;voiler sur chaque double individuellement pour d&eacute;celer la supercherie. Les doubles ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. Le moindre contact le transper&ccedil;ant suffit &agrave; le d&eacute;truire compl&egrave;tement.<\/p>"
             },
             {
                 "short": "Peut créer autant de doubles que le triple de son score de Dissimuler",
-                "description": "Le personnage peut créer des doubles illusoires de lui-même.\r\nIl peut en invoquer jusqu’à un maximum égale au triple de son score d'Instinct en Dissimuler et peut les invoquer trois par trois.\r\nLes doubles agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel. Un adversaire doit réussir un jet de Dévoiler sur chaque double individuellement pour déceler la supercherie.\r\nLes doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d'être détruits.\r\nLe moindre contact le transperçant suffit à le détruire complètement."
+                "description": "<p>Le personnage peut cr&eacute;er des doubles illusoires de lui-m&ecirc;me.<br \/>\r\nIl peut en invoquer jusqu&rsquo;&agrave; un maximum &eacute;gale au triple de son score d&#39;Instinct en Dissimuler et peut les invoquer trois par trois. Les doubles agissent exactement comme le d&eacute;sire le personnage mais sont incapables d&rsquo;interagir avec le monde mat&eacute;riel.<\/p>\r\n\r\n<p>Un adversaire doit r&eacute;ussir un jet de D&eacute;voiler sur chaque double individuellement pour d&eacute;celer la supercherie. Les doubles ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. Le moindre contact le transper&ccedil;ant suffit &agrave; le d&eacute;truire compl&egrave;tement.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -710,15 +707,15 @@
         "enabled": true,
         "arcane": "veil",
         "short": "Peut créer de faux objets",
-        "description": "Le personnage peut créer un objet inanimé immatériel.\r\nCela lui permet par exemple de créer une petite construction (comme un pan de mur, un autel...), un équipement, un animal, un personnage, etc. L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée.\r\nUn personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.\r\nIl ne peut maintenir qu'une illusion à la fois.",
+        "description": "<p>Le personnage peut cr&eacute;er un objet inanim&eacute; immat&eacute;riel.<br \/>\r\nCela lui permet par exemple de cr&eacute;er une petite construction (comme un pan de mur, un autel...), un &eacute;quipement, un animal, un personnage, etc.<br \/>\r\nL&rsquo;illusion cr&eacute;&eacute;e est immobile et immat&eacute;rielle. L&rsquo;illusion persiste sans limite de port&eacute;e. Un personnage passant &agrave; c&ocirc;t&eacute; doit r&eacute;ussir un jet de D&eacute;voiler pour remarquer la supercherie, il peut &eacute;galement passer &agrave; travers &agrave; tout moment sans pour autant la d&eacute;truire. Il ne peut maintenir qu&#39;une illusion &agrave; la fois.<\/p>",
         "increases": [
             {
                 "short": "Peut maintenir deux illusions simultanément de la taille d'une petite habitation",
-                "description": "Le personnage peut créer un objet inanimé immatériel.\r\nCela lui permet par exemple de créer une construction de taille moyenne (comme une cabane, une barque, une arme de siège...), un râtelier, une meute d'animaux, un groupe de personnages, etc. L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée.\r\nUn personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.\r\nIl ne peut maintenir que deux illusions à la fois."
+                "description": "<p>Le personnage peut cr&eacute;er un objet inanim&eacute; immat&eacute;riel.<br \/>\r\nCela lui permet par exemple de cr&eacute;er une construction de taille moyenne (comme une cabane, une barque, une arme de si&egrave;ge...), un r&acirc;telier, une meute d&#39;animaux, un groupe de personnages, etc.<br \/>\r\nL&rsquo;illusion cr&eacute;&eacute;e est immobile et immat&eacute;rielle. L&rsquo;illusion persiste sans limite de port&eacute;e. Un personnage passant &agrave; c&ocirc;t&eacute; doit r&eacute;ussir un jet de D&eacute;voiler pour remarquer la supercherie, il peut &eacute;galement passer &agrave; travers &agrave; tout moment sans pour autant la d&eacute;truire. Il ne peut maintenir que deux illusions &agrave; la fois.<\/p>"
             },
             {
                 "short": "Peut maintenir trois illusions simultanément de la taille d'un grand bâtiment",
-                "description": "Le personnage peut créer un objet inanimé immatériel.\r\nCela lui permet par exemple de créer une construction de grande taille (comme un manoir, un navire...), une armée, etc. L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée.\r\nUn personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.\r\nIl ne peut maintenir que trois illusions à la fois."
+                "description": "<p>Le personnage peut cr&eacute;er un objet inanim&eacute; immat&eacute;riel.<br \/>\r\nCela lui permet par exemple de cr&eacute;er une construction de grande taille (comme un manoir, un navire...), une arm&eacute;e, etc.<br \/>\r\nL&rsquo;illusion cr&eacute;&eacute;e est immobile et immat&eacute;rielle. L&rsquo;illusion persiste sans limite de port&eacute;e. Un personnage passant &agrave; c&ocirc;t&eacute; doit r&eacute;ussir un jet de D&eacute;voiler pour remarquer la supercherie, il peut &eacute;galement passer &agrave; travers &agrave; tout moment sans pour autant la d&eacute;truire. Il ne peut maintenir que trois illusions &agrave; la fois.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -731,11 +728,11 @@
         "enabled": true,
         "arcane": "vice",
         "short": "Peut s’insinuer dans l’esprit de ses adversaires pour les perturber",
-        "description": "Le personnage peut semer le doute dans un esprit.\r\nCela lui permet par exemple de pouvoir détourner l'attention d'une cible pendant un instant, d'affaiblir un esprit à corrompre, etc.\r\nEn cas de réussite, la cible n'est alors pas consciente de l'origine de l'agression.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut distraire une cible qui minimisera alors automatiquement son prochain jet de Dévoiler.",
+        "description": "<p>Le personnage peut semer le doute dans un esprit.<br \/>\r\nCela lui permet par exemple de pouvoir d&eacute;tourner l&#39;attention d&#39;une cible pendant un instant, d&#39;affaiblir un esprit &agrave; corrompre, etc. En cas de r&eacute;ussite, la cible n&#39;est alors pas consciente de l&#39;origine de l&#39;agression.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut distraire une cible qui minimisera alors automatiquement son prochain jet de D&eacute;voiler.<\/p>",
         "increases": [
             {
                 "short": "Inflige une blessure de degré I en plus de distraire",
-                "description": "Le personnage peut semer le doute dans un esprit.\r\nCela lui permet par exemple de pouvoir détourner l'attention d'une cible pendant un instant, d'affaiblir un esprit à corrompre, de blesser à distance, etc.\r\nLa cible n'est alors pas consciente de l'origine de l'agression.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut distraire une ciblequi minimisera alors automatiquement son prochain jet de Dévoiler.\r\nIl peut alors également choisir d'infliger une blessure de degré I."
+                "description": "<p>Le personnage peut semer le doute dans un esprit.<br \/>\r\nCela lui permet par exemple de pouvoir d&eacute;tourner l&#39;attention d&#39;une cible pendant un instant, d&#39;affaiblir un esprit &agrave; corrompre, de blesser &agrave; distance, etc. La cible n&#39;est alors pas consciente de l&#39;origine de l&#39;agression.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut distraire une cible qui minimisera alors automatiquement son prochain jet de D&eacute;voiler. Il peut alors &eacute;galement choisir d&#39;infliger une blessure de degr&eacute; I.<\/p>"
             }
         ],
         "abilitiesRequired": [],
@@ -750,7 +747,7 @@
         "enabled": true,
         "arcane": "vice",
         "short": "Peut forcer un personnage à attaquer ses alliés",
-        "description": "Le personnage peut contrôler momentanément l'esprit d'une cible.\r\nCela lui permet au choix d'insérer un sentiment extrême d'agressivité, de bienveillance, de peur envers un personnage (qu'il soit allié ou ennemi).\r\nIl peut donc par exemple le forcer à attaquer un allier, soigner un ennemie, s'enfuir, etc.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut obliger la cible à accomplir une unique action de son choix.",
+        "description": "<p>Le personnage peut contr&ocirc;ler momentan&eacute;ment l&#39;esprit d&#39;une cible.<br \/>\r\nCela lui permet au choix d&#39;ins&eacute;rer un sentiment extr&ecirc;me d&#39;agressivit&eacute;, de bienveillance, de peur envers un personnage (qu&#39;il soit alli&eacute; ou ennemi). Il peut donc par exemple le forcer &agrave; attaquer un allier, soigner un ennemi, s&#39;enfuir, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut obliger la cible &agrave; accomplir une unique action de son choix.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "distraction"
@@ -764,7 +761,7 @@
         "enabled": true,
         "arcane": "vice",
         "short": "Peut faire croire à des mensonges peu vraisemblables",
-        "description": "Le personnage persuade sa cible de la véracité de ce qu'il dit.\r\nIl maximise automatiquement tous ses jets de Dissimuler pour les mensonges plausibles et il peut même tenter de faire croire à des énormités.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut tenter de faire croire un mensonge particulièrement peu vraisemblable.",
+        "description": "<p>Le personnage persuade sa cible de la v&eacute;racit&eacute; de ce qu&#39;il dit.<br \/>\r\nIl maximise automatiquement tous ses jets de Dissimuler pour les mensonges plausibles et il peut m&ecirc;me tenter de faire croire &agrave; des &eacute;normit&eacute;s.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut tenter de faire croire un mensonge particuli&egrave;rement peu vraisemblable.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -776,7 +773,7 @@
         "enabled": true,
         "arcane": "vice",
         "short": "Sait se rendre amicale instantanément",
-        "description": "Le personnage peut modifier le comportement des êtres vivants à son égard.\r\nCela lui permet par exemple de faire oublier ses actions belliqueuses à un adversaire, dresser un animale sauvage, obtenir la coopération d'un personnage, etc.\r\n\r\nGrâce à un jet de Dissimuler à distance, il peut faire en sorte que la cible ne le considère plus comme un ennemi jusqu'à la prochaine action agressive qu'il entreprend.",
+        "description": "<p>Le personnage peut modifier le comportement des &ecirc;tres vivants &agrave; son &eacute;gard.<br \/>\r\nCela lui permet par exemple de faire oublier ses actions belliqueuses &agrave; un adversaire, dresser un animale sauvage, obtenir la coop&eacute;ration d&#39;un personnage, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut faire en sorte que la cible ne le consid&egrave;re plus comme un ennemi jusqu&#39;&agrave; la prochaine action agressive qu&#39;il entreprend.<\/p>",
         "increases": [],
         "abilitiesRequired": [],
         "abilitiesUnlocked": []
@@ -788,11 +785,11 @@
         "enabled": true,
         "arcane": "vice",
         "short": "Permet de réécrire un souvenir",
-        "description": "Le personnage peut insérer un nouveau souvenir dans l'esprit d'une cible.\r\nCela lui permet par exemple de faire croire à la cible qu'elle a déjà rencontré le personnage, qu'il lui a déjà sauvé la vie dans le passé, qu'elle a comis un acte répréhensible, etc. En cas d'échec, la cible se rend compte de la tentative de manipulation et de son origine.\r\n\r\nGrâce à un jet de Dissimuler au contact, il peut créer un faux souvenir qui doit être court (quelques secondes tout au plus) que la cible concidèrera comme réel.",
+        "description": "<p>Le personnage peut ins&eacute;rer un nouveau souvenir dans l&#39;esprit d&#39;une cible.<br \/>\r\nCela lui permet par exemple de faire croire &agrave; la cible qu&#39;elle a d&eacute;j&agrave; rencontr&eacute; le personnage, qu&#39;il lui a d&eacute;j&agrave; sauv&eacute; la vie dans le pass&eacute;, qu&#39;elle a comis un acte r&eacute;pr&eacute;hensible, etc. En cas d&#39;&eacute;chec, la cible se rend compte de la tentative de manipulation et de son origine.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler au contact, il peut cr&eacute;er un faux souvenir qui doit &ecirc;tre court (quelques secondes tout au plus) que la cible concid&egrave;rera comme r&eacute;el.<\/p>",
         "increases": [
             {
                 "short": "Permet également de supprimer un souvenir précis",
-                "description": "Le personnage peut insérer un nouveau souvenir ou en supprimer un ancien dans l'esprit d'une cible.\r\nCela lui permet par exemple de faire croire à la cible qu'elle a déjà rencontré le personnage, qu'il lui a déjà sauvé la vie dans le passé, qu'elle a commis un acte répréhensible, lui faire oublier une action du personnage à son égare, etc. En cas d'échec, la cible se rend compte de la tentative de manipulation et de son origine.\r\n\r\nGrâce à un jet de Dissimuler au contact, il peut créer ou supprimer un souvenir qui doit être court (quelques secondes tout au plus) et l'insérer dans l'esprit d'un personnage ou d'un animal."
+                "description": "<p>Le personnage peut ins&eacute;rer un nouveau souvenir ou en supprimer un ancien dans l&#39;esprit d&#39;une cible.<br \/>\r\nCela lui permet par exemple de faire croire &agrave; la cible qu&#39;elle a d&eacute;j&agrave; rencontr&eacute; le personnage, qu&#39;il lui a d&eacute;j&agrave; sauv&eacute; la vie dans le pass&eacute;, qu&#39;elle a commis un acte r&eacute;pr&eacute;hensible, lui faire oublier une action du personnage &agrave; son &eacute;gare, etc. En cas d&#39;&eacute;chec, la cible se rend compte de la tentative de manipulation et de son origine.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler au contact, il peut cr&eacute;er ou supprimer un souvenir qui doit &ecirc;tre court (quelques secondes tout au plus) et l&#39;ins&eacute;rer dans l&#39;esprit d&#39;un personnage ou d&#39;un animal.<\/p>"
             }
         ],
         "abilitiesRequired": [],
