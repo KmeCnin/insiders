@@ -1,10 +1,10 @@
 @import "setup";
 
 .navbar {
+  height: 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
 
   border-bottom: 1px solid $secondary-color;
   background: url(../../images/navbar-pattern.png);
@@ -14,8 +14,8 @@
     align-items: center;
 
     img {
-      height: 40px;
-      margin-right: 10px;
+      height: 32px;
+      margin: 0 10px;
     }
 
     div span {
@@ -25,42 +25,48 @@
     }
 
     div span:first-of-type {
-      font-size: 0.8em;
+      font-size: 0.7em;
       color: $primary-color;
     }
 
     div span:last-of-type {
+      font-size: 0.9em;
       color: $secondary-color;
     }
   }
 
   .tabs {
+    height: 100%;
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
 
     list-style-type: none;
 
     li {
+      height: 100%;
       display: flex;
       justify-content: flex-end;
-      margin: 0 45px;
+      align-items: center;
+      padding: 0 45px;
+
+      cursor: pointer;
       
       a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
         font-family: $font-family-primary;
         color: $primary-color;
-        transition: color 0.5s;
-      }
-
-      a:hover {
-        color: $secondary-color;
       }
 
       ul {
         width: 165px;
         display: none;
         position: absolute;
-        top: 60px;
+        top: 65px;
         padding: 0;
 
         list-style-type: none;
@@ -74,7 +80,6 @@
 
           border-bottom: 1px solid $secondary-color;
           transition: background 0.5s;
-          cursor: pointer;
 
           a {
             font-family: 'Open Sans', sans-serif;
@@ -91,6 +96,54 @@
           border-bottom: none;
         }
       }
+    }
+
+    li:hover a {
+      color: $primary-color;
+    }
+
+    li:hover ul {
+      display: block;
+    }
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+    .login-user {
+      text-align: right;
+
+      span {
+        display: block;
+
+        color: $primary-color;
+      }
+
+      span:first-of-type {
+        font-size: 0.9em;
+      }
+
+      span:last-of-type {
+        font-size: 0.7em;
+        font-weight: 300;
+      }
+    }
+
+    .bg-user {
+      width: 40px;
+      height: 40px;
+      margin: 0 15px 0 10px;
+
+      border-radius: 100%;
+      border: 1px solid $primary-color;
+      background: url(../../images/user.jpg);
+      background-size: 110%;
+    }
+
+    img {
+      height: 6px;
     }
   }
 }
