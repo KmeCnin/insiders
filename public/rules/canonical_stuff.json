@@ -176,5 +176,17 @@
         "properties": [
             "wound-II"
         ]
+    },
+    {
+        "id": 20,
+        "slug": "quiver",
+        "name": "Carquois",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-I"
+        ]
     }
 ]
