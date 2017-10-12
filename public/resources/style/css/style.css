@@ -14,7 +14,7 @@ h1 {
 
 h2 {
   font-family: "CinzelDecorative-Bold";
-  color: #FFCB64; }
+  color: #FECB5B; }
 
 a {
   text-decoration: none; }
@@ -72,7 +72,7 @@ header {
   .breadcrum .line {
     width: 100%;
     height: 1px;
-    background: #FFCB64; }
+    background: #FECB5B; }
   .breadcrum .breadcrum-items {
     position: absolute;
     display: flex; }
@@ -106,7 +106,7 @@ header {
           height: 10px;
           position: absolute;
           border-radius: 100%;
-          border: 1px solid #FFCB64;
+          border: 1px solid #FECB5B;
           background: #F98D08; }
         .breadcrum .breadcrum-items a .bullets .bullet-active {
           width: 30px;
@@ -135,7 +135,7 @@ header {
   position: relative;
   padding: 10px;
   border-radius: 2px;
-  border: 1px solid #FFCB64; }
+  border: 1px solid #FECB5B; }
 
 .block-home1,
 .block-home2,
@@ -162,7 +162,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  border-top: 1px solid #FFCB64;
+  border-top: 1px solid #FECB5B;
   text-align: center;
   background: rgba(0, 0, 0, 0.7); }
   .block-short img {
@@ -198,7 +198,7 @@ header {
 .block-title span {
   font-family: "Manuale", serif;
   font-size: 1.1em;
-  color: #FFCB64; }
+  color: #FECB5B; }
 
 .block-split-wrapper {
   margin-bottom: 30px; }
@@ -228,7 +228,7 @@ header {
     .block-split .block-content .block-content-title .title-underline {
       height: 1px;
       margin-top: 10px;
-      background: #FFCB64; }
+      background: #FECB5B; }
   .block-split .bg-abilities1,
   .block-split .bg-abilities2,
   .block-split .bg-arcanes1 {
