@@ -44,7 +44,7 @@
         font-family: "CinzelDecorative-Bold";
         color: #F0E6D2; }
       .navbar .tabs li ul {
-        width: 165px;
+        width: 175px;
         display: none;
         position: absolute;
         top: 65px;
@@ -71,6 +71,7 @@
     .navbar .tabs li:hover ul {
       display: block; }
   .navbar .login {
+    height: 100%;
     display: flex;
     align-items: center;
     margin-right: 15px; }
@@ -92,7 +93,10 @@
       border: 1px solid #F0E6D2;
       background: url(../../images/user.jpg);
       background-size: 110%; }
+    .navbar .login .tabs > li {
+      padding: 0; }
     .navbar .login img {
-      height: 6px; }
+      height: 6px;
+      cursor: pointer; }
 
 /*# sourceMappingURL=navbar.css.map */
