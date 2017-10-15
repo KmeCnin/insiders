@@ -1,11 +1,14 @@
 {% extends 'layout.html.twig' %}
 
-{% block page %}home{% endblock %}
+{% block pageheader %}home{% endblock %}
+{% block pagemain %}home{% endblock %}
 
 {% block header %} 
-  <img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">
-  <h1>Rejoignez Les Initiés</h1>
-  <h2>Vivez l'aventure</h2>
+  <div class="header-content-wrapper">
+    <img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">
+    <h1>Rejoignez Les Initiés</h1>
+    <h2>Vivez l'aventure</h2>
+  </div>
 {% endblock %}
 
 {% block container %} 

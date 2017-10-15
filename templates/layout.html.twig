@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <title>{% block title %}Les initiés{% endblock %}</title>
     <link rel="stylesheet" href="{{ asset('resources/style/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('resources/style/css/navbar.css') }}">
     {% block css %}{% endblock %}
+
+    <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manuale:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   </head>
   <body>
     {{ include('includes/menu.html.twig') }}
 
-    <header class="header header-{% block page %}{% endblock %}">
+    <header class="header header-{% block pageheader %}{% endblock %}">
       {% block header %}{% endblock %}
     </header>
 
-    <main>
+    <main class="main main-{% block pagemain %}{% endblock %}">
       <div class="container">
         {% block container %}{% endblock %}
       </div>

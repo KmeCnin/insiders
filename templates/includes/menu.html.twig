@@ -1,2 +1,53 @@
 <nav class="navbar">
+  <div class="logo">
+    <img src="{{ asset('resources/images/logo-navbar.svg') }}" alt="Logo Les Initiés"> 
+    <div>
+      <span>Les</span>
+      <span>Initiés</span>
+    </div>
+  </div>
+
+  <ul class="tabs">
+    <li>
+      <a href="#">Règles</a>
+      <ul>
+        <li><a href="#">Caractéristiques</a></li>
+        <li><a href="#">Equipements</a></li>
+        <li><a href="#">Attributs</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Univers</a>
+      <ul>
+        <li><a href="#">Arcanes</a></li>
+        <li><a href="#">Capacités</a></li>
+        <li><a href="#">Décharges</a></li>
+        <li><a href="#">Divinités</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Outils</a>
+      <ul>
+        <li><a href="#">Créer une guild</a></li>
+        <li><a href="#">Créer un personnage</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="login">
+    <div class="login-user">
+      <span>Pierre-Chanel</span>
+      <span>Maître du jeu</span>
+    </div>
+    <div class="bg-user"></div>
+    <ul class="tabs">
+      <li>
+        <img src="{{ asset('resources/images/arrow-down.svg') }}" alt="arrow-down">
+        <ul>
+          <li><a href="#">Paramètres du compte</a></li>
+          <li><a href="#">Déconnexion</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 </nav>

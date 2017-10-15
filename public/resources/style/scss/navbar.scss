@@ -1,0 +1,155 @@
+@import "setup";
+
+.navbar {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid $secondary-color;
+  background: url(../../images/navbar-pattern.png);
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 32px;
+      margin: 0 10px;
+    }
+
+    div span {
+      display: block;
+
+      font-family: $font-family-primary;
+    }
+
+    div span:first-of-type {
+      font-size: 0.7em;
+      color: $primary-color;
+    }
+
+    div span:last-of-type {
+      font-size: 0.9em;
+      color: $secondary-color;
+    }
+  }
+
+  .tabs {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    li {
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 45px;
+
+      cursor: pointer;
+      
+      a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        font-family: $font-family-primary;
+        color: $primary-color;
+      }
+
+      ul {
+        width: 175px;
+        display: none;
+        position: absolute;
+        top: 65px;
+        padding: 0;
+
+        list-style-type: none;
+        border-radius: 2px;
+        border: 1px solid $secondary-color;
+        background: #1A191D;
+
+        li {
+          margin: 0;
+          padding: 10px 20px;
+
+          border-bottom: 1px solid $secondary-color;
+          transition: background 0.5s;
+
+          a {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.8em;
+            font-weight: 300;
+          }
+        }
+
+        li:hover {
+          background: #232225;
+        }
+
+        li:last-of-type {
+          border-bottom: none;
+        }
+      }
+    }
+
+    li:hover a {
+      color: $primary-color;
+    }
+
+    li:hover ul {
+      display: block;
+    }
+  }
+
+  .login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+    .login-user {
+      text-align: right;
+
+      span {
+        display: block;
+
+        color: $primary-color;
+      }
+
+      span:first-of-type {
+        font-size: 0.9em;
+      }
+
+      span:last-of-type {
+        font-size: 0.7em;
+        font-weight: 300;
+      }
+    }
+
+    .bg-user {
+      width: 40px;
+      height: 40px;
+      margin: 0 15px 0 10px;
+
+      border-radius: 100%;
+      border: 1px solid $primary-color;
+      background: url(../../images/user.jpg);
+      background-size: 110%;
+    }
+
+    .tabs > li {
+      padding: 0;
+    }
+
+    img {
+      height: 6px;
+      cursor: pointer;
+    }
+  }
+}

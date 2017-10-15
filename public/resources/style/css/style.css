@@ -1,9 +1,6 @@
 @font-face {
   font-family: "CinzelDecorative-Bold";
   src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("otf"); }
-@font-face {
-  font-family: "Mermaid";
-  src: url("../../fonts/mermaid/Mermaid1001.ttf") format("ttf"); }
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -17,38 +14,49 @@ h1 {
 
 h2 {
   font-family: "CinzelDecorative-Bold";
-  color: #FFCB64; }
+  color: #FECB5B; }
 
 a {
   text-decoration: none; }
 
-main {
-  background: url(../../images/bg-main.jpg) no-repeat; }
-  main .container {
-    max-width: 900px;
-    margin: auto;
-    padding: 100px 30px; }
+.main .container {
+  max-width: 900px;
+  margin: auto;
+  padding: 100px 30px; }
+
+.main-home {
+  background: url(../../images/bg-main-home.jpg) no-repeat fixed; }
+
+.main-abilities {
+  background: url(../../images/bg-main-abilities.jpg) no-repeat fixed; }
+
+.main-arcanes {
+  background: url(../../images/bg-main-arcanes.jpg) no-repeat fixed; }
 
 header {
   height: 700px;
+  background-size: cover; }
+
+.header-content-wrapper {
+  max-width: 1100px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding: 0 100px 0 0;
-  background-size: cover; }
-  header h1 {
+  margin: auto; }
+  .header-content-wrapper img {
+    width: 400px; }
+  .header-content-wrapper h1 {
     margin-bottom: 0px;
     font-size: 3em;
     text-transform: uppercase; }
-  header h2 {
+  .header-content-wrapper h2 {
     margin-top: 20px;
     font-size: 2.5em; }
 
 .header-home {
   background-image: url(../../images/home/home-header-bg.jpg); }
-  .header-home img {
-    width: 400px; }
 
 .header-abilities {
   background-image: url(../../images/bg-header-abilities.jpg); }
@@ -60,11 +68,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px; }
+  margin: 80px 0 120px 0; }
   .breadcrum .line {
     width: 100%;
     height: 1px;
-    background: #FFCB64; }
+    background: #FECB5B; }
   .breadcrum .breadcrum-items {
     position: absolute;
     display: flex; }
@@ -98,7 +106,7 @@ header {
           height: 10px;
           position: absolute;
           border-radius: 100%;
-          border: 1px solid #FFCB64;
+          border: 1px solid #FECB5B;
           background: #F98D08; }
         .breadcrum .breadcrum-items a .bullets .bullet-active {
           width: 30px;
@@ -127,7 +135,7 @@ header {
   position: relative;
   padding: 10px;
   border-radius: 2px;
-  border: 1px solid #FFCB64; }
+  border: 1px solid #FECB5B; }
 
 .block-home1,
 .block-home2,
@@ -154,7 +162,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  border-top: 1px solid #FFCB64;
+  border-top: 1px solid #FECB5B;
   text-align: center;
   background: rgba(0, 0, 0, 0.7); }
   .block-short img {
@@ -170,12 +178,14 @@ header {
 
 .block-intro {
   margin-bottom: 70px;
-  text-align: center; }
+  text-align: center;
+  background: rgba(0, 0, 0, 0.38); }
   .block-intro p {
-    max-width: 700px;
+    max-width: 850px;
     margin: 20px auto;
+    text-align: justify;
     font-family: "Manuale", serif;
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #F0E6D2; }
 
@@ -188,7 +198,10 @@ header {
 .block-title span {
   font-family: "Manuale", serif;
   font-size: 1.1em;
-  color: #FFCB64; }
+  color: #FECB5B; }
+
+.block-split-wrapper {
+  margin-bottom: 30px; }
 
 .block-split {
   display: flex;
@@ -200,7 +213,7 @@ header {
     position: absolute;
     bottom: 0;
     top: 15px;
-    right: 145px; }
+    left: -165px; }
   .block-split .block-content {
     width: 60%;
     padding: 30px;
@@ -215,9 +228,10 @@ header {
     .block-split .block-content .block-content-title .title-underline {
       height: 1px;
       margin-top: 10px;
-      background: #FFCB64; }
+      background: #FECB5B; }
   .block-split .bg-abilities1,
-  .block-split .bg-abilities2 {
+  .block-split .bg-abilities2,
+  .block-split .bg-arcanes1 {
     width: 40%;
     min-height: 100%; }
   .block-split .bg-abilities1 {
@@ -226,6 +240,10 @@ header {
   .block-split .bg-abilities2 {
     background: url(../../images/abilities/courant-electrique.jpg) no-repeat;
     background-size: cover; }
+  .block-split .bg-arcanes1 {
+    background: url(../../images/arcanes/bg-img/source.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -470px; }
 
 .reverse {
   flex-direction: row-reverse; }
@@ -234,16 +252,6 @@ header {
     position: absolute;
     bottom: 0;
     top: 25px;
-    right: 375px; }
-
-.block-description {
-  margin-top: 20px;
-  padding: 30px;
-  text-align: justify;
-  background: url(../../images/block-pattern.png); }
-  .block-description img {
-    position: absolute;
-    top: -120px;
-    right: -295px; }
+    right: 365px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,11 +3,14 @@
 {# /règles/capacités-arcaniques #}
 {# @var abilities \App\Entity\Rule\Ability #}
 
-{% block page %}abilities{% endblock %}
+{% block pageheader %}abilities{% endblock %}
+{% block pagemain %}abilities{% endblock %}
 
 {% block header %} 
-  <h1>Les règles</h1>
-  <h2>Capacités</h2>
+  <div class="header-content-wrapper">
+    <h1>Les règles</h1>
+    <h2>Capacités</h2>
+  </div>
 {% endblock %}
 
 {% block container %} 
@@ -34,7 +37,7 @@
       </a>
 
       <a href="#">
-        <img src="{{ asset('resources/images/arcanes/essence.svg') }}" alt="L'Essence">
+        <img src="{{ asset('resources/images/arcanes/life.svg') }}" alt="L'Essence">
         <span>L'Essence</span>
         <div class="bullets">
           <div class="bullet-default"></div>
@@ -43,7 +46,7 @@
       </a>
 
       <a href="#">
-        <img src="{{ asset('resources/images/arcanes/purge.svg') }}" alt="La Purge">
+        <img src="{{ asset('resources/images/arcanes/death.svg') }}" alt="La Purge">
         <span>La Purge</span>
         <div class="bullets">
           <div class="bullet-default"></div>
@@ -52,7 +55,7 @@
       </a>
 
       <a href="#">
-        <img src="{{ asset('resources/images/arcanes/toile.svg') }}" alt="La Toile">
+        <img src="{{ asset('resources/images/arcanes/web.svg') }}" alt="La Toile">
         <span>La Toile</span>
         <div class="bullets">
           <div class="bullet-default"></div>
@@ -61,7 +64,7 @@
       </a>
 
       <a href="#">
-        <img src="{{ asset('resources/images/arcanes/esprit.svg') }}" alt="L'Esprit">
+        <img src="{{ asset('resources/images/arcanes/spirit.svg') }}" alt="L'Esprit">
         <span>L'Esprit</span>
         <div class="bullets">
           <div class="bullet-default"></div>
@@ -70,7 +73,7 @@
       </a>
 
       <a href="#">
-        <img src="{{ asset('resources/images/arcanes/voile.svg') }}" alt="Le Voile">
+        <img src="{{ asset('resources/images/arcanes/veil.svg') }}" alt="Le Voile">
         <span>Le Voile</span>
         <div class="bullets">
           <div class="bullet-default"></div>
@@ -79,7 +82,7 @@
       </a>
 
       <a href="#">
-        <img src="{{ asset('resources/images/arcanes/etau.svg') }}" alt="L'Etau">
+        <img src="{{ asset('resources/images/arcanes/vice.svg') }}" alt="L'Etau">
         <span>L'Etau</span>
         <div class="bullets">
           <div class="bullet-default"></div>
