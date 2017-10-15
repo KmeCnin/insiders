@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Rule\Ability;
+use App\Entity\Rule\Arcane;
 use App\Entity\Rule\Attribute;
 use App\Entity\Rule\Burst;
 use App\Entity\Rule\CanonicalStuff;
@@ -25,10 +26,14 @@ class RulesController extends AbstractController
      */
     public function abilitiesAction()
     {
+        $name  = '';
+        $arcane = $this->getDoctrine()->getRepository(Arcane::class)
+            ->findOneBy(['name' => $name]);
+
         $repo = $this->getDoctrine()->getRepository(Ability::class);
 
         return $this->render('pages/rules/abilities.html.twig', [
-            'abilities' => $repo->findAll(),
+            'abilities' => $repo->findBy(['arcane' => $arcane]),
         ]);
     }
 

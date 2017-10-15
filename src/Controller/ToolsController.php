@@ -5,7 +5,7 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class ToolController extends AbstractController
+class ToolsController extends AbstractController
 {
     /**
      * @Route("/outils", name="tools")
