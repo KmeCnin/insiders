@@ -47,7 +47,7 @@ a {
   background-size: cover;
 }
 
-header {
+.header {
   height: 700px;
   background-size: cover;
 }
@@ -83,15 +83,15 @@ header {
   background-image: url(../../images/home/home-header-bg.jpg);
 }
 
-.header-abilities {
+/*.header-abilities {
   background-image: url(../../images/bg-header-abilities.jpg);
-}
+}*/
 
 .header-arcanes {
   background-image: url(../../images/bg-header-arcanes.jpg);
 }
 
-.breadcrum {
+.breadcrumb {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +104,7 @@ header {
     background: $secondary-color;
   }
 
-  .breadcrum-items {
+  .breadcrumb-items {
     position: absolute;
     display: flex;
 
@@ -254,8 +254,8 @@ header {
     margin: 20px auto;
     
     text-align: justify;
-    font-family: "Manuale", serif;
     font-size: 1em;
+    font-weight: 300;
     line-height: 1.4em;
     color: #F0E6D2;
   }
@@ -287,7 +287,7 @@ header {
 
 .block-split {
   display: flex;
-  margin-top: 20px;
+  margin: 20px 0 30px 0;
   padding: 0;
 
   background: url(../../images/block-pattern.png);

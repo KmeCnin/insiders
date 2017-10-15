@@ -1,120 +1,56 @@
 {% extends 'layout.html.twig' %}
 
 {# /règles/capacités-arcaniques #}
+{# @var arcane \App\Entity\Rule\Arcane #}
+{# @var arcanes \App\Entity\Rule\Arcane #}
 {# @var abilities \App\Entity\Rule\Ability #}
 
 {% block pageheader %}abilities{% endblock %}
 {% block pagemain %}abilities{% endblock %}
 
 {% block header %} 
-  <div class="header-content-wrapper">
-    <h1>Les règles</h1>
-    <h2>Capacités</h2>
+  <div class="header" style="background: url({{ asset('resources/images/arcanes/bg-img/'~arcane.slug~'.jpg') }}) no-repeat center; background-size: cover;">
+    <div class="header-content-wrapper">
+      <h1>Les règles</h1>
+      <h2>Capacités de {{ arcane.name }}</h2>
+    </div>
   </div>
 {% endblock %}
 
 {% block container %} 
   {# Breadcrumb #}
-  <div class="breadcrum">
+  <div class="breadcrumb">
     <div class="line"></div>
-    <div class="breadcrum-items">
-      <a href="{{ path('rules.abilities', {'slug': 'source'}) }}" class="active">
-        <img src="{{ asset('resources/images/arcanes/source.svg') }}" alt="La Source">
-        <span>La Source</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
-
-      <a href="#">
-        <img src="{{ asset('resources/images/arcanes/ether.svg') }}" alt="L'Ether">
-        <span>L'Ether</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
-
-      <a href="#">
-        <img src="{{ asset('resources/images/arcanes/life.svg') }}" alt="L'Essence">
-        <span>L'Essence</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
-
-      <a href="#">
-        <img src="{{ asset('resources/images/arcanes/death.svg') }}" alt="La Purge">
-        <span>La Purge</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
-
-      <a href="#">
-        <img src="{{ asset('resources/images/arcanes/web.svg') }}" alt="La Toile">
-        <span>La Toile</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
-
-      <a href="#">
-        <img src="{{ asset('resources/images/arcanes/spirit.svg') }}" alt="L'Esprit">
-        <span>L'Esprit</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
-
-      <a href="#">
-        <img src="{{ asset('resources/images/arcanes/veil.svg') }}" alt="Le Voile">
-        <span>Le Voile</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
-
-      <a href="#">
-        <img src="{{ asset('resources/images/arcanes/vice.svg') }}" alt="L'Etau">
-        <span>L'Etau</span>
-        <div class="bullets">
-          <div class="bullet-default"></div>
-          <div class="bullet-active"></div>
-        </div>
-      </a>
+    <div class="breadcrumb-items">
+      {% for arcaneBreadcrumb in arcanes %}
+        <a href="{{ path('rules.abilities', {'slug': arcaneBreadcrumb.slug}) }}" {% if arcane == arcaneBreadcrumb %}class="active"{% endif %}>
+          <img src="{{ asset('resources/images/arcanes/'~arcaneBreadcrumb.slug~'.svg') }}" alt="La Source">
+          <span>{{ arcaneBreadcrumb.name }}</span>
+          <div class="bullets">
+            <div class="bullet-default"></div>
+            <div class="bullet-active"></div>
+          </div>
+        </a>
+      {% endfor %}
     </div>
   </div>
 
   <div class="block block-intro">
-    <p>Un initié ou une aberration maîtrisant un arcane particulier est capable d'acquérir des capacités liées à ce dernier lui conférant alors des pouvoirs surnaturels.</p>
+    <p>{{ arcane.description|raw }}</p>
   </div>
 
   <section>
     <div>
+      {% for ability in abilities %}
       <div class="block-title">
         <div>
-          <img src="{{ asset('resources/images/arcanes/source.svg') }}" alt="La Source">
-          <h1>La Source</h1>
+          <h1>{{ ability.name }}</h1>
         </div>
-        <span>La Source est l'énergie qui parcourt le monde matériel</span>
+        <span>{{ ability.short }}</span>
       </div>
 
-      {% for ability in abilities %}
       <div class="block block-split">
         <div class="block-content">
-          <div class="block-content-title">
-            <h2>{{ ability.name }}</h2>
-            <span>{{ ability.short }}<span>
-            <div class="title-underline"></div>
-          </div>
-
           <p>{{ ability.description|raw }}</p>
         </div>
 

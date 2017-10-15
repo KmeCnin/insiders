@@ -26,8 +26,8 @@ class RulesController extends AbstractController
      */
     public function abilitiesAction(string $slug)
     {
-        $arcane = $this->getDoctrine()->getRepository(Arcane::class)
-            ->findOneBy(['slug' => $slug]);
+        $arcanesRepo = $this->getDoctrine()->getRepository(Arcane::class);
+        $arcane = $arcanesRepo->findOneBy(['slug' => $slug]);
 
         if (null === $arcane) {
             throw new \InvalidArgumentException(sprintf(
@@ -40,6 +40,7 @@ class RulesController extends AbstractController
 
         return $this->render('pages/rules/abilities.html.twig', [
             'arcane' => $arcane,
+            'arcanes' => $arcanesRepo->findAll(),
             'abilities' => $repo->findBy(['arcane' => $arcane]),
         ]);
     }
