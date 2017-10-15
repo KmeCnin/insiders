@@ -6,6 +6,7 @@ use App\Entity\Rule\Ability;
 use App\Entity\Rule\Attribute;
 use App\Entity\Rule\Burst;
 use App\Entity\Rule\CanonicalStuff;
+use App\Entity\Rule\Characteristic;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -20,13 +21,25 @@ class RulesController extends AbstractController
     }
 
     /**
-     * @Route("/règles/capacités-arcaniques", name="rules.abilities")
+     * @Route("/règles/capacités-arcaniques/{arcane}", name="rules.abilities")
      */
     public function abilitiesAction()
     {
         $repo = $this->getDoctrine()->getRepository(Ability::class);
 
         return $this->render('pages/rules/abilities.html.twig', [
+            'abilities' => $repo->findAll(),
+        ]);
+    }
+
+    /**
+     * @Route("/règles/capacités-arcaniques", name="rules.all_abilities")
+     */
+    public function allAbilitiesAction()
+    {
+        $repo = $this->getDoctrine()->getRepository(Ability::class);
+
+        return $this->render('pages/rules/all_abilities.html.twig', [
             'abilities' => $repo->findAll(),
         ]);
     }
@@ -67,6 +80,18 @@ class RulesController extends AbstractController
             'armors' => $repo->findAllArmors(),
             'objects' => $repo->findAllObjects(),
             'expendables' => $repo->findAllExpendables(),
+        ]);
+    }
+
+    /**
+     * @Route("/règles/caractéristiques", name="rules.characteristics")
+     */
+    public function characteristicsAction()
+    {
+        $repo = $this->getDoctrine()->getRepository(Characteristic::class);
+
+        return $this->render('pages/rules/characteristics.html.twig', [
+            'characteristics' => $repo->findAll(),
         ]);
     }
 }
