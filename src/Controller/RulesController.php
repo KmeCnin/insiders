@@ -22,17 +22,24 @@ class RulesController extends AbstractController
     }
 
     /**
-     * @Route("/règles/capacités-arcaniques/{arcane}", name="rules.abilities")
+     * @Route("/règles/capacités-arcaniques/{slug}", name="rules.abilities")
      */
-    public function abilitiesAction()
+    public function abilitiesAction(string $slug)
     {
-        $name  = '';
         $arcane = $this->getDoctrine()->getRepository(Arcane::class)
-            ->findOneBy(['name' => $name]);
+            ->findOneBy(['slug' => $slug]);
+
+        if (null === $arcane) {
+            throw new \InvalidArgumentException(sprintf(
+                'Arcane with slug %s does not exist.',
+                $slug
+            ));
+        }
 
         $repo = $this->getDoctrine()->getRepository(Ability::class);
 
         return $this->render('pages/rules/abilities.html.twig', [
+            'arcane' => $arcane,
             'abilities' => $repo->findBy(['arcane' => $arcane]),
         ]);
     }
