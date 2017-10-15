@@ -14,11 +14,11 @@
 {% endblock %}
 
 {% block container %} 
-  <!-- Breadcrum - Fil d'ariane -->
+  {# Breadcrumb #}
   <div class="breadcrum">
     <div class="line"></div>
     <div class="breadcrum-items">
-      <a href="#" class="active">
+      <a href="{{ path('rules.abilities', {'slug': 'source'}) }}" class="active">
         <img src="{{ asset('resources/images/arcanes/source.svg') }}" alt="La Source">
         <span>La Source</span>
         <div class="bullets">
