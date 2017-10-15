@@ -106,51 +106,23 @@
         <span>La Source est l'énergie qui parcourt le monde matériel</span>
       </div>
 
+      {% for ability in abilities %}
       <div class="block block-split">
         <div class="block-content">
           <div class="block-content-title">
-            <h2>Combustion</h2>
-            <span>Peut initier des réactions de combustion<span>
+            <h2>{{ ability.name }}</h2>
+            <span>{{ ability.short }}<span>
             <div class="title-underline"></div>
           </div>
 
-          <p>Le personnage est capable d'enflammer l'air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l'intensité de la réaction à volonté. Cela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.</p>
-
-          <p>Grâce à un jet d'Attaquer à distance, il peut infliger une blessure de degré I. Il résiste aux brûlures.</p>
-
-          <div class="block-content-title">
-            <span>Augmentation<span>
-          </div>
-          <p>Augmente d'un degré la blessure infligée</p>
+          <p>{{ ability.description|raw }}</p>
         </div>
 
-        <div class="bg-abilities1"></div>
+        <div class="bg-ability" style="background: url({{ asset('resources/images/abilities/'~ability.slug~'.jpg') }}) no-repeat; background-size: cover;"></div>
 
         <img src="{{ asset('resources/images/arcanes/source-bg.svg') }}" alt="La Source">
       </div>
-
-      <div class="block block-split reverse">
-        <div class="block-content">
-          <div class="block-content-title">
-            <h2>Courant électrique</h2>
-            <span>Peut générer des courants électriques<span>
-            <div class="title-underline"></div>
-          </div>
-
-          <p>Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l'intensité du courant à volonté. Cela lui permet par exemple d'électrocuter ses ennemies au contact, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.</p>
-
-          <p>Grâce à un jet d'Attaquer au contact, il peut infliger une blessure de degré II. Il résiste aux électrocutions.</p>
-
-          <div class="block-content-title">
-            <span>Augmentation<span>
-          </div>
-          <p>Peut blesser à distance</p>
-        </div>
-
-        <div class="bg-abilities2"></div>
-        
-        <img src="{{ asset('resources/images/arcanes/source-bg.svg') }}" alt="La Source">
-      </div>
+      {% endfor %}
     </div>
   </section>
 {% endblock %}

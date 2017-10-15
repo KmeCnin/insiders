@@ -9,32 +9,32 @@
 
   <ul class="tabs">
     <li>
-      <a href="#">Règles</a>
+      <a href="{{ path('rules') }}">Règles</a>
       <ul>
-        <li><a href="#">Caractéristiques</a></li>
-        <li><a href="#">Equipements</a></li>
-        <li><a href="#">Attributs</a></li>
+        <li><a href="{{ path('home') }}">Caractéristiques</a></li>
+        <li><a href="{{ path('rules.abilities') }}">Capacités</a></li>
+        <li><a href="{{ path('rules.attributes') }}">Attributs</a></li>
+        <li><a href="{{ path('rules.bursts') }}">Décharges</a></li>
+        <li><a href="{{ path('rules.stuff') }}">Equipements</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">Univers</a>
+      <a href="{{ path('universe') }}">Univers</a>
       <ul>
-        <li><a href="#">Arcanes</a></li>
-        <li><a href="#">Capacités</a></li>
-        <li><a href="#">Décharges</a></li>
-        <li><a href="#">Divinités</a></li>
+        <li><a href="{{ path('universe.arcanes') }}">Arcanes</a></li>
+        <li><a href="{{ path('universe.deities') }}">Divinités</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">Outils</a>
+      <a href="{{ path('home') }}">Outils</a>
       <ul>
-        <li><a href="#">Créer une guild</a></li>
-        <li><a href="#">Créer un personnage</a></li>
+        <li><a href="{{ path('home') }}">Créer une guild</a></li>
+        <li><a href="{{ path('home') }}">Créer un personnage</a></li>
       </ul>
     </li>
   </ul>
 
-  <div class="login">
+  <!--<div class="login">
     <div class="login-user">
       <span>Pierre-Chanel</span>
       <span>Maître du jeu</span>
@@ -49,5 +49,5 @@
         </ul>
       </li>
     </ul>
-  </div>
+  </div>-->
 </nav>

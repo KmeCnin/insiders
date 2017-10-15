@@ -34,14 +34,17 @@ a {
 
 .main-home {
   background: url(../../images/bg-main-home.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 .main-abilities {
   background: url(../../images/bg-main-abilities.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 .main-arcanes {
   background: url(../../images/bg-main-arcanes.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 header {
@@ -325,27 +328,10 @@ header {
     }
   }
 
-  .bg-abilities1,
-  .bg-abilities2,
-  .bg-arcanes1 {
+  .bg-ability,
+  .bg-arcane {
     width: 40%;
     min-height: 100%;
-  }
-
-  .bg-abilities1 {
-    background: url(../../images/abilities/combustion.png) no-repeat;
-    background-size: cover;
-  }
-
-  .bg-abilities2 {
-    background: url(../../images/abilities/courant-electrique.jpg) no-repeat;
-    background-size: cover;
-  }
-
-  .bg-arcanes1 {
-    background: url(../../images/arcanes/bg-img/source.jpg) no-repeat;
-    background-size: cover;
-    background-position-y: -470px;
   }
 }
 

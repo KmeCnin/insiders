@@ -25,13 +25,16 @@ a {
   padding: 100px 30px; }
 
 .main-home {
-  background: url(../../images/bg-main-home.jpg) no-repeat fixed; }
+  background: url(../../images/bg-main-home.jpg) no-repeat fixed;
+  background-size: cover; }
 
 .main-abilities {
-  background: url(../../images/bg-main-abilities.jpg) no-repeat fixed; }
+  background: url(../../images/bg-main-abilities.jpg) no-repeat fixed;
+  background-size: cover; }
 
 .main-arcanes {
-  background: url(../../images/bg-main-arcanes.jpg) no-repeat fixed; }
+  background: url(../../images/bg-main-arcanes.jpg) no-repeat fixed;
+  background-size: cover; }
 
 header {
   height: 700px;
@@ -229,21 +232,10 @@ header {
       height: 1px;
       margin-top: 10px;
       background: #FECB5B; }
-  .block-split .bg-abilities1,
-  .block-split .bg-abilities2,
-  .block-split .bg-arcanes1 {
+  .block-split .bg-ability,
+  .block-split .bg-arcane {
     width: 40%;
     min-height: 100%; }
-  .block-split .bg-abilities1 {
-    background: url(../../images/abilities/combustion.png) no-repeat;
-    background-size: cover; }
-  .block-split .bg-abilities2 {
-    background: url(../../images/abilities/courant-electrique.jpg) no-repeat;
-    background-size: cover; }
-  .block-split .bg-arcanes1 {
-    background: url(../../images/arcanes/bg-img/source.jpg) no-repeat;
-    background-size: cover;
-    background-position-y: -470px; }
 
 .reverse {
   flex-direction: row-reverse; }
