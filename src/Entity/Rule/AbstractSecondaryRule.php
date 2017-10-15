@@ -2,7 +2,6 @@
 
 namespace App\Entity\Rule;
 
-use App\Entity\AbstractEntity;
 use App\Entity\NormalizableInterface;
 use Doctrine\ORM\Mapping as ORM;
 

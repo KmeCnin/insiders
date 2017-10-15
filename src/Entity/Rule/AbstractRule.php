@@ -11,15 +11,14 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
      * @var int
      *
      * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue(strategy="NONE")
+     * @ORM\Column(type="string")
      */
     protected $id;
 
     /**
      * @var string
-     *
-     * @ORM\Column(type="string", unique=true)
+     * @ORM\Column(type="string")
      */
     protected $slug;
 
@@ -42,12 +41,12 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
         $this->setEnabled(true);
     }
 
-    public function getId(): ?int
+    public function getId(): ?string
     {
         return $this->id;
     }
 
-    public function setId(int $id): self
+    public function setId(string $id): self
     {
         $this->id = $id;
 
@@ -74,6 +73,7 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
     public function setName(string $name): self
     {
         $this->name = $name;
+        $this->setSlug(self::slugify($name));
 
         return $this;
     }

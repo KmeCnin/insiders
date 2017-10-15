@@ -17,6 +17,7 @@ use App\Entity\Rule\StuffKind;
 use App\Entity\Rule\StuffProperty;
 use App\Entity\Rule\StuffPropertyKind;
 use Doctrine\ORM\EntityManagerInterface;
+use MJS\TopSort\Implementations\StringSort;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Form\FormFactoryInterface;
@@ -96,6 +97,8 @@ class RuleTransporter implements TransporterInterface
             $filePath = $from.'/'.$this->fromNamespaceToFile($namespace).'.json';
             $data = json_decode(file_get_contents($filePath), true);
 
+            $data = $this->sort($data, $namespace);
+
             /** @var RuleInterface $entity */
             foreach ($data as $entry) {
                 $id = $entry['id'];
@@ -103,12 +106,15 @@ class RuleTransporter implements TransporterInterface
                 $form = $this->createForm($namespace, $entity);
                 $form->submit($entry);
                 if (!$form->isValid()) {
+                    var_dump($form->getViewData());
                     throw new ImportException($form, $entry);
                 }
 
+                $this->log(sprintf("    Import <comment>%s</comment>", $entity->getId()));
+
                 $this->em->persist($entity);
+                $this->em->flush();
             }
-            $this->em->flush();
             $this->log("    <info>Done</info>.");
         }
     }
@@ -145,5 +151,36 @@ class RuleTransporter implements TransporterInterface
         return $this->formFactory->create($type, $entity, [
             'csrf_protection' => false,
         ]);
+    }
+
+    private function sort(array $data, string $namespace): array
+    {
+        switch ($namespace) {
+            case Ability::class:
+                return $this->sortAccordingMultiple($data, 'abilitiesRequired');
+            default:
+                return $data;
+        }
+    }
+
+    private function sortAccordingMultiple(array $data, string $required): array
+    {
+        $sorter = new StringSort();
+        foreach ($data as $index => $entry) {
+            $sorter->add($entry['id'], $entry[$required]);
+        }
+        $result = $sorter->sort();
+
+        $sorted = [];
+        foreach ($result as $id) {
+            foreach ($data as $entry) {
+                if ($id === $entry['id']) {
+                    $sorted[] = $entry;
+                    break;
+                }
+            }
+        }
+
+        return $sorted;
     }
 }
