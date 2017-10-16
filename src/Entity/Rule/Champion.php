@@ -20,7 +20,7 @@ class Champion extends AbstractRule
      * @var Deity
      *
      * @ORM\OneToOne(targetEntity="Deity")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\JoinColumn(nullable=true)
      */
     private $deity;
 

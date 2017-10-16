@@ -50,5 +50,4 @@ reset-rules:
 	@$(CONSOLE) doctrine:database:create -vvv
 	@$(CONSOLE) doctrine:schema:update --force -vvv
 	@$(CONSOLE) fos:user:create admin pierrechanel.gauthier@gmail.com admin --super-admin -vvv
-	@$(CONSOLE) rule:import Arcane -vvv
-	@$(CONSOLE) rule:import Ability -vvv
+	@$(CONSOLE) rule:import -vvv

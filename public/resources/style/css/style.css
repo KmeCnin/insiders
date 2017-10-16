@@ -1,6 +1,6 @@
 @font-face {
   font-family: "CinzelDecorative-Bold";
-  src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("otf"); }
+  src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;

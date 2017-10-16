@@ -49,8 +49,8 @@ class RuleTransporter implements TransporterInterface
             Arcane::class,
             Characteristic::class,
             Ability::class,
-            Deity::class,
             Champion::class,
+            Deity::class,
             StuffKind::class,
             StuffPropertyKind::class,
             StuffProperty::class,
@@ -58,8 +58,6 @@ class RuleTransporter implements TransporterInterface
             Attribute::class,
             Burst::class,
             LexiconEntry::class,
-            // Only for import, must be done again in order to refer previous ids:
-            Deity::class,
         ];
     }
 
@@ -106,7 +104,6 @@ class RuleTransporter implements TransporterInterface
                 $form = $this->createForm($namespace, $entity);
                 $form->submit($entry);
                 if (!$form->isValid()) {
-                    var_dump($form->getViewData());
                     throw new ImportException($form, $entry);
                 }
 

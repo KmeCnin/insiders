@@ -31,22 +31,10 @@ class StuffPropertyType extends AbstractRuleType
             ])
             ->add('kind', EntityType::class, [
                 'class' => StuffPropertyKind::class,
-                'choice_value' => function ($kind) {
-                    if (!$kind instanceof StuffPropertyKind) {
-                        return null;
-                    }
-                    return $kind->getSlug();
-                }
             ])
             ->add('stuffKinds', EntityType::class, [
                 'class' => StuffKind::class,
                 'multiple' => true,
-                'choice_value' => function ($kind) {
-                    if (!$kind instanceof StuffKind) {
-                        return null;
-                    }
-                    return $kind->getSlug();
-                }
             ])
         ;
     }
