@@ -16,7 +16,7 @@
       margin: 0 10px; }
     .navbar .logo div span {
       display: block;
-      font-family: "CinzelDecorative-Bold"; }
+      font-family: "CinzelDecorative-Bold", serif; }
     .navbar .logo div span:first-of-type {
       font-size: 0.7em;
       color: #F0E6D2; }
@@ -41,7 +41,7 @@
       height: 100%;
       display: flex;
       align-items: center;
-      font-family: "CinzelDecorative-Bold";
+      font-family: "CinzelDecorative-Bold", serif;
       color: #F0E6D2; }
     .navbar .tabs > li ul {
       width: 175px;
