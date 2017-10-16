@@ -1,6 +1,116 @@
 @font-face {
   font-family: "CinzelDecorative-Bold";
   src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: "CinzelDecorative-Bold";
+  src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
+.navbar {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #FECB5B;
+  background: url(../../images/navbar-pattern.png); }
+  .navbar .logo {
+    display: flex;
+    align-items: center; }
+    .navbar .logo img {
+      height: 32px;
+      margin: 0 10px; }
+    .navbar .logo div span {
+      display: block;
+      font-family: "CinzelDecorative-Bold", serif; }
+    .navbar .logo div span:first-of-type {
+      font-size: 0.7em;
+      color: #F0E6D2; }
+    .navbar .logo div span:last-of-type {
+      font-size: 0.9em;
+      color: #FECB5B; }
+  .navbar .tabs {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  .navbar .tabs > li {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4px 45px 0 45px;
+    cursor: pointer; }
+    .navbar .tabs > li a {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-family: "CinzelDecorative-Bold", serif;
+      color: #F0E6D2; }
+    .navbar .tabs > li ul {
+      width: 175px;
+      display: none;
+      position: absolute;
+      top: 65px;
+      padding: 0;
+      list-style-type: none;
+      border-radius: 2px;
+      border: 1px solid #FECB5B;
+      background: url(../../images/navbar-pattern.png); }
+      .navbar .tabs > li ul li {
+        margin: 0;
+        border-bottom: 1px solid #FECB5B;
+        transition: background 0.5s; }
+        .navbar .tabs > li ul li a {
+          width: 100%;
+          padding: 10px 20px;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 0.8em;
+          font-weight: 300; }
+      .navbar .tabs > li ul li:hover {
+        background: rgba(255, 255, 255, 0.1); }
+      .navbar .tabs > li ul li:last-of-type {
+        border-bottom: none; }
+  .navbar .tabs > li > a {
+    border-bottom: 6px solid #FECB5B;
+    box-sizing: border-box;
+    border-color: transparent; }
+  .navbar .tabs > li:hover > a {
+    border-bottom: 6px solid #FECB5B;
+    box-sizing: border-box;
+    border-color: #FECB5B; }
+  .navbar .tabs > li:hover a {
+    color: #F0E6D2; }
+  .navbar .tabs > li:hover ul {
+    display: block; }
+  .navbar .login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 15px; }
+    .navbar .login .login-user {
+      text-align: right; }
+      .navbar .login .login-user span {
+        display: block;
+        color: #F0E6D2; }
+      .navbar .login .login-user span:first-of-type {
+        font-size: 0.9em; }
+      .navbar .login .login-user span:last-of-type {
+        font-size: 0.7em;
+        font-weight: 300; }
+    .navbar .login .bg-user {
+      width: 40px;
+      height: 40px;
+      margin: 0 15px 0 10px;
+      border-radius: 100%;
+      border: 1px solid #F0E6D2;
+      background: url(../../images/user.jpg);
+      background-size: 110%; }
+    .navbar .login .tabs > li {
+      padding: 0; }
+    .navbar .login img {
+      height: 6px;
+      cursor: pointer; }
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -9,11 +119,11 @@ body {
 
 /* ========== GENERAL ========== */
 h1 {
-  font-family: "CinzelDecorative-Bold";
+  font-family: "CinzelDecorative-Bold", serif;
   color: #F0E6D2; }
 
 h2 {
-  font-family: "CinzelDecorative-Bold";
+  font-family: "CinzelDecorative-Bold", serif;
   color: #FECB5B; }
 
 a {
@@ -94,7 +204,7 @@ a {
         transition: opacity 0.5s; }
       .breadcrumb .breadcrumb-items a span {
         margin-bottom: 2px;
-        font-family: "CinzelDecorative-Bold";
+        font-family: "CinzelDecorative-Bold", serif;
         font-size: 0.8em;
         color: #F0E6D2;
         opacity: 0.3;
