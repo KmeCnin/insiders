@@ -30,21 +30,9 @@ class DeityType extends AbstractRuleType
             ])
             ->add('arcane', EntityType::class, [
                 'class' => Arcane::class,
-                'choice_value' => function ($arcane) {
-                    if (!$arcane instanceof Arcane) {
-                        return null;
-                    }
-                    return $arcane->getSlug();
-                }
             ])
             ->add('champion', EntityType::class, [
                 'class' => Champion::class,
-                'choice_value' => function ($champion) {
-                    if (!$champion instanceof Champion) {
-                        return null;
-                    }
-                    return $champion->getSlug();
-                }
             ])
             ->add('description', TextareaType::class, [
                 'empty_data' => '',

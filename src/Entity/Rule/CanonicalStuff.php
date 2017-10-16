@@ -121,10 +121,10 @@ class CanonicalStuff extends AbstractRule
     {
         return array_merge(parent::normalize(), [
             'effectiveness' => $this->getEffectiveness(),
-            'kind' => $this->getKind()->getSlug(),
+            'kind' => $this->getKind()->getId(),
             'expendable' => $this->isExpendable(),
             'properties' => array_map(function (StuffProperty $property) {
-                return $property->getSlug();
+                return $property->getId();
             }, iterator_to_array($this->getProperties())),
         ]);
     }

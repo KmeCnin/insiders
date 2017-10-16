@@ -452,17 +452,16 @@ Le personnage choisit un animal avec lequel il crée un lien psychique définiti
 
 ### <a name="anchor-invocation"></a>Invocation
 
-**Peut donner vie à un souvenir d&#039;une créature rencontrée**
+**Peut donner vie à une créature**
 
-Le personnage peut créer des copies de créatures qu&#039;il a déjà rencontrées dans le passé.  
- Le FP cumulé des créatures invoquées ne doit pas être supérieur au triple du score d&#039;Instinct de Dévoiler du personnage. La créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d&#039;être détruite. La moindre blessure de degré I suffit à la détruire complètement.  
+Le personnage peut rendre matériel une créature qu&#039;il est capable d&#039;imaginer.  
+ Cela lui permet d&#039;invoquer un ou plusieurs animaux ou abérations sans capacités arcaniques.  
+ Le FP cumulé des créatures invoquées ne doit pas être supérieur au double du score d&#039;Instinct de Dévoiler du personnage. Le personnage peut choisir les points d&#039;Instinct de caractéristique avec un minimum de 1 partout ainsi que des attributs physiques. La créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d&#039;être détruite. La moindre blessure de degré I suffit à la détruire complètement, sévaporant alors immédiatement.  
  S&#039;il s&#039;agit d&#039;une créature intelligente comme un humain par exemple, elle est alors invoquée nue, sans équipement et sans capacité de communiquer, seulement comprendre et exécuter des ordres simples.
 
 **Augmentations:**
+- Peut invoquer trois fois son score de Dévoiler
 - Peut invoquer quatre fois son score de Dévoiler
-- Peut invoquer cinq fois son score de Dévoiler
-- Peut invoquer six fois son score de Dévoiler
-- Peut invoquer sept fois son score de Dévoiler
 
 
 ## <a name="anchor-veil"></a>Le Voile

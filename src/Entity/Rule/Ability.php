@@ -22,27 +22,9 @@ class Ability extends AbstractRule
     /**
      * @var Ability[]
      *
-     * @ORM\ManyToMany(targetEntity="Ability", mappedBy="abilitiesUnlocked")
+     * @ORM\ManyToMany(targetEntity="Ability")
      */
     private $abilitiesRequired;
-
-    /**
-     * @var Ability[]
-     *
-     * @ORM\ManyToMany(targetEntity="Ability", inversedBy="abilitiesRequired")
-     * @ORM\JoinTable(
-     *     name="abilitiesTree",
-     *     joinColumns={@ORM\JoinColumn(
-     *         name="ability_id",
-     *         referencedColumnName="id"
-     *     )},
-     *     inverseJoinColumns={@ORM\JoinColumn(
-     *         name="ability_required_id",
-     *         referencedColumnName="id"
-     *     )}
-     * )
-     */
-    private $abilitiesUnlocked;
 
     /**
      * @var string
@@ -59,9 +41,9 @@ class Ability extends AbstractRule
     protected $description;
 
     /**
-     * @var Increase[]|Collection
+     * @var Increase[]
      *
-     * @ORM\OneToMany(targetEntity="Increase", mappedBy="ability", cascade={"all"}, orphanRemoval=true)
+     * @ORM\Column(type="array")
      */
     protected $increases;
 
@@ -71,7 +53,6 @@ class Ability extends AbstractRule
 
         $this->increases = new ArrayCollection([]);
         $this->abilitiesRequired = new ArrayCollection();
-        $this->abilitiesUnlocked = new ArrayCollection();
         $this->setShort('');
         $this->setDescription('');
     }
@@ -107,7 +88,6 @@ class Ability extends AbstractRule
     {
         if (!$this->abilitiesRequired->contains($ability)) {
             $this->abilitiesRequired->add($ability);
-            $ability->addAbilityUnlocked($this);
         }
 
         return $this;
@@ -116,38 +96,6 @@ class Ability extends AbstractRule
     public function removeAbilityRequired(Ability $ability): self
     {
         $this->abilitiesRequired->removeElement($ability);
-
-        return $this;
-    }
-
-    public function getAbilitiesUnlocked(): \Traversable
-    {
-        return $this->abilitiesUnlocked;
-    }
-
-    public function setAbilitiesUnlocked(\Traversable $abilities): self
-    {
-        $this->abilitiesUnlocked->clear();
-        foreach ($abilities as $ability) {
-            $this->addAbilityUnlocked($ability);
-        }
-
-        return $this;
-    }
-
-    public function addAbilityUnlocked(Ability $ability)
-    {
-        if (!$this->abilitiesUnlocked->contains($ability)) {
-            $this->abilitiesUnlocked->add($ability);
-            $ability->addAbilityRequired($this);
-        }
-
-        return $this;
-    }
-
-    public function removeAbilityUnlocked(Ability $ability): self
-    {
-        $this->abilitiesUnlocked->removeElement($ability);
 
         return $this;
     }
@@ -195,7 +143,6 @@ class Ability extends AbstractRule
     {
         if (!$this->increases->contains($increase)) {
             $this->increases->add($increase);
-            $increase->setAbility($this);
         }
 
         return $this;
@@ -211,18 +158,15 @@ class Ability extends AbstractRule
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
-            'arcane' => $this->getArcane()->getSlug(),
+            'arcane' => $this->getArcane()->getId(),
             'short' => $this->getShort(),
             'description' => $this->getDescription(),
             'increases' => array_map(function (Increase $increase) {
                 return $increase->normalize();
             }, iterator_to_array($this->getIncreases())),
             'abilitiesRequired' => array_map(function (Ability $ability) {
-                return $ability->getSlug();
+                return $ability->getId();
             }, iterator_to_array($this->getAbilitiesRequired())),
-            'abilitiesUnlocked' => array_map(function (Ability $ability) {
-                return $ability->getSlug();
-            }, iterator_to_array($this->getAbilitiesUnlocked())),
         ]);
     }
 }

@@ -11,15 +11,14 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
      * @var int
      *
      * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue(strategy="NONE")
+     * @ORM\Column(type="string")
      */
     protected $id;
 
     /**
      * @var string
-     *
-     * @ORM\Column(type="string", unique=true)
+     * @ORM\Column(type="string")
      */
     protected $slug;
 
@@ -42,12 +41,12 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
         $this->setEnabled(true);
     }
 
-    public function getId(): ?int
+    public function getId(): ?string
     {
         return $this->id;
     }
 
-    public function setId(int $id): self
+    public function setId(string $id): self
     {
         $this->id = $id;
 
@@ -74,6 +73,7 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
     public function setName(string $name): self
     {
         $this->name = $name;
+        $this->setSlug(self::slugify($name));
 
         return $this;
     }
@@ -90,6 +90,16 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
         return $this;
     }
 
+    public function nameToSlug(): string
+    {
+        return self::slugify($this->name);
+    }
+
+    public function slugToName($slug): string
+    {
+        return self::unslugify($slug);
+    }
+
     public function __toString(): string
     {
         return $this->name;
@@ -103,5 +113,43 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
             'name' => $this->getName(),
             'enabled' => $this->isEnabled(),
         ];
+    }
+
+    protected static function slugify(string $string): string
+    {
+        // Removes duplicated spaces
+        $stripped = preg_replace(array('/\s{2,}/', '/[\t\n]/'), ' ', $string);
+
+        // Returns the slug
+        return strtolower(strtr($stripped, self::slugTable()));
+    }
+
+    protected static function unslugify(string $slug): string
+    {
+        return ucfirst(strtr($slug, self::slugTable()));
+    }
+
+    protected static function slugTable(): array
+    {
+        return [
+            'Š'=>'S', 'š'=>'s', 'Đ'=>'Dj', 'đ'=>'dj', 'Ž'=>'Z', 'ž'=>'z',
+            'Č'=>'C', 'č'=>'c', 'Ć'=>'C', 'ć'=>'c', 'À'=>'A', 'Á'=>'A',
+            'Â'=>'A', 'Ã'=>'A', 'Ä'=>'A', 'Å'=>'A', 'Æ'=>'A', 'Ç'=>'C',
+            'È'=>'E', 'É'=>'E', 'Ê'=>'E', 'Ë'=>'E', 'Ì'=>'I', 'Í'=>'I',
+            'Î'=>'I', 'Ï'=>'I', 'Ñ'=>'N', 'Ò'=>'O', 'Ó'=>'O', 'Ô'=>'O',
+            'Õ'=>'O', 'Ö'=>'O', 'Ø'=>'O', 'Ù'=>'U', 'Ú'=>'U', 'Û'=>'U',
+            'Ü'=>'U', 'Ý'=>'Y', 'Þ'=>'B', 'ß'=>'Ss', 'à'=>'a', 'á'=>'a',
+            'â'=>'a', 'ã'=>'a', 'ä'=>'a', 'å'=>'a', 'æ'=>'a', 'ç'=>'c',
+            'è'=>'e', 'é'=>'e', 'ê'=>'e', 'ë'=>'e', 'ì'=>'i', 'í'=>'i',
+            'î'=>'i', 'ï'=>'i', 'ð'=>'o', 'ñ'=>'n', 'ò'=>'o', 'ó'=>'o',
+            'ô'=>'o', 'õ'=>'o', 'ö'=>'o', 'ø'=>'o', 'ù'=>'u', 'ú'=>'u',
+            'û'=>'u', 'ý'=>'y', 'ỳ'=>'y', 'þ'=>'b', 'ÿ'=>'y', 'Ŕ'=>'R',
+            'ŕ'=>'r', '/' => '-', ' ' => '-', "'" => '-',
+        ];
+    }
+
+    protected static function unslugTable(): array
+    {
+        return array_flip(self::slugTable());
     }
 }

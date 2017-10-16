@@ -27,24 +27,12 @@ class CanonicalStuffType extends AbstractRuleType
         $builder
             ->add('kind', EntityType::class, [
                 'class' => StuffKind::class,
-                'choice_value' => function ($kind) {
-                    if (!$kind instanceof StuffKind) {
-                        return null;
-                    }
-                    return $kind->getSlug();
-                }
             ])
             ->add('expendable', CheckboxType::class)
             ->add('effectiveness', IntegerType::class)
             ->add('properties', EntityType::class, [
                 'class' => StuffProperty::class,
                 'multiple' => true,
-                'choice_value' => function ($property) {
-                    if (!$property instanceof StuffProperty) {
-                        return null;
-                    }
-                    return $property->getSlug();
-                }
             ])
         ;
     }

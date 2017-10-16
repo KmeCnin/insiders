@@ -1,14 +1,1 @@
-[
-    {
-        "id": 1,
-        "slug": "wound",
-        "name": "Blessure",
-        "enabled": true
-    },
-    {
-        "id": 2,
-        "slug": "default",
-        "name": "Défaut",
-        "enabled": true
-    }
-]
+[]

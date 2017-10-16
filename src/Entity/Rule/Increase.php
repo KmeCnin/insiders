@@ -4,19 +4,8 @@ namespace App\Entity\Rule;
 
 use Doctrine\ORM\Mapping as ORM;
 
-/**
- * @ORM\Entity
- */
-class Increase extends AbstractSecondaryRule
+class Increase
 {
-    /**
-     * @var Ability
-     *
-     * @ORM\ManyToOne(targetEntity="Ability", inversedBy="increases")
-     * @ORM\JoinColumn(nullable=false)
-     */
-    private $ability;
-
     /**
      * @var string
      *
@@ -35,18 +24,6 @@ class Increase extends AbstractSecondaryRule
     {
         $this->setShort('');
         $this->setDescription('');
-    }
-
-    public function getAbility(): ?Ability
-    {
-        return $this->ability;
-    }
-
-    public function setAbility(Ability $ability): self
-    {
-        $this->ability = $ability;
-
-        return $this;
     }
 
     public function getShort(): ?string

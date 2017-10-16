@@ -1,2 +1,53 @@
 <nav class="navbar">
+  <div class="logo">
+    <img src="{{ asset('resources/images/logo-navbar.svg') }}" alt="Logo Les Initiés"> 
+    <div>
+      <span>Les</span>
+      <span>Initiés</span>
+    </div>
+  </div>
+
+  <ul class="tabs">
+    <li>
+      <a href="{{ path('universe') }}">Univers</a>
+      <ul>
+        <li><a href="{{ path('universe.arcanes') }}">Arcanes</a></li>
+        <li><a href="{{ path('universe.deities') }}">Divinités</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="{{ path('rules') }}">Règles</a>
+      <ul>
+        <li><a href="{{ path('home') }}">Caractéristiques</a></li>
+        <li><a href="{{ path('rules.all_abilities') }}">Capacités</a></li>
+        <li><a href="{{ path('rules.attributes') }}">Attributs</a></li>
+        <li><a href="{{ path('rules.bursts') }}">Décharges</a></li>
+        <li><a href="{{ path('rules.stuff') }}">Equipements</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="{{ path('home') }}">Outils</a>
+      <ul>
+        <li><a href="{{ path('home') }}">Créer une guild</a></li>
+        <li><a href="{{ path('home') }}">Créer un personnage</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!--<div class="login">
+    <div class="login-user">
+      <span>Pierre-Chanel</span>
+      <span>Maître du jeu</span>
+    </div>
+    <div class="bg-user"></div>
+    <ul class="tabs">
+      <li>
+        <img src="{{ asset('resources/images/arrow-down.svg') }}" alt="arrow-down">
+        <ul>
+          <li><a href="#">Paramètres du compte</a></li>
+          <li><a href="#">Déconnexion</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>-->
 </nav>

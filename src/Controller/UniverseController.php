@@ -36,7 +36,7 @@ class UniverseController extends AbstractController
     {
         $repo = $this->getDoctrine()->getRepository(Deity::class);
 
-        return $this->render('pages/universe/bursts.html.twig', [
+        return $this->render('pages/universe/deities.html.twig', [
             'deities' => $repo->findAll(),
         ]);
     }

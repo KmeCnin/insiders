@@ -1,7 +1,6 @@
 [
     {
-        "id": 1,
-        "slug": "combustion",
+        "id": "combustion",
         "name": "Combustion",
         "enabled": true,
         "arcane": "source",
@@ -13,15 +12,10 @@
                 "description": "<p>Le personnage est capable d&#39;enflammer l&#39;air environnant en un instant, il contr&ocirc;le parfaitement la puissance et la port&eacute;e de son pouvoir lui permettant de r&eacute;gler l&#39;intensit&eacute; de la r&eacute;action &agrave; volont&eacute;.<br \/>\r\nCela lui permet par exemple de br&ucirc;ler ses ennemies &agrave; distance, cr&eacute;er un feu &agrave; partir de mat&eacute;riaux inflammables, cuire de la nourriture, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut infliger une blessure de degr&eacute; II.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux br&ucirc;lures.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "lightning",
-            "tectonic"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 2,
-        "slug": "electrocution",
+        "id": "electrocution",
         "name": "Courant électrique",
         "enabled": true,
         "arcane": "source",
@@ -33,15 +27,10 @@
                 "description": "<p>Le personnage est capable de produire des d&eacute;charges &eacute;lectriques puissantes &agrave; distance, il contr&ocirc;le parfaitement la puissance de son pouvoir lui permettant de r&eacute;gler l&#39;intensit&eacute; du courant &agrave; volont&eacute;.<br \/>\r\nCela lui permet par exemple d&#39;&eacute;lectrocuter ses ennemies &agrave; distance, &eacute;mettre un halo lumineux, d&eacute;livrer un courant &eacute;lectrique dans une surface conductrice, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut infliger une blessure de degr&eacute; II.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance aux &eacute;lectrocutions.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "lightning",
-            "electromagnetism"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 3,
-        "slug": "sound",
+        "id": "sound",
         "name": "Onde sonore",
         "enabled": true,
         "arcane": "source",
@@ -53,15 +42,10 @@
                 "description": "<p>Le personnage est capable de g&eacute;n&eacute;rer des ondes violentes dont il peut contr&ocirc;ler la puissance et la direction avec pr&eacute;cision.<br \/>\r\nCela lui permet de blesser et sonner ses ennemies, de se faire entendre sur plusieurs kilom&egrave;tres, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer &agrave; distance, il peut infliger une blessure de degr&eacute; I et sonner un personnage, qui minimisera alors automatiquement son prochain jet de R&eacute;sister.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance aux ondes sonores puissantes.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "electromagnetism",
-            "tectonic"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 4,
-        "slug": "lightning",
+        "id": "lightning",
         "name": "Foudre",
         "enabled": true,
         "arcane": "source",
@@ -76,12 +60,10 @@
         "abilitiesRequired": [
             "combustion",
             "electrocution"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 5,
-        "slug": "electromagnetism",
+        "id": "electromagnetism",
         "name": "Électromagnétisme",
         "enabled": true,
         "arcane": "source",
@@ -91,12 +73,10 @@
         "abilitiesRequired": [
             "electrocution",
             "sound"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 6,
-        "slug": "tectonic",
+        "id": "tectonic",
         "name": "Tectonique",
         "enabled": true,
         "arcane": "source",
@@ -106,12 +86,10 @@
         "abilitiesRequired": [
             "combustion",
             "sound"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 7,
-        "slug": "thermodynamics",
+        "id": "thermodynamics",
         "name": "Thermodynamique",
         "enabled": true,
         "arcane": "source",
@@ -123,12 +101,10 @@
                 "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement faire varier la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier ou vaporiser de l&#39;eau, geler ou br&ucirc;ler des tissus vivants au contact, chauffer &agrave; blanc des pi&egrave;ces m&eacute;talliques, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; I (au choix en gelant ou br&ucirc;lant son adversaire).<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut d&eacute;sarmer un adversaire en chauffant son arme m&eacute;tallique tenue en main.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux br&ucirc;lures.<br \/>\r\nIl poss&egrave;de &eacute;galement une r&eacute;sistance&nbsp;aux gelures.<br \/>\r\nIl peut chauffer &agrave; blanc les extr&eacute;mit&eacute;s de ses armes en m&eacute;tal (&eacute;p&eacute;e, dague, pointes de fl&egrave;che...) leur conf&eacute;rant un bonus d&#39;un degr&eacute; de blessure suppl&eacute;mentaire.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 8,
-        "slug": "mineral-fists",
+        "id": "mineral-fists",
         "name": "Poings d'obsylène",
         "enabled": true,
         "arcane": "life",
@@ -140,50 +116,40 @@
                 "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage sont faites d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; obsyl&egrave;ne.<br \/>\r\nCela lui permet par exemple de combattre &agrave; main nue, de briser des surfaces en bois, de d&eacute;truire des objets ou des &eacute;quipements en m&eacute;tal, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; II.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer au contact contre un adversaire suivit d&#39;un jet d&#39;Imposer contre un &eacute;quipement, il peut le d&eacute;truire.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "mineral-body"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 9,
-        "slug": "psychokinesis",
+        "id": "psychokinesis",
         "name": "Psychokinèse",
         "enabled": true,
         "arcane": "ether",
         "short": "Peut déplacer les objets légers par la pensée",
         "description": "<p>Le personnage peut d&eacute;placer la mati&egrave;re par la pens&eacute;e.<br \/>\r\nCela lui permet par exemple de d&eacute;placer en l&#39;air tout objet non tenu et inanim&eacute; qu&#39;il aurait &eacute;t&eacute; capable de soulever, de forcer un personnage &agrave; s&#39;attaquer lui-m&ecirc;me, de faire l&acirc;cher un &eacute;quipement, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut utiliser l&#39;arme du personnage cibl&eacute; contre lui ou le d&eacute;sarmer.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 11,
-        "slug": "pull",
+        "id": "pull",
         "name": "Attraction",
         "enabled": true,
         "arcane": "ether",
         "short": "Peut attirer des objets à sois",
         "description": "<p>Le personnage peut g&eacute;n&eacute;rer un champ de force attractif centr&eacute; sur lui-m&ecirc;me.<br \/>\r\nCela lui permet par exemple d&#39;attirer &agrave; lui tout objet inanim&eacute; qu&#39;il aurait &eacute;t&eacute; capable de soulever et s&#39;en saisir imm&eacute;diatement, d&#39;emp&ecirc;cher un adversaire de fuir, d&#39;attirer un adversaire vers lui, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut attirer &agrave; lui un objet tenu par un adversaire et le saisir avec une main libre.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut attirer vers lui un adversaire qui se retrouve alors au contact.<br \/>\r\nLes adversaires au contact du joueur doivent d&#39;abord r&eacute;ussir un jet de R&eacute;sister pour pouvoir s&#39;en &eacute;loigner.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 12,
-        "slug": "push",
+        "id": "push",
         "name": "Répulsion",
         "enabled": true,
         "arcane": "ether",
         "short": "Génère un champ de force répulsif",
         "description": "<p>Le personnage peut g&eacute;n&eacute;rer un champ de force r&eacute;pulsif centr&eacute; sur lui-m&ecirc;me.<br \/>\r\nCela lui permet par exemple de se prot&eacute;ger des tirs ennemies, d&#39;amortir les chutes, de repousser un adversaire, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance, il peut renvoyer un projectile qui le vise. S&#39;il r&eacute;ussit, il effectue un nouveau jet d&#39;Attaquer pour toucher l&#39;exp&eacute;diteur.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut propulser un adversaire de force loin de lui.<br \/>\r\nLes adversaires doivent d&#39;abord r&eacute;ussir un jet de R&eacute;sister pour pouvoir approcher au contact du personnage.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 13,
-        "slug": "levitation",
+        "id": "levitation",
         "name": "Lévitation",
         "enabled": true,
         "arcane": "ether",
@@ -195,12 +161,10 @@
                 "description": "<p>Le personnage peut se d&eacute;placer dans les airs &agrave; une vitesse surnaturelle (environ 100 km\/h)&nbsp;sans besoin de concentration particuli&egrave;re.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 14,
-        "slug": "vital-force",
+        "id": "vital-force",
         "name": "Transfert de force vitale",
         "enabled": true,
         "arcane": "life",
@@ -212,12 +176,10 @@
                 "description": "<p>Le personnage est capable de projeter son &eacute;nergie vitale dans un &ecirc;tre vivant.<br \/>\r\nCela lui permet par exemple de gu&eacute;rir les blessures de ses alli&eacute;s, d&#39;inhiber le poison pr&eacute;sent dans la nourriture et l&#39;eau, de redonner vie &agrave; des v&eacute;g&eacute;taux morts, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de R&eacute;sister &agrave; distance contre une blessure, il peut la gu&eacute;rir imm&eacute;diatement (au lieu d&#39;attendre un jour) et retenter une gu&eacute;rison autant de fois qu&#39;il le souhaite.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 15,
-        "slug": "guardian",
+        "id": "guardian",
         "name": "Ange gardien",
         "enabled": true,
         "arcane": "life",
@@ -229,12 +191,10 @@
                 "description": "<p>Le personnage peut projeter une aura protectrice autour d&#39;un allier.<br \/>\r\nChaque tour il peut choisir un alli&eacute; &agrave; distance &agrave; prot&eacute;ger mais cela ne l&#39;emp&ecirc;che pas d&#39;agir en m&ecirc;me temps. Si cet alli&eacute; doit lancer un jet de D&eacute;fendre, il utilise &agrave; la place les scores d&#39;Instinct et de Ma&icirc;trise en R&eacute;sister du personnage. De plus l&#39;alli&eacute; b&eacute;n&eacute;ficie &eacute;galement de tous les bonus li&eacute;s &agrave; la caract&eacute;ristique R&eacute;sister du personnage (&eacute;quipement, capacit&eacute;s arcanique...), exactement comme si c&#39;&eacute;tait le personnage lui-m&ecirc;me qui devait lancer le jet. En cas d&#39;&eacute;chec c&#39;est tout de m&ecirc;me l&#39;alli&eacute; qui re&ccedil;oit la blessure.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 16,
-        "slug": "transform",
+        "id": "transform",
         "name": "Changement de forme",
         "enabled": true,
         "arcane": "life",
@@ -258,12 +218,10 @@
                 "description": "<p>Le personnage est capable de modifier son corps en se transformant rapidement en cinq formes pr&eacute;d&eacute;finies.<br \/>\r\nEn d&eacute;couvrant cette capacit&eacute; le personnage choisit une forme qui doit poss&eacute;der le m&ecirc;me total de points de cr&eacute;ation r&eacute;arrang&eacute;s comme il le souhaite entre score d&#39;Instinct de ses caract&eacute;ristiques et attributs physiques. Il conserve cependant les m&ecirc;mes points de Ma&icirc;trise et les m&ecirc;mes capacit&eacute;s arcaniques.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 17,
-        "slug": "force-field",
+        "id": "force-field",
         "name": "Champ de force",
         "enabled": true,
         "arcane": "ether",
@@ -275,12 +233,10 @@
                 "description": "<p>Le personnage est capable de cr&eacute;er des champs de force ne pouvant &ecirc;tre d&eacute;plac&eacute; et n&#39;&eacute;tant pas soumis &agrave; la gravit&eacute;.<br \/>\r\nCela lui permet par exemple de cr&eacute;er une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.<br \/>\r\nLe personnage peut choisir les personnages et les objets pouvant traverser le champ de force sans r&eacute;sistance.<br \/>\r\nLes individus d&eacute;sirant ignorer le champ de force doivent r&eacute;ussir un jet d&#39;Imposer contre le personnage &agrave; chaque fois qu&#39;ils le traverse ou lancent un projectile au travers.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 18,
-        "slug": "mineral-body",
+        "id": "mineral-body",
         "name": "Corps d'obsylène",
         "enabled": true,
         "arcane": "life",
@@ -289,24 +245,20 @@
         "increases": [],
         "abilitiesRequired": [
             "mineral-fists"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 19,
-        "slug": "necrosis",
+        "id": "necrosis",
         "name": "Contact nécrotique",
         "enabled": true,
         "arcane": "death",
         "short": "Corrompt la vie",
         "description": "<p>Le personnage d&eacute;compose les cellules vivantes au contact.<br \/>\r\nCela lui permet par exemple de d&eacute;composer de la v&eacute;g&eacute;tation, n&eacute;croser ses adversaires, affaiblir des constructions en bois, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; I dont la gravit&eacute; augmente d&#39;un degr&eacute; &agrave; chaque tour jusqu&#39;&agrave; un maximum de degr&eacute; III.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 20,
-        "slug": "vampirisme",
+        "id": "vampirisme",
         "name": "Vampirisme",
         "enabled": true,
         "arcane": "death",
@@ -318,12 +270,10 @@
                 "description": "<p>Le personnage aspire l&#39;&eacute;nergie vitale des &ecirc;tres vivants.<br \/>\r\nCela lui permet par exemple de se soigner au contact d&#39;adversaires ou de petits animaux, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Attaquer au contact, il peut infliger une blessure de degr&eacute; II et gr&acirc;ce &agrave; un jet de R&eacute;sister peut tenter de soigner une de ses blessures.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 21,
-        "slug": "blood-pact",
+        "id": "blood-pact",
         "name": "Pacte de sang",
         "enabled": true,
         "arcane": "death",
@@ -335,12 +285,10 @@
                 "description": "<p>Le personnage est capable de cr&eacute;er un lien maudit entre lui et un adversaire.<\/p>\r\n\r\n<p>Il peut s&#39;infliger une blessure de degr&eacute; I afin d&#39;essayer d&#39;infliger une blessure de degr&eacute; II &agrave; un adversaire &agrave; distance qui minimise alors sont jet de R&eacute;sister.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 22,
-        "slug": "necromancy",
+        "id": "necromancy",
         "name": "Nécromancie",
         "enabled": true,
         "arcane": "death",
@@ -368,24 +316,20 @@
                 "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de mort-vivants dont les FP cumul&eacute;s ne d&eacute;passent pas sept fois son score d&#39;Instinct en R&eacute;sister.<br \/>\r\nUn mort-vivant a ses scores d&rsquo;Imposer et R&eacute;sister au moins &eacute;gaux &agrave; 1 et D&eacute;voiler et Dissimuler toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des attributs physiques tant que les PC utilis&eacute;s sont comptabilis&eacute;s dans leur FP total. Tous les mort-vivants ont l&#39;attribut Perception de la vie de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur FP total.<br \/>\r\nLes morts-vivants ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 23,
-        "slug": "morbid-aura",
+        "id": "morbid-aura",
         "name": "Aura morbide",
         "enabled": true,
         "arcane": "death",
         "short": "Dégage une atmosphère malsaine",
         "description": "<p>Le personnage est constamment entour&eacute; d&#39;un nuage mortel qui d&eacute;truit la v&eacute;g&eacute;tation avoisinante et emp&ecirc;che les autres personnages de se soigner.<\/p>\r\n\r\n<p>Tous les personnages &agrave; distance (except&eacute; les morts-vivants et ceux poss&eacute;dant &eacute;galement Aura morbide) ne peuvent plus &ecirc;tre soign&eacute;s (m&ecirc;me pas par Transfert de force vitale).<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 24,
-        "slug": "phylactery",
+        "id": "phylactery",
         "name": "Phylactère",
         "enabled": true,
         "arcane": "death",
@@ -397,24 +341,20 @@
                 "description": "<p>Le personnage poss&egrave;de un r&eacute;ceptacle particulier dans lequel il choisit de transf&eacute;rer une partie de ses points d&#39;Instinct de R&eacute;sister (il doit en conserver au minimum 1). Le score d&#39;Instinct en r&eacute;sister du r&eacute;cipient est &eacute;gale au double du&nbsp;nombre de points transf&eacute;r&eacute;s par le personnage.<br \/>\r\nIl peut par la suite, tant qu&rsquo;il est en contact avec son phylact&egrave;re, changer comme il le souhaite cette r&eacute;partition. Les points d&#39;Instinct ainsi transf&eacute;r&eacute;s ne sont pas utilisables (ils ne sont plus comptabilis&eacute;s dans les jets de R&eacute;sister du personnage). Si le phylact&egrave;re est d&eacute;truit, les points de R&eacute;sister sont alors perdus &agrave; jamais.<\/p>\r\n\r\n<p>A chaque fois qu&rsquo;il re&ccedil;oit une blessure, le personnage peut lancer un jet de R&eacute;sister suppl&eacute;mentaire avec le score de R&eacute;sister de son phylact&egrave;re pour tenter directement de la gu&eacute;rir. Cela fonctionne quelque soit la distance entre le personnage et le phylact&egrave;re.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 25,
-        "slug": "life-perception",
+        "id": "life-perception",
         "name": "Perception de la vie",
         "enabled": true,
         "arcane": "spirit",
         "short": "A conscience des formes de vies qui l'entourent",
         "description": "<p>Le personnage a conscience de l&rsquo;existence des formes de vies alentours (v&eacute;g&eacute;tales et animales).<br \/>\r\nCela lui permet par exemple de se rep&eacute;rer sans lumi&egrave;re, percevoir les personnages invisibles, de localiser de la v&eacute;g&eacute;tation, etc.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 26,
-        "slug": "vision",
+        "id": "vision",
         "name": "Vision",
         "enabled": true,
         "arcane": "web",
@@ -430,27 +370,20 @@
                 "description": "<p>Le personnage est capable de faire des r&ecirc;ves extralucides sur commande.<br \/>\r\nCela lui permet par exemple d&#39;avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions, au choix, pr&eacute;sentes, pass&eacute;es ou futures de personnages ayant tenu l&#39;objet ou ayant &eacute;t&eacute; en contact avec le personnage en question, etc.<\/p>\r\n\r\n<p>Avant de s&rsquo;endormir le personnage peut d&eacute;cider d&rsquo;utiliser cette capacit&eacute; pour faire un r&ecirc;ve extralucide lui d&eacute;voilant des informations sur le pr&eacute;sent, le pass&eacute; ou le futur d&rsquo;un personnage, d&rsquo;un lieu, d&rsquo;un animal de son choix &agrave; distance.<br \/>\r\nIl doit pour cela r&eacute;ussir un jet de D&eacute;voiler oppos&eacute; &agrave; un jet de Dissimuler de la cible en question.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 27,
-        "slug": "anticipation",
+        "id": "anticipation",
         "name": "Anticipation",
         "enabled": true,
         "arcane": "web",
         "short": "Peut prévoir un événement imminent",
         "description": "<p>Le personnage voit en permanence une fraction de seconde dans le futur.<br \/>\r\nCela lui permet par exemple de pressentir un danger imminent, un choix d&eacute;sastreux, le coup d&#39;un adversaire, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de D&eacute;voiler contre un personnage, il peut maximiser son prochain jet oppos&eacute; contre l&#39;adversaire cibl&eacute;.<br \/>\r\nPour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#39;&agrave; effectuer le jet.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "fast-forward",
-            "slow-motion"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 28,
-        "slug": "fast-forward",
+        "id": "fast-forward",
         "name": "Accélération du temps",
         "enabled": true,
         "arcane": "web",
@@ -459,12 +392,10 @@
         "increases": [],
         "abilitiesRequired": [
             "anticipation"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 29,
-        "slug": "slow-motion",
+        "id": "slow-motion",
         "name": "Ralentissement du temps",
         "enabled": true,
         "arcane": "web",
@@ -473,27 +404,20 @@
         "increases": [],
         "abilitiesRequired": [
             "anticipation"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 30,
-        "slug": "tracking",
+        "id": "tracking",
         "name": "Localisation",
         "enabled": true,
         "arcane": "web",
         "short": "Connaît l'emplacement de tout ce avec quoi il a été en contact",
         "description": "<p>Le personnage garde un lien fort avec tout ce avec quoi il est entr&eacute; en contact au moins une fois.<br \/>\r\nCela lui permet par exemple de pouvoir s&#39;orienter en permanence, de localiser pr&eacute;cis&eacute;ment la source d&#39;un son qu&#39;il per&ccedil;oit, de localiser un objet ou un &ecirc;tre vivant, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de D&eacute;voiler, il peut localiser un objet ou un &ecirc;tre vivant avec lequel il a d&eacute;j&agrave; &eacute;t&eacute; en contact (physique ou visuel). En cas de succ&egrave;s, il conna&icirc;t la direction (&agrave; vol d&rsquo;oiseau), le sens et la distance &agrave; laquelle se situe la cible. En cas d&rsquo;&eacute;chec, le lien est perdu jusqu&rsquo;au prochain contact physique.<br \/>\r\nGr&acirc;ce &agrave; un jet de D&eacute;voiler &agrave; distance, il peut cr&eacute;er un lien de localisation avec un adversaire en visuel comme si il avait d&eacute;j&agrave; &eacute;t&eacute; en contact avec lui.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "teleport",
-            "telepathy"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 31,
-        "slug": "teleport",
+        "id": "teleport",
         "name": "Téléportation",
         "enabled": true,
         "arcane": "web",
@@ -502,24 +426,20 @@
         "increases": [],
         "abilitiesRequired": [
             "tracking"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 32,
-        "slug": "velocity",
+        "id": "velocity",
         "name": "Vélocité",
         "enabled": true,
         "arcane": "ether",
         "short": "Se déplace à une vitesse surnaturelle",
         "description": "<p>Le personnage utilise sa ma&icirc;trise de l&#39;arcane cin&eacute;tique afin d&rsquo;acc&eacute;l&eacute;rer grandement ses mouvements.<br \/>\r\nCela lui permet par exemple de toujours &ecirc;tre le plus prompt &agrave; r&eacute;agir, de courir &agrave; une vitesse surnaturelle (environ 100 km\/h), etc.<br \/>\r\nCela ne lui permet cependent pas de combattre ou r&eacute;aliser des actions particuli&egrave;res plus rapidement, seul&nbsp;son d&eacute;placement est acc&eacute;l&eacute;r&eacute;.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 33,
-        "slug": "duplication",
+        "id": "duplication",
         "name": "Dédoublement",
         "enabled": true,
         "arcane": "life",
@@ -531,12 +451,10 @@
                 "description": "<p>Le personnage peut cr&eacute;er des doubles de lui-m&ecirc;me en utilisant ses points d&#39;Instinct personnels (un double doit poss&eacute;der au minimum 1 point d&#39;Instinct dans chaque caract&eacute;ristique). Chaque double cr&eacute;&eacute; poss&egrave;de un point gratuit dans deux caract&eacute;ristiques au choix du personnage ce qui lui permet de ne cr&eacute;er un clone qu&#39;avec seulement 2 de ses points de caract&eacute;ristique. Les points ainsi transf&eacute;r&eacute;s sont inutilisables par le personnage original.<br \/>\r\nLes doubles poss&egrave;dent tous les &eacute;quipements et capacit&eacute;s du personnage ainsi que ses points de ma&icirc;trise. Les &eacute;quipements disparaissent une fois l&acirc;ch&eacute;s ou le double d&eacute;truit. Le personnage n&#39;a pas conscience de ce que ses doubles per&ccedil;oivent jusqu&#39;&agrave; ce qu&#39;ils soient d&eacute;truits, &agrave; ce moment il acqui&egrave;re tous leurs souvenirs.<br \/>\r\nLes doubles ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre blessure de degr&eacute; I suffit &agrave; le d&eacute;truire compl&egrave;tement. La blessure est alors directement transf&eacute;r&eacute;e sur le personnage. Une fois un double d&eacute;truit, le personnage r&eacute;cup&egrave;re ses points de caract&eacute;ristiques.<br \/>\r\nSi le personnage original devait mourir, il peut alors transf&eacute;rer son &acirc;me dans un de ses doubles qui r&eacute;cup&egrave;re alors les points d&#39;Instinct du personnage d&eacute;c&eacute;d&eacute; ainsi que la derni&egrave;re blessure qui lui a &eacute;t&eacute; inflig&eacute;e.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 34,
-        "slug": "telepathy",
+        "id": "telepathy",
         "name": "Télépathie",
         "enabled": true,
         "arcane": "spirit",
@@ -545,36 +463,30 @@
         "increases": [],
         "abilitiesRequired": [
             "tracking"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 35,
-        "slug": "pooling",
+        "id": "pooling",
         "name": "Partage d'expérience",
         "enabled": true,
         "arcane": "spirit",
         "short": "Chaque membre utilise la maîtrise du meilleur élément de l'équipe",
         "description": "<p>Le personnage choisit des personnages &agrave; distance qui doivent &ecirc;tre consentants et forment alors un groupe li&eacute; spirituelment.<br \/>\r\nChaque personnage li&eacute;&nbsp;ainsi utilise pour chacune de ses caract&eacute;ristiques le score de Ma&icirc;trise du membre du groupe&nbsp;poss&eacute;dant le meilleur score.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 36,
-        "slug": "confessions",
+        "id": "confessions",
         "name": "Confidence",
         "enabled": true,
         "arcane": "vice",
         "short": "Peut forcer une cible à ne dire que la vérité",
         "description": "<p>Le personnage peut se rendre dans l&#39;esprit d&#39;un individu et le forcer &agrave; r&eacute;pondre &agrave; une question sans mentir.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de D&eacute;voiler &agrave; distance le personnage peut s&#39;insinuer dans l&#39;esprit de sa cible et lui poser une question &agrave; voix haute &agrave; laquelle elle devra r&eacute;pondre le plus honn&ecirc;tement possible. En cas d&rsquo;&eacute;chec au jet, la cible se rend compte de la tentative d&#39;intrusion et ne peut plus &ecirc;tre interrog&eacute;e tant qu&#39;elle reste sur ses gardes.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 37,
-        "slug": "familiar",
+        "id": "familiar",
         "name": "Familier",
         "enabled": true,
         "arcane": "spirit",
@@ -590,55 +502,39 @@
                 "description": "<p>Le personnage choisit un animal avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal. Pendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nSi le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale. Le Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au triple du score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 38,
-        "slug": "invocation",
+        "id": "invocation",
         "name": "Invocation",
         "enabled": true,
         "arcane": "spirit",
-        "short": "Peut donner vie à un souvenir d'une créature rencontrée",
-        "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur au triple du score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>",
+        "short": "Peut donner vie à une créature",
+        "description": "<p>Le personnage peut rendre mat&eacute;riel une cr&eacute;ature qu&#39;il est capable d&#39;imaginer.<br \/>\r\nCela lui permet d&#39;invoquer un&nbsp;ou plusieurs animaux ou ab&eacute;rations sans capacit&eacute;s arcaniques.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur au double du score d&#39;Instinct de D&eacute;voiler du personnage. Le personnage peut choisir les points d&#39;Instinct de caract&eacute;ristique avec un minimum de 1 partout ainsi que des attributs physiques. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement, s&eacute;vaporant alors imm&eacute;diatement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>",
         "increases": [
             {
+                "short": "Peut invoquer trois fois son score de Dévoiler",
+                "description": "<p>Le personnage peut rendre mat&eacute;riel une cr&eacute;ature qu&#39;il est capable d&#39;imaginer.<br \/>\r\nCela lui permet d&#39;invoquer un&nbsp;ou plusieurs animaux ou ab&eacute;rations sans capacit&eacute;s arcaniques.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur au triple du score d&#39;Instinct de D&eacute;voiler du personnage. Le personnage peut choisir les points d&#39;Instinct de caract&eacute;ristique avec un minimum de 1 partout ainsi que des attributs physiques. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement, s&eacute;vaporant alors imm&eacute;diatement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
+            },
+            {
                 "short": "Peut invoquer quatre fois son score de Dévoiler",
-                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; quatre fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
-            },
-            {
-                "short": "Peut invoquer cinq fois son score de Dévoiler",
-                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; cinq&nbsp;fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
-            },
-            {
-                "short": "Peut invoquer six fois son score de Dévoiler",
-                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; six fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
-            },
-            {
-                "short": "Peut invoquer sept fois son score de Dévoiler",
-                "description": "<p>Le personnage peut cr&eacute;er des copies de&nbsp;cr&eacute;atures qu&#39;il a d&eacute;j&agrave; rencontr&eacute;es dans le pass&eacute;.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; sept fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
+                "description": "<p>Le personnage peut rendre mat&eacute;riel une cr&eacute;ature qu&#39;il est capable d&#39;imaginer.<br \/>\r\nCela lui permet d&#39;invoquer un&nbsp;ou plusieurs animaux ou ab&eacute;rations sans capacit&eacute;s arcaniques.<br \/>\r\nLe&nbsp;FP cumul&eacute;&nbsp;des&nbsp;cr&eacute;atures invoqu&eacute;es ne doit pas &ecirc;tre sup&eacute;rieur &agrave; quatre fois le&nbsp;score d&#39;Instinct de D&eacute;voiler du personnage. Le personnage peut choisir les points d&#39;Instinct de caract&eacute;ristique avec un minimum de 1 partout ainsi que des attributs physiques. La cr&eacute;ature invoqu&eacute;e ne peut pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truite. La moindre blessure de degr&eacute; I suffit &agrave; la d&eacute;truire compl&egrave;tement, s&eacute;vaporant alors imm&eacute;diatement.<br \/>\r\nS&#39;il s&#39;agit d&#39;une cr&eacute;ature intelligente comme un humain par exemple, elle&nbsp;est alors invoqu&eacute;e nue, sans &eacute;quipement et sans capacit&eacute; de communiquer, seulement&nbsp;comprendre et ex&eacute;cuter des ordres simples.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 40,
-        "slug": "ghost-walk",
+        "id": "ghost-walk",
         "name": "Marche fantomatique",
         "enabled": true,
         "arcane": "veil",
         "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
         "description": "<p>Le personnage ne fait aucun bruit de pas ni d&rsquo;&eacute;quipement lorsqu&rsquo;il se d&eacute;place.<br \/>\r\nIl ne laisse aucun trace permettant de le pister (en for&ecirc;t, dans la neige, dans le sable...).<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "invisibility"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 41,
-        "slug": "invisibility",
+        "id": "invisibility",
         "name": "Invisibilité",
         "enabled": true,
         "arcane": "veil",
@@ -647,24 +543,20 @@
         "increases": [],
         "abilitiesRequired": [
             "ghost-walk"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 42,
-        "slug": "identity-theft",
+        "id": "identity-theft",
         "name": "Usurpation d'identité",
         "enabled": true,
         "arcane": "veil",
         "short": "Peut modeler son apparence pour se faire passer pour quelqu’un d’autre",
         "description": "<p>Le personnage est capable de simuler &agrave; la perfection les traits, les mimiques, la voix, etc. d&rsquo;une personne dont il a eu l&rsquo;occasion de percevoir ces informations (voir, entendre, toucher...).<br \/>\r\nAucun jet n&rsquo;est requis, le joueur imite &agrave; la perfection les traits dont il a connaissance mais cela n&#39;emp&ecirc;che pas un ennemie d&rsquo;avoir un doute en fonction de son comportement ou autre d&eacute;tail, dans ce cas l&#39;adversaire peut tenter un jet de D&eacute;voiler pour d&eacute;couvrir la supercherie.<br \/>\r\nLa cible de l&rsquo;usurpation d&rsquo;identit&eacute; doit &ecirc;tre de la m&ecirc;me esp&egrave;ce que le joueur ou une esp&egrave;ce proche.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 43,
-        "slug": "misleading-appearance",
+        "id": "misleading-appearance",
         "name": "Apparence trompeuse",
         "enabled": true,
         "arcane": "veil",
@@ -676,12 +568,10 @@
                 "description": "<p>Le personnage est capable de projeter une aura immat&eacute;rielle autour de lui.<br \/>\r\nCela lui permet de se faire passer pour n&#39;importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L&#39;illusion suit le personnage o&ugrave; qu&#39;il aille, elle peut &ecirc;tre active pour simuler la respiration ou les mouvements d&#39;&ecirc;tres vivants.<br \/>\r\nIl peut &eacute;galement simuler des sons simples comme de la respiration, des grognements, des pas, etc. mais pas de paroles ou de musiques.<\/p>\r\n\r\n<p>Un personnage ayant un doute et r&eacute;ussissant un jet de D&eacute;voiler ou un personnage entrant en contact avec l&#39;illusion peut le voir tel qu&#39;il est vraiment (il a alors conscience de la tentative de supercherie).<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 44,
-        "slug": "lure",
+        "id": "lure",
         "name": "Leurres",
         "enabled": true,
         "arcane": "veil",
@@ -697,12 +587,10 @@
                 "description": "<p>Le personnage peut cr&eacute;er des doubles illusoires de lui-m&ecirc;me.<br \/>\r\nIl peut en invoquer jusqu&rsquo;&agrave; un maximum &eacute;gale au triple de son score d&#39;Instinct en Dissimuler et peut les invoquer trois par trois. Les doubles agissent exactement comme le d&eacute;sire le personnage mais sont incapables d&rsquo;interagir avec le monde mat&eacute;riel.<\/p>\r\n\r\n<p>Un adversaire doit r&eacute;ussir un jet de D&eacute;voiler sur chaque double individuellement pour d&eacute;celer la supercherie. Les doubles ne peuvent pas s&rsquo;&eacute;loigner trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. Le moindre contact le transper&ccedil;ant suffit &agrave; le d&eacute;truire compl&egrave;tement.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 45,
-        "slug": "illusion",
+        "id": "illusion",
         "name": "Illusion",
         "enabled": true,
         "arcane": "veil",
@@ -718,12 +606,10 @@
                 "description": "<p>Le personnage peut cr&eacute;er un objet inanim&eacute; immat&eacute;riel.<br \/>\r\nCela lui permet par exemple de cr&eacute;er une construction de grande taille (comme un manoir, un navire...), une arm&eacute;e, etc.<br \/>\r\nL&rsquo;illusion cr&eacute;&eacute;e est immobile et immat&eacute;rielle. L&rsquo;illusion persiste sans limite de port&eacute;e. Un personnage passant &agrave; c&ocirc;t&eacute; doit r&eacute;ussir un jet de D&eacute;voiler pour remarquer la supercherie, il peut &eacute;galement passer &agrave; travers &agrave; tout moment sans pour autant la d&eacute;truire. Il ne peut maintenir que trois illusions &agrave; la fois.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 46,
-        "slug": "distraction",
+        "id": "distraction",
         "name": "Distraction",
         "enabled": true,
         "arcane": "vice",
@@ -735,14 +621,10 @@
                 "description": "<p>Le personnage peut semer le doute dans un esprit.<br \/>\r\nCela lui permet par exemple de pouvoir d&eacute;tourner l&#39;attention d&#39;une cible pendant un instant, d&#39;affaiblir un esprit &agrave; corrompre, de blesser &agrave; distance, etc. La cible n&#39;est alors pas consciente de l&#39;origine de l&#39;agression.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut distraire une cible qui minimisera alors automatiquement son prochain jet de D&eacute;voiler. Il peut alors &eacute;galement choisir d&#39;infliger une blessure de degr&eacute; I.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": [
-            "betrayal"
-        ]
+        "abilitiesRequired": []
     },
     {
-        "id": 47,
-        "slug": "betrayal",
+        "id": "betrayal",
         "name": "Trahison",
         "enabled": true,
         "arcane": "vice",
@@ -751,36 +633,30 @@
         "increases": [],
         "abilitiesRequired": [
             "distraction"
-        ],
-        "abilitiesUnlocked": []
+        ]
     },
     {
-        "id": 48,
-        "slug": "persuasion",
+        "id": "persuasion",
         "name": "Persuasion",
         "enabled": true,
         "arcane": "vice",
         "short": "Peut faire croire à des mensonges peu vraisemblables",
         "description": "<p>Le personnage persuade sa cible de la v&eacute;racit&eacute; de ce qu&#39;il dit.<br \/>\r\nIl maximise automatiquement tous ses jets de Dissimuler pour les mensonges plausibles et il peut m&ecirc;me tenter de faire croire &agrave; des &eacute;normit&eacute;s.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut tenter de faire croire un mensonge particuli&egrave;rement peu vraisemblable.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 49,
-        "slug": "pacifism",
+        "id": "pacifism",
         "name": "Pacifisme",
         "enabled": true,
         "arcane": "vice",
         "short": "Sait se rendre amicale instantanément",
         "description": "<p>Le personnage peut modifier le comportement des &ecirc;tres vivants &agrave; son &eacute;gard.<br \/>\r\nCela lui permet par exemple de faire oublier ses actions belliqueuses &agrave; un adversaire, dresser un animale sauvage, obtenir la coop&eacute;ration d&#39;un personnage, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut faire en sorte que la cible ne le consid&egrave;re plus comme un ennemi jusqu&#39;&agrave; la prochaine action agressive qu&#39;il entreprend.<\/p>",
         "increases": [],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     },
     {
-        "id": 54,
-        "slug": "memory-leak",
+        "id": "memory-leak",
         "name": "Manipulation de mémoire",
         "enabled": true,
         "arcane": "vice",
@@ -792,7 +668,6 @@
                 "description": "<p>Le personnage peut ins&eacute;rer un nouveau souvenir ou en supprimer un ancien dans l&#39;esprit d&#39;une cible.<br \/>\r\nCela lui permet par exemple de faire croire &agrave; la cible qu&#39;elle a d&eacute;j&agrave; rencontr&eacute; le personnage, qu&#39;il lui a d&eacute;j&agrave; sauv&eacute; la vie dans le pass&eacute;, qu&#39;elle a commis un acte r&eacute;pr&eacute;hensible, lui faire oublier une action du personnage &agrave; son &eacute;gare, etc. En cas d&#39;&eacute;chec, la cible se rend compte de la tentative de manipulation et de son origine.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler au contact, il peut cr&eacute;er ou supprimer un souvenir qui doit &ecirc;tre court (quelques secondes tout au plus) et l&#39;ins&eacute;rer dans l&#39;esprit d&#39;un personnage ou d&#39;un animal.<\/p>"
             }
         ],
-        "abilitiesRequired": [],
-        "abilitiesUnlocked": []
+        "abilitiesRequired": []
     }
 ]

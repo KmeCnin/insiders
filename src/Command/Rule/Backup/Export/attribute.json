@@ -6,7 +6,7 @@
         "enabled": true,
         "pc": 1,
         "short": "Inflige une blessure de degré I au contact",
-        "description": "Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires. \r\nIl se peut aussi que le personnage soit tout simplement un expert en art martial capable de viser des points létaux.\r\nDans tous les cas, le personnage est capable d’infliger des blessures de degré I au contact en réussissant un jet d’Imposer."
+        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nIl se peut aussi que le personnage soit tout simplement un expert en art martial capable de viser des points l&eacute;taux.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; I au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "enabled": true,
         "pc": 2,
         "short": "Inflige une blessure de degré II au contact",
-        "description": "Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires. \r\nDans tous les cas, le personnage est capable d’infliger des blessures de degré II au contact en réussissant un jet d’Imposer."
+        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; II au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "enabled": true,
         "pc": 4,
         "short": "Inflige une blessure de degré III au contact",
-        "description": "Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires.\r\nDans tous les cas, le personnage est capable d’infliger des blessures de degré III au contact en réussissant un jet d’Imposer."
+        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; III au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
     },
     {
         "id": 4,
@@ -33,6 +33,15 @@
         "enabled": true,
         "pc": 2,
         "short": "Peut se déplacer dans les airs",
-        "description": "Le personnage possède une grande paire d'ailes.\r\n\r\nIl peut se déplacer dans les airs à sa vitesse de déplacement habituelle."
+        "description": "<p>Le personnage poss&egrave;de une grande paire d&#39;ailes. Il peut se d&eacute;placer dans les airs &agrave; sa vitesse de d&eacute;placement habituelle.<\/p>"
+    },
+    {
+        "id": 5,
+        "slug": "hunter",
+        "name": "Pisteur",
+        "enabled": true,
+        "pc": 1,
+        "short": "Possède un odorat et une ouïe sur-développés",
+        "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception des odeurs et des sons.<br \/>\r\nCela lui permet d&#39;utiliser un bonus de 3 points d&#39;Inctinct lorsqu&#39;il lance un jet de D&eacute;voiler dans le but de percevoir une odeur ou un son.<\/p>"
     }
 ]

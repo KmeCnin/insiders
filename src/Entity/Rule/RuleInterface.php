@@ -4,9 +4,9 @@ namespace App\Entity\Rule;
 
 interface RuleInterface
 {
-    public function getId(): ?int;
+    public function getId(): ?string;
 
-    public function setId(int $id);
+    public function setId(string $id);
 
     public function getSlug(): ?string;
 

@@ -29,12 +29,6 @@ class StuffType extends AbstractEntityType
             ->add('name', TextType::class)
             ->add('kind', EntityType::class, [
                 'class' => StuffKind::class,
-                'choice_value' => function ($kind) {
-                    if (!$kind instanceof StuffKind) {
-                        return null;
-                    }
-                    return $kind->getSlug();
-                }
             ])
             ->add('expendable', CheckboxType::class)
             ->add('effectiveness', IntegerType::class)
@@ -42,12 +36,6 @@ class StuffType extends AbstractEntityType
                 'class' => StuffProperty::class,
                 'multiple' => true,
                 'expanded' => true,
-                'choice_value' => function ($property) {
-                    if (!$property instanceof StuffProperty) {
-                        return null;
-                    }
-                    return $property->getSlug();
-                }
             ])
         ;
     }
