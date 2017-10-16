@@ -15,8 +15,7 @@ class AbstractRuleType extends AbstractEntityType
         parent::buildForm($builder, $options);
 
         $builder
-            ->add('id', IntegerType::class)
-            ->add('slug', TextType::class)
+            ->add('id', TextType::class)
             ->add('name', TextType::class)
             ->add('enabled', CheckboxType::class)
         ;

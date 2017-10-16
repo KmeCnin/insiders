@@ -1,7 +1,6 @@
 [
     {
-        "id": 1,
-        "slug": "wound-I",
+        "id": "wound-I",
         "name": "Blessure de degré I",
         "enabled": true,
         "pc": 1,
@@ -9,8 +8,7 @@
         "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nIl se peut aussi que le personnage soit tout simplement un expert en art martial capable de viser des points l&eacute;taux.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; I au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
     },
     {
-        "id": 2,
-        "slug": "wound-II",
+        "id": "wound-II",
         "name": "Blessure de degré II",
         "enabled": true,
         "pc": 2,
@@ -18,8 +16,7 @@
         "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; II au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
     },
     {
-        "id": 3,
-        "slug": "wound-III",
+        "id": "wound-III",
         "name": "Blessure de degré III",
         "enabled": true,
         "pc": 4,
@@ -27,8 +24,7 @@
         "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; III au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
     },
     {
-        "id": 4,
-        "slug": "wings",
+        "id": "wings",
         "name": "Ailes",
         "enabled": true,
         "pc": 2,
@@ -36,8 +32,7 @@
         "description": "<p>Le personnage poss&egrave;de une grande paire d&#39;ailes. Il peut se d&eacute;placer dans les airs &agrave; sa vitesse de d&eacute;placement habituelle.<\/p>"
     },
     {
-        "id": 5,
-        "slug": "hunter",
+        "id": "hunter",
         "name": "Pisteur",
         "enabled": true,
         "pc": 1,

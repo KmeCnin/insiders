@@ -78,7 +78,7 @@ class Burst extends AbstractRule
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
-            'arcane' => $this->getArcane()->getSlug(),
+            'arcane' => $this->getArcane()->getId(),
             'short' => $this->getShort(),
             'description' => $this->getDescription(),
         ]);

@@ -70,6 +70,7 @@ class Deity extends AbstractRule
     public function setChampion(?Champion $champion): self
     {
         $this->champion = $champion;
+        $champion->setDeity($this);
 
         return $this;
     }
@@ -90,9 +91,9 @@ class Deity extends AbstractRule
     {
         return array_merge(parent::normalize(), [
             'dignity' => $this->getDignity(),
-            'arcane' => $this->getArcane()->getSlug(),
+            'arcane' => $this->getArcane()->getId(),
             'champion' => $this->getChampion()
-                ? $this->getChampion()->getSlug()
+                ? $this->getChampion()->getId()
                 : null,
             'description' => $this->getDescription(),
         ]);

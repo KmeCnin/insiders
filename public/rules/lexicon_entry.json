@@ -1,39 +1,34 @@
 [
     {
-        "id": 1,
-        "slug": "arcane",
+        "id": "arcane",
         "name": "Arcane",
         "enabled": true,
         "short": "Aspect de la réalité accessible uniquement à certains initiés",
         "description": "<p>Les initi&eacute;s sont capables d&#39;absorber l&#39;&eacute;nergie des cristaux d&#39;arcanite pour d&eacute;bloquer une sensibilit&eacute; particuli&egrave;re &agrave; des aspects de la r&eacute;alit&eacute;s appel&eacute;s <strong>arcanes<\/strong>. Un initi&eacute; ayant d&eacute;bloqu&eacute; un arcane sp&eacute;cifique acqui&egrave;re alors une compr&eacute;hension singuli&egrave;re de cette facette de la r&eacute;alit&eacute; lui permettant de d&eacute;bloquer par la suite des capacit&eacute;s arcaniques surnaturelles.<\/p>"
     },
     {
-        "id": 2,
-        "slug": "ability",
+        "id": "ability",
         "name": "Capacité arcanique",
         "enabled": true,
         "short": "Pouvoir surnaturel conféré par l'absorption d'un cristal d'arcanite",
         "description": "<p>Un initi&eacute; ou une aberration ma&icirc;trisant un arcane particulier est capable d&#39;acqu&eacute;rir des <strong>capacit&eacute;s arcaniques<\/strong>&nbsp;li&eacute;es &agrave; ce dernier lui conf&eacute;rant alors des pouvoirs surnaturels.<\/p>"
     },
     {
-        "id": 3,
-        "slug": "attribute",
+        "id": "attribute",
         "name": "Attribut physique",
         "enabled": true,
         "short": "Mutation physique extraordinaire causée par l'absorption d'un cristal d'arcanite",
         "description": "<p>Un initi&eacute; ou une aberration absorbant la puissance d&#39;un cristal d&#39;arcanite peut d&eacute;velopper des mutations physiques extraordinaires appel&eacute;es <strong>attributs physiques<\/strong>.<\/p>"
     },
     {
-        "id": 4,
-        "slug": "burst",
+        "id": "burst",
         "name": "Décharge d'arcanite",
         "enabled": true,
         "short": "Effet spectaculaire déclenché par la libération d'une charge de cristal d'arcanite",
         "description": "<p>Un initi&eacute; en possession d&#39;un cristal d&#39;arcanite peut d&eacute;cider de d&eacute;penser une charge pour r&eacute;aliser une action particuli&egrave;rement puissante appel&eacute;e <strong>d&eacute;charge d&#39;arcanite<\/strong>. L&#39;initi&eacute; doit pour cela avoir pr&eacute;alablement d&eacute;bloqu&eacute; l&#39;arcane correspondant. La charge ainsi d&eacute;pens&eacute;e est perdue &agrave; jamais.<\/p>"
     },
     {
-        "id": 5,
-        "slug": "deity",
+        "id": "deity",
         "name": "Divinité arcanique",
         "enabled": true,
         "short": "Etre tout-puissant résidant au sein de l'Elyseum",

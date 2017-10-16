@@ -25,15 +25,6 @@ class ChampionType extends AbstractRuleType
 
         $builder
             ->add('dignity', TextType::class)
-            ->add('deity', EntityType::class, [
-                'class' => Deity::class,
-                'choice_value' => function ($deity) {
-                    if (!$deity instanceof Deity) {
-                        return null;
-                    }
-                    return $deity->getSlug();
-                }
-            ])
             ->add('description', TextareaType::class)
         ;
     }

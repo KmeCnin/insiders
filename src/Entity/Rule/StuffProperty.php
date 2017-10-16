@@ -126,9 +126,9 @@ class StuffProperty extends AbstractRule
         return array_merge(parent::normalize(), [
             'fp' => $this->getFp(),
             'short' => $this->getShort(),
-            'kind' => $this->getKind()->getSlug(),
+            'kind' => $this->getKind()->getId(),
             'stuffKinds' => array_map(function (StuffKind $kind) {
-                return $kind->getSlug();
+                return $kind->getId();
             }, iterator_to_array($this->getStuffKinds())),
         ]);
     }
