@@ -1,34 +1,7 @@
 [
     {
-        "id": 1,
-        "slug": "disaster",
-        "name": "Fléau",
-        "enabled": true,
-        "arcane": "source",
-        "short": "Invoque un désastre naturel de grande ampleur",
-        "description": "<p>Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magn&eacute;tude, un raz-de-mar&eacute;e (si une grande &eacute;tendue d&#39;eau est &agrave; proximit&eacute;), une tornade, une explosion volcanique, etc.<br \/>\r\nLe ph&eacute;nom&egrave;ne dure pendant quelques minutes, d&eacute;truit les constructions en toile ou en bois et endomage s&eacute;rieusement les constructions en pierre sur une zone de 1 km de diam&egrave;tre.<\/p>"
-    },
-    {
-        "id": 2,
-        "slug": "ascent",
-        "name": "Ascension",
-        "enabled": true,
-        "arcane": "ether",
-        "short": "Élève une structure imposante dans les airs",
-        "description": "<p>Permet de faire l&eacute;viter de mani&egrave;re permanente une demi-sph&egrave;re de terrain d&#39;un diam&egrave;tre maximum de 1 km pouvant supporter un ch&acirc;teau, un petit village, etc. &agrave; une hauteur allant jusqu&#39;&agrave; 500 m&egrave;tres d&#39;altitude.<br \/>\r\nLes limites de la parcelle de terrain concern&eacute;e ne peuvent couper un &ecirc;tre vivant ou un b&acirc;timent en deux.<\/p>"
-    },
-    {
-        "id": 3,
-        "slug": "resurrect",
-        "name": "Résurrection",
-        "enabled": true,
-        "arcane": "life",
-        "short": "Ressuscite un personnage décédé",
-        "description": "<p>Ram&egrave;ne &agrave; la vie un personnage ou un animal mort. Pour que cela fonctionne tous les membres de la cible doivent &ecirc;tre pr&eacute;sents et bien plac&eacute;s, les membres amput&eacute;s pourront alors &ecirc;tre ressoud&eacute;s.<br \/>\r\nLa cible doit &eacute;galement ne pas &ecirc;tre en &eacute;tat de d&eacute;composition trop avanc&eacute;. La cible est alors r&eacute;anim&eacute;e, ses blessures soign&eacute;es et ses souvenirs ante-mortem conserv&eacute;s.<\/p>"
-    },
-    {
-        "id": 4,
-        "slug": "animate",
+        "id": "animate",
+        "slug": "animation",
         "name": "Animation",
         "enabled": true,
         "arcane": "death",
@@ -36,16 +9,34 @@
         "description": "<p>Peut r&eacute;animer un personnage ou un animal sous forme de mort-vivant. La cible est alors r&eacute;anim&eacute;e, ses blessures soign&eacute;es et ses souvenirs ante-mortem conserv&eacute;s. Mais les membres amput&eacute;s ne sont pas ressoud&eacute;s et l&#39;&eacute;tat de d&eacute;composition du cadavre reste le m&ecirc;me.<br \/>\r\nSi le FP de la cible est au moins inf&eacute;rieur de 5 points &agrave; celui de l&#39;initi&eacute; la r&eacute;animant, elle devient alors un serviteur inconditionnel du personnage ex&eacute;cutant alors le moindre de ses ordres au mieux de ses capacit&eacute;s sans jamais les discuter. Dans le cas contraire, la cible conserve son libre arbitre et pourrait tr&egrave;s bien se retourner contre le personnage si elle le d&eacute;sire. Avant de lancer le rituel, le personnage sait si sa cible pourra &ecirc;tre contr&ocirc;l&eacute;e ou non.<\/p>"
     },
     {
-        "id": 5,
-        "slug": "retry",
-        "name": "Seconde chance",
+        "id": "ascent",
+        "slug": "ascension",
+        "name": "Ascension",
         "enabled": true,
-        "arcane": "web",
-        "short": "Reviens quelques instants dans le passé",
-        "description": "<p>L&#39;initi&eacute; effectue un bon dans le pass&eacute; d&#39;environ 5 minutes. Tous les &eacute;v&eacute;nements ayant eu lieu dans cet interval de temps sont annul&eacute;s mais l&#39;initi&eacute; est le seul &agrave; en conserve tout de m&ecirc;me un souvenir.<\/p>"
+        "arcane": "ether",
+        "short": "Élève une structure imposante dans les airs",
+        "description": "<p>Permet de faire l&eacute;viter de mani&egrave;re permanente une demi-sph&egrave;re de terrain d&#39;un diam&egrave;tre maximum de 1 km pouvant supporter un ch&acirc;teau, un petit village, etc. &agrave; une hauteur allant jusqu&#39;&agrave; 500 m&egrave;tres d&#39;altitude.<br \/>\r\nLes limites de la parcelle de terrain concern&eacute;e ne peuvent couper un &ecirc;tre vivant ou un b&acirc;timent en deux.<\/p>"
     },
     {
-        "id": 6,
+        "id": "disaster",
+        "slug": "fleau",
+        "name": "Fléau",
+        "enabled": true,
+        "arcane": "source",
+        "short": "Invoque un désastre naturel de grande ampleur",
+        "description": "<p>Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magn&eacute;tude, un raz-de-mar&eacute;e (si une grande &eacute;tendue d&#39;eau est &agrave; proximit&eacute;), une tornade, une explosion volcanique, etc.<br \/>\r\nLe ph&eacute;nom&egrave;ne dure pendant quelques minutes, d&eacute;truit les constructions en toile ou en bois et endomage s&eacute;rieusement les constructions en pierre sur une zone de 1 km de diam&egrave;tre.<\/p>"
+    },
+    {
+        "id": "erase",
+        "slug": "effacement-de-memoire",
+        "name": "Effacement de mémoire",
+        "enabled": true,
+        "arcane": "vice",
+        "short": "Supprime les souvenirs récents d'un individu",
+        "description": "<p>Permet de faire oublier &agrave; un personnage les &eacute;v&eacute;nements v&eacute;cus durant les derni&egrave;res 24 heures. L&#39;initi&eacute; effectuant le rituel peut d&eacute;cider de conserver certains souvenirs de sa cible.<\/p>"
+    },
+    {
+        "id": "permutation",
         "slug": "permutation",
         "name": "Permutation",
         "enabled": true,
@@ -54,21 +45,30 @@
         "description": "<p>L&#39;initi&eacute; &eacute;change de corps avec une cible &agrave; distance. Il se retrouve alors en possession d&#39;un nouveau corps abandonnant compl&egrave;tement son enveloppe pr&eacute;c&eacute;dente.<br \/>\r\nIl conserve ses scores d&#39;Instinct en D&eacute;voiler et Dissimuler, ses points de ma&icirc;trise dans toutes les caract&eacute;ristiques et ses capacit&eacute;s arcaniques. Il abandonne ses points d&#39;Instinct en Imposer et R&eacute;sister ainsi que ses attributs physiques et acqui&egrave;re celles de son nouveau corps.<\/p>"
     },
     {
-        "id": 7,
-        "slug": "vanish",
+        "id": "resurrect",
+        "slug": "resurrection",
+        "name": "Résurrection",
+        "enabled": true,
+        "arcane": "life",
+        "short": "Ressuscite un personnage décédé",
+        "description": "<p>Ram&egrave;ne &agrave; la vie un personnage ou un animal mort. Pour que cela fonctionne tous les membres de la cible doivent &ecirc;tre pr&eacute;sents et bien plac&eacute;s, les membres amput&eacute;s pourront alors &ecirc;tre ressoud&eacute;s.<br \/>\r\nLa cible doit &eacute;galement ne pas &ecirc;tre en &eacute;tat de d&eacute;composition trop avanc&eacute;. La cible est alors r&eacute;anim&eacute;e, ses blessures soign&eacute;es et ses souvenirs ante-mortem conserv&eacute;s.<\/p>"
+    },
+    {
+        "id": "retry",
+        "slug": "seconde-chance",
+        "name": "Seconde chance",
+        "enabled": true,
+        "arcane": "web",
+        "short": "Reviens quelques instants dans le passé",
+        "description": "<p>L&#39;initi&eacute; effectue un bon dans le pass&eacute; d&#39;environ 5 minutes. Tous les &eacute;v&eacute;nements ayant eu lieu dans cet interval de temps sont annul&eacute;s mais l&#39;initi&eacute; est le seul &agrave; en conserve tout de m&ecirc;me un souvenir.<\/p>"
+    },
+    {
+        "id": "vanish",
+        "slug": "disparition",
         "name": "Disparition",
         "enabled": true,
         "arcane": "veil",
         "short": "Camoufle complètement une trés grande zone",
         "description": "<p>Permet de rendre invisible de mani&egrave;re permanente le contenu d&#39;une sph&egrave;re d&#39;un diam&egrave;tre maximum de 500 m&egrave;tres. Tous les b&acirc;timents et &ecirc;tres vivant pr&eacute;sents dans la zone sont invisibles &eacute;galement.<br \/>\r\nL&#39;initi&eacute; lan&ccedil;ant le rituel peut d&eacute;cider du paysage qu&#39;il veut laisser para&icirc;tre vu de l&#39;ext&eacute;rieur. Un observateur pr&eacute;sent &agrave; l&#39;int&eacute;rieur de la sph&egrave;re n&#39;est plus affect&eacute; par le sort et voit alors normalement.<\/p>"
-    },
-    {
-        "id": 8,
-        "slug": "erase",
-        "name": "Effacement de mémoire",
-        "enabled": true,
-        "arcane": "vice",
-        "short": "Supprime les souvenirs récents d'un individu",
-        "description": "<p>Permet de faire oublier &agrave; un personnage les &eacute;v&eacute;nements v&eacute;cus durant les derni&egrave;res 24 heures. L&#39;initi&eacute; effectuant le rituel peut d&eacute;cider de conserver certains souvenirs de sa cible.<\/p>"
     }
 ]

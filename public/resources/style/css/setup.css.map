@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,UAGC;EAFC,WAAW,EAAE,uBAAuB;EACpC,GAAG,EAAE,iEAAiE",
-"sources": ["../scss/setup.scss"],
-"names": [],
-"file": "setup.css"
-}

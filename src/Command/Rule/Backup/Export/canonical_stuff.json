@@ -1,161 +1,7 @@
 [
     {
-        "id": 1,
-        "slug": "knuckleduster",
-        "name": "Surin",
-        "enabled": true,
-        "effectiveness": 0,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "wound-I"
-        ]
-    },
-    {
-        "id": 3,
-        "slug": "battle-stick",
-        "name": "Bâton de combat",
-        "enabled": true,
-        "effectiveness": 1,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "wound-I"
-        ]
-    },
-    {
-        "id": 4,
-        "slug": "dagger",
-        "name": "Dague",
-        "enabled": true,
-        "effectiveness": 0,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "wound-II"
-        ]
-    },
-    {
-        "id": 5,
-        "slug": "bow",
-        "name": "Arc",
-        "enabled": true,
-        "effectiveness": 1,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "ranged"
-        ]
-    },
-    {
-        "id": 6,
-        "slug": "one-hand-sword",
-        "name": "Épée à une main",
-        "enabled": true,
-        "effectiveness": 1,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "wound-II"
-        ]
-    },
-    {
-        "id": 8,
-        "slug": "crossbow",
-        "name": "Arbalète",
-        "enabled": true,
-        "effectiveness": 2,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "ranged"
-        ]
-    },
-    {
-        "id": 9,
-        "slug": "two-hand-sword",
-        "name": "Épée à deux mains",
-        "enabled": true,
-        "effectiveness": 2,
-        "kind": "weapon",
-        "expendable": false,
-        "properties": [
-            "wound-II"
-        ]
-    },
-    {
-        "id": 11,
-        "slug": "leather-armor",
-        "name": "Armure en cuire",
-        "enabled": true,
-        "effectiveness": 1,
-        "kind": "armor",
-        "expendable": false,
-        "properties": []
-    },
-    {
-        "id": 12,
-        "slug": "chainmail",
-        "name": "Cotte de maille",
-        "enabled": true,
-        "effectiveness": 2,
-        "kind": "armor",
-        "expendable": false,
-        "properties": []
-    },
-    {
-        "id": 13,
-        "slug": "harness",
-        "name": "Harnois",
-        "enabled": true,
-        "effectiveness": 3,
-        "kind": "armor",
-        "expendable": false,
-        "properties": []
-    },
-    {
-        "id": 14,
-        "slug": "shield",
-        "name": "Écu",
-        "enabled": true,
-        "effectiveness": 1,
-        "kind": "shield",
-        "expendable": false,
-        "properties": []
-    },
-    {
-        "id": 15,
-        "slug": "bulwark",
-        "name": "Pavois",
-        "enabled": true,
-        "effectiveness": 2,
-        "kind": "shield",
-        "expendable": false,
-        "properties": []
-    },
-    {
-        "id": 16,
-        "slug": "ointment",
-        "name": "Onguent",
-        "enabled": true,
-        "effectiveness": 1,
-        "kind": "object",
-        "expendable": true,
-        "properties": []
-    },
-    {
-        "id": 17,
-        "slug": "bandage",
-        "name": "Bandages",
-        "enabled": true,
-        "effectiveness": 2,
-        "kind": "object",
-        "expendable": true,
-        "properties": []
-    },
-    {
-        "id": 18,
-        "slug": "arrow",
+        "id": "arrow",
+        "slug": "fleche",
         "name": "Flèche",
         "enabled": true,
         "effectiveness": 0,
@@ -166,8 +12,30 @@
         ]
     },
     {
-        "id": 19,
-        "slug": "bolt",
+        "id": "bandage",
+        "slug": "bandages",
+        "name": "Bandages",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "object",
+        "expendable": true,
+        "properties": []
+    },
+    {
+        "id": "battle-stick",
+        "slug": "baton-de-combat",
+        "name": "Bâton de combat",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-I"
+        ]
+    },
+    {
+        "id": "bolt",
+        "slug": "carreau",
         "name": "Carreau",
         "enabled": true,
         "effectiveness": 0,
@@ -178,8 +46,118 @@
         ]
     },
     {
-        "id": 20,
-        "slug": "quiver",
+        "id": "bow",
+        "slug": "arc",
+        "name": "Arc",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "ranged"
+        ]
+    },
+    {
+        "id": "bulwark",
+        "slug": "pavois",
+        "name": "Pavois",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "shield",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": "chainmail",
+        "slug": "cotte-de-maille",
+        "name": "Cotte de maille",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "armor",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": "crossbow",
+        "slug": "arbalete",
+        "name": "Arbalète",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "ranged"
+        ]
+    },
+    {
+        "id": "dagger",
+        "slug": "dague",
+        "name": "Dague",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-II"
+        ]
+    },
+    {
+        "id": "harness",
+        "slug": "harnois",
+        "name": "Harnois",
+        "enabled": true,
+        "effectiveness": 3,
+        "kind": "armor",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": "knuckleduster",
+        "slug": "surin",
+        "name": "Surin",
+        "enabled": true,
+        "effectiveness": 0,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-I"
+        ]
+    },
+    {
+        "id": "leather-armor",
+        "slug": "armure-en-cuire",
+        "name": "Armure en cuire",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "armor",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": "ointment",
+        "slug": "onguent",
+        "name": "Onguent",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "object",
+        "expendable": true,
+        "properties": []
+    },
+    {
+        "id": "one-hand-sword",
+        "slug": "epee-a-une-main",
+        "name": "Épée à une main",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-II"
+        ]
+    },
+    {
+        "id": "quiver",
+        "slug": "carquois",
         "name": "Carquois",
         "enabled": true,
         "effectiveness": 0,
@@ -187,6 +165,28 @@
         "expendable": false,
         "properties": [
             "wound-I"
+        ]
+    },
+    {
+        "id": "shield",
+        "slug": "ecu",
+        "name": "Écu",
+        "enabled": true,
+        "effectiveness": 1,
+        "kind": "shield",
+        "expendable": false,
+        "properties": []
+    },
+    {
+        "id": "two-hand-sword",
+        "slug": "epee-a-deux-mains",
+        "name": "Épée à deux mains",
+        "enabled": true,
+        "effectiveness": 2,
+        "kind": "weapon",
+        "expendable": false,
+        "properties": [
+            "wound-II"
         ]
     }
 ]

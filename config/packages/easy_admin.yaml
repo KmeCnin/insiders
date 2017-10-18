@@ -32,8 +32,9 @@ easy_admin:
                 sort: ['id', 'ASC']
             form:
                 fields:
-                    - slug
+                    - id
                     - name
+                    - slug
                     - arcane
                     - short
                     -
@@ -51,12 +52,12 @@ easy_admin:
         Attribute:
             class: App\Entity\Rule\Attribute
             list:
-                fields: ['id', 'name', 'short', 'pc', 'enabled']
+                fields: ['id', 'name', 'slug', 'short', 'pc', 'enabled']
                 sort: ['id', 'ASC']
             form:
                 fields:
                     - { property: enabled }
-                    - { property: slug }
+                    - { property: id }
                     - { property: name }
                     - { property: pc }
                     - { property: short }
@@ -64,24 +65,24 @@ easy_admin:
         Arcane:
             class: App\Entity\Rule\Arcane
             list:
-                fields: ['id', 'name', 'short', 'enabled']
+                fields: ['id', 'name', 'slug', 'short', 'enabled']
                 sort: ['id', 'ASC']
             form:
                 fields:
                     - { property: enabled }
-                    - { property: slug }
+                    - { property: id }
                     - { property: name }
                     - { property: short }
                     - { property: description, type: ckeditor }
         Burst:
             class: App\Entity\Rule\Burst
             list:
-                fields: ['id', 'name', 'short', 'arcane', 'enabled']
+                fields: ['id', 'name', 'slug', 'short', 'arcane', 'enabled']
                 sort: ['id', 'ASC']
             form:
                 fields:
                     - { property: enabled }
-                    - { property: slug }
+                    - { property: id }
                     - { property: name }
                     - { property: arcane }
                     - { property: short }
@@ -92,6 +93,7 @@ easy_admin:
                 fields:
                     - id
                     - name
+                    - slug
                     -
                         property: stuff.kind
                         label: Kind
@@ -115,7 +117,7 @@ easy_admin:
                 sort: ['id', 'ASC']
             form:
                 fields:
-                    - slug
+                    - id
                     - name
                     - enabled
                     -
@@ -124,12 +126,12 @@ easy_admin:
         Champion:
             class: App\Entity\Rule\Champion
             list:
-                fields: ['id', 'name', 'dignity', 'deity', 'enabled']
+                fields: ['id', 'name', 'slug', 'dignity', 'deity', 'enabled']
                 sort: ['id', 'ASC']
             form:
                 fields:
                     - { property: enabled }
-                    - { property: slug }
+                    - { property: id }
                     - { property: name }
                     - { property: dignity }
                     - { property: deity }
@@ -137,37 +139,37 @@ easy_admin:
         Characteristic:
             class: App\Entity\Rule\Characteristic
             list:
-                fields: ['id', 'name', 'short', 'enabled']
+                fields: ['id', 'name', 'slug', 'short', 'enabled']
                 sort: ['id', 'ASC']
         Deity:
             class: App\Entity\Rule\Deity
             list:
-                fields: ['id', 'name', 'dignity', 'arcane', 'champion', 'enabled']
+                fields: ['id', 'name', 'slug', 'dignity', 'arcane', 'champion', 'enabled']
                 sort: ['id', 'ASC']
         Lexicon:
             class: App\Entity\Rule\LexiconEntry
             list:
-                fields: ['id', 'name', 'short', 'enabled']
+                fields: ['id', 'name', 'slug', 'short', 'enabled']
                 sort: ['id', 'ASC']
             form:
                 fields:
                     - { property: enabled }
-                    - { property: slug }
+                    - { property: id }
                     - { property: name }
                     - { property: short }
                     - { property: description, type: ckeditor }
         StuffKind:
             class: App\Entity\Rule\StuffKind
             list:
-                fields: ['id', 'name', 'enabled']
+                fields: ['id', 'name', 'slug', 'enabled']
                 sort: ['id', 'ASC']
         StuffProperty:
             class: App\Entity\Rule\StuffProperty
             list:
-                fields: ['id', 'name', 'kind', 'short', 'fp', { property: stuffKinds, type: array }, 'enabled']
+                fields: ['id', 'name', 'slug', 'kind', 'short', 'fp', { property: stuffKinds, type: array }, 'enabled']
                 sort: ['id', 'ASC']
         StuffPropertyKind:
             class: App\Entity\Rule\StuffPropertyKind
             list:
-                fields: ['id', 'name', 'enabled']
+                fields: ['id', 'name', 'slug', 'enabled']
                 sort: ['id', 'ASC']

@@ -1,34 +1,34 @@
 [
     {
-        "id": 1,
-        "slug": "force",
+        "id": "force",
+        "slug": "imposer",
         "name": "Imposer",
         "enabled": true,
         "short": "Force et habileté",
         "description": "La caractéristique Imposer d'un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à aggresser un autre personnage, à évoluer dans son environnement, à viser, etc."
     },
     {
-        "id": 2,
-        "slug": "resist",
+        "id": "hide",
+        "slug": "dissimuler",
+        "name": "Dissimuler",
+        "enabled": true,
+        "short": "Ruse et charisme",
+        "description": "La caractéristique Dissimuler d'un personnage représente sa ruse et son charisme. Elle détermine la capacité du personnage à être discret, à mentir, à manipuler autrui, etc."
+    },
+    {
+        "id": "resist",
+        "slug": "resister",
         "name": "Résister",
         "enabled": true,
         "short": "Vigueur et réflexes",
         "description": "La caractéristique Résister d'un personnage représente sa forme physique et ses réflexes. Elle détermine la capacité du personnage à se protéger, à éviter, à être endurant, etc."
     },
     {
-        "id": 3,
-        "slug": "reveal",
+        "id": "reveal",
+        "slug": "devoiler",
         "name": "Dévoiler",
         "enabled": true,
         "short": "Intelligence et lucidité",
         "description": "La caractéristique Dévoiler d'un personnage représente son intelligence et sa lucidité. Elle détermine la capacité du personnage à connaître, à percevoir, à déceler une supercherie, etc."
-    },
-    {
-        "id": 4,
-        "slug": "hide",
-        "name": "Dissimuler",
-        "enabled": true,
-        "short": "Ruse et charisme",
-        "description": "La caractéristique Dissimuler d'un personnage représente sa ruse et son charisme. Elle détermine la capacité du personnage à être discret, à mentir, à manipuler autrui, etc."
     }
 ]
