@@ -1,42 +1,66 @@
 [
     {
-        "id": 1,
+        "id": "ability",
+        "slug": "capacite-arcanique",
+        "name": "Capacité arcanique",
+        "enabled": true,
+        "short": "Pouvoir surnaturel conféré par l'absorption d'un cristal d'arcanite",
+        "description": "<p>Un initi&eacute; ou une aberration ma&icirc;trisant un arcane particulier est capable d&#39;acqu&eacute;rir des <strong>capacit&eacute;s arcaniques<\/strong>&nbsp;li&eacute;es &agrave; ce dernier lui conf&eacute;rant alors des pouvoirs surnaturels.<\/p>\r\n\r\n<p>Pour acqu&eacute;rir une nouvelle capacit&eacute; arcanique, l&#39;initi&eacute; doit pr&eacute;alablement avoir d&eacute;bloqu&eacute; l&#39;arcane correspondant (en utilisant 1 point de cr&eacute;ation) puis d&eacute;penser 2 points de cr&eacute;ations dans la capacit&eacute; de son choix.<br \/>\r\nL&#39;initi&eacute; peut alors utiliser son pouvoir autant de fois qu&#39;il le souhaite de la mani&egrave;re qu&#39;il souhaite tant qu&#39;elle parait coh&eacute;rente avec la description de la capacit&eacute;. Rien ne permet &agrave; un observateur ext&eacute;rieur de savoir qu&#39;un initi&eacute; poss&egrave;de un quelconque pouvoir tant qu&#39;il ne l&#39;aper&ccedil;oit pas en train de l&#39;utiliser (&agrave; moins que la capacit&eacute; implique des transformations physiques explicites comme pour corps d&#39;obsyl&egrave;ne par exemple).<br \/>\r\nChaque capacit&eacute; pr&eacute;sente une partie descriptive du pouvoir ainsi que quelques exemples d&#39;utilisation que le joueur est invit&eacute; &agrave; &eacute;largir autant que possible. Une autre partie d&eacute;crit l&#39;utilisation du pouvoir en situation de combat et permet d&#39;&eacute;quilibrer les puissances relatives des diff&eacute;rentes capacit&eacute;s.<\/p>\r\n\r\n<p>Certaines capacit&eacute;s arcaniques n&eacute;cessitent de poss&eacute;der d&eacute;j&agrave; une ou plusieurs autres capacit&eacute;s avant de pouvoir &ecirc;tre d&eacute;bloqu&eacute;e.<br \/>\r\nCertaines capacit&eacute;s arcaniques peuvent &ecirc;tre am&eacute;lior&eacute;es en d&eacute;bloquant des augmentations. Chaque augmentation n&eacute;cessite de d&eacute;penser 1 point de cr&eacute;ation. Les augmentations doivent &ecirc;tre d&eacute;bloqu&eacute;es dans l&#39;ordre affich&eacute;.<\/p>"
+    },
+    {
+        "id": "arcane",
         "slug": "arcane",
         "name": "Arcane",
         "enabled": true,
         "short": "Aspect de la réalité accessible uniquement à certains initiés",
-        "description": "<p>Les initi&eacute;s sont capables d&#39;absorber l&#39;&eacute;nergie des cristaux d&#39;arcanite pour d&eacute;bloquer une sensibilit&eacute; particuli&egrave;re &agrave; des aspects de la r&eacute;alit&eacute;s appel&eacute;s <strong>arcanes<\/strong>. Un initi&eacute; ayant d&eacute;bloqu&eacute; un arcane sp&eacute;cifique acqui&egrave;re alors une compr&eacute;hension singuli&egrave;re de cette facette de la r&eacute;alit&eacute; lui permettant de d&eacute;bloquer par la suite des capacit&eacute;s arcaniques surnaturelles.<\/p>"
+        "description": "<p>Les initi&eacute;s sont capables d&#39;absorber l&#39;&eacute;nergie des cristaux d&#39;arcanite pour d&eacute;bloquer une sensibilit&eacute; particuli&egrave;re &agrave; des aspects de la r&eacute;alit&eacute;s appel&eacute;s <strong>arcanes<\/strong>. Un initi&eacute; ayant d&eacute;bloqu&eacute; un arcane sp&eacute;cifique acqui&egrave;re alors une compr&eacute;hension singuli&egrave;re de cette facette de la r&eacute;alit&eacute; lui permettant de d&eacute;bloquer par la suite des capacit&eacute;s arcaniques surnaturelles.<\/p>\r\n\r\n<p>Chaque arcane est repr&eacute;sent&eacute; par une (ou plusieurs) divinit&eacute;(s) qui poss&egrave;dent souvent une masse d&#39;adeptes fid&egrave;les mais que chaque initi&eacute;&nbsp;est libre de v&eacute;n&eacute;rer ou non.<br \/>\r\nIl n&#39;est pas rare de croiser des initi&eacute;s ayant acc&egrave;s &agrave; 2 ou 3 arcanes, mais la plupart pr&eacute;f&egrave;re se concentrer sur un seul.<br \/>\r\nIl est impossible de d&eacute;duire qu&#39;un personnage ma&icirc;trise un arcane ou poss&egrave;de un quelconque pouvoir sans le voir directement &agrave; l&#39;oeuvre.<\/p>"
     },
     {
-        "id": 2,
-        "slug": "ability",
-        "name": "Capacité arcanique",
-        "enabled": true,
-        "short": "Pouvoir surnaturel conféré par l'absorption d'un cristal d'arcanite",
-        "description": "<p>Un initi&eacute; ou une aberration ma&icirc;trisant un arcane particulier est capable d&#39;acqu&eacute;rir des <strong>capacit&eacute;s arcaniques<\/strong>&nbsp;li&eacute;es &agrave; ce dernier lui conf&eacute;rant alors des pouvoirs surnaturels.<\/p>"
-    },
-    {
-        "id": 3,
-        "slug": "attribute",
+        "id": "attribute",
+        "slug": "attribut-physique",
         "name": "Attribut physique",
         "enabled": true,
-        "short": "Mutation physique extraordinaire causée par l'absorption d'un cristal d'arcanite",
-        "description": "<p>Un initi&eacute; ou une aberration absorbant la puissance d&#39;un cristal d&#39;arcanite peut d&eacute;velopper des mutations physiques extraordinaires appel&eacute;es <strong>attributs physiques<\/strong>.<\/p>"
+        "short": "Compétence physique naturelle ou acquise",
+        "description": "<p>Les&nbsp;<strong>attributs physiques<\/strong> repr&eacute;sentent des comp&eacute;tences particuli&egrave;res inn&eacute;es chez des animaux ou acquises par des personnages gr&acirc;ce &agrave; l&#39;entra&icirc;nement ou suite &agrave; des mutations apr&egrave;s absorption de cristaux d&#39;arcanite.<\/p>"
     },
     {
-        "id": 4,
-        "slug": "burst",
+        "id": "burst",
+        "slug": "decharge-d-arcanite",
         "name": "Décharge d'arcanite",
         "enabled": true,
         "short": "Effet spectaculaire déclenché par la libération d'une charge de cristal d'arcanite",
         "description": "<p>Un initi&eacute; en possession d&#39;un cristal d&#39;arcanite peut d&eacute;cider de d&eacute;penser une charge pour r&eacute;aliser une action particuli&egrave;rement puissante appel&eacute;e <strong>d&eacute;charge d&#39;arcanite<\/strong>. L&#39;initi&eacute; doit pour cela avoir pr&eacute;alablement d&eacute;bloqu&eacute; l&#39;arcane correspondant. La charge ainsi d&eacute;pens&eacute;e est perdue &agrave; jamais.<\/p>"
     },
     {
-        "id": 5,
-        "slug": "deity",
+        "id": "characteristic",
+        "slug": "caracteristique",
+        "name": "Caractéristique",
+        "enabled": true,
+        "short": "Capacité d'une entité à s'opposer à une autre",
+        "description": "<p>Les entit&eacute;s poss&egrave;dent des&nbsp;<strong>caract&eacute;ristiques<\/strong> qui les d&eacute;finissent et permettent de les opposer une &agrave; une pour d&eacute;terminer l&#39;issue d&#39;une confrontation.<br \/>\r\nElles sont au nombre de 4 et s&#39;opposent deux &agrave; deux.&nbsp;<em>Imposer<\/em> &agrave;&nbsp;<em>R&eacute;sister<\/em> et <em>D&eacute;voiler<\/em> &agrave;&nbsp;<em>Dissimuler<\/em>.<\/p>\r\n\r\n<p>Chaque caract&eacute;ristique est d&eacute;finie par 2 scores.<br \/>\r\nSon score d&#39;<em>Instinct,<\/em> qui repr&eacute;sente la capacit&eacute; physique ou mentale de l&#39;entit&eacute; par rapport &agrave; son potentiel inn&eacute;.<br \/>\r\nSon score de <em>Ma&icirc;trise<\/em>, qui repr&eacute;sente l&#39;exp&eacute;rience de l&#39;entit&eacute; par rapport &agrave; son potentiel acquis.<\/p>\r\n\r\n<p>Lorsque 2 entit&eacute;s s&#39;opposent, elles effectuent chacune un jet de la caract&eacute;ristique oppos&eacute;e &agrave; la caract&eacute;ristique utilis&eacute;e par l&#39;entit&eacute; initiant la confrontation&nbsp;(Imposer contre R&eacute;sister, R&eacute;sister contre Imposer, D&eacute;voiler contre Dissimuler, Dissimuler contre D&eacute;voiler).<br \/>\r\nChaque<em> jet de caract&eacute;ristique<\/em>&nbsp;s&#39;effectue en lan&ccedil;ant un nombre de d&eacute;s &agrave; six faces &eacute;gale au score d&#39;Instinct + le score de Ma&icirc;trise de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nOn garde ensuite les <em>n<\/em> meilleurs r&eacute;sultats de d&eacute;s o&ugrave; <em>n <\/em>est le score d&#39;Instinct de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nLe r&eacute;sultat du jet est la somme des d&eacute;s ainsi conserv&eacute;s. L&#39;entit&eacute; ayant r&eacute;alis&eacute; le meilleur r&eacute;sultat remporte la confrontation. En cas d&#39;&eacute;galit&eacute;, l&#39;entit&eacute; ayant le meilleur score d&#39;Instinct l&#39;emporte. Si les scores d&#39;Instinct sont identiques, on regarde les scores de Ma&icirc;trise. Si l&#39;&eacute;galit&eacute; persiste, on donne l&#39;avantage au personnage joueur. S&#39;il s&#39;agit de deux joueurs, on tire &agrave; pile ou face le vainqueur.<\/p>\r\n\r\n<p>Un score d&#39;Instinct &eacute;lev&eacute; permettra donc d&#39;obtenir un r&eacute;sultat potentiellement plus grand mais avec une forte variation possible alors qu&#39;un score de Ma&icirc;trise &eacute;lev&eacute; ne permet pas d&#39;augmenter le score maximum mais influera sur le r&eacute;sultat du jet pour le faire pencher vers son maximum plus souvent. Cela repr&eacute;sente le fait sans exp&eacute;rience les capacit&eacute;s physiques restent sous exploit&eacute;es et mal coordonn&eacute;es alors que l&#39;exp&eacute;rience apporte une plus grande fiabilit&eacute; et une meilleur connaissance de son corps sans pour autant r&eacute;ellement d&eacute;cupler les comp&eacute;tences au del&agrave; de leur capacit&eacute;.<\/p>"
+    },
+    {
+        "id": "deity",
+        "slug": "divinite-arcanique",
         "name": "Divinité arcanique",
         "enabled": true,
         "short": "Etre tout-puissant résidant au sein de l'Elyseum",
         "description": "<p>L&#39;Elyseum, point d&#39;impact de la m&eacute;t&eacute;orite d&#39;arcanite, abrite une poign&eacute;e de <strong>divinit&eacute;s arcaniques<\/strong>, &ecirc;tres tout-puissants autant craint que v&eacute;n&eacute;r&eacute;s.<br \/>\r\nIls cohabitent tant bien que mal dans une tr&ecirc;ve apparente mais n&#39;h&eacute;sitent pas &agrave; se combattre indirectement &agrave; l&#39;aide d&#39;agents de leur volont&eacute; appel&eacute;s <strong>champions<\/strong>. Ces derniers sont des &ecirc;tres &eacute;lus dans le but de repr&eacute;senter leur Dieu sur tous les continents.<br \/>\r\nEn effet, leurs Dieux ne peuvent se permettre de quitter l&#39;Elyseum sans risquer de perdre d&eacute;finitivement leur place au sein de cette r&eacute;serve illimit&eacute;e de puissance arcanique.<\/p>\r\n\r\n<p>Les divinit&eacute;s se limitent en g&eacute;n&eacute;ral &agrave; un seul champion car elles vivent dans la peur constante de se voir d&eacute;pass&eacute;es par leur serviteur. Certaines ne voit m&ecirc;me pas d&#39;int&eacute;r&ecirc;t &agrave; choisir un repr&eacute;sentant et pr&eacute;f&egrave;rent rester loin des pr&eacute;occupations continentales.<\/p>\r\n\r\n<p>Chaque divinit&eacute; poss&egrave;de sa propre &Eacute;glise de fid&egrave;les compos&eacute;e d&#39;initi&eacute;s mais &eacute;galement d&#39;individus normaux. Mais un initi&eacute; n&#39;est pas oblig&eacute; de v&eacute;n&eacute;rer un quelconque Dieu.<\/p>"
+    },
+    {
+        "id": "entity",
+        "slug": "entite",
+        "name": "Entité",
+        "enabled": true,
+        "short": "Tout ce qui possède des caractéristiques",
+        "description": "<p>On nomme <strong>entit&eacute;<\/strong>, toutes les choses, vivantes ou non, poss&eacute;dant au moins 1 point d&#39;Instinct &agrave; 1 caract&eacute;ristique. Il peut s&#39;agir d&#39;un personnage (joueur ou non), d&#39;un animal, d&#39;un &eacute;quipement, d&#39;une blessure, d&#39;un pi&egrave;ge, d&#39;un lieu, d&#39;un b&acirc;timent, etc.<br \/>\r\nUne entit&eacute; se distingue d&#39;une chose quelconque&nbsp;par le fait qu&#39;elle puisse s&#39;opposer &agrave; une autre entit&eacute; ou au contraire la soutenir en effectuant des jets de caract&eacute;ristiques.<\/p>\r\n\r\n<p>Par exemple des personnages pourront s&#39;affronter, un &eacute;quipement am&eacute;liorera les comp&eacute;tences de son porteur, une blessure restreindra les actions d&#39;un personnage, etc.<\/p>"
+    },
+    {
+        "id": "stuff",
+        "slug": "equipement",
+        "name": "Équipement",
+        "enabled": true,
+        "short": "Objet porté par un personnage conférant des bonus",
+        "description": "<p>Les personnages (et plus rarement les animaux) peuvent porter sur eux des <strong>&eacute;quipements<\/strong>&nbsp;les aidant &agrave; combattre (armes, armures, boucliers...) ou &agrave; accomplir ais&eacute;ment des t&acirc;ches sp&eacute;cifiques (cordes...). Certains &eacute;quipements &agrave; usage unique ne conf&egrave;rent un bonus que lors d&#39;une seule utilisation, on les appelle <em>consommables<\/em>.<\/p>"
     }
 ]

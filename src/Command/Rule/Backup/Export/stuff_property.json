@@ -1,33 +1,20 @@
 [
     {
-        "id": 2,
-        "slug": "bound",
+        "id": "bound",
+        "slug": "lie",
         "name": "Lié",
         "enabled": true,
         "fp": 0.5,
         "short": "Ne peut pas être désarmé.",
         "kind": "default",
         "stuffKinds": [
-            "weapon",
-            "object"
+            "object",
+            "weapon"
         ]
     },
     {
-        "id": 3,
-        "slug": "orichalcum",
-        "name": "Orichalque",
-        "enabled": true,
-        "fp": 3.6,
-        "short": "Confère une résistance contre les blessures physiques.",
-        "kind": "default",
-        "stuffKinds": [
-            "armor",
-            "shield"
-        ]
-    },
-    {
-        "id": 4,
-        "slug": "fireproof",
+        "id": "fireproof",
+        "slug": "ignifuge",
         "name": "Ignifugé",
         "enabled": true,
         "fp": 0.5,
@@ -39,8 +26,8 @@
         ]
     },
     {
-        "id": 5,
-        "slug": "insulating",
+        "id": "insulating",
+        "slug": "isolant",
         "name": "Isolant",
         "enabled": true,
         "fp": 0.5,
@@ -52,22 +39,47 @@
         ]
     },
     {
-        "id": 6,
-        "slug": "wound-I",
+        "id": "orichalcum",
+        "slug": "orichalque",
+        "name": "Orichalque",
+        "enabled": true,
+        "fp": 3.6,
+        "short": "Confère une résistance contre les blessures physiques.",
+        "kind": "default",
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": "ranged",
+        "slug": "distance",
+        "name": "Distance",
+        "enabled": true,
+        "fp": 0.9,
+        "short": "Peut attaquer à distance.",
+        "kind": "wound",
+        "stuffKinds": [
+            "weapon"
+        ]
+    },
+    {
+        "id": "wound-I",
+        "slug": "blessure-de-degre-i",
         "name": "Blessure de degré I",
         "enabled": true,
         "fp": 0.9,
         "short": "Inflige une blessure de degré I.",
         "kind": "wound",
         "stuffKinds": [
-            "weapon",
             "armor",
-            "shield"
+            "shield",
+            "weapon"
         ]
     },
     {
-        "id": 7,
-        "slug": "wound-II",
+        "id": "wound-II",
+        "slug": "blessure-de-degre-ii",
         "name": "Blessure de degré II",
         "enabled": true,
         "fp": 1.8,
@@ -78,24 +90,12 @@
         ]
     },
     {
-        "id": 8,
-        "slug": "wound-III",
+        "id": "wound-III",
+        "slug": "blessure-de-degre-iii",
         "name": "Blessure de degré III",
         "enabled": true,
         "fp": 3.6,
         "short": "Inflige une blessure de degré III.",
-        "kind": "wound",
-        "stuffKinds": [
-            "weapon"
-        ]
-    },
-    {
-        "id": 9,
-        "slug": "ranged",
-        "name": "Distance",
-        "enabled": true,
-        "fp": 0.9,
-        "short": "Peut attaquer à distance.",
         "kind": "wound",
         "stuffKinds": [
             "weapon"
