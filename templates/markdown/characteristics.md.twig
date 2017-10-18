@@ -3,6 +3,8 @@
 {% block content %}
 # Caractéristiques
 
+{{ lexicon.description|markdown }}
+
 {% for characteristic in characteristics %}
 {# @var characteristic \App\Entity\Rule\Characteristic #}
 ## {{ characteristic.name }}
