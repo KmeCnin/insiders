@@ -23,7 +23,7 @@ class UniverseController extends AbstractController
      */
     public function arcanesAction()
     {
-        $lexicon = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('ability');
+        $lexicon = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('arcane');
         $repo = $this->getDoctrine()->getRepository(Arcane::class);
 
         return $this->render('pages/universe/arcanes.html.twig', [
@@ -37,7 +37,7 @@ class UniverseController extends AbstractController
      */
     public function deitiesAction()
     {
-        $lexicon = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('ability');
+        $lexicon = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('deity');
         $repo = $this->getDoctrine()->getRepository(Deity::class);
 
         return $this->render('pages/universe/deities.html.twig', [

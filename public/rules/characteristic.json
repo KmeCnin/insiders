@@ -1,7 +1,6 @@
 [
     {
         "id": "force",
-        "slug": "imposer",
         "name": "Imposer",
         "enabled": true,
         "short": "Force et habileté",
@@ -9,7 +8,6 @@
     },
     {
         "id": "hide",
-        "slug": "dissimuler",
         "name": "Dissimuler",
         "enabled": true,
         "short": "Ruse et charisme",
@@ -17,7 +15,6 @@
     },
     {
         "id": "resist",
-        "slug": "resister",
         "name": "Résister",
         "enabled": true,
         "short": "Vigueur et réflexes",
@@ -25,7 +22,6 @@
     },
     {
         "id": "reveal",
-        "slug": "devoiler",
         "name": "Dévoiler",
         "enabled": true,
         "short": "Intelligence et lucidité",

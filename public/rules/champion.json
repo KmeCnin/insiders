@@ -1,7 +1,6 @@
 [
     {
         "id": "baros",
-        "slug": "baros",
         "name": "Baros",
         "enabled": true,
         "dignity": "L'écaille brûlante",
@@ -10,7 +9,6 @@
     },
     {
         "id": "corlan",
-        "slug": "corlan",
         "name": "Corlan",
         "enabled": true,
         "dignity": "Le cavalier zelé",
@@ -19,7 +17,6 @@
     },
     {
         "id": "etanael",
-        "slug": "etanael",
         "name": "Etanael",
         "enabled": true,
         "dignity": "Le pélerin vagabond",
@@ -28,7 +25,6 @@
     },
     {
         "id": "jonnas",
-        "slug": "jonnas",
         "name": "Jonnas",
         "enabled": true,
         "dignity": "L'hermite repentit",
@@ -37,7 +33,6 @@
     },
     {
         "id": "malenius",
-        "slug": "malenius",
         "name": "Malenius",
         "enabled": true,
         "dignity": "Le chevalier noir",
@@ -46,7 +41,6 @@
     },
     {
         "id": "marlite",
-        "slug": "marlite",
         "name": "Marlite",
         "enabled": true,
         "dignity": "L'insolente stratège",

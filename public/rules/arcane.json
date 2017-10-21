@@ -1,7 +1,6 @@
 [
     {
         "id": "death",
-        "slug": "la-purge",
         "name": "La Purge",
         "enabled": true,
         "short": "La force qui corrompt la vie",
@@ -9,7 +8,6 @@
     },
     {
         "id": "ether",
-        "slug": "l-ether",
         "name": "L'Éther",
         "enabled": true,
         "short": "Le fluide invisible dans lequel le monde matériel est plongé",
@@ -17,7 +15,6 @@
     },
     {
         "id": "life",
-        "slug": "l-essence",
         "name": "L'Essence",
         "enabled": true,
         "short": "L'énergie qui anime la vie",
@@ -25,7 +22,6 @@
     },
     {
         "id": "source",
-        "slug": "la-source",
         "name": "La Source",
         "enabled": true,
         "short": "L'énergie qui parcourt le monde matériel",
@@ -33,7 +29,6 @@
     },
     {
         "id": "spirit",
-        "slug": "l-esprit",
         "name": "L'Ésprit",
         "enabled": true,
         "short": "La force qui gouverne l'existence",
@@ -41,7 +36,6 @@
     },
     {
         "id": "veil",
-        "slug": "le-voile",
         "name": "Le Voile",
         "enabled": true,
         "short": "Le brouillard subtil qui altère la réalité",
@@ -49,7 +43,6 @@
     },
     {
         "id": "vice",
-        "slug": "l-etau",
         "name": "L'Étau",
         "enabled": true,
         "short": "La force qui contraint la volonté",
@@ -57,7 +50,6 @@
     },
     {
         "id": "web",
-        "slug": "la-toile",
         "name": "La Toile",
         "enabled": true,
         "short": "La trame qui supporte le monde matériel",
