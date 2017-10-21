@@ -24,26 +24,6 @@ Un score d&#039;Instinct élevé permettra donc d&#039;obtenir un résultat pote
 
 ## Imposer
 
-****
-
-
-## Résister
-
-****
-
-
-## Dévoiler
-
-****
-
-
-## Dissimuler
-
-****
-
-
-## Imposer
-
 **Force et habileté**
 
 La caractéristique Imposer d&#039;un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à aggresser un autre personnage, à évoluer dans son environnement, à viser, etc.
