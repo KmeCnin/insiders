@@ -18,39 +18,7 @@ Certaines capacités arcaniques nécessitent de posséder déjà une ou plusieur
  Certaines capacités arcaniques peuvent être améliorées en débloquant des augmentations. Chaque augmentation nécessite de dépenser 1 point de création. Les augmentations doivent être débloquées dans l&#039;ordre affiché.
 
 **Arcanes:**
-[Arcane élémentaire](#anchor-arcane-elementaire) - [Arcane cinétique](#anchor-arcane-cinetique) - [Arcane de la vie](#anchor-arcane-de-la-vie) - [Arcane de la mort](#anchor-arcane-de-la-mort) - [Arcane de l&#039;espace-temps](#anchor-arcane-de-l-espace-temps) - [Arcane de l&#039;intellect](#anchor-arcane-de-l-intellect) - [Arcane éthéré](#anchor-arcane-ethere) - [Arcane coercitif](#anchor-arcane-coercitif) - [La Purge](#anchor-la-purge) - [L&#039;Éther](#anchor-l-ether) - [L&#039;Essence](#anchor-l-essence) - [La Source](#anchor-la-source) - [L&#039;Ésprit](#anchor-l-esprit) - [Le Voile](#anchor-le-voile) - [L&#039;Étau](#anchor-l-etau) - [La Toile](#anchor-la-toile)
-## <a name="anchor-arcane-elementaire"></a>Arcane élémentaire
-
-
-
-## <a name="anchor-arcane-cinetique"></a>Arcane cinétique
-
-
-
-## <a name="anchor-arcane-de-la-vie"></a>Arcane de la vie
-
-
-
-## <a name="anchor-arcane-de-la-mort"></a>Arcane de la mort
-
-
-
-## <a name="anchor-arcane-de-l-espace-temps"></a>Arcane de l&#039;espace-temps
-
-
-
-## <a name="anchor-arcane-de-l-intellect"></a>Arcane de l&#039;intellect
-
-
-
-## <a name="anchor-arcane-ethere"></a>Arcane éthéré
-
-
-
-## <a name="anchor-arcane-coercitif"></a>Arcane coercitif
-
-
-
+[La Purge](#anchor-la-purge) - [L&#039;Éther](#anchor-l-ether) - [L&#039;Essence](#anchor-l-essence) - [La Source](#anchor-la-source) - [L&#039;Ésprit](#anchor-l-esprit) - [Le Voile](#anchor-le-voile) - [L&#039;Étau](#anchor-l-etau) - [La Toile](#anchor-la-toile)
 ## <a name="anchor-la-purge"></a>La Purge
 
 La force qui corrompt la vie
