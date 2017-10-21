@@ -1,13 +1,11 @@
 [
     {
         "id": "default",
-        "slug": "defaut",
         "name": "Défaut",
         "enabled": true
     },
     {
         "id": "wound",
-        "slug": "blessure",
         "name": "Blessure",
         "enabled": true
     }

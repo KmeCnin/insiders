@@ -1,7 +1,6 @@
 [
     {
         "id": "animate",
-        "slug": "animation",
         "name": "Animation",
         "enabled": true,
         "arcane": "death",
@@ -10,7 +9,6 @@
     },
     {
         "id": "ascent",
-        "slug": "ascension",
         "name": "Ascension",
         "enabled": true,
         "arcane": "ether",
@@ -19,7 +17,6 @@
     },
     {
         "id": "disaster",
-        "slug": "fleau",
         "name": "Fléau",
         "enabled": true,
         "arcane": "source",
@@ -28,7 +25,6 @@
     },
     {
         "id": "erase",
-        "slug": "effacement-de-memoire",
         "name": "Effacement de mémoire",
         "enabled": true,
         "arcane": "vice",
@@ -37,7 +33,6 @@
     },
     {
         "id": "permutation",
-        "slug": "permutation",
         "name": "Permutation",
         "enabled": true,
         "arcane": "spirit",
@@ -46,7 +41,6 @@
     },
     {
         "id": "resurrect",
-        "slug": "resurrection",
         "name": "Résurrection",
         "enabled": true,
         "arcane": "life",
@@ -55,7 +49,6 @@
     },
     {
         "id": "retry",
-        "slug": "seconde-chance",
         "name": "Seconde chance",
         "enabled": true,
         "arcane": "web",
@@ -64,7 +57,6 @@
     },
     {
         "id": "vanish",
-        "slug": "disparition",
         "name": "Disparition",
         "enabled": true,
         "arcane": "veil",
