@@ -50,10 +50,20 @@ class RulesController extends AbstractController
      */
     public function allAbilitiesAction()
     {
+        $arcanes = $this->getDoctrine()->getRepository(Arcane::class)->findAll();
         $repo = $this->getDoctrine()->getRepository(Ability::class);
 
+        $map = [];
+        foreach ($arcanes as $arcane) {
+            $map[] = [
+                'arcane' => $arcane,
+                'abilities' => $repo->findBy(['arcane' => $arcane]),
+            ];
+        }
+
         return $this->render('pages/rules/all_abilities.html.twig', [
-            'abilities' => $repo->findAll(),
+            'arcanes' => $arcanes,
+            'map' => $map,
         ]);
     }
 

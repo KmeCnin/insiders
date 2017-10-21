@@ -69,6 +69,16 @@ Le personnage décompose les cellules vivantes au contact.
 
 Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I dont la gravité augmente d&#039;un degré à chaque tour jusqu&#039;à un maximum de degré III.
 
+### <a name="anchor-cauchemar"></a>Cauchemar
+
+**Terrifie ses cibles avec une vision horrifique**
+
+Le personnage est capable de faire vivre leur pire cauchemar à ses adversaires.  
+ Cela lui permet par exemple de perturber fortement la santé mentale de ses adversaires, de faire fuir des animaux sauvages, etc.
+
+Grâce à un jet de Dissimuler à distance (pour pénétrer l&#039;esprit de sa cible) suivit d&#039;un jet de Dévoiler (pour sonder la pire peur de sa cible), il peut infliger une blessure de degré III.  
+ Grâce à un jet de Dissimuler à distance, il peut faire fuir de peur un groupe d&#039;animaux.
+
 ### <a name="anchor-phylactere"></a>Phylactère
 
 **Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel**
@@ -348,10 +358,15 @@ La force qui gouverne l&#039;existence
 
 **Contrôle un animal qui devient une extension de son esprit**
 
-Le personnage choisit un animal avec lequel il crée un lien psychique définitif.  
+Le personnage choisit un animal apprivoisé avec lequel il crée un lien psychique définitif.  
  Le personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#039;instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d&#039;Instinct en Imposer et Résister de l&#039;animal.  
  Pendant ce temps le corps du personnage reste statique et sans défense.  
- Si le familier est tué, une blessure de degré III est infligée au personnage. C&#039;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite créer un nouveau lien avec un autre animale. Le Facteur de Puissance du familier ne peut pas être supérieur au score d&#039;Instinct en Dévoiler du personnage.
+ De plus, le personnage peut utiliser toutes ses capacités arcaniques fonctionnant au contact en utilisant son familier comme canal et atteindre toutes cible au contact de son familier comme si il y était lui-même.  
+ Le familier peut s&#039;éloigner du personnage sans limite de distance. Mais le transfert d&#039;esprit doit avoir lieu à distance, une fois l&#039;esprit du personnage transféré dans le familier, il peut alors continuer à s&#039;éloigner sans limite.
+
+Si le familier est tué, une blessure de degré III est infligée au personnage. C&#039;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite créer un nouveau lien avec un autre animale.  
+ Si le personnage subit une blessure pendant que son esprit se trouve dans son familier, la capacité est alors interrompue de force.  
+ Le Facteur de Puissance du familier ne peut pas être supérieur au score d&#039;Instinct en Dévoiler du personnage.
 
 **Augmentations:**
 - Le FP du familier peut être le double du score de Dévoiler

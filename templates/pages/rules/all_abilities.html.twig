@@ -1,7 +1,7 @@
 {% extends 'layout.html.twig' %}
 
 {# /règles/capacités-arcaniques #}
-{# @var abilities \App\Entity\Rule\Ability #}
+{# @var arcanes \App\Entity\Rule\Arcane[] #}
 
 {% block page %}abilities{% endblock %}
 
@@ -11,4 +11,14 @@
 {% endblock %}
 
 {% block container %}
+{% for entry in map %}
+    {# @var arcane \App\Entity\Rule\Arcane #}
+    {% set arcane = entry['arcane'] %}
+
+    {% set abilities = entry['abilities'] %}
+    {% for ability in abilities %}
+        {# @var ability \App\Entity\Rule\Ability #}
+
+    {% endfor %}
+{% endfor %}
 {% endblock %}

@@ -34,7 +34,6 @@ easy_admin:
                 fields:
                     - id
                     - name
-                    - slug
                     - arcane
                     - short
                     -
@@ -93,7 +92,7 @@ easy_admin:
                 fields:
                     - id
                     - name
-                    - slug
+                    - namevmahlt
                     -
                         property: stuff.kind
                         label: Kind

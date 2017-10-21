@@ -18,7 +18,7 @@ class CanonicalStuffRepository extends AbstractRuleRepository
             ->join(Stuff::class, 'stuff', Join::WITH, 'stuff = canonicalStuff.stuff')
             ->join(StuffKind::class, 'kind', Join::WITH, 'kind = stuff.kind')
             ->where('kind.id = :kind')
-            ->andwhere('stuff.expendable = false')
+            ->andWhere('stuff.expendable = false')
             ->setParameter('kind', StuffKind::KIND_WEAPON)
             ->getQuery()
             ->getResult();
@@ -33,7 +33,7 @@ class CanonicalStuffRepository extends AbstractRuleRepository
             ->join(Stuff::class, 'stuff', Join::WITH, 'stuff = canonicalStuff.stuff')
             ->join(StuffKind::class, 'kind', Join::WITH, 'kind = stuff.kind')
             ->where('kind.id IN (:kinds)')
-            ->andwhere('stuff.expendable = false')
+            ->andWhere('stuff.expendable = false')
             ->setParameter('kinds', [StuffKind::KIND_ARMOR, StuffKind::KIND_SHIELD])
             ->getQuery()
             ->getResult();
@@ -48,7 +48,7 @@ class CanonicalStuffRepository extends AbstractRuleRepository
             ->join(Stuff::class, 'stuff', Join::WITH, 'stuff = canonicalStuff.stuff')
             ->join(StuffKind::class, 'kind', Join::WITH, 'kind = stuff.kind')
             ->where('kind.id = :kind')
-            ->andwhere('stuff.expendable = false')
+            ->andWhere('stuff.expendable = false')
             ->setParameter('kind', StuffKind::KIND_OBJECT)
             ->getQuery()
             ->getResult();
@@ -61,7 +61,7 @@ class CanonicalStuffRepository extends AbstractRuleRepository
             ->select('canonicalStuff')
             ->from(CanonicalStuff::class, 'canonicalStuff')
             ->join(Stuff::class, 'stuff', Join::WITH, 'stuff = canonicalStuff.stuff')
-            ->andwhere('stuff.expendable = true')
+            ->andWhere('stuff.expendable = true')
             ->getQuery()
             ->getResult();
     }
