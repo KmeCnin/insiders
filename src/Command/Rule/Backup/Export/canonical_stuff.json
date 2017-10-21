@@ -1,7 +1,6 @@
 [
     {
         "id": "arrow",
-        "slug": "fleche",
         "name": "Flèche",
         "enabled": true,
         "effectiveness": 0,
@@ -13,7 +12,6 @@
     },
     {
         "id": "bandage",
-        "slug": "bandages",
         "name": "Bandages",
         "enabled": true,
         "effectiveness": 2,
@@ -23,7 +21,6 @@
     },
     {
         "id": "battle-stick",
-        "slug": "baton-de-combat",
         "name": "Bâton de combat",
         "enabled": true,
         "effectiveness": 1,
@@ -35,7 +32,6 @@
     },
     {
         "id": "bolt",
-        "slug": "carreau",
         "name": "Carreau",
         "enabled": true,
         "effectiveness": 0,
@@ -47,7 +43,6 @@
     },
     {
         "id": "bow",
-        "slug": "arc",
         "name": "Arc",
         "enabled": true,
         "effectiveness": 1,
@@ -59,7 +54,6 @@
     },
     {
         "id": "bulwark",
-        "slug": "pavois",
         "name": "Pavois",
         "enabled": true,
         "effectiveness": 2,
@@ -69,7 +63,6 @@
     },
     {
         "id": "chainmail",
-        "slug": "cotte-de-maille",
         "name": "Cotte de maille",
         "enabled": true,
         "effectiveness": 2,
@@ -79,7 +72,6 @@
     },
     {
         "id": "crossbow",
-        "slug": "arbalete",
         "name": "Arbalète",
         "enabled": true,
         "effectiveness": 2,
@@ -91,7 +83,6 @@
     },
     {
         "id": "dagger",
-        "slug": "dague",
         "name": "Dague",
         "enabled": true,
         "effectiveness": 0,
@@ -103,7 +94,6 @@
     },
     {
         "id": "harness",
-        "slug": "harnois",
         "name": "Harnois",
         "enabled": true,
         "effectiveness": 3,
@@ -113,7 +103,6 @@
     },
     {
         "id": "knuckleduster",
-        "slug": "surin",
         "name": "Surin",
         "enabled": true,
         "effectiveness": 0,
@@ -125,7 +114,6 @@
     },
     {
         "id": "leather-armor",
-        "slug": "armure-en-cuire",
         "name": "Armure en cuire",
         "enabled": true,
         "effectiveness": 1,
@@ -135,7 +123,6 @@
     },
     {
         "id": "ointment",
-        "slug": "onguent",
         "name": "Onguent",
         "enabled": true,
         "effectiveness": 1,
@@ -145,7 +132,6 @@
     },
     {
         "id": "one-hand-sword",
-        "slug": "epee-a-une-main",
         "name": "Épée à une main",
         "enabled": true,
         "effectiveness": 1,
@@ -157,7 +143,6 @@
     },
     {
         "id": "quiver",
-        "slug": "carquois",
         "name": "Carquois",
         "enabled": true,
         "effectiveness": 0,
@@ -169,7 +154,6 @@
     },
     {
         "id": "shield",
-        "slug": "ecu",
         "name": "Écu",
         "enabled": true,
         "effectiveness": 1,
@@ -179,7 +163,6 @@
     },
     {
         "id": "two-hand-sword",
-        "slug": "epee-a-deux-mains",
         "name": "Épée à deux mains",
         "enabled": true,
         "effectiveness": 2,

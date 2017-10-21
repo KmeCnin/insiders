@@ -1,25 +1,21 @@
 [
     {
         "id": "armor",
-        "slug": "armure",
         "name": "Armure",
         "enabled": true
     },
     {
         "id": "object",
-        "slug": "objet",
         "name": "Objet",
         "enabled": true
     },
     {
         "id": "shield",
-        "slug": "bouclier",
         "name": "Bouclier",
         "enabled": true
     },
     {
         "id": "weapon",
-        "slug": "arme",
         "name": "Arme",
         "enabled": true
     }

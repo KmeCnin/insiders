@@ -141,7 +141,7 @@ class MarkdownRenderer
                 $parameters = [];
         }
 
-        return $this->twig->render($this->view($namespace), $parameters);
+        return $this->twig->render(static::view($namespace), $parameters);
     }
 
     public function setOutput(OutputInterface $output): self
