@@ -16,16 +16,20 @@
 {% endblock %}
 
 {% block container %}
+<div class="block block-intro">
+  <p>{{ description|raw }}</p>
+</div>
+
 {% for entry in map %}
-    {# @var arcane \App\Entity\Rule\Arcane #}
-    {% set arcane = entry['arcane'] %}
-    <h1>{{ arcane.name }}</h1>
-    <p>{{ arcane.short }}</p>
-    {% set abilities = entry['abilities'] %}
-    {% for ability in abilities %}
-        {# @var ability \App\Entity\Rule\Ability #}
-    <h2>{{ ability.name }}</h2>
-    <p>{{ ability.short }}</p>
-    {% endfor %}
+  {# @var arcane \App\Entity\Rule\Arcane #}
+  {% set arcane = entry['arcane'] %}
+  <h1>{{ arcane.name }}</h1>
+  <p>{{ arcane.short }}</p>
+  {% set abilities = entry['abilities'] %}
+  {% for ability in abilities %}
+      {# @var ability \App\Entity\Rule\Ability #}
+  <h2>{{ ability.name }}</h2>
+  <p>{{ ability.short }}</p>
+  {% endfor %}
 {% endfor %}
 {% endblock %}
