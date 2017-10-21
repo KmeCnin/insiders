@@ -9,7 +9,7 @@
 {% block pagemain %}abilities{% endblock %}
 
 {% block header %} 
-  <div class="header" style="background: url({{ asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') }}) no-repeat center; background-size: cover;">
+  <div class="header" style="background-image: url({{ asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') }});">
     <div class="header-content-wrapper">
       <h1>Les règles</h1>
       <h2>Capacités de {{ arcane.name }}</h2>
