@@ -1,7 +1,6 @@
 [
     {
         "id": "hunter",
-        "slug": "pisteur",
         "name": "Pisteur",
         "enabled": true,
         "pc": 1,
@@ -10,7 +9,6 @@
     },
     {
         "id": "wings",
-        "slug": "ailes",
         "name": "Ailes",
         "enabled": true,
         "pc": 2,
@@ -19,7 +17,6 @@
     },
     {
         "id": "wound-I",
-        "slug": "blessure-de-degre-i",
         "name": "Blessure de degré I",
         "enabled": true,
         "pc": 1,
@@ -28,7 +25,6 @@
     },
     {
         "id": "wound-II",
-        "slug": "blessure-de-degre-ii",
         "name": "Blessure de degré II",
         "enabled": true,
         "pc": 2,
@@ -37,7 +33,6 @@
     },
     {
         "id": "wound-III",
-        "slug": "blessure-de-degre-iii",
         "name": "Blessure de degré III",
         "enabled": true,
         "pc": 4,

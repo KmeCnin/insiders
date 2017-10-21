@@ -135,7 +135,7 @@
         "enabled": true,
         "arcane": "spirit",
         "short": "Contrôle un animal qui devient une extension de son esprit",
-        "description": "<p>Le personnage choisit un animal avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal.<br \/>\r\nPendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nSi le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale. Le Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>",
+        "description": "<p>Le personnage choisit un animal apprivois&eacute; avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal.<br \/>\r\nPendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nDe plus, le personnage peut utiliser toutes ses capacit&eacute;s arcaniques fonctionnant au contact en utilisant son familier comme canal et atteindre toutes cible au contact de son familier comme si il y &eacute;tait lui-m&ecirc;me.<br \/>\r\nLe familier peut s&#39;&eacute;loigner du personnage sans limite de distance. Mais le transfert d&#39;esprit doit avoir lieu &agrave; distance, une fois l&#39;esprit du personnage transf&eacute;r&eacute; dans le familier, il peut alors continuer &agrave; s&#39;&eacute;loigner sans limite.<\/p>\r\n\r\n<p>Si le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale.<br \/>\r\nSi le personnage subit une blessure pendant que son esprit se trouve dans son familier, la capacit&eacute; est alors interrompue de force.<br \/>\r\nLe Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>",
         "increases": [
             {
                 "short": "Le FP du familier peut être le double du score de Dévoiler",
@@ -446,6 +446,17 @@
         "arcane": "death",
         "short": "Corrompt la vie",
         "description": "<p>Le personnage d&eacute;compose les cellules vivantes au contact.<br \/>\r\nCela lui permet par exemple de d&eacute;composer de la v&eacute;g&eacute;tation, n&eacute;croser ses adversaires, affaiblir des constructions en bois, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;Imposer au contact, il peut infliger une blessure de degr&eacute; I dont la gravit&eacute; augmente d&#39;un degr&eacute; &agrave; chaque tour jusqu&#39;&agrave; un maximum de degr&eacute; III.<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "nightmare",
+        "slug": "cauchemar",
+        "name": "Cauchemar",
+        "enabled": true,
+        "arcane": "death",
+        "short": "Terrifie ses cibles avec une vision horrifique",
+        "description": "<p>Le personnage est capable de faire vivre leur pire cauchemar &agrave; ses adversaires.<br \/>\r\nCela lui permet par exemple de perturber fortement la sant&eacute; mentale de ses adversaires, de faire fuir&nbsp;des animaux sauvages, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance (pour p&eacute;n&eacute;trer l&#39;esprit de sa cible) suivit d&#39;un jet de D&eacute;voiler (pour sonder la pire peur de sa cible), il peut infliger une blessure de degr&eacute; III.<br \/>\r\nGr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut faire fuir de peur un groupe d&#39;animaux.<\/p>",
         "increases": [],
         "abilitiesRequired": []
     },

@@ -1,7 +1,6 @@
 [
     {
         "id": "choln",
-        "slug": "choln",
         "name": "Choln",
         "enabled": true,
         "dignity": "La Peste rampente",
@@ -11,7 +10,6 @@
     },
     {
         "id": "dalecarlica",
-        "slug": "dalecarlica",
         "name": "Dalecarlica",
         "enabled": true,
         "dignity": "L'essence du monde",
@@ -21,7 +19,6 @@
     },
     {
         "id": "jira",
-        "slug": "jira",
         "name": "Jira",
         "enabled": true,
         "dignity": "Le Dieu aux milles visages",
@@ -31,7 +28,6 @@
     },
     {
         "id": "lovnir",
-        "slug": "lovnir",
         "name": "Lovnir",
         "enabled": true,
         "dignity": "Le jeune sage",
@@ -41,7 +37,6 @@
     },
     {
         "id": "medev",
-        "slug": "medev",
         "name": "Medev",
         "enabled": true,
         "dignity": "L'usurpateur",
@@ -51,7 +46,6 @@
     },
     {
         "id": "ozz",
-        "slug": "ozz",
         "name": "Ozz",
         "enabled": true,
         "dignity": "Le grand marionnetiste",
@@ -61,7 +55,6 @@
     },
     {
         "id": "penelas",
-        "slug": "penelas",
         "name": "Penelas",
         "enabled": true,
         "dignity": "L'aveugle omnisciente",
@@ -71,7 +64,6 @@
     },
     {
         "id": "solenia",
-        "slug": "solenia",
         "name": "Solenia",
         "enabled": true,
         "dignity": "L'Archange lumineuse",
@@ -81,7 +73,6 @@
     },
     {
         "id": "valerius",
-        "slug": "valerius",
         "name": "Valerius",
         "enabled": true,
         "dignity": "Le Dragon à 5 têtes",
