@@ -1,56 +1,44 @@
 [
     {
         "id": "baros",
-        "slug": "baros",
         "name": "Baros",
         "enabled": true,
         "dignity": "L'écaille brûlante",
-        "deity": "valerius",
         "description": "<p>Il s&#39;agit d&#39;un demi-dragon (humano&iuml;de &agrave; t&ecirc;te de dragon, paire d&#39;ailes, &eacute;cailles, griffes) en armure. Autant violent que son Dieu, il voue sa vie &agrave; la guerre en menant des arm&eacute;es sans autres but que la destruction. Son p&ecirc;ch&eacute; mignon est de rejoindre un conflit existant en tant que g&eacute;n&eacute;ral de l&#39;arm&eacute;e perdante puis de changer de camps une fois la tendance invers&eacute;e &agrave; multiples reprises afin de faire durer le conflit aussi longtemps que possible ainsi que s&#39;enorgueillir d&#39;avoir un r&ocirc;le si d&eacute;cisif.<\/p>"
     },
     {
         "id": "corlan",
-        "slug": "corlan",
         "name": "Corlan",
         "enabled": true,
         "dignity": "Le cavalier zelé",
-        "deity": "penelas",
         "description": "Il revête une armure de chevalier d'une extrême noblesse, portant en permanence un immense étendard aux couleurs de sa Déesse. Corlan est conscient qu'en tant que Champion de Penelas, ses jours sont comptés. En effet peu de Champions ont réussit à satisfaire la divinité plus de quelques mois. Embrassant cette malédiction, il donne en permanence le meilleur de lui même, quitte à en faire trop, pour éviter de se faire désintégrer d'un claquement de doigts."
     },
     {
         "id": "etanael",
-        "slug": "etanael",
         "name": "Etanael",
         "enabled": true,
         "dignity": "Le pélerin vagabond",
-        "deity": "solenia",
         "description": "Il s'agit d'un vieil homme calme et taiseux portant une simple toge sobre et usée. Il parcourt les continents offrant son aide à ceux qui en ont réellement besoin et vieil à ne jamais prendre partie dans les conflits armés."
     },
     {
         "id": "jonnas",
-        "slug": "jonnas",
         "name": "Jonnas",
         "enabled": true,
         "dignity": "L'hermite repentit",
-        "deity": "lovnir",
         "description": "Il s'agit d'un ancien richissime bourgeois qui dépensait son incalculable fortune dans la fête et la luxure. Touché par la grâce de Lovnir, il s'exclut de la vie sociale pour se consacrer à la méditation et rechercher une existence dépourvue de désirs."
     },
     {
         "id": "malenius",
-        "slug": "malenius",
         "name": "Malenius",
         "enabled": true,
         "dignity": "Le chevalier noir",
-        "deity": "choln",
         "description": "Il porte en permanence une armure noire complète qui ne laisse deviner que ses yeux brillants d'une lueur rouge. Certains disent qu'il ne reste plus rien de réellement vivant sous ce harnois. Il développe depuis plus d'un siècle une citadelle fortifiée et fait grandir ses armées nécromantiques pour étendre son influence."
     },
     {
         "id": "marlite",
-        "slug": "marlite",
         "name": "Marlite",
         "enabled": true,
         "dignity": "L'insolente stratège",
-        "deity": "ozz",
         "description": "C'est une femme à la peau noire comme du charbon et au regard teinté d'une lueur mauve. Rien ne l'intéresse que d'élaborer des plans compliqués parfois prévus sur des décennies dans le seul but de démontrer son écrasante supériorité intellectuelle."
     }
 ]

@@ -1,7 +1,6 @@
 [
     {
         "id": "anticipation",
-        "slug": "anticipation",
         "name": "Anticipation",
         "enabled": true,
         "arcane": "web",
@@ -12,7 +11,6 @@
     },
     {
         "id": "betrayal",
-        "slug": "trahison",
         "name": "Trahison",
         "enabled": true,
         "arcane": "vice",
@@ -25,7 +23,6 @@
     },
     {
         "id": "blood-pact",
-        "slug": "pacte-de-sang",
         "name": "Pacte de sang",
         "enabled": true,
         "arcane": "death",
@@ -41,7 +38,6 @@
     },
     {
         "id": "combustion",
-        "slug": "combustion",
         "name": "Combustion",
         "enabled": true,
         "arcane": "source",
@@ -57,7 +53,6 @@
     },
     {
         "id": "confessions",
-        "slug": "confidence",
         "name": "Confidence",
         "enabled": true,
         "arcane": "vice",
@@ -68,7 +63,6 @@
     },
     {
         "id": "distraction",
-        "slug": "distraction",
         "name": "Distraction",
         "enabled": true,
         "arcane": "vice",
@@ -84,7 +78,6 @@
     },
     {
         "id": "duplication",
-        "slug": "dedoublement",
         "name": "Dédoublement",
         "enabled": true,
         "arcane": "life",
@@ -100,7 +93,6 @@
     },
     {
         "id": "electrocution",
-        "slug": "courant-electrique",
         "name": "Courant électrique",
         "enabled": true,
         "arcane": "source",
@@ -116,7 +108,6 @@
     },
     {
         "id": "electromagnetism",
-        "slug": "electromagnetisme",
         "name": "Électromagnétisme",
         "enabled": true,
         "arcane": "source",
@@ -130,12 +121,11 @@
     },
     {
         "id": "familiar",
-        "slug": "familier",
         "name": "Familier",
         "enabled": true,
         "arcane": "spirit",
         "short": "Contrôle un animal qui devient une extension de son esprit",
-        "description": "<p>Le personnage choisit un animal avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal.<br \/>\r\nPendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nSi le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale. Le Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>",
+        "description": "<p>Le personnage choisit un animal apprivois&eacute; avec lequel il cr&eacute;e un lien psychique d&eacute;finitif.<br \/>\r\nLe personnage peut, &agrave; tout moment, &agrave; distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#39;instinct en D&eacute;voiler et Dissimuler et tous ses scores de Ma&icirc;trise mais les scores d&#39;Instinct en Imposer et R&eacute;sister de l&#39;animal.<br \/>\r\nPendant ce temps le corps du personnage reste statique et sans d&eacute;fense.<br \/>\r\nDe plus, le personnage peut utiliser toutes ses capacit&eacute;s arcaniques fonctionnant au contact en utilisant son familier comme canal et atteindre toutes cible au contact de son familier comme si il y &eacute;tait lui-m&ecirc;me.<br \/>\r\nLe familier peut s&#39;&eacute;loigner du personnage sans limite de distance. Mais le transfert d&#39;esprit doit avoir lieu &agrave; distance, une fois l&#39;esprit du personnage transf&eacute;r&eacute; dans le familier, il peut alors continuer &agrave; s&#39;&eacute;loigner sans limite.<\/p>\r\n\r\n<p>Si le familier est tu&eacute;, une blessure de degr&eacute; III est inflig&eacute;e au personnage. C&#39;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite cr&eacute;er un nouveau lien avec un autre animale.<br \/>\r\nSi le personnage subit une blessure pendant que son esprit se trouve dans son familier, la capacit&eacute; est alors interrompue de force.<br \/>\r\nLe Facteur de Puissance du familier ne peut pas &ecirc;tre sup&eacute;rieur au score d&#39;Instinct en D&eacute;voiler du personnage.<\/p>",
         "increases": [
             {
                 "short": "Le FP du familier peut être le double du score de Dévoiler",
@@ -150,7 +140,6 @@
     },
     {
         "id": "fast-forward",
-        "slug": "acceleration-du-temps",
         "name": "Accélération du temps",
         "enabled": true,
         "arcane": "web",
@@ -163,7 +152,6 @@
     },
     {
         "id": "force-field",
-        "slug": "champ-de-force",
         "name": "Champ de force",
         "enabled": true,
         "arcane": "ether",
@@ -179,7 +167,6 @@
     },
     {
         "id": "ghost-walk",
-        "slug": "marche-fantomatique",
         "name": "Marche fantomatique",
         "enabled": true,
         "arcane": "veil",
@@ -190,7 +177,6 @@
     },
     {
         "id": "guardian",
-        "slug": "ange-gardien",
         "name": "Ange gardien",
         "enabled": true,
         "arcane": "life",
@@ -206,7 +192,6 @@
     },
     {
         "id": "identity-theft",
-        "slug": "usurpation-d-identite",
         "name": "Usurpation d'identité",
         "enabled": true,
         "arcane": "veil",
@@ -217,7 +202,6 @@
     },
     {
         "id": "illusion",
-        "slug": "illusion",
         "name": "Illusion",
         "enabled": true,
         "arcane": "veil",
@@ -237,7 +221,6 @@
     },
     {
         "id": "invisibility",
-        "slug": "invisibilite",
         "name": "Invisibilité",
         "enabled": true,
         "arcane": "veil",
@@ -250,7 +233,6 @@
     },
     {
         "id": "invocation",
-        "slug": "invocation",
         "name": "Invocation",
         "enabled": true,
         "arcane": "spirit",
@@ -270,7 +252,6 @@
     },
     {
         "id": "levitation",
-        "slug": "levitation",
         "name": "Lévitation",
         "enabled": true,
         "arcane": "ether",
@@ -286,7 +267,6 @@
     },
     {
         "id": "life-perception",
-        "slug": "perception-de-la-vie",
         "name": "Perception de la vie",
         "enabled": true,
         "arcane": "spirit",
@@ -297,7 +277,6 @@
     },
     {
         "id": "lightning",
-        "slug": "foudre",
         "name": "Foudre",
         "enabled": true,
         "arcane": "source",
@@ -316,7 +295,6 @@
     },
     {
         "id": "lure",
-        "slug": "leurres",
         "name": "Leurres",
         "enabled": true,
         "arcane": "veil",
@@ -336,7 +314,6 @@
     },
     {
         "id": "memory-leak",
-        "slug": "manipulation-de-memoire",
         "name": "Manipulation de mémoire",
         "enabled": true,
         "arcane": "vice",
@@ -352,7 +329,6 @@
     },
     {
         "id": "mineral-body",
-        "slug": "corps-d-obsylene",
         "name": "Corps d'obsylène",
         "enabled": true,
         "arcane": "life",
@@ -365,7 +341,6 @@
     },
     {
         "id": "mineral-fists",
-        "slug": "poings-d-obsylene",
         "name": "Poings d'obsylène",
         "enabled": true,
         "arcane": "life",
@@ -381,7 +356,6 @@
     },
     {
         "id": "misleading-appearance",
-        "slug": "apparence-trompeuse",
         "name": "Apparence trompeuse",
         "enabled": true,
         "arcane": "veil",
@@ -397,7 +371,6 @@
     },
     {
         "id": "morbid-aura",
-        "slug": "aura-morbide",
         "name": "Aura morbide",
         "enabled": true,
         "arcane": "death",
@@ -408,7 +381,6 @@
     },
     {
         "id": "necromancy",
-        "slug": "necromancie",
         "name": "Nécromancie",
         "enabled": true,
         "arcane": "death",
@@ -440,7 +412,6 @@
     },
     {
         "id": "necrosis",
-        "slug": "contact-necrotique",
         "name": "Contact nécrotique",
         "enabled": true,
         "arcane": "death",
@@ -450,8 +421,17 @@
         "abilitiesRequired": []
     },
     {
+        "id": "nightmare",
+        "name": "Cauchemar",
+        "enabled": true,
+        "arcane": "death",
+        "short": "Terrifie ses cibles avec une vision horrifique",
+        "description": "<p>Le personnage est capable de faire vivre leur pire cauchemar &agrave; ses adversaires.<br \/>\r\nCela lui permet par exemple de perturber fortement la sant&eacute; mentale de ses adversaires, de faire fuir&nbsp;des animaux sauvages, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance (pour p&eacute;n&eacute;trer l&#39;esprit de sa cible) suivit d&#39;un jet de D&eacute;voiler (pour sonder la pire peur de sa cible), il peut infliger une blessure de degr&eacute; III.<br \/>\r\nGr&acirc;ce &agrave; un jet de Dissimuler &agrave; distance, il peut faire fuir de peur un groupe d&#39;animaux.<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
         "id": "pacifism",
-        "slug": "pacifisme",
         "name": "Pacifisme",
         "enabled": true,
         "arcane": "vice",
@@ -462,7 +442,6 @@
     },
     {
         "id": "persuasion",
-        "slug": "persuasion",
         "name": "Persuasion",
         "enabled": true,
         "arcane": "vice",
@@ -473,7 +452,6 @@
     },
     {
         "id": "phylactery",
-        "slug": "phylactere",
         "name": "Phylactère",
         "enabled": true,
         "arcane": "death",
@@ -489,7 +467,6 @@
     },
     {
         "id": "pooling",
-        "slug": "partage-d-experience",
         "name": "Partage d'expérience",
         "enabled": true,
         "arcane": "spirit",
@@ -500,7 +477,6 @@
     },
     {
         "id": "psychokinesis",
-        "slug": "psychokinese",
         "name": "Psychokinèse",
         "enabled": true,
         "arcane": "ether",
@@ -511,7 +487,6 @@
     },
     {
         "id": "pull",
-        "slug": "attraction",
         "name": "Attraction",
         "enabled": true,
         "arcane": "ether",
@@ -522,7 +497,6 @@
     },
     {
         "id": "push",
-        "slug": "repulsion",
         "name": "Répulsion",
         "enabled": true,
         "arcane": "ether",
@@ -533,7 +507,6 @@
     },
     {
         "id": "slow-motion",
-        "slug": "ralentissement-du-temps",
         "name": "Ralentissement du temps",
         "enabled": true,
         "arcane": "web",
@@ -546,7 +519,6 @@
     },
     {
         "id": "sound",
-        "slug": "onde-sonore",
         "name": "Onde sonore",
         "enabled": true,
         "arcane": "source",
@@ -562,7 +534,6 @@
     },
     {
         "id": "tectonic",
-        "slug": "tectonique",
         "name": "Tectonique",
         "enabled": true,
         "arcane": "source",
@@ -576,7 +547,6 @@
     },
     {
         "id": "telepathy",
-        "slug": "telepathie",
         "name": "Télépathie",
         "enabled": true,
         "arcane": "spirit",
@@ -589,7 +559,6 @@
     },
     {
         "id": "teleport",
-        "slug": "teleportation",
         "name": "Téléportation",
         "enabled": true,
         "arcane": "web",
@@ -602,7 +571,6 @@
     },
     {
         "id": "thermodynamics",
-        "slug": "thermodynamique",
         "name": "Thermodynamique",
         "enabled": true,
         "arcane": "source",
@@ -618,7 +586,6 @@
     },
     {
         "id": "tracking",
-        "slug": "localisation",
         "name": "Localisation",
         "enabled": true,
         "arcane": "web",
@@ -629,7 +596,6 @@
     },
     {
         "id": "transform",
-        "slug": "changement-de-forme",
         "name": "Changement de forme",
         "enabled": true,
         "arcane": "life",
@@ -657,7 +623,6 @@
     },
     {
         "id": "vampirisme",
-        "slug": "vampirisme",
         "name": "Vampirisme",
         "enabled": true,
         "arcane": "death",
@@ -673,7 +638,6 @@
     },
     {
         "id": "velocity",
-        "slug": "velocite",
         "name": "Vélocité",
         "enabled": true,
         "arcane": "ether",
@@ -684,7 +648,6 @@
     },
     {
         "id": "vision",
-        "slug": "vision",
         "name": "Vision",
         "enabled": true,
         "arcane": "web",
@@ -704,7 +667,6 @@
     },
     {
         "id": "vital-force",
-        "slug": "transfert-de-force-vitale",
         "name": "Transfert de force vitale",
         "enabled": true,
         "arcane": "life",

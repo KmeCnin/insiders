@@ -71,7 +71,6 @@ class Champion extends AbstractRule
     {
         return array_merge(parent::normalize(), [
             'dignity' => $this->getDignity(),
-            'deity' => $this->getDeity()->getId(),
             'description' => $this->getDescription(),
         ]);
     }

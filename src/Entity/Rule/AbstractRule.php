@@ -109,7 +109,6 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
     {
         return [
             'id' => $this->getId(),
-            'slug' => $this->getSlug(),
             'name' => $this->getName(),
             'enabled' => $this->isEnabled(),
         ];
