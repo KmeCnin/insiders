@@ -3,4 +3,24 @@
 {# /universe/divinités #}
 {# @var deities \App\Entity\Rule\Deity #}
 
-{% block content %}{% endblock %}
+{% set page = 'deities' %}
+{% set domain = 'universe' %}
+
+{% block header %}
+    <div class="header-content-wrapper">
+        <h1>L'Univers</h1>
+        <h2>Divinités</h2>
+    </div>
+{% endblock %}
+
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for deity in deities %}
+        {% endfor %}
+    </section>
+{% endblock %}

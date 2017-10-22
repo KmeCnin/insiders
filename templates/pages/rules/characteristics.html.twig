@@ -3,4 +3,24 @@
 {# /règles/caractéristiques #}
 {# @var characteristics \App\Entity\Rule\Characteristic #}
 
-{% block content %}{% endblock %}
+{% set page = 'characteristics' %}
+{% set domain = 'rules' %}
+
+{% block header %}
+    <div class="header-content-wrapper">
+        <h1>Les règles</h1>
+        <h2>Caractéristiques</h2>
+    </div>
+{% endblock %}
+
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for characteristic in characteristics %}
+        {% endfor %}
+    </section>
+{% endblock %}

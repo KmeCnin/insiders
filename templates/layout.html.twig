@@ -13,11 +13,11 @@
   <body>
     {{ include('includes/menu.html.twig') }}
 
-    <header class="header header-{% block pageheader %}{% endblock %}">
+    <header class="header header-{{ page }}">
       {% block header %}{% endblock %}
     </header>
 
-    <main class="main main-{% block pagemain %}{% endblock %}">
+    <main class="main main-{{ domain }}">
       <div class="container">
         {% block container %}{% endblock %}
       </div>

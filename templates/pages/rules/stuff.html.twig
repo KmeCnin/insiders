@@ -6,4 +6,32 @@
 {# @var objects \App\Entity\Stuff #}
 {# @var expendables \App\Entity\Stuff #}
 
-{% block content %}{% endblock %}
+{% set page = 'stuff' %}
+{% set domain = 'rules' %}
+
+{% block header %}
+    <div class="header" style="background-image: url({{ asset('resources/images/bg-header-stuff.jpg') }});">
+        <div class="header-content-wrapper">
+            <h1>Les règles</h1>
+            <h2>Equipements</h2>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for weapon in weapons %}
+        {% endfor %}
+        {% for armor in armors %}
+        {% endfor %}
+        {% for object in objects %}
+        {% endfor %}
+        {% for expendable in expendables %}
+        {% endfor %}
+    </section>
+{% endblock %}

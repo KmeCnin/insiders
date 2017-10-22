@@ -3,4 +3,24 @@
 {# /règles/décharges-d'arcanite #}
 {# @var bursts \App\Entity\Rule\Burst #}
 
-{% block content %}{% endblock %}
+{% set page = 'bursts' %}
+{% set domain = 'rules' %}
+
+{% block header %}
+    <div class="header-content-wrapper">
+        <h1>Les règles</h1>
+        <h2>Décharges d'arcanite</h2>
+    </div>
+{% endblock %}
+
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for burst in bursts %}
+        {% endfor %}
+    </section>
+{% endblock %}
