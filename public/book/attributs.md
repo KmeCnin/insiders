@@ -10,12 +10,6 @@
 
 Les **attributs physiques** représentent des compétences particulières innées chez des animaux ou acquises par des personnages grâce à l&#039;entraînement ou suite à des mutations après absorption de cristaux d&#039;arcanite.
 
-## Pisteur
-
-**1 PC. Possède un odorat et une ouïe sur-développés**
-
-Le personnage possède un trait bestial lui conférant une excellente perception des odeurs et des sons.  
- Cela lui permet d&#039;utiliser un bonus de 3 points d&#039;Inctinct lorsqu&#039;il lance un jet de Dévoiler dans le but de percevoir une odeur ou un son.
 ## Ailes
 
 **2 PC. Peut se déplacer dans les airs**
@@ -40,3 +34,27 @@ Le personnage possède des griffes, des canines acérées ou n’importe quelle 
 
 Le personnage possède des griffes, des canines acérées ou n’importe quelle excroissance capable de sérieusement blesser ses adversaires.  
  Dans tous les cas, le personnage est capable d’infliger des blessures de degré III au contact en réussissant un jet d’Imposer.
+## Écholocalisation
+
+**1 PC. Possède une ouïe sur-développée**
+
+Le personnage possède un trait bestial lui conférant une excellente perception des sons.  
+ Cela lui permet de localiser avec une grande précision les bruits environnant, d&#039;avoir conscience de la présence d&#039;ennemis à distance, etc.
+
+Lorsqu&#039;il utilise un jet de Dévoiler pour percevoir un son, il possède un bonus de 3 points d&#039;Instinct supplémentaires.
+## Pisteur
+
+**1 PC. Possède un odorat sur-développé**
+
+Le personnage possède un trait bestial lui conférant une excellente perception des odeurs.  
+ Cela lui permet de suivre la trace odorante d&#039;une cible, d&#039;avoir conscience de la présence d&#039;ennemis à distance, etc.
+
+Lorsqu&#039;il utilise un jet de Dévoiler pour percevoir une odeur, il possède un bonus de 3 points d&#039;Instinct supplémentaires.
+## Vue perçante
+
+**1 PC. Possède une vue sur-développée**
+
+Le personnage possède un trait bestial lui conférant une excellente perception visuelle.  
+ Cela lui permet de voir très loin, de déceler des détails infimes dans son environnement, de percer à jour des camouflages subtiles, etc.
+
+Lorsqu&#039;il utilise un jet de Dévoiler pour percevoir visuellement, il possède un bonus de 3 points d&#039;Instinct supplémentaires.

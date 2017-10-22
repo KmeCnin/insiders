@@ -2,7 +2,7 @@
 @import "navbar";
 
 body {
-  margin: 0;
+  margin: 65px 0 0 0;
 
   font-family: 'Open Sans', sans-serif;
   color: $text-color;
@@ -33,18 +33,23 @@ a {
   }
 }
 
-.main-home {
-  background: url(../../images/bg-main-home.jpg) no-repeat fixed;
+.main-default {
+  background: url(../../images/default.jpg) no-repeat fixed;
   background-size: cover;
 }
 
-.main-abilities {
-  background: url(../../images/bg-main-abilities.jpg) no-repeat fixed;
+.main-rules {
+  background: url(../../images/rules.jpg) no-repeat fixed;
   background-size: cover;
 }
 
-.main-arcanes {
-  background: url(../../images/bg-main-arcanes.jpg) no-repeat fixed;
+.main-universe {
+  background: url(../../images/universe.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.main-tools {
+  background: url(../../images/tools.jpg) no-repeat fixed;
   background-size: cover;
 }
 
@@ -114,14 +119,14 @@ a {
     a {
       width: 90px;
       position: relative;
-      bottom: 30px;
+      bottom: 35px;
       display: flex;
       flex-direction: column;
       align-items: center;
       margin: 0 5px;
   
       img {
-        height: 25px;
+        height: 35px;
         margin-bottom: 8px;
 
         opacity: 0.3;
@@ -267,8 +272,10 @@ a {
 .block-title {
   div {
     display: flex;
+    align-items: center;
 
     img {
+      height: 55px;
       margin-right: 15px;
     }
 
@@ -292,6 +299,7 @@ a {
   display: flex;
   margin: 20px 0 30px 0;
   padding: 0;
+  min-height: 200px;
 
   background: url(../../images/block-pattern.png);
 
@@ -331,11 +339,78 @@ a {
     }
   }
 
-  .bg-ability,
-  .bg-arcane {
+  .bg-block {
     width: 40%;
     min-height: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
+}
+
+.block-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 30px 0;
+  padding: 0;
+
+  border: none;
+}
+
+.block-group-item {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 10px;
+
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+  div {
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    border-radius: 0 0 2px 2px;
+
+    background: rgba(0, 0, 0, 0.44);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* Standard syntax */
+
+    h2 {
+      margin: 0;
+
+      font-size: 0.8em;
+    }
+
+    p {
+      margin: 8px 0 0 0;
+
+      font-size: 0.7em;
+      font-weight: 300;
+      color: #fff;
+    }
+  }
+}
+
+.block-group-item:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .reverse {

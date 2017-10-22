@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Les initiés{% endblock %}</title>
+    <title>{% block title %}{{ subtitle }} - {{ title }} - Les Initiés{% endblock %}</title>
     <link rel="stylesheet" href="{{ asset('resources/style/css/style.css') }}">
     {% block css %}{% endblock %}
 
@@ -13,13 +13,21 @@
   <body>
     {{ include('includes/menu.html.twig') }}
 
-    <header class="header header-{% block pageheader %}{% endblock %}">
-      {% block header %}{% endblock %}
+    <header>
+      {% block header %}
+      <div class="header" style="background-image: url({{ header_bg|default('') }});">
+        <div class="header-content-wrapper">
+          <h1>{{ title }}</h1>
+          <h2>{{ subtitle }}</h2>
+        </div>
+      </div>
+      {% endblock %}
     </header>
 
-    <main class="main main-{% block pagemain %}{% endblock %}">
+    <main class="main main-{{ domain|default('default') }}">
       <div class="container">
-        {% block container %}{% endblock %}
+        {% block container %}
+        {% endblock %}
       </div>
     </main>
 </body>

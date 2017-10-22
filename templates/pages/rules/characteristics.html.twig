@@ -1,6 +1,19 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-rules.html.twig' %}
 
 {# /règles/caractéristiques #}
 {# @var characteristics \App\Entity\Rule\Characteristic #}
 
-{% block content %}{% endblock %}
+{% set header_bg = asset('resources/images/bg-header-characteristics.jpg') %}
+{% set subtitle = 'Caractéristiques' %}
+
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for characteristic in characteristics %}
+        {% endfor %}
+    </section>
+{% endblock %}

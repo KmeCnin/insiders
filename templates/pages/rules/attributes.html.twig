@@ -1,6 +1,32 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-rules.html.twig' %}
 
 {# /règles/attributs-physiques #}
 {# @var attributes \App\Entity\Rule\Attribute #}
 
-{% block content %}{% endblock %}
+{% set header_bg = asset('resources/images/bg-header-attributes.jpg') %}
+{% set subtitle = 'Attributs physiques' %}
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for attribute in attributes %}
+            <div class="block-split-wrapper">
+                <div class="block-title">
+                    <div>
+                        <h1>{{ attribute.name }}</h1>
+                    </div>
+                    <span>{{ attribute.short }}</span>
+                </div>
+                <div class="block block-split">
+                    <div class="block-content">
+                        <p>{{ attribute.description|raw }}</p>
+                    </div>
+                    <div class="bg-block" style="background-image: url({{ asset('resources/images/attributes/'~attribute.id~'.jpg') }})"></div>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+{% endblock %}

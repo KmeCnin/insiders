@@ -1,18 +1,10 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-universe.html.twig' %}
 
 {# /universe/arcanes #}
 {# @var arcanes \App\Entity\Rule\Arcane #}
 
-{% block pageheader %}arcanes{% endblock %}
-{% block pagemain %}arcanes{% endblock %}
-
-{% block header %} 
-  <div class="header-content-wrapper">
-    <h1>L'Univers</h1>
-    <h2>Arcanes</h2>
-  </div>
-{% endblock %}
-
+{% set header_bg = asset('resources/images/bg-header-arcanes.jpg') %}
+{% set subtitle = 'Arcanes' %}
 
 {% block container %} 
   <div class="block block-intro">
@@ -24,7 +16,7 @@
       <div class="block-split-wrapper">
         <div class="block-title">
           <div>
-            <img src="{{ asset('resources/images/arcanes/'~arcane.id~'.svg') }}" alt="La Source">
+            <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="{{ arcane.name }}">
             <h1>{{ arcane.name }}</h1>
           </div>
           <span>{{ arcane.short }}</span>
@@ -33,8 +25,8 @@
           <div class="block-content">
             <p>{{ arcane.description|raw }}</p>
           </div>
-          <div class="bg-arcane" style="background: url({{ asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') }}) no-repeat center; background-size: cover;"></div>
-          <img src="{{ asset('resources/images/arcanes/source-bg.svg') }}" alt="La Source">
+          <div class="bg-block" style="background-image: url({{ asset('resources/images/arcanes/'~arcane.id~'.jpg') }})"></div>
+          <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'-bg.svg') }}" alt="{{ arcane.name }}">
         </div>
       </div>
     {% endfor %}

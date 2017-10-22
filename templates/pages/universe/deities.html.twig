@@ -1,6 +1,18 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-universe.html.twig' %}
 
 {# /universe/divinités #}
 {# @var deities \App\Entity\Rule\Deity #}
 
-{% block content %}{% endblock %}
+{% set header_bg = asset('resources/images/bg-header-deities.jpg') %}
+{% set subtitle = 'Divinités' %}
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for deity in deities %}
+        {% endfor %}
+    </section>
+{% endblock %}
