@@ -147,15 +147,19 @@ a {
   margin: auto;
   padding: 100px 30px; }
 
-.main-home {
+.main-default {
   background: url(../../images/bg-main-home.jpg) no-repeat fixed;
   background-size: cover; }
 
-.main-abilities {
+.main-rules {
   background: url(../../images/bg-main-abilities.jpg) no-repeat fixed;
   background-size: cover; }
 
-.main-arcanes {
+.main-universe {
+  background: url(../../images/bg-main-arcanes.jpg) no-repeat fixed;
+  background-size: cover; }
+
+.main-tools {
   background: url(../../images/bg-main-arcanes.jpg) no-repeat fixed;
   background-size: cover; }
 
