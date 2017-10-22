@@ -3,4 +3,24 @@
 {# /règles/attributs-physiques #}
 {# @var attributes \App\Entity\Rule\Attribute #}
 
-{% block content %}{% endblock %}
+{% set page = 'attributes' %}
+{% set domain = 'rules' %}
+
+{% block header %}
+    <div class="header-content-wrapper">
+        <h1>Les règles</h1>
+        <h2>Attributs physiques</h2>
+    </div>
+{% endblock %}
+
+
+{% block container %}
+    <div class="block block-intro">
+        <p>{{ description|raw }}</p>
+    </div>
+
+    <section>
+        {% for attribute in attributes %}
+        {% endfor %}
+    </section>
+{% endblock %}

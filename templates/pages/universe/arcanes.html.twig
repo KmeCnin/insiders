@@ -3,8 +3,8 @@
 {# /universe/arcanes #}
 {# @var arcanes \App\Entity\Rule\Arcane #}
 
-{% block pageheader %}arcanes{% endblock %}
-{% block pagemain %}arcanes{% endblock %}
+{% set page = 'arcanes' %}
+{% set domain = 'universe' %}
 
 {% block header %} 
   <div class="header-content-wrapper">
@@ -24,7 +24,7 @@
       <div class="block-split-wrapper">
         <div class="block-title">
           <div>
-            <img src="{{ asset('resources/images/arcanes/'~arcane.id~'.svg') }}" alt="La Source">
+            <img src="{{ asset('resources/images/arcanes/'~arcane.id~'.svg') }}" alt="{{ arcane.name }}">
             <h1>{{ arcane.name }}</h1>
           </div>
           <span>{{ arcane.short }}</span>
@@ -34,7 +34,7 @@
             <p>{{ arcane.description|raw }}</p>
           </div>
           <div class="bg-arcane" style="background: url({{ asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') }}) no-repeat center; background-size: cover;"></div>
-          <img src="{{ asset('resources/images/arcanes/source-bg.svg') }}" alt="La Source">
+          <img src="{{ asset('resources/images/arcanes/'~arcane.id~'-bg.svg') }}" alt="{{ arcane.name }}">
         </div>
       </div>
     {% endfor %}

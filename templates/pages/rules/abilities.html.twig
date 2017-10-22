@@ -3,10 +3,10 @@
 {# /règles/capacités-arcaniques #}
 {# @var arcane \App\Entity\Rule\Arcane #}
 {# @var arcanes \App\Entity\Rule\Arcane #}
-{# @var abilities \App\Entity\Rule\Ability #}
+{# @var abilities \App\Entity\Rule\Ability[] #}
 
-{% block pageheader %}abilities{% endblock %}
-{% block pagemain %}abilities{% endblock %}
+{% set page = 'abilities' %}
+{% set domain = 'rules' %}
 
 {% block header %} 
   <div class="header" style="background-image: url({{ asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') }});">
@@ -37,16 +37,18 @@
       <div class="block block-split">
         <div class="block-content">
           {# Tabs #}
-          <div class="tabs-wrapper">
-            <div>
-              <ul class="tabs">
-                <li class="tab"><a href="#test1">Test 1</a></li>
-                <li class="tab"><a class="active" href="#test2">Test 2</a></li>
-              </ul>
-            </div>
-            <div id="test1"><p>{{ ability.description|raw }}</p></div>
-            <div id="test2"><p>{{ ability.description|raw }}</p></div>
-          </div>
+          {#<div class="tabs-wrapper">#}
+            {#<div>#}
+              {#<ul class="tabs">#}
+                {#<li class="tab"><a href="#test1">Test 1</a></li>#}
+                {#<li class="tab"><a class="active" href="#test2">Test 2</a></li>#}
+              {#</ul>#}
+            {#</div>#}
+            {% for increase in ability.increases %}
+                {#<div id="test1">{{ increase.description }}</div>#}
+            {% endfor %}
+          {#</div>#}
+          <p>{{ ability.description|raw }}</p>
         </div>
 
         <div class="bg-ability" style="background: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }}) no-repeat center; background-size: cover;"></div>

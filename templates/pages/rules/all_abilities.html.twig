@@ -4,8 +4,8 @@
 {# @var description #}
 {# @var arcanes \App\Entity\Rule\Arcane[] #}
 
-{% block page %}abilities{% endblock %}
-{% block pagemain %}abilities{% endblock %}
+{% set page = 'abilities' %}
+{% set domain = 'rules' %}
 
 {% block header %} 
   <div class="header" style="background-image: url({{ asset('resources/images/bg-header-abilities.jpg') }});">
