@@ -1,18 +1,10 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-universe.html.twig' %}
 
 {# /universe/divinités #}
 {# @var deities \App\Entity\Rule\Deity #}
 
-{% set page = 'deities' %}
-{% set domain = 'universe' %}
-
-{% block header %}
-    <div class="header-content-wrapper">
-        <h1>L'Univers</h1>
-        <h2>Divinités</h2>
-    </div>
-{% endblock %}
-
+{% set header_bg = asset('resources/images/bg-header-deities.jpg') %}
+{% set subtitle = 'Divinités' %}
 
 {% block container %}
     <div class="block block-intro">

@@ -1,20 +1,11 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-rules.html.twig' %}
 
 {# /règles/capacités-arcaniques #}
 {# @var description #}
 {# @var arcanes \App\Entity\Rule\Arcane[] #}
 
-{% set page = 'abilities' %}
-{% set domain = 'rules' %}
-
-{% block header %} 
-  <div class="header" style="background-image: url({{ asset('resources/images/bg-header-abilities.jpg') }});">
-    <div class="header-content-wrapper">
-      <h1>Les règles</h1>
-      <h2>Toutes les capacités</h2>
-    </div>
-  </div>
-{% endblock %}
+{% set header_bg = asset('resources/images/bg-header-abilities.jpg') %}
+{% set subtitle = 'Toutes les capacités' %}
 
 {% block container %}
 {{ include('includes/rules/breadcrumb.html.twig', [arcanes]) }}
@@ -29,7 +20,7 @@
 
   <div class="block-title">
     <div>
-      <img src="{{ asset('resources/images/arcanes/'~arcane.id~'.svg') }}" alt="La Source">
+      <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="La Source">
       <h1>{{ arcane.name }}</h1>
     </div>
     <span>{{ arcane.short }}</span>

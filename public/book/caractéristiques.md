@@ -22,23 +22,23 @@ Lorsque 2 entités s&#039;opposent, elles effectuent chacune un jet de la caract
 
 Un score d&#039;Instinct élevé permettra donc d&#039;obtenir un résultat potentiellement plus grand mais avec une forte variation possible alors qu&#039;un score de Maîtrise élevé ne permet pas d&#039;augmenter le score maximum mais influera sur le résultat du jet pour le faire pencher vers son maximum plus souvent. Cela représente le fait que, sans expérience les capacités physiques restent sous exploitées et mal coordonnées alors que l&#039;expérience apporte une plus grande fiabilité et une meilleur connaissance de son corps sans pour autant réellement décupler les compétences au delà de leur capacité.
 
-## Imposer
-
-**Force et habileté**
-
-La caractéristique Imposer d&#039;un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à aggresser un autre personnage, à évoluer dans son environnement, à viser, etc.
-## Dissimuler
-
-**Ruse et charisme**
-
-La caractéristique Dissimuler d&#039;un personnage représente sa ruse et son charisme. Elle détermine la capacité du personnage à être discret, à mentir, à manipuler autrui, etc.
-## Résister
-
-**Vigueur et réflexes**
-
-La caractéristique Résister d&#039;un personnage représente sa forme physique et ses réflexes. Elle détermine la capacité du personnage à se protéger, à éviter, à être endurant, etc.
 ## Dévoiler
 
 **Intelligence et lucidité**
 
 La caractéristique Dévoiler d&#039;un personnage représente son intelligence et sa lucidité. Elle détermine la capacité du personnage à connaître, à percevoir, à déceler une supercherie, etc.
+## Dissimuler
+
+**Ruse et charisme**
+
+La caractéristique Dissimuler d&#039;un personnage représente sa ruse et son charisme. Elle détermine la capacité du personnage à être discret, à mentir, à manipuler autrui, etc.
+## Imposer
+
+**Force et habileté**
+
+La caractéristique Imposer d&#039;un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à aggresser un autre personnage, à évoluer dans son environnement, à viser, etc.
+## Résister
+
+**Vigueur et réflexes**
+
+La caractéristique Résister d&#039;un personnage représente sa forme physique et ses réflexes. Elle détermine la capacité du personnage à se protéger, à éviter, à être endurant, etc.

@@ -1,17 +1,10 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-rules.html.twig' %}
 
 {# /règles/caractéristiques #}
 {# @var characteristics \App\Entity\Rule\Characteristic #}
 
-{% set page = 'characteristics' %}
-{% set domain = 'rules' %}
-
-{% block header %}
-    <div class="header-content-wrapper">
-        <h1>Les règles</h1>
-        <h2>Caractéristiques</h2>
-    </div>
-{% endblock %}
+{% set header_bg = asset('resources/images/bg-header-characteristics.jpg') %}
+{% set subtitle = 'Caractéristiques' %}
 
 
 {% block container %}

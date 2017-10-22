@@ -1,4 +1,4 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-rules.html.twig' %}
 
 {# /règles/équipements #}
 {# @var weapons \App\Entity\Stuff #}
@@ -6,18 +6,8 @@
 {# @var objects \App\Entity\Stuff #}
 {# @var expendables \App\Entity\Stuff #}
 
-{% set page = 'stuff' %}
-{% set domain = 'rules' %}
-
-{% block header %}
-    <div class="header" style="background-image: url({{ asset('resources/images/bg-header-stuff.jpg') }});">
-        <div class="header-content-wrapper">
-            <h1>Les règles</h1>
-            <h2>Equipements</h2>
-        </div>
-    </div>
-{% endblock %}
-
+{% set header_bg = asset('resources/images/bg-header-stuff.jpg') %}
+{% set subtitle = 'Equipements' %}
 
 {% block container %}
     <div class="block block-intro">

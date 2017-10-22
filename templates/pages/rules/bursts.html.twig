@@ -1,18 +1,10 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-rules.html.twig' %}
 
 {# /règles/décharges-d'arcanite #}
 {# @var bursts \App\Entity\Rule\Burst #}
 
-{% set page = 'bursts' %}
-{% set domain = 'rules' %}
-
-{% block header %}
-    <div class="header-content-wrapper">
-        <h1>Les règles</h1>
-        <h2>Décharges d'arcanite</h2>
-    </div>
-{% endblock %}
-
+{% set header_bg = asset('resources/images/bg-header-bursts.jpg') %}
+{% set subtitle = 'Décharges d\'arcanite' %}
 
 {% block container %}
     <div class="block block-intro">
@@ -21,6 +13,20 @@
 
     <section>
         {% for burst in bursts %}
+            <div class="block-split-wrapper">
+                <div class="block-title">
+                    <div>
+                        <h1>{{ burst.name }}</h1>
+                    </div>
+                    <span>{{ burst.short }}</span>
+                </div>
+                <div class="block block-split">
+                    <div class="block-content">
+                        <p>{{ burst.description|raw }}</p>
+                    </div>
+                    <div class="bg-block" style="background-image: url({{ asset('resources/images/bursts/bg-img/'~burst.id~'.jpg') }})"></div>
+                </div>
+            </div>
         {% endfor %}
     </section>
 {% endblock %}

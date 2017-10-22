@@ -1,21 +1,12 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layout-rules.html.twig' %}
 
 {# /règles/capacités-arcaniques #}
 {# @var arcane \App\Entity\Rule\Arcane #}
 {# @var arcanes \App\Entity\Rule\Arcane #}
 {# @var abilities \App\Entity\Rule\Ability[] #}
 
-{% set page = 'abilities' %}
-{% set domain = 'rules' %}
-
-{% block header %} 
-  <div class="header" style="background-image: url({{ asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') }});">
-    <div class="header-content-wrapper">
-      <h1>Les règles</h1>
-      <h2>Capacités de {{ arcane.name }}</h2>
-    </div>
-  </div>
-{% endblock %}
+{% set header_bg = asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') %}
+{% set subtitle = 'Capacités de '~arcane.name %}
 
 {% block container %} 
   {{ include('includes/rules/breadcrumb.html.twig', [arcanes, arcane]) }}
@@ -51,9 +42,9 @@
           <p>{{ ability.description|raw }}</p>
         </div>
 
-        <div class="bg-ability" style="background: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }}) no-repeat center; background-size: cover;"></div>
+        <div class="bg-block" style="background-image: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }})"></div>
 
-        <img src="{{ asset('resources/images/arcanes/'~arcane.id~'-bg.svg') }}" alt="La Source">
+        <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'-bg.svg') }}" alt="La Source">
       </div>
       {% endfor %}
     </div>

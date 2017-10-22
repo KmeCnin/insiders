@@ -1,13 +1,15 @@
 {% extends 'layout.html.twig' %}
 
-{% set page = 'home' %}
-{% set domain = 'default' %}
+{% set title = 'Accueil' %}
+{% set subtitle = 'Bienvenue' %}
 
-{% block header %} 
-  <div class="header-content-wrapper">
-    <img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">
-    <h1>Rejoignez Les Initiés</h1>
-    <h2>Vivez l'aventure</h2>
+{% block header %}
+  <div class="header" style="background-image: url({{ asset('resources/images/home/home-header-bg.jpg') }});">
+    <div class="header-content-wrapper">
+      <img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">
+      <h1>Rejoignez Les Initiés</h1>
+      <h2>Vivez l'aventure</h2>
+    </div>
   </div>
 {% endblock %}
 
