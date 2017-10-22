@@ -36,7 +36,17 @@
 
       <div class="block block-split">
         <div class="block-content">
-          <p>{{ ability.description|raw }}</p>
+          {# Tabs #}
+          <div class="tabs-wrapper">
+            <div>
+              <ul class="tabs">
+                <li class="tab"><a href="#test1">Test 1</a></li>
+                <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+              </ul>
+            </div>
+            <div id="test1"><p>{{ ability.description|raw }}</p></div>
+            <div id="test2"><p>{{ ability.description|raw }}</p></div>
+          </div>
         </div>
 
         <div class="bg-ability" style="background: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }}) no-repeat center; background-size: cover;"></div>
