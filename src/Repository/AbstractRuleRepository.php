@@ -10,6 +10,8 @@ abstract class AbstractRuleRepository extends EntityRepository
     {
         return $this->findBy([
             'enabled' => true,
+        ], [
+            'name' => 'ASC',
         ]);
     }
 }
