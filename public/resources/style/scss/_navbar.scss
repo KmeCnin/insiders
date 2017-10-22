@@ -2,12 +2,25 @@
 
 .navbar {
   height: 65px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left:0 ;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  z-index: 1000;
 
   border-bottom: 1px solid $secondary-color;
   background: url(../../images/navbar-pattern.png);
+
+  .navbar-container {
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   .logo {
     display: flex;
@@ -15,7 +28,7 @@
 
     img {
       height: 32px;
-      margin: 0 10px;
+      margin: 0 10px 0 0;
     }
 
     div span {
@@ -99,6 +112,10 @@
         border-bottom: none;
       }
     }
+  }
+
+  .tabs > li:last-of-type {
+    padding-right: 0;
   }
 
   .tabs > li > a {

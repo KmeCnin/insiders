@@ -5,6 +5,7 @@
 {# @var arcanes \App\Entity\Rule\Arcane[] #}
 
 {% block page %}abilities{% endblock %}
+{% block pagemain %}abilities{% endblock %}
 
 {% block header %} 
   <div class="header" style="background-image: url({{ asset('resources/images/bg-header-abilities.jpg') }});">
@@ -16,6 +17,8 @@
 {% endblock %}
 
 {% block container %}
+{{ include('includes/rules/breadcrumb.html.twig', [arcanes]) }}
+
 <div class="block block-intro">
   <p>{{ description|raw }}</p>
 </div>
@@ -23,13 +26,26 @@
 {% for entry in map %}
   {# @var arcane \App\Entity\Rule\Arcane #}
   {% set arcane = entry['arcane'] %}
-  <h1>{{ arcane.name }}</h1>
-  <p>{{ arcane.short }}</p>
-  {% set abilities = entry['abilities'] %}
-  {% for ability in abilities %}
+
+  <div class="block-title">
+    <div>
+      <img src="{{ asset('resources/images/arcanes/'~arcane.id~'.svg') }}" alt="La Source">
+      <h1>{{ arcane.name }}</h1>
+    </div>
+    <span>{{ arcane.short }}</span>
+  </div>
+
+  <div class="block block-group">
+    {% set abilities = entry['abilities'] %}
+    {% for ability in abilities %}
       {# @var ability \App\Entity\Rule\Ability #}
-  <h2>{{ ability.name }}</h2>
-  <p>{{ ability.short }}</p>
-  {% endfor %}
+      <a class="block-group-item" href="{{ path('rules.abilities', {'slug': arcane.slug})~'#'~ability.slug }}" style="background-image: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }});">
+        <div>
+          <h2>{{ ability.name }}</h2>
+          <p>{{ ability.short }}</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
 {% endfor %}
 {% endblock %}

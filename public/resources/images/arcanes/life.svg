@@ -1,21 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="38px" height="37px" viewBox="0 0 38 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>picto l'essence</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-28.000000, -1380.000000)">
-            <g id="side-navbar" transform="translate(0.000000, 672.000000)">
-                <g id="item-1" transform="translate(0.000000, 680.000000)">
-                    <g id="title-arcane" transform="translate(31.000000, 22.000000)">
-                        <g id="picto-l'essence" transform="translate(0.000000, 10.000000)">
-                            <polygon id="Stroke-1" stroke="#F0E6D2" stroke-width="3" points="32.4090909 30.8658009 0 30.8658009 16.2045455 0"></polygon>
-                            <path d="M19.7272727,20.4318182 C19.7272727,22.3771391 18.1498664,23.9545455 16.2045455,23.9545455 C14.2584902,23.9545455 12.6818182,22.3771391 12.6818182,20.4318182 C12.6818182,18.4864972 14.2584902,16.9090909 16.2045455,16.9090909 C18.1498664,16.9090909 19.7272727,18.4864972 19.7272727,20.4318182" id="Fill-3" fill="#F0E6D2"></path>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-605 102 38 37" style="enable-background:new -605 102 38 37;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F0E6D2;stroke-width:3;}
+	.st1{fill:#F0E6D2;}
+</style>
+<title>picto l&apos;essence</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Desktop-HD" transform="translate(-28.000000, -1380.000000)">
+		<g id="side-navbar" transform="translate(0.000000, 672.000000)">
+			<g id="item-1" transform="translate(0.000000, 680.000000)">
+				<g id="title-arcane" transform="translate(31.000000, 22.000000)">
+					<g id="picto-l_x27_essence" transform="translate(0.000000, 10.000000)">
+						<polygon id="Stroke-1" class="st0" points="-572.6,132.9 -605,132.9 -588.8,102 						"/>
+						<path id="Fill-3" class="st1" d="M-585.3,122.4c0,1.9-1.6,3.5-3.5,3.5c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5
+							C-586.9,118.9-585.3,120.5-585.3,122.4"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
