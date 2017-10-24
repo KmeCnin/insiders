@@ -5,7 +5,7 @@
 {# @var arcanes \App\Entity\Rule\Arcane #}
 {# @var abilities \App\Entity\Rule\Ability[] #}
 
-{% set header_bg = asset('resources/images/arcanes/bg-img/'~arcane.id~'.jpg') %}
+{% set header_bg = asset('resources/images/arcanes/'~arcane.id~'.jpg') %}
 {% set subtitle = 'Capacités de '~arcane.name %}
 
 {% block container %} 
@@ -40,6 +40,9 @@
             {% endfor %}
           {#</div>#}
           <p>{{ ability.description|raw }}</p>
+          {% if ability.abilitiesRequired|length > 0 %}
+            <span class="need"><span>Nécessite :</span> {{ ability.abilitiesRequired|join(', ') }}</span>
+          {% endif %}
         </div>
 
         <div class="bg-block" style="background-image: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }})"></div>

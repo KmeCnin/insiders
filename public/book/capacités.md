@@ -28,10 +28,11 @@ La force qui gouverne l&#039;existence
 **Contrôle un animal qui devient une extension de son esprit**
 
 Le personnage choisit un animal apprivoisé avec lequel il crée un lien psychique définitif.  
- Le personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#039;instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d&#039;Instinct en Imposer et Résister de l&#039;animal.  
+ Le personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#039;instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d&#039;Instinct en Imposer et Résister de l&#039;animal. Il conserve également les attributs physiques de l&#039;animal.  
  Pendant ce temps le corps du personnage reste statique et sans défense.  
- De plus, le personnage peut utiliser toutes ses capacités arcaniques fonctionnant au contact en utilisant son familier comme canal et atteindre toutes cible au contact de son familier comme si il y était lui-même.  
  Le familier peut s&#039;éloigner du personnage sans limite de distance. Mais le transfert d&#039;esprit doit avoir lieu à distance, une fois l&#039;esprit du personnage transféré dans le familier, il peut alors continuer à s&#039;éloigner sans limite.
+
+A tout moment, le personnage peut utiliser toutes ses capacités arcaniques fonctionnant au contact en utilisant son familier comme canal et atteindre toutes cibles au contact de l&#039;animal comme si il y était lui-même.
 
 Si le familier est tué, une blessure de degré III est infligée au personnage. C&#039;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite créer un nouveau lien avec un autre animale.  
  Si le personnage subit une blessure pendant que son esprit se trouve dans son familier, la capacité est alors interrompue de force.  
@@ -47,9 +48,14 @@ Si le familier est tué, une blessure de degré III est infligée au personnage.
 **Peut donner vie à une créature**
 
 Le personnage peut rendre matériel une créature qu&#039;il est capable d&#039;imaginer.  
- Cela lui permet d&#039;invoquer un ou plusieurs animaux ou abérations sans capacités arcaniques.  
- Le FP cumulé des créatures invoquées ne doit pas être supérieur au double du score d&#039;Instinct de Dévoiler du personnage. Le personnage peut choisir les points d&#039;Instinct de caractéristique avec un minimum de 1 partout ainsi que des attributs physiques. La créature invoquée ne peut pas s’éloigner trop loin du personnage sous risque d&#039;être détruite. La moindre blessure de degré I suffit à la détruire complètement, sévaporant alors immédiatement.  
- S&#039;il s&#039;agit d&#039;une créature intelligente comme un humain par exemple, elle est alors invoquée nue, sans équipement et sans capacité de communiquer, seulement comprendre et exécuter des ordres simples.
+ Cela lui permet d&#039;invoquer un ou plusieurs animaux sans capacités arcaniques.
+
+Le personnage peut invoquer plusieurs créatures tant que leur facteur de puissance cumulé ne dépasse pas le double de son score d&#039;Instinct en Dévoiler.  
+ Chaque créature doit être invoquée l&#039;une après l&#039;autre.  
+ Le personnage peut répartir comme il le souhaite les points de caractéristiques (avec un minimum de 1 dans chacune) ainsi que les attributs physiques de ses créations.
+
+Les créatures invoquées ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruites. La moindre blessure de degré I suffit à la détruire complètement, s&#039;évaporant alors immédiatement.  
+ S&#039;il s&#039;agit de créatures intelligentes comme un humain par exemple, elle sont alors invoquées nues, sans équipement et sans capacité de communiquer, seulement comprendre et exécuter des ordres simples.
 
 **Augmentations:**
 - Peut invoquer trois fois son score de Dévoiler
@@ -60,26 +66,34 @@ Le personnage peut rendre matériel une créature qu&#039;il est capable d&#039;
 
 **Chaque membre utilise la maîtrise du meilleur élément de l&#039;équipe**
 
-Le personnage choisit des personnages à distance qui doivent être consentants et forment alors un groupe lié spirituelment.  
- Chaque personnage lié ainsi utilise pour chacune de ses caractéristiques le score de Maîtrise du membre du groupe possédant le meilleur score.
+Le personnage sert de lien spirituel entre les membres de son équipe.
+
+Il choisit des personnages à distance qui doivent être consentants et forment alors un groupe lié spirituellement.  
+ Chaque personnage ainsi lié utilise pour chacune de ses caractéristiques le score de Maîtrise du membre du groupe possédant le meilleur score.
+
+Cette capacité fonctionne en continue sans que le personnage n&#039;ai besoin de concentration particulière.
 
 ### <a name="anchor-perception-de-la-vie"></a>Perception de la vie
 
 **A conscience des formes de vies qui l&#039;entourent**
 
 Le personnage a conscience de l’existence des formes de vies alentours (végétales et animales).  
- Cela lui permet par exemple de se repérer sans lumière, percevoir les personnages invisibles, de localiser de la végétation, etc.
+ Cela lui permet par exemple de percevoir les personnages invisibles, de trouver du gibier, de localiser de la végétation, etc.
+
+Le personnage localise précisément les êtres vivants à distance et est capable, sans le voir, de différencier un être intelligent d&#039;un animal ou d&#039;un simple végétal. Mais il ne peut cependant pas discerner plus précisément l&#039;identité d&#039;une personne, même très bien connue sans l&#039;avoir en visuel.
+
+Les invocations come les morts-vivants, illusions, leurres, clones de dédoublement (et plus généralement toutes les créations qui disparaissent à la moindre blessure) ne possèdent pas d&#039;esprit et ne peuvent donc pas être perçus de la sorte. Ce qui peut être un inconvenient mais également un avantage pour discerner l&#039;individu original au milieu des faux.
 
 ### <a name="anchor-telepathie"></a>Télépathie
 
 **Peut communiquer avec un personnage à distance**
 
-**Nécessite:**
-[Localisation](#anchor-localisation)
+Le personnage peut communiquer mentalement avec un personnage ou un animal à distance.
 
-Le personnage peut communiquer mentalement avec un personnage ou un animal à distance.  
- S&#039;il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue.  
+S&#039;il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue.  
  Une fois le message transmit, la cible peut ensuite répondre mentalement par une phrase. Il n&#039;a pas besoin de parler la même langue que la cible pour comprendre et être compris (il peut même communiquer avec des animaux en utilisant des mots simples).
+
+L&#039;utilisation de cette capacité ne donne cependant aucune information concernant la localisation de la cible. Elle ne permet pas non plus de différencier une cible morte ou inconsciente (en cas de perte de contact).
 
 ## <a name="anchor-l-essence"></a>L&#039;Essence
 
@@ -123,8 +137,11 @@ Le corps du personnage est fait d&#039;un matériau noir extrêmement solide app
 
 **Peut se dédoubler**
 
-Le personnage peut créer des doubles de lui-même en utilisant ses points d&#039;Instinct personnels (un double doit posséder au minimum 1 point d&#039;Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables par le personnage original.  
- Les doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit. Le personnage n&#039;a pas conscience de ce que ses doubles perçoivent jusqu&#039;à ce qu&#039;ils soient détruits, à ce moment il acquière tous leurs souvenirs.  
+Le personnage peut répartir son énergie corporelle entre plusieurs simulacres de lui-même.
+
+Il peut créer des doubles en utilisant ses points d&#039;Instinct personnels (un double doit posséder au minimum 1 point d&#039;Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables par le personnage original.
+
+Les doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit. Le personnage n&#039;a pas conscience de ce que ses doubles perçoivent jusqu&#039;à ce qu&#039;ils soient détruits, à ce moment il acquière tous leurs souvenirs.  
  Les doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruits. La moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.  
  Si le personnage original devait mourir, il peut alors transférer son âme dans un de ses doubles qui récupère alors les points d&#039;Instinct du personnage décédé ainsi que la dernière blessure qui lui a été infligée.
 
@@ -504,8 +521,7 @@ Grâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augm
 Le personnage voit en permanence une fraction de seconde dans le futur.  
  Cela lui permet par exemple de pressentir un danger imminent, un choix désastreux, le coup d&#039;un adversaire, etc.
 
-Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre l&#039;adversaire ciblé.  
- Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
+Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre l&#039;adversaire ciblé. Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
 
 ### <a name="anchor-localisation"></a>Localisation
 

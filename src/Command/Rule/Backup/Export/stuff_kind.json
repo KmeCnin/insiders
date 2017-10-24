@@ -1,12 +1,12 @@
 [
     {
-        "id": "armor",
-        "name": "Armure",
+        "id": "weapon",
+        "name": "Arme",
         "enabled": true
     },
     {
-        "id": "object",
-        "name": "Objet",
+        "id": "armor",
+        "name": "Armure",
         "enabled": true
     },
     {
@@ -15,8 +15,8 @@
         "enabled": true
     },
     {
-        "id": "weapon",
-        "name": "Arme",
+        "id": "object",
+        "name": "Objet",
         "enabled": true
     }
 ]

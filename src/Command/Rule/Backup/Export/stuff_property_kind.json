@@ -1,12 +1,12 @@
 [
     {
-        "id": "default",
-        "name": "Défaut",
+        "id": "wound",
+        "name": "Blessure",
         "enabled": true
     },
     {
-        "id": "wound",
-        "name": "Blessure",
+        "id": "default",
+        "name": "Défaut",
         "enabled": true
     }
 ]

@@ -3,6 +3,7 @@
 namespace App\Entity\Rule;
 
 use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -40,9 +41,9 @@ class Ability extends AbstractRule
     protected $description;
 
     /**
-     * @var Increase[]
+     * @var Collection|array
      *
-     * @ORM\Column(type="array")
+     * @ORM\Column(type="json")
      */
     protected $increases;
 
@@ -68,7 +69,7 @@ class Ability extends AbstractRule
         return $this;
     }
 
-    public function getAbilitiesRequired(): \Traversable
+    public function getAbilitiesRequired(): Collection
     {
         return $this->abilitiesRequired;
     }
@@ -123,33 +124,25 @@ class Ability extends AbstractRule
         return $this;
     }
 
-    public function getIncreases(): \Traversable
+    /** @return Increase[] */
+    public function getIncreases(): Collection
     {
-        return $this->increases;
+        $increases = $this->increases instanceof Collection
+            ? $this->increases
+            : new ArrayCollection($this->increases);
+        return $increases->map(function (array $increase) {
+            return new Increase($increase['short'], $increase['description']);
+        });
     }
 
-    public function setIncreases(\Traversable $increases): self
+    public function setIncreases(Collection $increases): self
     {
-        $this->increases->clear();
-        foreach ($increases as $increase) {
-            $this->addIncrease($increase);
-        }
-
-        return $this;
-    }
-
-    public function addIncrease(Increase $increase): self
-    {
-        if (!$this->increases->contains($increase)) {
-            $this->increases->add($increase);
-        }
-
-        return $this;
-    }
-
-    public function removeIncrease(Increase $increase): self
-    {
-        $this->increases->removeElement($increase);
+        $this->increases = $increases->map(function ($increase) {
+            if ($increase instanceof Increase) {
+                return $increase->normalize();
+            }
+            return $increase;
+        })->toArray();
 
         return $this;
     }
@@ -160,12 +153,16 @@ class Ability extends AbstractRule
             'arcane' => $this->getArcane()->getId(),
             'short' => $this->getShort(),
             'description' => $this->getDescription(),
-            'increases' => array_map(function (Increase $increase) {
-                return $increase->normalize();
-            }, iterator_to_array($this->getIncreases())),
-            'abilitiesRequired' => array_map(function (Ability $ability) {
-                return $ability->getId();
-            }, iterator_to_array($this->getAbilitiesRequired())),
+            'increases' => $this->getIncreases()->map(
+                function (Increase $increase) {
+                    return $increase->normalize();
+                }
+            )->toArray(),
+            'abilitiesRequired' => $this->getAbilitiesRequired()->map(
+                function (Ability $ability) {
+                    return $ability->getId();
+                }
+            )->toArray(),
         ]);
     }
 }

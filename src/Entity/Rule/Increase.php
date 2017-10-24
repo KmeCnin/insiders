@@ -2,28 +2,22 @@
 
 namespace App\Entity\Rule;
 
-use Doctrine\ORM\Mapping as ORM;
-
 class Increase
 {
     /**
      * @var string
-     *
-     * @ORM\Column(type="string")
      */
     protected $short;
 
     /**
      * @var string
-     *
-     * @ORM\Column(type="text")
      */
     protected $description;
 
-    public function __construct()
+    public function __construct(string $short = '', string $description = '')
     {
-        $this->setShort('');
-        $this->setDescription('');
+        $this->setShort($short);
+        $this->setDescription($description);
     }
 
     public function getShort(): ?string
@@ -56,5 +50,10 @@ class Increase
             'short' => $this->getShort(),
             'description' => $this->getDescription(),
         ];
+    }
+
+    public function __toString(): string
+    {
+        return $this->short;
     }
 }
