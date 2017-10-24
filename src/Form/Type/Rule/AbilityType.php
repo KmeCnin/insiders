@@ -14,14 +14,14 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class AbilityType extends AbstractRuleType
 {
-    public function configureOptions(OptionsResolver $resolver)
+    public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults(array(
             'data_class' => Ability::class,
         ));
     }
 
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         parent::buildForm($builder, $options);
 
@@ -45,11 +45,12 @@ class AbilityType extends AbstractRuleType
                 'allow_add' => true,
                 'allow_delete' => true,
                 'delete_empty' => true,
+                'by_reference' => false,
             ])
         ;
     }
 
-    public function getParent()
+    public function getParent(): ?string
     {
         return AbstractRuleType::class;
     }

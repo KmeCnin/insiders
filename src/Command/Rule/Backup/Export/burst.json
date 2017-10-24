@@ -16,12 +16,12 @@
         "description": "<p>Permet de faire l&eacute;viter de mani&egrave;re permanente une demi-sph&egrave;re de terrain d&#39;un diam&egrave;tre maximum de 1 km pouvant supporter un ch&acirc;teau, un petit village, etc. &agrave; une hauteur allant jusqu&#39;&agrave; 500 m&egrave;tres d&#39;altitude.<br \/>\r\nLes limites de la parcelle de terrain concern&eacute;e ne peuvent couper un &ecirc;tre vivant ou un b&acirc;timent en deux.<\/p>"
     },
     {
-        "id": "disaster",
-        "name": "Fléau",
+        "id": "vanish",
+        "name": "Disparition",
         "enabled": true,
-        "arcane": "source",
-        "short": "Invoque un désastre naturel de grande ampleur",
-        "description": "<p>Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magn&eacute;tude, un raz-de-mar&eacute;e (si une grande &eacute;tendue d&#39;eau est &agrave; proximit&eacute;), une tornade, une explosion volcanique, etc.<br \/>\r\nLe ph&eacute;nom&egrave;ne dure pendant quelques minutes, d&eacute;truit les constructions en toile ou en bois et endomage s&eacute;rieusement les constructions en pierre sur une zone de 1 km de diam&egrave;tre.<\/p>"
+        "arcane": "veil",
+        "short": "Camoufle complètement une trés grande zone",
+        "description": "<p>Permet de rendre invisible de mani&egrave;re permanente le contenu d&#39;une sph&egrave;re d&#39;un diam&egrave;tre maximum de 500 m&egrave;tres. Tous les b&acirc;timents et &ecirc;tres vivant pr&eacute;sents dans la zone sont invisibles &eacute;galement.<br \/>\r\nL&#39;initi&eacute; lan&ccedil;ant le rituel peut d&eacute;cider du paysage qu&#39;il veut laisser para&icirc;tre vu de l&#39;ext&eacute;rieur. Un observateur pr&eacute;sent &agrave; l&#39;int&eacute;rieur de la sph&egrave;re n&#39;est plus affect&eacute; par le sort et voit alors normalement.<\/p>"
     },
     {
         "id": "erase",
@@ -30,6 +30,14 @@
         "arcane": "vice",
         "short": "Supprime les souvenirs récents d'un individu",
         "description": "<p>Permet de faire oublier &agrave; un personnage les &eacute;v&eacute;nements v&eacute;cus durant les derni&egrave;res 24 heures. L&#39;initi&eacute; effectuant le rituel peut d&eacute;cider de conserver certains souvenirs de sa cible.<\/p>"
+    },
+    {
+        "id": "disaster",
+        "name": "Fléau",
+        "enabled": true,
+        "arcane": "source",
+        "short": "Invoque un désastre naturel de grande ampleur",
+        "description": "<p>Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magn&eacute;tude, un raz-de-mar&eacute;e (si une grande &eacute;tendue d&#39;eau est &agrave; proximit&eacute;), une tornade, une explosion volcanique, etc.<br \/>\r\nLe ph&eacute;nom&egrave;ne dure pendant quelques minutes, d&eacute;truit les constructions en toile ou en bois et endomage s&eacute;rieusement les constructions en pierre sur une zone de 1 km de diam&egrave;tre.<\/p>"
     },
     {
         "id": "permutation",
@@ -54,13 +62,5 @@
         "arcane": "web",
         "short": "Reviens quelques instants dans le passé",
         "description": "<p>L&#39;initi&eacute; effectue un bon dans le pass&eacute; d&#39;environ 5 minutes. Tous les &eacute;v&eacute;nements ayant eu lieu dans cet interval de temps sont annul&eacute;s mais l&#39;initi&eacute; est le seul &agrave; en conserve tout de m&ecirc;me un souvenir.<\/p>"
-    },
-    {
-        "id": "vanish",
-        "name": "Disparition",
-        "enabled": true,
-        "arcane": "veil",
-        "short": "Camoufle complètement une trés grande zone",
-        "description": "<p>Permet de rendre invisible de mani&egrave;re permanente le contenu d&#39;une sph&egrave;re d&#39;un diam&egrave;tre maximum de 500 m&egrave;tres. Tous les b&acirc;timents et &ecirc;tres vivant pr&eacute;sents dans la zone sont invisibles &eacute;galement.<br \/>\r\nL&#39;initi&eacute; lan&ccedil;ant le rituel peut d&eacute;cider du paysage qu&#39;il veut laisser para&icirc;tre vu de l&#39;ext&eacute;rieur. Un observateur pr&eacute;sent &agrave; l&#39;int&eacute;rieur de la sph&egrave;re n&#39;est plus affect&eacute; par le sort et voit alors normalement.<\/p>"
     }
 ]

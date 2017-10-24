@@ -29,7 +29,7 @@ easy_admin:
             class: App\Entity\Rule\Ability
             list:
                 fields: ['id', 'name', 'arcane', 'short', 'enabled']
-                sort: ['id', 'ASC']
+                sort: ['arcane.name', 'ASC']
             form:
                 fields:
                     - id
@@ -47,12 +47,11 @@ easy_admin:
                         type: collection
                         type_options:
                             entry_type: App\Form\Type\Rule\IncreaseType
-                            by_reference: false
         Attribute:
             class: App\Entity\Rule\Attribute
             list:
                 fields: ['id', 'name', 'slug', 'short', 'pc', 'enabled']
-                sort: ['id', 'ASC']
+                sort: ['name', 'ASC']
             form:
                 fields:
                     - { property: enabled }
