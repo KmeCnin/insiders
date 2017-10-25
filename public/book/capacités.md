@@ -91,6 +91,7 @@ Les invocations come les morts-vivants, illusions, leurres, clones de dédoublem
 Le personnage peut communiquer mentalement avec un personnage ou un animal à distance.
 
 S&#039;il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue.  
+ Il ne peut pas communiquer avec une cible qu&#039;il n&#039;a jamais vu de sa vie.  
  Une fois le message transmit, la cible peut ensuite répondre mentalement par une phrase. Il n&#039;a pas besoin de parler la même langue que la cible pour comprendre et être compris (il peut même communiquer avec des animaux en utilisant des mots simples).
 
 L&#039;utilisation de cette capacité ne donne cependant aucune information concernant la localisation de la cible. Elle ne permet pas non plus de différencier une cible morte ou inconsciente (en cas de perte de contact).
@@ -103,8 +104,16 @@ L&#039;énergie qui anime la vie
 
 **Peut protéger ses alliés à distance**
 
-Le personnage peut projeter une aura protectrice autour d&#039;un allier.  
- Chaque tour il peut choisir un allié au contact à protéger mais cela ne l&#039;empêche pas d&#039;agir en même temps. Si cet allié doit lancer un jet de Défendre, il utilise à la place les scores d&#039;Instinct et de Maîtrise en Résister du personnage. De plus l&#039;allié bénéficie également de tous les bonus liés à la caractéristique Résister du personnage (équipement, capacités arcanique...), exactement comme si c&#039;était le personnage lui-même qui devait lancer le jet. En cas d&#039;échec c&#039;est tout de même l&#039;allié qui reçoit la blessure.
+Le personnage peut projeter son énergie vitale sous forme d&#039;aura.  
+ Cela lui permet de protéger ses alliés ou de les guider.
+
+Chaque tour il peut choisir un allié au contact à protéger mais cela ne l&#039;empêche pas d&#039;agir en même temps.  
+ Si cet allié doit lancer un jet de Défendre, le personnage lance le jet à sa place en utilisant tous ses bonus personnels (Instinct, Maîtrise, équipement, capacités, etc.).  
+ En cas d&#039;échec c&#039;est tout de même l&#039;allié qui reçoit la blessure.
+
+Lorsqu&#039;il ne défend pas un allier, le personnage peut invoquer une petite luciole immatérielle faite à partir de son énergie vitale. La luciole lévite et brille d&#039;une lumière très faible qui peut néanmoins suffire à éclairer sur une dizaine de mètres.  
+ Le personnage peut la guider pour qu&#039;elle se rende à un endroit précis qu&#039;il a en visuel.  
+ Le personnage peut également lui demander de ramener à lui une personne qu&#039;il a déjà vu dans le passé. Dans ce cas la luciole se téléporte jusqu&#039;à la cible puis la guide vers son propriétaire. Si la cible refuse de la suivre, la luciole réapparaît aux côtés du personnage.
 
 **Augmentations:**
 - Peut protéger à distance
@@ -114,8 +123,12 @@ Le personnage peut projeter une aura protectrice autour d&#039;un allier.
 
 **Peut alterner entre plusieurs formes physiques**
 
-Le personnage est capable de modifier son corps en se transformant rapidement en une forme prédéfinie.  
- En découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d&#039;Instinct de ses caractéristiques et attributs physiques. Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques.
+Le personnage est capable de modifier son corps en se transformant rapidement en une forme prédéfinie.
+
+En découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d&#039;Instinct de ses caractéristiques et attributs physiques.  
+ Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques.
+
+Lorsqu&#039;il le souhaite, le personnage peut changer de forme, il passe alors un tour complet à se transformer.
 
 **Augmentations:**
 - Choisit une nouvelle forme
@@ -131,7 +144,10 @@ Le personnage est capable de modifier son corps en se transformant rapidement en
 **Nécessite:**
 [Poings d&#039;obsylène](#anchor-poings-d-obsylene)
 
-Le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène lui conférant une résistance contre les blessures physiques (armes, projectiles, coups...).
+Tout le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène.  
+ Cette matière lui confère une résistance contre les blessures physiques (armes, projectiles, coups...).
+
+De plus, le personnage résiste sans problèmes aux chutes qui ne dépassent pas la dizaine de mètres.
 
 ### <a name="anchor-dedoublement"></a>Dédoublement
 
@@ -141,9 +157,9 @@ Le personnage peut répartir son énergie corporelle entre plusieurs simulacres 
 
 Il peut créer des doubles en utilisant ses points d&#039;Instinct personnels (un double doit posséder au minimum 1 point d&#039;Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables par le personnage original.
 
-Les doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit. Le personnage n&#039;a pas conscience de ce que ses doubles perçoivent jusqu&#039;à ce qu&#039;ils soient détruits, à ce moment il acquière tous leurs souvenirs.  
- Les doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruits. La moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.  
- Si le personnage original devait mourir, il peut alors transférer son âme dans un de ses doubles qui récupère alors les points d&#039;Instinct du personnage décédé ainsi que la dernière blessure qui lui a été infligée.
+Les doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit. Les doubles sont visuellement indiscernables de l&#039;original.  
+ Le personnage a original a en permanence conscience de tout ce que perçoivent ses doubles et peut les diriger et les faire parler et agir comme il le souhaite.  
+ Les doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruits. La moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.
 
 **Augmentations:**
 - Chaque clone possède un point dans deux caractéristiques au choix
@@ -156,6 +172,8 @@ Les doubles possèdent tous les équipements et capacités du personnage ainsi q
 Les extrémités des membres du personnage sont faites d&#039;un matériau noir extrêmement solide appelé obsylène.  
  Cela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets en métal non équipés, etc.
 
+Le personnage est capable de briser sans effort des objets voir même des structures en bois et fragiliser des constructions en pierre ou des structures en métal.
+
 Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré II.
 
 **Augmentations:**
@@ -167,7 +185,7 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 **Peut insuffler son énergie vitale**
 
 Le personnage est capable de projeter son énergie vitale dans un être vivant.  
- Cela lui permet par exemple de guérir les blessures de ses alliés, d&#039;inhiber le poison présent dans la nourriture et l&#039;eau, de redonner vie à des végétaux morts, etc.
+ Cela lui permet par exemple de guérir les blessures de ses alliés, d&#039;inhiber le poison présent dans la nourriture et l&#039;eau, de redonner vie à des végétaux morts, de réparer des objets ou équipements en bois, etc.
 
 Grâce à un jet de Résister au contact contre une blessure, il peut la guérir immédiatement (au lieu d&#039;attendre un jour) et retenter une guérison autant de fois qu&#039;il le souhaite.
 
@@ -186,7 +204,7 @@ La force qui contraint la volonté
 Le personnage est capable de faire vivre leur pire cauchemar à ses adversaires.  
  Cela lui permet par exemple de perturber fortement la santé mentale de ses adversaires, de faire fuir des animaux sauvages, etc.
 
-Grâce à un jet de Dissimuler à distance (pour pénétrer l&#039;esprit de sa cible) suivit d&#039;un jet de Dévoiler (pour sonder la pire peur de sa cible), il peut infliger une blessure de degré III.  
+Grâce à un jet de Dissimuler à distance (pour pénétrer un esprit) suivit d&#039;un jet de Dévoiler (pour sonder sa pire peur), il peut infliger une blessure de degré III.  
  Grâce à un jet de Dissimuler à distance, il peut faire fuir de peur un groupe d&#039;animaux.
 
 ### <a name="anchor-confidence"></a>Confidence
@@ -273,8 +291,11 @@ Grâce à un jet d&#039;Imposer à distance, il peut attirer à lui un objet ten
 **Peut créer des murs de force**
 
 Le personnage est capable de créer des champs de force ne pouvant pas être déplacé et n&#039;étant pas soumis à la gravité.  
- Cela lui permet par exemple de créer une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.  
- Les individus (y compris le personnage) désirant ignorer le champ de force doivent réussir un jet d&#039;Imposer contre le personnage à chaque fois qu&#039;ils le traverse ou lancent un projectile au travers.
+ Cela lui permet par exemple de créer une bulle pouvant contenir quelques personnages, un mur vertical, un pont horizontal, etc.
+
+Le champ de force est invisible. Il peut être créé à distance mais disparaît dès que le personnage s&#039;éloigne. Il ne peut adopter que des formes extrêmement simples : sphère parfaite ou ovale, cube, plan à deux dimensions.
+
+Les individus (y compris le personnage) désirant ignorer le champ de force doivent réussir un jet d&#039;Imposer contre le personnage à chaque fois qu&#039;ils le traverse ou lancent un projectile au travers.
 
 **Augmentations:**
 - Champ de force sélectif
@@ -306,7 +327,7 @@ Grâce à un jet d&#039;Imposer à distance, il peut utiliser l&#039;arme du per
 Le personnage peut générer un champ de force répulsif centré sur lui-même.  
  Cela lui permet par exemple de se protéger des tirs ennemies, d&#039;amortir les chutes, de repousser un adversaire, etc.
 
-Grâce à un jet d&#039;Imposer à distance, il peut renvoyer un projectile qui le vise. S&#039;il réussit, il effectue un nouveau jet d&#039;Attaquer pour toucher l&#039;expéditeur.  
+Grâce à un jet d&#039;Imposer à distance, il peut renvoyer un projectile qui le vise. S&#039;il réussit, il effectue un nouveau jet d&#039;Imposer pour toucher l&#039;expéditeur.  
  Grâce à un jet d&#039;Imposer au contact, il peut propulser un adversaire de force loin de lui.  
  Les adversaires doivent d&#039;abord réussir un jet de Résister pour pouvoir approcher au contact du personnage.
 
@@ -315,8 +336,9 @@ Grâce à un jet d&#039;Imposer à distance, il peut renvoyer un projectile qui 
 **Se déplace à une vitesse surnaturelle**
 
 Le personnage utilise sa maîtrise de l&#039;arcane cinétique afin d’accélérer grandement ses mouvements.  
- Cela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle (environ 100 km/h), etc.  
- Cela ne lui permet cependent pas de combattre ou réaliser des actions particulières plus rapidement, seul son déplacement est accéléré.
+ Cela lui permet par exemple de toujours être le plus prompt à réagir, de courir à une vitesse surnaturelle (environ 100 km/h), etc.
+
+Cela ne lui permet cependant pas de combattre ou réaliser des actions particulières plus rapidement, seul son déplacement est accéléré.
 
 ## <a name="anchor-la-purge"></a>La Purge
 
@@ -344,8 +366,9 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 **Peut redonner vie à des corps inanimés**
 
 Le personnage peut redonner vie aux morts et les controller.  
- Cela lui permet d&#039;animer un nombre de mort-vivants dont les facteurs de puissance cumulés ne dépassent pas le double de son score d&#039;Instinct en Résister.  
- Un mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0. Il peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l&#039;attribut physique Perception de la vie de manière innée et non comptabilisé dans leur FP total.  
+ Cela lui permet d&#039;animer un nombre de mort-vivants dont les facteurs de puissance cumulés ne dépassent pas le double de son score d&#039;Instinct en Résister.
+
+Un mort-vivant a ses scores d’Imposer et Résister au moins égaux à 1 et Dévoiler et Dissimuler toujours égaux à 0. Il peut posséder des attributs physiques tant que les PC utilisés sont comptabilisés dans leur FP total. Tous les mort-vivants ont l&#039;attribut physique Perception de la vie de manière innée et non comptabilisé dans leur FP total.  
  Les morts-vivants ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruits. La moindre blessure de degré I suffit à les réduire définitivement en cendres.
 
 **Augmentations:**
@@ -360,9 +383,13 @@ Le personnage peut redonner vie aux morts et les controller.
 
 **Peut sacrifier son intégrité physique pour blesser à coup sûr**
 
-Le personnage est capable de créer un lien maudit entre lui et un adversaire.
+Le personnage est capable de créer un lien maudit entre lui et un adversaire ou créer des pièges sanglants.
 
-Il peut s&#039;infliger une blessure de degré II afin d&#039;essayer d&#039;infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister.
+Il peut s&#039;infliger une blessure de degré II afin d&#039;essayer d&#039;infliger une blessure de degré II à un adversaire à distance qui minimise alors sont jet de Résister.  
+ S&#039;il a réussit à blesser un adversaire de la sorte, le personnage est capable de le localiser avec précision tant que la blessure n&#039;est pas soignée.
+
+De plus, le personnage est capable de créer une rune de sang. Il s&#039;agit d&#039;inscriptions tracées avec son propre sang en s&#039;infligeant une blessure du degré de son choix. Tant que le personnage conserve cette blessure, la rune reste active et se déclenchera si un personnage ou un animal passe à côté, lui infligeant alors une blessure équivalente à celle que le joueur s&#039;est infligé.  
+ Une fois activée, le sang qui a servit à tracer la rune disparaît et le personnage en est conscient. Le personnage peut tracer autant de runes qu&#039;il souhaite (s&#039;il est capable d&#039;y survivre). La rune ne s&#039;active pas au passage du personnage.
 
 **Augmentations:**
 - Diminue d&#039;un degré la blessure reçue
@@ -377,6 +404,8 @@ Le personnage possède un réceptacle particulier dans lequel il choisit de tran
 
 A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de Résister supplémentaire avec le score de Résister de son phylactère pour tenter directement de la guérir. Cela fonctionne quelque soit la distance entre le personnage et le phylactère.
 
+De plus, le personnage a en permanence conscience des formes de vies évoluant à portée de son phylactère comme s&#039;il possédait la capacité Perception de la vie. Cela lui permet d&#039;être immédiatement avertis en cas d&#039;intrusion proche de sa cachette ou bien, s&#039;il porte son phylactère sur lui, profiter de l&#039;effet de Perception de la vie.
+
 **Augmentations:**
 - Chaque point stocké dans le phylactère est considéré doublé
 
@@ -387,6 +416,8 @@ A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de 
 
 Le personnage aspire l&#039;énergie vitale des êtres vivants.  
  Cela lui permet par exemple de se soigner au contact d&#039;adversaires ou de petits animaux, etc.
+
+En sacrifiant un animal d&#039;au moins la taille d&#039;une souris, le personnage peut tenter de soigner une de ses blessures grâce à un jet de Résister (comme s&#039;il possédait la capacité Transfert de force vitale).
 
 Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I et grâce à un jet de Résister peut tenter de soigner une de ses blessures.
 
@@ -405,7 +436,7 @@ L&#039;énergie qui parcourt le monde matériel
 Le personnage est capable d&#039;enflammer l&#039;air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l&#039;intensité de la réaction à volonté.  
  Cela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.
 
-Grâce à un jet d&#039;Attaquer à distance, il peut infliger une blessure de degré I.  
+Grâce à un jet d&#039;Imposer à distance, il peut infliger une blessure de degré I.  
  Il possède également une résistance aux brûlures.
 
 **Augmentations:**
@@ -419,7 +450,7 @@ Grâce à un jet d&#039;Attaquer à distance, il peut infliger une blessure de d
 Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l&#039;intensité du courant à volonté.  
  Cela lui permet par exemple d&#039;électrocuter ses ennemies au contact, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.
 
-Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de degré II.  
+Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré II.  
  Il possède également une résistance aux électrocutions.
 
 **Augmentations:**
@@ -436,8 +467,8 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.  
  Cela lui permet par exemple d&#039;aimanter des équipements métalliques à distance, de savoir s&#039;orienter en permanence (il localise l&#039;Elyseum), attirer à lui des objets métalliques, etc.
 
-Grâce à un jet d&#039;Attaque à distance il peut désarmer autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armes métalliques et envoyer les armes loin d&#039;eux.  
- Grâce à un jet d&#039;Attaque à distance il peut plaquer au sol autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armures métalliques.
+Grâce à un jet d&#039;Imposer à distance il peut désarmer autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armes métalliques et envoyer les armes loin d&#039;eux.  
+ Grâce à un jet d&#039;Imposer à distance il peut plaquer au sol autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armures métalliques.
 
 ### <a name="anchor-foudre"></a>Foudre
 
@@ -449,7 +480,7 @@ Grâce à un jet d&#039;Attaque à distance il peut désarmer autant d&#039;adve
 Le personnage est capable de commander la météo environnante.  
  Cela lui permet par exemple d&#039;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.
 
-Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants excepté lui-même.
+Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants excepté lui-même.
 
 **Augmentations:**
 - Peut exclure des personnages de la zone foudroyée
@@ -462,7 +493,7 @@ Grâce à un jet d&#039;Attaquer au contact, il peut infliger une blessure de de
 Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.  
  Cela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc. Il peut également simuler des sons très simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop précis ou délicats comme de la musique. Dans tous les cas, les ondes sonores générées sont issues du joueur et ne peuvent pas partir de sources distantes.
 
-Grâce à un jet d&#039;Attaquer à distance, il peut sonner un personnage, qui minimisera alors automatiquement son prochain jet de Résister.  
+Grâce à un jet d&#039;Imposer à distance, il peut sonner un personnage, qui minimisera alors automatiquement son prochain jet de Résister.  
  Il possède également une résistance aux ondes sonores puissantes.
 
 **Augmentations:**
@@ -479,7 +510,7 @@ Grâce à un jet d&#039;Attaquer à distance, il peut sonner un personnage, qui 
 Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.  
  Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
 
-Grâce à un jet d&#039;Attaque à distance il peut faire tomber les adversaires à portée qui subissent alors une blessure de degré I.
+Grâce à un jet d&#039;Imposer à distance il peut faire tomber les adversaires à portée qui subissent alors une blessure de degré I.
 
 ### <a name="anchor-thermodynamique"></a>Thermodynamique
 
@@ -488,7 +519,7 @@ Grâce à un jet d&#039;Attaque à distance il peut faire tomber les adversaires
 Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d&#039;une zone précise.  
  Cela lui permet par exemple de solidifier ou vaporiser de l&#039;eau, geler ou brûler des tissus vivants au contact, etc.
 
-Grâce à un jet d&#039;Attaque au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).  
+Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).  
  Grâce à un jet d&#039;Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.  
  Il possède également une résistance aux brûlures.  
  Il possède également une résistance aux gelures.
