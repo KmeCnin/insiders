@@ -10,6 +10,7 @@ class AbilityRepository extends AbstractRuleRepository
     {
         return $this->findBy([
             'enabled' => true,
+            'public' => true,
             'arcane' => $arcane,
         ], [
             'name' => 'ASC',
