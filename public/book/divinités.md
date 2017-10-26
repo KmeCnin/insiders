@@ -59,7 +59,7 @@ Champion de **Ozz**.
 C&#039;est une femme à la peau noire comme du charbon et au regard teinté d&#039;une lueur mauve. Rien ne l&#039;intéresse que d&#039;élaborer des plans compliqués parfois prévus sur des décennies dans le seul but de démontrer son écrasante supériorité intellectuelle.
 
 ## Penelas "L&#039;aveugle omnisciente"
-**Arcane :** L&#039;Ésprit
+**Arcane :** L&#039;Esprit
 
 Penelas est une Déesse impatiente et flegmatique. Elle ne considère pas particulièrement ses fidèles mais n&#039;hésite pas à punir quiconque l&#039;ennuie ou l&#039;agace. On la représente complètement nue dans des positions langoureuses les yeux toujours clos.
 ### Corlan "Le cavalier zelé"

@@ -36,9 +36,17 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
      */
     protected $enabled;
 
+    /**
+     * @var bool
+     *
+     * @ORM\Column(type="boolean", nullable=false)
+     */
+    protected $public;
+
     public function __construct()
     {
         $this->setEnabled(true);
+        $this->setPublic(true);
     }
 
     public function getId(): ?string
@@ -90,6 +98,18 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
         return $this;
     }
 
+    public function isPublic(): bool
+    {
+        return $this->public;
+    }
+
+    public function setPublic(bool $public): self
+    {
+        $this->public = $public;
+
+        return $this;
+    }
+
     public function nameToSlug(): string
     {
         return self::slugify($this->name);
@@ -111,6 +131,7 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
             'id' => $this->getId(),
             'name' => $this->getName(),
             'enabled' => $this->isEnabled(),
+            'public' => $this->isPublic(),
         ];
     }
 

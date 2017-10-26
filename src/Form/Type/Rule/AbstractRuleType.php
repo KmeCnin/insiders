@@ -4,7 +4,6 @@ namespace App\Form\Type\Rule;
 
 use App\Form\Type\AbstractEntityType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
-use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 
@@ -18,6 +17,7 @@ class AbstractRuleType extends AbstractEntityType
             ->add('id', TextType::class)
             ->add('name', TextType::class)
             ->add('enabled', CheckboxType::class)
+            ->add('public', CheckboxType::class)
         ;
     }
 

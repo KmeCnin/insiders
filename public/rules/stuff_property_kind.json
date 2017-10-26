@@ -2,11 +2,13 @@
     {
         "id": "wound",
         "name": "Blessure",
-        "enabled": true
+        "enabled": true,
+        "public": true
     },
     {
         "id": "default",
         "name": "Défaut",
-        "enabled": true
+        "enabled": true,
+        "public": true
     }
 ]
