@@ -18,8 +18,8 @@ Certaines capacités arcaniques nécessitent de posséder déjà une ou plusieur
  Certaines capacités arcaniques peuvent être améliorées en débloquant des augmentations. Chaque augmentation nécessite de dépenser 1 point de création. Les augmentations doivent être débloquées dans l&#039;ordre affiché.
 
 **Arcanes:**
-[L&#039;Ésprit](#anchor-l-esprit) - [L&#039;Essence](#anchor-l-essence) - [L&#039;Étau](#anchor-l-etau) - [L&#039;Éther](#anchor-l-ether) - [La Purge](#anchor-la-purge) - [La Source](#anchor-la-source) - [La Toile](#anchor-la-toile) - [Le Voile](#anchor-le-voile)
-## <a name="anchor-l-esprit"></a>L&#039;Ésprit
+[L&#039;Esprit](#anchor-l-esprit) - [L&#039;Essence](#anchor-l-essence) - [L&#039;Étau](#anchor-l-etau) - [L&#039;Éther](#anchor-l-ether) - [La Purge](#anchor-la-purge) - [La Source](#anchor-la-source) - [La Toile](#anchor-la-toile) - [Le Voile](#anchor-le-voile)
+## <a name="anchor-l-esprit"></a>L&#039;Esprit
 
 La force qui gouverne l&#039;existence
 
@@ -397,7 +397,7 @@ De plus, le personnage est capable de créer une rune de sang. Il s&#039;agit d&
 
 ### <a name="anchor-phylactere"></a>Phylactère
 
-**Transfère une partie de son âme dans un réceptacle magique le rendant presque immortel**
+**Possède un réceptacle magique le rendant presque immortel**
 
 Le personnage possède un réceptacle particulier dans lequel il choisit de transférer une partie de ses points d&#039;Instinct de Résister (il doit en conserver au minimum 1). Le score d&#039;Instinct en résister du récipient est égale aux nombre de points transférés par le personnage.  
  Il peut par la suite, tant qu’il est en contact avec son phylactère, changer comme il le souhaite cette répartition. Les points d&#039;Instinct ainsi transférés ne sont pas utilisables (ils ne sont plus comptabilisés dans les jets de Résister du personnage). Si le phylactère est détruit, les points de Résister sont alors perdus à jamais.
@@ -428,6 +428,17 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 ## <a name="anchor-la-source"></a>La Source
 
 L&#039;énergie qui parcourt le monde matériel
+
+### <a name="anchor-chaud"></a>Chaud
+
+**Peut faire rapidement augmenter la température**
+
+Le personnage maîtrise les flux thermiques, il peut rapidement augmenter la température d&#039;une zone précise.  
+ Cela lui permet par exemple de vaporiser de l&#039;eau, brûler des tissus vivants au contact, chauffer du métal à blanc, allumer un feu à partir de matériaux inflammables, etc.
+
+Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I en brûlant son adversaire.  
+ Lorsqu&#039;il manie une arme métallique (lame au contact ou flèches/carreaux à distance), il peut chauffer la lame à blanc pour augmenter la blessure reçue d&#039;un degré.  
+ Il possède également une résistance aux brûlures.
 
 ### <a name="anchor-combustion"></a>Combustion
 
@@ -486,6 +497,17 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 - Peut exclure des personnages de la zone foudroyée
 
 
+### <a name="anchor-froid"></a>Froid
+
+**Peut faire rapidement chuter la température**
+
+Le personnage maîtrise les flux thermiques, il peut rapidement diminuer la température d&#039;une zone précise.  
+ Cela lui permet par exemple de solidifier de l&#039;eau, geler des tissus vivants au contact, etc.
+
+Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I en gelant son adversaire.  
+ Il peut rapidement solidifier l&#039;humidité de l&#039;air au niveau du point d&#039;impact d&#039;un coup afin d&#039;augmenter de 1 point son jet de Défendre contre les blessures physiques.  
+ Il possède également une résistance aux gelures.
+
 ### <a name="anchor-onde-sonore"></a>Onde sonore
 
 **Peut projeter des ondes sonores puissantes**
@@ -512,22 +534,6 @@ Le personnage est capable de produire des ondes puissantes se déplaçant dans l
 
 Grâce à un jet d&#039;Imposer à distance il peut faire tomber les adversaires à portée qui subissent alors une blessure de degré I.
 
-### <a name="anchor-thermodynamique"></a>Thermodynamique
-
-**Peut faire rapidement varier la température**
-
-Le personnage maîtrise les flux thermiques, il peut rapidement faire varier la température d&#039;une zone précise.  
- Cela lui permet par exemple de solidifier ou vaporiser de l&#039;eau, geler ou brûler des tissus vivants au contact, etc.
-
-Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I (au choix en gelant ou brûlant son adversaire).  
- Grâce à un jet d&#039;Imposer à distance, il peut désarmer un adversaire en chauffant son arme métallique tenue en main.  
- Il possède également une résistance aux brûlures.  
- Il possède également une résistance aux gelures.
-
-**Augmentations:**
-- Peut faire chauffer du métal à blanc et augmenter les blessures de ses armes d&#039;un degré
-
-
 ## <a name="anchor-la-toile"></a>La Toile
 
 La trame qui supporte le monde matériel
@@ -539,8 +545,8 @@ La trame qui supporte le monde matériel
 **Nécessite:**
 [Anticipation](#anchor-anticipation)
 
-Le personnage peut accélérer le temps sur une zone restreinte.  
- Cela lui permet par exemple d&#039;accélérer la pousse de la végétation, d&#039;aggraver les blessures d&#039;un ennemi, d&#039;achever un adversaire inconscient à distance.
+Le personnage peut accélérer le temps sur une zone restreinte pendant un court instant.  
+ Cela lui permet par exemple d&#039;accélérer les projectiles qu&#039;il lance, d&#039;accélérer la pousse de la végétation, d&#039;aggraver les blessures d&#039;un ennemi, d&#039;achever un adversaire inconscient à distance.
 
 Grâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augmenter d&#039;un degré chacune des blessures de la cible.  
  Il peut accélérer les projectiles qu&#039;il lance (flèches, armes de jet...) pour augmenter d&#039;un degré la blessure infligée.
@@ -552,7 +558,8 @@ Grâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augm
 Le personnage voit en permanence une fraction de seconde dans le futur.  
  Cela lui permet par exemple de pressentir un danger imminent, un choix désastreux, le coup d&#039;un adversaire, etc.
 
-Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre l&#039;adversaire ciblé. Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
+Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre cette cible.  
+ Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
 
 ### <a name="anchor-localisation"></a>Localisation
 
@@ -571,11 +578,11 @@ Grâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant ave
 **Nécessite:**
 [Anticipation](#anchor-anticipation)
 
-Le personnage peut ralentir le temps sur une zone restreinte.  
- Cela lui permet de ralentir une chute, esquiver des projectiles, prendre le temps de frapper un point vital, etc.
+Le personnage peut ralentir le temps sur une zone restreinte pendant un court instant.  
+ Cela lui permet de ralentir une chute, esquiver des coups, prendre le temps de frapper un point vital, etc.
 
-Lorsque le personnage est amené à effectuer un jet de Défendre, il peut utiliser un jet de Dévoiler à la place de Résister.  
- Lorsque le personnage attaque au contact, il peut infliger une blessure d&#039;un degré supplémentaire.
+Lorsqu&#039;il effectue un jet d&#039;Attaquer ou de Défendre au contact, il peut ralentir son ennemi pour obtenir un bonus d&#039;un point à son jet.  
+ Il peut ralentir des projectiles lancés à porté pour les rendre inefficaces.
 
 ### <a name="anchor-teleportation"></a>Téléportation
 
@@ -584,7 +591,13 @@ Lorsque le personnage est amené à effectuer un jet de Défendre, il peut utili
 **Nécessite:**
 [Localisation](#anchor-localisation)
 
-Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant. Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter.
+Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant.
+
+Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter, mais pas d&#039;autres êtres vivants.
+
+**Augmentations:**
+- Peut emporter des êtres vivants avec lui
+
 
 ### <a name="anchor-vision"></a>Vision
 
@@ -605,35 +618,27 @@ Avant de s’endormir le personnage peut décider d’utiliser cette capacité p
 
 Le brouillard subtil qui altère la réalité
 
-### <a name="anchor-apparence-trompeuse"></a>Apparence trompeuse
-
-**Peut se faire passer pour n’importe quoi**
-
-Le personnage est capable de projeter une aura immatérielle autour de lui.  
- Cela lui permet de se faire passer pour n&#039;importe quoi : un monstre gigantesque, un meuble, un arbre, etc. L&#039;illusion suit le personnage où qu&#039;il aille, elle peut être active pour simuler la respiration ou les mouvements d&#039;êtres vivants mais est purement visuelle.
-
-Un personnage ayant un doute et réussissant un jet de Dévoiler ou un personnage entrant en contact avec l&#039;illusion peut le voir tel qu&#039;il est vraiment (il a alors conscience de la tentative de supercherie).
-
-**Augmentations:**
-- Simule également des sons simples
-
-
 ### <a name="anchor-illusion"></a>Illusion
 
-**Peut créer de faux objets**
+**Peut modifier l&#039;apparence d&#039;objets et êtres vivants**
 
-Le personnage peut créer un objet inanimé immatériel.  
- Cela lui permet par exemple de créer une petite construction (comme un pan de mur, un autel...), un équipement, un animal, un personnage, etc.  
- L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée. Un personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire. Il ne peut maintenir qu&#039;une illusion à la fois.
+Le personnage peut créer des objets inanimés immatériels.  
+ Cela lui permet par exemple de créer un lieu illusoire comme un bâtiment, un pont, une muraille, etc.
+
+L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée. Un personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.  
+ Le personnage peut maintenir autant d&#039;illusions de la sorte que son score d&#039;Instinct en Dissimuler.
+
+Le personnage peut également transformer l&#039;apparence d&#039;un objet matériel, l&#039;illusion persiste alors en collant à l&#039;objet cible tant que l&#039;objet reste à distance du personnage. Par exemple, il peut donner à une épée d&#039;entraînement en bois une apparence d&#039;artefact précieux, il peut transformer un bout de papier vierge en document d&#039;apparence officielle, etc.  
+ Tout observateur un peu scrupuleux devra réussir un jet de Dévoiler pour percer la supercherie à jour.
 
 **Augmentations:**
-- Peut maintenir deux illusions simultanément de la taille d&#039;une petite habitation
-- Peut maintenir trois illusions simultanément de la taille d&#039;un grand bâtiment
+- Crée l&#039;illusion du mouvement et d&#039;êtres vivants
+- Ajoute des effets sonores
 
 
 ### <a name="anchor-invisibilite"></a>Invisibilité
 
-**Peut s’entourer d&#039;une aura éthérée le rendant très difficilement repérable**
+**S&#039;entoure d&#039;une aura éthérée le rendant très difficilement repérable**
 
 **Nécessite:**
 [Marche fantomatique](#anchor-marche-fantomatique)
@@ -662,14 +667,20 @@ Un adversaire doit réussir un jet de Dévoiler sur chaque double individuelleme
 
 **Ne fait aucun bruit et ne laisse pas de trace lors des déplacements**
 
-Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.  
- Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
+Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.
+
+Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
+
+Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en discrétion.
 
 ### <a name="anchor-usurpation-d-identite"></a>Usurpation d&#039;identité
 
-**Peut modeler son apparence pour se faire passer pour quelqu’un d’autre**
+**Peut endosser l&#039;apparence de quelqu’un d’autre**
 
-Le personnage est capable de simuler à la perfection les traits, les mimiques, la voix, etc. d’une personne dont il a eu l’occasion de percevoir ces informations (voir, entendre, toucher...).  
- Aucun jet n’est requis, le joueur imite à la perfection les traits dont il a connaissance mais cela n&#039;empêche pas un ennemie d’avoir un doute en fonction de son comportement ou autre détail, dans ce cas l&#039;adversaire peut tenter un jet de Dévoiler pour découvrir la supercherie.  
+Le personnage est capable de simuler à la perfection les traits, les mimiques, la voix, etc. d’une personne dont il a eu l’occasion de percevoir ces informations (voir, entendre, toucher...).
+
+Aucun jet n’est requis, le joueur imite à la perfection les traits dont il a connaissance mais cela n&#039;empêche pas un ennemie d’avoir un doute en fonction de son comportement ou autre détail, dans ce cas l&#039;adversaire peut tenter un jet de Dévoiler pour découvrir la supercherie.  
  La cible de l’usurpation d’identité doit être de la même espèce que le joueur ou une espèce proche.
+
+Le personnage peut également imiter à la perfection n&#039;importe quel bruit d&#039;animal qu&#039;il a déjà entendu par le passé.
 

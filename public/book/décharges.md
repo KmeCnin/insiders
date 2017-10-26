@@ -10,7 +10,7 @@
 
 Un initié en possession d&#039;un cristal d&#039;arcanite peut décider de dépenser une charge pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;arcane correspondant. La charge ainsi dépensée est perdue à jamais.
 
-## L&#039;Ésprit
+## L&#039;Esprit
 ### Permutation
 
 **Transfert son esprit dans un autre corps**

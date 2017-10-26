@@ -14,7 +14,7 @@ Chaque arcane est représenté par une (ou plusieurs) divinité(s) qui possèden
  Il n&#039;est pas rare de croiser des initiés ayant accès à 2 ou 3 arcanes, mais la plupart préfère se spécialiser.  
  Il est impossible de déduire qu&#039;un personnage maîtrise un arcane ou possède un quelconque pouvoir sans le voir directement à l&#039;oeuvre.
 
-## L&#039;Ésprit
+## L&#039;Esprit
 
 **La force qui gouverne l&#039;existence**
 

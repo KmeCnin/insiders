@@ -2,21 +2,25 @@
     {
         "id": "weapon",
         "name": "Arme",
-        "enabled": true
+        "enabled": true,
+        "public": true
     },
     {
         "id": "armor",
         "name": "Armure",
-        "enabled": true
+        "enabled": true,
+        "public": true
     },
     {
         "id": "shield",
         "name": "Bouclier",
-        "enabled": true
+        "enabled": true,
+        "public": true
     },
     {
         "id": "object",
         "name": "Objet",
-        "enabled": true
+        "enabled": true,
+        "public": true
     }
 ]

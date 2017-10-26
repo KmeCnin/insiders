@@ -61,7 +61,7 @@ class RulesController extends AbstractController
         foreach ($arcanes as $arcane) {
             $map[] = [
                 'arcane' => $arcane,
-                'abilities' => $repo->findBy(['arcane' => $arcane]),
+                'abilities' => $repo->findByArcane($arcane),
             ];
         }
 
