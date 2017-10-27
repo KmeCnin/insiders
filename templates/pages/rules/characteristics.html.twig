@@ -8,12 +8,26 @@
 
 
 {% block container %}
-    <div class="block block-intro">
-        <p>{{ description|raw }}</p>
-    </div>
+  <div class="block block-intro">
+    <p>{{ description|raw }}</p>
+  </div>
 
-    <section>
-        {% for characteristic in characteristics %}
-        {% endfor %}
-    </section>
+  <section>
+    {% for characteristic in characteristics %}
+      <div class="block-split-wrapper">
+        <div class="block-title">
+          <div>
+            <h1>{{ characteristic.name }}</h1>
+          </div>
+          <span>{{ characteristic.short }}</span>
+        </div>
+        <div class="block block-split">
+          <div class="block-content">
+            <p>{{ characteristic.description|raw }}</p>
+          </div>
+          <div class="bg-block" style="background-image: url({{ asset('resources/images/characteristics/'~characteristic.id~'.jpg') }})"></div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
 {% endblock %}

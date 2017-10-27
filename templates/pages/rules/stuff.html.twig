@@ -10,18 +10,65 @@
 {% set subtitle = 'Equipements' %}
 
 {% block container %}
-    <div class="block block-intro">
-        <p>{{ description|raw }}</p>
+  <div class="block block-intro">
+    <p>{{ description|raw }}</p>
+  </div>
+
+  <section>
+    <div class="block-title">
+      <h1>Les armes</h1>
     </div>
 
-    <section>
-        {% for weapon in weapons %}
-        {% endfor %}
-        {% for armor in armors %}
-        {% endfor %}
-        {% for object in objects %}
-        {% endfor %}
-        {% for expendable in expendables %}
-        {% endfor %}
-    </section>
+    <div class="block block-group">
+      {% for weapon in weapons %}
+        <a class="block-group-item" href="#" style="background-image: url({{ asset('resources/images/stuff/weapons/'~weapon.id~'.jpg') }});">
+          <div>
+            <h2>{{ weapon.name }}</h2>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="block-title">
+      <h1>Les armures</h1>
+    </div>
+
+    <div class="block block-group">
+      {% for armor in armors %}
+        <a class="block-group-item" href="#" style="background-image: url({{ asset('resources/images/stuff/armors/'~armor.id~'.jpg') }});">
+          <div>
+            <h2>{{ armor.name }}</h2>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="block-title">
+      <h1>Les objets</h1>
+    </div>
+
+    <div class="block block-group">
+      {% for object in objects %}
+        <a class="block-group-item" href="#" style="background-image: url({{ asset('resources/images/stuff/objects/'~object.id~'.jpg') }});">
+          <div>
+            <h2>{{ object.name }}</h2>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="block-title">
+      <h1>Les consommables</h1>
+    </div>
+
+    <div class="block block-group">
+      {% for expendable in expendables %}
+        <a class="block-group-item" href="#" style="background-image: url({{ asset('resources/images/stuff/expendables/'~expendable.id~'.jpg') }});">
+          <div>
+            <h2>{{ expendable.name }}</h2>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
 {% endblock %}
