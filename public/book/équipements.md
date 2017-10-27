@@ -42,8 +42,6 @@ Targe|1| |9000
 
 |Genre|Efficacité|Propriété|Prix|
 |---|---:|---|---:|
-Flèche|0|Blessure de degré I|180
 Bandages|2| |360
-Carreau|0|Blessure de degré II|360
 Onguent|1| |180
 
