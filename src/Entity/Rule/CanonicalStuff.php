@@ -18,11 +18,35 @@ class CanonicalStuff extends AbstractRule
      */
     protected $stuff;
 
+    /**
+     * @var StuffCategory
+     *
+     * @ORM\ManyToOne(targetEntity="StuffCategory")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    protected $category;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(type="string")
+     */
+    protected $short;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(type="text")
+     */
+    protected $description;
+
     public function __construct()
     {
         parent::__construct();
 
         $this->stuff = new Stuff();
+        $this->setShort('');
+        $this->setDescription('');
     }
 
     public function getStuff(): ?Stuff
@@ -117,11 +141,50 @@ class CanonicalStuff extends AbstractRule
         return $this->stuff->getPrice();
     }
 
+    public function getCategory(): ?StuffCategory
+    {
+        return $this->category;
+    }
+
+    public function setCategory(StuffCategory $category): self
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
+    public function getShort(): ?string
+    {
+        return $this->short;
+    }
+
+    public function setShort(string $short): self
+    {
+        $this->short = $short;
+
+        return $this;
+    }
+
+    public function getDescription(): ?string
+    {
+        return $this->description;
+    }
+
+    public function setDescription(string $description): self
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [
+            'short' => $this->getShort(),
+            'description' => $this->getDescription(),
             'effectiveness' => $this->getEffectiveness(),
             'kind' => $this->getKind()->getId(),
+            'category' => $this->getCategory()->getId(),
             'expendable' => $this->isExpendable(),
             'properties' => array_map(function (StuffProperty $property) {
                 return $property->getId();

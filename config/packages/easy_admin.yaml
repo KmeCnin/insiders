@@ -17,6 +17,7 @@ easy_admin:
             - Characteristic
             - Deity
             - Lexicon
+            - StuffCategory
             - StuffKind
             - StuffProperty
             - StuffPropertyKind
@@ -93,18 +94,9 @@ easy_admin:
             class: App\Entity\Rule\CanonicalStuff
             list:
                 fields:
-                    - enabled
-                    - public
                     - id
                     - name
-                    - namevmahlt
-                    -
-                        property: stuff.kind
-                        label: Kind
-                    -
-                        property: stuff.expendable
-                        label: Expendable
-                        type: boolean
+                    - category
                     -
                         property: stuff.effectiveness
                         label: Effectiveness
@@ -117,13 +109,16 @@ easy_admin:
                         property: stuff.price
                         label: Price
                         type: integer
-                sort: ['id', 'ASC']
+                    - enabled
+                    - public
+                sort: ['category.name', 'ASC']
             form:
                 fields:
                     - enabled
                     - public
                     - id
                     - name
+                    - category
                     -
                         property: stuff
                         type: App\Form\Type\StuffType
@@ -155,6 +150,19 @@ easy_admin:
             class: App\Entity\Rule\LexiconEntry
             list:
                 fields: ['id', 'name', 'slug', 'short', 'public', 'enabled']
+                sort: ['id', 'ASC']
+            form:
+                fields:
+                    - { property: enabled }
+                    - { property: public }
+                    - { property: id }
+                    - { property: name }
+                    - { property: short }
+                    - { property: description, type: ckeditor }
+        StuffCategory:
+            class: App\Entity\Rule\StuffCategory
+            list:
+                fields: ['id', 'name', 'slug', 'public', 'enabled']
                 sort: ['id', 'ASC']
             form:
                 fields:

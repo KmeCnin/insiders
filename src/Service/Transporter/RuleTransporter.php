@@ -13,6 +13,7 @@ use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
 use App\Entity\Rule\LexiconEntry;
 use App\Entity\Rule\RuleInterface;
+use App\Entity\Rule\StuffCategory;
 use App\Entity\Rule\StuffKind;
 use App\Entity\Rule\StuffProperty;
 use App\Entity\Rule\StuffPropertyKind;
@@ -51,6 +52,7 @@ class RuleTransporter implements TransporterInterface
             Ability::class,
             Champion::class,
             Deity::class,
+            StuffCategory::class,
             StuffKind::class,
             StuffPropertyKind::class,
             StuffProperty::class,

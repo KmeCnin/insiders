@@ -16,9 +16,10 @@
       <div class="block-split-wrapper">
         <div class="block-title">
           <div>
-            {#<img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="{{ arcane.name }}">#}
+            <img src="{{ asset('resources/images/arcanes/icons/'~deity.arcane.id~'.svg') }}" alt="{{ deity.arcane.name }}">
             <h1>{{ deity.name }}</h1>
           </div>
+          <span>{{ deity.dignity }}</span>
         </div>
         <div class="block block-split">
           <div class="block-content">

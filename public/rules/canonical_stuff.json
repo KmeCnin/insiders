@@ -4,8 +4,11 @@
         "name": "Arbalète",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 2,
         "kind": "weapon",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "ranged"
@@ -16,8 +19,11 @@
         "name": "Arc",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 1,
         "kind": "weapon",
+        "category": "expendables",
         "expendable": false,
         "properties": [
             "ranged"
@@ -28,8 +34,11 @@
         "name": "Armure en cuire",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 1,
         "kind": "armor",
+        "category": "fight",
         "expendable": false,
         "properties": []
     },
@@ -38,8 +47,11 @@
         "name": "Bandages",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 2,
         "kind": "object",
+        "category": "expendables",
         "expendable": true,
         "properties": []
     },
@@ -48,20 +60,39 @@
         "name": "Bâton de combat",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 1,
         "kind": "weapon",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "wound-I"
         ]
     },
     {
+        "id": "bulwark",
+        "name": "Bouclier",
+        "enabled": true,
+        "public": true,
+        "short": "",
+        "description": "",
+        "effectiveness": 2,
+        "kind": "shield",
+        "category": "fight",
+        "expendable": false,
+        "properties": []
+    },
+    {
         "id": "quiver",
         "name": "Carquois",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 0,
         "kind": "weapon",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "wound-I"
@@ -72,8 +103,11 @@
         "name": "Carreau",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 0,
         "kind": "weapon",
+        "category": "expendables",
         "expendable": true,
         "properties": [
             "wound-II"
@@ -84,8 +118,11 @@
         "name": "Cotte de maille",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 2,
         "kind": "armor",
+        "category": "fight",
         "expendable": false,
         "properties": []
     },
@@ -94,30 +131,26 @@
         "name": "Dague",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 0,
         "kind": "weapon",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "wound-II"
         ]
     },
     {
-        "id": "shield",
-        "name": "Écu",
-        "enabled": true,
-        "public": true,
-        "effectiveness": 1,
-        "kind": "shield",
-        "expendable": false,
-        "properties": []
-    },
-    {
         "id": "two-hand-sword",
         "name": "Épée à deux mains",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 2,
         "kind": "weapon",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "wound-II"
@@ -128,8 +161,11 @@
         "name": "Épée à une main",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 1,
         "kind": "weapon",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "wound-II"
@@ -140,8 +176,11 @@
         "name": "Flèche",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 0,
         "kind": "weapon",
+        "category": "expendables",
         "expendable": true,
         "properties": [
             "wound-I"
@@ -152,8 +191,11 @@
         "name": "Harnois",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 3,
         "kind": "armor",
+        "category": "fight",
         "expendable": false,
         "properties": []
     },
@@ -162,19 +204,12 @@
         "name": "Onguent",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 1,
         "kind": "object",
+        "category": "expendables",
         "expendable": true,
-        "properties": []
-    },
-    {
-        "id": "bulwark",
-        "name": "Pavois",
-        "enabled": true,
-        "public": true,
-        "effectiveness": 2,
-        "kind": "shield",
-        "expendable": false,
         "properties": []
     },
     {
@@ -182,11 +217,27 @@
         "name": "Surin",
         "enabled": true,
         "public": true,
+        "short": "",
+        "description": "",
         "effectiveness": 0,
         "kind": "weapon",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "wound-I"
         ]
+    },
+    {
+        "id": "shield",
+        "name": "Targe",
+        "enabled": true,
+        "public": true,
+        "short": "",
+        "description": "",
+        "effectiveness": 1,
+        "kind": "shield",
+        "category": "fight",
+        "expendable": false,
+        "properties": []
     }
 ]
