@@ -39,4 +39,10 @@ services:
             - '@form.factory'
 
     App\Service\TwigExtension:
-        arguments: ~
+        arguments:
+            - '@App\Service\RulesAugmenter'
+
+    App\Service\RulesAugmenter:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@twig'

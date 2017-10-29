@@ -5,7 +5,7 @@
 {# @var categories \App\Entity\Rule\StuffCategory[] #}
 {# @var stuff \App\Entity\Rule\CanonicalStuff[] #}
 
-{% set header_bg = asset('resources/images/stuff_category/'~category.id~'.jpg') %}
+{% set header_bg = asset('resources/images/stuff_categories/'~category.id~'.jpg') %}
 {% set subtitle = category.name %}
 
 {% block container %}
@@ -33,7 +33,7 @@
 
             <div class="bg-block" style="background-image: url({{ asset('resources/images/stuff/'~stuffItem.id~'.jpg') }})"></div>
 
-            <img src="{{ asset('resources/images/categories/icons/'~category.id~'-bg.svg') }}" alt="{{ category.name }}">
+            <img src="{{ asset('resources/images/stuff_categories/icons/'~category.id~'-bg.svg') }}" alt="{{ category.name }}">
           </div>
         {% endfor %}
     </div>
