@@ -9,6 +9,8 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Champion extends AbstractRule
 {
+    use DescriptionTrait;
+
     /**
      * @var string
      *
@@ -23,13 +25,6 @@ class Champion extends AbstractRule
      * @ORM\JoinColumn(nullable=true)
      */
     private $deity;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="text")
-     */
-    protected $description;
 
     public function getDignity(): ?string
     {
@@ -51,18 +46,6 @@ class Champion extends AbstractRule
     public function setDeity(Deity $deity): self
     {
         $this->deity = $deity;
-
-        return $this;
-    }
-
-    public function getDescription(): ?string
-    {
-        return $this->description;
-    }
-
-    public function setDescription(string $description): self
-    {
-        $this->description = $description;
 
         return $this;
     }

@@ -1,0 +1,42 @@
+{% extends 'layout-rules.html.twig' %}
+
+{# /règles/équipements #}
+{# @var description #}
+{# @var categories \App\Entity\StuffCategory[] #}
+
+{% set header_bg = asset('resources/images/bg-header-stuff.jpg') %}
+{% set subtitle = 'Tous les équipements' %}
+
+{% block container %}
+{{ include('includes/rules/breadcrumb_stuff.html.twig', [categories]) }}
+
+  <div class="block block-intro">
+    <p>{{ description|raw }}</p>
+  </div>
+
+  {% for entry in map %}
+      {# @var category \App\Entity\Rule\StuffCategory #}
+      {% set category = entry['category'] %}
+
+    <div class="block-title">
+      <div>
+        <img src="{{ asset('resources/images/categories/icons/'~category.id~'.svg') }}" alt="{{ category.name }}">
+        <h1>{{ category.name }}</h1>
+      </div>
+      <span>{{ category.short }}</span>
+    </div>
+
+    <div class="block block-group">
+        {% set stuffList = entry['stuff'] %}
+        {% for stuff in stuffList %}
+            {# @var stuff \App\Entity\Rule\CanonicalStuff #}
+          <a class="block-group-item" href="{{ path('rules.stuff', {'slug': category.slug})~'#'~stuff.slug }}" style="background-image: url({{ asset('resources/images/stuff/'~stuff.id~'.jpg') }});">
+            <div>
+              <h2>{{ stuff.name }}</h2>
+              <p>{{ stuff.short }}</p>
+            </div>
+          </a>
+        {% endfor %}
+    </div>
+  {% endfor %}
+{% endblock %}

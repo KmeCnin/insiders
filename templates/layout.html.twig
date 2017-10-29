@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>{% block title %}{{ subtitle }} - {{ title }} - Les Initiés{% endblock %}</title>
+
+    {# STYLES #}
     <link rel="stylesheet" href="{{ asset('resources/style/css/style.css') }}">
     {% block css %}{% endblock %}
 
-    <!-- FONTS -->
+    {# FAVICON #}
+    <link rel="icon" type="image/png" href="{{ asset('resources/images/favicon.png') }}?v=1" />
+
+    {# FONTS #}
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manuale:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   </head>
@@ -15,7 +20,12 @@
 
     <header>
       {% block header %}
-      <div class="header" style="background-image: url({{ header_bg|default('') }});">
+      <div
+              class="header"
+              style="background-image:
+                      linear-gradient(to top left, rgba(0, 0, 0, 0.90) 30%, rgba(0, 0, 0, 0)),
+                      url({{ header_bg|default('') }});"
+      >
         <div class="header-content-wrapper">
           <h1>{{ title }}</h1>
           <h2>{{ subtitle }}</h2>
@@ -30,5 +40,12 @@
         {% endblock %}
       </div>
     </main>
+
+    {# SCRIPTS #}
+    <script src="{{ asset('resources/script/jquery-3.0.0.slim.min.js') }}"></script>
+    <script src="{{ asset('resources/script/popper.min.js') }}"></script>
+    <script src="{{ asset('resources/script/bootstrap.min.js') }}"></script>
+    {% block js %}{% endblock %}
+    <script src="{{ asset('resources/script/script.js') }}"></script>
 </body>
 </html>

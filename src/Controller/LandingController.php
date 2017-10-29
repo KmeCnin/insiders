@@ -2,10 +2,9 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class LandingController extends AbstractController
+class LandingController extends AbstractAppController
 {
     /**
      * @Route("/", name="home")

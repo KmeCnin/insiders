@@ -2,23 +2,23 @@
 
 {# /règles/capacités-arcaniques #}
 {# @var arcane \App\Entity\Rule\Arcane #}
-{# @var arcanes \App\Entity\Rule\Arcane #}
+{# @var arcanes \App\Entity\Rule\Arcane[] #}
 {# @var abilities \App\Entity\Rule\Ability[] #}
 
 {% set header_bg = asset('resources/images/arcanes/'~arcane.id~'.jpg') %}
 {% set subtitle = 'Capacités de '~arcane.name %}
 
-{% block container %} 
-  {{ include('includes/rules/breadcrumb.html.twig', [arcanes, arcane]) }}
+{% block container %}
+  {{ include('includes/rules/breadcrumb_abilities.html.twig', [arcanes, arcane]) }}
 
   <div class="block block-intro">
     <p>{{ arcane.description|raw }}</p>
   </div>
 
   <section>
-    <div>
       {% for ability in abilities %}
-      <div id="{{ ability.slug }}" class="block-title">
+      <a class="anchor" id="{{ ability.slug }}"></a>
+      <div class="block-title">
         <div>
           <h1>{{ ability.name }}</h1>
         </div>
@@ -47,9 +47,8 @@
 
         <div class="bg-block" style="background-image: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }})"></div>
 
-        <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'-bg.svg') }}" alt="La Source">
+        <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'-bg.svg') }}" alt="{{ arcane.name }}">
       </div>
       {% endfor %}
-    </div>
   </section>
 {% endblock %}

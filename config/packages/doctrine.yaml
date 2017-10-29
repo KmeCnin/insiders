@@ -7,7 +7,7 @@ doctrine:
                 host:                 localhost
                 port:                 ~
                 user:                 root
-                password:             ~
+                password:             root
                 charset:              "UTF8"
     orm:
         auto_generate_proxy_classes: '%kernel.debug%'
