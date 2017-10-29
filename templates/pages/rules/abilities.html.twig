@@ -16,9 +16,9 @@
   </div>
 
   <section>
-    <div>
       {% for ability in abilities %}
-      <div id="{{ ability.slug }}" class="block-title">
+      <a class="anchor" id="{{ ability.slug }}"></a>
+      <div class="block-title">
         <div>
           <h1>{{ ability.name }}</h1>
         </div>
@@ -50,6 +50,5 @@
         <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'-bg.svg') }}" alt="{{ arcane.name }}">
       </div>
       {% endfor %}
-    </div>
   </section>
 {% endblock %}

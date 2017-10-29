@@ -23,7 +23,7 @@
         "description": "",
         "effectiveness": 1,
         "kind": "weapon",
-        "category": "expendables",
+        "category": "fight",
         "expendable": false,
         "properties": [
             "ranged"
@@ -99,21 +99,6 @@
         ]
     },
     {
-        "id": "bolt",
-        "name": "Carreau",
-        "enabled": true,
-        "public": true,
-        "short": "",
-        "description": "",
-        "effectiveness": 0,
-        "kind": "weapon",
-        "category": "expendables",
-        "expendable": true,
-        "properties": [
-            "wound-II"
-        ]
-    },
-    {
         "id": "chainmail",
         "name": "Cotte de maille",
         "enabled": true,
@@ -169,21 +154,6 @@
         "expendable": false,
         "properties": [
             "wound-II"
-        ]
-    },
-    {
-        "id": "arrow",
-        "name": "Flèche",
-        "enabled": true,
-        "public": true,
-        "short": "",
-        "description": "",
-        "effectiveness": 0,
-        "kind": "weapon",
-        "category": "expendables",
-        "expendable": true,
-        "properties": [
-            "wound-I"
         ]
     },
     {

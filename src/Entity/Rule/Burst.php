@@ -9,6 +9,9 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Burst extends AbstractRule
 {
+    use ShortTrait;
+    use DescriptionTrait;
+
     /**
      * @var Arcane
      *
@@ -16,20 +19,6 @@ class Burst extends AbstractRule
      * @ORM\JoinColumn(nullable=false)
      */
     private $arcane;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="string")
-     */
-    protected $short;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="text")
-     */
-    protected $description;
 
     public function __construct()
     {
@@ -47,30 +36,6 @@ class Burst extends AbstractRule
     public function setArcane(Arcane $arcane): self
     {
         $this->arcane = $arcane;
-
-        return $this;
-    }
-
-    public function getShort(): ?string
-    {
-        return $this->short;
-    }
-
-    public function setShort(string $short): self
-    {
-        $this->short = $short;
-
-        return $this;
-    }
-
-    public function getDescription(): ?string
-    {
-        return $this->description;
-    }
-
-    public function setDescription(string $description): self
-    {
-        $this->description = $description;
 
         return $this;
     }

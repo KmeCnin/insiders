@@ -9,6 +9,8 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Deity extends AbstractRule
 {
+    use DescriptionTrait;
+
     /**
      * @var string
      *
@@ -30,13 +32,6 @@ class Deity extends AbstractRule
      * @ORM\OneToOne(targetEntity="Champion")
      */
     private $champion;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="text")
-     */
-    protected $description;
 
     public function getDignity(): ?string
     {
@@ -70,19 +65,9 @@ class Deity extends AbstractRule
     public function setChampion(?Champion $champion): self
     {
         $this->champion = $champion;
-        $champion->setDeity($this);
-
-        return $this;
-    }
-
-    public function getDescription(): ?string
-    {
-        return $this->description;
-    }
-
-    public function setDescription(string $description): self
-    {
-        $this->description = $description;
+        if (null !== $champion) {
+            $champion->setDeity($this);
+        }
 
         return $this;
     }

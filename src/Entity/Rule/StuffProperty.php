@@ -10,18 +10,14 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class StuffProperty extends AbstractRule
 {
+    use ShortTrait;
+
     /**
      * @var float
      *
      * @ORM\Column(type="float", nullable=false)
      */
     protected $fp;
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="string")
-     */
-    protected $short;
 
     /**
      * @var StuffKind[]
@@ -52,18 +48,6 @@ class StuffProperty extends AbstractRule
     public function setFp(float $fp): self
     {
         $this->fp = $fp;
-
-        return $this;
-    }
-
-    public function getShort(): ?string
-    {
-        return $this->short;
-    }
-
-    public function setShort(string $short): self
-    {
-        $this->short = $short;
 
         return $this;
     }

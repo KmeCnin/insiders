@@ -12,7 +12,7 @@
   z-index: 1000;
 
   border-bottom: 1px solid $secondary-color;
-  background: url(../../images/navbar-pattern.png);
+  background: $dark-template;
 
   .navbar-container {
     width: 1100px;

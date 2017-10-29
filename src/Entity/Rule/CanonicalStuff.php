@@ -11,6 +11,9 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class CanonicalStuff extends AbstractRule
 {
+    use ShortTrait;
+    use DescriptionTrait;
+
     /**
      * @var Stuff
      *
@@ -25,20 +28,6 @@ class CanonicalStuff extends AbstractRule
      * @ORM\JoinColumn(nullable=false)
      */
     protected $category;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="string")
-     */
-    protected $short;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="text")
-     */
-    protected $description;
 
     public function __construct()
     {
@@ -149,30 +138,6 @@ class CanonicalStuff extends AbstractRule
     public function setCategory(StuffCategory $category): self
     {
         $this->category = $category;
-
-        return $this;
-    }
-
-    public function getShort(): ?string
-    {
-        return $this->short;
-    }
-
-    public function setShort(string $short): self
-    {
-        $this->short = $short;
-
-        return $this;
-    }
-
-    public function getDescription(): ?string
-    {
-        return $this->description;
-    }
-
-    public function setDescription(string $description): self
-    {
-        $this->description = $description;
 
         return $this;
     }

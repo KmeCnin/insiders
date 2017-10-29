@@ -18,6 +18,7 @@
   <section>
     <div>
         {% for stuffItem in stuff %}
+          <a class="anchor" id="{{ stuffItem.slug }}"></a>
           <div id="{{ stuffItem.slug }}" class="block-title">
             <div>
               <h1>{{ stuffItem.name }}</h1>

@@ -9,19 +9,8 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class LexiconEntry extends AbstractRule
 {
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="string")
-     */
-    protected $short;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(type="text")
-     */
-    protected $description;
+    use ShortTrait;
+    use DescriptionTrait;
 
     public function __construct()
     {
@@ -29,35 +18,6 @@ class LexiconEntry extends AbstractRule
 
         $this->setShort('');
         $this->setDescription('');
-    }
-
-    public function getShort(): ?string
-    {
-        return $this->short;
-    }
-
-    public function setShort(string $short): self
-    {
-        $this->short = $short;
-
-        return $this;
-    }
-
-    public function getDescription(): ?string
-    {
-        return $this->description;
-    }
-
-    public function setDescription(string $description): self
-    {
-        $this->description = $description;
-
-        return $this;
-    }
-
-    public function getDescriptionRaw(): ?string
-    {
-        return strip_tags($this->description);
     }
 
     public function normalize(): array

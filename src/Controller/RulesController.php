@@ -10,11 +10,9 @@ use App\Entity\Rule\CanonicalStuff;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\LexiconEntry;
 use App\Entity\Rule\StuffCategory;
-use App\Entity\Rule\StuffKind;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class RulesController extends AbstractController
+class RulesController extends AbstractAppController
 {
     /**
      * @Route("/règles", name="rules")
@@ -43,7 +41,7 @@ class RulesController extends AbstractController
         $repo = $this->getDoctrine()->getRepository(Ability::class);
 
         return $this->render('pages/rules/abilities.html.twig', [
-            'description' => $lexicon->getDescription(),
+            'description' => $this->augment($lexicon->getDescription()),
             'arcane' => $arcane,
             'arcanes' => $arcanesRepo->findAll(),
             'abilities' => $repo->findByArcane($arcane),
@@ -68,7 +66,7 @@ class RulesController extends AbstractController
         }
 
         return $this->render('pages/rules/all_abilities.html.twig', [
-            'description' => $lexicon->getDescription(),
+            'description' => $this->augment($lexicon->getDescription()),
             'arcanes' => $arcanes,
             'map' => $map,
         ]);
@@ -83,7 +81,7 @@ class RulesController extends AbstractController
         $repo = $this->getDoctrine()->getRepository(Attribute::class);
 
         return $this->render('pages/rules/attributes.html.twig', [
-            'description' => $lexicon->getDescription(),
+            'description' => $this->augment($lexicon->getDescription()),
             'attributes' => $repo->findAll(),
         ]);
     }
@@ -97,7 +95,7 @@ class RulesController extends AbstractController
         $repo = $this->getDoctrine()->getRepository(Burst::class);
 
         return $this->render('pages/rules/bursts.html.twig', [
-            'description' => $lexicon->getDescription(),
+            'description' => $this->augment($lexicon->getDescription()),
             'bursts' => $repo->findAll(),
         ]);
     }
@@ -121,7 +119,7 @@ class RulesController extends AbstractController
         $repo = $this->getDoctrine()->getRepository(CanonicalStuff::class);
 
         return $this->render('pages/rules/stuff.html.twig', [
-            'description' => $lexicon->getDescription(),
+            'description' => $this->augment($lexicon->getDescription()),
             'category' => $category,
             'categories' => $categoriesRepo->findAll(),
             'stuff' => $repo->findByCategory($category),
@@ -146,7 +144,7 @@ class RulesController extends AbstractController
         }
 
         return $this->render('pages/rules/all_stuff.html.twig', [
-            'description' => $lexicon->getDescription(),
+            'description' => $this->augment($lexicon->getDescription()),
             'categories' => $categories,
             'map' => $map,
         ]);
@@ -161,7 +159,7 @@ class RulesController extends AbstractController
         $repo = $this->getDoctrine()->getRepository(Characteristic::class);
 
         return $this->render('pages/rules/characteristics.html.twig', [
-            'description' => $lexicon->getDescription(),
+            'description' => $this->augment($lexicon->getDescription()),
             'characteristics' => $repo->findAll(),
         ]);
     }
