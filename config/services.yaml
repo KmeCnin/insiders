@@ -39,8 +39,7 @@ services:
             - '@form.factory'
 
     App\Service\TwigExtension:
-        arguments:
-            - '@App\Service\RulesAugmenter'
+        arguments: ~
 
     App\Service\RulesAugmenter:
         arguments:
