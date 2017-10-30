@@ -8,7 +8,7 @@
 [Equipements](../book/équipements.md)
 # Arcanes
 
-Les initiés sont capables d&#039;absorber l&#039;énergie des cristaux d&#039;arcanite pour débloquer une sensibilité particulière à des aspects de la réalités appelés **arcanes**. Un initié ayant débloqué un arcane spécifique acquière alors une compréhension singulière de cette facette de la réalité lui permettant de débloquer par la suite des capacités arcaniques surnaturelles.
+Les _initiés_ sont capables d&#039;absorber l&#039;énergie des _cristaux d&#039;arcanite_ pour débloquer une sensibilité particulière à des aspects de la réalités appelés **arcanes**. Un initié ayant débloqué un arcane spécifique acquière alors une compréhension singulière de cette facette de la réalité lui permettant de débloquer par la suite des _capacités arcaniques_ surnaturelles.
 
 Chaque arcane est représenté par une (ou plusieurs) divinité(s) qui possèdent souvent une masse d&#039;adeptes fidèles mais que chaque initié est libre de vénérer ou non.  
  Il n&#039;est pas rare de croiser des initiés ayant accès à 2 ou 3 arcanes, mais la plupart préfère se spécialiser.  

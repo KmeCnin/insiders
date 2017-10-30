@@ -8,7 +8,7 @@
 [Equipements](../book/équipements.md)
 # Attributs physiques
 
-Les **attributs physiques** représentent des compétences particulières innées chez des animaux ou acquises par des personnages grâce à l&#039;entraînement ou suite à des mutations après absorption de cristaux d&#039;arcanite.
+Les **attributs physiques** représentent des compétences particulières innées chez des animaux ou acquises par des personnages grâce à l&#039;entraînement ou suite à des mutations après absorption de _cristaux d&#039;arcanite_.
 
 ## Ailes
 
