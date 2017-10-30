@@ -8,10 +8,10 @@
 [Equipements](../book/équipements.md)
 # Capacités
 
-Un initié ou une aberration maîtrisant un arcane particulier est capable d&#039;acquérir des **capacités arcaniques** liées à ce dernier lui conférant alors des pouvoirs surnaturels.
+Un _initié_ ou une _aberration_ maîtrisant un _arcane_ particulier est capable d&#039;acquérir des **capacités arcaniques** liées à ce dernier lui conférant alors des pouvoirs surnaturels.
 
-Pour acquérir une nouvelle capacité arcanique, l&#039;initié doit préalablement avoir débloqué l&#039;arcane correspondant (en utilisant 1 point de création) puis dépenser 2 points de créations dans la capacité de son choix.  
- L&#039;initié peut alors utiliser son pouvoir autant de fois qu&#039;il le souhaite de la manière qu&#039;il souhaite tant qu&#039;elle parait cohérente avec la description de la capacité. Rien ne permet à un observateur extérieur de savoir qu&#039;un initié possède un quelconque pouvoir tant qu&#039;il ne l&#039;aperçoit pas en train de l&#039;utiliser (à moins que la capacité implique des transformations physiques explicites comme pour corps d&#039;obsylène par exemple).  
+Pour acquérir une nouvelle capacité arcanique, l&#039;initié doit préalablement avoir débloqué l&#039;arcane correspondant (en utilisant 1 _point de création_) puis dépenser 2 points de créations dans la capacité de son choix.  
+ L&#039;initié peut alors utiliser son pouvoir autant de fois qu&#039;il le souhaite de la manière qu&#039;il souhaite tant qu&#039;elle parait cohérente avec la description de la capacité. Rien ne permet à un observateur extérieur de savoir qu&#039;un initié possède un quelconque pouvoir tant qu&#039;il ne l&#039;aperçoit pas en train de l&#039;utiliser (à moins que la capacité implique des transformations physiques explicites comme pour _corps d&#039;obsylène_ par exemple).  
  Chaque capacité présente une partie descriptive du pouvoir ainsi que quelques exemples d&#039;utilisation que le joueur est invité à élargir autant que possible. Une autre partie décrit l&#039;utilisation du pouvoir en situation de combat et permet d&#039;équilibrer les puissances relatives des différentes capacités.
 
 Certaines capacités arcaniques nécessitent de posséder déjà une ou plusieurs autres capacités avant de pouvoir être débloquée.  

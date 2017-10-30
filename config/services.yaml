@@ -40,3 +40,8 @@ services:
 
     App\Service\TwigExtension:
         arguments: ~
+
+    App\Service\RulesAugmenter:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@twig'

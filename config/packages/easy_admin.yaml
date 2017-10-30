@@ -97,6 +97,7 @@ easy_admin:
                     - id
                     - name
                     - category
+                    - short
                     -
                         property: stuff.effectiveness
                         label: Effectiveness
@@ -119,6 +120,8 @@ easy_admin:
                     - id
                     - name
                     - category
+                    - short
+                    - { property: description, type: ckeditor }
                     -
                         property: stuff
                         type: App\Form\Type\StuffType

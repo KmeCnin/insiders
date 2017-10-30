@@ -8,7 +8,7 @@
 [Equipements](../book/équipements.md)
 # Equipements
 
-Les personnages (et plus rarement les animaux) peuvent porter sur eux des **équipements** les aidant à combattre (armes, armures, boucliers...) ou à accomplir aisément des tâches spécifiques (cordes...). Certains équipements à usage unique ne confèrent un bonus que lors d&#039;une seule utilisation, on les appelle _consommables_.
+Les personnages (et plus rarement les animaux) peuvent porter sur eux des **équipements** les aidant à combattre (armes, armures, boucliers, etc.) ou à accomplir aisément des tâches spécifiques (capes, cordes, longues-vues, etc.). Certains équipements à usage unique ne confèrent un bonus que lors d&#039;une seule utilisation, on les appelle _consommables_.
 
 ## Armes
 

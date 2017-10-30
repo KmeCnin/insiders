@@ -16,6 +16,15 @@ class TwigExtension extends \Twig_Extension
     public function markdownFilter($html)
     {
         $converter = new HtmlConverter();
-        return $converter->convert($html);
+        return strip_tags($converter->convert($this->removeAugmentation($html)));
+    }
+
+    public function removeAugmentation(?string $text): ?string
+    {
+        if (null === $text) {
+            return null;
+        }
+
+        return preg_replace('/(\[(.+)\])\((.+)\)/U', '<em>$2</em>', $text);
     }
 }

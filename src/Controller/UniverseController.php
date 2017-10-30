@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Rule\Arcane;
 use App\Entity\Rule\Deity;
 use App\Entity\Rule\LexiconEntry;
+use App\Service\RulesAugmenter;
 use Symfony\Component\Routing\Annotation\Route;
 
 class UniverseController extends AbstractAppController
@@ -26,7 +27,9 @@ class UniverseController extends AbstractAppController
         $repo = $this->getDoctrine()->getRepository(Arcane::class);
 
         return $this->render('pages/universe/arcanes.html.twig', [
-            'description' => $this->augment($lexicon->getDescription()),
+            'description' => $this->container
+                ->get(RulesAugmenter::class)
+                ->augment($lexicon->getDescription()),
             'arcanes' => $repo->findAll(),
         ]);
     }
@@ -40,7 +43,9 @@ class UniverseController extends AbstractAppController
         $repo = $this->getDoctrine()->getRepository(Deity::class);
 
         return $this->render('pages/universe/deities.html.twig', [
-            'description' => $this->augment($lexicon->getDescription()),
+            'description' => $this->container
+                ->get(RulesAugmenter::class)
+                ->augment($lexicon->getDescription()),
             'deities' => $repo->findAll(),
         ]);
     }

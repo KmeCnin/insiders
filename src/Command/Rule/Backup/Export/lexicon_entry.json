@@ -1,5 +1,13 @@
 [
     {
+        "id": "monster",
+        "name": "Aberration",
+        "enabled": true,
+        "public": true,
+        "short": "Animal ayant absorbé l'énergie d'un cristal d'arcanite",
+        "description": "<p>Animal ayant absorb&eacute; l&#39;&eacute;nergie d&#39;un cristal d&#39;arcanite<\/p>"
+    },
+    {
         "id": "arcane",
         "name": "Arcane",
         "enabled": true,
@@ -21,7 +29,7 @@
         "enabled": true,
         "public": true,
         "short": "Pouvoir surnaturel conféré par l'absorption d'un cristal d'arcanite",
-        "description": "<p>Un initi&eacute; ou une aberration ma&icirc;trisant un arcane particulier est capable d&#39;acqu&eacute;rir des <strong>capacit&eacute;s arcaniques<\/strong>&nbsp;li&eacute;es &agrave; ce dernier lui conf&eacute;rant alors des pouvoirs surnaturels.<\/p>\r\n\r\n<p>Pour acqu&eacute;rir une nouvelle capacit&eacute; arcanique, l&#39;initi&eacute; doit pr&eacute;alablement avoir d&eacute;bloqu&eacute; l&#39;arcane correspondant (en utilisant 1 point de cr&eacute;ation) puis d&eacute;penser 2 points de cr&eacute;ations dans la capacit&eacute; de son choix.<br \/>\r\nL&#39;initi&eacute; peut alors utiliser son pouvoir autant de fois qu&#39;il le souhaite de la mani&egrave;re qu&#39;il souhaite tant qu&#39;elle parait coh&eacute;rente avec la description de la capacit&eacute;. Rien ne permet &agrave; un observateur ext&eacute;rieur de savoir qu&#39;un initi&eacute; poss&egrave;de un quelconque pouvoir tant qu&#39;il ne l&#39;aper&ccedil;oit pas en train de l&#39;utiliser (&agrave; moins que la capacit&eacute; implique des transformations physiques explicites comme pour corps d&#39;obsyl&egrave;ne par exemple).<br \/>\r\nChaque capacit&eacute; pr&eacute;sente une partie descriptive du pouvoir ainsi que quelques exemples d&#39;utilisation que le joueur est invit&eacute; &agrave; &eacute;largir autant que possible. Une autre partie d&eacute;crit l&#39;utilisation du pouvoir en situation de combat et permet d&#39;&eacute;quilibrer les puissances relatives des diff&eacute;rentes capacit&eacute;s.<\/p>\r\n\r\n<p>Certaines capacit&eacute;s arcaniques n&eacute;cessitent de poss&eacute;der d&eacute;j&agrave; une ou plusieurs autres capacit&eacute;s avant de pouvoir &ecirc;tre d&eacute;bloqu&eacute;e.<br \/>\r\nCertaines capacit&eacute;s arcaniques peuvent &ecirc;tre am&eacute;lior&eacute;es en d&eacute;bloquant des augmentations. Chaque augmentation n&eacute;cessite de d&eacute;penser 1 point de cr&eacute;ation. Les augmentations doivent &ecirc;tre d&eacute;bloqu&eacute;es dans l&#39;ordre affich&eacute;.<\/p>"
+        "description": "<p>Un [initi&eacute;](lexicon:insider)&nbsp;ou une [aberration](lexicon:monster) ma&icirc;trisant un [arcane](lexicon:arcane) particulier est capable d&#39;acqu&eacute;rir des <strong>capacit&eacute;s arcaniques<\/strong>&nbsp;li&eacute;es &agrave; ce dernier lui conf&eacute;rant alors des pouvoirs surnaturels.<\/p>\r\n\r\n<p>Pour acqu&eacute;rir une nouvelle capacit&eacute; arcanique, l&#39;initi&eacute; doit pr&eacute;alablement avoir d&eacute;bloqu&eacute; l&#39;arcane correspondant (en utilisant 1 [point de cr&eacute;ation](lexicon:pc)) puis d&eacute;penser 2 points de cr&eacute;ations dans la capacit&eacute; de son choix.<br \/>\r\nL&#39;initi&eacute; peut alors utiliser son pouvoir autant de fois qu&#39;il le souhaite de la mani&egrave;re qu&#39;il souhaite tant qu&#39;elle parait coh&eacute;rente avec la description de la capacit&eacute;. Rien ne permet &agrave; un observateur ext&eacute;rieur de savoir qu&#39;un initi&eacute; poss&egrave;de un quelconque pouvoir tant qu&#39;il ne l&#39;aper&ccedil;oit pas en train de l&#39;utiliser (&agrave; moins que la capacit&eacute; implique des transformations physiques explicites comme pour [corps d&#39;obsyl&egrave;ne](ability:mineral-fists) par exemple).<br \/>\r\nChaque capacit&eacute; pr&eacute;sente une partie descriptive du pouvoir ainsi que quelques exemples d&#39;utilisation que le joueur est invit&eacute; &agrave; &eacute;largir autant que possible. Une autre partie d&eacute;crit l&#39;utilisation du pouvoir en situation de combat et permet d&#39;&eacute;quilibrer les puissances relatives des diff&eacute;rentes capacit&eacute;s.<\/p>\r\n\r\n<p>Certaines capacit&eacute;s arcaniques n&eacute;cessitent de poss&eacute;der d&eacute;j&agrave; une ou plusieurs autres capacit&eacute;s avant de pouvoir &ecirc;tre d&eacute;bloqu&eacute;e.<br \/>\r\nCertaines capacit&eacute;s arcaniques peuvent &ecirc;tre am&eacute;lior&eacute;es en d&eacute;bloquant des augmentations. Chaque augmentation n&eacute;cessite de d&eacute;penser 1 point de cr&eacute;ation. Les augmentations doivent &ecirc;tre d&eacute;bloqu&eacute;es dans l&#39;ordre affich&eacute;.<\/p>"
     },
     {
         "id": "characteristic",
@@ -70,5 +78,21 @@
         "public": true,
         "short": "Objet porté par un personnage conférant des bonus",
         "description": "<p>Les personnages (et plus rarement les animaux) peuvent porter sur eux des <strong>&eacute;quipements<\/strong>&nbsp;les aidant &agrave; combattre (armes, armures, boucliers...) ou &agrave; accomplir ais&eacute;ment des t&acirc;ches sp&eacute;cifiques (cordes...). Certains &eacute;quipements &agrave; usage unique ne conf&egrave;rent un bonus que lors d&#39;une seule utilisation, on les appelle <em>consommables<\/em>.<\/p>"
+    },
+    {
+        "id": "insider",
+        "name": "Initié",
+        "enabled": true,
+        "public": true,
+        "short": "Personnage ayant absorbé l'énergie d'un cristal d'arcanite",
+        "description": "<p>Personnage ayant absorb&eacute; l&#39;&eacute;nergie d&#39;un cristal d&#39;arcanite<\/p>"
+    },
+    {
+        "id": "pc",
+        "name": "Point de création",
+        "enabled": true,
+        "public": true,
+        "short": "Unité définissant une équivalence dans les éléments constitutifs de la création d'un personnage",
+        "description": "<p>Unit&eacute; d&eacute;finissant une &eacute;quivalence dans les &eacute;l&eacute;ments constitutifs de la cr&eacute;ation d&#39;un personnage<\/p>"
     }
 ]

@@ -5,7 +5,7 @@
 {# @var categories \App\Entity\Rule\StuffCategory[] #}
 {# @var stuff \App\Entity\Rule\CanonicalStuff[] #}
 
-{% set header_bg = asset('resources/images/stuff_category/'~category.id~'.jpg') %}
+{% set header_bg = asset('resources/images/stuff_categories/'~category.id~'.jpg') %}
 {% set subtitle = category.name %}
 
 {% block container %}
@@ -16,26 +16,24 @@
   </div>
 
   <section>
-    <div>
-        {% for stuffItem in stuff %}
-          <a class="anchor" id="{{ stuffItem.slug }}"></a>
-          <div id="{{ stuffItem.slug }}" class="block-title">
-            <div>
-              <h1>{{ stuffItem.name }}</h1>
-            </div>
-            <span>{{ stuffItem.short }}</span>
-          </div>
+    {% for stuffItem in stuff %}
+      <a class="anchor" id="{{ stuffItem.slug }}"></a>
+      <div id="{{ stuffItem.slug }}" class="block-title">
+        <div>
+          <h1>{{ stuffItem.name }}</h1>
+        </div>
+        <span>{{ stuffItem.short }}</span>
+      </div>
 
-          <div class="block block-split">
-            <div class="block-content">
-              <p>{{ stuffItem.description|raw }}</p>
-            </div>
+      <div class="block block-split">
+        <div class="block-content">
+          <p>{{ stuffItem.description|raw }}</p>
+        </div>
 
-            <div class="bg-block" style="background-image: url({{ asset('resources/images/stuff/'~stuffItem.id~'.jpg') }})"></div>
+        <div class="bg-block" style="background-image: url({{ asset('resources/images/stuff/'~stuffItem.id~'.jpg') }})"></div>
 
-            <img src="{{ asset('resources/images/categories/icons/'~category.id~'-bg.svg') }}" alt="{{ category.name }}">
-          </div>
-        {% endfor %}
-    </div>
+        <img src="{{ asset('resources/images/stuff_categories/icons/'~category.id~'-bg.svg') }}" alt="{{ category.name }}">
+      </div>
+    {% endfor %}
   </section>
 {% endblock %}
