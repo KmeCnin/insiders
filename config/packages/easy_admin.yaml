@@ -17,6 +17,7 @@ easy_admin:
             - Characteristic
             - Deity
             - Lexicon
+            - Skill
             - StuffCategory
             - StuffKind
             - StuffProperty
@@ -160,6 +161,20 @@ easy_admin:
                     - { property: public }
                     - { property: id }
                     - { property: name }
+                    - { property: short }
+                    - { property: description, type: ckeditor }
+        Skill:
+            class: App\Entity\Rule\Skill
+            list:
+                fields: ['id', 'name', 'slug', 'characteristic', 'short', 'public', 'enabled']
+                sort: ['id', 'ASC']
+            form:
+                fields:
+                    - { property: enabled }
+                    - { property: public }
+                    - { property: id }
+                    - { property: name }
+                    - { property: characteristic }
                     - { property: short }
                     - { property: description, type: ckeditor }
         StuffCategory:

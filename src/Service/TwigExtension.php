@@ -3,13 +3,22 @@
 namespace App\Service;
 
 use League\HTMLToMarkdown\HtmlConverter;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class TwigExtension extends \Twig_Extension
 {
+    private $container;
+
+    public function __construct(ContainerInterface $container)
+    {
+        $this->container = $container;
+    }
+
     public function getFilters()
     {
         return [
             new \Twig_SimpleFilter('markdown', [$this, 'markdownFilter']),
+            new \Twig_SimpleFilter('augment', [$this, 'augmentFilter']),
         ];
     }
 
@@ -26,5 +35,10 @@ class TwigExtension extends \Twig_Extension
         }
 
         return preg_replace('/(\[(.+)\])\((.+)\)/U', '<em>$2</em>', $text);
+    }
+
+    public function augmentFilter(?string $text): ?string
+    {
+        return $this->container->get(RulesAugmenter::class)->augment($text);
     }
 }

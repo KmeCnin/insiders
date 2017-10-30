@@ -55,10 +55,12 @@ a {
 }
 
 .header {
+  max-width: 1500px;
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 30%;
+  margin: auto;
 }
 
 .header-content-wrapper {
@@ -441,7 +443,6 @@ a {
   padding: 5px;
 
   .popover-header {
-
 
     h3 {
       padding-top: 0;
