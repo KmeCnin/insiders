@@ -13,6 +13,7 @@ use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
 use App\Entity\Rule\LexiconEntry;
 use App\Entity\Rule\RuleInterface;
+use App\Entity\Rule\Skill;
 use App\Entity\Rule\StuffCategory;
 use App\Entity\Rule\StuffKind;
 use App\Entity\Rule\StuffProperty;
@@ -49,6 +50,7 @@ class RuleTransporter implements TransporterInterface
         return [
             Arcane::class,
             Characteristic::class,
+            Skill::class,
             Ability::class,
             Champion::class,
             Deity::class,

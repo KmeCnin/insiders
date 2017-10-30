@@ -165,10 +165,12 @@ a {
   background-size: cover; }
 
 .header {
+  max-width: 1500px;
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: 50% 30%;
+  margin: auto; }
 
 .header-content-wrapper {
   max-width: 1100px;

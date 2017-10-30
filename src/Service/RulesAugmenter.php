@@ -5,6 +5,7 @@ namespace App\Service;
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\LexiconEntry;
 use App\Entity\Rule\RuleInterface;
+use App\Entity\Rule\Skill;
 use Doctrine\ORM\EntityManagerInterface;
 use Twig\Environment;
 
@@ -29,12 +30,15 @@ class RulesAugmenter
             [$type, $id] = explode(':', $matches[3]);
             $template = 'default';
             switch ($type) {
-                case 'lexicon':
-                    $namespace = LexiconEntry::class;
-                    break;
                 case 'ability':
                     $template = 'ability';
                     $namespace = Ability::class;
+                    break;
+                case 'lexicon':
+                    $namespace = LexiconEntry::class;
+                    break;
+                case 'skill':
+                    $namespace = Skill::class;
                     break;
                 default:
                     throw new \Exception(sprintf('Unrecognized entity identifier %s.', $type));
