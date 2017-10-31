@@ -18,6 +18,7 @@
       url({{ asset('resources/images/bursts/'~burst.id~'.jpg') }})">
         <div class="block-title">
           <div>
+            <img src="{{ asset('resources/images/arcanes/icons/'~burst.arcane.id~'.svg') }}" alt="{{ burst.name }}">
             <h1>{{ burst.name }}</h1>
           </div>
           <span>{{ burst.short }}</span>
