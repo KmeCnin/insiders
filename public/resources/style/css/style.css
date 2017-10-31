@@ -265,7 +265,8 @@ a {
   padding: 20px;
   border-radius: 2px;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .block-home1,
 .block-home2,
