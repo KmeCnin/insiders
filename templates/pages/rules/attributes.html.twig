@@ -13,19 +13,19 @@
 
   <section>
     {% for attribute in attributes %}
-      <div class="block-split-wrapper">
+      <div class="block" style="background-image: 
+      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
+      url({{ asset('resources/images/attributes/'~attribute.id~'.jpg') }})">
         <div class="block-title">
           <div>
             <h1>{{ attribute.name }}</h1>
           </div>
           <span>{{ attribute.short }}</span>
         </div>
-        <div class="block block-split">
-          <div class="block-content">
-            <p>{{ attribute.description|raw }}</p>
-            <span class="need"><span>Nécessite :</span> {{ attribute.pc }} point{{ attribute.pc > 1 ? 's' }} de création</span>
-          </div>
-          <div class="bg-block" style="background-image: url({{ asset('resources/images/attributes/'~attribute.id~'.jpg') }})"></div>
+
+        <div class="block-content">
+          <p>{{ attribute.description|raw }}</p>
+          <span class="need"><span>Nécessite :</span> {{ attribute.pc }} point{{ attribute.pc > 1 ? 's' }} de création</span>
         </div>
       </div>
     {% endfor %}

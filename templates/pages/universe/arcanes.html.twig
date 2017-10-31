@@ -7,13 +7,15 @@
 {% set subtitle = 'Arcanes' %}
 
 {% block container %} 
-  <div class="block block-intro">
+  <div class="block-intro">
     <p>{{ description|raw }}</p>
   </div>
 
   <section>
     {% for arcane in arcanes %}
-      <div class="block-split-wrapper">
+      <div class="block" style="background-image: 
+      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
+      url({{ asset('resources/images/arcanes/'~arcane.id~'.jpg') }})">
         <div class="block-title">
           <div>
             <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="{{ arcane.name }}">
@@ -21,12 +23,9 @@
           </div>
           <span>{{ arcane.short }}</span>
         </div>
-        <div class="block block-split">
-          <div class="block-content">
-            <p>{{ arcane.description|raw }}</p>
-          </div>
-          <div class="bg-block" style="background-image: url({{ asset('resources/images/arcanes/'~arcane.id~'.jpg') }})"></div>
-          <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'-bg.svg') }}" alt="{{ arcane.name }}">
+
+        <div class="block-content">
+          <p>{{ arcane.description|raw }}</p>
         </div>
       </div>
     {% endfor %}

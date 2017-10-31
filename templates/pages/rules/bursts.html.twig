@@ -7,26 +7,26 @@
 {% set subtitle = 'Décharges d\'arcanite' %}
 
 {% block container %}
-    <div class="block block-intro">
-        <p>{{ description|raw }}</p>
-    </div>
+  <div class="block block-intro">
+    <p>{{ description|raw }}</p>
+  </div>
 
-    <section>
-        {% for burst in bursts %}
-            <div class="block-split-wrapper">
-                <div class="block-title">
-                    <div>
-                        <h1>{{ burst.name }}</h1>
-                    </div>
-                    <span>{{ burst.short }}</span>
-                </div>
-                <div class="block block-split">
-                    <div class="block-content">
-                        <p>{{ burst.description|raw }}</p>
-                    </div>
-                    <div class="bg-block" style="background-image: url({{ asset('resources/images/bursts/'~burst.id~'.jpg') }})"></div>
-                </div>
-            </div>
-        {% endfor %}
-    </section>
+  <section>
+    {% for burst in bursts %}
+      <div class="block" style="background-image: 
+      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
+      url({{ asset('resources/images/bursts/'~burst.id~'.jpg') }})">
+        <div class="block-title">
+          <div>
+            <h1>{{ burst.name }}</h1>
+          </div>
+          <span>{{ burst.short }}</span>
+        </div>
+
+        <div class="block-content">
+          <p>{{ burst.description|raw }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
 {% endblock %}

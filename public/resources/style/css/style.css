@@ -258,10 +258,14 @@ a {
   margin-top: 30px; }
 
 .block {
+  width: 660px;
+  height: 600px;
   position: relative;
-  padding: 10px;
+  margin: auto auto 50px auto;
+  padding: 20px;
   border-radius: 2px;
-  border: 1px solid #FECB5B; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .block-home1,
 .block-home2,
@@ -297,18 +301,23 @@ a {
   .block-short p {
     max-width: 250px;
     position: relative;
-    bottom: 20px;
+    bottom: 23px;
     margin: auto;
     font-weight: 300;
     color: #F0E6D2; }
 
 .block-intro {
-  margin-bottom: 70px;
+  width: 700px;
+  height: auto;
+  margin: auto auto 50px auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
   text-align: center;
   background: rgba(0, 0, 0, 0.38); }
   .block-intro p {
     max-width: 850px;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: justify;
     font-size: 1em;
     font-weight: 300;
@@ -328,50 +337,21 @@ a {
   font-size: 1.1em;
   color: #FECB5B; }
 
-.block-split-wrapper {
-  margin-bottom: 30px; }
-
-.block-split {
-  display: flex;
-  margin: 20px 0 30px 0;
-  padding: 0;
-  min-height: 200px;
-  background: url("../../images/block-pattern.png"); }
-  .block-split img {
-    height: 90%;
-    position: absolute;
-    bottom: 0;
-    top: 15px;
-    left: -165px; }
-  .block-split .block-content {
-    width: 60%;
-    padding: 30px;
-    text-align: justify; }
-    .block-split .block-content .need {
-      font-family: "Manuale", serif;
-      font-size: 1em;
-      color: #8B6F4D; }
-      .block-split .block-content .need span {
-        font-weight: 700; }
-    .block-split .block-content .block-content-title h2 {
-      margin: 0 0 3px 0;
-      color: #2D3132; }
-    .block-split .block-content .block-content-title span {
-      font-family: "Manuale", serif;
-      font-size: 1.2em;
-      color: #8B6F4D; }
-    .block-split .block-content .block-content-title .title-underline {
-      height: 1px;
-      margin-top: 10px;
-      background: #FECB5B; }
-  .block-split .bg-block {
-    width: 40%;
-    min-height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
+.block-content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 20px 20px 20px; }
+  .block-content p {
+    text-align: justify;
+    font-weight: 300;
+    color: #F0E6D2; }
+  .block-content span {
+    color: #FECB5B; }
 
 .block-group {
+  width: 900;
   display: flex;
   flex-wrap: wrap;
   margin: 20px 0 30px 0;

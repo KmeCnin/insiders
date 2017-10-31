@@ -184,11 +184,15 @@ a {
 }
 
 .block {
+  width: 660px;
+  height: 600px;
   position: relative;
-  padding: 10px;
+  margin: auto auto 50px auto;
+  padding: 20px;
 
   border-radius: 2px;
-  border: 1px solid $secondary-color;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .block-home1,
@@ -234,7 +238,7 @@ a {
   p {
     max-width: 250px;
     position: relative;
-    bottom: 20px;
+    bottom: 23px;
     margin: auto;
 
     font-weight: 300;
@@ -243,14 +247,19 @@ a {
 }
 
 .block-intro {
-  margin-bottom: 70px;
+  width: 700px;
+  height: auto;
+  margin: auto auto 50px auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
 
+  border-radius: 2px;
   text-align: center;
   background: rgba(0, 0, 0, 0.38);
 
   p {
     max-width: 850px;
-    margin: 20px auto;
+    margin: 10px auto;
     
     text-align: justify;
     font-size: 1em;
@@ -282,75 +291,26 @@ a {
   }
 }
 
-.block-split-wrapper {
-  margin-bottom: 30px;
-}
+.block-content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 20px 20px 20px;
 
-.block-split {
-  display: flex;
-  margin: 20px 0 30px 0;
-  padding: 0;
-  min-height: 200px;
-
-  background: $light-template;
-
-  img {
-    height: 90%;
-    position: absolute;
-    bottom: 0;
-    top: 15px;
-    left: -165px;
-  }
-
-  .block-content {
-    width: 60%;
-    padding: 30px;
-
+  p {
     text-align: justify;
-
-    .need {
-      font-family: $font-family-secondary;
-      font-size: 1em;
-      color: $text-info-color;
-
-      span {
-        font-weight: 700;
-      }
-    }
-
-    .block-content-title {
-      h2 {
-        margin: 0 0 3px 0;
-    
-        color: $text-color;
-      }
-    
-      span {
-        font-family: $font-family-secondary;
-        font-size: 1.2em;
-        color: $text-info-color;
-      }
-    
-      .title-underline {
-        height: 1px;
-        margin-top: 10px;
-    
-        background: $secondary-color;
-      }
-    }
+    font-weight: 300;
+    color: $primary-color;
   }
 
-  .bg-block {
-    width: 40%;
-    min-height: 100%;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  span {
+    color: $secondary-color;
   }
 }
 
 .block-group {
+  width: 900;
   display: flex;
   flex-wrap: wrap;
   margin: 20px 0 30px 0;
