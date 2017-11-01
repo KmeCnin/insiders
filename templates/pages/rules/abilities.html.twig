@@ -20,7 +20,7 @@
       'title': ability.name,
       'subtitle': ability.short,
       'description': ability.description,
-      'slug': stuffItem.slug,
+      'slug': ability.slug,
       'need': ability.abilitiesRequired|join(', '),
       'bg': asset('resources/images/abilities/'~ability.id~'.jpg'),
     } only %}
