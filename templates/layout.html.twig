@@ -21,11 +21,12 @@
     <header>
       {% block header %}
       <div
-              class="header"
-              style="background-image:
-                      linear-gradient(to right, black, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), black),
-                      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), black),
-                      url({{ header_bg|default('') }});"
+        class="header"
+        style="background-image: 
+          linear-gradient(to right, black, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), black),
+          linear-gradient(to bottom, black, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), black),
+          url({{ header_bg|default('') }})
+        ;"
       >
         <div class="header-content-wrapper">
           <h1>{{ title }}</h1>

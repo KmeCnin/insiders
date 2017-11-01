@@ -11,23 +11,14 @@
     <p>{{ description|raw }}</p>
   </div>
 
-  <section>
-    {% for deity in deities %}
-      <div class="block" style="background-image: 
-      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
-      url({{ asset('resources/images/deities/'~deity.id~'.jpg') }})">
-        <div class="block-title">
-          <div>
-            <img src="{{ asset('resources/images/arcanes/icons/'~deity.arcane.id~'.svg') }}" alt="{{ deity.name }}">
-            <h1>{{ deity.name }}</h1>
-          </div>
-          <span>{{ deity.dignity }}</span>
-        </div>
-
-        <div class="block-content">
-          <p>{{ deity.description|raw }}</p>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
+  {% for deity in deities %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': deity.name,
+      'subtitle': deity.dignity,
+      'description': deity.description,
+      'slug': stuffItem.slug,
+      'icon': asset('resources/images/arcanes/icons/'~deity.arcane.id~'.svg'),
+      'bg': asset('resources/images/deities/'~deity.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

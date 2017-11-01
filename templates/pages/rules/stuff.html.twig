@@ -15,23 +15,29 @@
     <p>{{ description|augment|raw }}</p>
   </div>
 
-  <section>
-    {% for stuffItem in stuff %}
-      <div class="block" style="background-image: 
-      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
-      url({{ asset('resources/images/stuff/'~stuffItem.id~'.jpg') }})">
-        <a class="anchor" id="{{ stuffItem.slug }}"></a>
-        <div class="block-title">
-          <div>
-            <h1>{{ stuffItem.name }}</h1>
-          </div>
-          <span>{{ stuffItem.short }}</span>
+  {% for stuffItem in stuff %}
+    <div class="block" style="background-image: 
+    linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
+    url({{ asset('resources/images/stuff/'~stuffItem.id~'.jpg') }})">
+      <a class="anchor" id="{{ stuffItem.slug }}"></a>
+      <div class="block-title">
+        <div>
+          <h1>{{ stuffItem.name }}</h1>
         </div>
-
-        <div class="block-content">
-          <p>{{ stuffItem.description|augment|raw }}</p>
-        </div>
+        <span>{{ stuffItem.short }}</span>
       </div>
-    {% endfor %}
-  </section>
+
+      <div class="block-content">
+        <p>{{ stuffItem.description|augment|raw }}</p>
+      </div>
+    </div>
+
+    {% include 'includes/sections/default.html.twig' with {
+      'title': stuffItem.name,
+      'subtitle': stuffItem.short,
+      'description': stuffItem.description,
+      'slug': stuffItem.slug,
+      'bg': asset('resources/images/stuff/'~stuffItem.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

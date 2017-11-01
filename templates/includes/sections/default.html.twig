@@ -1,0 +1,22 @@
+<section class="block" style="background-image: 
+linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
+url({{ bg }})">
+  <a class="anchor" id="{{ slug }}"></a>
+
+  <div class="block-title">
+    <div>
+      {% if icon is defined %}<img src="{{ icon }}">{% endif %}
+      <h1>{{ title }}</h1>
+    </div>
+    <span>{{ subtitle }}</span>
+  </div>
+
+  <div class="block-content">
+    <p>{{ description|augment|raw }}</p>
+    {% if need is defined and need is not empty %}
+      <span class="need">
+        <span>Nécessite :</span> {{ need }}
+      </span>
+    {% endif %}
+  </div>
+</section>

@@ -12,22 +12,13 @@
     <p>{{ description|augment|raw }}</p>
   </div>
 
-  <section>
-    {% for characteristic in characteristics %}
-      <div class="block" style="background-image: 
-      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
-      url({{ asset('resources/images/characteristics/'~characteristic.id~'.jpg') }})">
-        <div class="block-title">
-          <div>
-            <h1>{{ characteristic.name }}</h1>
-          </div>
-          <span>{{ characteristic.short }}</span>
-        </div>
-
-        <div class="block-content">
-          <p>{{ characteristic.description|augment|raw }}</p>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
+  {% for characteristic in characteristics %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': characteristic.name,
+      'subtitle': characteristic.short,
+      'description': characteristic.description,
+      'slug': stuffItem.slug,
+      'bg': asset('resources/images/characteristics/'~characteristic.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

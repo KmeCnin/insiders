@@ -15,26 +15,14 @@
     <p>{{ arcane.description|augment|raw }}</p>
   </div>
 
-  <section>
-    {% for ability in abilities %}
-    <div class="block" style="background-image: 
-    linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 40%, black),
-    url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }})">
-      <a class="anchor" id="{{ ability.slug }}"></a>
-      <div class="block-title">
-        <div>
-          <h1>{{ ability.name }}</h1>
-        </div>
-        <span>{{ ability.short }}</span>
-      </div>
-
-      <div class="block-content">
-        <p>{{ ability.description|augment|raw }}</p>
-        {% if ability.abilitiesRequired|length > 0 %}
-          <span class="need"><span>Nécessite :</span> {{ ability.abilitiesRequired|join(', ') }}</span>
-        {% endif %}
-      </div>
-    </div>
-    {% endfor %}
-  </section>
+  {% for ability in abilities %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': ability.name,
+      'subtitle': ability.short,
+      'description': ability.description,
+      'slug': stuffItem.slug,
+      'need': ability.abilitiesRequired|join(', '),
+      'bg': asset('resources/images/abilities/'~ability.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

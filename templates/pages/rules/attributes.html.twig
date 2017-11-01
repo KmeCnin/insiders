@@ -8,26 +8,17 @@
 
 {% block container %}
   <div class="block block-intro">
-      <p>{{ description|augment|raw }}</p>
+    <p>{{ description|augment|raw }}</p>
   </div>
 
-  <section>
-    {% for attribute in attributes %}
-      <div class="block" style="background-image: 
-      linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
-      url({{ asset('resources/images/attributes/'~attribute.id~'.jpg') }})">
-        <div class="block-title">
-          <div>
-            <h1>{{ attribute.name }}</h1>
-          </div>
-          <span>{{ attribute.short }}</span>
-        </div>
-
-        <div class="block-content">
-          <p>{{ attribute.description|augment|raw }}</p>
-          <span class="need"><span>Nécessite :</span> {{ attribute.pc }} point{{ attribute.pc > 1 ? 's' }} de création</span>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
+  {% for attribute in attributes %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': attribute.name,
+      'subtitle': attribute.short,
+      'description': attribute.description,
+      'slug': stuffItem.slug,
+      'need': attribute.pc ~' point'~ (attribute.pc > 1 ? 's')~' de création',
+      'bg': asset('resources/images/attributes/'~attribute.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}
