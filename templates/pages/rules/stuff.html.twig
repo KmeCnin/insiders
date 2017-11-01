@@ -9,10 +9,10 @@
 {% set subtitle = category.name %}
 
 {% block container %}
-  {{ include('includes/rules/breadcrumb_stuff.html.twig', [categories, category]) }}
+  {{ include('includes/breadcrumbs/stuff.html.twig', [categories, category]) }}
 
   <div class="block block-intro">
-    <p>{{ description|raw }}</p>
+    <p>{{ description|augment|raw }}</p>
   </div>
 
   <section>

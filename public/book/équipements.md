@@ -17,7 +17,7 @@ Les personnages (et plus rarement les animaux) peuvent porter sur eux des **équ
 Arbalète|2|Distance|27000
 Arc|1|Distance|18000
 Bâton de combat|1|Blessure de degré I|18000
-Carquois|0|Blessure de degré I|9000
+Carquois de flèches|0|Blessure de degré I|9000
 Dague|0|Blessure de degré II|18000
 Épée à deux mains|2|Blessure de degré II|36000
 Épée à une main|1|Blessure de degré II|27000
@@ -27,11 +27,12 @@ Surin|0|Blessure de degré I|9000
 
 |Genre|Protection|Propriété|Prix|
 |---|---:|---|---:|
+Armure de cuir|1| |9000
 Bouclier|2| |18000
-Cotte de maille|2| |18000
+Cotte de mailles|2| |18000
 Harnois|3| |27000
-Armure en cuire|1| |9000
 Targe|1| |9000
+Carquois de carreaux|0|Blessure de degré II|18000
 
 ## Objets
 

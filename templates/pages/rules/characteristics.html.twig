@@ -9,7 +9,7 @@
 
 {% block container %}
   <div class="block block-intro">
-    <p>{{ description|raw }}</p>
+    <p>{{ description|augment|raw }}</p>
   </div>
 
   <section>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="block-content">
-          <p>{{ characteristic.description|raw }}</p>
+          <p>{{ characteristic.description|augment|raw }}</p>
         </div>
       </div>
     {% endfor %}

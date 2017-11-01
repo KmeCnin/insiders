@@ -28,9 +28,9 @@ La force qui gouverne l&#039;existence
 **Contrôle un animal qui devient une extension de son esprit**
 
 Le personnage choisit un animal apprivoisé avec lequel il crée un lien psychique définitif.  
- Le personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#039;instinct en Dévoiler et Dissimuler et tous ses scores de Maîtrise mais les scores d&#039;Instinct en Imposer et Résister de l&#039;animal. Il conserve également les attributs physiques de l&#039;animal.  
+ Le personnage peut, à tout moment, à distance, envoyer son esprit dans le corps de son familier. Il utilise alors ses scores d&#039;_Instinct_ en _Dévoiler_ et _Dissimuler_ et tous ses scores de _Maîtrise_ mais les scores d&#039;Instinct en _Imposer_ et _Résister_ de l&#039;animal. Il conserve également les _attributs physiques_ de l&#039;animal.  
  Pendant ce temps le corps du personnage reste statique et sans défense.  
- Le familier peut s&#039;éloigner du personnage sans limite de distance. Mais le transfert d&#039;esprit doit avoir lieu à distance, une fois l&#039;esprit du personnage transféré dans le familier, il peut alors continuer à s&#039;éloigner sans limite.
+ Le familier peut s&#039;éloigner du personnage sans limite de distance. Mais le transfert d&#039;esprit doit avoir lieu _à distance_, une fois l&#039;esprit du personnage transféré dans le familier, il peut alors continuer à s&#039;éloigner sans limite.
 
 A tout moment, le personnage peut utiliser toutes ses capacités arcaniques fonctionnant au contact en utilisant son familier comme canal et atteindre toutes cibles au contact de l&#039;animal comme si il y était lui-même.
 

@@ -9,16 +9,16 @@
 {% set subtitle = 'Capacités de '~arcane.name %}
 
 {% block container %}
-  {{ include('includes/rules/breadcrumb_abilities.html.twig', [arcanes, arcane]) }}
+  {{ include('includes/breadcrumbs/abilities.html.twig', [arcanes, arcane]) }}
 
   <div class="block-intro">
-    <p>{{ arcane.description|raw }}</p>
+    <p>{{ arcane.description|augment|raw }}</p>
   </div>
 
   <section>
     {% for ability in abilities %}
     <div class="block" style="background-image: 
-    linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
+    linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 40%, black),
     url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }})">
       <a class="anchor" id="{{ ability.slug }}"></a>
       <div class="block-title">
@@ -29,7 +29,7 @@
       </div>
 
       <div class="block-content">
-        <p>{{ ability.description|raw }}</p>
+        <p>{{ ability.description|augment|raw }}</p>
         {% if ability.abilitiesRequired|length > 0 %}
           <span class="need"><span>Nécessite :</span> {{ ability.abilitiesRequired|join(', ') }}</span>
         {% endif %}

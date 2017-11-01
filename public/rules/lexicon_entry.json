@@ -45,7 +45,7 @@
         "enabled": true,
         "public": true,
         "short": "Capacité d'une entité à s'opposer à une autre",
-        "description": "<p>Les [entit&eacute;s](lexicon:entity) poss&egrave;dent des&nbsp;<strong>caract&eacute;ristiques<\/strong> qui les d&eacute;finissent et permettent de les opposer une &agrave; une pour d&eacute;terminer l&#39;issue d&#39;une confrontation.<br \/>\r\nElles sont au nombre de 4 et s&#39;opposent deux &agrave; deux.&nbsp;<em>Imposer<\/em> &agrave;&nbsp;<em>R&eacute;sister<\/em> et <em>D&eacute;voiler<\/em> &agrave;&nbsp;<em>Dissimuler<\/em>.<\/p>\r\n\r\n<p>Chaque caract&eacute;ristique est d&eacute;finie par 2 scores.<br \/>\r\nSon score d&#39;<em>Instinct,<\/em> qui repr&eacute;sente la capacit&eacute; physique ou mentale de l&#39;entit&eacute; par rapport &agrave; son potentiel inn&eacute;.<br \/>\r\nSon score de <em>Ma&icirc;trise<\/em>, qui repr&eacute;sente l&#39;exp&eacute;rience de l&#39;entit&eacute; par rapport &agrave; son potentiel acquis.<\/p>\r\n\r\n<p>Lorsque 2 entit&eacute;s s&#39;opposent, elles effectuent chacune un jet de la caract&eacute;ristique oppos&eacute;e &agrave; la caract&eacute;ristique utilis&eacute;e par l&#39;entit&eacute; initiant la confrontation&nbsp;(Imposer contre R&eacute;sister, R&eacute;sister contre Imposer, D&eacute;voiler contre Dissimuler, Dissimuler contre D&eacute;voiler).<br \/>\r\nChaque<em> jet de caract&eacute;ristique<\/em>&nbsp;s&#39;effectue en lan&ccedil;ant un nombre de d&eacute;s &agrave; six faces &eacute;gale au score d&#39;Instinct + le score de Ma&icirc;trise de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nOn garde ensuite les <em>n<\/em> meilleurs r&eacute;sultats de d&eacute;s o&ugrave; <em>n <\/em>est le score d&#39;Instinct de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nLe r&eacute;sultat du jet est la somme des d&eacute;s ainsi conserv&eacute;s. L&#39;entit&eacute; ayant r&eacute;alis&eacute; le meilleur r&eacute;sultat remporte la confrontation. En cas d&#39;&eacute;galit&eacute;, l&#39;entit&eacute; ayant le meilleur score d&#39;Instinct l&#39;emporte. Si les scores d&#39;Instinct sont identiques, on regarde les scores de Ma&icirc;trise. Si l&#39;&eacute;galit&eacute; persiste, on donne l&#39;avantage au personnage joueur. S&#39;il s&#39;agit de deux joueurs, on tire &agrave; pile ou face le vainqueur.<\/p>\r\n\r\n<p>Un score d&#39;Instinct &eacute;lev&eacute; permettra donc d&#39;obtenir un r&eacute;sultat potentiellement plus grand mais avec une forte variation possible alors qu&#39;un score de Ma&icirc;trise &eacute;lev&eacute; ne permet pas d&#39;augmenter le score maximum mais influera sur le r&eacute;sultat du jet pour le faire pencher vers son maximum plus souvent. Cela repr&eacute;sente le fait que, sans exp&eacute;rience les capacit&eacute;s physiques restent sous exploit&eacute;es et mal coordonn&eacute;es alors que l&#39;exp&eacute;rience apporte une plus grande fiabilit&eacute; et une meilleur connaissance de son corps sans pour autant r&eacute;ellement repousser les limites naturelles.<\/p>"
+        "description": "<p>Les [entit&eacute;s](lexicon:entity) poss&egrave;dent des&nbsp;<strong>caract&eacute;ristiques<\/strong> qui les d&eacute;finissent et permettent de les opposer une &agrave; une pour d&eacute;terminer l&#39;issue d&#39;une confrontation.<br \/>\r\nElles sont au nombre de 4 et s&#39;opposent deux &agrave; deux.&nbsp;<em>Imposer<\/em> &agrave;&nbsp;<em>R&eacute;sister<\/em> et <em>D&eacute;voiler<\/em> &agrave;&nbsp;<em>Dissimuler<\/em>.<\/p>\r\n\r\n<p>Chaque caract&eacute;ristique est d&eacute;finie par 2 scores.<br \/>\r\nSon score d&#39;<em>Instinct,<\/em> qui repr&eacute;sente la capacit&eacute; physique ou mentale de l&#39;entit&eacute; par rapport &agrave; son potentiel inn&eacute;.<br \/>\r\nSon score de <em>Ma&icirc;trise<\/em>, qui repr&eacute;sente la r&eacute;gularit&eacute; de l&#39;entit&eacute; dans l&#39;utilisation du plein potentiel de ses caract&eacute;ristiques.<\/p>\r\n\r\n<p>Lorsque 2 entit&eacute;s s&#39;opposent, elles effectuent chacune un jet de la caract&eacute;ristique oppos&eacute;e &agrave; la caract&eacute;ristique utilis&eacute;e par l&#39;entit&eacute; initiant la confrontation&nbsp;(Imposer contre R&eacute;sister, R&eacute;sister contre Imposer, D&eacute;voiler contre Dissimuler, Dissimuler contre D&eacute;voiler).<br \/>\r\nChaque<em> jet de caract&eacute;ristique<\/em>&nbsp;s&#39;effectue en lan&ccedil;ant un nombre de d&eacute;s &agrave; six faces &eacute;gale au score d&#39;Instinct + le score de Ma&icirc;trise de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nOn garde ensuite les <em>n<\/em> meilleurs r&eacute;sultats de d&eacute;s o&ugrave; <em>n <\/em>est le score d&#39;Instinct de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nLe r&eacute;sultat du jet est la somme des d&eacute;s ainsi conserv&eacute;s. L&#39;entit&eacute; ayant r&eacute;alis&eacute; le meilleur r&eacute;sultat remporte la confrontation. En cas d&#39;&eacute;galit&eacute;, l&#39;entit&eacute; ayant le meilleur score d&#39;Instinct l&#39;emporte. Si les scores d&#39;Instinct sont identiques, on regarde les scores de Ma&icirc;trise. Si l&#39;&eacute;galit&eacute; persiste, on donne l&#39;avantage au personnage joueur. S&#39;il s&#39;agit de deux joueurs, on tire &agrave; pile ou face le vainqueur.<\/p>\r\n\r\n<p>Un score d&#39;Instinct &eacute;lev&eacute; permettra donc d&#39;obtenir un r&eacute;sultat potentiellement plus grand mais avec une forte variation possible alors qu&#39;un score de Ma&icirc;trise &eacute;lev&eacute; ne permet pas d&#39;augmenter le score maximum mais influera sur le r&eacute;sultat du jet pour le faire pencher vers son maximum plus souvent. Cela repr&eacute;sente le fait que, sans exp&eacute;rience les capacit&eacute;s physiques restent sous exploit&eacute;es et mal coordonn&eacute;es alors que l&#39;exp&eacute;rience apporte une plus grande fiabilit&eacute; et une meilleur connaissance de son corps sans pour autant r&eacute;ellement repousser les limites naturelles.<\/p>"
     },
     {
         "id": "load",
@@ -72,6 +72,14 @@
         "description": "<p>Un [initi&eacute;](lexicon:insider) en possession d&#39;un [cristal d&#39;arcanite](lexicon:arcanite) peut d&eacute;cider de d&eacute;penser une [charge](lexicon:load) pour r&eacute;aliser une action particuli&egrave;rement puissante appel&eacute;e <strong>d&eacute;charge d&#39;arcanite<\/strong>. L&#39;initi&eacute; doit pour cela avoir pr&eacute;alablement d&eacute;bloqu&eacute; l&#39;[arcane](lexicon:arcane) correspondant. La charge ainsi d&eacute;pens&eacute;e est perdue &agrave; jamais.<\/p>"
     },
     {
+        "id": "range",
+        "name": "Distance",
+        "enabled": true,
+        "public": true,
+        "short": "Distance",
+        "description": "<p>Distance<\/p>"
+    },
+    {
         "id": "deity",
         "name": "Divinité arcanique",
         "enabled": true,
@@ -85,7 +93,7 @@
         "enabled": true,
         "public": true,
         "short": "Etre vivant ou chose qui possède des caractéristiques",
-        "description": "<p>On nomme <strong>entit&eacute;<\/strong>, toutes les choses, vivantes ou non, poss&eacute;dant au moins 1 point d&#39;[Instinct](lexicon:instinct) &agrave; 1 caract&eacute;ristique. Il peut s&#39;agir d&#39;un personnage (joueur ou non), d&#39;un animal, d&#39;un &eacute;quipement, d&#39;une blessure, d&#39;un pi&egrave;ge, d&#39;un lieu, d&#39;un b&acirc;timent, etc.<br \/>\r\nUne entit&eacute; se distingue d&#39;une chose quelconque&nbsp;par le fait qu&#39;elle puisse s&#39;opposer &agrave; une autre entit&eacute; ou au contraire la soutenir en effectuant des jets de caract&eacute;ristiques.<\/p>\r\n\r\n<p>Par exemple des personnages pourront s&#39;affronter, un &eacute;quipement am&eacute;liorera les comp&eacute;tences de son porteur, une blessure restreindra les actions d&#39;un personnage, etc.<\/p>"
+        "description": "<p>On nomme <strong>entit&eacute;<\/strong>, toutes les choses, vivantes ou non, poss&eacute;dant au moins 1 point d&#39;[Instinct](lexicon:instinct) &agrave; 1 [caract&eacute;ristique](lexicon:characteristic). Il peut s&#39;agir d&#39;un personnage (joueur ou non), d&#39;un animal, d&#39;un &eacute;quipement, d&#39;une blessure, d&#39;un pi&egrave;ge, d&#39;un lieu, d&#39;un b&acirc;timent, etc.<br \/>\r\nUne entit&eacute; se distingue d&#39;une chose quelconque&nbsp;par le fait qu&#39;elle puisse s&#39;opposer &agrave; une autre entit&eacute; ou au contraire la soutenir en effectuant des jets de caract&eacute;ristiques.<\/p>\r\n\r\n<p>Par exemple des personnages pourront s&#39;affronter, un &eacute;quipement am&eacute;liorera les comp&eacute;tences de son porteur, une blessure restreindra les actions d&#39;un personnage, etc.<\/p>"
     },
     {
         "id": "stuff",
@@ -102,6 +110,22 @@
         "public": true,
         "short": "Personnage ayant absorbé l'énergie d'un cristal d'arcanite",
         "description": "<p>Personnage ayant absorb&eacute; l&#39;&eacute;nergie d&#39;un cristal d&#39;arcanite<\/p>"
+    },
+    {
+        "id": "instinct",
+        "name": "Instinct",
+        "enabled": true,
+        "public": true,
+        "short": "Capacité physique ou mentale de l'entité par rapport à son potentiel inné",
+        "description": "<p>L&#39;Instinct repr&eacute;sente le potentiel inn&eacute; d&#39;une [entit&eacute;](lexicon:entity), ce dont elle est naturellement capable.<\/p>\r\n\r\n<p>Pour un personnage, il&nbsp;s&#39;agit&nbsp;de ses capacit&eacute;s physiques ou mentales.<br \/>\r\nPour un objet, il s&#39;agit de son efficacit&eacute;.<\/p>"
+    },
+    {
+        "id": "proficiency",
+        "name": "Maîtrise",
+        "enabled": true,
+        "public": true,
+        "short": "Régularité de l'entité dans l'utilisation du plein potentiel de ses caractéristiques",
+        "description": "<p>La Ma&icirc;trise repr&eacute;sente le potentiel acquis d&#39;une [entit&eacute;](lexicon:entity), sa capacit&eacute; &agrave; tirer le meilleur de ses comp&eacute;tences naturelles.<\/p>\r\n\r\n<p>Pour un personnage, il&nbsp;s&#39;agit&nbsp;de ses capacit&eacute;s physiques ou mentales.<br \/>\r\nPour un objet, il s&#39;agit de son efficacit&eacute;.<\/p>"
     },
     {
         "id": "pc",

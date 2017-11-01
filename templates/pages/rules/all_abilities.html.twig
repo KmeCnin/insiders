@@ -8,10 +8,10 @@
 {% set subtitle = 'Toutes les capacités' %}
 
 {% block container %}
-{{ include('includes/rules/breadcrumb_abilities.html.twig', [arcanes]) }}
+{{ include('includes/breadcrumbs/abilities.html.twig', [arcanes]) }}
 
 <div class="block block-intro">
-  <p>{{ description|raw }}</p>
+  <p>{{ description|augment|raw }}</p>
 </div>
 
 {% for entry in map %}

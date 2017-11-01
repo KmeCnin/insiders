@@ -8,10 +8,10 @@
 {% set subtitle = 'Tous les équipements' %}
 
 {% block container %}
-{{ include('includes/rules/breadcrumb_stuff.html.twig', [categories]) }}
+{{ include('includes/breadcrumbs/stuff.html.twig', [categories]) }}
 
   <div class="block block-intro">
-    <p>{{ description|raw }}</p>
+    <p>{{ description|augment|raw }}</p>
   </div>
 
   {% for entry in map %}

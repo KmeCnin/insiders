@@ -19,6 +19,7 @@ class TwigExtension extends \Twig_Extension
         return [
             new \Twig_SimpleFilter('markdown', [$this, 'markdownFilter']),
             new \Twig_SimpleFilter('augment', [$this, 'augmentFilter']),
+            new \Twig_SimpleFilter('clear', [$this, 'clearFilter']),
         ];
     }
 
@@ -40,5 +41,10 @@ class TwigExtension extends \Twig_Extension
     public function augmentFilter(?string $text): ?string
     {
         return $this->container->get(RulesAugmenter::class)->augment($text);
+    }
+
+    public function clearFilter(?string $text): ?string
+    {
+        return $this->removeAugmentation($text);
     }
 }

@@ -13,7 +13,7 @@ Les _entités_ possèdent des **caractéristiques** qui les définissent et perm
 
 Chaque caractéristique est définie par 2 scores.  
  Son score d&#039;_Instinct,_ qui représente la capacité physique ou mentale de l&#039;entité par rapport à son potentiel inné.  
- Son score de _Maîtrise_, qui représente l&#039;expérience de l&#039;entité par rapport à son potentiel acquis.
+ Son score de _Maîtrise_, qui représente la régularité de l&#039;entité dans l&#039;utilisation du plein potentiel de ses caractéristiques.
 
 Lorsque 2 entités s&#039;opposent, elles effectuent chacune un jet de la caractéristique opposée à la caractéristique utilisée par l&#039;entité initiant la confrontation (Imposer contre Résister, Résister contre Imposer, Dévoiler contre Dissimuler, Dissimuler contre Dévoiler).  
  Chaque _jet de caractéristique_ s&#039;effectue en lançant un nombre de dés à six faces égale au score d&#039;Instinct + le score de Maîtrise de l&#039;entité dans la caractéristique en question.  
