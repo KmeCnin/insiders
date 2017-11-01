@@ -35,7 +35,7 @@ Le personnage choisit un animal apprivoisé avec lequel il crée un lien psychiq
 A tout moment, le personnage peut utiliser toutes ses capacités arcaniques fonctionnant au contact en utilisant son familier comme canal et atteindre toutes cibles au contact de l&#039;animal comme si il y était lui-même.
 
 Si le familier est tué, une blessure de degré III est infligée au personnage. C&#039;est le seul moyen de rompre le lien profond qui unit les deux. Le personnage peut ensuite créer un nouveau lien avec un autre animale.  
- Si le personnage subit une blessure pendant que son esprit se trouve dans son familier, la capacité est alors interrompue de force.  
+ Si le personnage subit _une blessure_ pendant que son esprit se trouve dans son familier, la capacité est alors interrompue de force.  
  Le Facteur de Puissance du familier ne peut pas être supérieur au score d&#039;Instinct en Dévoiler du personnage.
 
 **Augmentations:**
@@ -50,11 +50,11 @@ Si le familier est tué, une blessure de degré III est infligée au personnage.
 Le personnage peut rendre matériel une créature qu&#039;il est capable d&#039;imaginer.  
  Cela lui permet d&#039;invoquer un ou plusieurs animaux sans capacités arcaniques.
 
-Le personnage peut invoquer plusieurs créatures tant que leur facteur de puissance cumulé ne dépasse pas le double de son score d&#039;Instinct en Dévoiler.  
+Le personnage peut invoquer plusieurs créatures tant que leur _facteur de puissance_ cumulé ne dépasse pas le double de son score d&#039;_Instinct_ en _Dévoiler_.  
  Chaque créature doit être invoquée l&#039;une après l&#039;autre.  
- Le personnage peut répartir comme il le souhaite les points de caractéristiques (avec un minimum de 1 dans chacune) ainsi que les attributs physiques de ses créations.
+ Le personnage peut répartir comme il le souhaite les points de _caractéristiques_ (avec un minimum de 1 dans chacune) ainsi que les _attributs physiques_ de ses créations.
 
-Les créatures invoquées ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruites. La moindre blessure de degré I suffit à la détruire complètement, s&#039;évaporant alors immédiatement.  
+Les créatures invoquées ne peuvent pas s’éloigner _trop loin_ du personnage sous risque d&#039;être détruites. La moindre _blessure_ de degré I suffit à la détruire complètement, s&#039;évaporant alors immédiatement.  
  S&#039;il s&#039;agit de créatures intelligentes comme un humain par exemple, elle sont alors invoquées nues, sans équipement et sans capacité de communiquer, seulement comprendre et exécuter des ordres simples.
 
 **Augmentations:**
@@ -69,7 +69,7 @@ Les créatures invoquées ne peuvent pas s’éloigner trop loin du personnage s
 Le personnage sert de lien spirituel entre les membres de son équipe.
 
 Il choisit des personnages à distance qui doivent être consentants et forment alors un groupe lié spirituellement.  
- Chaque personnage ainsi lié utilise pour chacune de ses caractéristiques le score de Maîtrise du membre du groupe possédant le meilleur score.
+ Chaque personnage ainsi lié utilise pour chacune de ses _caractéristiques_ le score de _Maîtrise_ du membre du groupe possédant le meilleur score.
 
 Cette capacité fonctionne en continue sans que le personnage n&#039;ai besoin de concentration particulière.
 
@@ -80,9 +80,9 @@ Cette capacité fonctionne en continue sans que le personnage n&#039;ai besoin d
 Le personnage a conscience de l’existence des formes de vies alentours (végétales et animales).  
  Cela lui permet par exemple de percevoir les personnages invisibles, de trouver du gibier, de localiser de la végétation, etc.
 
-Le personnage localise précisément les êtres vivants à distance et est capable, sans le voir, de différencier un être intelligent d&#039;un animal ou d&#039;un simple végétal. Mais il ne peut cependant pas discerner plus précisément l&#039;identité d&#039;une personne, même très bien connue sans l&#039;avoir en visuel.
+Le personnage localise précisément les êtres vivants à distance et est capable, sans le voir, de différencier un être intelligent d&#039;un animal ou d&#039;un simple végétal. Mais il ne peut cependant pas discerner plus précisément l&#039;identité d&#039;une personne, même très bien connue, sans l&#039;avoir en visuel.
 
-Les invocations come les morts-vivants, illusions, leurres, clones de dédoublement (et plus généralement toutes les créations qui disparaissent à la moindre blessure) ne possèdent pas d&#039;esprit et ne peuvent donc pas être perçus de la sorte. Ce qui peut être un inconvenient mais également un avantage pour discerner l&#039;individu original au milieu des faux.
+Les _simulacres_ ne possèdent pas d&#039;esprit et ne peuvent donc pas être perçus de la sorte. Ce qui peut être un inconvenient mais également un avantage pour discerner l&#039;individu original au milieu des faux.
 
 ### <a name="anchor-telepathie"></a>Télépathie
 
@@ -153,13 +153,13 @@ De plus, le personnage résiste sans problèmes aux chutes qui ne dépassent pas
 
 **Peut se dédoubler**
 
-Le personnage peut répartir son énergie corporelle entre plusieurs simulacres de lui-même.
+Le personnage peut répartir son énergie corporelle entre plusieurs _simulacres_ de lui-même.
 
-Il peut créer des doubles en utilisant ses points d&#039;Instinct personnels (un double doit posséder au minimum 1 point d&#039;Instinct dans chaque caractéristique). Les points ainsi transférés sont inutilisables par le personnage original.
+Il peut créer des doubles en utilisant ses points d&#039;_Instinct_ personnels (un double doit posséder au minimum 1 point d&#039;Instinct dans chaque _caractéristique_). Les points ainsi transférés sont inutilisables par le personnage original.
 
-Les doubles possèdent tous les équipements et capacités du personnage ainsi que ses points de maîtrise. Les équipements disparaissent une fois lâchés ou le double détruit. Les doubles sont visuellement indiscernables de l&#039;original.  
- Le personnage a original a en permanence conscience de tout ce que perçoivent ses doubles et peut les diriger et les faire parler et agir comme il le souhaite.  
- Les doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruits. La moindre blessure de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.
+Les doubles possèdent tous les _équipements_ et capacités du personnage ainsi que ses _points de Maîtrise_. Les équipements disparaissent une fois lâchés ou le double détruit. Les doubles sont visuellement indiscernables de l&#039;original.  
+ Le personnage original a, en permanence, conscience de tout ce que perçoivent ses doubles et peut les diriger et les faire parler et agir comme il le souhaite.  
+ Un double ne peut pas s’éloigner _trop loin_ du personnage sous risque d&#039;être détruit. La moindre _blessure_ de degré I suffit à le détruire complètement. La blessure est alors directement transférée sur le personnage. Une fois un double détruit, le personnage récupère ses points de caractéristiques.
 
 **Augmentations:**
 - Chaque clone possède un point dans deux caractéristiques au choix
