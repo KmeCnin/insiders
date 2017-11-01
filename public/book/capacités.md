@@ -88,7 +88,7 @@ Les _simulacres_ ne possèdent pas d&#039;esprit et ne peuvent donc pas être pe
 
 **Peut communiquer avec un personnage à distance**
 
-Le personnage peut communiquer mentalement avec un personnage ou un animal à distance.
+Le personnage peut communiquer mentalement avec un autre personnage ou un animal à distance.
 
 S&#039;il a déjà communiqué avec sa cible au moins une fois en face à face, il peut lui parler sans limite de portée, sinon, elle doit être à portée de vue.  
  Il ne peut pas communiquer avec une cible qu&#039;il n&#039;a jamais vu de sa vie.  
@@ -107,13 +107,13 @@ L&#039;énergie qui anime la vie
 Le personnage peut projeter son énergie vitale sous forme d&#039;aura.  
  Cela lui permet de protéger ses alliés ou de les guider.
 
-Chaque tour il peut choisir un allié au contact à protéger mais cela ne l&#039;empêche pas d&#039;agir en même temps.  
- Si cet allié doit lancer un jet de Défendre, le personnage lance le jet à sa place en utilisant tous ses bonus personnels (Instinct, Maîtrise, équipement, capacités, etc.).  
- En cas d&#039;échec c&#039;est tout de même l&#039;allié qui reçoit la blessure.
+Chaque tour il peut choisir un allié _au contact_ à protéger mais cela ne l&#039;empêche pas d&#039;agir en même temps.  
+ Si cet allié doit lancer un jet de _Défense_, le personnage lance le jet à sa place en utilisant tous ses bonus personnels (_Instinct_, _Maîtrise_, _équipement_, capacités, etc.).  
+ En cas d&#039;échec c&#039;est tout de même l&#039;allié qui reçoit la _blessure_.
 
 Lorsqu&#039;il ne défend pas un allier, le personnage peut invoquer une petite luciole immatérielle faite à partir de son énergie vitale. La luciole lévite et brille d&#039;une lumière très faible qui peut néanmoins suffire à éclairer sur une dizaine de mètres.  
  Le personnage peut la guider pour qu&#039;elle se rende à un endroit précis qu&#039;il a en visuel.  
- Le personnage peut également lui demander de ramener à lui une personne qu&#039;il a déjà vu dans le passé. Dans ce cas la luciole se téléporte jusqu&#039;à la cible puis la guide vers son propriétaire. Si la cible refuse de la suivre, la luciole réapparaît aux côtés du personnage.
+ Le personnage peut également lui demander de ramener à lui une personne qu&#039;il a déjà vu dans le passé (ne fonctionne pas sur les cibles invisibles). Dans ce cas la luciole se téléporte jusqu&#039;à la cible puis la guide vers son propriétaire. Si la cible refuse de la suivre, la luciole réapparaît aux côtés du personnage.
 
 **Augmentations:**
 - Peut protéger à distance
@@ -125,10 +125,10 @@ Lorsqu&#039;il ne défend pas un allier, le personnage peut invoquer une petite 
 
 Le personnage est capable de modifier son corps en se transformant rapidement en une forme prédéfinie.
 
-En découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de points de création réarrangés comme il le souhaite entre score d&#039;Instinct de ses caractéristiques et attributs physiques.  
- Il conserve cependant les mêmes points de Maîtrise et les mêmes capacités arcaniques.
+En découvrant cette capacité le personnage choisit une forme qui doit posséder le même total de _points de création_ réarrangés comme il le souhaite entre score d&#039;_Instinct_ de ses _caractéristiques_ et _attributs physiques_.  
+ Il conserve cependant les mêmes points de _Maîtrise_ et les mêmes capacités arcaniques.
 
-Lorsqu&#039;il le souhaite, le personnage peut changer de forme, il passe alors un tour complet à se transformer.
+Lorsqu&#039;il le souhaite, le personnage peut changer de forme, il passe alors _un tour_ complet à se transformer.
 
 **Augmentations:**
 - Choisit une nouvelle forme
@@ -144,8 +144,8 @@ Lorsqu&#039;il le souhaite, le personnage peut changer de forme, il passe alors 
 **Nécessite:**
 [Poings d&#039;obsylène](#anchor-poings-d-obsylene)
 
-Tout le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé obsylène.  
- Cette matière lui confère une résistance contre les blessures physiques (armes, projectiles, coups...).
+Tout le corps du personnage est fait d&#039;un matériau noir extrêmement solide appelé _obsylène_.  
+ Cette matière lui confère une _résistance_ contre les _blessures_ physiques (armes, projectiles, coups...).
 
 De plus, le personnage résiste sans problèmes aux chutes qui ne dépassent pas la dizaine de mètres.
 
@@ -169,12 +169,12 @@ Les doubles possèdent tous les _équipements_ et capacités du personnage ainsi
 
 **Possède des poings dont la solidité peut briser le métal**
 
-Les extrémités des membres du personnage sont faites d&#039;un matériau noir extrêmement solide appelé obsylène.  
+Les extrémités des membres du personnage sont faites d&#039;un matériau noir extrêmement solide appelé _obsylène_.  
  Cela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets en métal non équipés, etc.
 
 Le personnage est capable de briser sans effort des objets voir même des structures en bois et fragiliser des constructions en pierre ou des structures en métal.
 
-Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré II.
+Grâce à un jet d&#039;_Imposer_ _au contact_, il peut infliger une _blessure_ de degré II.
 
 **Augmentations:**
 - Détruit également les équipements portés
@@ -185,9 +185,9 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 **Peut insuffler son énergie vitale**
 
 Le personnage est capable de projeter son énergie vitale dans un être vivant.  
- Cela lui permet par exemple de guérir les blessures de ses alliés, d&#039;inhiber le poison présent dans la nourriture et l&#039;eau, de redonner vie à des végétaux morts, de réparer des objets ou équipements en bois, etc.
+ Cela lui permet par exemple de guérir les _blessures_ de ses alliés, d&#039;inhiber le poison présent dans la nourriture et l&#039;eau, de redonner vie à des végétaux morts, de réparer des objets ou équipements en bois, etc.
 
-Grâce à un jet de Résister au contact contre une blessure, il peut la guérir immédiatement (au lieu d&#039;attendre un jour) et retenter une guérison autant de fois qu&#039;il le souhaite.
+Grâce à un jet de _Résister_ _au contact_ contre une blessure, il peut la _guérir_ immédiatement (au lieu d&#039;attendre un jour) et retenter une guérison autant de fois qu&#039;il le souhaite.
 
 **Augmentations:**
 - Peut guérir à distance
@@ -204,7 +204,7 @@ La force qui contraint la volonté
 Le personnage est capable de faire vivre leur pire cauchemar à ses adversaires.  
  Cela lui permet par exemple de perturber fortement la santé mentale de ses adversaires, de faire fuir des animaux sauvages, etc.
 
-Grâce à un jet de Dissimuler à distance (pour pénétrer un esprit) suivit d&#039;un jet de Dévoiler (pour sonder sa pire peur), il peut infliger une blessure de degré III.  
+Grâce à un jet de _Dissimuler_ _à distance_ (pour pénétrer un esprit) suivit d&#039;un jet de _Dévoiler_ (pour sonder sa pire peur), il peut infliger une _blessure_ de degré III.  
  Grâce à un jet de Dissimuler à distance, il peut faire fuir de peur un groupe d&#039;animaux.
 
 ### <a name="anchor-confidence"></a>Confidence
@@ -213,16 +213,17 @@ Grâce à un jet de Dissimuler à distance (pour pénétrer un esprit) suivit d&
 
 Le personnage peut se rendre dans l&#039;esprit d&#039;un individu et le forcer à répondre à une question sans mentir.
 
-Grâce à un jet de Dévoiler à distance le personnage peut s&#039;insinuer dans l&#039;esprit de sa cible et lui poser une question à voix haute à laquelle elle devra répondre le plus honnêtement possible. En cas d’échec au jet, la cible se rend compte de la tentative d&#039;intrusion et ne peut plus être interrogée tant qu&#039;elle reste sur ses gardes.
+Grâce à un jet de _Dévoiler_ _à distance_ le personnage peut s&#039;insinuer dans l&#039;esprit de sa cible et lui poser une question à voix haute à laquelle elle devra répondre le plus honnêtement possible. En cas d’échec au jet, la cible se rend compte de la tentative d&#039;intrusion et ne peut plus être interrogée tant qu&#039;elle reste sur ses gardes.
 
 ### <a name="anchor-distraction"></a>Distraction
 
 **Peut s’insinuer dans l’esprit de ses adversaires pour les perturber**
 
 Le personnage peut semer le doute dans un esprit.  
- Cela lui permet par exemple de pouvoir détourner l&#039;attention d&#039;une cible pendant un instant, d&#039;affaiblir un esprit à corrompre, etc. En cas de réussite, la cible n&#039;est alors pas consciente de l&#039;origine de l&#039;agression.
+ Cela lui permet par exemple de pouvoir détourner l&#039;attention d&#039;une cible pendant un instant, d&#039;affaiblir un esprit à corrompre, etc.
 
-Grâce à un jet de Dissimuler à distance, il peut distraire une cible qui minimisera alors automatiquement son prochain jet de Dévoiler.
+Grâce à un jet de _Dissimuler_ _à distance_, il peut distraire une cible qui _minimisera_ alors automatiquement son prochain jet de _Dévoiler_.  
+ En cas de réussite, la cible n&#039;est alors pas consciente de l&#039;origine de l&#039;agression.
 
 **Augmentations:**
 - Inflige une blessure de degré I en plus de distraire
@@ -233,9 +234,9 @@ Grâce à un jet de Dissimuler à distance, il peut distraire une cible qui mini
 **Permet de réécrire un souvenir**
 
 Le personnage peut insérer un nouveau souvenir dans l&#039;esprit d&#039;une cible.  
- Cela lui permet par exemple de faire croire à la cible qu&#039;elle a déjà rencontré le personnage, qu&#039;il lui a déjà sauvé la vie dans le passé, qu&#039;elle a comis un acte répréhensible, etc. En cas d&#039;échec, la cible se rend compte de la tentative de manipulation et de son origine.
+ Cela lui permet par exemple de faire croire à la cible qu&#039;elle a déjà rencontré le personnage, qu&#039;il lui a déjà sauvé la vie dans le passé, qu&#039;elle a commis un acte répréhensible, etc. En cas d&#039;échec, la cible se rend compte de la tentative de manipulation et de son origine.
 
-Grâce à un jet de Dissimuler au contact, il peut créer un faux souvenir qui doit être court (quelques secondes tout au plus) que la cible concidèrera comme réel.
+Grâce à un jet de _Dissimuler_ _au contact_, il peut créer un faux souvenir qui doit être court (quelques secondes tout au plus) que la cible considèrera comme réel.
 
 **Augmentations:**
 - Permet également de supprimer un souvenir précis
@@ -248,14 +249,14 @@ Grâce à un jet de Dissimuler au contact, il peut créer un faux souvenir qui d
 Le personnage peut modifier le comportement des êtres vivants à son égard.  
  Cela lui permet par exemple de faire oublier ses actions belliqueuses à un adversaire, dresser un animale sauvage, obtenir la coopération d&#039;un personnage, etc.
 
-Grâce à un jet de Dissimuler à distance, il peut faire en sorte que la cible ne le considère plus comme un ennemi jusqu&#039;à la prochaine action agressive qu&#039;il entreprend.
+Grâce à un jet de _Dissimuler_ _à distance_, il peut faire en sorte que la cible ne le considère plus comme un ennemi jusqu&#039;à la prochaine action agressive qu&#039;il entreprend.
 
 ### <a name="anchor-persuasion"></a>Persuasion
 
 **Peut faire croire à des mensonges peu vraisemblables**
 
 Le personnage persuade sa cible de la véracité de ce qu&#039;il dit.  
- Il maximise automatiquement tous ses jets de Dissimuler pour les mensonges plausibles et il peut même tenter de faire croire à des énormités.
+ Il _maximise_ automatiquement tous ses jets de _Dissimuler_ pour les mensonges plausibles et il peut même tenter de faire croire à des énormités.
 
 Grâce à un jet de Dissimuler à distance, il peut tenter de faire croire un mensonge particulièrement peu vraisemblable.
 
@@ -269,7 +270,7 @@ Grâce à un jet de Dissimuler à distance, il peut tenter de faire croire un me
 Le personnage peut contrôler momentanément l&#039;esprit d&#039;une cible.  
  Cela lui permet au choix d&#039;insérer un sentiment extrême d&#039;agressivité, de bienveillance, de peur envers un personnage (qu&#039;il soit allié ou ennemi). Il peut donc par exemple le forcer à attaquer un allier, soigner un ennemi, s&#039;enfuir, etc.
 
-Grâce à un jet de Dissimuler à distance, il peut obliger la cible à accomplir une unique action de son choix.
+Grâce à un jet de _Dissimuler_ _à distance_, il peut obliger la cible à accomplir une unique action de son choix.
 
 ## <a name="anchor-l-ether"></a>L&#039;Éther
 

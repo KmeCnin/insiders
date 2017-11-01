@@ -1,5 +1,5 @@
 <section class="block" style="background-image: 
-linear-gradient(to bottom, black, rgba(0, 0, 0, 0), black),
+linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0) 200px, rgba(0, 0, 0, 0)),
 url({{ bg }})">
   <a class="anchor" id="{{ slug }}"></a>
 
@@ -14,9 +14,9 @@ url({{ bg }})">
   <div class="block-content">
     <p>{{ description|augment|raw }}</p>
     {% if need is defined and need is not empty %}
-      <span class="need">
+      <div class="need">
         <span>Nécessite :</span> {{ need }}
-      </span>
+      </div>
     {% endif %}
   </div>
 </section>
