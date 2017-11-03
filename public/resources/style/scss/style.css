@@ -261,6 +261,7 @@ a {
   margin-top: 30px; }
 
 .block {
+  position: relative;
   margin: auto auto 50px auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   background: black;
@@ -350,19 +351,33 @@ a {
     font-size: 1.1em;
     color: #FECB5B; }
 
+.block-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  list-style-type: none;
+  color: #F0E6D2; }
+  .block-nav li {
+    cursor: pointer; }
+  .block-nav li.active {
+    color: #FECB5B; }
+
 .block-content {
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   margin-top: 450px;
   position: relative;
   z-index: 10; }
-  .block-content p {
+  .block-content div {
     text-align: justify;
     font-weight: 300;
     color: #F0E6D2; }
   .block-content .need {
     color: #FECB5B;
     margin-bottom: 1em; }
+  .block-content .block-content-increase {
+    display: none; }
 
 .block-group {
   width: 900px;
@@ -437,6 +452,8 @@ a {
   cursor: pointer; }
 
 .popover {
+  position: relative;
+  z-index: 100;
   color: #F0E6D2;
   background: url("../../images/navbar-pattern.png");
   padding: 5px; }

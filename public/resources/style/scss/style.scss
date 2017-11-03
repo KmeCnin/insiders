@@ -437,6 +437,8 @@ a {
   cursor: pointer;
 }
 .popover {
+  position: relative;
+  z-index: 100;
   color: $primary-color;
   background: $dark-template;
   padding: 5px;

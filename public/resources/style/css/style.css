@@ -452,6 +452,8 @@ a {
   cursor: pointer; }
 
 .popover {
+  position: relative;
+  z-index: 100;
   color: #F0E6D2;
   background: url("../../images/navbar-pattern.png");
   padding: 5px; }

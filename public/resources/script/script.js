@@ -1,12 +1,8 @@
 $(document).ready(function() {
-  /*
-   * Popover init
-   */
+  /*** Popover init ***/
   $('[data-toggle="popover"]').popover();
 
-  /*
-   * Nav toggle in sections
-   */
+  /*** Nav toggle in sections ***/
   $('.block-nav > li').click(function() {
     // From clicked element, get its <section>
     var section = $(this).closest('section');

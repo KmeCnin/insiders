@@ -402,12 +402,12 @@ De plus, le personnage est capable de créer une _rune de sang_. Il s&#039;agit 
 
 **Possède un réceptacle magique le rendant presque immortel**
 
-Le personnage possède un réceptacle particulier dans lequel il choisit de transférer une partie de ses points d&#039;Instinct de Résister (il doit en conserver au minimum 1). Le score d&#039;Instinct en résister du récipient est égale aux nombre de points transférés par le personnage.  
- Il peut par la suite, tant qu’il est en contact avec son phylactère, changer comme il le souhaite cette répartition. Les points d&#039;Instinct ainsi transférés ne sont pas utilisables (ils ne sont plus comptabilisés dans les jets de Résister du personnage). Si le phylactère est détruit, les points de Résister sont alors perdus à jamais.
+Le personnage possède un réceptacle particulier appelé _phylactère_ dans lequel il choisit de transférer une partie de ses points d&#039;_Instinct_ de _Résister_ (il doit en conserver au minimum 1). Le score d&#039;Instinct en résister du réceptacle est égale aux nombre de points transférés par le personnage.  
+ Il peut par la suite, tant qu’il est en contact avec son _phylactère_, changer comme il le souhaite cette répartition. Les points d&#039;Instinct ainsi transférés ne sont pas utilisables (ils ne sont plus comptabilisés dans les jets de Résister du personnage). Si le _phylactère_ est détruit, les points de Résister sont alors perdus à jamais.
 
-A chaque fois qu’il reçoit une blessure, le personnage peut lancer un jet de Résister supplémentaire avec le score de Résister de son phylactère pour tenter directement de la guérir. Cela fonctionne quelque soit la distance entre le personnage et le phylactère.
+A chaque fois qu’il reçoit une _blessure_, le personnage peut lancer un jet de Résister supplémentaire avec le score de Résister de son phylactère pour tenter directement de la _guérir_. Cela fonctionne quelque soit la distance entre le personnage et le _phylactère_.
 
-De plus, le personnage a en permanence conscience des formes de vies évoluant à portée de son phylactère comme s&#039;il possédait la capacité Perception de la vie. Cela lui permet d&#039;être immédiatement avertis en cas d&#039;intrusion proche de sa cachette ou bien, s&#039;il porte son phylactère sur lui, profiter de l&#039;effet de Perception de la vie.
+De plus, le personnage a en permanence conscience des formes de vies évoluant _à portée_ de son _phylactère_ comme s&#039;il possédait la capacité _Perception de la vie_. Cela lui permet d&#039;être immédiatement avertis en cas d&#039;intrusion proche de sa cachette ou bien, s&#039;il porte son _phylactère_ sur lui, profiter de l&#039;effet de _Perception de la vie_.
 
 **Augmentations:**
 - Chaque point stocké dans le phylactère est considéré doublé
@@ -420,9 +420,9 @@ De plus, le personnage a en permanence conscience des formes de vies évoluant �
 Le personnage aspire l&#039;énergie vitale des êtres vivants.  
  Cela lui permet par exemple de se soigner au contact d&#039;adversaires ou de petits animaux, etc.
 
-En sacrifiant un animal d&#039;au moins la taille d&#039;une souris, le personnage peut tenter de soigner une de ses blessures grâce à un jet de Résister (comme s&#039;il possédait la capacité Transfert de force vitale).
+En sacrifiant un animal d&#039;au moins la taille d&#039;une souris, le personnage peut tenter de _soigner_ une de ses _blessures_ grâce à un jet de _Résister_ (comme s&#039;il possédait la capacité _Transfert de force vitale_).
 
-Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I et grâce à un jet de Résister peut tenter de soigner une de ses blessures.
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une blessure de degré I et grâce à un jet de Résister peut tenter de soigner une de ses blessures.
 
 **Augmentations:**
 - Augmente d&#039;un degré la blessure infligée
@@ -439,9 +439,9 @@ L&#039;énergie qui parcourt le monde matériel
 Le personnage maîtrise les flux thermiques, il peut rapidement augmenter la température d&#039;une zone précise.  
  Cela lui permet par exemple de vaporiser de l&#039;eau, brûler des tissus vivants au contact, chauffer du métal à blanc, allumer un feu à partir de matériaux inflammables, etc.
 
-Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I en brûlant son adversaire.  
- Lorsqu&#039;il manie une arme métallique (lame au contact ou flèches/carreaux à distance), il peut chauffer la lame à blanc pour augmenter la blessure reçue d&#039;un degré.  
- Il possède également une résistance aux brûlures.
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en brûlant son adversaire.  
+ Lorsqu&#039;il manie une arme métallique (lame au contact ou flèches/carreaux à distance), il peut chauffer la lame à blanc pour augmenter la blessure infligée d&#039;un degré.  
+ Il possède également une _résistance_ aux brûlures.
 
 ### <a name="anchor-combustion"></a>Combustion
 
@@ -450,8 +450,8 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 Le personnage est capable d&#039;enflammer l&#039;air environnant en un instant, il contrôle parfaitement la puissance et la portée de son pouvoir lui permettant de régler l&#039;intensité de la réaction à volonté.  
  Cela lui permet par exemple de brûler ses ennemies à distance, créer un feu à partir de matériaux inflammables, cuire de la nourriture, etc.
 
-Grâce à un jet d&#039;Imposer à distance, il peut infliger une blessure de degré I.  
- Il possède également une résistance aux brûlures.
+Grâce à un jet d&#039;_Imposer_ à _distance_, il peut infliger une _blessure_ de degré I.  
+ Il possède également une _résistance_ aux brûlures.
 
 **Augmentations:**
 - Augmente d&#039;un degré la blessure infligée
@@ -464,8 +464,8 @@ Grâce à un jet d&#039;Imposer à distance, il peut infliger une blessure de de
 Le personnage est capable de produire des décharges électriques puissantes au contact, il contrôle parfaitement la puissance de son pouvoir lui permettant de régler l&#039;intensité du courant à volonté.  
  Cela lui permet par exemple d&#039;électrocuter ses ennemies au contact, émettre un halo lumineux, délivrer un courant électrique dans une surface conductrice, etc.
 
-Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré II.  
- Il possède également une résistance aux électrocutions.
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré II.  
+ Il possède également une _résistance_ aux électrocutions.
 
 **Augmentations:**
 - Peut blesser à distance
@@ -481,7 +481,7 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.  
  Cela lui permet par exemple d&#039;aimanter des équipements métalliques à distance, de savoir s&#039;orienter en permanence (il localise l&#039;Elyseum), attirer à lui des objets métalliques, etc.
 
-Grâce à un jet d&#039;Imposer à distance il peut désarmer autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armes métalliques et envoyer les armes loin d&#039;eux.  
+Grâce à un jet d&#039;_Imposer_ à _distance_ il peut désarmer autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armes métalliques et envoyer les armes loin d&#039;eux.  
  Grâce à un jet d&#039;Imposer à distance il peut plaquer au sol autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armures métalliques.
 
 ### <a name="anchor-foudre"></a>Foudre
@@ -494,7 +494,7 @@ Grâce à un jet d&#039;Imposer à distance il peut désarmer autant d&#039;adve
 Le personnage est capable de commander la météo environnante.  
  Cela lui permet par exemple d&#039;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.
 
-Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré III à tous les personnages avoisinants excepté lui-même.
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré III à tous les personnages avoisinants excepté lui-même.
 
 **Augmentations:**
 - Peut exclure des personnages de la zone foudroyée
@@ -507,9 +507,9 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 Le personnage maîtrise les flux thermiques, il peut rapidement diminuer la température d&#039;une zone précise.  
  Cela lui permet par exemple de solidifier de l&#039;eau, geler des tissus vivants au contact, etc.
 
-Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de degré I en gelant son adversaire.  
- Il peut rapidement solidifier l&#039;humidité de l&#039;air au niveau du point d&#039;impact d&#039;un coup afin d&#039;augmenter de 1 point son jet de Défendre contre les blessures physiques.  
- Il possède également une résistance aux gelures.
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en gelant son adversaire.  
+ Il peut rapidement solidifier l&#039;humidité de l&#039;air au niveau du point d&#039;impact d&#039;un coup afin d&#039;augmenter de 1 point son jet de _Défense_ contre les blessures physiques.  
+ Il possède également une _résistance_ aux gelures.
 
 ### <a name="anchor-onde-sonore"></a>Onde sonore
 
@@ -518,8 +518,8 @@ Grâce à un jet d&#039;Imposer au contact, il peut infliger une blessure de deg
 Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.  
  Cela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc. Il peut également simuler des sons très simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop précis ou délicats comme de la musique. Dans tous les cas, les ondes sonores générées sont issues du joueur et ne peuvent pas partir de sources distantes.
 
-Grâce à un jet d&#039;Imposer à distance, il peut sonner un personnage, qui minimisera alors automatiquement son prochain jet de Résister.  
- Il possède également une résistance aux ondes sonores puissantes.
+Grâce à un jet d&#039;_Imposer_ à _distance_, il peut sonner un personnage, qui _minimisera_ alors automatiquement son prochain jet de _Résister_.  
+ Il possède également une _résistance_ aux sons puissantes.
 
 **Augmentations:**
 - Inflige une blessure de degré I en plus de sonner
@@ -535,7 +535,7 @@ Grâce à un jet d&#039;Imposer à distance, il peut sonner un personnage, qui m
 Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.  
  Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
 
-Grâce à un jet d&#039;Imposer à distance il peut faire tomber les adversaires à portée qui subissent alors une blessure de degré I.
+Grâce à un jet d&#039;_Imposer_ à _distance_ il peut faire tomber les adversaires à portée qui subissent alors une _blessure_ de degré I.
 
 ## <a name="anchor-la-toile"></a>La Toile
 
