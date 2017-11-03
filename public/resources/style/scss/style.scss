@@ -187,10 +187,11 @@ a {
 }
 
 .block {
+  position: relative;
   margin: auto auto 50px auto;
+
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   background: black;
-
   border-radius: 2px;
 }
 
@@ -306,6 +307,24 @@ a {
   }
 }
 
+.block-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+
+  list-style-type: none;
+  color: $primary-color;
+
+  li {
+    cursor: pointer;
+  }
+
+  li.active {
+    color: $secondary-color;
+  }
+}
+
 .block-content {
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
@@ -313,7 +332,7 @@ a {
   position: relative;
   z-index: 10;
 
-  p {
+  div {
     text-align: justify;
     font-weight: 300;
     color: $primary-color;
@@ -322,6 +341,10 @@ a {
   .need {
     color: $secondary-color;
     margin-bottom: 1em;
+  }
+
+  .block-content-increase {
+    display: none;
   }
 }
 

@@ -23,6 +23,7 @@
       'slug': ability.slug,
       'need': ability.abilitiesRequired|join(', '),
       'bg': asset('resources/images/abilities/'~ability.id~'.jpg'),
+      'increases': ability.increases,
     } only %}
   {% endfor %}
 {% endblock %}
