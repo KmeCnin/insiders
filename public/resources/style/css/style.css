@@ -260,13 +260,10 @@ a {
   margin-top: 30px; }
 
 .block {
-  position: relative;
   margin: auto auto 50px auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 20%; }
+  background: black;
+  border-radius: 2px; }
 
 .block-home1,
 .block-home2,
@@ -324,9 +321,20 @@ a {
     line-height: 1.4em;
     color: #F0E6D2; }
 
+.block-background {
+  position: absolute;
+  z-index: 1;
+  width: 900px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%; }
+
 .block-title {
   padding: 20px;
-  text-shadow: 0 0 16px black; }
+  text-shadow: 0 0 16px black;
+  position: relative;
+  z-index: 10; }
   .block-title div {
     display: flex;
     align-items: center; }
@@ -342,9 +350,11 @@ a {
     color: #FECB5B; }
 
 .block-content {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
   margin-top: 450px;
-  padding: 10px 20px; }
+  position: relative;
+  z-index: 10; }
   .block-content p {
     text-align: justify;
     font-weight: 300;

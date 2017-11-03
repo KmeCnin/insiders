@@ -214,5 +214,13 @@
         "public": true,
         "short": "Tour de jeu",
         "description": "<p>Tour de jeu<\/p>"
+    },
+    {
+        "id": "speed",
+        "name": "Vitesse surnaturelle",
+        "enabled": true,
+        "public": true,
+        "short": "Vitesse surnaturelle",
+        "description": "<p>Vitesse surnaturelle<\/p>"
     }
 ]
