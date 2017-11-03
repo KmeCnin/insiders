@@ -129,7 +129,8 @@ body {
   padding-top: 65px;
   font-family: 'Open Sans', sans-serif;
   color: #2D3132;
-  background: #000; }
+  background: #000;
+  font-size: 14px; }
 
 /* ========== GENERAL ========== */
 h1 {
