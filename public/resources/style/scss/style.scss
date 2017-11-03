@@ -8,6 +8,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: $text-color;
   background: #000;
+  font-size: $font-size;
 }
 
 /* ========== GENERAL ========== */
@@ -81,12 +82,14 @@ a {
 
     font-size: 3em;
     text-transform: uppercase;
+    text-shadow: 0 0 16px black;
   }
 
   h2 {
     margin-top: 20px;
 
     font-size: 2.5em;
+    text-shadow: 0 0 16px black;
   }
 }
 
@@ -185,10 +188,11 @@ a {
 
 .block {
   position: relative;
-  padding: 10px;
+  margin: auto auto 50px auto;
 
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  background: black;
   border-radius: 2px;
-  border: 1px solid $secondary-color;
 }
 
 .block-home1,
@@ -234,7 +238,7 @@ a {
   p {
     max-width: 250px;
     position: relative;
-    bottom: 20px;
+    bottom: 23px;
     margin: auto;
 
     font-weight: 300;
@@ -243,14 +247,18 @@ a {
 }
 
 .block-intro {
-  margin-bottom: 70px;
+  height: auto;
+  margin: auto auto 50px auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
 
+  border-radius: 2px;
   text-align: center;
-  background: rgba(0, 0, 0, 0.38);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
 
   p {
     max-width: 850px;
-    margin: 20px auto;
+    margin: 10px auto;
     
     text-align: justify;
     font-size: 1em;
@@ -260,7 +268,23 @@ a {
   }
 }
 
+.block-background {
+  position: absolute;
+  z-index: 1;
+  width: 900px;
+  height: 700px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
 .block-title {
+  padding: 20px;
+  text-shadow: 0 0 16px black;
+  position: relative;
+  z-index: 10;
+
   div {
     display: flex;
     align-items: center;
@@ -272,6 +296,7 @@ a {
 
     h1 {
       margin: 10px 0;
+      text-shadow: 0 0 16px black;
     }
   }
 
@@ -282,75 +307,49 @@ a {
   }
 }
 
-.block-split-wrapper {
-  margin-bottom: 30px;
+.block-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+
+  list-style-type: none;
+  color: $primary-color;
+
+  li {
+    cursor: pointer;
+  }
+
+  li.active {
+    color: $secondary-color;
+  }
 }
 
-.block-split {
-  display: flex;
-  margin: 20px 0 30px 0;
-  padding: 0;
-  min-height: 200px;
+.block-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  margin-top: 450px;
+  position: relative;
+  z-index: 10;
 
-  background: $light-template;
-
-  img {
-    height: 90%;
-    position: absolute;
-    bottom: 0;
-    top: 15px;
-    left: -165px;
-  }
-
-  .block-content {
-    width: 60%;
-    padding: 30px;
-
+  div {
     text-align: justify;
-
-    .need {
-      font-family: $font-family-secondary;
-      font-size: 1em;
-      color: $text-info-color;
-
-      span {
-        font-weight: 700;
-      }
-    }
-
-    .block-content-title {
-      h2 {
-        margin: 0 0 3px 0;
-    
-        color: $text-color;
-      }
-    
-      span {
-        font-family: $font-family-secondary;
-        font-size: 1.2em;
-        color: $text-info-color;
-      }
-    
-      .title-underline {
-        height: 1px;
-        margin-top: 10px;
-    
-        background: $secondary-color;
-      }
-    }
+    font-weight: 300;
+    color: $primary-color;
   }
 
-  .bg-block {
-    width: 40%;
-    min-height: 100%;
+  .need {
+    color: $secondary-color;
+    margin-bottom: 1em;
+  }
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  .block-content-increase {
+    display: none;
   }
 }
 
 .block-group {
+  width: 900px;
   display: flex;
   flex-wrap: wrap;
   margin: 20px 0 30px 0;
@@ -438,6 +437,8 @@ a {
   cursor: pointer;
 }
 .popover {
+  position: relative;
+  z-index: 100;
   color: $primary-color;
   background: $dark-template;
   padding: 5px;

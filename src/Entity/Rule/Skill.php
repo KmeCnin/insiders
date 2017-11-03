@@ -45,6 +45,7 @@ class Skill extends AbstractRule
         return array_merge(parent::normalize(), [
             'short' => $this->getShort(),
             'description' => $this->getDescription(),
+            'characteristic' => $this->getCharacteristic()->getId(),
         ]);
     }
 }

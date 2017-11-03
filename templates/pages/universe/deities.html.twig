@@ -7,27 +7,18 @@
 {% set subtitle = 'Divinités' %}
 
 {% block container %}
-  <div class="block block-intro">
+  <div class="block-intro">
     <p>{{ description|raw }}</p>
   </div>
 
-  <section>
-    {% for deity in deities %}
-      <div class="block-split-wrapper">
-        <div class="block-title">
-          <div>
-            <img src="{{ asset('resources/images/arcanes/icons/'~deity.arcane.id~'.svg') }}" alt="{{ deity.arcane.name }}">
-            <h1>{{ deity.name }}</h1>
-          </div>
-          <span>{{ deity.dignity }}</span>
-        </div>
-        <div class="block block-split">
-          <div class="block-content">
-            <p>{{ deity.description|raw }}</p>
-          </div>
-          <div class="bg-block" style="background-image: url({{ asset('resources/images/deities/'~deity.id~'.jpg') }})"></div>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
+  {% for deity in deities %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': deity.name,
+      'subtitle': deity.dignity,
+      'description': deity.description,
+      'slug': deity.slug,
+      'icon': asset('resources/images/arcanes/icons/'~deity.arcane.id~'.svg'),
+      'bg': asset('resources/images/deities/'~deity.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

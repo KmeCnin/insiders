@@ -7,28 +7,18 @@
 {% set subtitle = 'Arcanes' %}
 
 {% block container %} 
-  <div class="block block-intro">
-    <p>{{ description|raw }}</p>
+  <div class="block-intro">
+    <p>{{ description|augment|raw }}</p>
   </div>
 
-  <section>
-    {% for arcane in arcanes %}
-      <div class="block-split-wrapper">
-        <div class="block-title">
-          <div>
-            <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="{{ arcane.name }}">
-            <h1>{{ arcane.name }}</h1>
-          </div>
-          <span>{{ arcane.short }}</span>
-        </div>
-        <div class="block block-split">
-          <div class="block-content">
-            <p>{{ arcane.description|raw }}</p>
-          </div>
-          <div class="bg-block" style="background-image: url({{ asset('resources/images/arcanes/'~arcane.id~'.jpg') }})"></div>
-          <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'-bg.svg') }}" alt="{{ arcane.name }}">
-        </div>
-      </div>
-    {% endfor %}
-  </section>
+  {% for arcane in arcanes %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': arcane.name,
+      'subtitle': arcane.short,
+      'description': arcane.description,
+      'slug': arcane.slug,
+      'icon': asset('resources/images/arcanes/icons/'~arcane.id~'.svg'),
+      'bg': asset('resources/images/arcanes/'~arcane.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

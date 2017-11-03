@@ -9,31 +9,19 @@
 {% set subtitle = category.name %}
 
 {% block container %}
-  {{ include('includes/rules/breadcrumb_stuff.html.twig', [categories, category]) }}
+  {{ include('includes/breadcrumbs/stuff.html.twig', [categories, category]) }}
 
   <div class="block block-intro">
-    <p>{{ description|raw }}</p>
+    <p>{{ description|augment|raw }}</p>
   </div>
 
-  <section>
-    {% for stuffItem in stuff %}
-      <a class="anchor" id="{{ stuffItem.slug }}"></a>
-      <div id="{{ stuffItem.slug }}" class="block-title">
-        <div>
-          <h1>{{ stuffItem.name }}</h1>
-        </div>
-        <span>{{ stuffItem.short }}</span>
-      </div>
-
-      <div class="block block-split">
-        <div class="block-content">
-          <p>{{ stuffItem.description|augment|raw }}</p>
-        </div>
-
-        <div class="bg-block" style="background-image: url({{ asset('resources/images/stuff/'~stuffItem.id~'.jpg') }})"></div>
-
-        <img src="{{ asset('resources/images/stuff_categories/icons/'~category.id~'-bg.svg') }}" alt="{{ category.name }}">
-      </div>
-    {% endfor %}
-  </section>
+  {% for stuffItem in stuff %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': stuffItem.name,
+      'subtitle': stuffItem.short,
+      'description': stuffItem.description,
+      'slug': stuffItem.slug,
+      'bg': asset('resources/images/stuff/'~stuffItem.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

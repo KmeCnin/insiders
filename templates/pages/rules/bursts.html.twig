@@ -7,26 +7,18 @@
 {% set subtitle = 'Décharges d\'arcanite' %}
 
 {% block container %}
-    <div class="block block-intro">
-        <p>{{ description|raw }}</p>
-    </div>
+  <div class="block block-intro">
+    <p>{{ description|augment|raw }}</p>
+  </div>
 
-    <section>
-        {% for burst in bursts %}
-            <div class="block-split-wrapper">
-                <div class="block-title">
-                    <div>
-                        <h1>{{ burst.name }}</h1>
-                    </div>
-                    <span>{{ burst.short }}</span>
-                </div>
-                <div class="block block-split">
-                    <div class="block-content">
-                        <p>{{ burst.description|raw }}</p>
-                    </div>
-                    <div class="bg-block" style="background-image: url({{ asset('resources/images/bursts/'~burst.id~'.jpg') }})"></div>
-                </div>
-            </div>
-        {% endfor %}
-    </section>
+  {% for burst in bursts %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': burst.name,
+      'subtitle': burst.short,
+      'description': burst.description,
+      'slug': burst.slug,
+      'icon': asset('resources/images/arcanes/icons/'~burst.arcane.id~'.svg'),
+      'bg': asset('resources/images/bursts/'~burst.id~'.jpg'),
+    } only %}
+  {% endfor %}
 {% endblock %}

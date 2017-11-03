@@ -8,10 +8,10 @@
 {% set subtitle = 'Tous les équipements' %}
 
 {% block container %}
-{{ include('includes/rules/breadcrumb_stuff.html.twig', [categories]) }}
+{{ include('includes/breadcrumbs/stuff.html.twig', [categories]) }}
 
   <div class="block block-intro">
-    <p>{{ description|raw }}</p>
+    <p>{{ description|augment|raw }}</p>
   </div>
 
   {% for entry in map %}
@@ -26,17 +26,17 @@
       <span>{{ category.short }}</span>
     </div>
 
-    <div class="block block-group">
-        {% set stuffList = entry['stuff'] %}
-        {% for stuff in stuffList %}
-            {# @var stuff \App\Entity\Rule\CanonicalStuff #}
-          <a class="block-group-item" href="{{ path('rules.stuff', {'slug': category.slug})~'#'~stuff.slug }}" style="background-image: url({{ asset('resources/images/stuff/'~stuff.id~'.jpg') }});">
-            <div>
-              <h2>{{ stuff.name }}</h2>
-              <p>{{ stuff.short }}</p>
-            </div>
-          </a>
-        {% endfor %}
+    <div class="block-group">
+      {% set stuffList = entry['stuff'] %}
+      {% for stuff in stuffList %}
+        {# @var stuff \App\Entity\Rule\CanonicalStuff #}
+        <a class="block-group-item" href="{{ path('rules.stuff', {'slug': category.slug})~'#'~stuff.slug }}" style="background-image: url({{ asset('resources/images/stuff/'~stuff.id~'.jpg') }});">
+          <div>
+            <h2>{{ stuff.name }}</h2>
+            <p>{{ stuff.short }}</p>
+          </div>
+        </a>
+      {% endfor %}
     </div>
   {% endfor %}
 {% endblock %}

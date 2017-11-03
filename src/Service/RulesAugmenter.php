@@ -3,6 +3,7 @@
 namespace App\Service;
 
 use App\Entity\Rule\Ability;
+use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\LexiconEntry;
 use App\Entity\Rule\RuleInterface;
 use App\Entity\Rule\Skill;
@@ -33,6 +34,9 @@ class RulesAugmenter
                 case 'ability':
                     $template = 'ability';
                     $namespace = Ability::class;
+                    break;
+                case 'characteristic':
+                    $namespace = Characteristic::class;
                     break;
                 case 'lexicon':
                     $namespace = LexiconEntry::class;
