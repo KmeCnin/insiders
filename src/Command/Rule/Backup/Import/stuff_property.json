@@ -1,1 +1,104 @@
-[]
+[
+    {
+        "id": "wound-I",
+        "name": "Blessure de degré I",
+        "enabled": true,
+        "public": true,
+        "fp": 0.9,
+        "short": "Inflige une blessure de degré I.",
+        "kind": "wound",
+        "stuffKinds": [
+            "armor",
+            "shield",
+            "weapon"
+        ]
+    },
+    {
+        "id": "wound-II",
+        "name": "Blessure de degré II",
+        "enabled": true,
+        "public": true,
+        "fp": 1.8,
+        "short": "Inflige une blessure de degré II.",
+        "kind": "wound",
+        "stuffKinds": [
+            "weapon"
+        ]
+    },
+    {
+        "id": "wound-III",
+        "name": "Blessure de degré III",
+        "enabled": true,
+        "public": true,
+        "fp": 3.6,
+        "short": "Inflige une blessure de degré III.",
+        "kind": "wound",
+        "stuffKinds": [
+            "weapon"
+        ]
+    },
+    {
+        "id": "ranged",
+        "name": "Distance",
+        "enabled": true,
+        "public": true,
+        "fp": 0.9,
+        "short": "Peut attaquer à distance.",
+        "kind": "wound",
+        "stuffKinds": [
+            "weapon"
+        ]
+    },
+    {
+        "id": "fireproof",
+        "name": "Ignifugé",
+        "enabled": true,
+        "public": true,
+        "fp": 0.5,
+        "short": "Confère une résistance contre les brûlures.",
+        "kind": "default",
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": "insulating",
+        "name": "Isolant",
+        "enabled": true,
+        "public": true,
+        "fp": 0.5,
+        "short": "Confère une résistance contre les électrocutions.",
+        "kind": "default",
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    },
+    {
+        "id": "bound",
+        "name": "Lié",
+        "enabled": true,
+        "public": true,
+        "fp": 0.5,
+        "short": "Ne peut pas être désarmé.",
+        "kind": "default",
+        "stuffKinds": [
+            "object",
+            "weapon"
+        ]
+    },
+    {
+        "id": "orichalcum",
+        "name": "Orichalque",
+        "enabled": true,
+        "public": true,
+        "fp": 3.6,
+        "short": "Confère une résistance contre les blessures physiques.",
+        "kind": "default",
+        "stuffKinds": [
+            "armor",
+            "shield"
+        ]
+    }
+]

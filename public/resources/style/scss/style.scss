@@ -186,13 +186,11 @@ a {
 }
 
 .block {
-  position: relative;
   margin: auto auto 50px auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  background: black;
 
   border-radius: 2px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 20%;
 }
 
 .block-home1,
@@ -268,9 +266,22 @@ a {
   }
 }
 
+.block-background {
+  position: absolute;
+  z-index: 1;
+  width: 900px;
+  height: 700px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
 .block-title {
   padding: 20px;
   text-shadow: 0 0 16px black;
+  position: relative;
+  z-index: 10;
 
   div {
     display: flex;
@@ -295,9 +306,11 @@ a {
 }
 
 .block-content {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
-  margin-top: 450px;
+  background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
+  margin-top: 450px;
+  position: relative;
+  z-index: 10;
 
   p {
     text-align: justify;

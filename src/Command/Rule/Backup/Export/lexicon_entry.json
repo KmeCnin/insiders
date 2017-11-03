@@ -128,6 +128,14 @@
         "description": "<p>Facteur de puissance<\/p>"
     },
     {
+        "id": "heal",
+        "name": "Guérison",
+        "enabled": true,
+        "public": true,
+        "short": "Guérison",
+        "description": "<p>Gu&eacute;rison<\/p>"
+    },
+    {
         "id": "insider",
         "name": "Initié",
         "enabled": true,
@@ -152,6 +160,30 @@
         "description": "<p>La Ma&icirc;trise repr&eacute;sente le potentiel acquis d&#39;une [entit&eacute;](lexicon:entity), sa capacit&eacute; &agrave; tirer le meilleur de ses comp&eacute;tences naturelles.<\/p>\r\n\r\n<p>Pour un personnage, il&nbsp;s&#39;agit&nbsp;de ses capacit&eacute;s physiques ou mentales.<br \/>\r\nPour un objet, il s&#39;agit de son efficacit&eacute;.<\/p>"
     },
     {
+        "id": "maximize",
+        "name": "Maximiser un jet",
+        "enabled": true,
+        "public": true,
+        "short": "Maximiser un jet",
+        "description": "<p>Maximiser un jet<\/p>"
+    },
+    {
+        "id": "minimize",
+        "name": "Minimiser un jet",
+        "enabled": true,
+        "public": true,
+        "short": "Minimiser un jet",
+        "description": "<p>Minimiser un jet<\/p>"
+    },
+    {
+        "id": "obsylene",
+        "name": "Obsylène",
+        "enabled": true,
+        "public": true,
+        "short": "Obsylène",
+        "description": "<p>Obsyl&egrave;ne<\/p>"
+    },
+    {
         "id": "pc",
         "name": "Point de création",
         "enabled": true,
@@ -160,11 +192,27 @@
         "description": "<p>Unit&eacute; d&eacute;finissant une &eacute;quivalence dans les &eacute;l&eacute;ments constitutifs de la cr&eacute;ation d&#39;un personnage<\/p>"
     },
     {
+        "id": "resistance",
+        "name": "Résistance",
+        "enabled": true,
+        "public": true,
+        "short": "Résistance",
+        "description": "<p>R&eacute;sistance<\/p>"
+    },
+    {
         "id": "travesty",
         "name": "Simulacre",
         "enabled": true,
         "public": true,
         "short": "Invocation qui disparaît à la moindre blessure",
         "description": "<p>Un simulacre est une invocation arcanique cr&eacute;&eacute;e la plupart&nbsp;du temps par un initi&eacute; mais il arrive qu&#39;il s&#39;agisse de manifestations spontan&eacute;es.<\/p>\r\n\r\n<p>Le terme regroupe les morts-vivants cr&eacute;&eacute;s par [N&eacute;cromancie](ability:necromancy), les doubles&nbsp;cr&eacute;&eacute;s par [Leurres](lexicon:lure), les clones cr&eacute;&eacute;s par [D&eacute;doublement](ability:duplication) et plus g&eacute;n&eacute;ralement toutes les cr&eacute;ations qui disparaissent lorsqu&#39;elles subissent une blessure.<\/p>"
+    },
+    {
+        "id": "round",
+        "name": "Tour de jeu",
+        "enabled": true,
+        "public": true,
+        "short": "Tour de jeu",
+        "description": "<p>Tour de jeu<\/p>"
     }
 ]
