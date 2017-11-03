@@ -188,7 +188,6 @@ a {
 .block {
   position: relative;
   margin: auto auto 50px auto;
-  padding: 20px;
 
   border-radius: 2px;
   background-repeat: no-repeat;
@@ -255,7 +254,7 @@ a {
 
   border-radius: 2px;
   text-align: center;
-  background: rgba(0, 0, 0, 0.38);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
 
   p {
     max-width: 850px;
@@ -270,6 +269,9 @@ a {
 }
 
 .block-title {
+  padding: 20px;
+  text-shadow: 0 0 16px black;
+
   div {
     display: flex;
     align-items: center;
@@ -293,7 +295,9 @@ a {
 }
 
 .block-content {
-  margin: 450px 20px 20px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+  margin-top: 450px;
+  padding: 10px 20px;
 
   p {
     text-align: justify;
@@ -301,8 +305,9 @@ a {
     color: $primary-color;
   }
 
-  span {
+  .need {
     color: $secondary-color;
+    margin-bottom: 1em;
   }
 }
 

@@ -32,6 +32,14 @@
         "description": "<p>Les&nbsp;<strong>attributs physiques<\/strong> repr&eacute;sentent des comp&eacute;tences particuli&egrave;res inn&eacute;es chez des animaux ou acquises par des personnages gr&acirc;ce &agrave; l&#39;entra&icirc;nement ou suite &agrave; des mutations apr&egrave;s absorption de [cristaux d&#39;arcanite](lexicon:arcanite).<\/p>"
     },
     {
+        "id": "wound",
+        "name": "Blessure",
+        "enabled": true,
+        "public": true,
+        "short": "Blessure",
+        "description": "<p>Blessure<\/p>"
+    },
+    {
         "id": "ability",
         "name": "Capacité arcanique",
         "enabled": true,
@@ -54,6 +62,14 @@
         "public": true,
         "short": "Unité d'énergie stockée dans un cristal d'arcanite pouvant être absorbé",
         "description": "<p>Unit&eacute; d&#39;&eacute;nergie stock&eacute;e dans un cristal d&#39;arcanite pouvant &ecirc;tre absorb&eacute;<\/p>"
+    },
+    {
+        "id": "contact",
+        "name": "Contact",
+        "enabled": true,
+        "public": true,
+        "short": "Contact",
+        "description": "<p>Contact<\/p>"
     },
     {
         "id": "create-character",
@@ -104,6 +120,14 @@
         "description": "<p>Les personnages (et plus rarement les animaux) peuvent porter sur eux des <strong>&eacute;quipements<\/strong>&nbsp;les aidant &agrave; combattre (armes, armures, boucliers, etc.) ou &agrave; accomplir ais&eacute;ment des t&acirc;ches sp&eacute;cifiques (capes, cordes, longues-vues, etc.). Certains &eacute;quipements &agrave; usage unique ne conf&egrave;rent un bonus que lors d&#39;une seule utilisation, on les appelle <em>consommables<\/em>.<\/p>"
     },
     {
+        "id": "fp",
+        "name": "Facteur de puissance",
+        "enabled": true,
+        "public": true,
+        "short": "Facteur de puissance",
+        "description": "<p>Facteur de puissance<\/p>"
+    },
+    {
         "id": "insider",
         "name": "Initié",
         "enabled": true,
@@ -134,5 +158,13 @@
         "public": true,
         "short": "Unité définissant une équivalence dans les éléments constitutifs de la création d'un personnage",
         "description": "<p>Unit&eacute; d&eacute;finissant une &eacute;quivalence dans les &eacute;l&eacute;ments constitutifs de la cr&eacute;ation d&#39;un personnage<\/p>"
+    },
+    {
+        "id": "travesty",
+        "name": "Simulacre",
+        "enabled": true,
+        "public": true,
+        "short": "Invocation qui disparaît à la moindre blessure",
+        "description": "<p>Un simulacre est une invocation arcanique cr&eacute;&eacute;e la plupart&nbsp;du temps par un initi&eacute; mais il arrive qu&#39;il s&#39;agisse de manifestations spontan&eacute;es.<\/p>\r\n\r\n<p>Le terme regroupe les morts-vivants cr&eacute;&eacute;s par [N&eacute;cromancie](ability:necromancy), les doubles&nbsp;cr&eacute;&eacute;s par [Leurres](lexicon:lure), les clones cr&eacute;&eacute;s par [D&eacute;doublement](ability:duplication) et plus g&eacute;n&eacute;ralement toutes les cr&eacute;ations qui disparaissent lorsqu&#39;elles subissent une blessure.<\/p>"
     }
 ]
