@@ -29,15 +29,6 @@ class TwigExtension extends \Twig_Extension
         return strip_tags($converter->convert($this->removeAugmentation($html)));
     }
 
-    public function removeAugmentation(?string $text): ?string
-    {
-        if (null === $text) {
-            return null;
-        }
-
-        return preg_replace('/(\[(.+)\])\((.+)\)/U', '<em>$2</em>', $text);
-    }
-
     public function augmentFilter(?string $text): ?string
     {
         return $this->container->get(RulesAugmenter::class)->augment($text);
@@ -46,5 +37,24 @@ class TwigExtension extends \Twig_Extension
     public function clearFilter(?string $text): ?string
     {
         return $this->removeAugmentation($text);
+    }
+
+    public function romanFilter(?int $N): ?string
+    {
+        $c='IVXLCDM';
+        for($a=5,$b=$s='';$N;$b++,$a^=7) {
+            for($o=$N%$a,$N=$N/$a^0;$o--;$s=$c[$o>2?$b+$N-($N&=-2)+$o=1:$b>0?$b:0].$s) {
+            }
+        }
+        return $s;
+    }
+
+    public function removeAugmentation(?string $text): ?string
+    {
+        if (null === $text) {
+            return null;
+        }
+
+        return preg_replace('/(\[(.+)\])\((.+)\)/U', '<em>$2</em>', $text);
     }
 }

@@ -20,8 +20,16 @@
         "name": "Arcanite",
         "enabled": true,
         "public": true,
-        "short": "Roche cristalline présentant des propriétés surnaturelles pouvant être absorbées",
-        "description": "<p>Roche cristalline pr&eacute;sentant des propri&eacute;t&eacute;s surnaturelles pouvant &ecirc;tre absorb&eacute;es<\/p>"
+        "short": "Roche cristalline présentant des propriétés surnaturelles",
+        "description": "<p>L&#39;arcanite est une mati&egrave;re exog&egrave;ne apport&eacute;e sur [Atalis](lexicon:atalis) par la m&eacute;t&eacute;orite du [Grand Impact](lexicon:impact).<\/p>\r\n\r\n<p>Il s&#39;agit d&#39;une roche cristalline extr&ecirc;mement solide caract&eacute;ris&eacute;e par de nombreux reflets color&eacute;s oscillant entre bleu, vert et violet.<\/p>"
+    },
+    {
+        "id": "atalis",
+        "name": "Atalis",
+        "enabled": true,
+        "public": true,
+        "short": "Atalis",
+        "description": "<p>Atalis<\/p>"
     },
     {
         "id": "attribute",
@@ -126,6 +134,14 @@
         "public": true,
         "short": "Facteur de puissance",
         "description": "<p>Facteur de puissance<\/p>"
+    },
+    {
+        "id": "impact",
+        "name": "Grand Impact",
+        "enabled": true,
+        "public": true,
+        "short": "Grand Impact",
+        "description": "<p>Grand Impact<\/p>"
     },
     {
         "id": "heal",
