@@ -103,7 +103,20 @@ a {
     width: 100%;
     height: 1px;
 
-    background: $secondary-color;
+    background:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      $secondary-color 30px,
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      $secondary-color 30px,
+      rgba(0, 0, 0, 0)
+    )
+  ;
   }
 
   .breadcrumb-items {
@@ -111,9 +124,9 @@ a {
     display: flex;
 
     a {
-      width: 90px;
+      width: 85px;
       position: relative;
-      bottom: 35px;
+      bottom: 34px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -144,8 +157,8 @@ a {
         margin-top: 10px;
   
         .bullet-default {
-          width: 10px;
-          height: 10px;
+          width: 9px;
+          height: 9px;
           position: absolute;
   
           border-radius: 100%;
@@ -154,8 +167,8 @@ a {
         }
   
         .bullet-active {
-          width: 30px;
-          height: 30px;
+          width: 29px;
+          height: 29px;
   
           border-radius: 100%;
           background: rgba(255, 191, 0, 0.5);
@@ -309,19 +322,94 @@ a {
 
 .block-nav {
   position: absolute;
-  top: 0;
+  top: 50px;
   right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   z-index: 10;
 
   list-style-type: none;
   color: $primary-color;
 
+  .line {
+    width: 1px;
+    height: 120%;
+    position: absolute;
+    right: 0;
+
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        $secondary-color 30px,
+        rgba(0, 0, 0, 0)
+      ),
+      linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0),
+        $secondary-color 30px,
+        rgba(0, 0, 0, 0)
+      )
+    ;
+  }
+
   li {
+    position: relative;
+    right: -14px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px 0;
+    
     cursor: pointer;
   }
 
-  li.active {
+  li.active span {
+    font-family: $font-family-atene;
     color: $secondary-color;
+  }
+
+  li.active span,
+  li.active .bullet-active,
+  li:hover span,
+  li:hover .bullet-active {
+    opacity: 1;
+  }
+
+  .bullets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+    .bullet-default {
+      width: 9px;
+      height: 9px;
+      position: absolute;
+
+      border-radius: 100%;
+      border: 1px solid $secondary-color;
+      background: #F98D08;
+    }
+
+    .bullet-active {
+      width: 29px;
+      height: 29px;
+
+      border-radius: 100%;
+      background: rgba(255, 191, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+  }
+
+  span {
+    font-family: $font-family-atene;
+    font-size: 1.5em;
+    color: $primary-color;
+    opacity: 0.3;
+    transition: opacity 0.5s;
   }
 }
 

@@ -10,7 +10,13 @@
         rgba(0, 0, 0, 0) 200px,
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0) 400px,
-        black
+        rgba(0, 0, 0, 1)
+      ),
+      linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.60),
+        rgba(0, 0, 0, 0) 200px,
+        rgba(0, 0, 0, 0)
       ),
       url({{ bg }})
      "
@@ -27,9 +33,22 @@
 
   {% if increases is defined %}
   <ul class="block-nav">
-    <li data-target="{{ slug }}-0" class="active">0</li>
+    <div class="line"></div>
+    <li data-target="{{ slug }}-0" class="active">
+      <div class="bullets">
+        <div class="bullet-active"></div>
+        <div class="bullet-default"></div>
+      </div>
+      <span>0</span>
+    </li>
     {% for increase in increases %}
-      <li data-target="{{ slug ~ '-' ~ loop.index }}">{{ loop.index }}</li>
+      <li data-target="{{ slug ~ '-' ~ loop.index }}">
+        <div class="bullets">
+          <div class="bullet-active"></div>
+          <div class="bullet-default"></div>
+        </div>
+        <span>{{ loop.index|roman }}</span>
+      </li>
     {% endfor %}
   </ul>
   {% endif %}
