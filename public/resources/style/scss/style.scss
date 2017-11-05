@@ -322,19 +322,19 @@ a {
 
 .block-nav {
   position: absolute;
-  top: 50px;
+  bottom: 0;
   right: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 10;
+  z-index: 20;
 
   list-style-type: none;
   color: $primary-color;
 
   .line {
     width: 1px;
-    height: 120%;
+    height: 100%;
     position: absolute;
     right: 0;
 
@@ -365,6 +365,14 @@ a {
     cursor: pointer;
   }
 
+  li:first-of-type {
+    padding-top: 30px;
+  }
+
+  li:last-of-type {
+    padding-bottom: 30px;
+  }
+
   li.active span {
     font-family: $font-family-atene;
     color: $secondary-color;
@@ -375,6 +383,10 @@ a {
   li:hover span,
   li:hover .bullet-active {
     opacity: 1;
+  }
+
+  li.active .bullet-default {
+    background: #F98D08;
   }
 
   .bullets {
@@ -390,7 +402,7 @@ a {
 
       border-radius: 100%;
       border: 1px solid $secondary-color;
-      background: #F98D08;
+      background: $secondary-color;
     }
 
     .bullet-active {
@@ -415,7 +427,7 @@ a {
 
 .block-content {
   background: rgba(0, 0, 0, 0.5);
-  padding: 10px 20px;
+  padding: 10px 90px 10px 20px;
   margin-top: 450px;
   position: relative;
   z-index: 10;
