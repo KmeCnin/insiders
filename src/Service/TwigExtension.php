@@ -20,6 +20,7 @@ class TwigExtension extends \Twig_Extension
             new \Twig_SimpleFilter('markdown', [$this, 'markdownFilter']),
             new \Twig_SimpleFilter('augment', [$this, 'augmentFilter']),
             new \Twig_SimpleFilter('clear', [$this, 'clearFilter']),
+            new \Twig_SimpleFilter('roman', [$this, 'romanFilter']),
         ];
     }
 
