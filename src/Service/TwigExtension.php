@@ -40,14 +40,32 @@ class TwigExtension extends \Twig_Extension
         return $this->removeAugmentation($text);
     }
 
-    public function romanFilter(?int $N): ?string
+    public function romanFilter(?int $n): ?string
     {
-        $c='IVXLCDM';
-        for($a=5,$b=$s='';$N;$b++,$a^=7) {
-            for($o=$N%$a,$N=$N/$a^0;$o--;$s=$c[$o>2?$b+$N-($N&=-2)+$o=1:$b>0?$b:0].$s) {
-            }
+        $res = '';
+        $romanNumber_Array = [
+            'M'  => 1000,
+            'CM' => 900,
+            'D'  => 500,
+            'CD' => 400,
+            'C'  => 100,
+            'XC' => 90,
+            'L'  => 50,
+            'XL' => 40,
+            'X'  => 10,
+            'IX' => 9,
+            'V'  => 5,
+            'IV' => 4,
+            'I'  => 1
+        ];
+
+        foreach ($romanNumber_Array as $roman => $number){
+            $matches = (int) ($n / $number);
+            $res .= str_repeat($roman, $matches);
+            $n %= $number;
         }
-        return $s;
+
+        return $res;
     }
 
     public function removeAugmentation(?string $text): ?string
