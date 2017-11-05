@@ -551,7 +551,7 @@ La trame qui supporte le monde matériel
 Le personnage peut accélérer le temps sur une zone restreinte pendant un court instant.  
  Cela lui permet par exemple d&#039;accélérer les projectiles qu&#039;il lance, d&#039;accélérer la pousse de la végétation, d&#039;aggraver les blessures d&#039;un ennemi, d&#039;achever un adversaire inconscient à distance.
 
-Grâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augmenter d&#039;un degré chacune des blessures de la cible.  
+Grâce à un jet de _Dévoiler_ à _distance_ opposé à un adversaire, il peut augmenter d&#039;un degré chacune des _blessures_ de la cible.  
  Il peut accélérer les projectiles qu&#039;il lance (flèches, armes de jet...) pour augmenter d&#039;un degré la blessure infligée.
 
 ### <a name="anchor-anticipation"></a>Anticipation
@@ -561,7 +561,7 @@ Grâce à un jet de Dévoiler à distance opposé à un adversaire, il peut augm
 Le personnage voit en permanence une fraction de seconde dans le futur.  
  Cela lui permet par exemple de pressentir un danger imminent, un choix désastreux, le coup d&#039;un adversaire, etc.
 
-Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son prochain jet opposé contre cette cible.  
+Grâce à un jet de _Dévoiler_ à _distance_ contre un personnage, il peut _maximiser_ son prochain jet opposé contre cette cible.  
  Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
 
 ### <a name="anchor-localisation"></a>Localisation
@@ -571,8 +571,8 @@ Grâce à un jet de Dévoiler contre un personnage, il peut maximiser son procha
 Le personnage garde un lien fort avec tout ce avec quoi il est entré en contact au moins une fois.  
  Cela lui permet par exemple de pouvoir s&#039;orienter en permanence, de localiser précisément la source d&#039;un son qu&#039;il perçoit, de localiser un objet ou un être vivant, etc.
 
-Grâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.  
- Grâce à un jet de Dévoiler à distance, il peut créer un lien de localisation avec un adversaire en visuel comme si il avait déjà été en contact avec lui.
+Grâce à un jet de _Dévoiler_, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.  
+ Grâce à un jet de Dévoiler à _distance_, il peut créer un lien de localisation avec un adversaire en visuel comme si il avait déjà été en contact avec lui.
 
 ### <a name="anchor-ralentissement-du-temps"></a>Ralentissement du temps
 
@@ -584,7 +584,7 @@ Grâce à un jet de Dévoiler, il peut localiser un objet ou un être vivant ave
 Le personnage peut ralentir le temps sur une zone restreinte pendant un court instant.  
  Cela lui permet de ralentir une chute, esquiver des coups, prendre le temps de frapper un point vital, etc.
 
-Lorsqu&#039;il effectue un jet d&#039;Attaquer ou de Défendre au contact, il peut ralentir son ennemi pour obtenir un bonus d&#039;un point à son jet.  
+Lorsqu&#039;il effectue un jet d&#039;_Attaque_ ou de _Défense_ au _contact_, il peut ralentir son ennemi pour obtenir un bonus d&#039;un point à son jet.  
  Il peut ralentir des projectiles lancés à porté pour les rendre inefficaces.
 
 ### <a name="anchor-teleportation"></a>Téléportation
@@ -609,8 +609,8 @@ Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait �
 Le personnage est capable de faire des rêves extralucides sur commande.  
  Cela lui permet par exemple d&#039;avoir des visions concernant les objets ou personnages avec lesquels il rentre en contact montrant les actions ou positions passées de personnages ayant tenu l&#039;objet ou ayant été en contact avec le personnage en question, etc.
 
-Avant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le passé d’un personnage, d’un lieu, d’un animal de son choix à distance.  
- Il doit pour cela réussir un jet de Dévoiler opposé à un jet de Dissimuler de la cible en question.
+Avant de s’endormir le personnage peut décider d’utiliser cette capacité pour faire un rêve extralucide lui dévoilant des informations sur le passé d’un personnage, d’un lieu, d’un animal de son choix.  
+ Il doit pour cela réussir un jet de _Dévoiler_ opposé à un jet de _Dissimuler_ de la cible en question.
 
 **Augmentations:**
 - Peut voir le présent
@@ -628,8 +628,8 @@ Le brouillard subtil qui altère la réalité
 Le personnage peut créer des objets inanimés immatériels.  
  Cela lui permet par exemple de créer un lieu illusoire comme un bâtiment, un pont, une muraille, etc.
 
-L’illusion créée est immobile et immatérielle. L’illusion persiste sans limite de portée. Un personnage passant à côté doit réussir un jet de Dévoiler pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.  
- Le personnage peut maintenir autant d&#039;illusions de la sorte que son score d&#039;Instinct en Dissimuler.
+L’illusion créée est immobile, immatérielle et persiste sans limite de portée. Un personnage passant à côté doit réussir un jet de _Dévoiler_ pour remarquer la supercherie, il peut également passer à travers à tout moment sans pour autant la détruire.  
+ Le personnage peut maintenir autant d&#039;illusions de la sorte que son score d&#039;Instinct en _Dissimuler_.
 
 Le personnage peut également transformer l&#039;apparence d&#039;un objet matériel, l&#039;illusion persiste alors en collant à l&#039;objet cible tant que l&#039;objet reste à distance du personnage. Par exemple, il peut donner à une épée d&#039;entraînement en bois une apparence d&#039;artefact précieux, il peut transformer un bout de papier vierge en document d&#039;apparence officielle, etc.  
  Tout observateur un peu scrupuleux devra réussir un jet de Dévoiler pour percer la supercherie à jour.
@@ -649,17 +649,17 @@ Le personnage peut également transformer l&#039;apparence d&#039;un objet maté
 Le personnage peut se rendre invisible à volonté.  
  Il doit pour cela se concentrer et ne peux entreprendre d&#039;action complexe (comme se battre...) sans perdre son camouflage.
 
-Les autres personnages se doutant de sa présence peuvent tenter un jet de Dévoiler pour le localiser avant chaque action entreprise (Attaquer, Percevoir...).  
- Ceux ne se doutant pas de sa présence minimisent systématiquement tous leurs jets de Dévoiler destinés à percevoir le personnage.
+Les autres personnages se doutant de sa présence peuvent tenter un jet de _Dévoiler_ pour le localiser avant chaque action entreprise (attaquer, percevoir...).  
+ Ceux ne se doutant pas de sa présence _minimisent_ systématiquement tous leurs jets de Dévoiler destinés à _percevoir_ le personnage.
 
 ### <a name="anchor-leurres"></a>Leurres
 
 **Peut créer des faux doubles de lui-même**
 
-Le personnage peut créer des doubles illusoires de lui-même.  
- Il peut en invoquer jusqu’à un maximum égal à son score d&#039;Instinct en Dissimuler mais doit les invoquer un par un. Les doubles agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel.
+Le personnage peut créer des _doubles illusoires_ de lui-même.  
+ Il peut en invoquer jusqu’à un maximum égal à son score d&#039;_Instinct_ en _Dissimuler_ mais doit les invoquer un par un. _Les doubles_ agissent exactement comme le désire le personnage mais sont incapables d’interagir avec le monde matériel.
 
-Un adversaire doit réussir un jet de Dévoiler sur chaque double individuellement pour déceler la supercherie. Les doubles ne peuvent pas s’éloigner trop loin du personnage sous risque d&#039;être détruits. Le moindre contact le transperçant suffit à le détruire complètement.
+Un adversaire doit réussir un jet de _Dévoiler_ sur chaque _double_ individuellement pour déceler la supercherie. _Les doubles_ ne peuvent pas _s’éloigner trop loin_ du personnage sous risque d&#039;être détruits. Le moindre contact le transperçant suffit à le détruire complètement.
 
 **Augmentations:**
 - Peut créer autant de doubles que le double de son score de Dissimuler
@@ -674,7 +674,7 @@ Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se dépl
 
 Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
 
-Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en discrétion.
+Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en _discrétion_.
 
 ### <a name="anchor-usurpation-d-identite"></a>Usurpation d&#039;identité
 
@@ -682,7 +682,7 @@ Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en di
 
 Le personnage est capable de simuler à la perfection les traits, les mimiques, la voix, etc. d’une personne dont il a eu l’occasion de percevoir ces informations (voir, entendre, toucher...).
 
-Aucun jet n’est requis, le joueur imite à la perfection les traits dont il a connaissance mais cela n&#039;empêche pas un ennemie d’avoir un doute en fonction de son comportement ou autre détail, dans ce cas l&#039;adversaire peut tenter un jet de Dévoiler pour découvrir la supercherie.  
+Aucun jet n’est requis, le joueur imite à la perfection les traits dont il a connaissance mais cela n&#039;empêche pas un ennemi d’avoir un doute en fonction de son comportement ou autre détail, dans ce cas l&#039;adversaire peut tenter un jet de _Dévoiler_ pour découvrir la supercherie.  
  La cible de l’usurpation d’identité doit être de la même espèce que le joueur ou une espèce proche.
 
 Le personnage peut également imiter à la perfection n&#039;importe quel bruit d&#039;animal qu&#039;il a déjà entendu par le passé.
