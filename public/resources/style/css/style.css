@@ -389,17 +389,21 @@ a {
     font-family: "Atene", serif;
     color: #FECB5B; }
   .block-nav li.active span,
-  .block-nav li.active .bullet-active,
   .block-nav li:hover span,
+  .block-nav li.active .bullet-active,
   .block-nav li:hover .bullet-active {
-    opacity: 1; }
+    opacity: 1;
+    width: 29px;
+    height: 29px; }
   .block-nav li.active .bullet-default {
     background: #F98D08; }
   .block-nav .bullets {
+    width: 29px;
+    height: 29px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 20px; }
+    padding-left: 20px; }
     .block-nav .bullets .bullet-default {
       width: 9px;
       height: 9px;
@@ -408,13 +412,16 @@ a {
       border: 1px solid #FECB5B;
       background: #FECB5B; }
     .block-nav .bullets .bullet-active {
-      width: 29px;
-      height: 29px;
+      width: 9px;
+      height: 9px;
       border-radius: 100%;
       background: rgba(255, 191, 0, 0.5);
       opacity: 0;
-      transition: opacity 0.5s; }
+      transition: opacity 0.7s ease-out, width 0.3s ease-out, height 0.3s ease-out; }
   .block-nav span {
+    width: 29px;
+    height: 29px;
+    text-align: right;
     font-family: "Atene", serif;
     font-size: 1.5em;
     color: #F0E6D2;

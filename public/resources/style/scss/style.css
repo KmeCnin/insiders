@@ -2,8 +2,14 @@
   font-family: "CinzelDecorative-Bold";
   src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
 @font-face {
+  font-family: "Atene";
+  src: url("../../fonts/atene/AUGUSTUS.TTF") format("opentype"); }
+@font-face {
   font-family: "CinzelDecorative-Bold";
   src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: "Atene";
+  src: url("../../fonts/atene/AUGUSTUS.TTF") format("opentype"); }
 .navbar {
   height: 65px;
   position: fixed;
@@ -201,14 +207,14 @@ a {
   .breadcrumb .line {
     width: 100%;
     height: 1px;
-    background: #FECB5B; }
+    background: linear-gradient(to right, transparent, #FECB5B 30px, transparent), linear-gradient(to left, transparent, #FECB5B 30px, transparent); }
   .breadcrumb .breadcrumb-items {
     position: absolute;
     display: flex; }
     .breadcrumb .breadcrumb-items a {
-      width: 90px;
+      width: 85px;
       position: relative;
-      bottom: 35px;
+      bottom: 34px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -231,15 +237,15 @@ a {
         justify-content: center;
         margin-top: 10px; }
         .breadcrumb .breadcrumb-items a .bullets .bullet-default {
-          width: 10px;
-          height: 10px;
+          width: 9px;
+          height: 9px;
           position: absolute;
           border-radius: 100%;
           border: 1px solid #FECB5B;
           background: #F98D08; }
         .breadcrumb .breadcrumb-items a .bullets .bullet-active {
-          width: 30px;
-          height: 30px;
+          width: 29px;
+          height: 29px;
           border-radius: 100%;
           background: rgba(255, 191, 0, 0.5);
           opacity: 0;
@@ -353,19 +359,78 @@ a {
 
 .block-nav {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
-  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 20;
   list-style-type: none;
   color: #F0E6D2; }
+  .block-nav .line {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, #FECB5B 30px, transparent), linear-gradient(to top, transparent, #FECB5B 30px, transparent); }
   .block-nav li {
+    position: relative;
+    right: -14px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px 0;
     cursor: pointer; }
-  .block-nav li.active {
+  .block-nav li:first-of-type {
+    padding-top: 30px; }
+  .block-nav li:last-of-type {
+    padding-bottom: 30px; }
+  .block-nav li.active span {
+    font-family: "Atene", serif;
     color: #FECB5B; }
+  .block-nav li.active span,
+  .block-nav li:hover span,
+  .block-nav li.active .bullet-active,
+  .block-nav li:hover .bullet-active {
+    opacity: 1;
+    width: 29px;
+    height: 29px; }
+  .block-nav li.active .bullet-default {
+    background: #F98D08; }
+  .block-nav .bullets {
+    width: 29px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px; }
+    .block-nav .bullets .bullet-default {
+      width: 9px;
+      height: 9px;
+      position: absolute;
+      border-radius: 100%;
+      border: 1px solid #FECB5B;
+      background: #FECB5B; }
+    .block-nav .bullets .bullet-active {
+      width: 9px;
+      height: 9px;
+      border-radius: 100%;
+      background: rgba(255, 191, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.7s ease-out, width 0.3s ease-out, height 0.3s ease-out; }
+  .block-nav span {
+    width: 29px;
+    height: 29px;
+    text-align: right;
+    font-family: "Atene", serif;
+    font-size: 1.5em;
+    color: #F0E6D2;
+    opacity: 0.3;
+    transition: opacity 0.5s; }
 
 .block-content {
   background: rgba(0, 0, 0, 0.5);
-  padding: 10px 20px;
+  padding: 10px 90px 10px 20px;
   margin-top: 450px;
   position: relative;
   z-index: 10; }
