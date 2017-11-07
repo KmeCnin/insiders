@@ -267,6 +267,7 @@ a {
   margin-top: 30px; }
 
 .block {
+  height: 700px;
   position: relative;
   margin: auto auto 50px auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -429,11 +430,13 @@ a {
     transition: opacity 0.5s; }
 
 .block-content {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px 90px 10px 20px;
-  margin-top: 450px;
-  position: relative;
-  z-index: 10; }
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding: 20px 90px 20px 20px;
+  background: rgba(0, 0, 0, 0.5); }
   .block-content div {
     text-align: justify;
     font-weight: 300;

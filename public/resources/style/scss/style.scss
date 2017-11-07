@@ -200,6 +200,7 @@ a {
 }
 
 .block {
+  height: 700px;
   position: relative;
   margin: auto auto 50px auto;
 
@@ -433,11 +434,14 @@ a {
 }
 
 .block-content {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px 90px 10px 20px;
-  margin-top: 450px;
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 10;
+  padding: 20px 90px 20px 20px;
+
+  background: rgba(0, 0, 0, 0.5);
 
   div {
     text-align: justify;
