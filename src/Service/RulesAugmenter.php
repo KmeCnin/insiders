@@ -3,6 +3,7 @@
 namespace App\Service;
 
 use App\Entity\Rule\Ability;
+use App\Entity\Rule\Arcane;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\LexiconEntry;
 use App\Entity\Rule\RuleInterface;
@@ -28,9 +29,20 @@ class RulesAugmenter
         }
 
         $replace = function (array $matches) {
-            [$type, $id] = explode(':', $matches[3]);
+            try {
+                [$type, $id] = explode(':', $matches[3]);
+            } catch (\Exception $e) {
+                throw new \Exception(sprintf(
+                    'Augmentation badly formatted `%s` from string %s',
+                    $matches[3],
+                    $matches[0]
+                ));
+            }
             $template = 'default';
             switch ($type) {
+                case 'arcane':
+                    $namespace = Arcane::class;
+                    break;
                 case 'ability':
                     $template = 'ability';
                     $namespace = Ability::class;

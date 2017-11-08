@@ -20,6 +20,7 @@ class TwigExtension extends \Twig_Extension
             new \Twig_SimpleFilter('markdown', [$this, 'markdownFilter']),
             new \Twig_SimpleFilter('augment', [$this, 'augmentFilter']),
             new \Twig_SimpleFilter('clear', [$this, 'clearFilter']),
+            new \Twig_SimpleFilter('roman', [$this, 'romanFilter']),
         ];
     }
 
@@ -27,15 +28,6 @@ class TwigExtension extends \Twig_Extension
     {
         $converter = new HtmlConverter();
         return strip_tags($converter->convert($this->removeAugmentation($html)));
-    }
-
-    public function removeAugmentation(?string $text): ?string
-    {
-        if (null === $text) {
-            return null;
-        }
-
-        return preg_replace('/(\[(.+)\])\((.+)\)/U', '<em>$2</em>', $text);
     }
 
     public function augmentFilter(?string $text): ?string
@@ -46,5 +38,42 @@ class TwigExtension extends \Twig_Extension
     public function clearFilter(?string $text): ?string
     {
         return $this->removeAugmentation($text);
+    }
+
+    public function romanFilter(?int $n): ?string
+    {
+        $res = '';
+        $romanNumber_Array = [
+            'M'  => 1000,
+            'CM' => 900,
+            'D'  => 500,
+            'CD' => 400,
+            'C'  => 100,
+            'XC' => 90,
+            'L'  => 50,
+            'XL' => 40,
+            'X'  => 10,
+            'IX' => 9,
+            'V'  => 5,
+            'IV' => 4,
+            'I'  => 1
+        ];
+
+        foreach ($romanNumber_Array as $roman => $number){
+            $matches = (int) ($n / $number);
+            $res .= str_repeat($roman, $matches);
+            $n %= $number;
+        }
+
+        return $res;
+    }
+
+    public function removeAugmentation(?string $text): ?string
+    {
+        if (null === $text) {
+            return null;
+        }
+
+        return preg_replace('/(\[(.+)\])\((.+)\)/U', '<em>$2</em>', $text);
     }
 }
