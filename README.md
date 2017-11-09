@@ -14,3 +14,4 @@
 - [ ] Paire de bras supplémentaire: `Le personnage est capable d’effectuer plusieurs attaques à chaque tour.
 Il doit pour cela posséder une arme secondaire ou un attribut physique supplémentaire.
 Il ne peut pas utiliser 2 fois une de ses capacités dans le même tour grâce à cela.`
+- [ ] Onde sonore: Add possibility to do "Son imaginaires"
