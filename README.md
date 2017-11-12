@@ -20,3 +20,12 @@ Il ne peut pas utiliser 2 fois une de ses capacités dans le même tour grâce �
 > Pour exemple j'ai en tête la classe d'envouteur dans guild wars 2 (non je suis pas du tout obsédé par cette classe) : ses clones sont capables de causer des dommages réels.
 Transposé dans les Initiés ça pourrait prendre la forme d'une augmentation de la capa "Leurres" prenable à la condition d'avoir débloqué l'utilisation de l'arcane de L'Etau (façon matrix donc, l'esprit croit que ce qu'il voit lui fait mal = il a vraiment mal).
 - [ ] Create "Belerion" as medieval continent
+- [ ] Add new ability: *Hypnose* (L'Etau)
+> Plonge les cibles dans un etat hypnotique.
+> Le personnage est capable de plonger une cible à distance dans un lieu ou un souvenir personnel agréable, côtoie des êtres proches ou mène la vie qu'elle a toujours rêvée. Ces rêves ou souvenirs traffiqués vont inciter la cible à rester dans cet univers fictif.
+> 
+> Le personnage ne peut cibler qu'un individu qui n'est pas en situation de danger immédiat, il ne doit pas être en combat ou en train de fuir un assaillant.
+> Grâce à un jet de Dissimuler à distance, le personnage peut plonger la cible dans un état hypnotique qui la rend peu sensible aux stimulus extérieurs.
+> Pour sortir de cet état, la cible doit se retrouver hors de la porté du joueur ou bien être réveillée par un événement surprenant (bruit fort, vibration, lumière intense, etc.) elle a alors le droit à un jet de Dévoiler pour sortir de son état. En cas d'agression directe, la cible se réveille immédiatement.
+> 
+> De plus, le personnage est capable d'améliorer considérablement la qualité de son sommeil et de celui de ses alliés. Avant de se coucher, il choisit un personnage par point de Dissimuler en plus de lui-même pour diviser par deux leurs besoins de sommeil (passant de 8h à 4h).
