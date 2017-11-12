@@ -29,3 +29,4 @@ Transposé dans les Initiés ça pourrait prendre la forme d'une augmentation de
 > Pour sortir de cet état, la cible doit se retrouver hors de la porté du joueur ou bien être réveillée par un événement surprenant (bruit fort, vibration, lumière intense, etc.) elle a alors le droit à un jet de Dévoiler pour sortir de son état. En cas d'agression directe, la cible se réveille immédiatement.
 > 
 > De plus, le personnage est capable d'améliorer considérablement la qualité de son sommeil et de celui de ses alliés. Avant de se coucher, il choisit un personnage par point de Dissimuler en plus de lui-même pour diviser par deux leurs besoins de sommeil (passant de 8h à 4h).
+- [ ] Idée de décharge d'arcanite pour l'Esprit : Détruit tous les simulacres dans la zone à portée. Simulacre = tout ce qui se fait one-shot (zombies, clones, illusions, doubles, leurres, etc.)
