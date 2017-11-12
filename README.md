@@ -16,3 +16,4 @@ Il doit pour cela posséder une arme secondaire ou un attribut physique supplém
 Il ne peut pas utiliser 2 fois une de ses capacités dans le même tour grâce à cela.`
 - [ ] Onde sonore: Add possibility to do "Son imaginaires"
 - [ ] Add new synergy: "Morts vivants élémentaires" (Nécromancy with "La Source")
+- [ ] Create "Belerion" as medieval continent
