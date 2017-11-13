@@ -20,7 +20,7 @@ Il ne peut pas utiliser 2 fois une de ses capacités dans le même tour grâce �
 > Pour exemple j'ai en tête la classe d'envouteur dans guild wars 2 (non je suis pas du tout obsédé par cette classe) : ses clones sont capables de causer des dommages réels.
 Transposé dans les Initiés ça pourrait prendre la forme d'une augmentation de la capa "Leurres" prenable à la condition d'avoir débloqué l'utilisation de l'arcane de L'Etau (façon matrix donc, l'esprit croit que ce qu'il voit lui fait mal = il a vraiment mal).
 - [ ] Create "Belerion" as medieval continent
-- [ ] Add new ability: *Hypnose* (L'Etau)
+- [x] Add new ability: *Hypnose* (L'Etau)
 > Plonge les cibles dans un etat hypnotique.
 > Le personnage est capable de plonger une cible à distance dans un lieu ou un souvenir personnel agréable, côtoie des êtres proches ou mène la vie qu'elle a toujours rêvée. Ces rêves ou souvenirs traffiqués vont inciter la cible à rester dans cet univers fictif.
 > 
