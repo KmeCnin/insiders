@@ -222,12 +222,27 @@ Grâce à un jet de _Dévoiler_ à _distance_ le personnage peut s&#039;insinuer
 Le personnage peut semer le doute dans un esprit.  
  Cela lui permet par exemple de pouvoir détourner l&#039;attention d&#039;une cible pendant un instant, d&#039;affaiblir un esprit à corrompre, etc.
 
-Grâce à un jet de _Dissimuler_ à _distance_, il peut distraire une cible qui _minimisera_ alors automatiquement son prochain jet de _Dévoiler_.  
+Grâce à un jet de _Dissimuler_ à _distance_, il peut _distraire_ une cible.  
  En cas de réussite, la cible n&#039;est alors pas consciente de l&#039;origine de l&#039;agression.
 
 **Augmentations:**
 - Inflige une blessure de degré I en plus de distraire
 
+
+### <a name="anchor-hypnose"></a>Hypnose
+
+**Plonge les cibles dans un état hypnotique.**
+
+Le personnage est capable de plonger une cible à distance dans un lieu ou un souvenir personnel agréable, côtoyant des êtres proches ou mènant la vie qu&#039;elle a toujours rêvée.
+
+Cela permet d&#039;endormir la vigilance de ses ennemis ou d&#039;améliorer le sommeil de ses alliés.  
+ Ces rêves ou souvenirs traffiqués vont inciter la cible à rester dans cet univers fictif. Le personnage ne peut cibler qu&#039;un individu qui n&#039;est pas en situation de danger immédiat, il ne doit pas être en combat ou en train de fuir un assaillant.
+
+Grâce à un jet de _Dissimuler_ à _distance_, le personnage peut plonger une cible dans un état hypnotique qui la rend peu sensible aux stimulus extérieurs.  
+ Pour sortir de cet état, la cible doit se retrouver hors de la porté du joueur ou bien être réveillée par un événement surprenant (bruit fort, vibration, lumière intense, etc.) elle a alors le droit à un jet de _Dévoiler_ pour sortir de son état.  
+ En cas d&#039;agression directe, la cible se réveille immédiatement sans avoir besoin de faire de jet.
+
+De plus, le personnage est capable d&#039;améliorer considérablement la qualité de son sommeil et de celui de ses alliés. Avant de se coucher, il choisit un personnage par point de Dissimuler (en plus de lui-même) et peut diviser par deux leurs besoins de sommeil (passant de 8h à 4h).
 
 ### <a name="anchor-manipulation-de-memoire"></a>Manipulation de mémoire
 
@@ -516,10 +531,14 @@ Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ 
 **Peut projeter des ondes sonores puissantes**
 
 Le personnage est capable de générer des ondes violentes dont il peut contrôler la puissance et la direction avec précision.  
- Cela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, etc. Il peut également simuler des sons très simples comme des bruits de chocs, des cris, des bruissements, etc. Mais il ne peut pas simuler des paroles avec des voix autres que la sienne ou des sons trop précis ou délicats comme de la musique. Dans tous les cas, les ondes sonores générées sont issues du joueur et ne peuvent pas partir de sources distantes.
+ Cela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilomètres, de simuler des sons, etc.
 
-Grâce à un jet d&#039;_Imposer_ à _distance_, il peut sonner un personnage, qui _minimisera_ alors automatiquement son prochain jet de _Résister_.  
- Il possède également une _résistance_ aux sons puissantes.
+Il peut générer des sons très simples comme des bruits de chocs, des cris avec sa propre voix, des bruissements, etc.  
+ S&#039;il veut simuler des sons plus subtiles comme des cris d&#039;animaux ou de la musique, il doit réussir un jet de _Dévoiler_ au risque de rater son immitation.  
+ Le personnage peut également choisir le point d&#039;émission de ces faux sons.
+
+Grâce à un jet d&#039;_Imposer_ à _distance_, il peut _sonner_ un personnage.  
+ Il possède également une _résistance_ aux sons puissants.
 
 **Augmentations:**
 - Inflige une blessure de degré I en plus de sonner

@@ -77,7 +77,7 @@
         "enabled": true,
         "public": true,
         "short": "Distance réduite propice aux attaques de mêlée",
-        "description": "<p>Distance r&eacute;duite propice aux attaques de m&ecirc;l&eacute;e<\/p>"
+        "description": "<p>Deux [entit&eacute;s](lexicon:entity) sont consid&eacute;r&eacute;es&nbsp;<strong>au contact<\/strong>&nbsp;si elles se situent assez proches l&#39;une de l&#39;autre pour pouvoir s&#39;attaquer avec des armes de m&ecirc;l&eacute;e (dague, &eacute;p&eacute;e, b&acirc;ton, etc.) ou des armes naturelles (griffes, crocs, poings, etc.).<\/p>"
     },
     {
         "id": "create-character",
@@ -102,6 +102,14 @@
         "public": true,
         "short": "Distance",
         "description": "<p>Distance<\/p>"
+    },
+    {
+        "id": "distract",
+        "name": "Distrait",
+        "enabled": true,
+        "public": true,
+        "short": "Etat de faiblesse mentale réduisant les performances d'un personnage",
+        "description": "<p>Un personnage <strong>distrait<\/strong> a subit une attaque ou un effet tr&egrave;s d&eacute;stabilisant l&#39;emp&ecirc;chant de ma&icirc;triser pleinement son esprit pendant un court moment.<\/p>\r\n\r\n<p>Pendant un tour, le personnage distrait [minimisera](lexicon:minimize) alors automatiquement son prochain jet de [D&eacute;voiler](characteristic:reveal) ou de [Dissimuler](characteristic:hide).<br \/>\r\nDe plus, &agrave; la discr&eacute;tion du Ma&icirc;tre du jeu, il peut ne pas &ecirc;tre en &eacute;tat de tenter des actions intellectuelles trop complexes.<\/p>"
     },
     {
         "id": "deity",
@@ -222,6 +230,14 @@
         "public": true,
         "short": "Invocation qui disparaît à la moindre blessure",
         "description": "<p>Un simulacre est une invocation arcanique cr&eacute;&eacute;e la plupart&nbsp;du temps par un initi&eacute; mais il arrive qu&#39;il s&#39;agisse de manifestations spontan&eacute;es.<\/p>\r\n\r\n<p>Le terme regroupe les morts-vivants cr&eacute;&eacute;s par [N&eacute;cromancie](ability:necromancy), les doubles&nbsp;cr&eacute;&eacute;s par [Leurres](lexicon:lure), les clones cr&eacute;&eacute;s par [D&eacute;doublement](ability:duplication) et plus g&eacute;n&eacute;ralement toutes les cr&eacute;ations qui disparaissent lorsqu&#39;elles subissent une blessure.<\/p>"
+    },
+    {
+        "id": "stun",
+        "name": "Sonné",
+        "enabled": true,
+        "public": true,
+        "short": "Etat de choc physique réduisant les performances d'un personnage",
+        "description": "<p>Un personnage <strong>sonn&eacute;<\/strong> a subit une attaque ou un effet tr&egrave;s d&eacute;stabilisant l&#39;emp&ecirc;chant de ma&icirc;triser pleinement son corps pendant un court moment.<\/p>\r\n\r\n<p>Pendant un tour, le personnage sonn&eacute; [minimisera](lexicon:minimize) alors automatiquement son prochain jet de [R&eacute;sister](characteristic:resist) ou d&#39;[Imposer](characteristic:force)<br \/>\r\nDe plus, &agrave; la discr&eacute;tion du Ma&icirc;tre du jeu, il peut ne pas &ecirc;tre en &eacute;tat de tenter des actions physiques trop complexes.<\/p>"
     },
     {
         "id": "round",
