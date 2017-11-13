@@ -6,7 +6,7 @@
         "public": true,
         "short": "Permet de lancer des carreaux à distance",
         "description": "<p>Arme de trait puissante et pr&eacute;cise qui permet le tire mont&eacute;, debout ou&nbsp;en position couch&eacute;e.<\/p>\r\n\r\n<p>L&#39;arbal&egrave;te ne permet cependant pas de tirer plusieurs fois par tour.<\/p>",
-        "effectiveness": 2,
+        "effectiveness": 1,
         "kind": "weapon",
         "category": "fight",
         "expendable": false,
@@ -21,7 +21,7 @@
         "public": true,
         "short": "Permet de lancer des flèches à distance",
         "description": "<p>Arme&nbsp;de trait simple qui permet le tire mont&eacute; ou debout.<\/p>\r\n\r\n<p>Un archer exp&eacute;riment&eacute; est capable de lancer plusieurs fl&egrave;ches par tour en r&eacute;partissant ses points d&#39;Instinct d&#39;Imposer entre chaque tire.<\/p>",
-        "effectiveness": 1,
+        "effectiveness": 0,
         "kind": "weapon",
         "category": "fight",
         "expendable": false,
@@ -77,7 +77,7 @@
         "public": true,
         "short": "Permet de dévier les coups avec facilité",
         "description": "<p>Grande plaque de m&eacute;tal ou de bois tenue par la main non directrice.<\/p>\r\n\r\n<p>Lorsqu&#39;il se d&eacute;fend avec un bouclier, le porteur ne peut pas utiliser sa main pour autre chose.<\/p>",
-        "effectiveness": 2,
+        "effectiveness": 1,
         "kind": "shield",
         "category": "fight",
         "expendable": false,
@@ -91,11 +91,11 @@
         "short": "Permet de transporter un grand nombre de carreaux",
         "description": "<p>Etui de cuir servant &agrave; transporter des carreaux. Il peut &ecirc;tre port&eacute; &agrave; la ceinture, dans le dos ou fix&eacute; sur l&#39;arbal&egrave;te.<\/p>\r\n\r\n<p>Lors de l&#39;achat, le carquois est remplit de carreaux (une vingtaine), on consid&egrave;re que la consommation du personnage pendant les combats est compens&eacute;e par les carreaux r&eacute;cup&eacute;r&eacute;s apr&egrave;s combat ou trouv&eacute;s ailleurs.<br \/>\r\nIl n&#39;est donc pas&nbsp;n&eacute;cessaire pour le joueur de tenir un compte des munitions restantes (pour les carreaux classiques en tous cas).<\/p>",
         "effectiveness": 0,
-        "kind": "armor",
+        "kind": "weapon",
         "category": "fight",
         "expendable": false,
         "properties": [
-            "wound-II"
+            "wound-I"
         ]
     },
     {
@@ -211,18 +211,5 @@
         "properties": [
             "wound-I"
         ]
-    },
-    {
-        "id": "shield",
-        "name": "Targe",
-        "enabled": true,
-        "public": true,
-        "short": "Permet de dévier les coups en gardant la main libre",
-        "description": "<p>Petite plaque de m&eacute;tal ou de bois fix&eacute;e sur l&#39;avant bras permettant de d&eacute;vier les coups l&eacute;gers.<\/p>\r\n\r\n<p>La targe laisse la main du porteur libre, lui permettant de manier une arme courte comme une dague.<\/p>",
-        "effectiveness": 1,
-        "kind": "shield",
-        "category": "fight",
-        "expendable": false,
-        "properties": []
     }
 ]

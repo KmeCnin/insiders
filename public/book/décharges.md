@@ -11,6 +11,11 @@
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
 
 ## L&#039;Esprit
+### Epuration
+
+**Détruit tous les simulacres aux alentours**
+
+Détruit tous les _simulacres_ à _distance_.
 ### Permutation
 
 **Transfert son esprit dans un autre corps**
@@ -37,6 +42,15 @@ Permet de faire oublier à un personnage les événements vécus durant les dern
 
 Permet de faire léviter de manière permanente une demi-sphère de terrain d&#039;un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu&#039;à 500 mètres d&#039;altitude.  
  Les limites de la parcelle de terrain concernée ne peuvent couper un être vivant ou un bâtiment en deux.
+### Champ de force infranchissable
+
+**Crée un champ de force inviolable à moins d&#039;en posséder la clé**
+
+Le personnage peut créer un champ de force particulièrement résistant.
+
+Il doit être complètement plat et de la taille d&#039;une porte (environ 2 m2). Lors de sa création, il peut choisir un nombre d&#039;objets jusqu&#039;à son score d&#039;_Instinct_ en _Imposer_ qui serviront de clés. Une clé peut-être n&#039;importe quel objet tant qu&#039;il a une taille mui permettant de tenir dans une main. L&#039;orsqu&#039;un personnage tient une clé en main, il peut traverser le champ de force sans problème.
+
+Le champ de force est complètement invisible et indestructible. Le seul moyen d&#039;annuler l&#039;effet et d&#039;utiliser une décharge arcanique à nouveau (cela est valable pour le créateur ou n&#039;importe quel initié adepte de l&#039;Ether).
 ## La Purge
 ### Animation
 

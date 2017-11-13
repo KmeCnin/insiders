@@ -21,15 +21,15 @@
         "enabled": true,
         "public": true,
         "short": "Roche cristalline présentant des propriétés surnaturelles",
-        "description": "<p>L&#39;arcanite est une mati&egrave;re exog&egrave;ne apport&eacute;e sur [Atalis](lexicon:atalis) par la m&eacute;t&eacute;orite du [Grand Impact](lexicon:impact).<\/p>\r\n\r\n<p>Il s&#39;agit d&#39;une roche cristalline extr&ecirc;mement solide caract&eacute;ris&eacute;e par de nombreux reflets color&eacute;s oscillant entre bleu, vert et violet.<\/p>"
+        "description": "<p>L&#39;arcanite est une mati&egrave;re exog&egrave;ne apport&eacute;e sur [Atalis](lexicon:atalis) par la m&eacute;t&eacute;orite du [Grand Impact](lexicon:impact).<br \/>\r\nElle se retrouve en quantit&eacute; quasiment illimit&eacute; au niveau de l&#39;[Elys&eacute;um](lexicon:elyseum) mais des fragments plus ou moins gros se retrouvent &eacute;galement tout autour du globe. Les r&eacute;gions proches de l&#39;Elyseum, poss&eacute;dant une plus forte concentration d&#39;arcanite que celles plus lointaines.<\/p>\r\n\r\n<p>Il s&#39;agit d&#39;une roche cristalline extr&ecirc;mement solide caract&eacute;ris&eacute;e par de nombreux reflets color&eacute;s oscillant entre bleu, vert et violet.<br \/>\r\nCette roche poss&egrave;de l&#39;&eacute;tonnante propri&eacute;t&eacute; de conf&eacute;rer aux &ecirc;tres vivants capables d&#39;absorber son essence des comp&eacute;tences surnaturelles.<br \/>\r\nEn fonction de la taille du cristal, on peut trouver plus ou moins d&#39;&eacute;nergie arcanique &agrave; absorber. Ainsi, les cristaux les plus petits contiennent une charge d&#39;arcanite alors que des plu gros peuvent aller jusqu&#39;&agrave; 5 ou 6 charges.<\/p>\r\n\r\n<p>Lorsqu&#39;un &ecirc;tre vivant (personnage, animal ou m&ecirc;me v&eacute;g&eacute;tal) entre en contact avec un cristal d&#39;arcanite, plusieurs cas de figure peuvent se pr&eacute;senter.<br \/>\r\nDans la majorit&eacute; des cas, l&#39;&eacute;nergie contenue dans la roche est absorb&eacute;e par l&#39;utilisateur qui voit ses [caract&eacute;ristiques](lexicon:characteristic) am&eacute;lior&eacute;es, acqui&egrave;re de nouvelles [capacit&eacute;s arcaniques](lexicon:ability) ou encore d&eacute;veloppe des [attributs physiques](lexicon:attribute) extraordinaires.<br \/>\r\nCertains individus sont quand &agrave; eux compl&egrave;tement insensibles &agrave; l&#39;&eacute;nergie de cette roche et sont incapables d&rsquo;interagir avec l&#39;arcanite se voyant donc priv&eacute;s &agrave; vie de cet incroyable potentiel.<br \/>\r\nDans des cas plus rares, le corps de l&#39;individu est incapable de contenir l&#39;&eacute;norme &eacute;nergie&nbsp;de la pierre et l&#39;utilisateur d&eacute;c&egrave;de imm&eacute;diatement.<\/p>\r\n\r\n<p>Une fois toute son &eacute;nergie absorb&eacute;e, la roche prend une couleur grise opaque parcourue de nervures bleues et ne pr&eacute;sente plus aucune activit&eacute; arcanique.&nbsp;<\/p>"
     },
     {
         "id": "atalis",
         "name": "Atalis",
         "enabled": true,
         "public": true,
-        "short": "Atalis",
-        "description": "<p>Atalis<\/p>"
+        "short": "Planète sur laquelle évoluent les personnages",
+        "description": "<p>Atalis est une plan&egrave;te tellurique tr&egrave;s semblable &agrave; la Terre. Elle poss&egrave;de le m&ecirc;me climat, le m&ecirc;me rythme d&#39;alternance jouer\/nuit, les m&ecirc;mes faunes et flores.<br \/>\r\nLes continents sont cependant tr&egrave;s diff&eacute;rents. En effet, Atalis est compos&eacute;e de 5 continents reli&eacute;s entre eux au p&ocirc;le Nord de la plan&egrave;te par l&#39;[Elyseum](lexicon:elyseum). Tels des p&eacute;tales de fleurs ils s&#39;&eacute;tendent ensuite vers le sud tout en divergeant&nbsp;rapidement les uns des autres, s&eacute;par&eacute;s par de vastes oc&eacute;ans.<\/p>\r\n\r\n<p>Le nom de la plan&egrave;te vient des Atalantes, civilisation [pr&eacute;-impact](lexicon:impact) qui rayonnait depuis des si&egrave;cles avant d&#39;&ecirc;tre annihil&eacute;e lors du Grand Impact.<\/p>"
     },
     {
         "id": "attribute",
@@ -76,8 +76,8 @@
         "name": "Contact",
         "enabled": true,
         "public": true,
-        "short": "Contact",
-        "description": "<p>Contact<\/p>"
+        "short": "Distance réduite propice aux attaques de mêlée",
+        "description": "<p>Distance r&eacute;duite propice aux attaques de m&ecirc;l&eacute;e<\/p>"
     },
     {
         "id": "create-character",
