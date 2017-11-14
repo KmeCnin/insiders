@@ -2,14 +2,14 @@
   font-family: "CinzelDecorative-Bold";
   src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
 @font-face {
-  font-family: "Atene";
-  src: url("../../fonts/atene/AUGUSTUS.TTF") format("opentype"); }
+  font-family: "Augustus";
+  src: url("../../fonts/atene/augustus.ttf") format("opentype"); }
 @font-face {
   font-family: "CinzelDecorative-Bold";
   src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
 @font-face {
-  font-family: "Atene";
-  src: url("../../fonts/atene/AUGUSTUS.TTF") format("opentype"); }
+  font-family: "Augustus";
+  src: url("../../fonts/atene/augustus.ttf") format("opentype"); }
 .navbar {
   height: 65px;
   position: fixed;
@@ -267,6 +267,7 @@ a {
   margin-top: 30px; }
 
 .block {
+  height: 700px;
   position: relative;
   margin: auto auto 50px auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -386,7 +387,7 @@ a {
   .block-nav li:last-of-type {
     padding-bottom: 30px; }
   .block-nav li.active span {
-    font-family: "Atene", serif;
+    font-family: "Augustus", serif;
     color: #FECB5B; }
   .block-nav li.active span,
   .block-nav li:hover span,
@@ -422,18 +423,20 @@ a {
     width: 29px;
     height: 29px;
     text-align: right;
-    font-family: "Atene", serif;
+    font-family: "Augustus", serif;
     font-size: 1.5em;
     color: #F0E6D2;
     opacity: 0.3;
     transition: opacity 0.5s; }
 
 .block-content {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px 90px 10px 20px;
-  margin-top: 450px;
-  position: relative;
-  z-index: 10; }
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding: 20px 90px 20px 20px;
+  background: rgba(0, 0, 0, 0.5); }
   .block-content div {
     text-align: justify;
     font-weight: 300;
@@ -519,11 +522,22 @@ a {
 .popover {
   position: relative;
   z-index: 100;
+  border-radius: 3px;
   color: #F0E6D2;
-  background: url("../../images/navbar-pattern.png");
-  padding: 5px; }
-  .popover .popover-header h3 {
-    padding-top: 0;
-    margin-top: 0; }
+  background: linear-gradient(to top, black, transparent 95%, transparent, transparent 90%, black), linear-gradient(to bottom, black, transparent 95%, transparent, transparent 90%, black), url(../../images/popover.jpg) no-repeat;
+  background-size: cover; }
+  .popover .popover-header {
+    padding: 5px 20px 20px 20px;
+    font-size: 1em;
+    font-family: "CinzelDecorative-Bold", serif; }
+    .popover .popover-header h3 {
+      padding-top: 0;
+      margin-top: 0; }
+  .popover .popover-body {
+    padding: 20px;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #FECB5B;
+    background: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=style.css.map */

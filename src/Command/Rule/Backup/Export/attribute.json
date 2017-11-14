@@ -9,6 +9,15 @@
         "description": "<p>Le personnage poss&egrave;de une grande paire d&#39;ailes. Il peut se d&eacute;placer dans les airs &agrave; sa vitesse de d&eacute;placement habituelle.<\/p>"
     },
     {
+        "id": "bicephalous",
+        "name": "Bicéphale",
+        "enabled": true,
+        "public": true,
+        "pc": 4,
+        "short": "Possède deux cerveaux indépendants",
+        "description": "<p>Le personnage poss&egrave;de deux cerveaux ind&eacute;pendants, il peut sagir de deux t&ecirc;tes, de deux organes dans le m&ecirc;me gros cr&acirc;ne, etc.<\/p>\r\n\r\n<p>Il est capable d&rsquo;utiliser 2 capacit&eacute;s arcaniques dans le m&ecirc;me tour. Il peut s&#39;agir de deux utilisations de la m&ecirc;me ou de deux diff&eacute;rentes.<\/p>"
+    },
+    {
         "id": "wound-I",
         "name": "Blessure de degré I",
         "enabled": true,
@@ -43,6 +52,24 @@
         "pc": 1,
         "short": "Possède une ouïe sur-développée",
         "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception des sons.<br \/>\r\nCela lui permet de localiser avec une grande pr&eacute;cision les bruits environnant, d&#39;avoir conscience de la pr&eacute;sence d&#39;ennemis &agrave; distance, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il utilise un jet de D&eacute;voiler pour percevoir un son, il poss&egrave;de un bonus de 3 points d&#39;Instinct suppl&eacute;mentaires.<\/p>"
+    },
+    {
+        "id": "night-vision",
+        "name": "Nyctalope",
+        "enabled": true,
+        "public": true,
+        "pc": 1,
+        "short": "Peut percevoir dans l'obscurité",
+        "description": "<p>Le personnage n&#39;est pas impact&eacute; par le manque de luminosit&eacute;.<\/p>\r\n\r\n<p>Il discerne tr&egrave;s bien les formes comme en plein jour &agrave; condition qu&#39;il y ait au moins une faible luminosit&eacute; mais ne per&ccedil;oit n&eacute;anmoins pas les couleurs. Dans le noir complet il reste aveugle.<\/p>"
+    },
+    {
+        "id": "multiple-arms",
+        "name": "Paire de bras supplémentaire",
+        "enabled": true,
+        "public": true,
+        "pc": 2,
+        "short": "Possède deux paires de bras indépendantes",
+        "description": "<p>Le personnage poss&egrave;de quatre bras qu&#39;il peut manier par paires ind&eacute;pendantes.<\/p>\r\n\r\n<p>Il est capable d&rsquo;effectuer deux attaques &agrave; chaque tour.<\/p>\r\n\r\n<p>S&#39;il d&eacute;bloque des attributs physiques pour blesser, ils ne concernent qu&#39;une de ses paires de bras, il devra d&eacute;bloquer &agrave; nouveau pour pouvoir profiter de cet avantage &agrave; chaque attaque.<br \/>\r\nDe m&ecirc;me, il doit&nbsp;poss&eacute;der une arme secondaire pour attaquer deux fois.<br \/>\r\nIl ne peut pas utiliser deux&nbsp;fois une de ses capacit&eacute;s dans le m&ecirc;me tour gr&acirc;ce &agrave; cela.<\/p>"
     },
     {
         "id": "hunter",
