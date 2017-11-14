@@ -10,4 +10,3 @@
 - [ ] Handle multiple bursts from same arcane. Maybe add a title with arcane name in order to delimitate sections.
 
 ### Rules
-- [ ] Create "Belerion" as medieval continent
