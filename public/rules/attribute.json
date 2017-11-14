@@ -6,7 +6,7 @@
         "public": true,
         "pc": 2,
         "short": "Peut se déplacer dans les airs",
-        "description": "<p>Le personnage poss&egrave;de une grande paire d&#39;ailes. Il peut se d&eacute;placer dans les airs &agrave; sa vitesse de d&eacute;placement habituelle.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de une grande paire d&#39;ailes.<\/p>\r\n\r\n<p>Il peut se d&eacute;placer dans les airs &agrave; sa vitesse de d&eacute;placement habituelle.<\/p>"
     },
     {
         "id": "bicephalous",
@@ -15,7 +15,7 @@
         "public": true,
         "pc": 4,
         "short": "Possède deux cerveaux indépendants",
-        "description": "<p>Le personnage poss&egrave;de deux cerveaux ind&eacute;pendants, il peut sagire de deux t&ecirc;tes, de deux organes dans le m&ecirc;me gros cr&acirc;ne, etc.<\/p>\r\n\r\n<p>Il est capable d&rsquo;utiliser 2 capacit&eacute;s arcaniques dans le m&ecirc;me tour. Il peut s&#39;agir de deux utilisations de la m&ecirc;me ou de deux diff&eacute;rentes.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de deux cerveaux ind&eacute;pendants, il peut s&#39;agir&nbsp;de deux t&ecirc;tes, de deux organes dans le m&ecirc;me gros cr&acirc;ne, etc.<\/p>\r\n\r\n<p>Il est capable d&rsquo;utiliser 2 [capacit&eacute;s arcaniques](lexicon:ability) dans le m&ecirc;me tour. Il peut s&#39;agir de deux utilisations de la m&ecirc;me ou de deux diff&eacute;rentes.<\/p>"
     },
     {
         "id": "wound-I",
@@ -24,7 +24,7 @@
         "public": true,
         "pc": 1,
         "short": "Inflige une blessure de degré I au contact",
-        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nIl se peut aussi que le personnage soit tout simplement un expert en art martial capable de viser des points l&eacute;taux.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; I au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nIl se peut aussi que le personnage soit tout simplement un expert en art martial capable de viser des points l&eacute;taux.<\/p>\r\n\r\n<p>Dans tous les cas, le personnage est capable d&rsquo;infliger des [blessures](lexicon:wound) de degr&eacute; I au [contact](lexicon:contact) en r&eacute;ussissant un jet d&rsquo;[Imposer](characteristic:force).<\/p>"
     },
     {
         "id": "wound-II",
@@ -33,7 +33,7 @@
         "public": true,
         "pc": 2,
         "short": "Inflige une blessure de degré II au contact",
-        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; II au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<\/p>\r\n\r\n<p>Dans tous les cas, le personnage est capable d&rsquo;infliger des [blessures](lexicon:wound) de degr&eacute; II au [contact](lexicon:contact) en r&eacute;ussissant un jet d&rsquo;[Imposer](characteristic:force).<\/p>"
     },
     {
         "id": "wound-III",
@@ -42,7 +42,7 @@
         "public": true,
         "pc": 4,
         "short": "Inflige une blessure de degré III au contact",
-        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<br \/>\r\nDans tous les cas, le personnage est capable d&rsquo;infliger des blessures de degr&eacute; III au contact en r&eacute;ussissant un jet d&rsquo;Imposer.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de des griffes, des canines ac&eacute;r&eacute;es ou n&rsquo;importe quelle excroissance capable de s&eacute;rieusement blesser ses adversaires.<\/p>\r\n\r\n<p>Dans tous les cas, le personnage est capable d&rsquo;infliger des [blessures](lexicon:wound) de degr&eacute; III au [contact](lexicon:contact) en r&eacute;ussissant un jet d&rsquo;[Imposer](characteristic:force).<\/p>"
     },
     {
         "id": "sonar",
@@ -51,7 +51,7 @@
         "public": true,
         "pc": 1,
         "short": "Possède une ouïe sur-développée",
-        "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception des sons.<br \/>\r\nCela lui permet de localiser avec une grande pr&eacute;cision les bruits environnant, d&#39;avoir conscience de la pr&eacute;sence d&#39;ennemis &agrave; distance, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il utilise un jet de D&eacute;voiler pour percevoir un son, il poss&egrave;de un bonus de 3 points d&#39;Instinct suppl&eacute;mentaires.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception des sons.<br \/>\r\nCela lui permet de localiser avec une grande pr&eacute;cision les bruits environnant, d&#39;avoir conscience de la pr&eacute;sence d&#39;ennemis &agrave; distance, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il utilise un jet de [D&eacute;voiler](characteristic:reveal) pour [percevoir](skill:listening) un son, il poss&egrave;de un bonus de 3 points d&#39;[Instinct](lexicon:instinct) suppl&eacute;mentaires.<\/p>"
     },
     {
         "id": "night-vision",
@@ -69,7 +69,7 @@
         "public": true,
         "pc": 2,
         "short": "Possède deux paires de bras indépendantes",
-        "description": "<p>Le personnage poss&egrave;de quatre bras qu&#39;il peut manier par paires ind&eacute;pendantes.<\/p>\r\n\r\n<p>Il est capable d&rsquo;effectuer deux attaques &agrave; chaque tour.<\/p>\r\n\r\n<p>S&#39;il d&eacute;bloque des attributs physiques pour blaisser, ils ne concernent qu&#39;une de ses paires de bras, il devra d&eacute;bloquer &agrave; nouveau pour pouvoir profiter de cet avantage &agrave; chaque attaque.<br \/>\r\nDe m&ecirc;me, il doit&nbsp;poss&eacute;der une arme secondaire pour attaquer deux fois.<br \/>\r\nIl ne peut pas utiliser deux&nbsp;fois une de ses capacit&eacute;s dans le m&ecirc;me tour gr&acirc;ce &agrave; cela.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de quatre bras qu&#39;il peut manier par paires ind&eacute;pendantes.<\/p>\r\n\r\n<p>Il est capable d&rsquo;effectuer deux [attaques](skill:attack) &agrave; chaque [tour](lexicon:round).<\/p>\r\n\r\n<p>S&#39;il d&eacute;bloque des attributs physiques pour blesser, ils ne concernent qu&#39;une de ses paires de bras, il devra les d&eacute;bloquer &agrave; nouveau pour pouvoir profiter de cet avantage &agrave; chaque attaque.<br \/>\r\nDe m&ecirc;me, il doit&nbsp;poss&eacute;der une arme secondaire pour attaquer deux fois.<br \/>\r\nIl ne peut pas utiliser deux&nbsp;fois une de ses [capacit&eacute;s](lexicon:ability) dans le m&ecirc;me tour gr&acirc;ce &agrave; cela.<\/p>"
     },
     {
         "id": "hunter",
@@ -78,7 +78,7 @@
         "public": true,
         "pc": 1,
         "short": "Possède un odorat sur-développé",
-        "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception des odeurs.<br \/>\r\nCela lui permet de suivre la trace odorante d&#39;une cible, d&#39;avoir conscience de la pr&eacute;sence d&#39;ennemis &agrave; distance, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il utilise un jet de D&eacute;voiler pour percevoir une odeur, il poss&egrave;de un bonus de 3 points d&#39;Instinct suppl&eacute;mentaires.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception des odeurs.<br \/>\r\nCela lui permet de suivre la trace odorante d&#39;une cible, d&#39;avoir conscience de la pr&eacute;sence d&#39;ennemis &agrave; distance, etc.<\/p>\r\n\r\n<p>Il est capable de percevoir la pr&eacute;sence d&#39;un animal ou d&#39;un personnage [&agrave; distance](lexicon:range) et peut suivre une piste sur plusieurs kilom&egrave;tres.<br \/>\r\nSi la cible tente de camoufler son odeur gr&acirc;ce &agrave; un parfum ou en avan&ccedil;ant face au vent, le personnage peut tenter de la localiser avec un jet de [D&eacute;voiler](characteristic:reveal) avec&nbsp;un bonus de 3 points d&#39;[Instinct](lexicon:instinct) suppl&eacute;mentaires.<\/p>"
     },
     {
         "id": "eagle-eyes",
@@ -87,6 +87,6 @@
         "public": true,
         "pc": 1,
         "short": "Possède une vue sur-développée",
-        "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception visuelle.<br \/>\r\nCela lui permet de voir tr&egrave;s loin, de d&eacute;celer des d&eacute;tails infimes dans son environnement, de percer &agrave; jour des camouflages subtiles, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il utilise un jet de D&eacute;voiler pour percevoir visuellement, il poss&egrave;de un bonus de 3 points d&#39;Instinct suppl&eacute;mentaires.<\/p>"
+        "description": "<p>Le personnage poss&egrave;de un trait bestial lui conf&eacute;rant une excellente perception visuelle.<br \/>\r\nCela lui permet de voir tr&egrave;s loin, de d&eacute;celer des d&eacute;tails infimes dans son environnement, de percer &agrave; jour des camouflages subtiles, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il utilise un jet de [D&eacute;voiler](characteristic:reveal) pour [percevoir visuellement](skill:vision), il poss&egrave;de un bonus de 3 points d&#39;[Instinct](lexicon:instinct) suppl&eacute;mentaires.<\/p>"
     }
 ]

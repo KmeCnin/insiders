@@ -18,6 +18,15 @@
         "description": "<p>Permet de faire l&eacute;viter de mani&egrave;re permanente une demi-sph&egrave;re de terrain d&#39;un diam&egrave;tre maximum de 1 km pouvant supporter un ch&acirc;teau, un petit village, etc. &agrave; une hauteur allant jusqu&#39;&agrave; 500 m&egrave;tres d&#39;altitude.<br \/>\r\nLes limites de la parcelle de terrain concern&eacute;e ne peuvent couper un &ecirc;tre vivant ou un b&acirc;timent en deux.<\/p>"
     },
     {
+        "id": "lock",
+        "name": "Champ de force infranchissable",
+        "enabled": true,
+        "public": true,
+        "arcane": "ether",
+        "short": "Crée un champ de force inviolable à moins d'en posséder la clé",
+        "description": "<p>Le personnage peut cr&eacute;er un champ de force particuli&egrave;rement r&eacute;sistant.<\/p>\r\n\r\n<p>Il doit &ecirc;tre compl&egrave;tement plat et de la taille d&#39;une porte (environ 2 m2). Lors de sa cr&eacute;ation, il peut choisir un nombre d&#39;objets jusqu&#39;&agrave; son score d&#39;[Instinct](lexicon:instinct) en [Imposer](characteristic:force) qui serviront de cl&eacute;s. Une cl&eacute; peut-&ecirc;tre n&#39;importe quel objet tant qu&#39;il a une taille lui permettant de tenir dans une main. L&#39;orsqu&#39;un personnage tient une cl&eacute; en main, il peut traverser le champ de force sans probl&egrave;me.<\/p>\r\n\r\n<p>Le champ de force est compl&egrave;tement invisible et indestructible. Le seul moyen d&#39;annuler l&#39;effet et d&#39;utiliser une d&eacute;charge arcanique &agrave; nouveau (cela est valable pour le cr&eacute;ateur ou n&#39;importe quel initi&eacute; adepte de l&#39;Ether).<\/p>"
+    },
+    {
         "id": "vanish",
         "name": "Disparition",
         "enabled": true,
@@ -34,6 +43,15 @@
         "arcane": "vice",
         "short": "Supprime les souvenirs récents d'un individu",
         "description": "<p>Permet de faire oublier &agrave; un personnage les &eacute;v&eacute;nements v&eacute;cus durant les derni&egrave;res 24 heures. L&#39;initi&eacute; effectuant le rituel peut d&eacute;cider de conserver certains souvenirs de sa cible.<\/p>"
+    },
+    {
+        "id": "purification",
+        "name": "Epuration",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Détruit tous les simulacres aux alentours",
+        "description": "<p>D&eacute;truit tous les [simulacres](lexicon:travesty) &agrave; [distance](lexicon:range).<\/p>"
     },
     {
         "id": "disaster",
