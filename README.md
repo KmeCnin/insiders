@@ -11,3 +11,7 @@
 - [ ] Fix sections gradient text
 
 ### Rules
+- [ ] Capacité la toile : inversion de gravité
+- [ ] Synergie : Permutation clonique. Peut permuter avec un de ses leurres sans que ça soit visible de l'extérieur.
+- [ ] Décharge de la Toile : Portail de TP permanent
+- [ ] Décharge de la Toile : Intérieur plus grand que l'exterieur
