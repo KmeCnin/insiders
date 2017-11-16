@@ -19,12 +19,12 @@
     },
     {
         "id": "lock",
-        "name": "Champ de force infranchissable",
+        "name": "Barrière de force",
         "enabled": true,
         "public": true,
         "arcane": "ether",
-        "short": "Crée un champ de force inviolable à moins d'en posséder la clé",
-        "description": "<p>Le personnage peut cr&eacute;er un champ de force particuli&egrave;rement r&eacute;sistant.<\/p>\r\n\r\n<p>Il doit &ecirc;tre compl&egrave;tement plat et de la taille d&#39;une porte (environ 2 m2). Lors de sa cr&eacute;ation, il peut choisir un nombre d&#39;objets jusqu&#39;&agrave; son score d&#39;[Instinct](lexicon:instinct) en [Imposer](characteristic:force) qui serviront de cl&eacute;s. Une cl&eacute; peut-&ecirc;tre n&#39;importe quel objet tant qu&#39;il a une taille lui permettant de tenir dans une main. Lorsqu&rsquo;un personnage tient une cl&eacute; en main, il peut traverser le champ de force sans probl&egrave;me.<\/p>\r\n\r\n<p>Le champ de force est compl&egrave;tement invisible et indestructible. Le seul moyen d&#39;annuler l&#39;effet et d&#39;utiliser une d&eacute;charge arcanique &agrave; nouveau (cela est valable pour le cr&eacute;ateur ou n&#39;importe quel initi&eacute; adepte de l&#39;Ether).<\/p>"
+        "short": "Crée un champ de force inviolable",
+        "description": "<p>Le personnage peut cr&eacute;er un champ de force particuli&egrave;rement r&eacute;sistant.<\/p>\r\n\r\n<p>Il peut en cr&eacute;er de deux types : soit une paroi&nbsp;compl&egrave;tement plate et de la taille d&#39;une porte, soit un solide simple de la taille d&#39;un coffre.<br \/>\r\nLors de sa cr&eacute;ation, le personnage&nbsp;peut choisir un nombre de cl&eacute;s inf&eacute;rieur ou &eacute;gale &agrave;&nbsp;son score d&#39;[Instinct](lexicon:instinct) en [Imposer](characteristic:force). Une cl&eacute; peut-&ecirc;tre n&#39;importe quel objet tant qu&#39;il a une taille lui permettant de tenir dans une main. Lorsqu&rsquo;un personnage tient une cl&eacute; en main, il peut traverser le champ de force sans probl&egrave;me.<br \/>\r\nLe personnage peut &eacute;galement choisir en plus ou &agrave; la place de cl&eacute;s un mot de passe qui devra &ecirc;tre prononc&eacute; &agrave; voix haute pour pouvoir traverser le champ de force.<\/p>\r\n\r\n<p>Lorsqu&#39;il cr&eacute;e le champ de force, le personnage peut, au choix cr&eacute;er une paroi&nbsp;nue et invisible ou enchanter un objet &agrave; sa disposition : une porte qui devient alors incassable,&nbsp;un coffre qui devient inviolable, etc.<\/p>\r\n\r\n<p>Le seul moyen de forcer la protection&nbsp;est d&#39;utiliser une d&eacute;charge arcanique &agrave; nouveau (cela est valable pour le cr&eacute;ateur ou n&#39;importe quel initi&eacute; adepte de l&#39;Ether).<\/p>"
     },
     {
         "id": "vanish",

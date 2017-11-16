@@ -51,6 +51,6 @@
         "public": true,
         "short": "Capacité à percevoir visuellement",
         "description": "<p>Un personnage fait usage de Vision lorsqu&#39;il tente de discerner un mouvement ou un objet pr&eacute;cis.<\/p>",
-        "characteristic": "force"
+        "characteristic": "reveal"
     }
 ]

@@ -117,17 +117,6 @@
         "abilitiesRequired": []
     },
     {
-        "id": "hot",
-        "name": "Chaud",
-        "enabled": true,
-        "public": true,
-        "arcane": "source",
-        "short": "Peut faire rapidement augmenter la température",
-        "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement augmenter la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de vaporiser de l&#39;eau, br&ucirc;ler des tissus vivants au contact, chauffer du m&eacute;tal &agrave; blanc, allumer un feu &agrave; partir de mat&eacute;riaux inflammables, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I en br&ucirc;lant son adversaire.<br \/>\r\nLorsqu&#39;il manie une arme m&eacute;tallique (lame au contact ou fl&egrave;ches\/carreaux &agrave; distance), il peut chauffer la lame &agrave; blanc pour augmenter la blessure inflig&eacute;e d&#39;un degr&eacute;.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux br&ucirc;lures.<\/p>",
-        "increases": [],
-        "abilitiesRequired": []
-    },
-    {
         "id": "combustion",
         "name": "Combustion",
         "enabled": true,
@@ -280,17 +269,6 @@
         ]
     },
     {
-        "id": "cold",
-        "name": "Froid",
-        "enabled": true,
-        "public": true,
-        "arcane": "source",
-        "short": "Peut faire rapidement chuter la température",
-        "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement diminuer la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier de l&#39;eau, geler des tissus vivants au contact,&nbsp;etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I en gelant&nbsp;son adversaire.<br \/>\r\nIl peut rapidement solidifier l&#39;humidit&eacute; de l&#39;air au niveau du point d&#39;impact d&#39;un coup afin d&#39;augmenter de 1 point son jet de [D&eacute;fense](skill:defense)&nbsp;contre les blessures physiques.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux gelures.<\/p>",
-        "increases": [],
-        "abilitiesRequired": []
-    },
-    {
         "id": "hypnosis",
         "name": "Hypnose",
         "enabled": true,
@@ -317,6 +295,22 @@
             {
                 "short": "Ajoute des effets sonores",
                 "description": "<p>Le personnage peut cr&eacute;er des objets&nbsp;inanim&eacute;s&nbsp;immat&eacute;riels ou des simulacres d&#39;&ecirc;tres vivants.<br \/>\r\nCela lui permet par exemple de cr&eacute;er un lieu illusoire comme un b&acirc;timent, un pont, une muraille, un animal, un personnage, etc. en ajoutant des l&eacute;gers mouvements de respiration, l&#39;effet de l&#39;air sur les textures, les oscillations d&#39;une flamme, etc. et les sons ad&eacute;quats de draps flottant dans le vent, des grognements, le cr&eacute;pitement d&#39;un feu, etc.<\/p>\r\n\r\n<p>L&rsquo;illusion cr&eacute;&eacute;e est immobile et immat&eacute;rielle. L&rsquo;illusion persiste sans limite de port&eacute;e. Un personnage passant &agrave; c&ocirc;t&eacute; doit r&eacute;ussir un jet de [D&eacute;voiler](characteristic:reveal) pour remarquer la supercherie, il peut &eacute;galement passer &agrave; travers &agrave; tout moment sans pour autant la d&eacute;truire.<br \/>\r\nLe personnage&nbsp;peut maintenir autant d&#39;illusions de la sorte que son score d&#39;Instinct en [Dissimuler](characteristic:hide).<\/p>\r\n\r\n<p>Le personnage peut &eacute;galement transformer l&#39;apparence d&#39;un objet mat&eacute;riel ou d&#39;un animal, l&#39;illusion persiste alors en collant &agrave; l&#39;objet ou la&nbsp;cible tant qu&#39;il&nbsp;reste &agrave; distance du personnage.&nbsp;Par exemple, il peut donner &agrave; une &eacute;p&eacute;e d&#39;entra&icirc;nement en bois une apparence d&#39;artefact pr&eacute;cieux, il peut transformer un bout de papier vierge en document d&#39;apparence officielle, il peut donner &agrave; son animal de compagnie une apparence monstrueuse et transformer ses aboiements en grognements inqui&eacute;tants, etc.<br \/>\r\nTout observateur un peu scrupuleux devra r&eacute;ussir un jet de D&eacute;voiler pour percer la supercherie &agrave; jour.<\/p>"
+            }
+        ],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "hot",
+        "name": "Incandescence",
+        "enabled": true,
+        "public": true,
+        "arcane": "source",
+        "short": "Peut faire rapidement augmenter la température",
+        "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement augmenter la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de vaporiser de l&#39;eau, br&ucirc;ler des tissus vivants au contact, chauffer du m&eacute;tal &agrave; blanc, allumer un feu &agrave; partir de mat&eacute;riaux inflammables, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I en br&ucirc;lant son adversaire.<br \/>\r\nLorsqu&#39;il manie une arme m&eacute;tallique (lame au contact ou fl&egrave;ches\/carreaux &agrave; distance), il peut chauffer la lame &agrave; blanc pour augmenter la blessure inflig&eacute;e d&#39;un degr&eacute;.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux br&ucirc;lures.<\/p>",
+        "increases": [
+            {
+                "short": "Augmente d'un degré la blessure infligée",
+                "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement augmenter la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de vaporiser de l&#39;eau, br&ucirc;ler des tissus vivants au contact, chauffer du m&eacute;tal &agrave; blanc, allumer un feu &agrave; partir de mat&eacute;riaux inflammables, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II en br&ucirc;lant son adversaire.<br \/>\r\nLorsqu&#39;il manie une arme m&eacute;tallique (lame au contact ou fl&egrave;ches\/carreaux &agrave; distance), il peut chauffer la lame &agrave; blanc pour augmenter la blessure inflig&eacute;e d&#39;un degr&eacute;.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux br&ucirc;lures.<\/p>"
             }
         ],
         "abilitiesRequired": []
@@ -591,6 +585,22 @@
         "abilitiesRequired": [
             "anticipation"
         ]
+    },
+    {
+        "id": "cold",
+        "name": "Réfrigération",
+        "enabled": true,
+        "public": true,
+        "arcane": "source",
+        "short": "Peut faire rapidement chuter la température",
+        "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement diminuer la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier de l&#39;eau, geler des tissus vivants au contact,&nbsp;etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I en gelant&nbsp;son adversaire.<br \/>\r\nIl peut rapidement solidifier l&#39;humidit&eacute; de l&#39;air au niveau du point d&#39;impact d&#39;un coup afin d&#39;augmenter de 1 point son jet de [D&eacute;fense](skill:defense)&nbsp;contre les blessures physiques.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux gelures.<\/p>",
+        "increases": [
+            {
+                "short": "Augmente d'un degré la blessure infligée",
+                "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement diminuer la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier de l&#39;eau, geler des tissus vivants au contact,&nbsp;etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II en gelant&nbsp;son adversaire.<br \/>\r\nIl peut rapidement solidifier l&#39;humidit&eacute; de l&#39;air au niveau du point d&#39;impact d&#39;un coup afin d&#39;augmenter de 1 point son jet de [D&eacute;fense](skill:defense)&nbsp;contre les blessures physiques.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux gelures.<\/p>"
+            }
+        ],
+        "abilitiesRequired": []
     },
     {
         "id": "push",

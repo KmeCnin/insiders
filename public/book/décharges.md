@@ -48,15 +48,19 @@ L&#039;initié effectuant le rituel peut décider de conserver certains souvenir
 
 Permet de faire léviter de manière permanente une demi-sphère de terrain d&#039;un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu&#039;à 500 mètres d&#039;altitude.  
  Les limites de la parcelle de terrain concernée ne peuvent couper un être vivant ou un bâtiment en deux.
-### Champ de force infranchissable
+### Barrière de force
 
-**Crée un champ de force inviolable à moins d&#039;en posséder la clé**
+**Crée un champ de force inviolable**
 
 Le personnage peut créer un champ de force particulièrement résistant.
 
-Il doit être complètement plat et de la taille d&#039;une porte (environ 2 m2). Lors de sa création, il peut choisir un nombre d&#039;objets jusqu&#039;à son score d&#039;_Instinct_ en _Imposer_ qui serviront de clés. Une clé peut-être n&#039;importe quel objet tant qu&#039;il a une taille lui permettant de tenir dans une main. Lorsqu’un personnage tient une clé en main, il peut traverser le champ de force sans problème.
+Il peut en créer de deux types : soit une paroi complètement plate et de la taille d&#039;une porte, soit un solide simple de la taille d&#039;un coffre.  
+ Lors de sa création, le personnage peut choisir un nombre de clés inférieur ou égale à son score d&#039;_Instinct_ en _Imposer_. Une clé peut-être n&#039;importe quel objet tant qu&#039;il a une taille lui permettant de tenir dans une main. Lorsqu’un personnage tient une clé en main, il peut traverser le champ de force sans problème.  
+ Le personnage peut également choisir en plus ou à la place de clés un mot de passe qui devra être prononcé à voix haute pour pouvoir traverser le champ de force.
 
-Le champ de force est complètement invisible et indestructible. Le seul moyen d&#039;annuler l&#039;effet et d&#039;utiliser une décharge arcanique à nouveau (cela est valable pour le créateur ou n&#039;importe quel initié adepte de l&#039;Ether).
+Lorsqu&#039;il crée le champ de force, le personnage peut, au choix créer une paroi nue et invisible ou enchanter un objet à sa disposition : une porte qui devient alors incassable, un coffre qui devient inviolable, etc.
+
+Le seul moyen de forcer la protection est d&#039;utiliser une décharge arcanique à nouveau (cela est valable pour le créateur ou n&#039;importe quel initié adepte de l&#039;Ether).
 ## La Purge
 ### Animation
 
