@@ -21,3 +21,4 @@
 - [ ] Décharge de la Toile : Intérieur plus grand que l'exterieur
 - [ ] Augment "Froid" (and rename)
 - [ ] Augment "Chaud" (and rename)
+- [ ] Décharge "Champ de force infranchissable" ajouter possibilité de créer un coffre
