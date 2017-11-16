@@ -16,3 +16,5 @@
 - [ ] Synergie : Permutation clonique. Peut permuter avec un de ses leurres sans que ça soit visible de l'extérieur.
 - [ ] Décharge de la Toile : Portail de TP permanent
 - [ ] Décharge de la Toile : Intérieur plus grand que l'exterieur
+- [ ] Augment "Froid" (and rename)
+- [ ] Augment "Chaud" (and rename)
