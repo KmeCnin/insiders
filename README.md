@@ -22,3 +22,4 @@
 - [ ] Augment "Froid" (and rename)
 - [ ] Augment "Chaud" (and rename)
 - [ ] Décharge "Champ de force infranchissable" ajouter possibilité de créer un coffre
+- [ ] Capacité de traverser la matière #fantomatique
