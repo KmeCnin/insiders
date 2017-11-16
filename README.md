@@ -23,3 +23,4 @@
 - [ ] Augment "Chaud" (and rename)
 - [ ] Décharge "Champ de force infranchissable" ajouter possibilité de créer un coffre
 - [ ] Capacité de traverser la matière #fantomatique
+- [ ] Capacité de la Purge de créer du poison + synergie pour empoisonner d'autres capas
