@@ -13,6 +13,8 @@
 
 ### Rules
 - [ ] Capacité la toile : inversion de gravité
+- [ ] Capacité le voile : ombre
+- [ ] Capacité le voile : lumière
 - [ ] Synergie : Permutation clonique. Peut permuter avec un de ses leurres sans que ça soit visible de l'extérieur.
 - [ ] Décharge de la Toile : Portail de TP permanent
 - [ ] Décharge de la Toile : Intérieur plus grand que l'exterieur
