@@ -10,6 +10,7 @@
 - [ ] Handle multiple bursts from same arcane. Maybe add a title with arcane name in order to delimitate sections.
 - [ ] Fix sections gradient text
 - [ ] Fix "Capacité de Le Voile" by adding a parameter in arcane entity
+- [ ] Factorise css code for bullets from braidcrumb and increases
 
 ### Rules
 - [ ] Capacité la toile : inversion de gravité
