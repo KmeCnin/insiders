@@ -5,7 +5,8 @@
 [Caracteristiques](../book/caractéristiques.md) -
 [Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
-[Equipements](../book/équipements.md)
+[Equipements](../book/équipements.md) -
+[Lexique](../book/lexique.md)
 # Capacités
 
 Un _initié_ ou une _aberration_ maîtrisant un _arcane_ particulier est capable d&#039;acquérir des **capacités arcaniques** liées à ce dernier lui conférant alors des pouvoirs surnaturels.

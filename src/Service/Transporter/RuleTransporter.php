@@ -12,6 +12,7 @@ use App\Entity\Rule\Champion;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
 use App\Entity\Rule\LexiconEntry;
+use App\Entity\Rule\Page;
 use App\Entity\Rule\RuleInterface;
 use App\Entity\Rule\Skill;
 use App\Entity\Rule\StuffCategory;
@@ -62,6 +63,7 @@ class RuleTransporter implements TransporterInterface
             Attribute::class,
             Burst::class,
             LexiconEntry::class,
+            Page::class,
         ];
     }
 
