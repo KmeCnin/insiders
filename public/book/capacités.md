@@ -5,7 +5,8 @@
 [Caracteristiques](../book/caractéristiques.md) -
 [Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
-[Equipements](../book/équipements.md)
+[Equipements](../book/équipements.md) -
+[Lexique](../book/lexique.md)
 # Capacités
 
 Un _initié_ ou une _aberration_ maîtrisant un _arcane_ particulier est capable d&#039;acquérir des **capacités arcaniques** liées à ce dernier lui conférant alors des pouvoirs surnaturels.
@@ -447,17 +448,6 @@ Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une blessure de
 
 L&#039;énergie qui parcourt le monde matériel
 
-### <a name="anchor-chaud"></a>Chaud
-
-**Peut faire rapidement augmenter la température**
-
-Le personnage maîtrise les flux thermiques, il peut rapidement augmenter la température d&#039;une zone précise.  
- Cela lui permet par exemple de vaporiser de l&#039;eau, brûler des tissus vivants au contact, chauffer du métal à blanc, allumer un feu à partir de matériaux inflammables, etc.
-
-Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en brûlant son adversaire.  
- Lorsqu&#039;il manie une arme métallique (lame au contact ou flèches/carreaux à distance), il peut chauffer la lame à blanc pour augmenter la blessure infligée d&#039;un degré.  
- Il possède également une _résistance_ aux brûlures.
-
 ### <a name="anchor-combustion"></a>Combustion
 
 **Peut initier des réactions de combustion**
@@ -515,16 +505,20 @@ Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ 
 - Peut exclure des personnages de la zone foudroyée
 
 
-### <a name="anchor-froid"></a>Froid
+### <a name="anchor-incandescence"></a>Incandescence
 
-**Peut faire rapidement chuter la température**
+**Peut faire rapidement augmenter la température**
 
-Le personnage maîtrise les flux thermiques, il peut rapidement diminuer la température d&#039;une zone précise.  
- Cela lui permet par exemple de solidifier de l&#039;eau, geler des tissus vivants au contact, etc.
+Le personnage maîtrise les flux thermiques, il peut rapidement augmenter la température d&#039;une zone précise.  
+ Cela lui permet par exemple de vaporiser de l&#039;eau, brûler des tissus vivants au contact, chauffer du métal à blanc, allumer un feu à partir de matériaux inflammables, etc.
 
-Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en gelant son adversaire.  
- Il peut rapidement solidifier l&#039;humidité de l&#039;air au niveau du point d&#039;impact d&#039;un coup afin d&#039;augmenter de 1 point son jet de _Défense_ contre les blessures physiques.  
- Il possède également une _résistance_ aux gelures.
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en brûlant son adversaire.  
+ Lorsqu&#039;il manie une arme métallique (lame au contact ou flèches/carreaux à distance), il peut chauffer la lame à blanc pour augmenter la blessure infligée d&#039;un degré.  
+ Il possède également une _résistance_ aux brûlures.
+
+**Augmentations:**
+- Augmente d&#039;un degré la blessure infligée
+
 
 ### <a name="anchor-onde-sonore"></a>Onde sonore
 
@@ -542,6 +536,21 @@ Grâce à un jet d&#039;_Imposer_ à _distance_, il peut _sonner_ un personnage.
 
 **Augmentations:**
 - Inflige une blessure de degré I en plus de sonner
+
+
+### <a name="anchor-refrigeration"></a>Réfrigération
+
+**Peut faire rapidement chuter la température**
+
+Le personnage maîtrise les flux thermiques, il peut rapidement diminuer la température d&#039;une zone précise.  
+ Cela lui permet par exemple de solidifier de l&#039;eau, geler des tissus vivants au contact, etc.
+
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en gelant son adversaire.  
+ Il peut rapidement solidifier l&#039;humidité de l&#039;air au niveau du point d&#039;impact d&#039;un coup afin d&#039;augmenter de 1 point son jet de _Défense_ contre les blessures physiques.  
+ Il possède également une _résistance_ aux gelures.
+
+**Augmentations:**
+- Augmente d&#039;un degré la blessure infligée
 
 
 ### <a name="anchor-tectonique"></a>Tectonique

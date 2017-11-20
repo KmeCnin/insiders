@@ -16,7 +16,7 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class MarkdownRenderer
 {
-    const PATH_EXPORT = '/../public/book';
+    private const PATH_EXPORT = '/../public/book';
 
     private $em;
     private $twig;
@@ -44,6 +44,7 @@ class MarkdownRenderer
             CanonicalStuff::class => 'stuffs',
             Characteristic::class => 'characteristics',
             Deity::class => 'deities',
+            LexiconEntry::class => 'lexicon',
         ];
     }
 
@@ -57,6 +58,7 @@ class MarkdownRenderer
             CanonicalStuff::class => 'équipements',
             Characteristic::class => 'caractéristiques',
             Deity::class => 'divinités',
+            LexiconEntry::class => 'lexique',
         ];
     }
 
@@ -135,6 +137,11 @@ class MarkdownRenderer
                     'lexicon' => $this->em->getRepository(LexiconEntry::class)
                         ->find('deity'),
                     'deities' => $this->em->getRepository(Deity::class)->findAll(),
+                ];
+                break;
+            case LexiconEntry::class:
+                $parameters = [
+                    'entries' => $this->em->getRepository(LexiconEntry::class)->findAll(),
                 ];
                 break;
             default:

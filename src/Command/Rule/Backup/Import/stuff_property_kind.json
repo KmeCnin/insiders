@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "id": "wound",
+        "name": "Blessure",
+        "enabled": true,
+        "public": true
+    },
+    {
+        "id": "default",
+        "name": "Défaut",
+        "enabled": true,
+        "public": true
+    }
+]

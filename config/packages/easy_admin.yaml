@@ -17,6 +17,7 @@ easy_admin:
             - Characteristic
             - Deity
             - Lexicon
+            - Page
             - Skill
             - StuffCategory
             - StuffKind
@@ -81,7 +82,7 @@ easy_admin:
             class: App\Entity\Rule\Burst
             list:
                 fields: ['id', 'name', 'slug', 'short', 'arcane', 'public', 'enabled']
-                sort: ['id', 'ASC']
+                sort: ['arcane.name', 'ASC']
             form:
                 fields:
                     - { property: enabled }
@@ -162,6 +163,18 @@ easy_admin:
                     - { property: id }
                     - { property: name }
                     - { property: short }
+                    - { property: description, type: ckeditor }
+        Page:
+            class: App\Entity\Rule\Page
+            list:
+                fields: ['id', 'name', 'slug', 'public', 'enabled']
+                sort: ['id', 'ASC']
+            form:
+                fields:
+                    - { property: enabled }
+                    - { property: public }
+                    - { property: id }
+                    - { property: name }
                     - { property: description, type: ckeditor }
         Skill:
             class: App\Entity\Rule\Skill

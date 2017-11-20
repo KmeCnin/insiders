@@ -5,7 +5,8 @@
 [Caracteristiques](../book/caractéristiques.md) -
 [Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
-[Equipements](../book/équipements.md)
+[Equipements](../book/équipements.md) -
+[Lexique](../book/lexique.md)
 # Arcanes
 
 Les _initiés_ sont capables d&#039;absorber l&#039;énergie des _cristaux d&#039;arcanite_ pour débloquer une sensibilité particulière à des aspects de la réalités appelés **arcanes**. Un initié ayant débloqué un arcane spécifique acquière alors une compréhension singulière de cette facette de la réalité lui permettant de débloquer par la suite des _capacités arcaniques_ surnaturelles.

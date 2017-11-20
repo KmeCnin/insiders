@@ -19,12 +19,12 @@
     },
     {
         "id": "lock",
-        "name": "Champ de force infranchissable",
+        "name": "Barrière de force",
         "enabled": true,
         "public": true,
         "arcane": "ether",
-        "short": "Crée un champ de force inviolable à moins d'en posséder la clé",
-        "description": "<p>Le personnage peut cr&eacute;er un champ de force particuli&egrave;rement r&eacute;sistant.<\/p>\r\n\r\n<p>Il doit &ecirc;tre compl&egrave;tement plat et de la taille d&#39;une porte (environ 2 m2). Lors de sa cr&eacute;ation, il peut choisir un nombre d&#39;objets jusqu&#39;&agrave; son score d&#39;[Instinct](lexicon:instinct) en [Imposer](characteristic:force) qui serviront de cl&eacute;s. Une cl&eacute; peut-&ecirc;tre n&#39;importe quel objet tant qu&#39;il a une taille lui permettant de tenir dans une main. Lorsqu&rsquo;un personnage tient une cl&eacute; en main, il peut traverser le champ de force sans probl&egrave;me.<\/p>\r\n\r\n<p>Le champ de force est compl&egrave;tement invisible et indestructible. Le seul moyen d&#39;annuler l&#39;effet et d&#39;utiliser une d&eacute;charge arcanique &agrave; nouveau (cela est valable pour le cr&eacute;ateur ou n&#39;importe quel initi&eacute; adepte de l&#39;Ether).<\/p>"
+        "short": "Crée un champ de force inviolable",
+        "description": "<p>Le personnage peut cr&eacute;er un champ de force particuli&egrave;rement r&eacute;sistant.<\/p>\r\n\r\n<p>Il peut en cr&eacute;er de deux types : soit une paroi&nbsp;compl&egrave;tement plate et de la taille d&#39;une porte, soit un solide simple de la taille d&#39;un coffre.<br \/>\r\nLors de sa cr&eacute;ation, le personnage&nbsp;peut choisir un nombre de cl&eacute;s inf&eacute;rieur ou &eacute;gale &agrave;&nbsp;son score d&#39;[Instinct](lexicon:instinct) en [Imposer](characteristic:force). Une cl&eacute; peut-&ecirc;tre n&#39;importe quel objet tant qu&#39;il a une taille lui permettant de tenir dans une main. Lorsqu&rsquo;un personnage tient une cl&eacute; en main, il peut traverser le champ de force sans probl&egrave;me.<br \/>\r\nLe personnage peut &eacute;galement choisir en plus ou &agrave; la place de cl&eacute;s un mot de passe qui devra &ecirc;tre prononc&eacute; &agrave; voix haute pour pouvoir traverser le champ de force.<\/p>\r\n\r\n<p>Lorsqu&#39;il cr&eacute;e le champ de force, le personnage peut, au choix cr&eacute;er une paroi&nbsp;nue et invisible ou enchanter un objet &agrave; sa disposition : une porte qui devient alors incassable,&nbsp;un coffre qui devient inviolable, etc.<\/p>\r\n\r\n<p>Le seul moyen de forcer la protection&nbsp;est d&#39;utiliser une d&eacute;charge arcanique &agrave; nouveau (cela est valable pour le cr&eacute;ateur ou n&#39;importe quel initi&eacute; adepte de [l&#39;Ether](arcane:ether)).<\/p>"
     },
     {
         "id": "vanish",
@@ -54,6 +54,15 @@
         "description": "<p>D&eacute;truit tous les [simulacres](lexicon:travesty) &agrave; [distance](lexicon:range).<\/p>"
     },
     {
+        "id": "tardis",
+        "name": "Étendue confinée",
+        "enabled": true,
+        "public": true,
+        "arcane": "web",
+        "short": "Crée un espace plus grand à l'intérieur qu'à l'extérieur",
+        "description": "<p>Le personnage peut augmenter grandement le volume d&#39;une zone de l&#39;espace&nbsp;sans pour autant en changer sa surface.<br \/>\r\nCela lui permet par exemple de transformer un modeste placard en maison, une cabane en ch&acirc;teau, etc.<\/p>\r\n\r\n<p>Pour un observateur ext&eacute;rieur, si le lieu est cl&ocirc;t, rien n&#39;est perceptible, mais une fois entr&eacute; dans la zone en question, le volume devient 20 fois sup&eacute;rieur &agrave; ce qu&#39;il paraissait &ecirc;tre.<br \/>\r\nS&#39;il ne s&#39;agit pas d&#39;un lieu cl&ocirc;t, les observateurs ext&eacute;rieurs voient les individus et les objets dans la zone r&eacute;duit de 10 fois ce qu&#39;ils devraient para&icirc;tre.<\/p>"
+    },
+    {
         "id": "disaster",
         "name": "Fléau",
         "enabled": true,
@@ -70,6 +79,15 @@
         "arcane": "spirit",
         "short": "Transfert son esprit dans un autre corps",
         "description": "<p>L&#39;initi&eacute; &eacute;change de corps avec une cible [&agrave; distance](lexicon:range). Il se retrouve alors en possession d&#39;un nouveau corps abandonnant compl&egrave;tement son enveloppe pr&eacute;c&eacute;dente.<br \/>\r\nLa cible doit avoir un [facteur de puissance](lexicon:fp) sup&eacute;rieur au maximum de 5&nbsp;points du sien.<\/p>\r\n\r\n<p>Il conserve ses scores d&#39;[Instinct](lexicon:instinct) en [D&eacute;voiler](characteristic:reveal) et [Dissimuler](characteristic:hide), ses [points de ma&icirc;trise](lexicon:proficiency) dans toutes les [caract&eacute;ristiques](lexicon:characteristic) et ses [capacit&eacute;s arcaniques](lexicon:ability). Il abandonne ses points d&#39;Instinct en [Imposer](characteristic:force) et [R&eacute;sister](characteristic:resist) ainsi que ses [attributs physiques](lexicon:attribute) et acqui&egrave;re celles de son nouveau corps.<\/p>"
+    },
+    {
+        "id": "portal",
+        "name": "Portail de téléportation",
+        "enabled": true,
+        "public": true,
+        "arcane": "web",
+        "short": "Relie de manière permanente deux lieux éloignés",
+        "description": "<p>Le personnage peut cr&eacute;er un portail permanent qui relie alors l&#39;endroit o&ugrave; il utilise la d&eacute;charge &agrave; un autre lieu &eacute;loign&eacute; qu&#39;il a d&eacute;j&agrave; visit&eacute;.<\/p>\r\n\r\n<p>Le portail ainsi cr&eacute;&eacute; est une surface plane qui peut &ecirc;tre orient&eacute;e comme le souhaite le personnage mais ne pourra plus par la suite &ecirc;tre d&eacute;plac&eacute;.<br \/>\r\nUn portail similaire s&#39;ouvre dans le lieux &eacute;loign&eacute; choisit par le personnage.<br \/>\r\nN&#39;importe qui peut emprunter ce passage autant de fois qu&#39;il le souhaite. Pour prot&eacute;ger ces passages strat&eacute;giques, les initi&eacute;s ont souvent recours &agrave; une autre d&eacute;charge de [Barri&egrave;re de force](burst:lock) afin d&#39;y&nbsp;restreindre l&#39;acc&egrave;s.<\/p>\r\n\r\n<p>Le seul moyen de refermer d&eacute;finitivement un tel portail est d&#39;utiliser une d&eacute;charge arcanique &agrave; nouveau (cela est valable pour le cr&eacute;ateur ou n&#39;importe quel initi&eacute; adepte de [la Toile](arcane:web)).<\/p>"
     },
     {
         "id": "resurrect",

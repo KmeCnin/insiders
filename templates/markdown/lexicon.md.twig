@@ -1,0 +1,19 @@
+{% extends 'markdown/layout.md.twig' %}
+
+{% block content %}
+# Lexique
+
+Notion | Résumé
+--- | ---
+{% for entry in entries %}
+{# @var entry \App\Entity\Rule\LexiconEntry #}
+**[{{ entry.name }}](#anchor-{{ entry.slug }})** | {{ entry.short }}
+{% endfor %}
+
+{% for entry in entries %}
+{# @var entry \App\Entity\Rule\LexiconEntry #}
+## <a name="anchor-{{ entry.slug }}"></a> {{ entry.name }}
+
+{{ entry.description|markdown }}
+{% endfor %}
+{% endblock %}

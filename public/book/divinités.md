@@ -5,7 +5,8 @@
 [Caracteristiques](../book/caractéristiques.md) -
 [Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
-[Equipements](../book/équipements.md)
+[Equipements](../book/équipements.md) -
+[Lexique](../book/lexique.md)
 # Divinités arcaniques
 
 L&#039;Elyseum, point d&#039;impact de la météorite d&#039;arcanite, abrite une poignée de **divinités arcaniques**, êtres tout-puissants autant craint que vénérés.  

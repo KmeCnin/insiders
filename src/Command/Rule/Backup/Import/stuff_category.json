@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "id": "fight",
+        "name": "L'armement du combattant",
+        "enabled": true,
+        "public": true,
+        "short": "L'armement du combattant",
+        "description": "<p>L&#39;armement du combattant<\/p>"
+    },
+    {
+        "id": "utilitarian",
+        "name": "L'attirail de l'aventurier",
+        "enabled": true,
+        "public": true,
+        "short": "L'attirail de l'aventurier",
+        "description": "<p>L&#39;attirail de l&#39;aventurier<\/p>"
+    },
+    {
+        "id": "expendables",
+        "name": "Les consommables",
+        "enabled": true,
+        "public": true,
+        "short": "Les consommables",
+        "description": "<p>Les consommables<\/p>"
+    }
+]

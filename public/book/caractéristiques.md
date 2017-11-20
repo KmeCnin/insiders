@@ -5,7 +5,8 @@
 [Caracteristiques](../book/caractéristiques.md) -
 [Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
-[Equipements](../book/équipements.md)
+[Equipements](../book/équipements.md) -
+[Lexique](../book/lexique.md)
 # Caractéristiques
 
 Les _entités_ possèdent des **caractéristiques** qui les définissent et permettent de les opposer une à une pour déterminer l&#039;issue d&#039;une confrontation.  

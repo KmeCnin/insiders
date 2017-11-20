@@ -5,7 +5,8 @@
 [Caracteristiques](../book/caractéristiques.md) -
 [Décharges d'arcanite](../book/décharges.md) -
 [Divinités](../book/divinités.md) -
-[Equipements](../book/équipements.md)
+[Equipements](../book/équipements.md) -
+[Lexique](../book/lexique.md)
 # Décharges d'arcanite
 
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
@@ -48,15 +49,19 @@ L&#039;initié effectuant le rituel peut décider de conserver certains souvenir
 
 Permet de faire léviter de manière permanente une demi-sphère de terrain d&#039;un diamètre maximum de 1 km pouvant supporter un château, un petit village, etc. à une hauteur allant jusqu&#039;à 500 mètres d&#039;altitude.  
  Les limites de la parcelle de terrain concernée ne peuvent couper un être vivant ou un bâtiment en deux.
-### Champ de force infranchissable
+### Barrière de force
 
-**Crée un champ de force inviolable à moins d&#039;en posséder la clé**
+**Crée un champ de force inviolable**
 
 Le personnage peut créer un champ de force particulièrement résistant.
 
-Il doit être complètement plat et de la taille d&#039;une porte (environ 2 m2). Lors de sa création, il peut choisir un nombre d&#039;objets jusqu&#039;à son score d&#039;_Instinct_ en _Imposer_ qui serviront de clés. Une clé peut-être n&#039;importe quel objet tant qu&#039;il a une taille lui permettant de tenir dans une main. Lorsqu’un personnage tient une clé en main, il peut traverser le champ de force sans problème.
+Il peut en créer de deux types : soit une paroi complètement plate et de la taille d&#039;une porte, soit un solide simple de la taille d&#039;un coffre.  
+ Lors de sa création, le personnage peut choisir un nombre de clés inférieur ou égale à son score d&#039;_Instinct_ en _Imposer_. Une clé peut-être n&#039;importe quel objet tant qu&#039;il a une taille lui permettant de tenir dans une main. Lorsqu’un personnage tient une clé en main, il peut traverser le champ de force sans problème.  
+ Le personnage peut également choisir en plus ou à la place de clés un mot de passe qui devra être prononcé à voix haute pour pouvoir traverser le champ de force.
 
-Le champ de force est complètement invisible et indestructible. Le seul moyen d&#039;annuler l&#039;effet et d&#039;utiliser une décharge arcanique à nouveau (cela est valable pour le créateur ou n&#039;importe quel initié adepte de l&#039;Ether).
+Lorsqu&#039;il crée le champ de force, le personnage peut, au choix créer une paroi nue et invisible ou enchanter un objet à sa disposition : une porte qui devient alors incassable, un coffre qui devient inviolable, etc.
+
+Le seul moyen de forcer la protection est d&#039;utiliser une décharge arcanique à nouveau (cela est valable pour le créateur ou n&#039;importe quel initié adepte de _l&#039;Ether_).
 ## La Purge
 ### Animation
 
@@ -74,6 +79,26 @@ Si le _facteur de puissance_ de la cible est au moins inférieur de 5 points à 
 Produit une catastrophe naturelle destructrice. Au choix, un tremblement de terre de forte magnétude, un raz-de-marée (si une grande étendue d&#039;eau est à proximité), une tornade, une explosion volcanique, etc.  
  Le phénomène dure pendant quelques minutes, détruit les constructions en toile ou en bois et endomage sérieusement les constructions en pierre sur une zone de 1 km de diamètre.
 ## La Toile
+### Étendue confinée
+
+**Crée un espace plus grand à l&#039;intérieur qu&#039;à l&#039;extérieur**
+
+Le personnage peut augmenter grandement le volume d&#039;une zone de l&#039;espace sans pour autant en changer sa surface.  
+ Cela lui permet par exemple de transformer un modeste placard en maison, une cabane en château, etc.
+
+Pour un observateur extérieur, si le lieu est clôt, rien n&#039;est perceptible, mais une fois entré dans la zone en question, le volume devient 20 fois supérieur à ce qu&#039;il paraissait être.  
+ S&#039;il ne s&#039;agit pas d&#039;un lieu clôt, les observateurs extérieurs voient les individus et les objets dans la zone réduit de 10 fois ce qu&#039;ils devraient paraître.
+### Portail de téléportation
+
+**Relie de manière permanente deux lieux éloignés**
+
+Le personnage peut créer un portail permanent qui relie alors l&#039;endroit où il utilise la décharge à un autre lieu éloigné qu&#039;il a déjà visité.
+
+Le portail ainsi créé est une surface plane qui peut être orientée comme le souhaite le personnage mais ne pourra plus par la suite être déplacé.  
+ Un portail similaire s&#039;ouvre dans le lieux éloigné choisit par le personnage.  
+ N&#039;importe qui peut emprunter ce passage autant de fois qu&#039;il le souhaite. Pour protéger ces passages stratégiques, les initiés ont souvent recours à une autre décharge de _Barrière de force_ afin d&#039;y restreindre l&#039;accès.
+
+Le seul moyen de refermer définitivement un tel portail est d&#039;utiliser une décharge arcanique à nouveau (cela est valable pour le créateur ou n&#039;importe quel initié adepte de _la Toile_).
 ### Seconde chance
 
 **Reviens quelques instants dans le passé**
