@@ -132,8 +132,8 @@
         "name": "Facteur de puissance",
         "enabled": true,
         "public": true,
-        "short": "Facteur de puissance",
-        "description": "<p>Facteur de puissance<\/p>"
+        "short": "Mesure de la dangerosité d'une entité",
+        "description": "<p>Le <strong>facteur de puissance<\/strong><em>&nbsp;(FP)<\/em> d&#39;une [entit&eacute;](lexicon:entity) est &eacute;gale au nombre de [points de cr&eacute;ation](lexicon:pc) utilis&eacute;s lors de sa [cr&eacute;ation](page:create-character) ainsi que ceux qu&#39;il a acquis en absorbant de l&#39;[arcanite](lexicon:arcanite) par la suite.<\/p>\r\n\r\n<p>De plus, 2 [points de ma&icirc;trise](lexicon:proficiency) &eacute;quivalent &agrave; 1 point de FP&nbsp;suppl&eacute;mentaire.<br \/>\r\nDe plus, 10 000&nbsp;[Ct](lexicon:carats) d&#39;&eacute;quipement &eacute;quivalent &agrave; 1 point de FP suppl&eacute;mentaire.<\/p>"
     },
     {
         "id": "impact",

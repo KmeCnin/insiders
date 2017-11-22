@@ -16,32 +16,33 @@ Notion | Résumé
 **[Arcanite](#anchor-arcanite)** | Roche cristalline présentant des propriétés surnaturelles
 **[Atalis](#anchor-atalis)** | Planète sur laquelle évoluent les personnages
 **[Attribut physique](#anchor-attribut-physique)** | Compétence physique naturelle ou acquise
-**[Blessure](#anchor-blessure)** | Blessure
+**[Blessure](#anchor-blessure)** | Entité handicapant un personnage
 **[Capacité arcanique](#anchor-capacite-arcanique)** | Pouvoir surnaturel conféré par l&#039;absorption d&#039;un cristal d&#039;arcanite
 **[Caractéristique](#anchor-caracteristique)** | Capacité d&#039;une entité à s&#039;opposer à une autre
 **[Charge d&#039;arcanite](#anchor-charge-d-arcanite)** | Unité d&#039;énergie stockée dans un cristal d&#039;arcanite pouvant être absorbé
 **[Contact](#anchor-contact)** | Distance réduite propice aux attaques de mêlée
 **[Décharge d&#039;arcanite](#anchor-decharge-d-arcanite)** | Effet spectaculaire déclenché par la libération d&#039;une charge de cristal d&#039;arcanite
-**[Distance](#anchor-distance)** | Distance
+**[Distance](#anchor-distance)** | Portée à laquelle un personnage est capable d&#039;intéragir
 **[Distrait](#anchor-distrait)** | Etat de faiblesse mentale réduisant les performances d&#039;un personnage
 **[Divinité arcanique](#anchor-divinite-arcanique)** | Etre tout-puissant résidant au sein de l&#039;Elyseum
 **[Entité](#anchor-entite)** | Etre vivant ou chose qui possède des caractéristiques
 **[Équipement](#anchor-equipement)** | Objet porté par un personnage conférant des bonus
 **[Facteur de puissance](#anchor-facteur-de-puissance)** | Mesure de la dangerosité d&#039;une entité
-**[Grand Impact](#anchor-grand-impact)** | Grand Impact
-**[Guérison](#anchor-guerison)** | Guérison
+**[Grand Impact](#anchor-grand-impact)** | Evènement historique correspondant à l&#039;arrivée de l&#039;arcanite
+**[Guérison](#anchor-guerison)** | Traitement permettant de supprimer une blessure
 **[Initié](#anchor-initie)** | Personnage ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
 **[Instinct](#anchor-instinct)** | Capacité physique ou mentale de l&#039;entité par rapport à son potentiel inné
 **[Maîtrise](#anchor-maitrise)** | Régularité de l&#039;entité dans l&#039;utilisation du plein potentiel de ses caractéristiques
-**[Maximiser un jet](#anchor-maximiser-un-jet)** | Maximiser un jet
-**[Minimiser un jet](#anchor-minimiser-un-jet)** | Minimiser un jet
-**[Obsylène](#anchor-obsylene)** | Obsylène
+**[Maximiser un jet](#anchor-maximiser-un-jet)** | Considérer que le résultat d&#039;un jet est le plus grand possible
+**[Minimiser un jet](#anchor-minimiser-un-jet)** | Considérer que le résultat d&#039;un jet est le plus petit possible
+**[Obsylène](#anchor-obsylene)** | Matière organique sombre et extrêmement résistante
+**[Orichalque](#anchor-orichalque)** | Métal brillant d&#039;une solidité extraordianire
 **[Point de création](#anchor-point-de-creation)** | Unité définissant une équivalence dans les éléments constitutifs de la création d&#039;un personnage
-**[Résistance](#anchor-resistance)** | Résistance
+**[Résistance](#anchor-resistance)** | Endurance extraordinaire aux blessures
 **[Simulacre](#anchor-simulacre)** | Invocation qui disparaît à la moindre blessure
 **[Sonné](#anchor-sonne)** | Etat de choc physique réduisant les performances d&#039;un personnage
-**[Tour de jeu](#anchor-tour-de-jeu)** | Tour de jeu
-**[Vitesse surnaturelle](#anchor-vitesse-surnaturelle)** | Vitesse surnaturelle
+**[Tour de jeu](#anchor-tour-de-jeu)** | Période pendant lequel chaque personnage peut réaliser une action
+**[Vitesse surnaturelle](#anchor-vitesse-surnaturelle)** | Rapidité de déplacement hors du commun
 
 ## <a name="anchor-aberration"></a> Aberration
 
@@ -79,7 +80,22 @@ Le nom de la planète vient des Atalantes, civilisation _pré-impact_ qui rayonn
 Les **attributs physiques** représentent des compétences particulières innées chez des animaux ou acquises par des personnages grâce à l&#039;entraînement ou suite à des mutations après absorption de _cristaux d&#039;arcanite_.
 ## <a name="anchor-blessure"></a> Blessure
 
-Blessure
+Une **blessure** est une entité liée à un personnage. Elle représente un handicap suite à un coup reçu, un effet arcanique, de la fatigue, l&#039;effet d&#039;un poison, etc.
+
+Il existe 3 degrés de blessure qui déterminent chacun les scores de _caractéristiques_ de celle-ci.  
+ Les **blessures de degré I** possèdent un score d&#039;_Instinct_ de 1 à chaque caractéristique. Il s&#039;agit de blessures superficielles qui gênent les actions du personnage sans pour autant le mettre à danger direct à moins qu&#039;elles soient infligées en nombre.  
+ Les **blessures de degré II** possèdent un score d&#039;Instinct de 2 à chaque caractéristique. Il s&#039;agit de blessures sérieuses qui handicapent grandement le personnage et peuvent facilement causer un évanouissement.  
+ Les **blessures de degré III** possèdent un score d&#039;Instinct de 3 à chaque caractéristique. Il s&#039;agit de blessures graves qui menacent directement la vie du personnage.
+
+Lorsqu&#039;un personnage blessé est amené à effectuer un _jet de caractéristique_, il doit tout d&#039;abord s&#039;opposer à ses blessures. Il lance son jet de manière classique mais, avant que son entité adverse ne lance son jet à elle, on effectue un jet contre les blessures du personnage. Pour cela il suffit de cumuler tous les degrés de blessures pour déterminer les caractéristiques totales utilisées pour le jet.  
+ Si le personnage perd son jet contre ses blessures, il s&#039;évanouit. Cela représente le fait qu&#039;il n&#039;est plus capable de supporter la douleur.  
+ Si le personnage réussit son jet contre ses blessures, l&#039;entité adverse effectue son jet normal et additionne son résultat à celui des blessures du joueur.
+
+Par exemple un personnage, avec une _blessure de degré I_ et une de _degré II_, désirant _attaquer_ un ours sauvage doit d&#039;abord effectuer un jet d&#039;_Imposer_ contre ses blessures. Les blessures en question cumulent 3 degrés (I et II), elles possèdent donc un score d&#039;_Instinct_ en _Résister_ de 3.  
+ Si le personnage fait un moins bon score que ses blessures, il s&#039;évanouit.  
+ Si le personnage fait un meilleur score que ses blessures, l&#039;ours lance ensuite son jet de Résister et additionne son résultat à celui des blessures et risque donc de n&#039;avoir aucun mal à esquiver l&#039;attaque du personnage.
+
+On se rend vite compte que les blessures handicapent très rapidement les personnages. Il est donc indispensable de les _soigner_ rapidement.
 ## <a name="anchor-capacite-arcanique"></a> Capacité arcanique
 
 Un _initié_ ou une _aberration_ maîtrisant un _arcane_ particulier est capable d&#039;acquérir des **capacités arcaniques** liées à ce dernier lui conférant alors des pouvoirs surnaturels.
@@ -116,7 +132,9 @@ Deux _entités_ sont considérées **au contact** si elles se situent assez proc
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
 ## <a name="anchor-distance"></a> Distance
 
-Distance
+De manière générale, on considère qu&#039;un personnage est à **distance** suffisante d&#039;une cible lorsqu&#039;il se trouve à environ 100 mètres de celle-ci.
+
+Cela vaut pour les _attaques_ à l&#039;arme de trait (arc, arbalète...) ou les _capacités arcaniques_ ne nécessitant pas d&#039;être _au contact_.
 ## <a name="anchor-distrait"></a> Distrait
 
 Un personnage **distrait** a subit une attaque ou un effet très déstabilisant l&#039;empêchant de maîtriser pleinement son esprit pendant un court moment.
@@ -149,10 +167,19 @@ De plus, 2 _points de maîtrise_ équivalent à 1 point de FP supplémentaire.
  De plus, 10 000 _Ct_ d&#039;équipement équivalent à 1 point de FP supplémentaire.
 ## <a name="anchor-grand-impact"></a> Grand Impact
 
-Grand Impact
+L&#039;Empire atalante connut une fin aussi subite que violente avec l&#039;arrivée de la grande météorite d&#039;_arcanite_.  
+ Cet événement connu sous le nom de **Grand Impact** marque la fin d&#039;une longue période de paix et de prospérité qui laisse place à une époque tourmentée et instable.
 ## <a name="anchor-guerison"></a> Guérison
 
-Guérison
+Les _blessures_ sont des handicapes très contraignants.
+
+Pour **guérir** une _blessure de degré I_, il suffit de réussir un jet de _Soin_ opposé à un jet de _Dissimuler_ de la blessure. On peut avoir recours à des _équipements_ ou consommables pour augmenter les chances de succès.  
+ Le personnage blessé peut se faire soigner, ou tenter de se soigner lui-même. Mais dans ce dernier cas, il subira alors le malus dû à ses blessures.  
+ Si le soin réussit, la blessure disparaît immédiatement. Sinon, il est possible de réessayer indéfiniment.
+
+Les _blessures de degré II et III_ sont bien plus complexes que les premières. Le traitement est identique, mais le personnage doit, à la suite du soin, se reposer pendant au moins 8 heures avant d&#039;effectuer le jet de soin pour déterminer si la blessure est guérit ou non.
+
+L&#039;_arcane_ de _l&#039;Essence_ facilite grandement ce processus. En effet, un _initié_ possédant la capacité _Transfert de force vitale_ (ou _Vampirisme_) est capable de guérir les blessures en utilisant son score d&#039;_Instinct_ en _Résister_ et cela sans délai quelque soit le degré de la blessure.
 ## <a name="anchor-initie"></a> Initié
 
 Personnage ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
@@ -170,19 +197,41 @@ Pour un personnage, il s&#039;agit de ses capacités physiques ou mentales.
  Pour un objet, il s&#039;agit de son efficacité.
 ## <a name="anchor-maximiser-un-jet"></a> Maximiser un jet
 
-Maximiser un jet
+Il arrive qu&#039;une entité puisse **maximiser** **un jet** de _caractéristique_.  
+ Cela signifie que l&#039;on considère que l&#039;_entité_ est capable de donner le meilleur d&#039;elle même ou bien que son entité adverse ne représente aucun enjeu pour elle.
+
+Dans ce cas, l&#039;entité ne lance pas son jet et calcule directement son résultat à partir du maximum qu&#039;elle est capable de réaliser. Autrement dit, son résultat est égale à 6 multiplié par son score d&#039;_Instinct_ dans la caractéristique en question.
 ## <a name="anchor-minimiser-un-jet"></a> Minimiser un jet
 
-Minimiser un jet
+Il arrive qu&#039;une entité doive **minimiser** **un jet** de _caractéristique_.  
+ Cela signifie que l&#039;on considère que l&#039;_entité_ est incapable d&#039;avoir recours à son potentiel habituel à cause d&#039;un état préjudiciable ou d&#039;une gène.
+
+Dans ce cas, l&#039;entité ne lance pas son jet et calcule directement son résultat à partir du minimum qu&#039;elle est capable de réaliser. Autrement dit, son résultat est égale à son score d&#039;_Instinct_ dans la caractéristique en question.
 ## <a name="anchor-obsylene"></a> Obsylène
 
-Obsylène
+L&#039;**obsylène** est une matière organique produite par de rares _initiés_ ou _aberrations_.
+
+Aussi sombre que la roche d&#039;obsidienne dont elle tire son nom, cette matière est encore plus résistante que la roche volcanique. Elle n&#039;a cependant aucun rapport dans sa composition chimique composée en grande partie de carbon.
+
+Les êtres vivants constitués d&#039;obsylène possèdent une _résistance_ aux coups extraordinaire semblable à l&#039;_orichalque_.  
+ Cependant il est impossible d&#039;en faire des objets car une fois retirée de son hôte vivant, la matière s’effrite rapidement pour tomber en poussière.
+## <a name="anchor-orichalque"></a> Orichalque
+
+L&#039;**orichalque** est un métal rare extrêmement résistant (autant que l&#039;_obsylène_) qui confère aux équipements une _résistance_ aux coups physiques.
+
+Il s&#039;agit d&#039;une matière brillante présentant des reflets semblables à l&#039;or, au cuivre et au bronze. Elle coûte extrêmement cher et est très recherchée des combatants.
 ## <a name="anchor-point-de-creation"></a> Point de création
 
 Unité définissant une équivalence dans les éléments constitutifs de la création d&#039;un personnage
 ## <a name="anchor-resistance"></a> Résistance
 
-Résistance
+Il existe des personnages possédant **une résistance** aux _blessures_ leur conférant une endurance extraordinaire.
+
+En effet, un personnage résistant à un type de blessure particulier est capable de réduire les blessures qu&#039;il reçoit d&#039;un degré.  
+ Il ignorera donc complètement les _blessures de degré I_. Celles de _degré II_ deviendront _degré I_ et celles de _degré III_ deviendront _degré II_.
+
+Par exemple la _capacité arcanique_ _Corps d&#039;obsylène_ confère au personnage une résistance contre les coups physiques (lames, flèches, poings...) uniquement.  
+ Alors qu&#039;un _équipement_ ignifugé conférera à son porteur une résistance contre les blessures par brûlure uniquement.
 ## <a name="anchor-simulacre"></a> Simulacre
 
 Un simulacre est une invocation arcanique créée la plupart du temps par un initié mais il arrive qu&#039;il s&#039;agisse de manifestations spontanées.
@@ -196,7 +245,13 @@ Pendant un tour, le personnage sonné _minimisera_ alors automatiquement son pro
  De plus, à la discrétion du Maître du jeu, il peut ne pas être en état de tenter des actions physiques trop complexes.
 ## <a name="anchor-tour-de-jeu"></a> Tour de jeu
 
-Tour de jeu
+Un **tour de jeu** n&#039;est pas définit par une durée temporelle précise. Il s&#039;agit simplement d&#039;un moment pendant lequel chaque personnage peut réaliser une action simple comme _attaquer_, utiliser une _capacité arcanique_, se déplacer, etc.
+
+Il n&#039;y a pas d&#039;ordre d&#039;action définit, chaque personnage peut agir lorsque le _Maître du jeu_ le décide ou dès que le _joueur_ se manifeste s&#039;il n&#039;y a pas de contrainte imposée.
+
+L&#039;important lors d&#039;un tour de jeu est que chaque _joueur_ ai déclaré ce que son personnage compte accomplir, la résolution de l&#039;action pouvant avoir lieu immédiatement ou bien de manière différée, à la discrétion du _Maître du jeu_.
 ## <a name="anchor-vitesse-surnaturelle"></a> Vitesse surnaturelle
 
-Vitesse surnaturelle
+Lorsque l&#039;on parle de **vitesse surnaturelle**, on fait référence à un moyen de déplacement extrêmement rapide pouvant atteindre la vitesse d&#039;une flèche tirée à l&#039;arc, soit environ 200 kilomètres par heure.
+
+Cette rapidité n&#039;est pas normalement atteignable par un humain mais les _initiés_ maîtrisant _les capacités_ de _l&#039;Ether_ _Vélocité_ ou _Lévitation_ augmentée en sont capables.
