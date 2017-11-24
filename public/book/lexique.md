@@ -167,7 +167,7 @@ De plus, 2 _points de maîtrise_ équivalent à 1 point de FP supplémentaire.
  De plus, 10 000 _Ct_ d&#039;équipement équivalent à 1 point de FP supplémentaire.
 ## <a name="anchor-grand-impact"></a> Grand Impact
 
-L&#039;Empire atalante connut une fin aussi subite que violente avec l&#039;arrivée de la grande météorite d&#039;_arcanite_.  
+L&#039;Empire atalante connut une fin aussi subite que violente avec l&#039;arrivée de la grande météorite d&#039;_arcanite_ sur _Atalis_.  
  Cet événement connu sous le nom de **Grand Impact** marque la fin d&#039;une longue période de paix et de prospérité qui laisse place à une époque tourmentée et instable.
 ## <a name="anchor-guerison"></a> Guérison
 

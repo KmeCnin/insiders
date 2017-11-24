@@ -45,6 +45,15 @@
         "characteristic": "hide"
     },
     {
+        "id": "heal",
+        "name": "Soin",
+        "enabled": true,
+        "public": true,
+        "short": "Capacité à guérir une blessure",
+        "description": "<p>Capacit&eacute; &agrave; gu&eacute;rir une blessure<\/p>",
+        "characteristic": "reveal"
+    },
+    {
         "id": "vision",
         "name": "Vision",
         "enabled": true,

@@ -44,8 +44,8 @@
         "name": "Blessure",
         "enabled": true,
         "public": true,
-        "short": "Blessure",
-        "description": "<p>Blessure<\/p>"
+        "short": "Entité handicapant un personnage",
+        "description": "<p>Une <strong>blessure<\/strong> est une entit&eacute; li&eacute;e &agrave; un personnage. Elle repr&eacute;sente un handicap suite &agrave; un coup re&ccedil;u, un effet arcanique, de la fatigue, l&#39;effet d&#39;un poison, etc.<\/p>\r\n\r\n<p>Il existe 3 degr&eacute;s de blessure qui d&eacute;terminent chacun les scores de [caract&eacute;ristiques](lexicon:characteristic) de celle-ci.<br \/>\r\nLes <strong>blessures de degr&eacute; I<\/strong>&nbsp;poss&egrave;dent un score d&#39;[Instinct](lexicon:instinct) de 1 &agrave; chaque caract&eacute;ristique. Il s&#39;agit de blessures superficielles qui g&ecirc;nent les actions du personnage sans pour autant le mettre &agrave; danger direct &agrave; moins qu&#39;elles soient inflig&eacute;es en nombre.<br \/>\r\nLes <strong>blessures de degr&eacute; II<\/strong>&nbsp;poss&egrave;dent un score d&#39;Instinct de 2&nbsp;&agrave; chaque caract&eacute;ristique. Il s&#39;agit de blessures s&eacute;rieuses qui handicapent grandement le personnage et peuvent facilement causer un &eacute;vanouissement.<br \/>\r\nLes <strong>blessures de degr&eacute; III<\/strong>&nbsp;poss&egrave;dent un score d&#39;Instinct&nbsp;de 3&nbsp;&agrave; chaque caract&eacute;ristique. Il s&#39;agit de blessures graves qui menacent directement la vie du personnage.<\/p>\r\n\r\n<p>Lorsqu&#39;un personnage bless&eacute; est amen&eacute; &agrave; effectuer un [jet de caract&eacute;ristique](lexicon:lexicon:characteristic), il doit tout d&#39;abord s&#39;opposer &agrave; ses blessures. Il lance son jet de mani&egrave;re classique mais, avant que&nbsp;son entit&eacute; adverse ne lance son jet &agrave; elle, on effectue un jet contre les blessures du personnage. Pour cela il suffit de cumuler tous les degr&eacute;s de blessures pour d&eacute;terminer les caract&eacute;ristiques totales utilis&eacute;es pour le jet.<br \/>\r\nSi le personnage perd son jet contre ses blessures, il s&#39;&eacute;vanouit. Cela repr&eacute;sente le fait qu&#39;il n&#39;est plus capable de supporter la douleur.<br \/>\r\nSi le personnage r&eacute;ussit son jet contre ses blessures, l&#39;entit&eacute; adverse effectue son jet normal et additionne son r&eacute;sultat &agrave; celui des blessures du joueur.<\/p>\r\n\r\n<p>Par exemple un personnage, avec une <em>blessure de degr&eacute; I<\/em> et une de <em>degr&eacute; II<\/em>, d&eacute;sirant [attaquer](skill:attack) un ours sauvage doit d&#39;abord effectuer un jet d&#39;[Imposer](characteristic:force) contre ses blessures. Les blessures en question cumulent 3 degr&eacute;s (I et II), elles poss&egrave;dent donc un score d&#39;[Instinct](lexicon:instinct) en [R&eacute;sister](characteristic:resist) de 3.<br \/>\r\nSi le personnage fait un moins bon score que ses blessures, il s&#39;&eacute;vanouit.<br \/>\r\nSi le personnage fait un meilleur score que ses blessures, l&#39;ours lance ensuite son jet de R&eacute;sister et additionne son r&eacute;sultat &agrave; celui des blessures et risque donc de n&#39;avoir aucun mal &agrave; esquiver l&#39;attaque du personnage.<\/p>\r\n\r\n<p>On se rend vite compte que les blessures handicapent tr&egrave;s rapidement les personnages. Il est donc indispensable de les [soigner](lexicon:heal) rapidement.<\/p>"
     },
     {
         "id": "ability",
@@ -92,8 +92,8 @@
         "name": "Distance",
         "enabled": true,
         "public": true,
-        "short": "Distance",
-        "description": "<p>Distance<\/p>"
+        "short": "Portée à laquelle un personnage est capable d'intéragir",
+        "description": "<p>De mani&egrave;re g&eacute;n&eacute;rale, on consid&egrave;re qu&#39;un personnage est &agrave; <strong>distance<\/strong> suffisante d&#39;une cible lorsqu&#39;il se trouve &agrave; environ 100 m&egrave;tres de celle-ci.<\/p>\r\n\r\n<p>Cela vaut pour les [attaques](skill:attack) &agrave; l&#39;arme de trait (arc, arbal&egrave;te...) ou les [capacit&eacute;s arcaniques](lexicon:ability) ne n&eacute;cessitant pas d&#39;&ecirc;tre [au contact](lexicon:contact).<\/p>"
     },
     {
         "id": "distract",
@@ -140,16 +140,16 @@
         "name": "Grand Impact",
         "enabled": true,
         "public": true,
-        "short": "Grand Impact",
-        "description": "<p>Grand Impact<\/p>"
+        "short": "Evènement historique correspondant à l'arrivée de l'arcanite",
+        "description": "<p>L&#39;Empire atalante connut une fin aussi subite que violente avec l&#39;arriv&eacute;e de la grande m&eacute;t&eacute;orite d&#39;[arcanite](lexicon:arcanite).<br \/>\r\nCet &eacute;v&eacute;nement connu sous le nom de <strong>Grand Impact<\/strong> marque la fin d&#39;une longue p&eacute;riode de paix et de prosp&eacute;rit&eacute; qui laisse place &agrave; une &eacute;poque tourment&eacute;e et instable.<\/p>"
     },
     {
         "id": "heal",
         "name": "Guérison",
         "enabled": true,
         "public": true,
-        "short": "Guérison",
-        "description": "<p>Gu&eacute;rison<\/p>"
+        "short": "Traitement permettant de supprimer une blessure",
+        "description": "<p>Les [blessures](lexicon:wound) sont des handicapes tr&egrave;s contraignants.<\/p>\r\n\r\n<p>Pour <strong>gu&eacute;rir<\/strong> une<em> blessure de degr&eacute; I<\/em>, il suffit de r&eacute;ussir un jet de [Soin](skill:reveal) oppos&eacute; &agrave; un jet de [Dissimuler](characteristic:hide) de la blessure. On peut avoir recours &agrave; des [&eacute;quipements](lexicon:stuff) ou consommables pour augmenter les chances de succ&egrave;s.<br \/>\r\nLe personnage bless&eacute; peut se faire&nbsp;soigner, ou tenter de se soigner lui-m&ecirc;me. Mais dans ce dernier cas, il subira alors le malus d&ucirc; &agrave; ses blessures.<br \/>\r\nSi le soin r&eacute;ussit, la blessure dispara&icirc;t imm&eacute;diatement. Sinon, il est possible de r&eacute;essayer ind&eacute;finiment.<\/p>\r\n\r\n<p>Les <em>blessures de degr&eacute; II et III<\/em> sont bien plus complexes que les premi&egrave;res. Le traitement est identique, mais le personnage doit, &agrave; la suite du soin, se reposer pendant au moins 8 heures avant d&#39;effectuer le jet de soin pour d&eacute;terminer si la blessure est gu&eacute;rit ou non.<\/p>\r\n\r\n<p>L&#39;[arcane](lexicon:arcane) de [l&#39;Essence](arcane:life) facilite grandement ce processus. En effet, un [initi&eacute;](lexicon:insider) poss&eacute;dant la capacit&eacute; [Transfert de force vitale](ability:vital-force)&nbsp;(ou [Vampirisme](ability:vampirisme)) est capable de gu&eacute;rir les blessures en utilisant son score d&#39;[Instinct](lexicon:instinct) en [R&eacute;sister](characteristic:resist) et cela sans d&eacute;lai quelque soit le degr&eacute; de la blessure.<\/p>"
     },
     {
         "id": "insider",
@@ -180,24 +180,32 @@
         "name": "Maximiser un jet",
         "enabled": true,
         "public": true,
-        "short": "Maximiser un jet",
-        "description": "<p>Maximiser un jet<\/p>"
+        "short": "Considérer que le résultat d'un jet est le plus grand possible",
+        "description": "<p>Il arrive qu&#39;une entit&eacute; puisse <strong>maximiser<\/strong> <strong>un jet <\/strong>de [caract&eacute;ristique](lexicon:characteristic).<br \/>\r\nCela signifie que l&#39;on consid&egrave;re que l&#39;[entit&eacute;](lexicon:entity) est capable de donner le meilleur d&#39;elle m&ecirc;me ou bien que son entit&eacute; adverse ne repr&eacute;sente aucun enjeu pour elle.<\/p>\r\n\r\n<p>Dans ce cas, l&#39;entit&eacute; ne lance pas son jet&nbsp;et calcule directement son r&eacute;sultat &agrave; partir du maximum qu&#39;elle est capable de r&eacute;aliser. Autrement dit, son r&eacute;sultat est &eacute;gale &agrave; 6 multipli&eacute; par son score d&#39;[Instinct](lexicon:instinct) dans la caract&eacute;ristique en question.<\/p>"
     },
     {
         "id": "minimize",
         "name": "Minimiser un jet",
         "enabled": true,
         "public": true,
-        "short": "Minimiser un jet",
-        "description": "<p>Minimiser un jet<\/p>"
+        "short": "Considérer que le résultat d'un jet est le plus petit possible",
+        "description": "<p>Il arrive qu&#39;une entit&eacute; doive&nbsp;<strong>minimiser<\/strong> <strong>un jet <\/strong>de [caract&eacute;ristique](lexicon:characteristic).<br \/>\r\nCela signifie que l&#39;on consid&egrave;re que l&#39;[entit&eacute;](lexicon:entity) est incapable d&#39;avoir recours &agrave; son potentiel habituel &agrave; cause d&#39;un &eacute;tat pr&eacute;judiciable ou d&#39;une g&egrave;ne.<\/p>\r\n\r\n<p>Dans ce cas, l&#39;entit&eacute; ne lance pas son jet&nbsp;et calcule directement son r&eacute;sultat &agrave; partir du minimum qu&#39;elle est capable de r&eacute;aliser. Autrement dit, son r&eacute;sultat est &eacute;gale &agrave; son score d&#39;[Instinct](lexicon:instinct) dans la caract&eacute;ristique en question.<\/p>"
     },
     {
         "id": "obsylene",
         "name": "Obsylène",
         "enabled": true,
         "public": true,
-        "short": "Obsylène",
-        "description": "<p>Obsyl&egrave;ne<\/p>"
+        "short": "Matière organique sombre et extrêmement résistante",
+        "description": "<p>L&#39;<strong>obsyl&egrave;ne<\/strong> est une mati&egrave;re organique produite par de rares [initi&eacute;s](lexicon:insider) ou [aberrations](lexicon:monster).<\/p>\r\n\r\n<p>Aussi sombre que la roche d&#39;obsidienne dont elle tire son nom, cette mati&egrave;re est encore plus r&eacute;sistante que la roche volcanique. Elle n&#39;a cependant aucun rapport dans sa composition chimique compos&eacute;e en grande partie de carbon.<\/p>\r\n\r\n<p>Les &ecirc;tres vivants constitu&eacute;s d&#39;obsyl&egrave;ne poss&egrave;dent une [r&eacute;sistance](lexicon:resistance) aux coups extraordinaire semblable &agrave; l&#39;[orichalque](lexicon:orichalcum).<br \/>\r\nCependant il est impossible d&#39;en faire des objets car une fois retir&eacute;e de son h&ocirc;te vivant, la mati&egrave;re s&rsquo;effrite rapidement pour tomber en poussi&egrave;re.<\/p>"
+    },
+    {
+        "id": "orichalcum",
+        "name": "Orichalque",
+        "enabled": true,
+        "public": true,
+        "short": "Métal brillant d'une solidité extraordianire",
+        "description": "<p>L&#39;<strong>orichalque<\/strong> est un m&eacute;tal rare extr&ecirc;mement r&eacute;sistant (autant que l&#39;[obsyl&egrave;ne](lexicon:obsylene)) qui conf&egrave;re aux &eacute;quipements une [r&eacute;sistance](lexicon:resistance) aux coups physiques.<\/p>\r\n\r\n<p>Il s&#39;agit d&#39;une mati&egrave;re brillante pr&eacute;sentant des reflets semblables &agrave; l&#39;or, au cuivre et au bronze. Elle co&ucirc;te extr&ecirc;mement cher et est tr&egrave;s recherch&eacute;e des combatants.<\/p>"
     },
     {
         "id": "pc",
@@ -212,8 +220,8 @@
         "name": "Résistance",
         "enabled": true,
         "public": true,
-        "short": "Résistance",
-        "description": "<p>R&eacute;sistance<\/p>"
+        "short": "Endurance extraordinaire aux blessures",
+        "description": "<p>Il existe des personnages poss&eacute;dant&nbsp;<strong>une r&eacute;sistance<\/strong>&nbsp;aux [blessures](lexicon:wound) leur conf&eacute;rant une endurance extraordinaire.<\/p>\r\n\r\n<p>En effet, un personnage r&eacute;sistant &agrave; un type de blessure particulier est capable de r&eacute;duire les blessures qu&#39;il re&ccedil;oit d&#39;un degr&eacute;.<br \/>\r\nIl ignorera donc compl&egrave;tement les <em>blessures de degr&eacute; I<\/em>. Celles de <em>degr&eacute; II<\/em> deviendront <em>degr&eacute; I<\/em> et celles de<em> degr&eacute; III<\/em> deviendront <em>degr&eacute; II<\/em>.<\/p>\r\n\r\n<p>Par exemple la [capacit&eacute; arcanique](lexicon:ability) [Corps d&#39;obsyl&egrave;ne](ability:mineral-body) conf&egrave;re au personnage une r&eacute;sistance contre les coups physiques (lames, fl&egrave;ches, poings...) uniquement.<br \/>\r\nAlors qu&#39;un [&eacute;quipement](lexicon:stuff) ignifug&eacute; conf&eacute;rera &agrave; son porteur une r&eacute;sistance contre les blessures par br&ucirc;lure uniquement.<\/p>"
     },
     {
         "id": "travesty",
@@ -236,15 +244,15 @@
         "name": "Tour de jeu",
         "enabled": true,
         "public": true,
-        "short": "Tour de jeu",
-        "description": "<p>Tour de jeu<\/p>"
+        "short": "Période pendant lequel chaque personnage peut réaliser une action",
+        "description": "<p>Un <strong>tour de jeu<\/strong> n&#39;est pas d&eacute;finit par une dur&eacute;e temporelle pr&eacute;cise. Il s&#39;agit simplement d&#39;un moment pendant lequel chaque personnage peut r&eacute;aliser une action simple comme [attaquer](skill:attack), utiliser une [capacit&eacute; arcanique](lexicon:ability), se d&eacute;placer, etc.<\/p>\r\n\r\n<p>Il n&#39;y a pas d&#39;ordre d&#39;action d&eacute;finit, chaque personnage peut agir&nbsp;lorsque le <em>Ma&icirc;tre du jeu <\/em>le d&eacute;cide ou d&egrave;s que le <em>joueur<\/em> se manifeste s&#39;il n&#39;y a pas de contrainte impos&eacute;e.<\/p>\r\n\r\n<p>L&#39;important lors d&#39;un tour de jeu est que chaque <em>joueur<\/em> ai d&eacute;clar&eacute; ce que son personnage compte accomplir, la r&eacute;solution de l&#39;action pouvant avoir lieu imm&eacute;diatement ou bien de mani&egrave;re diff&eacute;r&eacute;e, &agrave; la discr&eacute;tion du <em>Ma&icirc;tre du jeu<\/em>.<\/p>"
     },
     {
         "id": "speed",
         "name": "Vitesse surnaturelle",
         "enabled": true,
         "public": true,
-        "short": "Vitesse surnaturelle",
-        "description": "<p>Vitesse surnaturelle<\/p>"
+        "short": "Rapidité de déplacement hors du commun",
+        "description": "<p>Lorsque l&#39;on parle de <strong>vitesse surnaturelle<\/strong>, on fait r&eacute;f&eacute;rence &agrave; un moyen de d&eacute;placement extr&ecirc;mement rapide pouvant atteindre la vitesse d&#39;une fl&egrave;che tir&eacute;e &agrave; l&#39;arc, soit environ 200 kilom&egrave;tres par heure.<\/p>\r\n\r\n<p>Cette rapidit&eacute; n&#39;est pas normalement atteignable par un humain mais les [initi&eacute;s](lexicon:insider) ma&icirc;trisant [les capacit&eacute;s](ability:ability) de [l&#39;Ether](arcane:ether) [V&eacute;locit&eacute;](ability:velocity) ou [L&eacute;vitation](ability:levitation) augment&eacute;e en sont capables.<\/p>"
     }
 ]
