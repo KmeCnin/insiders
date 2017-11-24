@@ -141,7 +141,7 @@
         "enabled": true,
         "public": true,
         "short": "Evènement historique correspondant à l'arrivée de l'arcanite",
-        "description": "<p>L&#39;Empire atalante connut une fin aussi subite que violente avec l&#39;arriv&eacute;e de la grande m&eacute;t&eacute;orite d&#39;[arcanite](lexicon:arcanite).<br \/>\r\nCet &eacute;v&eacute;nement connu sous le nom de <strong>Grand Impact<\/strong> marque la fin d&#39;une longue p&eacute;riode de paix et de prosp&eacute;rit&eacute; qui laisse place &agrave; une &eacute;poque tourment&eacute;e et instable.<\/p>"
+        "description": "<p>L&#39;Empire atalante connut une fin aussi subite que violente avec l&#39;arriv&eacute;e de la grande m&eacute;t&eacute;orite d&#39;[arcanite](lexicon:arcanite) sur [Atalis](lexicon:atalis).<br \/>\r\nCet &eacute;v&eacute;nement connu sous le nom de <strong>Grand Impact<\/strong> marque la fin d&#39;une longue p&eacute;riode de paix et de prosp&eacute;rit&eacute; qui laisse place &agrave; une &eacute;poque tourment&eacute;e et instable.<\/p>"
     },
     {
         "id": "heal",

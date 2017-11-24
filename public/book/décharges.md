@@ -32,7 +32,7 @@ Il conserve ses scores d&#039;_Instinct_ en _Dévoiler_ et _Dissimuler_, ses _po
 Le personnage crée un lien spirituel permanent avec un lieu ou un objet.
 
 Il peut choisir la position à laquelle il se trouve lorsqu&#039;il lance la décharge arcanique ou bien un objet qu&#039;il tient en main.  
- A partir de ce moment, le personnage est capable de percevoir à 360° comme s&#039;il se trouvait à l&#039;emplacement à à la place de l&#039;objet avec lequel il a créé le lien.  
+ A partir de ce moment, le personnage est capable de percevoir à 360° comme s&#039;il se trouvait à l&#039;emplacement ou à la place de l&#039;objet avec lequel il a créé le lien.  
  Ce lien perdure quelque soit l&#039;éloignement du personnage.
 
 Lorsque le personnage décide de voir à travers le lien, sa perception actuelle est remplacée par celle du lieu ou objet en question. Il peut donc se faire surprendre à ce moment.  

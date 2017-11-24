@@ -106,5 +106,14 @@
         "arcane": "web",
         "short": "Reviens quelques instants dans le passé",
         "description": "<p>L&#39;initi&eacute; effectue un bon dans le pass&eacute; d&#39;environ 5 minutes.<\/p>\r\n\r\n<p>Tous les &eacute;v&eacute;nements ayant eu lieu dans cet interval de temps sont annul&eacute;s mais l&#39;initi&eacute; est le seul &agrave; en conserve tout de m&ecirc;me un souvenir.<\/p>"
+    },
+    {
+        "id": "palantir",
+        "name": "Troisième œil",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Peut surveiller un lieu ou un objet en permanence",
+        "description": "<p>Le personnage cr&eacute;e un lien spirituel permanent avec un lieu ou un objet.<\/p>\r\n\r\n<p>Il peut choisir la position &agrave; laquelle il se trouve lorsqu&#39;il lance la d&eacute;charge arcanique ou bien un objet qu&#39;il tient en main.<br \/>\r\nA partir de ce moment, le personnage est capable de percevoir &agrave; 360&deg; comme s&#39;il se trouvait &agrave; l&#39;emplacement &agrave; &agrave; la place de l&#39;objet avec lequel il a cr&eacute;&eacute; le lien.<br \/>\r\nCe lien perdure quelque soit l&#39;&eacute;loignement du personnage.<\/p>\r\n\r\n<p>Lorsque le personnage d&eacute;cide de voir &agrave; travers le lien, sa perception actuelle est remplac&eacute;e par celle du lieu ou objet en question. Il peut donc se faire surprendre &agrave; ce moment.<br \/>\r\nIl est impossible, pour un observateur ext&eacute;rieure, de se rendre compte de la scrutation du personnage.<\/p>"
     }
 ]
