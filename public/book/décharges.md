@@ -25,6 +25,18 @@ L&#039;initié échange de corps avec une cible _à distance_. Il se retrouve al
  La cible doit avoir un _facteur de puissance_ supérieur au maximum de 5 points du sien.
 
 Il conserve ses scores d&#039;_Instinct_ en _Dévoiler_ et _Dissimuler_, ses _points de maîtrise_ dans toutes les _caractéristiques_ et ses _capacités arcaniques_. Il abandonne ses points d&#039;Instinct en _Imposer_ et _Résister_ ainsi que ses _attributs physiques_ et acquière celles de son nouveau corps.
+### Troisième œil
+
+**Peut surveiller un lieu ou un objet en permanence**
+
+Le personnage crée un lien spirituel permanent avec un lieu ou un objet.
+
+Il peut choisir la position à laquelle il se trouve lorsqu&#039;il lance la décharge arcanique ou bien un objet qu&#039;il tient en main.  
+ A partir de ce moment, le personnage est capable de percevoir à 360° comme s&#039;il se trouvait à l&#039;emplacement à à la place de l&#039;objet avec lequel il a créé le lien.  
+ Ce lien perdure quelque soit l&#039;éloignement du personnage.
+
+Lorsque le personnage décide de voir à travers le lien, sa perception actuelle est remplacée par celle du lieu ou objet en question. Il peut donc se faire surprendre à ce moment.  
+ Il est impossible, pour un observateur extérieure, de se rendre compte de la scrutation du personnage.
 ## L&#039;Essence
 ### Résurrection
 
