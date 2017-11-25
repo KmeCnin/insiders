@@ -146,6 +146,14 @@ easy_admin:
             list:
                 fields: ['id', 'name', 'slug', 'short', 'public', 'enabled']
                 sort: ['id', 'ASC']
+            form:
+                fields:
+                    - { property: enabled }
+                    - { property: public }
+                    - { property: id }
+                    - { property: name }
+                    - { property: short }
+                    - { property: description, type: ckeditor }
         Deity:
             class: App\Entity\Rule\Deity
             list:

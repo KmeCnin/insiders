@@ -27,19 +27,19 @@ Un score d&#039;Instinct élevé permettra donc d&#039;obtenir un résultat pote
 
 **Intelligence et lucidité**
 
-La caractéristique Dévoiler d&#039;un personnage représente son intelligence et sa lucidité. Elle détermine la capacité du personnage à connaître, à percevoir, à déceler une supercherie, etc.
+La caractéristique **Dévoiler** d&#039;un personnage représente son intelligence et sa lucidité. Elle détermine la capacité du personnage à connaître, à percevoir, à déceler une supercherie, etc.
 ## Dissimuler
 
 **Ruse et charisme**
 
-La caractéristique Dissimuler d&#039;un personnage représente sa ruse et son charisme. Elle détermine la capacité du personnage à être discret, à mentir, à manipuler autrui, etc.
+La caractéristique **Dissimuler** d&#039;un personnage représente sa ruse et son charisme. Elle détermine la capacité du personnage à être discret, à mentir, à manipuler autrui, etc.
 ## Imposer
 
 **Force et habileté**
 
-La caractéristique Imposer d&#039;un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à aggresser un autre personnage, à évoluer dans son environnement, à viser, etc.
+La caractéristique **Imposer** d&#039;un personnage représente sa force et son habileté physique. Elle détermine la capacité du personnage à agresser un autre personnage, à évoluer dans son environnement, à viser, etc.
 ## Résister
 
 **Vigueur et réflexes**
 
-La caractéristique Résister d&#039;un personnage représente sa forme physique et ses réflexes. Elle détermine la capacité du personnage à se protéger, à éviter, à être endurant, etc.
+La caractéristique **Résister** d&#039;un personnage représente sa forme physique et ses réflexes. Elle détermine la capacité du personnage à se protéger, à éviter, à être endurant, etc.
