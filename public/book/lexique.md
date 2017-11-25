@@ -11,7 +11,7 @@
 
 Notion | Résumé
 --- | ---
-**[Aberration](#anchor-aberration)** | Animal ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
+**[Aberration](#anchor-aberration)** | Entité ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
 **[Arcane](#anchor-arcane)** | Aspect de la réalité accessible uniquement à certains initiés
 **[Arcanite](#anchor-arcanite)** | Roche cristalline présentant des propriétés surnaturelles
 **[Atalis](#anchor-atalis)** | Planète sur laquelle évoluent les personnages
@@ -30,6 +30,7 @@ Notion | Résumé
 **[Facteur de puissance](#anchor-facteur-de-puissance)** | Mesure de la dangerosité d&#039;une entité
 **[Grand Impact](#anchor-grand-impact)** | Evènement historique correspondant à l&#039;arrivée de l&#039;arcanite
 **[Guérison](#anchor-guerison)** | Traitement permettant de supprimer une blessure
+**[Guilde](#anchor-guilde)** | Structure réunissant un groupe de personnage
 **[Initié](#anchor-initie)** | Personnage ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
 **[Instinct](#anchor-instinct)** | Capacité physique ou mentale de l&#039;entité par rapport à son potentiel inné
 **[Maîtrise](#anchor-maitrise)** | Régularité de l&#039;entité dans l&#039;utilisation du plein potentiel de ses caractéristiques
@@ -46,7 +47,10 @@ Notion | Résumé
 
 ## <a name="anchor-aberration"></a> Aberration
 
-Animal ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
+On nomme **aberration** toute _entité_ non-humaine ayant acquis des _capacités arcaniques_.
+
+Même s&#039;il s&#039;agit le plus souvent de bêtes sauvages, il existe des cas d&#039;aberrations ayant évolué à partir de végétaux ou groupes d&#039;insects.  
+ Il est même possible qu&#039;il s&#039;agisse d&#039;un lieu ayant absorbé l&#039;énergie arcanique diffusée par un cristal proche.
 ## <a name="anchor-arcane"></a> Arcane
 
 Les _initiés_ sont capables d&#039;absorber l&#039;énergie des _cristaux d&#039;arcanite_ pour débloquer une sensibilité particulière à des aspects de la réalités appelés **arcanes**. Un initié ayant débloqué un arcane spécifique acquière alors une compréhension singulière de cette facette de la réalité lui permettant de débloquer par la suite des _capacités arcaniques_ surnaturelles.
@@ -123,10 +127,16 @@ Lorsque 2 entités s&#039;opposent, elles effectuent chacune un jet de la caract
 Un score d&#039;Instinct élevé permettra donc d&#039;obtenir un résultat potentiellement plus grand mais avec une forte variation possible alors qu&#039;un score de Maîtrise élevé ne permet pas d&#039;augmenter le score maximum mais influera sur le résultat du jet pour le faire pencher vers son maximum plus souvent. Cela représente le fait que, sans expérience les capacités physiques restent sous exploitées et mal coordonnées alors que l&#039;expérience apporte une plus grande fiabilité et une meilleur connaissance de son corps sans pour autant réellement repousser les limites naturelles.
 ## <a name="anchor-charge-d-arcanite"></a> Charge d&#039;arcanite
 
-Unité d&#039;énergie stockée dans un cristal d&#039;arcanite pouvant être absorbé
+Les _cristaux d&#039;arcanite_ éparpillés sur _Atalis_ peuvent être de tailles et de formes variées.
+
+Ils possèdent cependant tous une certaine quantité d&#039;énergie arcanique qui ne peut pas prendre n&#039;importe quelle valeur, il s&#039;agit d&#039;une valeur discrète et non continue.  
+ La valeur d&#039;une unité de cette énergie est appelée **charge d&#039;arcanite**.  
+ Un cristal peut contenir un nombre de charge allant de 1 à 4 ou 5 voir même plus pour des cristaux exceptionnellement grands.
+
+L&#039;utilisation d&#039;une charge d&#039;arcanite permet de débloquer l&#039;équivalent d&#039;un _point de création_ pour un _initié_ ou une _aberration_ ou bien d&#039;utilise une _décharge d&#039;arcanite_.
 ## <a name="anchor-contact"></a> Contact
 
-Deux _entités_ sont considérées **au contact** si elles se situent assez proches l&#039;une de l&#039;autre pour pouvoir s&#039;attaquer avec des armes de mêlée (dague, épée, bâton, etc.) ou des armes naturelles (griffes, crocs, poings, etc.).
+Deux _entités_ sont considérées **au contact** si elles se situent assez proches l&#039;une de l&#039;autre pour pouvoir s&#039;attaquer avec des armes de mêlée (dague, épée, bâton...) ou des _attributs physiques_ (griffes, crocs, poings...).
 ## <a name="anchor-decharge-d-arcanite"></a> Décharge d&#039;arcanite
 
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
@@ -180,9 +190,19 @@ Pour **guérir** une _blessure de degré I_, il suffit de réussir un jet de _So
 Les _blessures de degré II et III_ sont bien plus complexes que les premières. Le traitement est identique, mais le personnage doit, à la suite du soin, se reposer pendant au moins 8 heures avant d&#039;effectuer le jet de soin pour déterminer si la blessure est guérit ou non.
 
 L&#039;_arcane_ de _l&#039;Essence_ facilite grandement ce processus. En effet, un _initié_ possédant la capacité _Transfert de force vitale_ (ou _Vampirisme_) est capable de guérir les blessures en utilisant son score d&#039;_Instinct_ en _Résister_ et cela sans délai quelque soit le degré de la blessure.
+## <a name="anchor-guilde"></a> Guilde
+
+Les continents d&#039;_Atalis_ sont constellés de **guildes** qui parsèment leur territoire.
+
+Une guilde est une structure, souvent liée à un lieu physique, regroupant des personnages désirant travailler ensemble. Le plus souvent il s&#039;agit d&#039;initiés car ils sont plus à même de remplir des missions dangereuses et compliquées.
+
+Le but de ce groupe est de vivre des missions qu&#039;il accomplit en rendant service aussi bien à de simples particuliers qu&#039;à de puissants royaumes. Leur motivation étant principalement l&#039;argent et la gloire.
 ## <a name="anchor-initie"></a> Initié
 
-Personnage ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
+Les humains ayant absorbé au moins une _charge d&#039;arcanite_ sont appelés **initiés**.  
+ Ils représentent environ 5 à 10% de la population, aussi n&#039;est-il pas rare d&#039;en croiser. Cependant, il est moins aisé de les reconnaître car seuls des modifications physiques visibles pourraient trahir leur nature extraordinaire.
+
+A la fois craint et respectés par les individus normaux, ils aiment se regrouper entre initiés au sein de structures appelées _guildes_.
 ## <a name="anchor-instinct"></a> Instinct
 
 L&#039;Instinct représente le potentiel inné d&#039;une _entité_, ce dont elle est naturellement capable.
@@ -222,7 +242,10 @@ L&#039;**orichalque** est un métal rare extrêmement résistant (autant que l&#
 Il s&#039;agit d&#039;une matière brillante présentant des reflets semblables à l&#039;or, au cuivre et au bronze. Elle coûte extrêmement cher et est très recherchée des combatants.
 ## <a name="anchor-point-de-creation"></a> Point de création
 
-Unité définissant une équivalence dans les éléments constitutifs de la création d&#039;un personnage
+On appelle **point de création** une unité permettant d&#039;équilibrer les puissances relatives des personnages.
+
+Le nombre de points de création utilisés lors de la _création d&#039;un personnage_ défini son _facteur de puissance_.  
+ Deux personnages ayant le même facteur de puissance auront utilisés le même nombre de points de création et devraient donc être à peu près équilibrés.
 ## <a name="anchor-resistance"></a> Résistance
 
 Il existe des personnages possédant **une résistance** aux _blessures_ leur conférant une endurance extraordinaire.

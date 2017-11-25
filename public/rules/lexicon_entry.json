@@ -4,8 +4,8 @@
         "name": "Aberration",
         "enabled": true,
         "public": true,
-        "short": "Animal ayant absorbé l'énergie d'un cristal d'arcanite",
-        "description": "<p>Animal ayant absorb&eacute; l&#39;&eacute;nergie d&#39;un cristal d&#39;arcanite<\/p>"
+        "short": "Entité ayant absorbé l'énergie d'un cristal d'arcanite",
+        "description": "<p>On nomme <strong>aberration<\/strong> toute [entit&eacute;](lexicon:entity) non-humaine ayant acquis des [capacit&eacute;s arcaniques](lexicon:ability).<\/p>\r\n\r\n<p>M&ecirc;me s&#39;il s&#39;agit le plus souvent de b&ecirc;tes sauvages, il existe des cas d&#39;aberrations ayant &eacute;volu&eacute; &agrave; partir de v&eacute;g&eacute;taux ou groupes d&#39;insects.<br \/>\r\nIl est m&ecirc;me possible qu&#39;il s&#39;agisse d&#39;un lieu ayant absorb&eacute; l&#39;&eacute;nergie arcanique diffus&eacute;e par un cristal proche.<\/p>"
     },
     {
         "id": "arcane",
@@ -69,7 +69,7 @@
         "enabled": true,
         "public": true,
         "short": "Unité d'énergie stockée dans un cristal d'arcanite pouvant être absorbé",
-        "description": "<p>Unit&eacute; d&#39;&eacute;nergie stock&eacute;e dans un cristal d&#39;arcanite pouvant &ecirc;tre absorb&eacute;<\/p>"
+        "description": "<p>Les [cristaux d&#39;arcanite](lexicon:arcanite) &eacute;parpill&eacute;s sur [Atalis](lexicon:atalis) peuvent &ecirc;tre de tailles et de formes vari&eacute;es.<\/p>\r\n\r\n<p>Ils poss&egrave;dent cependant tous une certaine quantit&eacute; d&#39;&eacute;nergie arcanique qui ne peut pas prendre n&#39;importe quelle valeur, il s&#39;agit d&#39;une valeur discr&egrave;te et non continue.<br \/>\r\nLa valeur d&#39;une unit&eacute; de cette &eacute;nergie est appel&eacute;e <strong>charge d&#39;arcanite<\/strong>.<br \/>\r\nUn cristal peut contenir un nombre de charge allant de 1 &agrave; 4 ou&nbsp;5 voir m&ecirc;me plus pour des cristaux exceptionnellement grands.<\/p>\r\n\r\n<p>L&#39;utilisation d&#39;une charge d&#39;arcanite permet de d&eacute;bloquer l&#39;&eacute;quivalent d&#39;un [point de cr&eacute;ation](lexicon:pc) pour un [initi&eacute;](lexicon:insider) ou une [aberration](lexicon:monster) ou bien d&#39;utilise une [d&eacute;charge d&#39;arcanite](lexicon:burst).<\/p>"
     },
     {
         "id": "contact",
@@ -77,7 +77,7 @@
         "enabled": true,
         "public": true,
         "short": "Distance réduite propice aux attaques de mêlée",
-        "description": "<p>Deux [entit&eacute;s](lexicon:entity) sont consid&eacute;r&eacute;es&nbsp;<strong>au contact<\/strong>&nbsp;si elles se situent assez proches l&#39;une de l&#39;autre pour pouvoir s&#39;attaquer avec des armes de m&ecirc;l&eacute;e (dague, &eacute;p&eacute;e, b&acirc;ton, etc.) ou des armes naturelles (griffes, crocs, poings, etc.).<\/p>"
+        "description": "<p>Deux [entit&eacute;s](lexicon:entity) sont consid&eacute;r&eacute;es&nbsp;<strong>au contact<\/strong>&nbsp;si elles se situent assez proches l&#39;une de l&#39;autre pour pouvoir s&#39;attaquer avec des armes de m&ecirc;l&eacute;e (dague, &eacute;p&eacute;e, b&acirc;ton...) ou des [attributs physiques](lexicon:attribute) (griffes, crocs, poings...).<\/p>"
     },
     {
         "id": "burst",
@@ -152,12 +152,20 @@
         "description": "<p>Les [blessures](lexicon:wound) sont des handicapes tr&egrave;s contraignants.<\/p>\r\n\r\n<p>Pour <strong>gu&eacute;rir<\/strong> une<em> blessure de degr&eacute; I<\/em>, il suffit de r&eacute;ussir un jet de [Soin](skill:reveal) oppos&eacute; &agrave; un jet de [Dissimuler](characteristic:hide) de la blessure. On peut avoir recours &agrave; des [&eacute;quipements](lexicon:stuff) ou consommables pour augmenter les chances de succ&egrave;s.<br \/>\r\nLe personnage bless&eacute; peut se faire&nbsp;soigner, ou tenter de se soigner lui-m&ecirc;me. Mais dans ce dernier cas, il subira alors le malus d&ucirc; &agrave; ses blessures.<br \/>\r\nSi le soin r&eacute;ussit, la blessure dispara&icirc;t imm&eacute;diatement. Sinon, il est possible de r&eacute;essayer ind&eacute;finiment.<\/p>\r\n\r\n<p>Les <em>blessures de degr&eacute; II et III<\/em> sont bien plus complexes que les premi&egrave;res. Le traitement est identique, mais le personnage doit, &agrave; la suite du soin, se reposer pendant au moins 8 heures avant d&#39;effectuer le jet de soin pour d&eacute;terminer si la blessure est gu&eacute;rit ou non.<\/p>\r\n\r\n<p>L&#39;[arcane](lexicon:arcane) de [l&#39;Essence](arcane:life) facilite grandement ce processus. En effet, un [initi&eacute;](lexicon:insider) poss&eacute;dant la capacit&eacute; [Transfert de force vitale](ability:vital-force)&nbsp;(ou [Vampirisme](ability:vampirisme)) est capable de gu&eacute;rir les blessures en utilisant son score d&#39;[Instinct](lexicon:instinct) en [R&eacute;sister](characteristic:resist) et cela sans d&eacute;lai quelque soit le degr&eacute; de la blessure.<\/p>"
     },
     {
+        "id": "guild",
+        "name": "Guilde",
+        "enabled": true,
+        "public": true,
+        "short": "Structure réunissant un groupe de personnage",
+        "description": "<p>Les continents d&#39;[Atalis](lexicon:atalis) sont constell&eacute;s de <strong>guildes<\/strong> qui pars&egrave;ment leur territoire.<\/p>\r\n\r\n<p>Une guilde est une structure, souvent li&eacute;e &agrave; un lieu physique, regroupant des personnages d&eacute;sirant travailler ensemble. Le plus souvent il s&#39;agit d&#39;initi&eacute;s car ils sont plus &agrave; m&ecirc;me de remplir des missions dangereuses et compliqu&eacute;es.<\/p>\r\n\r\n<p>Le but de ce groupe est de vivre des missions qu&#39;il accomplit en rendant service aussi bien &agrave; de simples particuliers qu&#39;&agrave; de puissants&nbsp;royaumes. Leur motivation &eacute;tant principalement l&#39;argent et la gloire.<\/p>"
+    },
+    {
         "id": "insider",
         "name": "Initié",
         "enabled": true,
         "public": true,
         "short": "Personnage ayant absorbé l'énergie d'un cristal d'arcanite",
-        "description": "<p>Personnage ayant absorb&eacute; l&#39;&eacute;nergie d&#39;un cristal d&#39;arcanite<\/p>"
+        "description": "<p>Les humains ayant absorb&eacute; au moins une [charge d&#39;arcanite](lexicon:load) sont appel&eacute;s <strong>initi&eacute;s<\/strong>.<br \/>\r\nIls repr&eacute;sentent environ 5 &agrave; 10% de la population, aussi n&#39;est-il pas rare d&#39;en croiser. Cependant, il est moins ais&eacute; de les reconna&icirc;tre car seuls des modifications physiques visibles pourraient trahir leur nature extraordinaire.<\/p>\r\n\r\n<p>A la fois craint et respect&eacute;s par les individus normaux, ils aiment se regrouper entre initi&eacute;s au sein de structures appel&eacute;es [guildes](lexicon:guild).<\/p>"
     },
     {
         "id": "instinct",
@@ -213,7 +221,7 @@
         "enabled": true,
         "public": true,
         "short": "Unité définissant une équivalence dans les éléments constitutifs de la création d'un personnage",
-        "description": "<p>Unit&eacute; d&eacute;finissant une &eacute;quivalence dans les &eacute;l&eacute;ments constitutifs de la cr&eacute;ation d&#39;un personnage<\/p>"
+        "description": "<p>On appelle <strong>point de cr&eacute;ation<\/strong>&nbsp;une unit&eacute; permettant d&#39;&eacute;quilibrer les puissances relatives des personnages.<\/p>\r\n\r\n<p>Le nombre de points de cr&eacute;ation utilis&eacute;s lors de la [cr&eacute;ation d&#39;un personnage](page:create-character) d&eacute;fini son [facteur de puissance](lexicon:fp).<br \/>\r\nDeux personnages ayant le m&ecirc;me facteur de puissance auront utilis&eacute;s le m&ecirc;me nombre de points de cr&eacute;ation et devraient donc &ecirc;tre &agrave; peu pr&egrave;s &eacute;quilibr&eacute;s.<\/p>"
     },
     {
         "id": "resistance",
