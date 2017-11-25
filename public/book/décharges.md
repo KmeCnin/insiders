@@ -35,7 +35,7 @@ Il peut choisir la position à laquelle il se trouve lorsqu&#039;il lance la dé
  A partir de ce moment, le personnage est capable de percevoir à 360° comme s&#039;il se trouvait à l&#039;emplacement ou à la place de l&#039;objet avec lequel il a créé le lien.  
  Ce lien perdure quelque soit l&#039;éloignement du personnage.
 
-Lorsque le personnage décide de voir à travers le lien, sa perception actuelle est remplacée par celle du lieu ou objet en question. Il peut donc se faire surprendre à ce moment.  
+Lorsque le personnage décide de voir à travers le lien, sa perception actuelle est remplacée par celle du lieu ou objet en question. Il peut donc se faire surprendre à ce moment. Il reste tout de même conscient des douleurs qui lui sont infligées.  
  Il est impossible, pour un observateur extérieure, de se rendre compte de la scrutation du personnage.
 ## L&#039;Essence
 ### Résurrection
