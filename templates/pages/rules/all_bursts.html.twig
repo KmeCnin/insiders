@@ -1,0 +1,44 @@
+{% extends 'layout-rules.html.twig' %}
+
+{# /règles/décharges-d'arcanite #}
+{# @var description #}
+{# @var arcanes \App\Entity\Rule\Arcane[] #}
+
+{% set header_bg = asset('resources/images/bg-header-bursts.jpg') %}
+{% set subtitle = 'Décharges d\'arcanite' %}
+
+{% block breadcrumb %}
+    {{ include('includes/breadcrumbs/bursts.html.twig', [arcanes]) }}
+{% endblock %}
+
+{% block container %}
+  <div class="block block-intro">
+    <p>{{ description|augment|raw }}</p>
+  </div>
+
+    {% for entry in map %}
+        {# @var arcane \App\Entity\Rule\Arcane #}
+        {% set arcane = entry['arcane'] %}
+
+      <div class="block-title">
+        <div>
+          <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="La Source">
+          <h1>{{ arcane.name }}</h1>
+        </div>
+        <span>{{ arcane.short }}</span>
+      </div>
+
+      <div class="block-group">
+          {% set bursts = entry['bursts'] %}
+          {% for burst in bursts %}
+              {# @var burst \App\Entity\Rule\Burst #}
+            <a class="block-group-item" href="{{ path('rules.bursts', {'slug': arcane.slug})~'#'~burst.slug }}" style="background-image: url({{ asset('resources/images/bursts/'~burst.id~'.jpg') }});">
+              <div>
+                <h2>{{ burst.name }}</h2>
+                <p>{{ burst.short }}</p>
+              </div>
+            </a>
+          {% endfor %}
+      </div>
+    {% endfor %}
+{% endblock %}

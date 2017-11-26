@@ -37,9 +37,11 @@
     </header>
 
     <main class="main main-{{ domain|default('default') }}">
+      <div class="breadcrumb-wrapper">
+        {% block breadcrumb %}{% endblock %}
+      </div>
       <div class="container">
-        {% block container %}
-        {% endblock %}
+        {% block container %}{% endblock %}
       </div>
     </main>
 
@@ -47,7 +49,8 @@
     <script src="{{ asset('resources/script/jquery-3.0.0.slim.min.js') }}"></script>
     <script src="{{ asset('resources/script/popper.min.js') }}"></script>
     <script src="{{ asset('resources/script/bootstrap.min.js') }}"></script>
-    {% block js %}{% endblock %}
+    <script src="{{ asset('resources/script/jquery.sticky.js') }}"></script>
     <script src="{{ asset('resources/script/script.js') }}"></script>
+    {% block js %}{% endblock %}
 </body>
 </html>

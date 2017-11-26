@@ -7,9 +7,11 @@
 {% set header_bg = asset('resources/images/bg-header-stuff.jpg') %}
 {% set subtitle = 'Tous les équipements' %}
 
-{% block container %}
-{{ include('includes/breadcrumbs/stuff.html.twig', [categories]) }}
+{% block breadcrumb %}
+    {{ include('includes/breadcrumbs/stuff.html.twig', [categories]) }}
+{% endblock %}
 
+{% block container %}
   <div class="block block-intro">
     <p>{{ description|augment|raw }}</p>
   </div>

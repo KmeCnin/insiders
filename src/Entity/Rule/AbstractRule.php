@@ -135,6 +135,15 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
         ];
     }
 
+    public function getOwningStyle(): string
+    {
+        if (0 === strpos($this->getName(), 'Le ')) {
+            return 'du '.substr($this->getName(), 2);
+        }
+
+        return 'de '.lcfirst($this->getName());
+    }
+
     protected static function slugify(string $string): string
     {
         // Removes duplicated spaces

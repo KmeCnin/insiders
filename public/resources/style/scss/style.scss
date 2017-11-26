@@ -93,14 +93,38 @@ a {
   }
 }
 
+.breadcrumb-wrapper {
+  position: relative;
+  z-index: 15;
+
+  .is-sticky {
+    .breadcrumb .breadcrumb-items img {
+      display: none;
+    }
+
+    .breadcrumb .breadcrumb-items a {
+      bottom: 12px;
+    }
+  }
+}
+
 .breadcrumb {
+  height: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 80px 0 120px 0;
+  background-image:
+    linear-gradient(
+      to bottom,
+      black,
+      black 50%,
+      rgba(0, 0, 0, 0)
+    )
+  ;
 
   .line {
     width: 100%;
+    max-width: 900px;
     height: 1px;
 
     background:

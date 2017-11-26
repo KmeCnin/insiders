@@ -117,7 +117,7 @@ Le seul moyen de refermer définitivement un tel portail est d&#039;utiliser une
 
 L&#039;initié effectue un bon dans le passé d&#039;environ 5 minutes.
 
-Tous les événements ayant eu lieu dans cet interval de temps sont annulés mais l&#039;initié est le seul à en conserve tout de même un souvenir.
+Tous les événements ayant eu lieu dans cet interval de temps sont annulés et l&#039;initié est le seul à en conserver tout de même un souvenir.
 ## Le Voile
 ### Disparition
 

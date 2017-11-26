@@ -5,11 +5,13 @@
 {# @var arcanes \App\Entity\Rule\Arcane[] #}
 
 {% set header_bg = asset('resources/images/bg-header-abilities.jpg') %}
-{% set subtitle = 'Toutes les capacités' %}
+{% set subtitle = 'Capacités' %}
+
+{% block breadcrumb %}
+    {{ include('includes/breadcrumbs/abilities.html.twig', [arcanes]) }}
+{% endblock %}
 
 {% block container %}
-{{ include('includes/breadcrumbs/abilities.html.twig', [arcanes]) }}
-
 <div class="block block-intro">
   <p>{{ description|augment|raw }}</p>
 </div>

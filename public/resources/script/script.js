@@ -17,4 +17,10 @@ $(document).ready(function() {
     // Use this value in order to select the related content and show it
     $('#'+target).show();
   });
+
+  /*** Sticky Breadcrumbs (https://github.com/garand/sticky) ***/
+  $('.breadcrumb').sticky({
+      topSpacing: 66,
+      bottomSpacing: 50
+  });
 });
