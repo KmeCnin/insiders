@@ -32,7 +32,7 @@
   </div>
 
   {% if increases is defined %}
-  <ul class="block-nav">
+  <ul class="vertical-breadcrumb">
     <div class="line"></div>
     {% for increase in increases|reverse %}
       <li data-target="{{ slug ~ '-' ~ loop.revindex }}">
