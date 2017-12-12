@@ -4,6 +4,7 @@ namespace App\Service;
 
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Entity\Rule\Attribute;
 use App\Entity\Rule\Burst;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\LexiconEntry;
@@ -47,6 +48,9 @@ class RulesAugmenter
                 case 'ability':
                     $template = 'ability';
                     $namespace = Ability::class;
+                    break;
+                case 'attribute':
+                    $namespace = Attribute::class;
                     break;
                 case 'burst':
                     $namespace = Burst::class;
