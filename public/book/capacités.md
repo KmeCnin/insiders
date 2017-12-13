@@ -694,6 +694,18 @@ Un adversaire doit réussir un jet de _Dévoiler_ sur chaque _double_ individuel
 - Peut créer autant de doubles que le triple de son score de Dissimuler
 
 
+### <a name="anchor-lumiere"></a>Lumière
+
+**Peut augmenter la luminosité ambiante**
+
+Le personnage peut contrôler la luminosité alentour à volonté.  
+ Cela lui permet d&#039;éclairer son environnement, d&#039;éblouir ses ennemis, etc.
+
+Il peut augmenter la luminosité de _la zone autour de lui_ aussi finement qu&#039;il le souhaite, transformant ainsi une nuit sombre en aube claire, ou un zénith brûlant sous lequel les animaux _nyctalopes_ sont en permanence _sonnés_. La zone affectée doit être une sphère centrée sur le personnage d&#039;un rayon n&#039;excédant pas _sa portée_.
+
+Grâce à un jet d&#039;_Imposer_ à _distance_, il peut générer un flash lumineux aveuglant. En cas de succès, la cible est _sonnée_ pendant un tour.  
+ Le personnage peut surexposer ses rétines pour voir plus loin que la normale, comme s&#039;il possédait l&#039;_attribut_ _vue perçante_.
+
 ### <a name="anchor-marche-fantomatique"></a>Marche fantomatique
 
 **Ne fait aucun bruit et ne laisse pas de trace lors des déplacements**
@@ -703,6 +715,18 @@ Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se dépl
 Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
 
 Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en _discrétion_.
+
+### <a name="anchor-ombre"></a>Ombre
+
+**Peut diminuer la luminosité ambiante**
+
+Le personnage peut contrôler l&#039;obscurité alentour à volonté.  
+ Cela lui permet de plonger son environnement dans l&#039;ombre, d&#039;aveugler un ennemi, etc.
+
+Il peut diminuer la luminosité de la zone autour de lui aussi finement qu&#039;il le souhaite, la faisant varier d&#039;une peine-ombre, à une nuit sans lune jusqu&#039;à obtenir une obscurité absolument totale dans laquelle même les animaux _nyctalopes_ sont aveugles. La zone affectée doit être une sphère centrée sur le personnage d&#039;un rayon n&#039;excédant pas _sa portée_.
+
+Grâce à un jet d&#039;_Imposer_ à _distance_, il peut créer une petite zone d&#039;obscurité totale autour des yeux d&#039;un ennemi pour le rendre aveugle. Le personnage doit lancer un nouveau jet d&#039;Imposer chaque tour pour que la zone d&#039;ombre suive les mouvements de sa cible et ne peut pas faire d&#039;action nécessitant un jet de _caractéristique_ tant qu&#039;il maintient l&#039;aveuglement.  
+ Les yeux du personnage sont habitués à l&#039;obscurités, il peut voir dans la pénombre comme s&#039;il possédait l&#039;_attribut_ _nyctalopes_.
 
 ### <a name="anchor-usurpation-d-identite"></a>Usurpation d&#039;identité
 

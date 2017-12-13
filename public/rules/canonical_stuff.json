@@ -84,6 +84,19 @@
         "properties": []
     },
     {
+        "id": "camouflage",
+        "name": "Cape de camouflage",
+        "enabled": true,
+        "public": true,
+        "short": "Améliore la capacité à se dissimuler",
+        "description": "<p>Am&eacute;liore la capacit&eacute; &agrave; se dissimuler<\/p>",
+        "effectiveness": 3,
+        "kind": "object",
+        "category": "utilitarian",
+        "expendable": false,
+        "properties": []
+    },
+    {
         "id": "quiver-bolt",
         "name": "Carquois de carreaux",
         "enabled": true,

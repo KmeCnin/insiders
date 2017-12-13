@@ -11,6 +11,8 @@
 
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
 
+L’afflux de puissance engendrée est quelque peu traumatisante pour le corps, un initié doit attendre dix minutes entières avant d&#039;être capable de réutiliser une décharge d&#039;arcanite.
+
 ## L&#039;Esprit
 ### Epuration
 
