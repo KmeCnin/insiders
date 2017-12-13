@@ -11,6 +11,8 @@
 
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
 
+L’afflux de puissance engendrée est quelque peu traumatisante pour le corps, un initié doit attendre dix minutes entières avant d&#039;être capable de réutiliser une décharge d&#039;arcanite.
+
 ## L&#039;Esprit
 ### Epuration
 
@@ -117,7 +119,7 @@ Le seul moyen de refermer définitivement un tel portail est d&#039;utiliser une
 
 L&#039;initié effectue un bon dans le passé d&#039;environ 5 minutes.
 
-Tous les événements ayant eu lieu dans cet interval de temps sont annulés mais l&#039;initié est le seul à en conserve tout de même un souvenir.
+Tous les événements ayant eu lieu dans cet interval de temps sont annulés et l&#039;initié est le seul à en conserver tout de même un souvenir.
 ## Le Voile
 ### Disparition
 

@@ -140,6 +140,8 @@ Deux _entités_ sont considérées **au contact** si elles se situent assez proc
 ## <a name="anchor-decharge-d-arcanite"></a> Décharge d&#039;arcanite
 
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
+
+L’afflux de puissance engendrée est quelque peu traumatisante pour le corps, un initié doit attendre dix minutes entières avant d&#039;être capable de réutiliser une décharge d&#039;arcanite.
 ## <a name="anchor-distance"></a> Distance
 
 De manière générale, on considère qu&#039;un personnage est à **distance** suffisante d&#039;une cible lorsqu&#039;il se trouve à environ 100 mètres de celle-ci.

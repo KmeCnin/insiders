@@ -94,18 +94,56 @@ class RulesController extends AbstractAppController
     }
 
     /**
-     * @Route("/règles/décharges-d'arcanite", name="rules.bursts")
+     * @Route("/règles/décharges-d'arcanite/{slug}", name="rules.bursts")
      */
-    public function burstsAction()
+    public function burstsAction(string $slug)
     {
         $lexicon = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('burst');
+        $arcanesRepo = $this->getDoctrine()->getRepository(Arcane::class);
+        $arcane = $arcanesRepo->findOneBy(['slug' => $slug]);
+
+        if (null === $arcane) {
+            throw new \InvalidArgumentException(sprintf(
+                'Arcane with slug %s does not exist.',
+                $slug
+            ));
+        }
+
         $repo = $this->getDoctrine()->getRepository(Burst::class);
 
         return $this->render('pages/rules/bursts.html.twig', [
             'description' => $this->container
                 ->get(RulesAugmenter::class)
                 ->augment($lexicon->getDescription()),
-            'bursts' => $repo->findAll(),
+            'arcane' => $arcane,
+            'arcanes' => $arcanesRepo->findAll(),
+            'bursts' => $repo->findByArcane($arcane),
+        ]);
+    }
+
+    /**
+     * @Route("/règles/décharges-d'arcanite", name="rules.all_bursts")
+     */
+    public function allBurstsAction()
+    {
+        $lexicon = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('burst');
+        $arcanes = $this->getDoctrine()->getRepository(Arcane::class)->findAll();
+        $repo = $this->getDoctrine()->getRepository(Burst::class);
+
+        $map = [];
+        foreach ($arcanes as $arcane) {
+            $map[] = [
+                'arcane' => $arcane,
+                'bursts' => $repo->findByArcane($arcane),
+            ];
+        }
+
+        return $this->render('pages/rules/all_bursts.html.twig', [
+            'description' => $this->container
+                ->get(RulesAugmenter::class)
+                ->augment($lexicon->getDescription()),
+            'arcanes' => $arcanes,
+            'map' => $map,
         ]);
     }
 

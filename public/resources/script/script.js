@@ -3,11 +3,11 @@ $(document).ready(function() {
   $('[data-toggle="popover"]').popover();
 
   /*** Nav toggle in sections ***/
-  $('.block-nav > li').click(function() {
+  $('.vertical-breadcrumb > li').click(function() {
     // From clicked element, get its <section>
     var section = $(this).closest('section');
     // Unactivate all bullets
-    $(section).find('.block-nav > li').removeClass('active');
+    $(section).find('.vertical-breadcrumb > li').removeClass('active');
     // Active the selected bullet
     $(this).addClass('active');
     // Select each content and hide it
@@ -16,5 +16,11 @@ $(document).ready(function() {
     var target = $(this).attr('data-target');
     // Use this value in order to select the related content and show it
     $('#'+target).show();
+  });
+
+  /*** Sticky Breadcrumbs (https://github.com/garand/sticky) ***/
+  $('.breadcrumb').sticky({
+      topSpacing: 66,
+      bottomSpacing: 50
   });
 });

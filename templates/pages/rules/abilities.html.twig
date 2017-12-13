@@ -6,11 +6,13 @@
 {# @var abilities \App\Entity\Rule\Ability[] #}
 
 {% set header_bg = asset('resources/images/arcanes/'~arcane.id~'.jpg') %}
-{% set subtitle = 'Capacités de '~arcane.name %}
+{% set subtitle = 'Capacités '~arcane.owningStyle %}
+
+{% block breadcrumb %}
+    {{ include('includes/breadcrumbs/abilities.html.twig', [arcanes, arcane]) }}
+{% endblock %}
 
 {% block container %}
-  {{ include('includes/breadcrumbs/abilities.html.twig', [arcanes, arcane]) }}
-
   <div class="block-intro">
     <p>{{ arcane.description|augment|raw }}</p>
   </div>

@@ -38,6 +38,7 @@ Harnois|3| |27000
 
 |Genre|Efficacité|Propriété|Prix|
 |---|---:|---|---:|
+Cape de camouflage|3| |27000
 
 ## Consommables
 

@@ -105,7 +105,7 @@
         "public": true,
         "arcane": "web",
         "short": "Reviens quelques instants dans le passé",
-        "description": "<p>L&#39;initi&eacute; effectue un bon dans le pass&eacute; d&#39;environ 5 minutes.<\/p>\r\n\r\n<p>Tous les &eacute;v&eacute;nements ayant eu lieu dans cet interval de temps sont annul&eacute;s mais l&#39;initi&eacute; est le seul &agrave; en conserve tout de m&ecirc;me un souvenir.<\/p>"
+        "description": "<p>L&#39;initi&eacute; effectue un bon dans le pass&eacute; d&#39;environ 5 minutes.<\/p>\r\n\r\n<p>Tous les &eacute;v&eacute;nements ayant eu lieu dans cet interval de temps sont annul&eacute;s et l&#39;initi&eacute; est le seul &agrave; en conserver tout de m&ecirc;me un souvenir.<\/p>"
     },
     {
         "id": "palantir",

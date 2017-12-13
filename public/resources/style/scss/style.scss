@@ -11,7 +11,9 @@ body {
   font-size: $font-size;
 }
 
+/*********************************/
 /* ========== GENERAL ========== */
+/*********************************/
 
 h1 {
   font-family: $font-family-primary;
@@ -25,6 +27,10 @@ h2 {
 
 a {
   text-decoration: none;
+}
+
+strong {
+  color: #FECB5B;
 }
 
 .main {
@@ -93,101 +99,221 @@ a {
   }
 }
 
+
+/************************************/
+/* ========== BREADCRUMBS ========== */
+/************************************/
+
+.breadcrumb-wrapper {
+  position: relative;
+  z-index: 25;
+
+  .is-sticky {
+    .breadcrumb .breadcrumb-items img {
+      display: none;
+    }
+
+    .breadcrumb .breadcrumb-items a {
+      bottom: 12px;
+    }
+  }
+}
+
 .breadcrumb {
+  height: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 80px 0 120px 0;
-
-  .line {
-    width: 100%;
-    height: 1px;
-
-    background:
+  background-image:
     linear-gradient(
-      to right,
+      to bottom,
+      black,
+      black 50%,
+      rgba(0, 0, 0, 0)
+    )
+  ;
+}
+
+.breadcrumb .line {
+  width: 100%;
+  max-width: 900px;
+  height: 1px;
+
+  background:
+  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    $secondary-color 30px,
+    rgba(0, 0, 0, 0)
+  ),
+  linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    $secondary-color 30px,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.breadcrumb .breadcrumb-items {
+  position: absolute;
+  display: flex;
+}
+
+.breadcrumb .breadcrumb-items a {
+  width: 85px;
+  position: relative;
+  bottom: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+
+  img {
+    height: 35px;
+    margin-bottom: 8px;
+
+    opacity: 0.3;
+    transition: opacity 0.5s;
+  }
+
+  span {
+    margin-bottom: 2px;
+
+    font-family: $font-family-primary;
+    font-size: 0.8em;
+    color: $primary-color;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+  }
+}
+
+.breadcrumb .breadcrumb-items a.active img,
+.breadcrumb .breadcrumb-items a.active span,
+.breadcrumb .breadcrumb-items a.active .bullet-active,
+.breadcrumb .breadcrumb-items a:hover img,
+.breadcrumb .breadcrumb-items a:hover span,
+.breadcrumb .breadcrumb-items a:hover .bullet-active,
+.vertical-breadcrumb li:hover .bullet-active,
+.vertical-breadcrumb li.active span,
+.vertical-breadcrumb li:hover span {
+  opacity: 1;
+}
+
+.breadcrumb .bullets,
+.vertical-breadcrumb .bullets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  .bullet-default {
+    width: 9px;
+    height: 9px;
+    position: absolute;
+
+    border-radius: 100%;
+    border: 1px solid $secondary-color;
+    background: #F98D08;
+  }
+
+  .bullet-active {
+    width: 29px;
+    height: 29px;
+
+    border-radius: 100%;
+    background: radial-gradient(
+                  circle closest-side,
+                  rgba(255, 191, 0, 0.75),
+                  rgba(255, 191, 0, 0.15)
+                );
+    opacity: 0;
+    transition: opacity 0.7s ease-out, width 0.3s ease-out, height 0.3s ease-out;
+  }
+}
+
+.vertical-breadcrumb .bullets {
+  margin-top: 0;
+}
+
+/* ======== VERTICAL-BREADCRUMB ======== */
+
+.vertical-breadcrumb {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 20;
+
+  list-style-type: none;
+  color: $primary-color;
+}
+
+.vertical-breadcrumb li {
+  position: relative;
+  right: -14px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px 0;
+  
+  cursor: pointer;
+}
+
+.vertical-breadcrumb li:first-of-type {
+  padding-top: 30px;
+}
+
+.vertical-breadcrumb li:last-of-type {
+  padding-bottom: 30px;
+}
+
+.vertical-breadcrumb li.active span {
+  font-family: $font-family-augustus;
+  color: $secondary-color;
+} 
+
+.vertical-breadcrumb .line {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+
+  background:
+    linear-gradient(
+      to bottom,
       rgba(0, 0, 0, 0),
       $secondary-color 30px,
       rgba(0, 0, 0, 0)
     ),
     linear-gradient(
-      to left,
+      to top,
       rgba(0, 0, 0, 0),
       $secondary-color 30px,
       rgba(0, 0, 0, 0)
     )
   ;
-  }
-
-  .breadcrumb-items {
-    position: absolute;
-    display: flex;
-
-    a {
-      width: 85px;
-      position: relative;
-      bottom: 34px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0 5px;
-  
-      img {
-        height: 35px;
-        margin-bottom: 8px;
-
-        opacity: 0.3;
-        transition: opacity 0.5s;
-      }
-  
-      span {
-        margin-bottom: 2px;
-
-        font-family: $font-family-primary;
-        font-size: 0.8em;
-        color: $primary-color;
-        opacity: 0.3;
-        transition: opacity 0.5s;
-      }
-  
-      .bullets {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10px;
-  
-        .bullet-default {
-          width: 9px;
-          height: 9px;
-          position: absolute;
-  
-          border-radius: 100%;
-          border: 1px solid $secondary-color;
-          background: #F98D08;
-        }
-  
-        .bullet-active {
-          width: 29px;
-          height: 29px;
-  
-          border-radius: 100%;
-          background: rgba(255, 191, 0, 0.5);
-          opacity: 0;
-          transition: opacity 0.5s;
-        }
-      }
-    }
-
-    a.active img,
-    a.active span,
-    a.active .bullet-active,
-    a:hover img,
-    a:hover span,
-    a:hover .bullet-active {
-      opacity: 1;
-    }
-  }
 }
+
+.vertical-breadcrumb span {
+  margin-right: 10px;
+  text-align: right;
+  font-family: $font-family-augustus;
+  font-size: 1.5em;
+  color: $primary-color;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+/************************************/
+/* ======== END-BREADCRUMBS ======== */
+/************************************/
+
+
+
+
+
 
 .section-horizontal {
   display: flex;
@@ -306,6 +432,7 @@ a {
     img {
       height: 55px;
       margin-right: 15px;
+      filter: drop-shadow(0 0 6px #000);
     }
 
     h1 {
@@ -318,118 +445,6 @@ a {
     font-family: $font-family-secondary ;
     font-size: 1.1em;
     color: $secondary-color;
-  }
-}
-
-.block-nav {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 20;
-
-  list-style-type: none;
-  color: $primary-color;
-
-  .line {
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    right: 0;
-
-    background:
-      linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0),
-        $secondary-color 30px,
-        rgba(0, 0, 0, 0)
-      ),
-      linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0),
-        $secondary-color 30px,
-        rgba(0, 0, 0, 0)
-      )
-    ;
-  }
-
-  li {
-    position: relative;
-    right: -14px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    padding: 10px 0;
-    
-    cursor: pointer;
-  }
-
-  li:first-of-type {
-    padding-top: 30px;
-  }
-
-  li:last-of-type {
-    padding-bottom: 30px;
-  }
-
-  li.active span {
-    font-family: $font-family-augustus;
-    color: $secondary-color;
-  }
-
-  li.active span,
-  li:hover span,
-  li.active .bullet-active,
-  li:hover .bullet-active {
-    opacity: 1;
-    width: 29px;
-    height: 29px;
-  }
-
-  li.active .bullet-default {
-    background: #F98D08;
-  }
-
-  .bullets {
-    width: 29px;
-    height: 29px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
-
-    .bullet-default {
-      width: 9px;
-      height: 9px;
-      position: absolute;
-
-      border-radius: 100%;
-      border: 1px solid $secondary-color;
-      background: $secondary-color;
-    }
-
-    .bullet-active {
-      width: 9px;
-      height: 9px;
-
-      border-radius: 100%;
-      background: rgba(255, 191, 0, 0.5);
-      opacity: 0;
-      transition: opacity 0.7s ease-out, width 0.3s ease-out, height 0.3s ease-out;
-    }
-  }
-
-  span {
-    width: 29px;
-    height: 29px;
-    text-align: right;
-    font-family: $font-family-augustus;
-    font-size: 1.5em;
-    color: $primary-color;
-    opacity: 0.3;
-    transition: opacity 0.5s;
   }
 }
 
@@ -580,3 +595,4 @@ a {
     background: rgba(0, 0, 0, 0.5);
   }
 }
+

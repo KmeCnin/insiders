@@ -8,9 +8,11 @@
 {% set header_bg = asset('resources/images/stuff_categories/'~category.id~'.jpg') %}
 {% set subtitle = category.name %}
 
-{% block container %}
-  {{ include('includes/breadcrumbs/stuff.html.twig', [categories, category]) }}
+{% block breadcrumb %}
+    {{ include('includes/breadcrumbs/stuff.html.twig', [categories, category]) }}
+{% endblock %}
 
+{% block container %}
   <div class="block block-intro">
     <p>{{ description|augment|raw }}</p>
   </div>
