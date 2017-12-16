@@ -299,7 +299,9 @@
         "short": "Peut transgresser ses limites physiques",
         "description": "<p>Le personnage est capable d&#39;accomplir des actions extraordinaires en ignorant ses propres limites physiques.<br \/>\r\nCela lui permet par exemple d&#39;obtenir une [vitesse de d&eacute;placement surnaturelle](lexicon:speed)&nbsp;pendant un court instant, de sauter&nbsp;trois fois plus haut, de soulever un poids dix fois plus lourd que la normale, d&#39;[attaquer](lexicon:attack) deux fois par tour, etc.<\/p>\r\n\r\n<p>A chaque fois qu&#39;il utilise cette capacit&eacute;, le personnage subit une [blessure](lexicon:wound) de degr&eacute; I.<\/p>",
         "increases": [],
-        "abilitiesRequired": []
+        "abilitiesRequired": [
+            "ignore-pain"
+        ]
     },
     {
         "id": "illusion",
@@ -671,7 +673,9 @@
                 "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>Il peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) &agrave; toutes ses [caract&eacute;ristiques](lexicon:characteristic).<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, on consid&egrave;re dor&eacute;navant qu&#39;il poss&egrave;de un score d&#39;Instinct de 5 et pas de score de Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il gagne de nouveaux points de Ma&icirc;trise, ses scores sont&nbsp;modifi&eacute;s imm&eacute;diatement. Cela fonctionne &eacute;galement avec les points obtenus gr&acirc;ce &agrave; [Partage d&#39;exp&eacute;rience](ability:pooling).<\/p>"
             }
         ],
-        "abilitiesRequired": []
+        "abilitiesRequired": [
+            "ignore-mind"
+        ]
     },
     {
         "id": "tectonic",

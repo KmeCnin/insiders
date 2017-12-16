@@ -57,6 +57,9 @@ En passant un tour à se concentrer, le personnage est capable d&#039;ignorer la
 
 **Peut transgresser ses limites physiques**
 
+**Nécessite:**
+[Ignorer la douleur](#anchor-ignorer-la-douleur)
+
 Le personnage est capable d&#039;accomplir des actions extraordinaires en ignorant ses propres limites physiques.  
  Cela lui permet par exemple d&#039;obtenir une _vitesse de déplacement surnaturelle_ pendant un court instant, de sauter trois fois plus haut, de soulever un poids dix fois plus lourd que la normale, d&#039;_attaquer_ deux fois par tour, etc.
 
@@ -106,6 +109,9 @@ Les _simulacres_ ne possèdent pas d&#039;esprit et ne peuvent donc pas être pe
 ### <a name="anchor-surpasser-ses-limites"></a>Surpasser ses limites
 
 **Débloque son potentiel caché**
+
+**Nécessite:**
+[Ignorer la raison](#anchor-ignorer-la-raison)
 
 Le personnage acquière un contrôle total de son esprit lui permettant d&#039;ignorer les verrous psychiques et tirer le plein potentiel de ses capacités physiques et intellectuelles.
 
