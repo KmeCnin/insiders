@@ -280,6 +280,28 @@
         "abilitiesRequired": []
     },
     {
+        "id": "ignore-pain",
+        "name": "Ignorer la douleur",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Résiste à la souffrance",
+        "description": "<p>Le personnage est capable de contr&ocirc;ler parfaitement sa tol&eacute;rance &agrave; la douleur.<br \/>\r\nCela lui permet par exemple de manier temporairement un objet br&ucirc;lant, de traverser un b&ucirc;cher, d&#39;&eacute;viter de laisser &eacute;chapper un cri de douleur, etc.<\/p>\r\n\r\n<p>En&nbsp;passant un tour &agrave; se concentrer,&nbsp;le personnage est capable d&#39;ignorer la souffrance caus&eacute;e par une de ses [blessures](lexicon:wound) de degr&eacute; I. Il r&eacute;siste aux effets n&eacute;fastes de la&nbsp;blessure&nbsp;comme si elle&nbsp;&eacute;tait gu&eacute;rie.<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "ignore-mind",
+        "name": "Ignorer la raison",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Peut transgresser ses limites physiques",
+        "description": "<p>Le personnage est capable d&#39;accomplir des actions extraordinaires en ignorant ses propres limites physiques.<br \/>\r\nCela lui permet par exemple d&#39;obtenir une [vitesse de d&eacute;placement surnaturelle](lexicon:speed)&nbsp;pendant un court instant, de sauter&nbsp;trois fois plus haut, de soulever un poids dix fois plus lourd que la normale, d&#39;[attaquer](lexicon:attack) deux fois par tour, etc.<\/p>\r\n\r\n<p>A chaque fois qu&#39;il utilise cette capacit&eacute;, le personnage subit une [blessure](lexicon:wound) de degr&eacute; I.<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
         "id": "illusion",
         "name": "Illusion",
         "enabled": true,
@@ -633,6 +655,22 @@
         "short": "Génère un champ de force répulsif",
         "description": "<p>Le personnage peut g&eacute;n&eacute;rer un champ de force r&eacute;pulsif centr&eacute; sur lui-m&ecirc;me.<br \/>\r\nCela lui permet par exemple de se prot&eacute;ger des tirs ennemies, d&#39;amortir les chutes, de repousser un adversaire, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut renvoyer un projectile qui le vise. S&#39;il r&eacute;ussit, il effectue un nouveau jet d&#39;Imposer pour toucher l&#39;exp&eacute;diteur.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer au [contact](lexicon:contact), il peut propulser un adversaire de force loin de lui.<br \/>\r\nLes adversaires doivent d&#39;abord r&eacute;ussir un jet de [R&eacute;sister](characteristic:resist) pour pouvoir approcher au contact du personnage.<\/p>",
         "increases": [],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "ignore-limits",
+        "name": "Surpasser ses limites",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Débloque son potentiel caché",
+        "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>En d&eacute;bloquant cette capacit&eacute; le personnage choisit deux [caract&eacute;ristiques](lexicon:characteristic)&nbsp;et&nbsp;peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) aux caract&eacute;ristiques choisies.<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, on consid&egrave;re dor&eacute;navant qu&#39;il poss&egrave;de un score d&#39;Instinct de 5 et pas de score de Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il gagne de nouveaux points de Ma&icirc;trise, ses scores sont&nbsp;modifi&eacute;s imm&eacute;diatement. Cela fonctionne &eacute;galement avec les points obtenus gr&acirc;ce &agrave; [Partage d&#39;exp&eacute;rience](ability:pooling).<\/p>",
+        "increases": [
+            {
+                "short": "Améliore toutes ses caractéristiques",
+                "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>Il peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) &agrave; toutes ses [caract&eacute;ristiques](lexicon:characteristic).<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, on consid&egrave;re dor&eacute;navant qu&#39;il poss&egrave;de un score d&#39;Instinct de 5 et pas de score de Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il gagne de nouveaux points de Ma&icirc;trise, ses scores sont&nbsp;modifi&eacute;s imm&eacute;diatement. Cela fonctionne &eacute;galement avec les points obtenus gr&acirc;ce &agrave; [Partage d&#39;exp&eacute;rience](ability:pooling).<\/p>"
+            }
+        ],
         "abilitiesRequired": []
     },
     {
