@@ -396,6 +396,17 @@
         "abilitiesRequired": []
     },
     {
+        "id": "light",
+        "name": "Lumière",
+        "enabled": true,
+        "public": true,
+        "arcane": "veil",
+        "short": "Peut augmenter la luminosité ambiante",
+        "description": "<p>Le personnage peut contr&ocirc;ler la luminosit&eacute; alentour &agrave; volont&eacute;.<br \/>\r\nCela lui permet d&#39;&eacute;clairer son environnement, d&#39;&eacute;blouir ses ennemis, etc.<\/p>\r\n\r\n<p>Il peut augmenter la luminosit&eacute; de [la zone autour de lui](lexicon:range) aussi finement qu&#39;il le souhaite, transformant ainsi une nuit sombre en aube claire, ou un z&eacute;nith br&ucirc;lant sous lequel les animaux [nyctalopes](attribute:night-vision) sont en permanence [sonn&eacute;s](lexicon:stun).&nbsp;La zone affect&eacute;e doit &ecirc;tre une sph&egrave;re centr&eacute;e sur le personnage d&#39;un rayon n&#39;exc&eacute;dant pas [sa port&eacute;e](lexicon:range).<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut g&eacute;n&eacute;rer un flash lumineux aveuglant. En cas de succ&egrave;s, la cible est&nbsp;[sonn&eacute;e](lexicon:stun) pendant un tour.<br \/>\r\nLe personnage peut surexposer ses r&eacute;tines pour voir plus loin que la normale, comme s&#39;il poss&eacute;dait l&#39;[attribut](lexicon:attribute)&nbsp;[vue per&ccedil;ante](attribute:eagle-eyes).<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
         "id": "memory-leak",
         "name": "Manipulation de mémoire",
         "enabled": true,
@@ -452,6 +463,17 @@
                 "description": "<p>Le personnage peut redonner vie aux morts et les controller.<br \/>\r\nCela lui permet d&#39;animer un nombre de <em>mort-vivants<\/em> dont les [facteurs de puissance](lexicon:fp) cumul&eacute;s ne d&eacute;passent pas sept fois&nbsp;son score d&#39;[Instinct](lexicon:instinct) en [R&eacute;sister](characteristic:resist).<\/p>\r\n\r\n<p>Un<em> mort-vivant <\/em>a ses scores d&rsquo;[Imposer](characteristic:force) et R&eacute;sister au moins &eacute;gaux &agrave; 1 et [D&eacute;voiler](characteristic:reveal) et [Dissimuler](characteristic:hide) toujours &eacute;gaux &agrave; 0. Il peut poss&eacute;der des [attributs physiques](lexicon:attribute) tant que les [points de cr&eacute;ation](lexicon:pc)&nbsp;utilis&eacute;s sont comptabilis&eacute;s dans leur facteur de puissance&nbsp;total. Tous les <em>mort-vivants<\/em> ont la capacit&eacute; arcanique [Perception de la vie](ability:life-perception) de mani&egrave;re inn&eacute;e et non comptabilis&eacute; dans leur facteur de puissance total.<br \/>\r\nLes<em> morts-vivants<\/em> ne peuvent pas [s&rsquo;&eacute;loigner](lexicon:range) trop loin du personnage sous risque d&#39;&ecirc;tre d&eacute;truits. La moindre [blessure](lexicon:wound) de degr&eacute; I suffit &agrave; les r&eacute;duire d&eacute;finitivement en cendres.<\/p>"
             }
         ],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "shadow",
+        "name": "Ombre",
+        "enabled": true,
+        "public": true,
+        "arcane": "veil",
+        "short": "Peut diminuer la luminosité ambiante",
+        "description": "<p>Le personnage peut contr&ocirc;ler l&#39;obscurit&eacute; alentour &agrave; volont&eacute;.<br \/>\r\nCela lui permet de plonger son environnement dans l&#39;ombre, d&#39;aveugler un ennemi, etc.<\/p>\r\n\r\n<p>Il peut diminuer la luminosit&eacute; de la zone autour de lui aussi finement qu&#39;il le souhaite, la faisant varier d&#39;une peine-ombre, &agrave; une nuit sans lune&nbsp;jusqu&#39;&agrave; obtenir une obscurit&eacute; absolument totale dans laquelle m&ecirc;me les animaux [nyctalopes](attribute:night-vision) sont aveugles. La zone affect&eacute;e doit &ecirc;tre une sph&egrave;re centr&eacute;e sur le personnage d&#39;un rayon n&#39;exc&eacute;dant pas [sa port&eacute;e](lexicon:range).<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut cr&eacute;er une petite zone d&#39;obscurit&eacute; totale autour des yeux d&#39;un ennemi pour le rendre aveugle. Le personnage doit lancer un nouveau jet d&#39;Imposer chaque tour pour que la zone d&#39;ombre suive les mouvements de sa cible et ne peut pas faire d&#39;action n&eacute;cessitant un jet de [caract&eacute;ristique](lexicon:characteristic) tant qu&#39;il&nbsp;maintient l&#39;aveuglement.<br \/>\r\nLes yeux du personnage sont habitu&eacute;s &agrave; l&#39;obscurit&eacute;s, il peut voir dans la p&eacute;nombre comme s&#39;il poss&eacute;dait l&#39;[attribut](lexicon:attribute)&nbsp;[nyctalopes](attribute:night-vision).<\/p>",
+        "increases": [],
         "abilitiesRequired": []
     },
     {

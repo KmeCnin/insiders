@@ -44,6 +44,24 @@ Si le familier est tué, une blessure de degré III est infligée au personnage.
 - Le FP du familier peut être le triple du score de Dévoiler
 
 
+### <a name="anchor-ignorer-la-douleur"></a>Ignorer la douleur
+
+**Résiste à la souffrance**
+
+Le personnage est capable de contrôler parfaitement sa tolérance à la douleur.  
+ Cela lui permet par exemple de manier temporairement un objet brûlant, de traverser un bûcher, d&#039;éviter de laisser échapper un cri de douleur, etc.
+
+En passant un tour à se concentrer, le personnage est capable d&#039;ignorer la souffrance causée par une de ses _blessures_ de degré I. Il résiste aux effets néfastes de la blessure comme si elle était guérie.
+
+### <a name="anchor-ignorer-la-raison"></a>Ignorer la raison
+
+**Peut transgresser ses limites physiques**
+
+Le personnage est capable d&#039;accomplir des actions extraordinaires en ignorant ses propres limites physiques.  
+ Cela lui permet par exemple d&#039;obtenir une _vitesse de déplacement surnaturelle_ pendant un court instant, de sauter trois fois plus haut, de soulever un poids dix fois plus lourd que la normale, d&#039;_attaquer_ deux fois par tour, etc.
+
+A chaque fois qu&#039;il utilise cette capacité, le personnage subit une _blessure_ de degré I.
+
 ### <a name="anchor-invocation"></a>Invocation
 
 **Peut donner vie à une créature**
@@ -84,6 +102,21 @@ Le personnage a conscience de l’existence des formes de vies alentours (végé
 Le personnage localise précisément les êtres vivants à distance et est capable, sans le voir, de différencier un être intelligent d&#039;un animal ou d&#039;un simple végétal. Mais il ne peut cependant pas discerner plus précisément l&#039;identité d&#039;une personne, même très bien connue, sans l&#039;avoir en visuel.
 
 Les _simulacres_ ne possèdent pas d&#039;esprit et ne peuvent donc pas être perçus de la sorte. Ce qui peut être un inconvenient mais également un avantage pour discerner l&#039;individu original au milieu des faux.
+
+### <a name="anchor-surpasser-ses-limites"></a>Surpasser ses limites
+
+**Débloque son potentiel caché**
+
+Le personnage acquière un contrôle total de son esprit lui permettant d&#039;ignorer les verrous psychiques et tirer le plein potentiel de ses capacités physiques et intellectuelles.
+
+En débloquant cette capacité le personnage choisit deux _caractéristiques_ et peut utiliser ses scores de _Maîtrise_ comme bonus de score d&#039;_Instinct_ aux caractéristiques choisies.  
+ Par exemple s&#039;il possède un score d&#039;_Instinct_ de 3 en Imposer et un score de Maîtrise de 2, on considère dorénavant qu&#039;il possède un score d&#039;Instinct de 5 et pas de score de Maîtrise.
+
+S&#039;il gagne de nouveaux points de Maîtrise, ses scores sont modifiés immédiatement. Cela fonctionne également avec les points obtenus grâce à _Partage d&#039;expérience_.
+
+**Augmentations:**
+- Améliore toutes ses caractéristiques
+
 
 ### <a name="anchor-telepathie"></a>Télépathie
 
