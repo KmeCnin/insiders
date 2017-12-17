@@ -556,22 +556,6 @@ Le personnage est capable de percevoir et contrôler les champs magnétiques ter
 Grâce à un jet d&#039;_Imposer_ à _distance_ il peut désarmer autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armes métalliques et envoyer les armes loin d&#039;eux.  
  Grâce à un jet d&#039;Imposer à distance il peut plaquer au sol autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armures métalliques.
 
-### <a name="anchor-foudre"></a>Foudre
-
-**Peut invoquer des orages**
-
-**Nécessite:**
-[Combustion](#anchor-combustion), [Courant électrique](#anchor-courant-electrique)
-
-Le personnage est capable de commander la météo environnante.  
- Cela lui permet par exemple d&#039;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.
-
-Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré III à tous les personnages avoisinants excepté lui-même.
-
-**Augmentations:**
-- Peut exclure des personnages de la zone foudroyée
-
-
 ### <a name="anchor-onde-sonore"></a>Onde sonore
 
 **Peut projeter des ondes sonores puissantes**
@@ -589,31 +573,6 @@ Grâce à un jet d&#039;_Imposer_ à _distance_, il peut _sonner_ un personnage.
 **Augmentations:**
 - Inflige une blessure de degré I en plus de sonner
 
-
-### <a name="anchor-electromagnetisme"></a>Électromagnétisme
-
-**Maîtrise les champs magnétiques**
-
-**Nécessite:**
-[Courant électrique](#anchor-courant-electrique), [Onde sonore](#anchor-onde-sonore)
-
-Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.  
- Cela lui permet par exemple d&#039;aimanter des équipements métalliques à distance, de savoir s&#039;orienter en permanence (il localise l&#039;Elyseum), attirer à lui des objets métalliques, etc.
-
-Grâce à un jet d&#039;_Imposer_ à _distance_ il peut désarmer autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armes métalliques et envoyer les armes loin d&#039;eux.  
- Grâce à un jet d&#039;Imposer à distance il peut plaquer au sol autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armures métalliques.
-
-### <a name="anchor-tectonique"></a>Tectonique
-
-**Peut créer des séismes**
-
-**Nécessite:**
-[Combustion](#anchor-combustion), [Onde sonore](#anchor-onde-sonore)
-
-Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.  
- Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
-
-Grâce à un jet d&#039;_Imposer_ à _distance_ il peut faire tomber les adversaires à portée qui subissent alors une _blessure_ de degré I.
 
 ### <a name="anchor-incandescence"></a>Incandescence
 

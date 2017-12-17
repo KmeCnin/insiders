@@ -11,6 +11,11 @@
 
 Les **attributs physiques** représentent des compétences particulières innées chez des animaux ou acquises par des personnages grâce à l&#039;entraînement ou suite à des mutations après absorption de _cristaux d&#039;arcanite_.
 
+## Adhérence
+
+**1 PC. Peut marcher sur les murs et plafonds**
+
+Les extrémités des membres du personnage adhèrent à n&#039;importe quelle surface lui permettant de se déplacer le long des murs et plafonds aussi rapidement que sur le sol.
 ## Ailes
 
 **2 PC. Peut se déplacer dans les airs**

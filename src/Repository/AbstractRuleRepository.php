@@ -48,7 +48,9 @@ abstract class AbstractRuleRepository extends EntityRepository
                 while(!empty($entree['unlocks'])) {
                     foreach ($entree['unlocks'] as $unlock) {
                         $entree = $tree[$unlock];
-                        $sorted[] = $entree['rule'];
+                        if (!\in_array($entree['rule'], $sorted, true)) {
+                            $sorted[] = $entree['rule'];
+                        }
                     }
                 }
             }
