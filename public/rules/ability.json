@@ -260,25 +260,6 @@
         ]
     },
     {
-        "id": "lightning",
-        "name": "Foudre",
-        "enabled": true,
-        "public": true,
-        "arcane": "source",
-        "short": "Peut invoquer des orages",
-        "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me.<\/p>",
-        "increases": [
-            {
-                "short": "Peut exclure des personnages de la zone foudroyée",
-                "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me et les autres personnages qu&#39;il choisit d&#39;exclure de la zone.<\/p>"
-            }
-        ],
-        "abilitiesRequired": [
-            "combustion",
-            "electrocution"
-        ]
-    },
-    {
         "id": "duplication",
         "name": "Dédoublement",
         "enabled": true,
@@ -338,34 +319,6 @@
             }
         ],
         "abilitiesRequired": []
-    },
-    {
-        "id": "electromagnetism",
-        "name": "Électromagnétisme",
-        "enabled": true,
-        "public": true,
-        "arcane": "source",
-        "short": "Maîtrise les champs magnétiques",
-        "description": "<p>Le personnage est capable de percevoir et contr&ocirc;ler les champs magn&eacute;tiques terrestres.<br \/>\r\nCela lui permet par exemple d&#39;aimanter des &eacute;quipements m&eacute;talliques &agrave; distance, de savoir s&#39;orienter en permanence (il localise l&#39;Elyseum), attirer &agrave; lui des objets m&eacute;talliques, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range) il peut d&eacute;sarmer autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armes m&eacute;talliques et envoyer les&nbsp;armes loin d&#39;eux.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance il peut plaquer au sol autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armures m&eacute;talliques.<\/p>",
-        "increases": [],
-        "abilitiesRequired": [
-            "electrocution",
-            "sound"
-        ]
-    },
-    {
-        "id": "tectonic",
-        "name": "Tectonique",
-        "enabled": true,
-        "public": true,
-        "arcane": "source",
-        "short": "Peut créer des séismes",
-        "description": "<p>Le personnage est capable de produire des ondes puissantes se d&eacute;pla&ccedil;ant dans la terre et la roche.<br \/>\r\nCela lui permet par exemple de briser un rocher d&#39;un simple contact, de cr&eacute;er des ondes de chocs, de fragiliser des constructions, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range) il peut faire tomber les adversaires &agrave; port&eacute;e qui subissent alors une [blessure](lexicon:wound) de degr&eacute; I.<\/p>",
-        "increases": [],
-        "abilitiesRequired": [
-            "combustion",
-            "sound"
-        ]
     },
     {
         "id": "familiar",
