@@ -7,9 +7,9 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class RuleExportCommand extends AbstractRuleCommand
 {
-    const PATH_BACKUP = '/Command/Rule/Backup/Export';
+    protected const PATH_BACKUP = '/Command/Rule/Backup/Export';
 
-    protected function configure()
+    protected function configure(): void
     {
         parent::configure();
 

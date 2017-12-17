@@ -67,7 +67,7 @@ class RuleTransporter implements TransporterInterface
         ];
     }
 
-    public function export(string $to)
+    public function export(string $to): void
     {
         $fs = new Filesystem();
         foreach (array_unique($this->entities) as $namespace) {
@@ -92,7 +92,7 @@ class RuleTransporter implements TransporterInterface
         }
     }
 
-    public function import(string $from)
+    public function import(string $from): void
     {
         foreach ($this->entities as $namespace) {
             $table = $this->em->getClassMetadata($namespace)->getTableName();
