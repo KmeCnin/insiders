@@ -63,7 +63,25 @@ En passant un tour à se concentrer, le personnage est capable d&#039;ignorer la
 Le personnage est capable d&#039;accomplir des actions extraordinaires en ignorant ses propres limites physiques.  
  Cela lui permet par exemple d&#039;obtenir une _vitesse de déplacement surnaturelle_ pendant un court instant, de sauter trois fois plus haut, de soulever un poids dix fois plus lourd que la normale, d&#039;_attaquer_ deux fois par tour, etc.
 
-A chaque fois qu&#039;il utilise cette capacité, le personnage subit une _blessure_ de degré I.
+A chaque fois qu&#039;il utilise cette capacité, le personnage subit une _blessure_ de degré I just après.
+
+### <a name="anchor-surpasser-ses-limites"></a>Surpasser ses limites
+
+**Débloque son potentiel caché**
+
+**Nécessite:**
+[Ignorer la raison](#anchor-ignorer-la-raison)
+
+Le personnage acquière un contrôle total de son esprit lui permettant d&#039;ignorer les verrous psychiques et tirer le plein potentiel de ses capacités physiques et intellectuelles.
+
+En débloquant cette capacité le personnage choisit deux _caractéristiques_ et peut utiliser ses scores de _Maîtrise_ comme bonus de score d&#039;_Instinct_ aux caractéristiques choisies.  
+ Par exemple s&#039;il possède un score d&#039;_Instinct_ de 3 en Imposer et un score de Maîtrise de 2, on considère dorénavant qu&#039;il possède un score d&#039;Instinct de 5 et pas de score de Maîtrise.
+
+S&#039;il gagne de nouveaux points de Maîtrise, ses scores sont modifiés immédiatement. Cela fonctionne également avec les points obtenus grâce à _Partage d&#039;expérience_.
+
+**Augmentations:**
+- Améliore toutes ses caractéristiques
+
 
 ### <a name="anchor-invocation"></a>Invocation
 
@@ -105,24 +123,6 @@ Le personnage a conscience de l’existence des formes de vies alentours (végé
 Le personnage localise précisément les êtres vivants à distance et est capable, sans le voir, de différencier un être intelligent d&#039;un animal ou d&#039;un simple végétal. Mais il ne peut cependant pas discerner plus précisément l&#039;identité d&#039;une personne, même très bien connue, sans l&#039;avoir en visuel.
 
 Les _simulacres_ ne possèdent pas d&#039;esprit et ne peuvent donc pas être perçus de la sorte. Ce qui peut être un inconvenient mais également un avantage pour discerner l&#039;individu original au milieu des faux.
-
-### <a name="anchor-surpasser-ses-limites"></a>Surpasser ses limites
-
-**Débloque son potentiel caché**
-
-**Nécessite:**
-[Ignorer la raison](#anchor-ignorer-la-raison)
-
-Le personnage acquière un contrôle total de son esprit lui permettant d&#039;ignorer les verrous psychiques et tirer le plein potentiel de ses capacités physiques et intellectuelles.
-
-En débloquant cette capacité le personnage choisit deux _caractéristiques_ et peut utiliser ses scores de _Maîtrise_ comme bonus de score d&#039;_Instinct_ aux caractéristiques choisies.  
- Par exemple s&#039;il possède un score d&#039;_Instinct_ de 3 en Imposer et un score de Maîtrise de 2, on considère dorénavant qu&#039;il possède un score d&#039;Instinct de 5 et pas de score de Maîtrise.
-
-S&#039;il gagne de nouveaux points de Maîtrise, ses scores sont modifiés immédiatement. Cela fonctionne également avec les points obtenus grâce à _Partage d&#039;expérience_.
-
-**Augmentations:**
-- Améliore toutes ses caractéristiques
-
 
 ### <a name="anchor-telepathie"></a>Télépathie
 
@@ -177,6 +177,21 @@ Lorsqu&#039;il le souhaite, le personnage peut changer de forme, il passe alors 
 - Choisit une nouvelle forme
 
 
+### <a name="anchor-poings-d-obsylene"></a>Poings d&#039;obsylène
+
+**Possède des poings dont la solidité peut briser le métal**
+
+Les extrémités des membres du personnage sont faites d&#039;un matériau noir extrêmement solide appelé _obsylène_.  
+ Cela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets en métal non équipés, etc.
+
+Le personnage est capable de briser sans effort des objets voir même des structures en bois et fragiliser des constructions en pierre ou des structures en métal.
+
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré II.
+
+**Augmentations:**
+- Détruit également les équipements portés
+
+
 ### <a name="anchor-corps-d-obsylene"></a>Corps d&#039;obsylène
 
 **Possède un corps extrêmement résistant aux coups et blessures**
@@ -203,21 +218,6 @@ Les doubles possèdent tous les _équipements_ et capacités du personnage ainsi
 
 **Augmentations:**
 - Chaque clone possède un point dans deux caractéristiques au choix
-
-
-### <a name="anchor-poings-d-obsylene"></a>Poings d&#039;obsylène
-
-**Possède des poings dont la solidité peut briser le métal**
-
-Les extrémités des membres du personnage sont faites d&#039;un matériau noir extrêmement solide appelé _obsylène_.  
- Cela lui permet par exemple de combattre à main nue, de briser des surfaces en bois, de détruire des objets en métal non équipés, etc.
-
-Le personnage est capable de briser sans effort des objets voir même des structures en bois et fragiliser des constructions en pierre ou des structures en métal.
-
-Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré II.
-
-**Augmentations:**
-- Détruit également les équipements portés
 
 
 ### <a name="anchor-transfert-de-force-vitale"></a>Transfert de force vitale
@@ -269,6 +269,18 @@ Grâce à un jet de _Dissimuler_ à _distance_, il peut _distraire_ une cible.
 - Inflige une blessure de degré I en plus de distraire
 
 
+### <a name="anchor-trahison"></a>Trahison
+
+**Peut forcer un personnage à attaquer ses alliés**
+
+**Nécessite:**
+[Distraction](#anchor-distraction)
+
+Le personnage peut contrôler momentanément l&#039;esprit d&#039;une cible.  
+ Cela lui permet au choix d&#039;insérer un sentiment extrême d&#039;agressivité, de bienveillance, de peur envers un personnage (qu&#039;il soit allié ou ennemi). Il peut donc par exemple le forcer à attaquer un allier, soigner un ennemi, s&#039;enfuir, etc.
+
+Grâce à un jet de _Dissimuler_ à _distance_, il peut obliger la cible à accomplir une unique action de son choix.
+
 ### <a name="anchor-hypnose"></a>Hypnose
 
 **Plonge les cibles dans un état hypnotique.**
@@ -314,18 +326,6 @@ Le personnage persuade sa cible de la véracité de ce qu&#039;il dit.
  Il _maximise_ automatiquement tous ses jets de _Dissimuler_ pour les mensonges plausibles et il peut même tenter de faire croire à des énormités.
 
 Grâce à un jet de Dissimuler à distance, il peut tenter de faire croire un mensonge particulièrement peu vraisemblable.
-
-### <a name="anchor-trahison"></a>Trahison
-
-**Peut forcer un personnage à attaquer ses alliés**
-
-**Nécessite:**
-[Distraction](#anchor-distraction)
-
-Le personnage peut contrôler momentanément l&#039;esprit d&#039;une cible.  
- Cela lui permet au choix d&#039;insérer un sentiment extrême d&#039;agressivité, de bienveillance, de peur envers un personnage (qu&#039;il soit allié ou ennemi). Il peut donc par exemple le forcer à attaquer un allier, soigner un ennemi, s&#039;enfuir, etc.
-
-Grâce à un jet de _Dissimuler_ à _distance_, il peut obliger la cible à accomplir une unique action de son choix.
 
 ## <a name="anchor-l-ether"></a>L&#039;Éther
 
@@ -501,6 +501,34 @@ Grâce à un jet d&#039;_Imposer_ à _distance_, il peut infliger une _blessure_
 - Augmente d&#039;un degré la blessure infligée
 
 
+### <a name="anchor-foudre"></a>Foudre
+
+**Peut invoquer des orages**
+
+**Nécessite:**
+[Combustion](#anchor-combustion), [Courant électrique](#anchor-courant-electrique)
+
+Le personnage est capable de commander la météo environnante.  
+ Cela lui permet par exemple d&#039;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.
+
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré III à tous les personnages avoisinants excepté lui-même.
+
+**Augmentations:**
+- Peut exclure des personnages de la zone foudroyée
+
+
+### <a name="anchor-tectonique"></a>Tectonique
+
+**Peut créer des séismes**
+
+**Nécessite:**
+[Combustion](#anchor-combustion), [Onde sonore](#anchor-onde-sonore)
+
+Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.  
+ Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
+
+Grâce à un jet d&#039;_Imposer_ à _distance_ il peut faire tomber les adversaires à portée qui subissent alors une _blessure_ de degré I.
+
 ### <a name="anchor-courant-electrique"></a>Courant électrique
 
 **Peut générer des courants électriques**
@@ -544,21 +572,6 @@ Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ 
 - Peut exclure des personnages de la zone foudroyée
 
 
-### <a name="anchor-incandescence"></a>Incandescence
-
-**Peut faire rapidement augmenter la température**
-
-Le personnage maîtrise les flux thermiques, il peut rapidement augmenter la température d&#039;une zone précise.  
- Cela lui permet par exemple de vaporiser de l&#039;eau, brûler des tissus vivants au contact, chauffer du métal à blanc, allumer un feu à partir de matériaux inflammables, etc.
-
-Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en brûlant son adversaire.  
- Lorsqu&#039;il manie une arme métallique (lame au contact ou flèches/carreaux à distance), il peut chauffer la lame à blanc pour augmenter la blessure infligée d&#039;un degré.  
- Il possède également une _résistance_ aux brûlures.
-
-**Augmentations:**
-- Augmente d&#039;un degré la blessure infligée
-
-
 ### <a name="anchor-onde-sonore"></a>Onde sonore
 
 **Peut projeter des ondes sonores puissantes**
@@ -577,6 +590,46 @@ Grâce à un jet d&#039;_Imposer_ à _distance_, il peut _sonner_ un personnage.
 - Inflige une blessure de degré I en plus de sonner
 
 
+### <a name="anchor-electromagnetisme"></a>Électromagnétisme
+
+**Maîtrise les champs magnétiques**
+
+**Nécessite:**
+[Courant électrique](#anchor-courant-electrique), [Onde sonore](#anchor-onde-sonore)
+
+Le personnage est capable de percevoir et contrôler les champs magnétiques terrestres.  
+ Cela lui permet par exemple d&#039;aimanter des équipements métalliques à distance, de savoir s&#039;orienter en permanence (il localise l&#039;Elyseum), attirer à lui des objets métalliques, etc.
+
+Grâce à un jet d&#039;_Imposer_ à _distance_ il peut désarmer autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armes métalliques et envoyer les armes loin d&#039;eux.  
+ Grâce à un jet d&#039;Imposer à distance il peut plaquer au sol autant d&#039;adversaires qu&#039;il le désire équipés d&#039;armures métalliques.
+
+### <a name="anchor-tectonique"></a>Tectonique
+
+**Peut créer des séismes**
+
+**Nécessite:**
+[Combustion](#anchor-combustion), [Onde sonore](#anchor-onde-sonore)
+
+Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.  
+ Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
+
+Grâce à un jet d&#039;_Imposer_ à _distance_ il peut faire tomber les adversaires à portée qui subissent alors une _blessure_ de degré I.
+
+### <a name="anchor-incandescence"></a>Incandescence
+
+**Peut faire rapidement augmenter la température**
+
+Le personnage maîtrise les flux thermiques, il peut rapidement augmenter la température d&#039;une zone précise.  
+ Cela lui permet par exemple de vaporiser de l&#039;eau, brûler des tissus vivants au contact, chauffer du métal à blanc, allumer un feu à partir de matériaux inflammables, etc.
+
+Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en brûlant son adversaire.  
+ Lorsqu&#039;il manie une arme métallique (lame au contact ou flèches/carreaux à distance), il peut chauffer la lame à blanc pour augmenter la blessure infligée d&#039;un degré.  
+ Il possède également une _résistance_ aux brûlures.
+
+**Augmentations:**
+- Augmente d&#039;un degré la blessure infligée
+
+
 ### <a name="anchor-refrigeration"></a>Réfrigération
 
 **Peut faire rapidement chuter la température**
@@ -592,21 +645,19 @@ Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ 
 - Augmente d&#039;un degré la blessure infligée
 
 
-### <a name="anchor-tectonique"></a>Tectonique
-
-**Peut créer des séismes**
-
-**Nécessite:**
-[Combustion](#anchor-combustion), [Onde sonore](#anchor-onde-sonore)
-
-Le personnage est capable de produire des ondes puissantes se déplaçant dans la terre et la roche.  
- Cela lui permet par exemple de briser un rocher d&#039;un simple contact, de créer des ondes de chocs, de fragiliser des constructions, etc.
-
-Grâce à un jet d&#039;_Imposer_ à _distance_ il peut faire tomber les adversaires à portée qui subissent alors une _blessure_ de degré I.
-
 ## <a name="anchor-la-toile"></a>La Toile
 
 La trame qui supporte le monde matériel
+
+### <a name="anchor-anticipation"></a>Anticipation
+
+**Peut prévoir un événement imminent**
+
+Le personnage voit en permanence une fraction de seconde dans le futur.  
+ Cela lui permet par exemple de pressentir un danger imminent, un choix désastreux, le coup d&#039;un adversaire, etc.
+
+Grâce à un jet de _Dévoiler_ à _distance_ contre un personnage, il peut _maximiser_ son prochain jet opposé contre cette cible.  
+ Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
 
 ### <a name="anchor-acceleration-du-temps"></a>Accélération du temps
 
@@ -621,26 +672,6 @@ Le personnage peut accélérer le temps sur une zone restreinte pendant un court
 Grâce à un jet de _Dévoiler_ à _distance_ opposé à un adversaire, il peut augmenter d&#039;un degré chacune des _blessures_ de la cible.  
  Il peut accélérer les projectiles qu&#039;il lance (flèches, armes de jet...) pour augmenter d&#039;un degré la blessure infligée.
 
-### <a name="anchor-anticipation"></a>Anticipation
-
-**Peut prévoir un événement imminent**
-
-Le personnage voit en permanence une fraction de seconde dans le futur.  
- Cela lui permet par exemple de pressentir un danger imminent, un choix désastreux, le coup d&#039;un adversaire, etc.
-
-Grâce à un jet de _Dévoiler_ à _distance_ contre un personnage, il peut _maximiser_ son prochain jet opposé contre cette cible.  
- Pour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#039;à effectuer le jet.
-
-### <a name="anchor-localisation"></a>Localisation
-
-**Connaît l&#039;emplacement de tout ce avec quoi il a été en contact**
-
-Le personnage garde un lien fort avec tout ce avec quoi il est entré en contact au moins une fois.  
- Cela lui permet par exemple de pouvoir s&#039;orienter en permanence, de localiser précisément la source d&#039;un son qu&#039;il perçoit, de localiser un objet ou un être vivant, etc.
-
-Grâce à un jet de _Dévoiler_, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.  
- Grâce à un jet de Dévoiler à _distance_, il peut créer un lien de localisation avec un adversaire en visuel comme si il avait déjà été en contact avec lui.
-
 ### <a name="anchor-ralentissement-du-temps"></a>Ralentissement du temps
 
 **Peut ralentir l&#039;écoulement du temps localement**
@@ -653,6 +684,16 @@ Le personnage peut ralentir le temps sur une zone restreinte pendant un court in
 
 Lorsqu&#039;il effectue un jet d&#039;_Attaque_ ou de _Défense_ au _contact_, il peut ralentir son ennemi pour obtenir un bonus d&#039;un point à son jet.  
  Il peut ralentir des projectiles lancés à porté pour les rendre inefficaces.
+
+### <a name="anchor-localisation"></a>Localisation
+
+**Connaît l&#039;emplacement de tout ce avec quoi il a été en contact**
+
+Le personnage garde un lien fort avec tout ce avec quoi il est entré en contact au moins une fois.  
+ Cela lui permet par exemple de pouvoir s&#039;orienter en permanence, de localiser précisément la source d&#039;un son qu&#039;il perçoit, de localiser un objet ou un être vivant, etc.
+
+Grâce à un jet de _Dévoiler_, il peut localiser un objet ou un être vivant avec lequel il a déjà été en contact (physique ou visuel). En cas de succès, il connaît la direction (à vol d’oiseau), le sens et la distance à laquelle se situe la cible. En cas d’échec, le lien est perdu jusqu’au prochain contact physique.  
+ Grâce à un jet de Dévoiler à _distance_, il peut créer un lien de localisation avec un adversaire en visuel comme si il avait déjà été en contact avec lui.
 
 ### <a name="anchor-teleportation"></a>Téléportation
 
@@ -706,6 +747,16 @@ Le personnage peut également transformer l&#039;apparence d&#039;un objet maté
 - Ajoute des effets sonores
 
 
+### <a name="anchor-marche-fantomatique"></a>Marche fantomatique
+
+**Ne fait aucun bruit et ne laisse pas de trace lors des déplacements**
+
+Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.
+
+Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
+
+Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en _discrétion_.
+
 ### <a name="anchor-invisibilite"></a>Invisibilité
 
 **S&#039;entoure d&#039;une aura éthérée le rendant très difficilement repérable**
@@ -744,16 +795,6 @@ Il peut augmenter la luminosité de _la zone autour de lui_ aussi finement qu&#0
 
 Grâce à un jet d&#039;_Imposer_ à _distance_, il peut générer un flash lumineux aveuglant. En cas de succès, la cible est _sonnée_ pendant un tour.  
  Le personnage peut surexposer ses rétines pour voir plus loin que la normale, comme s&#039;il possédait l&#039;_attribut_ _vue perçante_.
-
-### <a name="anchor-marche-fantomatique"></a>Marche fantomatique
-
-**Ne fait aucun bruit et ne laisse pas de trace lors des déplacements**
-
-Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se déplace.
-
-Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
-
-Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en _discrétion_.
 
 ### <a name="anchor-ombre"></a>Ombre
 
