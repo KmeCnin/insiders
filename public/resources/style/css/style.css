@@ -4,12 +4,6 @@
 @font-face {
   font-family: "Augustus";
   src: url("../../fonts/atene/augustus.ttf") format("opentype"); }
-@font-face {
-  font-family: "CinzelDecorative-Bold";
-  src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype"); }
-@font-face {
-  font-family: "Augustus";
-  src: url("../../fonts/atene/augustus.ttf") format("opentype"); }
 .navbar {
   height: 65px;
   position: fixed;
@@ -130,6 +124,55 @@
       height: 6px;
       cursor: pointer; }
 
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0; }
+
+.modal-open {
+  overflow: hidden; }
+  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto; }
+
+.modal.show .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0); }
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px; }
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000; }
+
+.modal-backdrop.show {
+  opacity: 0.5; }
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+    margin: 30px auto; }
+
+  .modal-sm {
+    max-width: 300px; } }
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 800px; } }
 body {
   margin: 0;
   padding-top: 65px;
@@ -220,13 +263,13 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom, black, black 50%, rgba(0, 0, 0, 0)); }
+  background-image: linear-gradient(to bottom, black, black 50%, transparent); }
 
 .breadcrumb .line {
   width: 100%;
   max-width: 900px;
   height: 1px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to left, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
+  background: linear-gradient(to right, transparent, #FECB5B 30px, transparent), linear-gradient(to left, transparent, #FECB5B 30px, transparent); }
 
 .breadcrumb .breadcrumb-items {
   position: absolute;
@@ -326,7 +369,7 @@ strong {
   height: 100%;
   position: absolute;
   right: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
+  background: linear-gradient(to bottom, transparent, #FECB5B 30px, transparent), linear-gradient(to top, transparent, #FECB5B 30px, transparent); }
 
 .vertical-breadcrumb span {
   margin-right: 10px;
@@ -527,7 +570,7 @@ strong {
   top: -65px;
   visibility: hidden; }
 
-[data-toggle=popover] {
+[data-toggle=popover], .toggle-popover {
   color: #FECB5B;
   cursor: pointer; }
 
@@ -536,7 +579,7 @@ strong {
   z-index: 100;
   border-radius: 3px;
   color: #F0E6D2;
-  background: linear-gradient(to top, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), url(../../images/popover.jpg) no-repeat;
+  background: linear-gradient(to top, black, transparent 95%, transparent, transparent 90%, black), linear-gradient(to bottom, black, transparent 95%, transparent, transparent 90%, black), url(../../images/popover.jpg) no-repeat;
   background-size: cover; }
   .popover .popover-header {
     padding: 5px 20px 20px 20px;

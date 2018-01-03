@@ -1,0 +1,15 @@
+{% extends 'layout.html.twig' %}
+
+{# /lexique #}
+
+{#{% set header_bg = asset('resources/images/bg-header-lexicon.jpg') %}#}
+{% set title = 'Lexique' %}
+{% set subtitle = '' %}
+
+{% block container %}
+    {% for word in lexicon %}
+        {{ word.name }}: {{ word.short }}<br>
+        {{ word.description|augment|raw }}<br>
+        <br>
+    {% endfor %}
+{% endblock %}

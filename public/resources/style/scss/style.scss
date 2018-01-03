@@ -1,5 +1,6 @@
 @import "setup";
 @import "navbar";
+@import "popup";
 
 body {
   margin: 0;
@@ -558,7 +559,7 @@ strong {
   visibility: hidden;
 }
 
-[data-toggle=popover] {
+[data-toggle=popover], .toggle-popover {
   color: $secondary-color;
   cursor: pointer;
 }
