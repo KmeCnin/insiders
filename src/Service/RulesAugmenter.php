@@ -4,9 +4,11 @@ namespace App\Service;
 
 use App\Entity\Rule\Ability;
 use App\Entity\Rule\Arcane;
+use App\Entity\Rule\Attribute;
 use App\Entity\Rule\Burst;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\LexiconEntry;
+use App\Entity\Rule\Page;
 use App\Entity\Rule\RuleInterface;
 use App\Entity\Rule\Skill;
 use Doctrine\ORM\EntityManagerInterface;
@@ -41,12 +43,15 @@ class RulesAugmenter
             }
             $template = 'default';
             switch ($type) {
-                case 'arcane':
-                    $namespace = Arcane::class;
-                    break;
                 case 'ability':
                     $template = 'ability';
                     $namespace = Ability::class;
+                    break;
+                case 'arcane':
+                    $namespace = Arcane::class;
+                    break;
+                case 'attribute':
+                    $namespace = Attribute::class;
                     break;
                 case 'burst':
                     $namespace = Burst::class;
@@ -56,6 +61,10 @@ class RulesAugmenter
                     break;
                 case 'lexicon':
                     $namespace = LexiconEntry::class;
+                    break;
+                case 'page':
+                    $template = 'page';
+                    $namespace = Page::class;
                     break;
                 case 'skill':
                     $namespace = Skill::class;

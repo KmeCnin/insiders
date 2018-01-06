@@ -1,5 +1,6 @@
 @import "setup";
 @import "navbar";
+@import "popup";
 
 body {
   margin: 0;
@@ -33,6 +34,22 @@ strong {
   color: #FECB5B;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  margin: 30px 20px;
+  padding: 15px 30px;
+
+  background: #00000052;
+  border: 1px solid $secondary-color;
+  font-family: $font-family-primary;
+  color: $secondary-color;
+  cursor: pointer;
+}
+
+
 .main {
   .container {
     max-width: 900px;
@@ -63,10 +80,10 @@ strong {
 
 .header {
   max-width: 1500px;
-  height: 700px;
-  background-size: cover;
+  height: 740px;
+  background-size: 120%;
   background-repeat: no-repeat;
-  background-position: 50% 30%;
+  background-position-x: -270px;
   margin: auto;
 }
 
@@ -75,7 +92,7 @@ strong {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   margin: auto;
 
@@ -86,16 +103,33 @@ strong {
   h1 {
     margin-bottom: 0;
 
-    font-size: 3em;
+    font-size: 6em;
     text-transform: uppercase;
-    text-shadow: 0 0 16px black;
+    text-shadow: 0 2px 4px #000000;
+    color: $secondary-color;
   }
 
   h2 {
-    margin-top: 20px;
+    margin: -20px 0 20px 0;
 
-    font-size: 2.5em;
-    text-shadow: 0 0 16px black;
+    font-size: 4.5em;
+    text-shadow: 0 2px 4px #000000;
+    color: $primary-color;
+  }
+
+  span {
+    color: $primary-color;
+    text-shadow: 0 1px 0 #000000;
+  }
+
+  span:first-of-type {
+    font-weight: 700;
+    font-size: 1.3em;
+  }
+
+  span:last-of-type {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.2em;
   }
 }
 
@@ -106,7 +140,7 @@ strong {
 
 .breadcrumb-wrapper {
   position: relative;
-  z-index: 15;
+  z-index: 25;
 
   .is-sticky {
     .breadcrumb .breadcrumb-items img {
@@ -332,35 +366,10 @@ strong {
 
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   background: black;
-  border-radius: 2px;
-}
-
-.block-home1,
-.block-home2,
-.block-home3 {
-  width: 350px;
-  height: 340px;
-}
-
-.block-home1 {
-  background: url(../../images/home/home-short-bg1.png) no-repeat;
-  background-size: cover;
-}
-
-.block-home2 {
-  margin: 0 30px;
-
-  background: url(../../images/home/home-short-bg2.png) no-repeat;
-  background-size: cover;
-}
-
-.block-home3 {
-  background: url(../../images/home/home-short-bg3.png) no-repeat;
-  background-size: cover;
 }
 
 .block-short {
-  height: 90px;
+  height: 80px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -558,7 +567,7 @@ strong {
   visibility: hidden;
 }
 
-[data-toggle=popover] {
+[data-toggle=popover], .toggle-popover {
   color: $secondary-color;
   cursor: pointer;
 }
@@ -596,3 +605,7 @@ strong {
   }
 }
 
+
+
+
+@import "home";

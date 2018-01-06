@@ -1,7 +1,10 @@
+{% set id = 'modal-' ~ entity.name %}
 <span
-    title="{{ entity.name }}"
-    data-toggle="popover"
-    data-content="{{ entity.short }}"
-    data-trigger="hover"
-    data-placement="top"
+    {#title="{{ entity.name }}"#}
+    class="toggle-popover toggle-modal"
+    {#data-content="{{ entity.short }}"#}
+    data-toggle="modal"
+    data-target="#foo"
+    {#data-trigger="hover"#}
+    {#data-placement="top"#}
 >{{ display|raw }}</span>

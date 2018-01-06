@@ -1,6 +1,8 @@
 $(document).ready(function() {
   /*** Popover init ***/
-  $('[data-toggle="popover"]').popover();
+  // $('.toggle-popover').popover();
+  /*** Modal init ***/
+  // $('.modal').modal();
 
   /*** Nav toggle in sections ***/
   $('.vertical-breadcrumb > li').click(function() {

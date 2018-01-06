@@ -1,5 +1,16 @@
 [
     {
+        "id": "anticipation",
+        "name": "Anticipation",
+        "enabled": true,
+        "public": true,
+        "arcane": "web",
+        "short": "Peut prévoir un événement imminent",
+        "description": "<p>Le personnage voit en permanence une fraction de seconde dans le futur.<br \/>\r\nCela lui permet par exemple de pressentir un danger imminent, un choix d&eacute;sastreux, le coup d&#39;un adversaire, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de [D&eacute;voiler](characteristic:reveal) &agrave; [distance](lexicon:range) contre un personnage, il peut [maximiser](lexicon:maximize) son prochain jet oppos&eacute; contre cette cible.<br \/>\r\nPour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#39;&agrave; effectuer le jet.<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
         "id": "fast-forward",
         "name": "Accélération du temps",
         "enabled": true,
@@ -7,6 +18,19 @@
         "arcane": "web",
         "short": "Peut accélérer l'écoulement du temps localement",
         "description": "<p>Le personnage peut acc&eacute;l&eacute;rer le temps sur une zone restreinte pendant un court instant.<br \/>\r\nCela lui permet par exemple d&#39;acc&eacute;l&eacute;rer les projectiles qu&#39;il lance, d&#39;acc&eacute;l&eacute;rer la pousse de la v&eacute;g&eacute;tation, d&#39;aggraver les blessures d&#39;un ennemi, d&#39;achever un adversaire inconscient &agrave; distance.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de [D&eacute;voiler](characteristic:reveal) &agrave; [distance](lexicon:range) oppos&eacute; &agrave; un adversaire, il peut augmenter d&#39;un degr&eacute; chacune des [blessures](lexicon:wound) de la cible.<br \/>\r\nIl peut acc&eacute;l&eacute;rer les projectiles qu&#39;il lance (fl&egrave;ches, armes de jet...) pour augmenter d&#39;un degr&eacute; la blessure inflig&eacute;e.<\/p>",
+        "increases": [],
+        "abilitiesRequired": [
+            "anticipation"
+        ]
+    },
+    {
+        "id": "slow-motion",
+        "name": "Ralentissement du temps",
+        "enabled": true,
+        "public": true,
+        "arcane": "web",
+        "short": "Peut ralentir l'écoulement du temps localement",
+        "description": "<p>Le personnage peut ralentir le temps sur une zone restreinte pendant un court instant.<br \/>\r\nCela lui permet de ralentir une chute, esquiver des coups, prendre le temps de frapper un point vital, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il effectue un jet d&#39;[Attaque](skill:attack)&nbsp;ou de [D&eacute;fense](skill:defense)&nbsp;au [contact](lexicon:contact), il peut ralentir son ennemi&nbsp;pour obtenir un bonus d&#39;un point &agrave; son jet.<br \/>\r\nIl peut ralentir des projectiles lanc&eacute;s &agrave; port&eacute; pour les rendre inefficaces.<\/p>",
         "increases": [],
         "abilitiesRequired": [
             "anticipation"
@@ -26,17 +50,6 @@
                 "description": "<p>Le personnage peut projeter son &eacute;nergie vitale sous forme d&#39;aura.<br \/>\r\nCela lui permet de prot&eacute;ger ses alli&eacute;s ou de les guider.<\/p>\r\n\r\n<p>Chaque tour il peut choisir un alli&eacute; [&agrave; distance](lexicon:range) &agrave; prot&eacute;ger mais cela ne l&#39;emp&ecirc;che pas d&#39;agir en m&ecirc;me temps.<br \/>\r\nSi cet alli&eacute; doit lancer un jet de [D&eacute;fense](skill:defense), le personnage lance le jet &agrave; sa place en utilisant tous ses bonus personnels ([Instinct](lexicon:instinct), [Ma&icirc;trise](lexicon:proficiency), [&eacute;quipement](lexicon:stuff), capacit&eacute;s, etc.).<br \/>\r\nEn cas d&#39;&eacute;chec c&#39;est tout de m&ecirc;me l&#39;alli&eacute; qui re&ccedil;oit la [blessure](lexicon:wound).<\/p>\r\n\r\n<p>Lorsqu&#39;il ne d&eacute;fend pas un allier, le personnage peut invoquer une petite luciole immat&eacute;rielle faite &agrave; partir de son &eacute;nergie vitale. La luciole l&eacute;vite et brille d&#39;une lumi&egrave;re tr&egrave;s faible qui peut n&eacute;anmoins suffire &agrave; &eacute;clairer sur une dizaine de m&egrave;tres.<br \/>\r\nLe personnage peut la guider pour qu&#39;elle se rende &agrave; un endroit pr&eacute;cis qu&#39;il a en visuel.<br \/>\r\nLe personnage peut &eacute;galement lui demander de ramener &agrave; lui une personne qu&#39;il a d&eacute;j&agrave; vu dans le pass&eacute; (ne fonctionne pas sur les cibles invisibles). Dans ce cas la luciole se t&eacute;l&eacute;porte jusqu&#39;&agrave; la cible puis la guide&nbsp;vers son propri&eacute;taire. Si la cible refuse de la suivre, la luciole r&eacute;appara&icirc;t aux c&ocirc;t&eacute;s du personnage.<\/p>"
             }
         ],
-        "abilitiesRequired": []
-    },
-    {
-        "id": "anticipation",
-        "name": "Anticipation",
-        "enabled": true,
-        "public": true,
-        "arcane": "web",
-        "short": "Peut prévoir un événement imminent",
-        "description": "<p>Le personnage voit en permanence une fraction de seconde dans le futur.<br \/>\r\nCela lui permet par exemple de pressentir un danger imminent, un choix d&eacute;sastreux, le coup d&#39;un adversaire, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de [D&eacute;voiler](characteristic:reveal) &agrave; [distance](lexicon:range) contre un personnage, il peut [maximiser](lexicon:maximize) son prochain jet oppos&eacute; contre cette cible.<br \/>\r\nPour cela il doit se concentrer pour analyser les mouvements de sa cible jusqu&#39;&agrave; effectuer le jet.<\/p>",
-        "increases": [],
         "abilitiesRequired": []
     },
     {
@@ -133,6 +146,39 @@
         "abilitiesRequired": []
     },
     {
+        "id": "lightning",
+        "name": "Foudre",
+        "enabled": true,
+        "public": true,
+        "arcane": "source",
+        "short": "Peut invoquer des orages",
+        "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me.<\/p>",
+        "increases": [
+            {
+                "short": "Peut exclure des personnages de la zone foudroyée",
+                "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me et les autres personnages qu&#39;il choisit d&#39;exclure de la zone.<\/p>"
+            }
+        ],
+        "abilitiesRequired": [
+            "combustion",
+            "electrocution"
+        ]
+    },
+    {
+        "id": "tectonic",
+        "name": "Tectonique",
+        "enabled": true,
+        "public": true,
+        "arcane": "source",
+        "short": "Peut créer des séismes",
+        "description": "<p>Le personnage est capable de produire des ondes puissantes se d&eacute;pla&ccedil;ant dans la terre et la roche.<br \/>\r\nCela lui permet par exemple de briser un rocher d&#39;un simple contact, de cr&eacute;er des ondes de chocs, de fragiliser des constructions, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range) il peut faire tomber les adversaires &agrave; port&eacute;e qui subissent alors une [blessure](lexicon:wound) de degr&eacute; I.<\/p>",
+        "increases": [],
+        "abilitiesRequired": [
+            "combustion",
+            "sound"
+        ]
+    },
+    {
         "id": "confessions",
         "name": "Confidence",
         "enabled": true,
@@ -152,6 +198,22 @@
         "short": "Corrompt la vie",
         "description": "<p>Le personnage d&eacute;compose les cellules vivantes au contact.<br \/>\r\nCela lui permet par exemple de d&eacute;composer de la v&eacute;g&eacute;tation, n&eacute;croser ses adversaires, affaiblir des constructions en bois, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I dont la gravit&eacute; augmente d&#39;un degr&eacute; &agrave; chaque tour jusqu&#39;&agrave; un maximum de degr&eacute; III.<\/p>",
         "increases": [],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "mineral-fists",
+        "name": "Poings d'obsylène",
+        "enabled": true,
+        "public": true,
+        "arcane": "life",
+        "short": "Possède des poings dont la solidité peut briser le métal",
+        "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage sont faites d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; [obsyl&egrave;ne](lexicon:obsylene).<br \/>\r\nCela lui permet par exemple de combattre &agrave; main nue, de briser des surfaces en bois, de d&eacute;truire des objets en m&eacute;tal non &eacute;quip&eacute;s, etc.<\/p>\r\n\r\n<p>Le personnage est capable de briser sans effort des objets voir m&ecirc;me des structures en bois et fragiliser des constructions en pierre ou des structures en m&eacute;tal.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II.<\/p>",
+        "increases": [
+            {
+                "short": "Détruit également les équipements portés",
+                "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage sont faites d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; [obsyl&egrave;ne](lexicon:obsylene).<br \/>\r\nCela lui permet par exemple de combattre &agrave; main nue, de briser des surfaces en bois, de d&eacute;truire des objets ou des &eacute;quipements en m&eacute;tal, etc.<\/p>\r\n\r\n<p>Le personnage est capable de briser sans effort des objets voir m&ecirc;me des structures en bois et fragiliser des constructions en pierre ou des structures en m&eacute;tal.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer au contact contre un adversaire suivit d&#39;un jet d&#39;Imposer contre un &eacute;quipement, il peut le d&eacute;truire.<\/p>"
+            }
+        ],
         "abilitiesRequired": []
     },
     {
@@ -182,6 +244,20 @@
             }
         ],
         "abilitiesRequired": []
+    },
+    {
+        "id": "electromagnetism",
+        "name": "Électromagnétisme",
+        "enabled": true,
+        "public": true,
+        "arcane": "source",
+        "short": "Maîtrise les champs magnétiques",
+        "description": "<p>Le personnage est capable de percevoir et contr&ocirc;ler les champs magn&eacute;tiques terrestres.<br \/>\r\nCela lui permet par exemple d&#39;aimanter des &eacute;quipements m&eacute;talliques &agrave; distance, de savoir s&#39;orienter en permanence (il localise l&#39;Elyseum), attirer &agrave; lui des objets m&eacute;talliques, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range) il peut d&eacute;sarmer autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armes m&eacute;talliques et envoyer les&nbsp;armes loin d&#39;eux.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance il peut plaquer au sol autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armures m&eacute;talliques.<\/p>",
+        "increases": [],
+        "abilitiesRequired": [
+            "electrocution",
+            "sound"
+        ]
     },
     {
         "id": "duplication",
@@ -216,18 +292,33 @@
         "abilitiesRequired": []
     },
     {
-        "id": "electromagnetism",
-        "name": "Électromagnétisme",
+        "id": "betrayal",
+        "name": "Trahison",
+        "enabled": true,
+        "public": true,
+        "arcane": "vice",
+        "short": "Peut forcer un personnage à attaquer ses alliés",
+        "description": "<p>Le personnage peut contr&ocirc;ler momentan&eacute;ment l&#39;esprit d&#39;une cible.<br \/>\r\nCela lui permet au choix d&#39;ins&eacute;rer un sentiment extr&ecirc;me d&#39;agressivit&eacute;, de bienveillance, de peur envers un personnage (qu&#39;il soit alli&eacute; ou ennemi). Il peut donc par exemple le forcer &agrave; attaquer un allier, soigner un ennemi, s&#39;enfuir, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de [Dissimuler](characteristic:hide) &agrave; [distance](lexicon:range), il peut obliger la cible &agrave; accomplir une unique action de son choix.<\/p>",
+        "increases": [],
+        "abilitiesRequired": [
+            "distraction"
+        ]
+    },
+    {
+        "id": "sound",
+        "name": "Onde sonore",
         "enabled": true,
         "public": true,
         "arcane": "source",
-        "short": "Maîtrise les champs magnétiques",
-        "description": "<p>Le personnage est capable de percevoir et contr&ocirc;ler les champs magn&eacute;tiques terrestres.<br \/>\r\nCela lui permet par exemple d&#39;aimanter des &eacute;quipements m&eacute;talliques &agrave; distance, de savoir s&#39;orienter en permanence (il localise l&#39;Elyseum), attirer &agrave; lui des objets m&eacute;talliques, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range) il peut d&eacute;sarmer autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armes m&eacute;talliques et envoyer les&nbsp;armes loin d&#39;eux.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer &agrave; distance il peut plaquer au sol autant d&#39;adversaires qu&#39;il le d&eacute;sire&nbsp;&eacute;quip&eacute;s d&#39;armures m&eacute;talliques.<\/p>",
-        "increases": [],
-        "abilitiesRequired": [
-            "electrocution",
-            "sound"
-        ]
+        "short": "Peut projeter des ondes sonores puissantes",
+        "description": "<p>Le personnage est capable de g&eacute;n&eacute;rer des ondes violentes dont il peut contr&ocirc;ler la puissance et la direction avec pr&eacute;cision.<br \/>\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilom&egrave;tres, de simuler des sons, etc.<\/p>\r\n\r\n<p>Il peut&nbsp;g&eacute;n&eacute;rer des sons tr&egrave;s simples comme des bruits de chocs, des cris avec sa propre voix, des bruissements, etc.<br \/>\r\nS&#39;il veut simuler des sons plus subtiles comme des cris d&#39;animaux ou&nbsp;de la musique, il doit r&eacute;ussir un jet de [D&eacute;voiler](characteristic:reveal) au risque de rater son immitation.<br \/>\r\nLe personnage peut &eacute;galement choisir le point d&#39;&eacute;mission de ces faux sons.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut [sonner](lexicon:stun) un personnage.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux sons puissants.<\/p>",
+        "increases": [
+            {
+                "short": "Inflige une blessure de degré I en plus de sonner",
+                "description": "<p>Le personnage est capable de g&eacute;n&eacute;rer des ondes violentes dont il peut contr&ocirc;ler la puissance et la direction avec pr&eacute;cision.<br \/>\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilom&egrave;tres, de simuler des sons, etc.<\/p>\r\n\r\n<p>Il peut&nbsp;g&eacute;n&eacute;rer des sons tr&egrave;s simples comme des bruits de chocs, des cris avec sa propre voix, des bruissements, etc.<br \/>\r\nS&#39;il veut simuler des sons plus subtiles comme des cris d&#39;animaux ou&nbsp;de la musique, il doit r&eacute;ussir un jet de [D&eacute;voiler](characteristic:reveal) au risque de rater son immitation.<br \/>\r\nLe personnage peut &eacute;galement choisir le point d&#39;&eacute;mission de ces faux sons.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I et&nbsp;[sonner](lexicon:stun) un personnage.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux sons puissants.<\/p>"
+            }
+        ],
+        "abilitiesRequired": []
     },
     {
         "id": "familiar",
@@ -250,25 +341,6 @@
         "abilitiesRequired": []
     },
     {
-        "id": "lightning",
-        "name": "Foudre",
-        "enabled": true,
-        "public": true,
-        "arcane": "source",
-        "short": "Peut invoquer des orages",
-        "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me.<\/p>",
-        "increases": [
-            {
-                "short": "Peut exclure des personnages de la zone foudroyée",
-                "description": "<p>Le personnage est capable de commander la m&eacute;t&eacute;o environnante.<br \/>\r\nCela lui permet par exemple d&#39;invoquer des orages, de faire tomber la pluie, de servir de conducteur pour foudroyer les personnages proches, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; III &agrave; tous les personnages avoisinants except&eacute; lui-m&ecirc;me et les autres personnages qu&#39;il choisit d&#39;exclure de la zone.<\/p>"
-            }
-        ],
-        "abilitiesRequired": [
-            "combustion",
-            "electrocution"
-        ]
-    },
-    {
         "id": "hypnosis",
         "name": "Hypnose",
         "enabled": true,
@@ -278,6 +350,48 @@
         "description": "<p>Le personnage est capable de plonger une cible &agrave; distance dans un lieu ou un souvenir personnel agr&eacute;able, c&ocirc;toyant&nbsp;des &ecirc;tres proches ou m&egrave;nant&nbsp;la vie qu&#39;elle a toujours r&ecirc;v&eacute;e.<\/p>\r\n\r\n<p>Cela permet d&#39;endormir la vigilance de ses ennemis ou d&#39;am&eacute;liorer le sommeil de ses alli&eacute;s.<br \/>\r\nCes r&ecirc;ves ou souvenirs traffiqu&eacute;s vont inciter la cible &agrave; rester dans cet univers fictif. Le personnage ne peut cibler qu&#39;un individu qui n&#39;est pas en situation de danger imm&eacute;diat, il ne doit pas &ecirc;tre en combat ou en train de fuir un assaillant.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de [Dissimuler](characteristic:hide) &agrave; [distance](lexicon:range), le personnage peut plonger une&nbsp;cible dans un &eacute;tat hypnotique qui la rend peu sensible aux stimulus ext&eacute;rieurs.<br \/>\r\nPour sortir de cet &eacute;tat, la cible doit se retrouver hors de la port&eacute; du joueur ou bien &ecirc;tre r&eacute;veill&eacute;e par un &eacute;v&eacute;nement surprenant (bruit fort, vibration, lumi&egrave;re intense, etc.) elle a alors le droit &agrave; un jet de [D&eacute;voiler](characteristic:reveal) pour sortir de son &eacute;tat.<br \/>\r\nEn cas d&#39;agression directe, la cible se r&eacute;veille imm&eacute;diatement sans avoir besoin de faire de jet.<\/p>\r\n\r\n<p>De plus, le personnage est capable d&#39;am&eacute;liorer consid&eacute;rablement la qualit&eacute; de son sommeil et de celui de ses alli&eacute;s. Avant de se coucher, il choisit un personnage par point de Dissimuler (en plus de lui-m&ecirc;me) et peut diviser par deux leurs besoins de sommeil (passant de 8h &agrave; 4h).<\/p>",
         "increases": [],
         "abilitiesRequired": []
+    },
+    {
+        "id": "ignore-pain",
+        "name": "Ignorer la douleur",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Résiste à la souffrance",
+        "description": "<p>Le personnage est capable de contr&ocirc;ler parfaitement sa tol&eacute;rance &agrave; la douleur.<br \/>\r\nCela lui permet par exemple de manier temporairement un objet br&ucirc;lant, de traverser un b&ucirc;cher, d&#39;&eacute;viter de laisser &eacute;chapper un cri de douleur, etc.<\/p>\r\n\r\n<p>En&nbsp;passant un tour &agrave; se concentrer,&nbsp;le personnage est capable d&#39;ignorer la souffrance caus&eacute;e par une de ses [blessures](lexicon:wound) de degr&eacute; I. Il r&eacute;siste aux effets n&eacute;fastes de la&nbsp;blessure&nbsp;comme si elle&nbsp;&eacute;tait gu&eacute;rie.<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "ignore-mind",
+        "name": "Ignorer la raison",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Peut transgresser ses limites physiques",
+        "description": "<p>Le personnage est capable d&#39;accomplir des actions extraordinaires en ignorant ses propres limites physiques.<br \/>\r\nCela lui permet par exemple d&#39;obtenir une [vitesse de d&eacute;placement surnaturelle](lexicon:speed)&nbsp;pendant un court instant, de sauter&nbsp;trois fois plus haut, de soulever un poids dix fois plus lourd que la normale, d&#39;[attaquer](skill:attack) deux fois par tour, etc.<\/p>\r\n\r\n<p>A chaque fois qu&#39;il utilise cette capacit&eacute;, le personnage subit une [blessure](lexicon:wound) de degr&eacute; I just apr&egrave;s.<\/p>",
+        "increases": [],
+        "abilitiesRequired": [
+            "ignore-pain"
+        ]
+    },
+    {
+        "id": "ignore-limits",
+        "name": "Surpasser ses limites",
+        "enabled": true,
+        "public": true,
+        "arcane": "spirit",
+        "short": "Débloque son potentiel caché",
+        "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>En d&eacute;bloquant cette capacit&eacute; le personnage choisit deux [caract&eacute;ristiques](lexicon:characteristic)&nbsp;et&nbsp;peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) aux caract&eacute;ristiques choisies.<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, on consid&egrave;re dor&eacute;navant qu&#39;il poss&egrave;de un score d&#39;Instinct de 5 et pas de score de Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il gagne de nouveaux points de Ma&icirc;trise, ses scores sont&nbsp;modifi&eacute;s imm&eacute;diatement. Cela fonctionne &eacute;galement avec les points obtenus gr&acirc;ce &agrave; [Partage d&#39;exp&eacute;rience](ability:pooling).<\/p>",
+        "increases": [
+            {
+                "short": "Améliore toutes ses caractéristiques",
+                "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>Il peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) &agrave; toutes ses [caract&eacute;ristiques](lexicon:characteristic).<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, on consid&egrave;re dor&eacute;navant qu&#39;il poss&egrave;de un score d&#39;Instinct de 5 et pas de score de Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il gagne de nouveaux points de Ma&icirc;trise, ses scores sont&nbsp;modifi&eacute;s imm&eacute;diatement. Cela fonctionne &eacute;galement avec les points obtenus gr&acirc;ce &agrave; [Partage d&#39;exp&eacute;rience](ability:pooling).<\/p>"
+            }
+        ],
+        "abilitiesRequired": [
+            "ignore-mind"
+        ]
     },
     {
         "id": "illusion",
@@ -313,6 +427,17 @@
                 "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement augmenter la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de vaporiser de l&#39;eau, br&ucirc;ler des tissus vivants au contact, chauffer du m&eacute;tal &agrave; blanc, allumer un feu &agrave; partir de mat&eacute;riaux inflammables, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II en br&ucirc;lant son adversaire.<br \/>\r\nLorsqu&#39;il manie une arme m&eacute;tallique (lame au contact ou fl&egrave;ches\/carreaux &agrave; distance), il peut chauffer la lame &agrave; blanc pour augmenter la blessure inflig&eacute;e d&#39;un degr&eacute;.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux br&ucirc;lures.<\/p>"
             }
         ],
+        "abilitiesRequired": []
+    },
+    {
+        "id": "ghost-walk",
+        "name": "Marche fantomatique",
+        "enabled": true,
+        "public": true,
+        "arcane": "veil",
+        "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
+        "description": "<p>Le personnage ne fait aucun bruit de pas ni d&rsquo;&eacute;quipement lorsqu&rsquo;il se d&eacute;place.<\/p>\r\n\r\n<p>Il ne laisse aucun trace permettant de le pister (en for&ecirc;t, dans la neige, dans le sable...).<\/p>\r\n\r\n<p>Si le personnage est &eacute;quip&eacute; d&#39;un harnois, il ne subit plus le malus en [discr&eacute;tion](skill:discretion).<\/p>",
+        "increases": [],
         "abilitiesRequired": []
     },
     {
@@ -396,6 +521,35 @@
         "abilitiesRequired": []
     },
     {
+        "id": "teleport",
+        "name": "Téléportation",
+        "enabled": true,
+        "public": true,
+        "arcane": "web",
+        "short": "Peut se rendre instantanément dans un lieu déjà visité",
+        "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, mais pas d&#39;autres &ecirc;tres vivants.<\/p>",
+        "increases": [
+            {
+                "short": "Peut emporter des êtres vivants avec lui",
+                "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, y&nbsp;compris des personnages ou animaux.<\/p>"
+            }
+        ],
+        "abilitiesRequired": [
+            "tracking"
+        ]
+    },
+    {
+        "id": "light",
+        "name": "Lumière",
+        "enabled": true,
+        "public": true,
+        "arcane": "veil",
+        "short": "Peut augmenter la luminosité ambiante",
+        "description": "<p>Le personnage peut contr&ocirc;ler la luminosit&eacute; alentour &agrave; volont&eacute;.<br \/>\r\nCela lui permet d&#39;&eacute;clairer son environnement, d&#39;&eacute;blouir ses ennemis, etc.<\/p>\r\n\r\n<p>Il peut augmenter la luminosit&eacute; de [la zone autour de lui](lexicon:range) aussi finement qu&#39;il le souhaite, transformant ainsi une nuit sombre en aube claire, ou un z&eacute;nith br&ucirc;lant sous lequel les animaux [nyctalopes](attribute:night-vision) sont en permanence [sonn&eacute;s](lexicon:stun).&nbsp;La zone affect&eacute;e doit &ecirc;tre une sph&egrave;re centr&eacute;e sur le personnage d&#39;un rayon n&#39;exc&eacute;dant pas [sa port&eacute;e](lexicon:range).<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut g&eacute;n&eacute;rer un flash lumineux aveuglant. En cas de succ&egrave;s, la cible est&nbsp;[sonn&eacute;e](lexicon:stun) pendant un tour.<br \/>\r\nLe personnage peut surexposer ses r&eacute;tines pour voir plus loin que la normale, comme s&#39;il poss&eacute;dait l&#39;[attribut](lexicon:attribute)&nbsp;[vue per&ccedil;ante](attribute:eagle-eyes).<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
         "id": "memory-leak",
         "name": "Manipulation de mémoire",
         "enabled": true,
@@ -409,17 +563,6 @@
                 "description": "<p>Le personnage peut ins&eacute;rer un nouveau souvenir ou en supprimer un ancien dans l&#39;esprit d&#39;une cible.<br \/>\r\nCela lui permet par exemple de faire croire &agrave; la cible qu&#39;elle a d&eacute;j&agrave; rencontr&eacute; le personnage, qu&#39;il lui a d&eacute;j&agrave; sauv&eacute; la vie dans le pass&eacute;, qu&#39;elle a commis un acte r&eacute;pr&eacute;hensible, lui faire oublier une action du personnage &agrave; son &eacute;gare, etc. En cas d&#39;&eacute;chec, la cible se rend compte de la tentative de manipulation et de son origine.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de [Dissimuler](characteristic:hide) au [contact](lexicon:contact), il peut cr&eacute;er ou supprimer un souvenir qui doit &ecirc;tre court (quelques secondes tout au plus) et l&#39;ins&eacute;rer dans l&#39;esprit d&#39;un personnage ou d&#39;un animal.<\/p>"
             }
         ],
-        "abilitiesRequired": []
-    },
-    {
-        "id": "ghost-walk",
-        "name": "Marche fantomatique",
-        "enabled": true,
-        "public": true,
-        "arcane": "veil",
-        "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
-        "description": "<p>Le personnage ne fait aucun bruit de pas ni d&rsquo;&eacute;quipement lorsqu&rsquo;il se d&eacute;place.<\/p>\r\n\r\n<p>Il ne laisse aucun trace permettant de le pister (en for&ecirc;t, dans la neige, dans le sable...).<\/p>\r\n\r\n<p>Si le personnage est &eacute;quip&eacute; d&#39;un harnois, il ne subit plus le malus en [discr&eacute;tion](skill:discretion).<\/p>",
-        "increases": [],
         "abilitiesRequired": []
     },
     {
@@ -455,19 +598,14 @@
         "abilitiesRequired": []
     },
     {
-        "id": "sound",
-        "name": "Onde sonore",
+        "id": "shadow",
+        "name": "Ombre",
         "enabled": true,
         "public": true,
-        "arcane": "source",
-        "short": "Peut projeter des ondes sonores puissantes",
-        "description": "<p>Le personnage est capable de g&eacute;n&eacute;rer des ondes violentes dont il peut contr&ocirc;ler la puissance et la direction avec pr&eacute;cision.<br \/>\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilom&egrave;tres, de simuler des sons, etc.<\/p>\r\n\r\n<p>Il peut&nbsp;g&eacute;n&eacute;rer des sons tr&egrave;s simples comme des bruits de chocs, des cris avec sa propre voix, des bruissements, etc.<br \/>\r\nS&#39;il veut simuler des sons plus subtiles comme des cris d&#39;animaux ou&nbsp;de la musique, il doit r&eacute;ussir un jet de [D&eacute;voiler](characteristic:reveal) au risque de rater son immitation.<br \/>\r\nLe personnage peut &eacute;galement choisir le point d&#39;&eacute;mission de ces faux sons.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut [sonner](lexicon:stun) un personnage.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux sons puissants.<\/p>",
-        "increases": [
-            {
-                "short": "Inflige une blessure de degré I en plus de sonner",
-                "description": "<p>Le personnage est capable de g&eacute;n&eacute;rer des ondes violentes dont il peut contr&ocirc;ler la puissance et la direction avec pr&eacute;cision.<br \/>\r\nCela lui permet de sonner ses ennemies, de se faire entendre sur plusieurs kilom&egrave;tres, de simuler des sons, etc.<\/p>\r\n\r\n<p>Il peut&nbsp;g&eacute;n&eacute;rer des sons tr&egrave;s simples comme des bruits de chocs, des cris avec sa propre voix, des bruissements, etc.<br \/>\r\nS&#39;il veut simuler des sons plus subtiles comme des cris d&#39;animaux ou&nbsp;de la musique, il doit r&eacute;ussir un jet de [D&eacute;voiler](characteristic:reveal) au risque de rater son immitation.<br \/>\r\nLe personnage peut &eacute;galement choisir le point d&#39;&eacute;mission de ces faux sons.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I et&nbsp;[sonner](lexicon:stun) un personnage.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux sons puissants.<\/p>"
-            }
-        ],
+        "arcane": "veil",
+        "short": "Peut diminuer la luminosité ambiante",
+        "description": "<p>Le personnage peut contr&ocirc;ler l&#39;obscurit&eacute; alentour &agrave; volont&eacute;.<br \/>\r\nCela lui permet de plonger son environnement dans l&#39;ombre, d&#39;aveugler un ennemi, etc.<\/p>\r\n\r\n<p>Il peut diminuer la luminosit&eacute; de la zone autour de lui aussi finement qu&#39;il le souhaite, la faisant varier d&#39;une peine-ombre, &agrave; une nuit sans lune&nbsp;jusqu&#39;&agrave; obtenir une obscurit&eacute; absolument totale dans laquelle m&ecirc;me les animaux [nyctalopes](attribute:night-vision) sont aveugles. La zone affect&eacute;e doit &ecirc;tre une sph&egrave;re centr&eacute;e sur le personnage d&#39;un rayon n&#39;exc&eacute;dant pas [sa port&eacute;e](lexicon:range).<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut cr&eacute;er une petite zone d&#39;obscurit&eacute; totale autour des yeux d&#39;un ennemi pour le rendre aveugle. Le personnage doit lancer un nouveau jet d&#39;Imposer chaque tour pour que la zone d&#39;ombre suive les mouvements de sa cible et ne peut pas faire d&#39;action n&eacute;cessitant un jet de [caract&eacute;ristique](lexicon:characteristic) tant qu&#39;il&nbsp;maintient l&#39;aveuglement.<br \/>\r\nLes yeux du personnage sont habitu&eacute;s &agrave; l&#39;obscurit&eacute;s, il peut voir dans la p&eacute;nombre comme s&#39;il poss&eacute;dait l&#39;[attribut](lexicon:attribute)&nbsp;[nyctalopes](attribute:night-vision).<\/p>",
+        "increases": [],
         "abilitiesRequired": []
     },
     {
@@ -547,22 +685,6 @@
         "abilitiesRequired": []
     },
     {
-        "id": "mineral-fists",
-        "name": "Poings d'obsylène",
-        "enabled": true,
-        "public": true,
-        "arcane": "life",
-        "short": "Possède des poings dont la solidité peut briser le métal",
-        "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage sont faites d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; [obsyl&egrave;ne](lexicon:obsylene).<br \/>\r\nCela lui permet par exemple de combattre &agrave; main nue, de briser des surfaces en bois, de d&eacute;truire des objets en m&eacute;tal non &eacute;quip&eacute;s, etc.<\/p>\r\n\r\n<p>Le personnage est capable de briser sans effort des objets voir m&ecirc;me des structures en bois et fragiliser des constructions en pierre ou des structures en m&eacute;tal.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II.<\/p>",
-        "increases": [
-            {
-                "short": "Détruit également les équipements portés",
-                "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage sont faites d&#39;un mat&eacute;riau noir extr&ecirc;mement solide appel&eacute; [obsyl&egrave;ne](lexicon:obsylene).<br \/>\r\nCela lui permet par exemple de combattre &agrave; main nue, de briser des surfaces en bois, de d&eacute;truire des objets ou des &eacute;quipements en m&eacute;tal, etc.<\/p>\r\n\r\n<p>Le personnage est capable de briser sans effort des objets voir m&ecirc;me des structures en bois et fragiliser des constructions en pierre ou des structures en m&eacute;tal.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II.<br \/>\r\nGr&acirc;ce &agrave; un jet d&#39;Imposer au contact contre un adversaire suivit d&#39;un jet d&#39;Imposer contre un &eacute;quipement, il peut le d&eacute;truire.<\/p>"
-            }
-        ],
-        "abilitiesRequired": []
-    },
-    {
         "id": "psychokinesis",
         "name": "Psychokinèse",
         "enabled": true,
@@ -572,19 +694,6 @@
         "description": "<p>Le personnage peut d&eacute;placer la mati&egrave;re par la pens&eacute;e.<br \/>\r\nCela lui permet par exemple de d&eacute;placer en l&#39;air tout objet non tenu et inanim&eacute; [&agrave; distance](lexicon:range) qu&#39;il aurait &eacute;t&eacute; capable de soulever, de forcer un personnage &agrave; s&#39;attaquer lui-m&ecirc;me, de faire l&acirc;cher un &eacute;quipement, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut utiliser l&#39;arme du personnage cibl&eacute; contre lui ou le d&eacute;sarmer.<\/p>",
         "increases": [],
         "abilitiesRequired": []
-    },
-    {
-        "id": "slow-motion",
-        "name": "Ralentissement du temps",
-        "enabled": true,
-        "public": true,
-        "arcane": "web",
-        "short": "Peut ralentir l'écoulement du temps localement",
-        "description": "<p>Le personnage peut ralentir le temps sur une zone restreinte pendant un court instant.<br \/>\r\nCela lui permet de ralentir une chute, esquiver des coups, prendre le temps de frapper un point vital, etc.<\/p>\r\n\r\n<p>Lorsqu&#39;il effectue un jet d&#39;[Attaque](skill:attack)&nbsp;ou de [D&eacute;fense](skill:defense)&nbsp;au [contact](lexicon:contact), il peut ralentir son ennemi&nbsp;pour obtenir un bonus d&#39;un point &agrave; son jet.<br \/>\r\nIl peut ralentir des projectiles lanc&eacute;s &agrave; port&eacute; pour les rendre inefficaces.<\/p>",
-        "increases": [],
-        "abilitiesRequired": [
-            "anticipation"
-        ]
     },
     {
         "id": "cold",
@@ -614,20 +723,6 @@
         "abilitiesRequired": []
     },
     {
-        "id": "tectonic",
-        "name": "Tectonique",
-        "enabled": true,
-        "public": true,
-        "arcane": "source",
-        "short": "Peut créer des séismes",
-        "description": "<p>Le personnage est capable de produire des ondes puissantes se d&eacute;pla&ccedil;ant dans la terre et la roche.<br \/>\r\nCela lui permet par exemple de briser un rocher d&#39;un simple contact, de cr&eacute;er des ondes de chocs, de fragiliser des constructions, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range) il peut faire tomber les adversaires &agrave; port&eacute;e qui subissent alors une [blessure](lexicon:wound) de degr&eacute; I.<\/p>",
-        "increases": [],
-        "abilitiesRequired": [
-            "combustion",
-            "sound"
-        ]
-    },
-    {
         "id": "telepathy",
         "name": "Télépathie",
         "enabled": true,
@@ -637,37 +732,6 @@
         "description": "<p>Le personnage peut communiquer mentalement avec un autre personnage ou un animal &agrave; distance.<\/p>\r\n\r\n<p>S&#39;il a d&eacute;j&agrave; communiqu&eacute; avec sa cible au moins une fois en face &agrave; face, il peut lui parler sans limite de port&eacute;e, sinon, elle doit &ecirc;tre &agrave; port&eacute;e de vue.<br \/>\r\nIl ne peut pas communiquer avec une cible qu&#39;il n&#39;a jamais vu de sa vie.<br \/>\r\nUne fois le message transmit, la cible peut ensuite r&eacute;pondre mentalement par une phrase. Il n&#39;a pas besoin de parler la m&ecirc;me langue que la cible pour comprendre et &ecirc;tre compris (il peut m&ecirc;me communiquer avec des animaux en utilisant des mots simples).<\/p>\r\n\r\n<p>L&#39;utilisation de cette capacit&eacute; ne donne cependant aucune information concernant la localisation de la cible. Elle ne permet pas non plus de diff&eacute;rencier une cible morte ou inconsciente (en cas de perte de contact).<\/p>",
         "increases": [],
         "abilitiesRequired": []
-    },
-    {
-        "id": "teleport",
-        "name": "Téléportation",
-        "enabled": true,
-        "public": true,
-        "arcane": "web",
-        "short": "Peut se rendre instantanément dans un lieu déjà visité",
-        "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, mais pas d&#39;autres &ecirc;tres vivants.<\/p>",
-        "increases": [
-            {
-                "short": "Peut emporter des êtres vivants avec lui",
-                "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, y&nbsp;compris des personnages ou animaux.<\/p>"
-            }
-        ],
-        "abilitiesRequired": [
-            "tracking"
-        ]
-    },
-    {
-        "id": "betrayal",
-        "name": "Trahison",
-        "enabled": true,
-        "public": true,
-        "arcane": "vice",
-        "short": "Peut forcer un personnage à attaquer ses alliés",
-        "description": "<p>Le personnage peut contr&ocirc;ler momentan&eacute;ment l&#39;esprit d&#39;une cible.<br \/>\r\nCela lui permet au choix d&#39;ins&eacute;rer un sentiment extr&ecirc;me d&#39;agressivit&eacute;, de bienveillance, de peur envers un personnage (qu&#39;il soit alli&eacute; ou ennemi). Il peut donc par exemple le forcer &agrave; attaquer un allier, soigner un ennemi, s&#39;enfuir, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet de [Dissimuler](characteristic:hide) &agrave; [distance](lexicon:range), il peut obliger la cible &agrave; accomplir une unique action de son choix.<\/p>",
-        "increases": [],
-        "abilitiesRequired": [
-            "distraction"
-        ]
     },
     {
         "id": "vital-force",

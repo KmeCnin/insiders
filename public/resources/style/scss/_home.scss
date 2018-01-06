@@ -1,0 +1,104 @@
+.header-home {
+    div {
+        position: relative;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.block-home1,
+.block-home2,
+.block-home3 {
+  width: 350px;
+  height: 340px;
+  border: 1px solid $secondary-color;
+}
+
+.block-home1 {
+  background: url(../../images/home/home-short-bg1.png) no-repeat;
+  background-size: cover;
+}
+
+.block-home2 {
+  margin: 0 30px;
+
+  background: url(../../images/home/home-short-bg2.png) no-repeat;
+  background-size: cover;
+}
+
+.block-home3 {
+  background: url(../../images/home/home-short-bg3.png) no-repeat;
+  background-size: cover;
+}
+
+.block-user-wrapper {
+    display: flex;
+  
+    .block-user {
+      width: 50%;
+      height: 480px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  
+      .border {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+  
+        border: 1px solid $secondary-color;
+      }
+  
+      h1 {
+        text-shadow: 0 2px 0px #000000;
+      }
+    }
+    
+    .block-player {
+      background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../../images/home/block-player.jpg) no-repeat;
+      background-size: 400%;
+      background-position-x: -857px;
+      background-position-y: -470px;
+    }
+    
+    .block-mj {
+      background: url(../../images/home/block-mj.jpg) no-repeat;
+      background-size: 112%;
+      background-position-x: -1px;
+      background-position-y: -40px;  
+      filter: grayscale(90%);
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.7;
+      transition: opacity 0.5s;
+    }
+  }
+
+  .block-user:hover {
+    .content-wrapper {
+      opacity: 1;
+    }
+  }
+
+  .block-user:last-of-type:hover {
+    .content-wrapper {
+      opacity: 0.7;
+    }
+  }

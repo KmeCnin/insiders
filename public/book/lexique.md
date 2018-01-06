@@ -25,6 +25,7 @@ Notion | Résumé
 **[Distance](#anchor-distance)** | Portée à laquelle un personnage est capable d&#039;intéragir
 **[Distrait](#anchor-distrait)** | Etat de faiblesse mentale réduisant les performances d&#039;un personnage
 **[Divinité arcanique](#anchor-divinite-arcanique)** | Etre tout-puissant résidant au sein de l&#039;Elyseum
+**[Elyseum](#anchor-elyseum)** | Elyseum
 **[Entité](#anchor-entite)** | Etre vivant ou chose qui possède des caractéristiques
 **[Équipement](#anchor-equipement)** | Objet porté par un personnage conférant des bonus
 **[Facteur de puissance](#anchor-facteur-de-puissance)** | Mesure de la dangerosité d&#039;une entité
@@ -140,6 +141,8 @@ Deux _entités_ sont considérées **au contact** si elles se situent assez proc
 ## <a name="anchor-decharge-d-arcanite"></a> Décharge d&#039;arcanite
 
 Un _initié_ en possession d&#039;un _cristal d&#039;arcanite_ peut décider de dépenser une _charge_ pour réaliser une action particulièrement puissante appelée **décharge d&#039;arcanite**. L&#039;initié doit pour cela avoir préalablement débloqué l&#039;_arcane_ correspondant. La charge ainsi dépensée est perdue à jamais.
+
+L’afflux de puissance engendrée est quelque peu traumatisante pour le corps, un initié doit attendre dix minutes entières avant d&#039;être capable de réutiliser une décharge d&#039;arcanite.
 ## <a name="anchor-distance"></a> Distance
 
 De manière générale, on considère qu&#039;un personnage est à **distance** suffisante d&#039;une cible lorsqu&#039;il se trouve à environ 100 mètres de celle-ci.
@@ -160,6 +163,9 @@ L&#039;Elyseum, point d&#039;impact de la météorite d&#039;arcanite, abrite un
 Les divinités se limitent en général à un seul champion car elles vivent dans la peur constante de se voir dépassées par leur serviteur. Certaines ne voit même pas d&#039;intérêt à choisir un représentant et préfèrent rester loin des préoccupations continentales.
 
 Chaque divinité possède sa propre Église de fidèles composée d&#039;initiés mais également d&#039;individus normaux. Mais un initié n&#039;est pas obligé de vénérer un quelconque Dieu.
+## <a name="anchor-elyseum"></a> Elyseum
+
+Elyseum
 ## <a name="anchor-entite"></a> Entité
 
 On nomme **entité**, toutes les choses, vivantes ou non, possédant au moins 1 point d&#039;_Instinct_ à 1 _caractéristique_. Il peut s&#039;agir d&#039;un personnage (joueur ou non), d&#039;un animal, d&#039;un équipement, d&#039;une blessure, d&#039;un piège, d&#039;un lieu, d&#039;un bâtiment, etc.  

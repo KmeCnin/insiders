@@ -6,9 +6,9 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class RuleImportCommand extends AbstractRuleCommand
 {
-    const PATH_BACKUP = '/Command/Rule/Backup/Import';
+    protected const PATH_BACKUP = '/Command/Rule/Backup/Import';
 
-    protected function configure()
+    protected function configure(): void
     {
         parent::configure();
 
@@ -43,7 +43,7 @@ class RuleImportCommand extends AbstractRuleCommand
         // Export current data.
         $this->transporter->export($backupPath);
 
-        $this->output->writeln("");
+        $this->output->writeln('');
     }
 
     protected function recover(): void
