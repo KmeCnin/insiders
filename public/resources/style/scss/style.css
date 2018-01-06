@@ -198,19 +198,6 @@ a {
 strong {
   color: #FECB5B; }
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  margin: 30px 20px;
-  padding: 15px 30px;
-  background: #00000052;
-  border: 1px solid #FECB5B;
-  font-family: "CinzelDecorative-Bold", serif;
-  color: #FECB5B;
-  cursor: pointer; }
-
 .main .container {
   max-width: 900px;
   margin: auto;
@@ -235,9 +222,9 @@ strong {
 .header {
   max-width: 1500px;
   height: 700px;
-  background-size: 120%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -270px;
+  background-position: 50% 30%;
   margin: auto; }
 
 .header-content-wrapper {
@@ -252,24 +239,13 @@ strong {
     width: 400px; }
   .header-content-wrapper h1 {
     margin-bottom: 0;
-    font-size: 6em;
+    font-size: 3em;
     text-transform: uppercase;
-    text-shadow: 0 2px 4px #000000;
-    color: #FECB5B; }
+    text-shadow: 0 0 16px black; }
   .header-content-wrapper h2 {
-    margin: -20px 0 20px 0;
-    font-size: 4.5em;
-    text-shadow: 0 2px 4px #000000;
-    color: #F0E6D2; }
-  .header-content-wrapper span {
-    color: #F0E6D2;
-    text-shadow: 0 1px 0 #000000; }
-  .header-content-wrapper span:first-of-type {
-    font-weight: 700;
-    font-size: 1.3em; }
-  .header-content-wrapper span:last-of-type {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2.2em; }
+    margin-top: 20px;
+    font-size: 2.5em;
+    text-shadow: 0 0 16px black; }
 
 /************************************/
 /* ========== BREADCRUMBS ========== */
@@ -287,13 +263,13 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom, black, black 50%, rgba(0, 0, 0, 0)); }
+  background-image: linear-gradient(to bottom, black, black 50%, transparent); }
 
 .breadcrumb .line {
   width: 100%;
   max-width: 900px;
   height: 1px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to left, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
+  background: linear-gradient(to right, transparent, #FECB5B 30px, transparent), linear-gradient(to left, transparent, #FECB5B 30px, transparent); }
 
 .breadcrumb .breadcrumb-items {
   position: absolute;
@@ -393,7 +369,7 @@ strong {
   height: 100%;
   position: absolute;
   right: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
+  background: linear-gradient(to bottom, transparent, #FECB5B 30px, transparent), linear-gradient(to top, transparent, #FECB5B 30px, transparent); }
 
 .vertical-breadcrumb span {
   margin-right: 10px;
@@ -420,10 +396,30 @@ strong {
   position: relative;
   margin: auto auto 50px auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  background: black; }
+  background: black;
+  border-radius: 2px; }
+
+.block-home1,
+.block-home2,
+.block-home3 {
+  width: 350px;
+  height: 340px; }
+
+.block-home1 {
+  background: url(../../images/home/home-short-bg1.png) no-repeat;
+  background-size: cover; }
+
+.block-home2 {
+  margin: 0 30px;
+  background: url(../../images/home/home-short-bg2.png) no-repeat;
+  background-size: cover; }
+
+.block-home3 {
+  background: url(../../images/home/home-short-bg3.png) no-repeat;
+  background-size: cover; }
 
 .block-short {
-  height: 80px;
+  height: 90px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -583,7 +579,7 @@ strong {
   z-index: 100;
   border-radius: 3px;
   color: #F0E6D2;
-  background: linear-gradient(to top, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), url(../../images/popover.jpg) no-repeat;
+  background: linear-gradient(to top, black, transparent 95%, transparent, transparent 90%, black), linear-gradient(to bottom, black, transparent 95%, transparent, transparent 90%, black), url(../../images/popover.jpg) no-repeat;
   background-size: cover; }
   .popover .popover-header {
     padding: 5px 20px 20px 20px;
@@ -598,88 +594,5 @@ strong {
     font-weight: 300;
     color: #FECB5B;
     background: rgba(0, 0, 0, 0.5); }
-
-/* =======================
-========= header =========
-======================= */
-.header-home {
-  height: 740px; }
-  .header-home .header-content-wrapper {
-    align-items: center; }
-    .header-home .header-content-wrapper div {
-      position: relative;
-      top: 90px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-
-/* =======================
-=== Blocks description ===
-======================= */
-.block-home1,
-.block-home2,
-.block-home3 {
-  width: 350px;
-  height: 300px;
-  border: 1px solid #FECB5B; }
-
-.block-home1 {
-  background: url(../../images/home/home-short-bg1.png) no-repeat;
-  background-size: cover; }
-
-.block-home2 {
-  margin: 0 30px;
-  background: url(../../images/home/home-short-bg2.png) no-repeat;
-  background-size: cover; }
-
-.block-home3 {
-  background: url(../../images/home/home-short-bg3.png) no-repeat;
-  background-size: cover; }
-
-/* ========================
-======= Blocks user =======
-======================== */
-.block-user-wrapper {
-  display: flex; }
-  .block-user-wrapper .block-user {
-    width: 50%;
-    height: 480px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer; }
-    .block-user-wrapper .block-user .border {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      bottom: 15px;
-      left: 15px;
-      border: 1px solid #FECB5B; }
-    .block-user-wrapper .block-user h1 {
-      text-shadow: 0 2px 0px #000000; }
-  .block-user-wrapper .block-user:hover .content-wrapper {
-    opacity: 1; }
-  .block-user-wrapper .block-user:last-of-type:hover .content-wrapper {
-    opacity: 0.7; }
-  .block-user-wrapper .block-player {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/home/block-player.jpg) no-repeat;
-    background-size: 400%;
-    background-position-x: -857px;
-    background-position-y: -470px; }
-  .block-user-wrapper .block-mj {
-    background: url(../../images/home/block-mj.jpg) no-repeat;
-    background-size: 112%;
-    background-position-x: -1px;
-    background-position-y: -40px;
-    filter: grayscale(90%); }
-  .block-user-wrapper .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.7;
-    transition: opacity 0.5s; }
 
 /*# sourceMappingURL=style.css.map */
