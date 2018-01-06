@@ -215,7 +215,7 @@ strong {
   z-index: 1001;
   border-radius: 3px;
   color: #F0E6D2;
-  background: linear-gradient(to top, black, transparent 95%, transparent, transparent 90%, black), linear-gradient(to bottom, black, transparent 95%, transparent, transparent 90%, black), url(../../images/popover.jpg) no-repeat;
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), url(../../images/popover.jpg) no-repeat;
   background-size: cover; }
   .popover .popover-header {
     padding: 5px 20px 20px 20px;
@@ -244,7 +244,7 @@ strong {
   width: 120px;
   margin: 30px 20px;
   padding: 15px 30px;
-  background: #0000008c;
+  background: #000000a8;
   border: 1px solid #FECB5B;
   font-family: "CinzelDecorative-Bold", serif;
   color: #FECB5B;
@@ -504,13 +504,13 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom, black, black 50%, transparent); }
+  background-image: linear-gradient(to bottom, black, black 50%, rgba(0, 0, 0, 0)); }
 
 .breadcrumb .line {
   width: 100%;
   max-width: 900px;
   height: 1px;
-  background: linear-gradient(to right, transparent, #FECB5B 30px, transparent), linear-gradient(to left, transparent, #FECB5B 30px, transparent); }
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to left, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
 
 .breadcrumb .breadcrumb-items {
   position: absolute;
@@ -611,7 +611,7 @@ strong {
   height: 100%;
   position: absolute;
   right: 0;
-  background: linear-gradient(to bottom, transparent, #FECB5B 30px, transparent), linear-gradient(to top, transparent, #FECB5B 30px, transparent); }
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
 
 .vertical-breadcrumb span {
   margin-right: 10px;
