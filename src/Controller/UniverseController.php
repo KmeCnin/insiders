@@ -10,6 +10,13 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class UniverseController extends AbstractAppController
 {
+    private $rulesAugmenter;
+
+    public function __construct(RulesAugmenter $rulesAugmenter)
+    {
+        $this->rulesAugmenter = $rulesAugmenter;
+    }
+
     /**
      * @Route("/univers", name="universe")
      */
@@ -27,9 +34,9 @@ class UniverseController extends AbstractAppController
         $repo = $this->getDoctrine()->getRepository(Arcane::class);
 
         return $this->render('pages/universe/arcanes.html.twig', [
-            'description' => $this->container
-                ->get(RulesAugmenter::class)
-                ->augment($lexicon->getDescription()),
+            'description' => $this->rulesAugmenter->augment(
+                $lexicon->getDescription()
+            ),
             'arcanes' => $repo->findAll(),
         ]);
     }
@@ -43,9 +50,9 @@ class UniverseController extends AbstractAppController
         $repo = $this->getDoctrine()->getRepository(Deity::class);
 
         return $this->render('pages/universe/deities.html.twig', [
-            'description' => $this->container
-                ->get(RulesAugmenter::class)
-                ->augment($lexicon->getDescription()),
+            'description' => $this->rulesAugmenter->augment(
+                $lexicon->getDescription()
+            ),
             'deities' => $repo->findAll(),
         ]);
     }

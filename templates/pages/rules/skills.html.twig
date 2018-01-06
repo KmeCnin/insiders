@@ -1,0 +1,24 @@
+{% extends 'layout-rules.html.twig' %}
+
+{# /règles/compétences #}
+{# @var skills \App\Entity\Rule\Skill #}
+
+{% set header_bg = asset('resources/images/bg-header-skills.jpg') %}
+{% set subtitle = 'Compétences' %}
+
+
+{% block container %}
+  <div class="block block-intro">
+    <p>{{ description|augment|raw }}</p>
+  </div>
+
+  {% for skill in skills %}
+    {% include 'includes/sections/default.html.twig' with {
+      'title': skill.name,
+      'subtitle': skill.short,
+      'description': skill.description,
+      'slug': skill.slug,
+      'bg': asset('resources/images/skills/'~skill.id~'.jpg'),
+    } only %}
+  {% endfor %}
+{% endblock %}

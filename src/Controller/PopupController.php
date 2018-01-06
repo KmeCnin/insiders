@@ -2,13 +2,22 @@
 
 namespace App\Controller;
 
-use App\Entity\Rule\LexiconEntry;
-use Psr\Log\InvalidArgumentException;
+use App\Service\RulesHub;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Templating\EngineInterface;
 
 class PopupController extends AbstractAppController
 {
+    private $rulesHub;
+    private $template;
+
+    public function __construct(RulesHub $rulesHub, EngineInterface $template)
+    {
+        $this->rulesHub = $rulesHub;
+        $this->template = $template;
+    }
+
     /**
      * @Route("/popup", name="popup", options={"expose"=true})
      */
@@ -18,24 +27,25 @@ class PopupController extends AbstractAppController
         $code = $request->query->get('code');
         $id = $request->query->get('id');
 
-        $template = 'rule';
-        switch ($code) {
-            case LexiconEntry::CODE:
-                $repo = $this->getDoctrine()->getRepository(LexiconEntry::class);
-                break;
-            default:
-                throw new InvalidArgumentException(sprintf(
-                    'Unknown entity code %s',
-                    $code
-                ));
+        $repo = $this->getDoctrine()->getRepository(
+            $this->rulesHub->codeToClass($code)
+        );
+
+        $params = [
+            'modalId' => $modalId,
+            'rule' => $repo->find($id),
+        ];
+
+        if ($this->template->exists(sprintf('includes/popups/%s.html.twig', $code))) {
+            return $this->render(
+                sprintf('includes/popups/%s.html.twig', $code),
+                $params
+            );
         }
 
         return $this->render(
-            sprintf('includes/popups/%s.html.twig', $template),
-            [
-                'modalId' => $modalId,
-                'rule' => $repo->find($id),
-            ]
+            'includes/popups/rule.html.twig',
+            $params
         );
     }
 }
