@@ -16,6 +16,9 @@ use Twig\Environment;
 
 class RulesAugmenter
 {
+    public const CREATE_MODALS = true;
+    public const DO_NOT_CREATE_MODALS = false;
+
     private $em;
     private $twig;
 
@@ -25,13 +28,13 @@ class RulesAugmenter
         $this->twig = $twig;
     }
 
-    public function augment(?string $text): ?string
+    public function augment(?string $text, bool $createModals = self::CREATE_MODALS): ?string
     {
         if (null === $text) {
             return null;
         }
 
-        $replace = function (array $matches) {
+        $replace = function (array $matches) use ($createModals) {
             try {
                 [$type, $id] = explode(':', $matches[3]);
             } catch (\Exception $e) {
@@ -43,30 +46,30 @@ class RulesAugmenter
             }
             $template = 'default';
             switch ($type) {
-                case 'ability':
-                    $template = 'ability';
+                case Ability::CODE:
+                    $template = Ability::CODE;
                     $namespace = Ability::class;
                     break;
-                case 'arcane':
+                case Arcane::CODE:
                     $namespace = Arcane::class;
                     break;
-                case 'attribute':
+                case Attribute::CODE:
                     $namespace = Attribute::class;
                     break;
-                case 'burst':
+                case Burst::CODE:
                     $namespace = Burst::class;
                     break;
-                case 'characteristic':
+                case Characteristic::CODE:
                     $namespace = Characteristic::class;
                     break;
-                case 'lexicon':
+                case LexiconEntry::CODE:
                     $namespace = LexiconEntry::class;
                     break;
-                case 'page':
-                    $template = 'page';
+                case Page::CODE:
+                    $template = Page::CODE;
                     $namespace = Page::class;
                     break;
-                case 'skill':
+                case Skill::CODE:
                     $namespace = Skill::class;
                     break;
                 default:
@@ -79,10 +82,12 @@ class RulesAugmenter
                 throw new \Exception(sprintf('%s with id %s does not exist.', $type, $id));
             }
 
-            return $this->twig->render('includes/popovers/'.$template.'.html.twig', array(
+            return $this->twig->render('includes/popovers/'.$template.'.html.twig', [
                 'display' => $matches[2],
+                'code' => $type,
                 'entity' => $entity,
-            ));
+                'createModals' => $createModals,
+            ]);
         };
 
         return preg_replace_callback('/(\[(.+)\])\((.+)\)/U', $replace, $text);

@@ -14,6 +14,8 @@ class Ability extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'ability';
+
     /**
      * @var Arcane
      *

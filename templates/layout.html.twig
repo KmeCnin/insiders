@@ -46,32 +46,14 @@
       </div>
     </main>
 
-    <div id="foo" class="modal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
     {# SCRIPTS #}
-    <script src="{{ asset('resources/script/jquery-3.0.0.slim.min.js') }}"></script>
+    <script src="{{ asset('resources/script/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('resources/script/popper.min.js') }}"></script>
     <script src="{{ asset('resources/script/bootstrap.min.js') }}"></script>
     <script src="{{ asset('resources/script/jquery.sticky.js') }}"></script>
     <script src="{{ asset('resources/script/script.js') }}"></script>
+    <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
     {% block js %}{% endblock %}
 </body>
 </html>

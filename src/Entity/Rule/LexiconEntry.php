@@ -12,6 +12,8 @@ class LexiconEntry extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'lexicon';
+
     public function __construct()
     {
         parent::__construct();
