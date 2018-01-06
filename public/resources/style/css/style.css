@@ -237,9 +237,9 @@ strong {
 .header {
   max-width: 1500px;
   height: 700px;
-  background-size: 120%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -270px;
+  background-position: 50% 30%;
   margin: auto; }
 
 .header-content-wrapper {
@@ -289,13 +289,13 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom, black, black 50%, rgba(0, 0, 0, 0)); }
+  background-image: linear-gradient(to bottom, black, black 50%, transparent); }
 
 .breadcrumb .line {
   width: 100%;
   max-width: 900px;
   height: 1px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to left, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
+  background: linear-gradient(to right, transparent, #FECB5B 30px, transparent), linear-gradient(to left, transparent, #FECB5B 30px, transparent); }
 
 .breadcrumb .breadcrumb-items {
   position: absolute;
@@ -395,7 +395,7 @@ strong {
   height: 100%;
   position: absolute;
   right: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
+  background: linear-gradient(to bottom, transparent, #FECB5B 30px, transparent), linear-gradient(to top, transparent, #FECB5B 30px, transparent); }
 
 .vertical-breadcrumb span {
   margin-right: 10px;
@@ -585,7 +585,7 @@ strong {
   z-index: 1001;
   border-radius: 3px;
   color: #F0E6D2;
-  background: linear-gradient(to top, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), url(../../images/popover.jpg) no-repeat;
+  background: linear-gradient(to top, black, transparent 95%, transparent, transparent 90%, black), linear-gradient(to bottom, black, transparent 95%, transparent, transparent 90%, black), url(../../images/popover.jpg) no-repeat;
   background-size: cover; }
   .popover .popover-header {
     padding: 5px 20px 20px 20px;
@@ -601,12 +601,15 @@ strong {
     color: #FECB5B;
     background: rgba(0, 0, 0, 0.5); }
 
-<<<<<<< HEAD
+.modal .popover {
+  z-index: 2000; }
+
 /* =======================
 ========= header =========
 ======================= */
 .header-home {
-  height: 740px; }
+  height: 740px;
+  background-position-y: 5px; }
   .header-home .header-content-wrapper {
     align-items: center; }
     .header-home .header-content-wrapper div {
@@ -684,9 +687,5 @@ strong {
     align-items: center;
     opacity: 0.7;
     transition: opacity 0.5s; }
-=======
-.modal .popover {
-  z-index: 2000; }
->>>>>>> 6eee6b8d040395598a947e46c60aa44810e6fde9
 
 /*# sourceMappingURL=style.css.map */

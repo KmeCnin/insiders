@@ -237,9 +237,9 @@ strong {
 .header {
   max-width: 1500px;
   height: 700px;
-  background-size: 120%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -270px;
+  background-position: 50% 30%;
   margin: auto; }
 
 .header-content-wrapper {
@@ -608,7 +608,8 @@ strong {
 ========= header =========
 ======================= */
 .header-home {
-  height: 740px; }
+  height: 740px;
+  background-position-y: 5px; }
   .header-home .header-content-wrapper {
     align-items: center; }
     .header-home .header-content-wrapper div {
