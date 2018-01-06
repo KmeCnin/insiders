@@ -29,7 +29,7 @@ $(document).ready(function () {
     /*** Add modals at the end of the page (if not already existing) ***/
     $('.toggle-popup').each(function () {
         var modalId = $(this).attr('data-target').split('#')[1];
-        var pieces = modalId.split('-');
+        var pieces = modalId.split('___');
 
         if (-1 !== loadedModals.indexOf(modalId)) {
             return;

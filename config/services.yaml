@@ -1,48 +1,25 @@
 parameters:
     locale: 'en'
 
-imports:
-    - { resource: services/controllers.yaml }
-
 services:
-    # default configuration for services in *this* file
     _defaults:
-        autowire: false
+        autowire: true
         autoconfigure: true
         public: true
 
+    App\Controller\:
+        resource: '../src/Controller/{,*/}*Controller.php'
+        tags: [controller.service_arguments]
+
     App\Command\:
         resource: '../src/Command'
-        autowire: true
 
     App\Form\Type\:
         resource: '../src/Form/Type'
-        autowire: true
+
+    App\Service\:
+        resource: '../src/Service/'
 
     App\Service\MarkdownRenderer:
         arguments:
-            - '@doctrine.orm.entity_manager'
-            - '@twig'
-            - '%kernel.root_dir%'
-
-    App\Service\StuffGenerator:
-        arguments:
-            - '@App\Service\StuffPicker'
-
-    App\Service\StuffPicker:
-        arguments:
-            - '@doctrine.orm.entity_manager'
-
-    App\Service\Transporter\RuleTransporter:
-        arguments:
-            - '@doctrine.orm.entity_manager'
-            - '@form.factory'
-
-    App\Service\TwigExtension:
-        arguments:
-            - '@service_container'
-
-    App\Service\RulesAugmenter:
-        arguments:
-            - '@doctrine.orm.entity_manager'
-            - '@twig'
+            $root: '%kernel.root_dir%'

@@ -1,4 +1,4 @@
-{% set id = 'modal-' ~ code ~ '-' ~ entity.id %}
+{% set id = 'modal___' ~ code ~ '___' ~ entity.id %}
 {% if createModals is defined and createModals %}
     <span
             title="{{ entity.name }}"
@@ -12,6 +12,7 @@
 {% else %}
     <a
             href="{{ entity|rule_link }}"
+            target="_blank"
             title="{{ entity.name }}"
             class="toggle-popover toggle-link"
             data-content="{{ entity.short }}"

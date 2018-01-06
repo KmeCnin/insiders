@@ -1,6 +1,0 @@
-services:
-    App\Controller\StuffController:
-        arguments:
-            - '@App\Service\StuffGenerator'
-    App\Controller\RulesController: ~
-    App\Controller\UniverseController: ~
