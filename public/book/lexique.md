@@ -19,7 +19,9 @@ Notion | Résumé
 **[Blessure](#anchor-blessure)** | Entité handicapant un personnage
 **[Capacité arcanique](#anchor-capacite-arcanique)** | Pouvoir surnaturel conféré par l&#039;absorption d&#039;un cristal d&#039;arcanite
 **[Caractéristique](#anchor-caracteristique)** | Capacité d&#039;une entité à s&#039;opposer à une autre
+**[Carats](#anchor-carats)** | Carats
 **[Charge d&#039;arcanite](#anchor-charge-d-arcanite)** | Unité d&#039;énergie stockée dans un cristal d&#039;arcanite pouvant être absorbé
+**[Compétence](#anchor-competence)** | Compétence
 **[Contact](#anchor-contact)** | Distance réduite propice aux attaques de mêlée
 **[Décharge d&#039;arcanite](#anchor-decharge-d-arcanite)** | Effet spectaculaire déclenché par la libération d&#039;une charge de cristal d&#039;arcanite
 **[Distance](#anchor-distance)** | Portée à laquelle un personnage est capable d&#039;intéragir
@@ -126,6 +128,9 @@ Lorsque 2 entités s&#039;opposent, elles effectuent chacune un jet de la caract
  Le résultat du jet est la somme des dés ainsi conservés. L&#039;entité ayant réalisé le meilleur résultat remporte la confrontation. En cas d&#039;égalité, l&#039;entité ayant le meilleur score d&#039;Instinct l&#039;emporte. Si les scores d&#039;Instinct sont identiques, on regarde les scores de Maîtrise. Si l&#039;égalité persiste, on donne l&#039;avantage au personnage joueur. S&#039;il s&#039;agit de deux joueurs, on tire à pile ou face le vainqueur.
 
 Un score d&#039;Instinct élevé permettra donc d&#039;obtenir un résultat potentiellement plus grand mais avec une forte variation possible alors qu&#039;un score de Maîtrise élevé ne permet pas d&#039;augmenter le score maximum mais influera sur le résultat du jet pour le faire pencher vers son maximum plus souvent. Cela représente le fait que, sans expérience les capacités physiques restent sous exploitées et mal coordonnées alors que l&#039;expérience apporte une plus grande fiabilité et une meilleur connaissance de son corps sans pour autant réellement repousser les limites naturelles.
+## <a name="anchor-carats"></a> Carats
+
+Carats
 ## <a name="anchor-charge-d-arcanite"></a> Charge d&#039;arcanite
 
 Les _cristaux d&#039;arcanite_ éparpillés sur _Atalis_ peuvent être de tailles et de formes variées.
@@ -135,6 +140,9 @@ Ils possèdent cependant tous une certaine quantité d&#039;énergie arcanique q
  Un cristal peut contenir un nombre de charge allant de 1 à 4 ou 5 voir même plus pour des cristaux exceptionnellement grands.
 
 L&#039;utilisation d&#039;une charge d&#039;arcanite permet de débloquer l&#039;équivalent d&#039;un _point de création_ pour un _initié_ ou une _aberration_ ou bien d&#039;utilise une _décharge d&#039;arcanite_.
+## <a name="anchor-competence"></a> Compétence
+
+Compétence
 ## <a name="anchor-contact"></a> Contact
 
 Deux _entités_ sont considérées **au contact** si elles se situent assez proches l&#039;une de l&#039;autre pour pouvoir s&#039;attaquer avec des armes de mêlée (dague, épée, bâton...) ou des _attributs physiques_ (griffes, crocs, poings...).

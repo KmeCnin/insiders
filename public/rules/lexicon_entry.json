@@ -64,12 +64,28 @@
         "description": "<p>Les [entit&eacute;s](lexicon:entity) poss&egrave;dent des&nbsp;<strong>caract&eacute;ristiques<\/strong> qui les d&eacute;finissent et permettent de les opposer une &agrave; une pour d&eacute;terminer l&#39;issue d&#39;une confrontation.<br \/>\r\nElles sont au nombre de 4 et s&#39;opposent deux &agrave; deux.&nbsp;<em>Imposer<\/em> &agrave;&nbsp;<em>R&eacute;sister<\/em> et <em>D&eacute;voiler<\/em> &agrave;&nbsp;<em>Dissimuler<\/em>.<\/p>\r\n\r\n<p>Chaque caract&eacute;ristique est d&eacute;finie par 2 scores.<br \/>\r\nSon score d&#39;<em>Instinct,<\/em> qui repr&eacute;sente la capacit&eacute; physique ou mentale de l&#39;entit&eacute; par rapport &agrave; son potentiel inn&eacute;.<br \/>\r\nSon score de <em>Ma&icirc;trise<\/em>, qui repr&eacute;sente la r&eacute;gularit&eacute; de l&#39;entit&eacute; dans l&#39;utilisation du plein potentiel de ses caract&eacute;ristiques.<\/p>\r\n\r\n<p>Lorsque 2 entit&eacute;s s&#39;opposent, elles effectuent chacune un jet de la caract&eacute;ristique oppos&eacute;e &agrave; la caract&eacute;ristique utilis&eacute;e par l&#39;entit&eacute; initiant la confrontation&nbsp;(Imposer contre R&eacute;sister, R&eacute;sister contre Imposer, D&eacute;voiler contre Dissimuler, Dissimuler contre D&eacute;voiler).<br \/>\r\nChaque<em> jet de caract&eacute;ristique<\/em>&nbsp;s&#39;effectue en lan&ccedil;ant un nombre de d&eacute;s &agrave; six faces &eacute;gale au score d&#39;Instinct + le score de Ma&icirc;trise de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nOn garde ensuite les <em>n<\/em> meilleurs r&eacute;sultats de d&eacute;s o&ugrave; <em>n <\/em>est le score d&#39;Instinct de l&#39;entit&eacute; dans la caract&eacute;ristique en question.<br \/>\r\nLe r&eacute;sultat du jet est la somme des d&eacute;s ainsi conserv&eacute;s. L&#39;entit&eacute; ayant r&eacute;alis&eacute; le meilleur r&eacute;sultat remporte la confrontation. En cas d&#39;&eacute;galit&eacute;, l&#39;entit&eacute; ayant le meilleur score d&#39;Instinct l&#39;emporte. Si les scores d&#39;Instinct sont identiques, on regarde les scores de Ma&icirc;trise. Si l&#39;&eacute;galit&eacute; persiste, on donne l&#39;avantage au personnage joueur. S&#39;il s&#39;agit de deux joueurs, on tire &agrave; pile ou face le vainqueur.<\/p>\r\n\r\n<p>Un score d&#39;Instinct &eacute;lev&eacute; permettra donc d&#39;obtenir un r&eacute;sultat potentiellement plus grand mais avec une forte variation possible alors qu&#39;un score de Ma&icirc;trise &eacute;lev&eacute; ne permet pas d&#39;augmenter le score maximum mais influera sur le r&eacute;sultat du jet pour le faire pencher vers son maximum plus souvent. Cela repr&eacute;sente le fait que, sans exp&eacute;rience les capacit&eacute;s physiques restent sous exploit&eacute;es et mal coordonn&eacute;es alors que l&#39;exp&eacute;rience apporte une plus grande fiabilit&eacute; et une meilleur connaissance de son corps sans pour autant r&eacute;ellement repousser les limites naturelles.<\/p>"
     },
     {
+        "id": "carats",
+        "name": "Carats",
+        "enabled": true,
+        "public": true,
+        "short": "Carats",
+        "description": "<p>Carats<\/p>"
+    },
+    {
         "id": "load",
         "name": "Charge d'arcanite",
         "enabled": true,
         "public": true,
         "short": "Unité d'énergie stockée dans un cristal d'arcanite pouvant être absorbé",
         "description": "<p>Les [cristaux d&#39;arcanite](lexicon:arcanite) &eacute;parpill&eacute;s sur [Atalis](lexicon:atalis) peuvent &ecirc;tre de tailles et de formes vari&eacute;es.<\/p>\r\n\r\n<p>Ils poss&egrave;dent cependant tous une certaine quantit&eacute; d&#39;&eacute;nergie arcanique qui ne peut pas prendre n&#39;importe quelle valeur, il s&#39;agit d&#39;une valeur discr&egrave;te et non continue.<br \/>\r\nLa valeur d&#39;une unit&eacute; de cette &eacute;nergie est appel&eacute;e <strong>charge d&#39;arcanite<\/strong>.<br \/>\r\nUn cristal peut contenir un nombre de charge allant de 1 &agrave; 4 ou&nbsp;5 voir m&ecirc;me plus pour des cristaux exceptionnellement grands.<\/p>\r\n\r\n<p>L&#39;utilisation d&#39;une charge d&#39;arcanite permet de d&eacute;bloquer l&#39;&eacute;quivalent d&#39;un [point de cr&eacute;ation](lexicon:pc) pour un [initi&eacute;](lexicon:insider) ou une [aberration](lexicon:monster) ou bien d&#39;utilise une [d&eacute;charge d&#39;arcanite](lexicon:burst).<\/p>"
+    },
+    {
+        "id": "skill",
+        "name": "Compétence",
+        "enabled": true,
+        "public": true,
+        "short": "Compétence",
+        "description": "<p>Comp&eacute;tence<\/p>"
     },
     {
         "id": "contact",
