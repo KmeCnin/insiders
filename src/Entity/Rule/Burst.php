@@ -12,6 +12,8 @@ class Burst extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'burst';
+
     /**
      * @var Arcane
      *

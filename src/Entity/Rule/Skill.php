@@ -12,6 +12,8 @@ class Skill extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'skill';
+
     /**
      * @var Characteristic
      *

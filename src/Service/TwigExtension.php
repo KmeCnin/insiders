@@ -2,6 +2,7 @@
 
 namespace App\Service;
 
+use App\Entity\Rule\AbstractRule;
 use League\HTMLToMarkdown\HtmlConverter;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -19,8 +20,10 @@ class TwigExtension extends \Twig_Extension
         return [
             new \Twig_SimpleFilter('markdown', [$this, 'markdownFilter']),
             new \Twig_SimpleFilter('augment', [$this, 'augmentFilter']),
+            new \Twig_SimpleFilter('augment_in_modal', [$this, 'augmentInModalFilter']),
             new \Twig_SimpleFilter('clear', [$this, 'clearFilter']),
             new \Twig_SimpleFilter('roman', [$this, 'romanFilter']),
+            new \Twig_SimpleFilter('rule_link', [$this, 'ruleLinkFilter']),
         ];
     }
 
@@ -32,12 +35,24 @@ class TwigExtension extends \Twig_Extension
 
     public function augmentFilter(?string $text): ?string
     {
-        return $this->container->get(RulesAugmenter::class)->augment($text);
+        return $this->container->get(RulesAugmenter::class)
+            ->augment($text, RulesAugmenter::CREATE_MODALS);
+    }
+
+    public function augmentInModalFilter(?string $text): ?string
+    {
+        return $this->container->get(RulesAugmenter::class)
+            ->augment($text, RulesAugmenter::DO_NOT_CREATE_MODALS);
     }
 
     public function clearFilter(?string $text): ?string
     {
         return $this->removeAugmentation($text);
+    }
+
+    public function ruleLinkFilter(AbstractRule $rule): ?string
+    {
+        return $this->container->get(RulesHub::class)->linkFromEntity($rule);
     }
 
     public function romanFilter(?int $n): ?string

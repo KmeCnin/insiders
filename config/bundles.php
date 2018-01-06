@@ -14,4 +14,5 @@ return [
     'Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle' => ['all' => true],
     'FOS\UserBundle\FOSUserBundle' => ['all' => true],
     'Ivory\CKEditorBundle\IvoryCKEditorBundle' => ['all' => true],
+    'FOS\JsRoutingBundle\FOSJsRoutingBundle' => ['all' => true],
 ];

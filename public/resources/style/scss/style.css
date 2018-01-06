@@ -149,7 +149,9 @@
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 10px; }
+  margin: 10px;
+  background-color: black;
+  padding: 15px; }
 
 .modal-backdrop {
   position: fixed;
@@ -567,7 +569,7 @@ strong {
 .anchor {
   display: block;
   position: relative;
-  top: -65px;
+  top: -190px;
   visibility: hidden; }
 
 [data-toggle=popover], .toggle-popover {
@@ -576,7 +578,7 @@ strong {
 
 .popover {
   position: relative;
-  z-index: 100;
+  z-index: 1001;
   border-radius: 3px;
   color: #F0E6D2;
   background: linear-gradient(to top, black, transparent 95%, transparent, transparent 90%, black), linear-gradient(to bottom, black, transparent 95%, transparent, transparent 90%, black), url(../../images/popover.jpg) no-repeat;
@@ -594,5 +596,8 @@ strong {
     font-weight: 300;
     color: #FECB5B;
     background: rgba(0, 0, 0, 0.5); }
+
+.modal .popover {
+  z-index: 2000; }
 
 /*# sourceMappingURL=style.css.map */

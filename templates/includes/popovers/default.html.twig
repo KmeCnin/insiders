@@ -1,10 +1,21 @@
-{% set id = 'modal-' ~ entity.name %}
-<span
-    {#title="{{ entity.name }}"#}
-    class="toggle-popover toggle-modal"
-    {#data-content="{{ entity.short }}"#}
-    data-toggle="modal"
-    data-target="#foo"
-    {#data-trigger="hover"#}
-    {#data-placement="top"#}
->{{ display|raw }}</span>
+{% set id = 'modal-' ~ code ~ '-' ~ entity.id %}
+{% if createModals is defined and createModals %}
+    <span
+            title="{{ entity.name }}"
+            class="toggle-popover toggle-popup"
+            data-content="{{ entity.short }}"
+            data-toggle="modal"
+            data-target="#{{ id }}"
+            data-trigger="hover"
+            data-placement="top"
+    >{{ display|raw }}</span>
+{% else %}
+    <a
+            href="{{ entity|rule_link }}"
+            title="{{ entity.name }}"
+            class="toggle-popover toggle-link"
+            data-content="{{ entity.short }}"
+            data-trigger="hover"
+            data-placement="top"
+    >{{ display|raw }}</a>
+{% endif %}

@@ -11,6 +11,8 @@ class Page extends AbstractRule
 {
     use DescriptionTrait;
 
+    public const CODE = 'page';
+
     public function __construct()
     {
         parent::__construct();
