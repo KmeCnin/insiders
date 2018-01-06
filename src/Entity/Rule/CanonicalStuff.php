@@ -14,6 +14,8 @@ class CanonicalStuff extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'canonical_stuff';
+
     /**
      * @var Stuff
      *

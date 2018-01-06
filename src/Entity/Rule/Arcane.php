@@ -12,6 +12,8 @@ class Arcane extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'arcane';
+
     public function __construct()
     {
         parent::__construct();

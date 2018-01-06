@@ -1,5 +1,14 @@
 [
     {
+        "id": "glue",
+        "name": "Adhérence",
+        "enabled": true,
+        "public": true,
+        "pc": 1,
+        "short": "Peut marcher sur les murs et plafonds",
+        "description": "<p>Les extr&eacute;mit&eacute;s des membres du personnage adh&egrave;rent &agrave; n&#39;importe quelle surface lui permettant de se d&eacute;placer le long des murs et plafonds aussi rapidement que sur le sol.<\/p>"
+    },
+    {
         "id": "wings",
         "name": "Ailes",
         "enabled": true,

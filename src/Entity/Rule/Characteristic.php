@@ -12,6 +12,8 @@ class Characteristic extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'characteristic';
+
     public function __construct()
     {
         parent::__construct();

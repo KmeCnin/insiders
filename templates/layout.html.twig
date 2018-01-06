@@ -14,6 +14,7 @@
     {# FONTS #}
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manuale:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
   </head>
   <body>
     {{ include('includes/menu.html.twig') }}
@@ -46,11 +47,13 @@
     </main>
 
     {# SCRIPTS #}
-    <script src="{{ asset('resources/script/jquery-3.0.0.slim.min.js') }}"></script>
+    <script src="{{ asset('resources/script/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('resources/script/popper.min.js') }}"></script>
     <script src="{{ asset('resources/script/bootstrap.min.js') }}"></script>
     <script src="{{ asset('resources/script/jquery.sticky.js') }}"></script>
     <script src="{{ asset('resources/script/script.js') }}"></script>
+    <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
     {% block js %}{% endblock %}
 </body>
 </html>

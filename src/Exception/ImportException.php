@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service\Transporter;
+namespace App\Service\Exception;
 
 use Symfony\Component\Form\FormError;
 use Symfony\Component\Form\FormInterface;

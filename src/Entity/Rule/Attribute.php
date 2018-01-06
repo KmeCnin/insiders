@@ -12,6 +12,8 @@ class Attribute extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
+    public const CODE = 'attribute';
+
     /**
      * @var int
      *

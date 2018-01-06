@@ -19,6 +19,7 @@ use App\Entity\Rule\StuffCategory;
 use App\Entity\Rule\StuffKind;
 use App\Entity\Rule\StuffProperty;
 use App\Entity\Rule\StuffPropertyKind;
+use App\Service\Exception\ImportException;
 use Doctrine\ORM\EntityManagerInterface;
 use MJS\TopSort\Implementations\StringSort;
 use Symfony\Component\Console\Output\OutputInterface;

@@ -11,6 +11,8 @@ class Champion extends AbstractRule
 {
     use DescriptionTrait;
 
+    public const CODE = 'champion';
+
     /**
      * @var string
      *

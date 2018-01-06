@@ -11,6 +11,8 @@ class Deity extends AbstractRule
 {
     use DescriptionTrait;
 
+    public const CODE = 'deity';
+
     /**
      * @var string
      *

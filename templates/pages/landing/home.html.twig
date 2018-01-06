@@ -4,11 +4,16 @@
 {% set subtitle = 'Bienvenue' %}
 
 {% block header %}
-  <div class="header" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 1%, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,1)), url({{ asset('resources/images/home/home-header-bg.jpg') }});">
+  <div class="header header-home" style="background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%, black), url({{ asset('resources/images/home/home-header-bg.jpg') }});">
     <div class="header-content-wrapper">
       <!--<img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">-->
-      <h1>Rejoignez Les Initiés</h1>
-      <h2>Vivez l'aventure</h2>
+      <div>
+        <h1>Les Initiés</h1>
+        <h2>Rejoignez l'aventure</h2>
+        <span>Un jeu de rôle</span>
+        <span>Gratuit &amp; Open Source</span>
+        <a class="button button-primary" href="#">Découvrir</a>
+      </div>
     </div>
   </div>
 {% endblock %}
@@ -20,21 +25,40 @@
     <div class="block block-home1">
       <div class="block-short">
         <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
-        <p>Incarnez le personnage de vos rêves</p>
+        <p>Incarnez le personnage <br>de vos rêves</p>
       </div>
     </div>
 
     <div class="block block-home2">
       <div class="block-short">
-        <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
+        <img src="{{ asset('resources/images/home/home-short-picto2.svg') }}" alt="Fire">
         <p>Concentrez-vous sur le role play et non sur les règles</p>
       </div>
     </div>
 
     <div class="block block-home3">
       <div class="block-short">
-        <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
+        <img src="{{ asset('resources/images/home/home-short-picto3.svg') }}" alt="Fire">
         <p>Découvrez un univers fantastique surprenant</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="block-user-wrapper">
+      <div class="block-user block-player">
+        <div class="content-wrapper">
+          <div class="border"></div>
+          <h1>Découvrir le jeu</h1>
+          <a class="button button-primary" href="#">Commencer</a>
+        </div>
+      </div>
+      <div class="block-user block-mj">
+        <div class="content-wrapper">
+          <div class="border"></div>
+          <h1>Apprendre à masteriser</h1>
+          <a class="button button-primary" href="#">Prochainement</a>
+        </div>
       </div>
     </div>
   </section>

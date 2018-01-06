@@ -1,0 +1,22 @@
+{% set id = 'modal___' ~ code ~ '___' ~ entity.id %}
+{% if createModals is defined and createModals %}
+    <span
+            title="{{ entity.name }}"
+            class="toggle-popover toggle-popup"
+            data-content="{{ entity.short }}"
+            data-toggle="modal"
+            data-target="#{{ id }}"
+            data-trigger="hover"
+            data-placement="top"
+    >{{ display|raw }}</span>
+{% else %}
+    <a
+            href="{{ entity|rule_link }}"
+            target="_blank"
+            title="{{ entity.name }}"
+            class="toggle-popover toggle-link"
+            data-content="{{ entity.short }}"
+            data-trigger="hover"
+            data-placement="top"
+    >{{ display|raw }}</a>
+{% endif %}
