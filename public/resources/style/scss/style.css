@@ -244,7 +244,7 @@ strong {
   width: 120px;
   margin: 30px 20px;
   padding: 15px 30px;
-  background: #0000008c;
+  background: rgba(0, 0, 0, 0.6);
   border: 1px solid #FECB5B;
   font-family: "CinzelDecorative-Bold", serif;
   color: #FECB5B;
@@ -336,11 +336,22 @@ strong {
   margin-top: 30px; }
 
 .block {
-  height: 700px;
   position: relative;
   margin: auto auto 50px auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  background: black; }
+  background-color: black; }
+
+.block-section {
+  min-height: 700px; }
+
+.block-background {
+  position: absolute;
+  z-index: 1;
+  width: 900px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%; }
 
 .block-short {
   height: 80px;
@@ -379,15 +390,6 @@ strong {
     line-height: 1.4em;
     color: #F0E6D2; }
 
-.block-background {
-  position: absolute;
-  z-index: 1;
-  width: 900px;
-  height: 700px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 20%; }
-
 .block-title {
   padding: 20px;
   text-shadow: 0 0 16px black;
@@ -409,12 +411,14 @@ strong {
     color: #FECB5B; }
 
 .block-content {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 10;
   padding: 20px 90px 20px 20px;
+  margin-top: 400px;
+  min-height: 143px;
   background: rgba(0, 0, 0, 0.5); }
   .block-content div {
     text-align: justify;
@@ -485,11 +489,11 @@ strong {
 .anchor {
   display: block;
   position: relative;
-  top: -190px;
+  top: -120px;
   visibility: hidden; }
 
 /* =======================
-======= Bredcrumbs =======
+======= Breadcrumbs ======
 ======================= */
 .breadcrumb-wrapper {
   position: relative;
@@ -500,11 +504,12 @@ strong {
     bottom: 8px; }
 
 .breadcrumb {
-  height: 155px;
+  height: 60px;
+  padding-top: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom, black, black 50%, transparent); }
+  background-image: linear-gradient(to bottom, black, black 60%, transparent); }
 
 .breadcrumb .line {
   width: 100%;

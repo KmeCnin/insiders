@@ -1,5 +1,5 @@
 /* =======================
-======= Bredcrumbs =======
+======= Breadcrumbs ======
 ======================= */
 .breadcrumb-wrapper {
   position: relative;
@@ -17,18 +17,12 @@
 }
   
 .breadcrumb {
-  height: 155px;
+  height: 60px;
+  padding-top: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:
-    linear-gradient(
-      to bottom,
-      black,
-      black 50%,
-      rgba(0, 0, 0, 0)
-    )
-  ;
+  background-image: linear-gradient(to bottom, black, black 60%, transparent);
 }
 
 .breadcrumb .line {

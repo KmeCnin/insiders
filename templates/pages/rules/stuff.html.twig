@@ -6,7 +6,7 @@
 {# @var stuff \App\Entity\Rule\CanonicalStuff[] #}
 
 {% set header_bg = asset('resources/images/stuff_categories/'~category.id~'.jpg') %}
-{% set subtitle = category.name %}
+{% set title = category.name %}
 
 {% block breadcrumb %}
     {{ include('includes/breadcrumbs/stuff.html.twig', [categories, category]) }}
