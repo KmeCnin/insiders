@@ -27,7 +27,7 @@ a {
   text-decoration: none; }
 
 strong {
-  color: #FECB5B; }
+  color: #F0E6D2; }
 
 .navbar {
   height: 65px;
@@ -327,18 +327,15 @@ strong {
 
 .block {
   position: relative;
-  margin: auto auto 50px auto;
+  margin: auto auto 40px auto;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   background-color: black; }
-
-.block-section {
-  min-height: 700px; }
 
 .block-background {
   position: absolute;
   z-index: 1;
   width: 900px;
-  height: 700px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 20%; }
@@ -406,17 +403,23 @@ strong {
   bottom: 0;
   left: 0;
   z-index: 10;
-  padding: 20px 90px 20px 20px;
-  margin-top: 400px;
-  min-height: 143px;
+  padding: 5px 90px 5px 20px;
+  margin-top: 335px;
+  min-height: 145px;
   background: rgba(0, 0, 0, 0.5); }
   .block-content div {
     text-align: justify;
     font-weight: 300;
     color: #F0E6D2; }
   .block-content .need {
-    color: #FECB5B;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    padding: 15px 0 0 0;
+    border-top: 1px solid #FECB5B;
+    font-size: 0.9em;
+    color: #FECB5B; }
+    .block-content .need span {
+      font-family: "CinzelDecorative-Bold", serif;
+      color: #F0E6D2; }
   .block-content .block-content-increase {
     display: none; }
 
