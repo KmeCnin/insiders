@@ -30,6 +30,8 @@
 .header-content-wrapper {
   max-width: 1100px;
   height: 100%;
+  position: relative;
+  top: 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -41,35 +43,21 @@
   }
 
   h1 {
-    margin-bottom: 0;
+    margin: 0;
 
-    font-size: 6em;
-    text-transform: uppercase;
+    font-size: 4em;
     text-shadow: 0 2px 4px #000000;
     color: $secondary-color;
   }
 
   h2 {
-    margin: -20px 0 20px 0;
-
-    font-size: 4.5em;
+    margin: 0;
+    font-size: 3.5em;
     text-shadow: 0 2px 4px #000000;
-    color: $primary-color;
-  }
-
-  span {
-    color: $primary-color;
-    text-shadow: 0 1px 0 #000000;
-  }
-
-  span:first-of-type {
-    font-weight: 700;
-    font-size: 1.3em;
-  }
-
-  span:last-of-type {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2.2em;
+    color: #F0E6D2;
+    text-transform: uppercase;
+    position: relative;
+    top: 14px;
   }
 }
 

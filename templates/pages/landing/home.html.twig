@@ -4,16 +4,25 @@
 {% set subtitle = 'Bienvenue' %}
 
 {% block header %}
-  <div class="header header-home" style="background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%, black), url({{ asset('resources/images/home/home-header-bg.jpg') }});">
+  <div
+    class="header header-home"
+    style="
+      background-image:
+        linear-gradient(to right, black, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, black),
+        linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%, black),
+        url({{ asset('resources/images/home/home-header-bg.jpg') }});
+      background-position: center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+    "
+  >
     <div class="header-content-wrapper">
       <!--<img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">-->
-      <div>
-        <h1>Les Initiés</h1>
-        <h2>Rejoignez l'aventure</h2>
-        <span>Un jeu de rôle</span>
-        <span>Gratuit &amp; Open Source</span>
-        <a class="button button-primary" href="#">Découvrir</a>
-      </div>
+      <h1>Les Initiés</h1>
+      <h2>Rejoignez l'aventure</h2>
+      <span>Un jeu de rôle</span>
+      <span>Gratuit &amp; Open Source</span>
+      <a class="button button-primary" href="#">Découvrir</a>
     </div>
   </div>
 {% endblock %}
