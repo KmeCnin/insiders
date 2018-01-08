@@ -7,6 +7,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 abstract class AbstractRule implements RuleInterface, NormalizableInterface
 {
+    public const CODE = null;
+
     /**
      * @var int
      *
@@ -142,6 +144,11 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
         }
 
         return 'de '.lcfirst($this->getName());
+    }
+
+    public function getCode(): string
+    {
+        return $this::CODE;
     }
 
     protected static function slugify(string $string): string

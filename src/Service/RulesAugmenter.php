@@ -45,12 +45,11 @@ class RulesAugmenter
             /** @var RuleInterface $entry */
             $entity = $this->em->getRepository($this->rulesHub->codeToClass($code))->find($id);
             if (null === $entity) {
-                throw new \Exception(sprintf('%s with id %s does not exist.', $type, $id));
+                throw new \Exception(sprintf('%s with id %s does not exist.', $code, $id));
             }
 
             $params = [
                 'display' => $matches[2],
-                'code' => $code,
                 'entity' => $entity,
                 'createModals' => $createModals,
             ];

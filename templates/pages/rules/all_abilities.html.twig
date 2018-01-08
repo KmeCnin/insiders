@@ -22,7 +22,7 @@
 
   <div class="block-title">
     <div>
-      <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="La Source">
+      <img src="{{ asset('resources/images/arcane/icons/'~arcane.id~'.svg') }}" alt="La Source">
       <h1>{{ arcane.name }}</h1>
     </div>
     <span>{{ arcane.short }}</span>
@@ -32,7 +32,7 @@
     {% set abilities = entry['abilities'] %}
     {% for ability in abilities %}
       {# @var ability \App\Entity\Rule\Ability #}
-      <a class="block-group-item" href="{{ path('rules.abilities', {'slug': arcane.slug})~'#'~ability.slug }}" style="background-image: url({{ asset('resources/images/abilities/'~ability.id~'.jpg') }});">
+      <a class="block-group-item" href="{{ path('rules.abilities', {'slug': arcane.slug})~'#'~ability.slug }}" style="background-image: url({{ asset('resources/images/ability/'~ability.id~'.jpg') }});">
         <div>
           <h2>{{ ability.name }}</h2>
           <p>{{ ability.short }}</p>

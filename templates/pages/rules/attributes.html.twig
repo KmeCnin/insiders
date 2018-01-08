@@ -18,7 +18,7 @@
       'description': attribute.description,
       'slug': attribute.slug,
       'need': attribute.pc ~' point'~ (attribute.pc > 1 ? 's')~' de création',
-      'bg': asset('resources/images/attributes/'~attribute.id~'.jpg'),
+      'bg': asset('resources/images/attribute/'~attribute.id~'.jpg'),
     } only %}
   {% endfor %}
 {% endblock %}

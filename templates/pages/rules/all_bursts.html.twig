@@ -22,7 +22,7 @@
 
       <div class="block-title">
         <div>
-          <img src="{{ asset('resources/images/arcanes/icons/'~arcane.id~'.svg') }}" alt="La Source">
+          <img src="{{ asset('resources/images/arcane/icons/'~arcane.id~'.svg') }}" alt="La Source">
           <h1>{{ arcane.name }}</h1>
         </div>
         <span>{{ arcane.short }}</span>
@@ -32,7 +32,7 @@
           {% set bursts = entry['bursts'] %}
           {% for burst in bursts %}
               {# @var burst \App\Entity\Rule\Burst #}
-            <a class="block-group-item" href="{{ path('rules.bursts', {'slug': arcane.slug})~'#'~burst.slug }}" style="background-image: url({{ asset('resources/images/bursts/'~burst.id~'.jpg') }});">
+            <a class="block-group-item" href="{{ path('rules.bursts', {'slug': arcane.slug})~'#'~burst.slug }}" style="background-image: url({{ asset('resources/images/burst/'~burst.id~'.jpg') }});">
               <div>
                 <h2>{{ burst.name }}</h2>
                 <p>{{ burst.short }}</p>

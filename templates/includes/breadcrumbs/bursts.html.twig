@@ -2,7 +2,7 @@
   <div class="line"></div>
   <div class="breadcrumb-items">
     <a href="{{ path('rules.all_bursts') }}" {% if arcane is not defined %}class="active"{% endif %}>
-      <img src="{{ asset('resources/images/arcanes/icons/arcane.svg') }}" alt="Toutes les décharges">
+      <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="Toutes les décharges">
       <span>Index</span>
       <div class="bullets">
         <div class="bullet-default"></div>
@@ -11,7 +11,7 @@
     </a>
     {% for arcaneBreadcrumb in arcanes %}
     <a href="{{ path('rules.bursts', {'slug': arcaneBreadcrumb.slug}) }}" {% if arcane is defined and arcane == arcaneBreadcrumb %}class="active"{% endif %}>
-      <img src="{{ asset('resources/images/arcanes/icons/'~arcaneBreadcrumb.id~'.svg') }}" alt="{{ arcaneBreadcrumb.name }}">
+      <img src="{{ asset('resources/images/arcane/icons/'~arcaneBreadcrumb.id~'.svg') }}" alt="{{ arcaneBreadcrumb.name }}">
       <span>{{ arcaneBreadcrumb.name }}</span>
       <div class="bullets">
         <div class="bullet-active"></div>

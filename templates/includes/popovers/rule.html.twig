@@ -1,4 +1,4 @@
-{% set id = 'modal___' ~ code ~ '___' ~ entity.id %}
+{% set id = 'modal___' ~ entity.code ~ '___' ~ entity.id %}
 {% if createModals is defined and createModals %}
     <span
             title="{{ entity.name }}"

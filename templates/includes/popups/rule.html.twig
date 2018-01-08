@@ -1,5 +1,14 @@
 <div id="{{ modalId }}" class="modal">
-    <div class="modal-dialog" role="document">
+    {% if rule.code != 'lexicon' %}
+        {% set bg = asset('resources/images/'~rule.code~'/'~rule.id~'.jpg') %}
+    {% else %}
+        {% set bg = asset('resources/images/bg-header-tools.jpg') %}
+    {% endif %}
+    <div
+        class="modal-dialog"
+        role="document"
+        style="background: url({{ bg }}) no-repeat;"
+    >
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">{{ rule.name }}</h5>

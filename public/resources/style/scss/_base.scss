@@ -1,4 +1,50 @@
 /* ===================
+====== Defaults ======
+=================== */
+
+body {
+  margin: 0;
+  padding-top: 61px;
+
+  font-family: 'Open Sans', sans-serif;
+  color: $text-color;
+  background: #000;
+  font-size: $font-size;
+}
+
+h1 {
+  font-family: $font-family-primary;
+  color: $primary-color;
+}
+
+h2 {
+  font-family: $font-family-primary;
+  color: $secondary-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  color: $primary-color;
+}
+
+hr {
+  height: 1px;
+  border-style: none;
+
+  background:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      $secondary-color 50%,
+      rgba(0, 0, 0, 0)
+    )
+  ;
+}
+
+/* ===================
 ======= Button =======
 =================== */
 .button {
@@ -229,11 +275,9 @@
   .need {
     margin-bottom: 1em;
     padding: 15px 0 0 0;
-    border-top: 1px solid $secondary-color;
     font-size: 0.9em;
-    color: $secondary-color;
 
-    span {
+    label {
       font-family: $font-family-primary;
       color: $primary-color;
     }

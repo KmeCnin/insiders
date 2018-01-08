@@ -5,7 +5,7 @@
 {# @var categories \App\Entity\Rule\StuffCategory[] #}
 {# @var stuff \App\Entity\Rule\CanonicalStuff[] #}
 
-{% set header_bg = asset('resources/images/stuff_categories/'~category.id~'.jpg') %}
+{% set header_bg = asset('resources/images/stuff_category/'~category.id~'.jpg') %}
 {% set title = category.name %}
 
 {% block breadcrumb %}

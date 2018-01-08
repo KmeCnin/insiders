@@ -1,4 +1,4 @@
-{% extends 'layout-universe.html.twig' %}
+{% extends 'layout-universe.html.twig' %}need
 
 {# /universe/arcanes #}
 {# @var arcanes \App\Entity\Rule\Arcane #}
@@ -17,8 +17,8 @@
       'subtitle': arcane.short,
       'description': arcane.description,
       'slug': arcane.slug,
-      'icon': asset('resources/images/arcanes/icons/'~arcane.id~'.svg'),
-      'bg': asset('resources/images/arcanes/'~arcane.id~'.jpg'),
+      'icon': asset('resources/images/arcane/icons/'~arcane.id~'.svg'),
+      'bg': asset('resources/images/arcane/'~arcane.id~'.jpg'),
     } only %}
   {% endfor %}
 {% endblock %}
