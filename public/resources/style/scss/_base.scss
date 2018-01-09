@@ -27,6 +27,7 @@ a {
 }
 
 strong {
+  font-weight: 600;
   color: $primary-color;
 }
 
@@ -43,6 +44,8 @@ hr {
     )
   ;
 }
+
+*:focus {outline:none}
 
 /* ===================
 ======= Button =======

@@ -48,30 +48,55 @@
   opacity: 0.5;
 }
 
+.modal-background {
+  position: absolute;
+  z-index: 1;
+  width: 560px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
 .modal-content {
   display: flex;
   justify-content: space-between;
+  z-index: 50;
 
   .modal-header {
+    width: 100%;
     padding-left: 30px;
+    z-index: 3000;
 
     .modal-title {
+      margin: 30px 0 10px 0;
       font-family: $font-family-primary;
-      font-size: 1.3em;
       color: $primary-color;
+    }
+
+    .modal-subtitle {
+      font-family: "Manuale", serif;
+      font-size: 1.1em;
+      color: #FECB5B;
     }
   
     .close {
       position: absolute;
-      top: 15px;
-      right: 15px;
-      z-index: 3000;
+      top: 2px;
+      right: 5px;
     
       background: none;
       border: none;
       font-size: 2em;
       font-weight: 300;
       color: $primary-color;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.5s;
+    }
+
+    .close:hover {
+      opacity: 1;
     }
   }
   
@@ -80,21 +105,35 @@
     top: 0;
     right: 0;
     bottom: 0;
-    left: 370px;
-    padding: 45px 25px 20px 25px;
+    left: 470px;
+    padding: 25px 40px 20px 40px;
+    overflow-y: scroll;
+    z-index: 10;
 
     text-align: justify;
     font-weight: 300;
+    line-height: 1.7em;
     color: #F0E6D2;
-    background: rgba(0, 0, 0, 0.66);
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .gradient-bottom {
+    width: 380px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0) 25px, rgba(0, 0, 0, 0));
   }
 }
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 700px;
-    min-height: 380px;
-    margin: 15% auto;
+    max-width: 850px;
+    min-height: 530px;
+    margin: 10% auto;
   }
   .modal-sm {
     max-width: 300px;
