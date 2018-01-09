@@ -7,18 +7,19 @@
 {% set title = 'Attributs physiques' %}
 
 {% block container %}
-  <div class="block block-intro">
-    <p>{{ description|augment|raw }}</p>
-  </div>
+    <div class="block block-intro">
+        <p>{{ description|augment|raw }}</p>
+    </div>
 
-  {% for attribute in attributes %}
-    {% include 'includes/sections/default.html.twig' with {
-      'title': attribute.name,
-      'subtitle': attribute.short,
-      'description': attribute.description,
-      'slug': attribute.slug,
-      'need': attribute.pc ~' point'~ (attribute.pc > 1 ? 's')~' de création',
-      'bg': asset('resources/images/attribute/'~attribute.id~'.jpg'),
-    } only %}
-  {% endfor %}
+    {% for attribute in attributes %}
+        {% include 'includes/sections/attributes.html.twig' with {
+        'title': attribute.name,
+        'subtitle': attribute.short,
+        'description': attribute.description,
+        'slug': attribute.slug,
+        'attribute': attribute,
+        'pc': pc,
+        'bg': asset('resources/images/attribute/'~attribute.id~'.jpg'),
+        } only %}
+    {% endfor %}
 {% endblock %}

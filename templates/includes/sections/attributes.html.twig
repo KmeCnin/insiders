@@ -1,0 +1,14 @@
+{% extends 'includes/sections/default.html.twig' %}
+
+{% block more %}
+    <hr>
+    <div class="need">
+        <label>Nécessite :</label>
+        {{ attribute.pc }}
+        {% include 'includes/popovers/rule.html.twig' with {
+        'display': ' point'~ (attribute.pc > 1 ? 's')~' de création',
+        'entity': pc,
+        'createModals': true
+        } %}
+    </div>
+{% endblock %}

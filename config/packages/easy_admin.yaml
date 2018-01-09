@@ -159,6 +159,14 @@ easy_admin:
             list:
                 fields: ['id', 'name', 'slug', 'dignity', 'arcane', 'champion', 'public', 'enabled']
                 sort: ['id', 'ASC']
+            form:
+                fields:
+                    - { property: enabled }
+                    - { property: public }
+                    - { property: id }
+                    - { property: name }
+                    - { property: dignity }
+                    - { property: description, type: ckeditor }
         Lexicon:
             class: App\Entity\Rule\LexiconEntry
             list:

@@ -3,7 +3,7 @@
   <div class="breadcrumb-items">
     {# INDEX #}
     <a href="{{ path('rules.all_stuff') }}" {% if category is not defined %}class="active"{% endif %}>
-      <img src="{{ asset('resources/images/stuff_categories/icons/category.svg') }}" alt="Tous les équipements">
+      <img src="{{ asset('resources/images/stuff_category/icons/category.svg') }}" alt="Tous les équipements">
       <span>Index</span>
       <div class="bullets">
         <div class="bullet-default"></div>
@@ -12,7 +12,7 @@
     </a>
     {% for categoryBreadcrumb in categories %}
     <a href="{{ path('rules.stuff', {'slug': categoryBreadcrumb.slug}) }}" {% if category is defined and category == categoryBreadcrumb %}class="active"{% endif %}>
-      <img src="{{ asset('resources/images/stuff_categories/icons/'~categoryBreadcrumb.id~'.svg') }}" alt="{{ categoryBreadcrumb.name }}">
+      <img src="{{ asset('resources/images/stuff_category/icons/'~categoryBreadcrumb.id~'.svg') }}" alt="{{ categoryBreadcrumb.name }}">
       <span>
         {% if categoryBreadcrumb.id == 'fight' %}
         Combat

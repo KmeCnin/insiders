@@ -62,19 +62,6 @@
       <div id="{{ slug }}-0">{{ description|augment|raw }}</div>
     </div>
 
-    {% if need is defined and need is not empty %}
-      <hr>
-      <div class="need">
-        <label>Nécessite :</label>
-        {% for abilityNeeded in need %}
-          {% if not loop.first %}, {% endif %}
-          {% include 'includes/popovers/rule.html.twig' with {
-            'display': abilityNeeded.name,
-            'entity': abilityNeeded,
-            'createModals': true
-          } %}
-        {% endfor %}
-      </div>
-    {% endif %}
+    {% block more %}{% endblock %}
   </div>
 </section>
