@@ -225,7 +225,7 @@
   z-index: 1001;
   border-radius: 3px;
   color: #F0E6D2;
-  background: linear-gradient(to top, black, transparent 95%, transparent, transparent 90%, black), linear-gradient(to bottom, black, transparent 95%, transparent, transparent 90%, black), url(../../images/popover.jpg) no-repeat;
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black), url(../../images/popover.jpg) no-repeat;
   background-size: cover; }
   .popover .popover-header {
     padding: 5px 20px 20px 20px;
@@ -272,7 +272,7 @@ strong {
 hr {
   height: 1px;
   border-style: none;
-  background: linear-gradient(to right, transparent, #FECB5B 50%, transparent); }
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #FECB5B 50%, rgba(0, 0, 0, 0)); }
 
 /* ===================
 ======= Button =======
@@ -546,7 +546,7 @@ hr {
   width: 100%;
   max-width: 900px;
   height: 1px;
-  background: linear-gradient(to right, transparent, #FECB5B 30px, transparent), linear-gradient(to left, transparent, #FECB5B 30px, transparent); }
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to left, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
 
 .breadcrumb .breadcrumb-items {
   position: absolute;
@@ -647,7 +647,7 @@ hr {
   height: 100%;
   position: absolute;
   right: 0;
-  background: linear-gradient(to bottom, transparent, #FECB5B 30px, transparent), linear-gradient(to top, transparent, #FECB5B 30px, transparent); }
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)), linear-gradient(to top, rgba(0, 0, 0, 0), #FECB5B 30px, rgba(0, 0, 0, 0)); }
 
 .vertical-breadcrumb span {
   margin-right: 10px;
