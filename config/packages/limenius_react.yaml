@@ -1,0 +1,6 @@
+limenius_react:
+    default_rendering: "client_side"
+
+framework:
+    assets:
+        json_manifest_path: '%kernel.root_dir%/../public/resources/build/manifest.json'

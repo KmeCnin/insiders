@@ -92,12 +92,14 @@ class RulesController extends AbstractAppController
     {
         $lexicon = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('attribute');
         $repo = $this->getDoctrine()->getRepository(Attribute::class);
+        $pc = $this->getDoctrine()->getRepository(LexiconEntry::class)->find('pc');
 
         return $this->render('pages/rules/attributes.html.twig', [
             'description' => $this->rulesAugmenter->augment(
                 $lexicon->getDescription()
             ),
             'attributes' => $repo->findAll(),
+            'pc' => $pc,
         ]);
     }
 

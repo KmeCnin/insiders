@@ -5,7 +5,7 @@
 {# @var categories \App\Entity\StuffCategory[] #}
 
 {% set header_bg = asset('resources/images/bg-header-stuff.jpg') %}
-{% set subtitle = 'Tous les équipements' %}
+{% set title = 'Tous les équipements' %}
 
 {% block breadcrumb %}
     {{ include('includes/breadcrumbs/stuff.html.twig', [categories]) }}
@@ -22,7 +22,7 @@
 
     <div class="block-title">
       <div>
-        <img src="{{ asset('resources/images/stuff_categories/icons/'~category.id~'.svg') }}" alt="{{ category.name }}">
+        <img src="{{ asset('resources/images/stuff_category/icons/'~category.id~'.svg') }}" alt="{{ category.name }}">
         <h1>{{ category.name }}</h1>
       </div>
       <span>{{ category.short }}</span>

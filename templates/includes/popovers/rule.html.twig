@@ -1,11 +1,10 @@
-{% set id = 'modal___' ~ code ~ '___' ~ entity.id %}
 {% if createModals is defined and createModals %}
     <span
             title="{{ entity.name }}"
             class="toggle-popover toggle-popup"
             data-content="{{ entity.short }}"
             data-toggle="modal"
-            data-target="#{{ id }}"
+            data-target="#{{ entity|create_rule_modal }}"
             data-trigger="hover"
             data-placement="top"
     >{{ display|raw }}</span>

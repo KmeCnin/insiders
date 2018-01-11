@@ -4,7 +4,7 @@
 {# @var arcanes \App\Entity\Rule\Arcane #}
 
 {% set header_bg = asset('resources/images/bg-header-arcanes.jpg') %}
-{% set subtitle = 'Arcanes' %}
+{% set title = 'Arcanes' %}
 
 {% block container %} 
   <div class="block-intro">
@@ -17,8 +17,8 @@
       'subtitle': arcane.short,
       'description': arcane.description,
       'slug': arcane.slug,
-      'icon': asset('resources/images/arcanes/icons/'~arcane.id~'.svg'),
-      'bg': asset('resources/images/arcanes/'~arcane.id~'.jpg'),
+      'icon': asset('resources/images/arcane/icons/'~arcane.id~'.svg'),
+      'bg': asset('resources/images/arcane/'~arcane.id~'.jpg'),
     } only %}
   {% endfor %}
 {% endblock %}

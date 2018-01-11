@@ -5,8 +5,8 @@
 {# @var arcanes \App\Entity\Rule\Arcane[] #}
 {# @var abilities \App\Entity\Rule\Ability[] #}
 
-{% set header_bg = asset('resources/images/arcanes/'~arcane.id~'.jpg') %}
-{% set subtitle = 'Capacités '~arcane.owningStyle %}
+{% set header_bg = asset('resources/images/arcane/'~arcane.id~'.jpg') %}
+{% set title = 'Capacités '~arcane.owningStyle %}
 
 {% block breadcrumb %}
     {{ include('includes/breadcrumbs/abilities.html.twig', [arcanes, arcane]) }}
@@ -18,13 +18,13 @@
   </div>
 
   {% for ability in abilities %}
-    {% include 'includes/sections/default.html.twig' with {
+    {% include 'includes/sections/abilities.html.twig' with {
       'title': ability.name,
       'subtitle': ability.short,
       'description': ability.description,
       'slug': ability.slug,
-      'need': ability.abilitiesRequired|join(', '),
-      'bg': asset('resources/images/abilities/'~ability.id~'.jpg'),
+      'need': ability.abilitiesRequired,
+      'bg': asset('resources/images/ability/'~ability.id~'.jpg'),
       'increases': ability.increases,
     } only %}
   {% endfor %}

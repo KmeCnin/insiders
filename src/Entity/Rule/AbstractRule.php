@@ -144,6 +144,11 @@ abstract class AbstractRule implements RuleInterface, NormalizableInterface
         return 'de '.lcfirst($this->getName());
     }
 
+    public function getCode(): string
+    {
+        return $this::CODE;
+    }
+
     protected static function slugify(string $string): string
     {
         // Removes duplicated spaces

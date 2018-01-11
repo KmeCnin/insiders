@@ -1,33 +1,4 @@
 @import "setup";
-
-body {
-  margin: 0;
-  padding-top: 65px;
-
-  font-family: 'Open Sans', sans-serif;
-  color: $text-color;
-  background: #000;
-  font-size: $font-size;
-}
-
-h1 {
-  font-family: $font-family-primary;
-  color: $primary-color;
-}
-
-h2 {
-  font-family: $font-family-primary;
-  color: $secondary-color;
-}
-
-a {
-  text-decoration: none;
-}
-
-strong {
-  color: #FECB5B;
-}
-
 @import "navbar";
 @import "popup";
 @import "popover";

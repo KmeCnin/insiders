@@ -4,7 +4,7 @@
 {# @var characteristics \App\Entity\Rule\Characteristic #}
 
 {% set header_bg = asset('resources/images/bg-header-characteristics.jpg') %}
-{% set subtitle = 'Caractéristiques' %}
+{% set title = 'Caractéristiques' %}
 
 
 {% block container %}
@@ -18,7 +18,7 @@
       'subtitle': characteristic.short,
       'description': characteristic.description,
       'slug': characteristic.slug,
-      'bg': asset('resources/images/characteristics/'~characteristic.id~'.jpg'),
+      'bg': asset('resources/images/characteristic/'~characteristic.id~'.jpg'),
     } only %}
   {% endfor %}
 {% endblock %}

@@ -1,15 +1,41 @@
 <div id="{{ modalId }}" class="modal">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">{{ rule.name }}</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>{{ rule.description|augment_in_modal|raw }}</p>
-            </div>
-        </div>
+  {% if rule.code != 'lexicon' %}
+    {% set bg = asset('resources/images/'~rule.code~'/'~rule.id~'.jpg') %}
+  {% else %}
+    {% set bg = asset('resources/images/popup-default.jpg') %}
+  {% endif %}
+  <div class="modal-dialog" role="document">
+    <div
+      class="modal-background" 
+      style="background:
+          linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.85),
+          rgba(0, 0, 0, 0) 300px,
+          rgba(0, 0, 0, 0)
+          ),
+          linear-gradient(
+          to left,
+          rgba(0, 0, 0, 1),
+          rgba(0, 0, 0, 0) 90px,
+          rgba(0, 0, 0, 0)
+          ),
+          url({{ bg }}) no-repeat; 
+          background-size: cover; 
+          background-position: center;"
+    ></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">{{ rule.name }}</h1>
+        <span class="modal-subtitle">{{ rule.short|default('') }}</span>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{ rule.description|augment_in_modal|raw }}</p>
+      </div>
+      <div class="gradient-bottom"></div>
     </div>
+  </div>
 </div>

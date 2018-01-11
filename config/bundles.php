@@ -15,4 +15,6 @@ return [
     'FOS\UserBundle\FOSUserBundle' => ['all' => true],
     'Ivory\CKEditorBundle\IvoryCKEditorBundle' => ['all' => true],
     'FOS\JsRoutingBundle\FOSJsRoutingBundle' => ['all' => true],
+    'Limenius\ReactBundle\LimeniusReactBundle' => ['all' => true],
+    'Symfony\Bundle\MonologBundle\MonologBundle' => ['all' => true],
 ];

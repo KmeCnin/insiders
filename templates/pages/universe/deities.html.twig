@@ -4,7 +4,7 @@
 {# @var deities \App\Entity\Rule\Deity #}
 
 {% set header_bg = asset('resources/images/bg-header-deities.jpg') %}
-{% set subtitle = 'Divinités' %}
+{% set title = 'Divinités' %}
 
 {% block container %}
   <div class="block-intro">
@@ -17,8 +17,8 @@
       'subtitle': deity.dignity,
       'description': deity.description,
       'slug': deity.slug,
-      'icon': asset('resources/images/arcanes/icons/'~deity.arcane.id~'.svg'),
-      'bg': asset('resources/images/deities/'~deity.id~'.jpg'),
+      'icon': asset('resources/images/arcane/icons/'~deity.arcane.id~'.svg'),
+      'bg': asset('resources/images/deity/'~deity.id~'.jpg'),
     } only %}
   {% endfor %}
 {% endblock %}

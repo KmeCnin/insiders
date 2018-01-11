@@ -1,4 +1,53 @@
 /* ===================
+====== Defaults ======
+=================== */
+
+body {
+  margin: 0;
+  padding-top: 61px;
+
+  font-family: 'Open Sans', sans-serif;
+  color: $text-color;
+  background: #000;
+  font-size: $font-size;
+}
+
+h1 {
+  font-family: $font-family-primary;
+  color: $primary-color;
+}
+
+h2 {
+  font-family: $font-family-primary;
+  color: $secondary-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+  color: $primary-color;
+}
+
+hr {
+  height: 1px;
+  border-style: none;
+
+  background:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      $secondary-color 50%,
+      rgba(0, 0, 0, 0)
+    )
+  ;
+}
+
+*:focus {outline:none}
+
+/* ===================
 ======= Button =======
 =================== */
 .button {
@@ -9,7 +58,7 @@
   margin: 30px 20px;
   padding: 15px 30px;
 
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.6);
   border: 1px solid $secondary-color;
   font-family: $font-family-primary;
   color: $secondary-color;
@@ -30,6 +79,8 @@
 .header-content-wrapper {
   max-width: 1100px;
   height: 100%;
+  position: relative;
+  top: 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -41,35 +92,21 @@
   }
 
   h1 {
-    margin-bottom: 0;
+    margin: 0;
 
-    font-size: 6em;
-    text-transform: uppercase;
+    font-size: 4em;
     text-shadow: 0 2px 4px #000000;
     color: $secondary-color;
   }
 
   h2 {
-    margin: -20px 0 20px 0;
-
-    font-size: 4.5em;
+    margin: 0;
+    font-size: 3.5em;
     text-shadow: 0 2px 4px #000000;
-    color: $primary-color;
-  }
-
-  span {
-    color: $primary-color;
-    text-shadow: 0 1px 0 #000000;
-  }
-
-  span:first-of-type {
-    font-weight: 700;
-    font-size: 1.3em;
-  }
-
-  span:last-of-type {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2.2em;
+    color: #F0E6D2;
+    text-transform: uppercase;
+    position: relative;
+    top: 14px;
   }
 }
 
@@ -104,12 +141,6 @@
   background-size: cover;
 }
 
-.section-horizontal {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 0;
-}
-
 .reverse {
   flex-direction: row-reverse;
 
@@ -130,12 +161,22 @@
 }
 
 .block {
-  height: 700px;
   position: relative;
-  margin: auto auto 50px auto;
+  margin: auto auto 40px auto;
 
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  background: black;
+  background-color: black;
+}
+
+.block-background {
+  position: absolute;
+  z-index: 1;
+  width: 900px;
+  height: 600px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
 }
 
 .block-short {
@@ -187,17 +228,6 @@
   }
 }
 
-.block-background {
-  position: absolute;
-  z-index: 1;
-  width: 900px;
-  height: 700px;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 20%;
-}
-
 .block-title {
   padding: 20px;
   text-shadow: 0 0 16px black;
@@ -221,19 +251,21 @@
   }
 
   span {
-    font-family: $font-family-secondary ;
+    font-family: $font-family-secondary;
     font-size: 1.1em;
     color: $secondary-color;
   }
 }
 
 .block-content {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 10;
-  padding: 20px 90px 20px 20px;
+  padding: 5px 90px 5px 20px;
+  margin-top: 335px;
+  min-height: 145px;
 
   background: rgba(0, 0, 0, 0.5);
 
@@ -244,8 +276,14 @@
   }
 
   .need {
-    color: $secondary-color;
     margin-bottom: 1em;
+    padding: 15px 0 0 0;
+    font-size: 0.9em;
+
+    label {
+      font-family: $font-family-primary;
+      color: $primary-color;
+    }
   }
 
   .block-content-increase {
@@ -324,6 +362,6 @@
 .anchor {
   display: block;
   position: relative;
-  top: -190px;
+  top: -120px;
   visibility: hidden;
 }

@@ -4,61 +4,82 @@
 {% set subtitle = 'Bienvenue' %}
 
 {% block header %}
-  <div class="header header-home" style="background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%, black), url({{ asset('resources/images/home/home-header-bg.jpg') }});">
+  <div
+    class="header header-home"
+    style="
+      background-image:
+        linear-gradient(to right, black, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, black),
+        linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%, black),
+        url({{ asset('resources/images/home/home-header-bg.jpg') }});
+      background-position: center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+    "
+  >
     <div class="header-content-wrapper">
       <!--<img src="{{ asset('resources/images/logo.png') }}" alt="Logo Les Initiés">-->
-      <div>
-        <h1>Les Initiés</h1>
-        <h2>Rejoignez l'aventure</h2>
-        <span>Un jeu de rôle</span>
-        <span>Gratuit &amp; Open Source</span>
-        <a class="button button-primary" href="#">Découvrir</a>
-      </div>
+      <h1>Les Initiés</h1>
+      <h2>Rejoignez l'aventure</h2>
+      <span>Un jeu de rôle</span>
+      <span>Gratuit &amp; Open Source</span>
+      <a class="button button-primary" href="#">Découvrir</a>
     </div>
   </div>
 {% endblock %}
 
 {% block container %} 
-  <h1>Le jeu de rôle</h1>
-
-  <section class="section-horizontal">
-    <div class="block block-home1">
-      <div class="block-short">
-        <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
-        <p>Incarnez le personnage <br>de vos rêves</p>
+  <section>
+    <div class="block-presentation-wrapper">
+      <div class="blocks-items">
+        <div class="content-wrapper">
+          <div class="border"></div>
+          <div class="content">
+            <img src="{{ asset('resources/images/home/home-short-picto1.svg') }}" alt="Fire">
+            <p>Incarnez le personnage <br>de vos rêves</p>
+          </div>
+        </div>
+        <div class="block-item block1"></div>
       </div>
-    </div>
-
-    <div class="block block-home2">
-      <div class="block-short">
-        <img src="{{ asset('resources/images/home/home-short-picto2.svg') }}" alt="Fire">
-        <p>Concentrez-vous sur le role play et non sur les règles</p>
+      <div class="blocks-items">
+        <div class="content-wrapper">
+          <div class="border"></div>
+          <div class="content">
+            <img src="{{ asset('resources/images/home/home-short-picto2.svg') }}" alt="Fire">
+            <p>Concentrez-vous sur le role play <br>et non sur les règles</p>
+          </div>
+        </div>
+        <div class="block-item block2"></div>
       </div>
-    </div>
-
-    <div class="block block-home3">
-      <div class="block-short">
-        <img src="{{ asset('resources/images/home/home-short-picto3.svg') }}" alt="Fire">
-        <p>Découvrez un univers fantastique surprenant</p>
+      <div class="blocks-items">
+        <div class="content-wrapper">
+          <div class="border"></div>
+          <div class="content">
+            <img src="{{ asset('resources/images/home/home-short-picto3.svg') }}" alt="Fire">
+            <p>Découvrez un univers fantastique surprenant</p>
+          </div>
+        </div>
+        <div class="block-item block3"></div>
       </div>
     </div>
   </section>
 
   <section>
     <div class="block-user-wrapper">
-      <div class="block-user block-player">
+      <div class="block-user">
         <div class="content-wrapper">
           <div class="border"></div>
           <h1>Découvrir le jeu</h1>
           <a class="button button-primary" href="#">Commencer</a>
         </div>
+        <div class="block-item block-player"></div>
       </div>
-      <div class="block-user block-mj">
+      <div class="block-user disabled">
         <div class="content-wrapper">
           <div class="border"></div>
           <h1>Apprendre à masteriser</h1>
           <a class="button button-primary" href="#">Prochainement</a>
         </div>
+        <div class="block-item block-mj"></div>
       </div>
     </div>
   </section>
