@@ -7,8 +7,6 @@ use Doctrine\ORM\Mapping as ORM;
 
 abstract class AbstractRule implements RuleInterface, NormalizableInterface
 {
-    public const CODE = null;
-
     /**
      * @var int
      *

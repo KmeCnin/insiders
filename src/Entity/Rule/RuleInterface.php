@@ -4,6 +4,8 @@ namespace App\Entity\Rule;
 
 interface RuleInterface
 {
+    public const CODE = '';
+
     public function getId(): ?string;
 
     public function setId(string $id);

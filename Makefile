@@ -45,6 +45,13 @@ serve:
 .PHONY: sf_console serve serve_as_sf serve_as_php
 ###< symfony/framework-bundle ###
 
+design:
+	npm run watch
+
+dev:
+	@${MAKE} serve
+	@${MAKE} design
+
 reset-rules:
 	@$(CONSOLE) doctrine:database:drop --force -vvv
 	@$(CONSOLE) doctrine:database:create -vvv

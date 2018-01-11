@@ -7,7 +7,7 @@
         "dignity": "La Peste rampente",
         "arcane": "death",
         "champion": "malenius",
-        "description": "Choln est une entité divine sournoise et imprévisible. Elle récompense les actes perfides et les expérimentations occultes. On dit que son corps ne serait en fait constitué d'une nuée d'insects intelligente à peine dissimulée sous un grand voile sombre mité."
+        "description": "<p>Choln est une entit&eacute; divine sournoise et impr&eacute;visible. Elle r&eacute;compense les actes perfides et les exp&eacute;rimentations occultes. On dit que son corps ne serait en fait constitu&eacute; d&#39;une nu&eacute;e d&#39;insects intelligente &agrave; peine dissimul&eacute;e sous un grand voile sombre mit&eacute;.<\/p>"
     },
     {
         "id": "dalecarlica",
@@ -17,7 +17,7 @@
         "dignity": "L'essence du monde",
         "arcane": "web",
         "champion": null,
-        "description": "Dalecarlica est une entité divine sereine et pacifique. Elle ne s'intéresse que très peu aux animaux et porte son intérêt principalement sur les végétaux et les minéraux. Il s'agit d'un arbre gigantesque aux dimensions surréalistes. Dalecarlica n'a jamais élu de Champion car elle n'en a encore jamais trouvé d'assez digne et de confiance."
+        "description": "<p>Dalecarlica est une entit&eacute; divine sereine et pacifique. Elle ne s&#39;int&eacute;resse que tr&egrave;s peu aux animaux et porte son int&eacute;r&ecirc;t principalement sur les v&eacute;g&eacute;taux et les min&eacute;raux. Il s&#39;agit d&#39;un arbre gigantesque aux dimensions surr&eacute;alistes. Dalecarlica n&#39;a jamais &eacute;lu de Champion car elle n&#39;en a encore jamais trouv&eacute; d&#39;assez digne et de confiance.<\/p>"
     },
     {
         "id": "jira",
@@ -27,7 +27,7 @@
         "dignity": "Le Dieu aux milles visages",
         "arcane": "veil",
         "champion": null,
-        "description": "Jira est un Dieu méticuleux et calculateur. Il incite ses fidèles à mettre au point des plans complexes et réfléchis et à triompher par la ruse plus tôt que par la force. Comme son nom le suggère, il est impossible de lui attribuer une unique apparence mais le commun des mortels le représente souvent par un homme sans visage vêtu d'une robe bleue richement ornée."
+        "description": "<p>Jira est un Dieu m&eacute;ticuleux et calculateur. Il incite ses fid&egrave;les &agrave; mettre au point des plans complexes et r&eacute;fl&eacute;chis et &agrave; triompher par la ruse plus t&ocirc;t que par la force. Comme son nom le sugg&egrave;re, il est impossible de lui attribuer une unique apparence mais le commun des mortels le repr&eacute;sente souvent par un homme sans visage v&ecirc;tu d&#39;une robe bleue richement orn&eacute;e.<\/p>"
     },
     {
         "id": "lovnir",
@@ -37,7 +37,7 @@
         "dignity": "Le jeune sage",
         "arcane": "ether",
         "champion": "jonnas",
-        "description": "Lovnir est un Dieu mesuré et pragmatique. Il récompense ceux qui font preuve d'abnégation et d'austérité et condamne la superficialité et la recherche du plaisir instantané. Il est dépeint comme un jeune garçon d'une quinzaine d'années couronné d'immenses bois de cerfs, lévitant les jambes croisées, vêtu d'une simple toge ocre usée."
+        "description": "<p>Lovnir est un Dieu mesur&eacute; et pragmatique. Il r&eacute;compense ceux qui font preuve d&#39;abn&eacute;gation et d&#39;aust&eacute;rit&eacute; et condamne la superficialit&eacute; et la recherche du plaisir instantan&eacute;. Il est d&eacute;peint comme un jeune gar&ccedil;on d&#39;une quinzaine d&#39;ann&eacute;es couronn&eacute; d&#39;immenses bois de cerfs, l&eacute;vitant les jambes crois&eacute;es, v&ecirc;tu d&#39;une simple toge ocre us&eacute;e.<\/p>"
     },
     {
         "id": "medev",
@@ -47,7 +47,7 @@
         "dignity": "L'usurpateur",
         "arcane": "veil",
         "champion": null,
-        "description": "Medev est un Dieu très récent, anciennement Champion de Jira, il a réussit par une habile démonstration d'intelligence et de fourberie à rejoindre l'Elyséum et acquérir des pouvoirs divins. Une portion croissante des anciens fidèles à Jira le vénèrent désormais, impressionnés par son ascension éclatante que certains qualifient d'\"ultime duperie\". Grâce à son passé de mortel, l'apparence de Medev est la mieux connue des divinités arcaniques. Il s'agit d'un homme élancé à la peau très pâle et aux cheveux d'un noir profond. Il se dissimule souvent dans un voile pourpre richement décoré."
+        "description": "<p>Medev est un Dieu tr&egrave;s r&eacute;cent, anciennement Champion de Jira, il a r&eacute;ussit par une habile d&eacute;monstration d&#39;intelligence et de fourberie &agrave; rejoindre l&#39;Elys&eacute;um et acqu&eacute;rir des pouvoirs divins. Une portion croissante des anciens fid&egrave;les &agrave; Jira le v&eacute;n&egrave;rent d&eacute;sormais, impressionn&eacute;s par son ascension &eacute;clatante que certains qualifient d&#39;&quot;ultime duperie&quot;. Gr&acirc;ce &agrave; son pass&eacute; de mortel, l&#39;apparence de Medev est la mieux connue des divinit&eacute;s arcaniques. Il s&#39;agit d&#39;un homme &eacute;lanc&eacute; &agrave; la peau tr&egrave;s p&acirc;le et aux cheveux d&#39;un noir profond. Il se dissimule souvent dans un voile pourpre richement d&eacute;cor&eacute;.<\/p>"
     },
     {
         "id": "ozz",
@@ -57,7 +57,7 @@
         "dignity": "Le grand marionnetiste",
         "arcane": "vice",
         "champion": "marlite",
-        "description": "Ozz est un Dieu manipulateur et sur de lui. Il récompense les actes sournois et audacieux et déteste le manque de subtilité et la bêtise. Il est représenté comme un homme masqué encapuchonné dans une élégante robe sombre."
+        "description": "<p>Ozz est un Dieu manipulateur et sur de lui. Il r&eacute;compense les actes sournois et audacieux et d&eacute;teste le manque de subtilit&eacute; et la b&ecirc;tise. Il est repr&eacute;sent&eacute; comme un homme masqu&eacute; encapuchonn&eacute; dans une &eacute;l&eacute;gante robe sombre.<\/p>"
     },
     {
         "id": "penelas",
@@ -67,7 +67,7 @@
         "dignity": "L'aveugle omnisciente",
         "arcane": "spirit",
         "champion": "corlan",
-        "description": "Penelas est une Déesse impatiente et flegmatique. Elle ne considère pas particulièrement ses fidèles mais n'hésite pas à punir quiconque l'ennuie ou l'agace. On la représente complètement nue dans des positions langoureuses les yeux toujours clos."
+        "description": "<p>Penelas est une D&eacute;esse impatiente et flegmatique. Elle ne consid&egrave;re pas particuli&egrave;rement ses fid&egrave;les mais n&#39;h&eacute;site pas &agrave; punir quiconque l&#39;ennuie ou l&#39;agace. On la repr&eacute;sente compl&egrave;tement nue dans des positions langoureuses les yeux toujours clos.<\/p>"
     },
     {
         "id": "solenia",
@@ -77,7 +77,7 @@
         "dignity": "L'Archange lumineuse",
         "arcane": "life",
         "champion": "etanael",
-        "description": "Solenia est une Déesse juste et miséricordieuse. Elle incite ses adeptes à faire preuve d'altruisme et condamne avec fermeté les actes purement égoïstes et destructeurs. L'imaginaire collectif la représente sous les traits d'une femme d'une grande beauté en armure radieuse brandissant une épée enflammée et portée dans les airs par 3 grandes paires d'ailes."
+        "description": "<p>Solenia est une D&eacute;esse juste et mis&eacute;ricordieuse. Elle incite ses adeptes &agrave; faire preuve d&#39;altruisme et condamne avec fermet&eacute; les actes purement &eacute;go&iuml;stes et destructeurs. L&#39;imaginaire collectif la repr&eacute;sente sous les traits d&#39;une femme d&#39;une grande beaut&eacute; en armure radieuse brandissant une &eacute;p&eacute;e enflamm&eacute;e et port&eacute;e dans les airs par 3 grandes paires d&#39;ailes.<\/p>"
     },
     {
         "id": "valerius",
@@ -87,6 +87,6 @@
         "dignity": "Le Dragon à 5 têtes",
         "arcane": "source",
         "champion": "baros",
-        "description": "Valerius est un Dieu susceptible et colérique. Il récompense les actions brutales et destructrices et déteste les compromis. L'imaginaire collectif le représente sous la forme d'un gigantesque dragon à 5 têtes dont chaque tête symbolise un élément particulier."
+        "description": "<p>Valerius est un Dieu susceptible et col&eacute;rique. Il r&eacute;compense les actions brutales et destructrices et d&eacute;teste les compromis. L&#39;imaginaire collectif le repr&eacute;sente sous la forme d&#39;un gigantesque dragon &agrave; 5 t&ecirc;tes dont chaque t&ecirc;te symbolise un &eacute;l&eacute;ment particulier.<\/p>"
     }
 ]
