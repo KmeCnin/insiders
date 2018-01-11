@@ -2,10 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>{% block title %}{{ subtitle }} - {{ title }} - Les Initiés{% endblock %}</title>
+    <title>
+    {% block title %}
+        {% if subtitle is defined %}{{ subtitle }} - {% endif %}
+        {% if subtitle is defined %}{{ title }} - {% endif %}
+        Les Initiés
+    {% endblock %}
+    </title>
 
     {# STYLES #}
-    <link rel="stylesheet" href="{{ asset('resources/style/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('resources/build/style/css/style.css') }}">
     {% block css %}{% endblock %}
 
     {# FAVICON #}
@@ -21,19 +27,21 @@
 
     <header>
       {% block header %}
-      <div
-        class="header"
-        style="background-image: 
-          linear-gradient(to right, black, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, black),
-          linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%, black),
-          url({{ header_bg|default('') }})
-        ;"
-      >
-        <div class="header-content-wrapper">
-          <h2>{{ subtitle }}</h2>
-          <h1>{{ title }}</h1>
-        </div>
-      </div>
+        {% if header_bg is defined %}
+          <div
+            class="header"
+            style="background-image:
+              linear-gradient(to right, black, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, black),
+              linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%, black),
+              url({{ header_bg }})
+              ;"
+          >
+            <div class="header-content-wrapper">
+              <h2>{{ subtitle|default('') }}</h2>
+              <h1>{{ title|default('') }}</h1>
+            </div>
+          </div>
+        {% endif %}
       {% endblock %}
     </header>
 
@@ -47,13 +55,14 @@
     </main>
 
     {# SCRIPTS #}
+    <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
     <script src="{{ asset('resources/script/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('resources/script/popper.min.js') }}"></script>
     <script src="{{ asset('resources/script/bootstrap.min.js') }}"></script>
     <script src="{{ asset('resources/script/jquery.sticky.js') }}"></script>
     <script src="{{ asset('resources/script/script.js') }}"></script>
-    <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
-    <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
+    <script src="{{ asset('resources/build/app.js') }}"></script>
     {% block js %}{% endblock %}
 </body>
 </html>
