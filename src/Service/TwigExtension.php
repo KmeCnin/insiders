@@ -91,7 +91,7 @@ class TwigExtension extends \Twig_Extension
             $n %= $number;
         }
 
-        return $res;
+        return '<span class="roman">'.$res.'</span>';
     }
 
     public function removeAugmentation(?string $text): ?string

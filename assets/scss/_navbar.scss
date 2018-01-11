@@ -84,7 +84,7 @@
       list-style-type: none;
       border-radius: 2px;
       border: 1px solid $secondary-color;
-      background: url(../../images/navbar-pattern.png);
+      background: url(../../public/resources/images/navbar-pattern.png);
 
       li {
         margin: 0;
@@ -168,7 +168,7 @@
 
       border-radius: 100%;
       border: 1px solid $primary-color;
-      background: url(../../images/user.jpg);
+      background: url(../../public/resources/images/user.jpg);
       background-size: 110%;
     }
 

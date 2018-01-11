@@ -3,12 +3,12 @@
 ================== */
 @font-face {
   font-family: "CinzelDecorative-Bold";
-  src: url("../../fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype");
+  src: url("../../public/resources/fonts/cinzel/CinzelDecorative-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Augustus";
-  src: url("../../fonts/atene/augustus.ttf") format("opentype");
+  src: url("../../public/resources/fonts/atene/augustus.ttf") format("opentype");
 }
 
 $font-family-primary : "CinzelDecorative-Bold", serif;
@@ -23,5 +23,5 @@ $text-info-color : #8B6F4D;
 $font-size : 14px;
 $line-height : 18px;
 
-$light-template: url('../../images/block-pattern.png');
-$dark-template: url('../../images/navbar-pattern.png');
+$light-template: url('../../public/resources/images/block-pattern.png');
+$dark-template: url('../../public/resources/images/navbar-pattern.png');

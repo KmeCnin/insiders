@@ -1,18 +1,88 @@
-{% extends 'includes/sections/default.html.twig' %}
+<section class="block block-section">
+    <a class="anchor" id="{{ slug }}"></a>
 
-{% block more %}
-    {% if need is defined and need is not empty %}
-        <hr>
-        <div class="need">
-            <label>Nécessite :</label>
-            {% for abilityNeeded in need %}
-                {% if not loop.first %}, {% endif %}
-                {% include 'includes/popovers/rule.html.twig' with {
-                'display': abilityNeeded.name,
-                'entity': abilityNeeded,
-                'createModals': true
-                } %}
-            {% endfor %}
+    <div class="block-background"
+         style="background-image:
+                 linear-gradient(
+                 to bottom,
+                 rgba(0, 0, 0, 0.85),
+                 rgba(0, 0, 0, 0) 200px,
+                 rgba(0, 0, 0, 0),
+                 rgba(0, 0, 0, 0) 400px,
+                 rgba(0, 0, 0, 1)
+                 ),
+                 linear-gradient(
+                 to left,
+                 rgba(0, 0, 0, 0.60),
+                 rgba(0, 0, 0, 0) 200px,
+                 rgba(0, 0, 0, 0)
+                 ),
+                 url({{ bg }})
+                 "></div>
+
+    <div class="block-title">
+        <div>
+            {% if icon is defined %}<img src="{{ icon }}">{% endif %}
+            <a href="#{{ slug }}"><h1>{{ title }}</h1></a>
         </div>
+        <span>{{ subtitle }}</span>
+    </div>
+
+    {% if increases is defined %}
+        <ul class="vertical-breadcrumb">
+            <div class="line"></div>
+            {% for increase in increases|reverse %}
+                <li
+                    data-target="{{ slug ~ '-' ~ loop.revindex }}"
+                    title="Augmentation {{ loop.revindex|roman }}"
+                    data-html="true"
+                    class="toggle-popover"
+                    data-content="{{ increase.short }}"
+                    data-trigger="hover"
+                    data-placement="left"
+                >
+                    <div class="bullets">
+                        <div class="bullet-active"></div>
+                        <div class="bullet-default"></div>
+                    </div>
+                    {{ loop.revindex|roman|raw }}
+                </li>
+            {% endfor %}
+            <li data-target="{{ slug }}-0" class="active">
+                <div class="bullets">
+                    <div class="bullet-active"></div>
+                    <div class="bullet-default"></div>
+                </div>
+                <span>0</span>
+            </li>
+        </ul>
     {% endif %}
-{% endblock %}
+
+    <div class="block-content">
+        <div class="description">
+            {% if increases is defined %}
+                {% for increase in increases|reverse %}
+                    <div id="{{ slug ~ '-' ~ loop.revindex }}" class="block-content-increase">
+                        {{ increase.description|augment|raw }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+            <div id="{{ slug }}-0">{{ description|augment|raw }}</div>
+        </div>
+
+        {% if need is defined and need is not empty %}
+            <hr>
+            <div class="need">
+                <label>Nécessite :</label>
+                {% for abilityNeeded in need %}
+                    {% if not loop.first %}, {% endif %}
+                    {% include 'includes/popovers/rule.html.twig' with {
+                    'display': abilityNeeded.name,
+                    'entity': abilityNeeded,
+                    'createModals': true
+                    } %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</section>

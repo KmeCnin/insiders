@@ -66,6 +66,13 @@ hr {
 }
 
 /* ===================
+======== Text ========
+=================== */
+.roman {
+  font-family: $font-family-augustus;
+}
+
+/* ===================
 ======= Header =======
 =================== */
 .header {
@@ -122,22 +129,22 @@ hr {
 }
 
 .main-default {
-  background: url(../../images/default.jpg) no-repeat fixed;
+  background: url(../../public/resources/images/default.jpg) no-repeat fixed;
   background-size: cover;
 }
 
 .main-rules {
-  background: url(../../images/rules.jpg) no-repeat fixed;
+  background: url(../../public/resources/images/rules.jpg) no-repeat fixed;
   background-size: cover;
 }
 
 .main-universe {
-  background: url(../../images/universe.jpg) no-repeat fixed;
+  background: url(../../public/resources/images/universe.jpg) no-repeat fixed;
   background-size: cover;
 }
 
 .main-tools {
-  background: url(../../images/tools.jpg) no-repeat fixed;
+  background: url(../../public/resources/images/tools.jpg) no-repeat fixed;
   background-size: cover;
 }
 
