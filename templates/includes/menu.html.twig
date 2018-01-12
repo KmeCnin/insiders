@@ -8,15 +8,18 @@
       </div>
     </a>
 
+    {% set route = app.request.attributes.get('_route') %}
+    {% set realm = route|split('.')[0] %}
+
     <ul class="tabs">
-      <li>
+      <li{% if realm == 'universe' %} class="active"{% endif %}>
         <a href="{{ path('universe') }}">Univers</a>
         <ul>
           <li><a href="{{ path('universe.arcanes') }}">Arcanes</a></li>
           <li><a href="{{ path('universe.deities') }}">Divinités</a></li>
         </ul>
       </li>
-      <li>
+      <li{% if realm == 'rules' %} class="active"{% endif %}>
         <a href="{{ path('rules') }}">Règles</a>
         <ul>
           <li><a href="{{ path('rules.attributes') }}">Attributs</a></li>

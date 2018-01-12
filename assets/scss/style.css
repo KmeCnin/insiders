@@ -90,11 +90,11 @@
     border-bottom: 6px solid #FECB5B;
     box-sizing: border-box;
     border-color: transparent; }
-  .navbar .tabs > li:hover > a {
+  .navbar .tabs > li:hover > a, .navbar .tabs > li.active > a {
     border-bottom: 6px solid #FECB5B;
     box-sizing: border-box;
     border-color: #FECB5B; }
-  .navbar .tabs > li:hover a {
+  .navbar .tabs > li:hover a, .navbar .tabs > li.active a {
     color: #F0E6D2; }
   .navbar .tabs > li:hover ul {
     display: block; }
