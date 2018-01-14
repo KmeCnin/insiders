@@ -28,6 +28,14 @@
   -o-transform: translate(0, 0);
   transform: translate(0, 0);
 }
+
+.modal-dialog-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal-dialog {
   position: relative;
   width: auto;
@@ -64,7 +72,7 @@
   z-index: 50;
 
   .modal-header {
-    width: 42%;
+    width: 40%;
     padding-left: 30px;
     z-index: 3000;
 
@@ -132,8 +140,8 @@
 @media (min-width: 576px) {
   .modal-dialog {
     width: 70%;
-    min-height: 70%;
-    margin: 10% auto;
+    height: 70%;
+    margin: 0 auto;
   }
   .modal-sm {
     max-width: 300px;
