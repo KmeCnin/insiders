@@ -229,6 +229,14 @@ easy_admin:
             list:
                 fields: ['id', 'name', 'slug', 'kind', 'short', 'fp', { property: stuffKinds, type: array }, 'public', 'enabled']
                 sort: ['id', 'ASC']
+            form:
+                fields:
+                    - { property: enabled }
+                    - { property: public }
+                    - { property: id }
+                    - { property: name }
+                    - { property: short }
+                    - { property: description, type: ckeditor }
         StuffPropertyKind:
             class: App\Entity\Rule\StuffPropertyKind
             list:

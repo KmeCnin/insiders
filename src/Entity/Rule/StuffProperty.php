@@ -11,6 +11,10 @@ use Doctrine\ORM\Mapping as ORM;
 class StuffProperty extends AbstractRule
 {
     use ShortTrait;
+    use DescriptionTrait;
+
+    public const CODE = 'stuff_property';
+    public const PROPERTY_RANGED = 'ranged';
 
     /**
      * @var float
@@ -110,6 +114,7 @@ class StuffProperty extends AbstractRule
         return array_merge(parent::normalize(), [
             'fp' => $this->getFp(),
             'short' => $this->getShort(),
+            'description' => $this->getDescription(),
             'kind' => $this->getKind()->getId(),
             'stuffKinds' => array_map(function (StuffKind $kind) {
                 return $kind->getId();
