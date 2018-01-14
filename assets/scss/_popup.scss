@@ -51,7 +51,7 @@
 .modal-background {
   position: absolute;
   z-index: 1;
-  width: 560px;
+  width: 650px;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,7 +105,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    left: 470px;
+    left: 540px;
     padding: 25px 40px 20px 40px;
     overflow: auto;
     z-index: 10;
@@ -131,8 +131,8 @@
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 850px;
-    min-height: 530px;
+    width: 70%;
+    min-height: 70%;
     margin: 10% auto;
   }
   .modal-sm {

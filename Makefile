@@ -52,6 +52,10 @@ dev:
 	@${MAKE} serve
 	@${MAKE} design
 
+sam:
+	@$(CONSOLE) server:run --no-debug &
+	@${MAKE} design
+
 reset-rules:
 	@$(CONSOLE) doctrine:database:drop --force -vvv
 	@$(CONSOLE) doctrine:database:create -vvv
