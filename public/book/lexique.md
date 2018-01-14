@@ -34,8 +34,10 @@ Notion | Résumé
 **[Grand Impact](#anchor-grand-impact)** | Evènement historique correspondant à l&#039;arrivée de l&#039;arcanite
 **[Guérison](#anchor-guerison)** | Traitement permettant de supprimer une blessure
 **[Guilde](#anchor-guilde)** | Structure réunissant un groupe de personnage
+**[Incanto](#anchor-incanto)** | Organisation mondiale responsable de la monnaie
 **[Initié](#anchor-initie)** | Personnage ayant absorbé l&#039;énergie d&#039;un cristal d&#039;arcanite
 **[Instinct](#anchor-instinct)** | Capacité physique ou mentale de l&#039;entité par rapport à son potentiel inné
+**[Légion](#anchor-legion)** | Organisation garante de l&#039;ordre mondiale
 **[Maîtrise](#anchor-maitrise)** | Régularité de l&#039;entité dans l&#039;utilisation du plein potentiel de ses caractéristiques
 **[Maximiser un jet](#anchor-maximiser-un-jet)** | Considérer que le résultat d&#039;un jet est le plus grand possible
 **[Minimiser un jet](#anchor-minimiser-un-jet)** | Considérer que le résultat d&#039;un jet est le plus petit possible
@@ -211,6 +213,9 @@ Les continents d&#039;_Atalis_ sont constellés de **guildes** qui parsèment le
 Une guilde est une structure, souvent liée à un lieu physique, regroupant des personnages désirant travailler ensemble. Le plus souvent il s&#039;agit d&#039;initiés car ils sont plus à même de remplir des missions dangereuses et compliquées.
 
 Le but de ce groupe est de vivre des missions qu&#039;il accomplit en rendant service aussi bien à de simples particuliers qu&#039;à de puissants royaumes. Leur motivation étant principalement l&#039;argent et la gloire.
+## <a name="anchor-incanto"></a> Incanto
+
+Organisation mondiale responsable de la monnaie
 ## <a name="anchor-initie"></a> Initié
 
 Les humains ayant absorbé au moins une _charge d&#039;arcanite_ sont appelés **initiés**.  
@@ -223,6 +228,9 @@ L&#039;Instinct représente le potentiel inné d&#039;une _entité_, ce dont ell
 
 Pour un personnage, il s&#039;agit de ses capacités physiques ou mentales.  
  Pour un objet, il s&#039;agit de son efficacité.
+## <a name="anchor-legion"></a> Légion
+
+Organisation garante de l&#039;ordre mondiale
 ## <a name="anchor-maitrise"></a> Maîtrise
 
 La Maîtrise représente le potentiel acquis d&#039;une _entité_, sa capacité à tirer le meilleur de ses compétences naturelles.
