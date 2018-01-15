@@ -77,9 +77,8 @@
                 {% for abilityNeeded in need %}
                     {% if not loop.first %}, {% endif %}
                     {% include 'includes/popovers/rule.html.twig' with {
-                    'display': abilityNeeded.name,
-                    'entity': abilityNeeded,
-                    'createModals': true
+                        'display': abilityNeeded.name,
+                        'entity': abilityNeeded,
                     } %}
                 {% endfor %}
             </div>

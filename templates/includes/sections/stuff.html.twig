@@ -12,9 +12,8 @@
             {# @var property \App\Entity\Rule\StuffProperty #}
             {% if not loop.first %}, {% endif %}
             {% include 'includes/popovers/rule.html.twig' with {
-            'display': property.name,
-            'entity': property,
-            'createModals': true
+                'display': property.name,
+                'entity': property,
             } only %}
         {% endfor %}
     {% endif %}

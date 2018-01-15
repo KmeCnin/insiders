@@ -4,10 +4,9 @@
   {% else %}
     {% set bg = asset('resources/images/popup-default.jpg') %}
   {% endif %}
-  <div class="modal-dialog-wrapper">
     <div class="modal-dialog" role="document">
       <div
-        class="modal-background" 
+        class="modal-background"
         style="background:
             linear-gradient(
             to bottom,
@@ -21,8 +20,8 @@
             rgba(0, 0, 0, 0) 150px,
             rgba(0, 0, 0, 0)
             ),
-            url({{ bg }}) no-repeat; 
-            background-size: cover; 
+            url({{ bg }}) no-repeat;
+            background-size: cover;
             background-position: center;"
       ></div>
       <div class="modal-content">
@@ -39,5 +38,4 @@
         <div class="gradient-bottom"></div>
       </div>
     </div>
-  </div>
 </div>

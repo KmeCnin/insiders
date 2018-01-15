@@ -12,7 +12,7 @@
     </div>
 
     {% for attribute in attributes %}
-        {% include 'includes/sections/attributes.html.twig' with {
+        {% include 'includes/sections/attribute.html.twig' with {
         'title': attribute.name,
         'subtitle': attribute.short,
         'description': attribute.description,
