@@ -15,7 +15,7 @@ $(document).ready(function () {
         // Get the value of the attribute data-target of the clicked element
         let target = $(this).attr('data-target');
         // Use this value in order to select the related content and show it
-        $('#' + target).show();
+        $(target).show();
     });
 
     /*** Sticky Breadcrumbs (https://github.com/garand/sticky) ***/

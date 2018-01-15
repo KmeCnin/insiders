@@ -408,7 +408,7 @@ La force qui corrompt la vie
 
 Le personnage est constamment entouré d&#039;un nuage mortel qui détruit la végétation avoisinante et empêche les autres personnages de se soigner.
 
-Tous les personnages _à distance_ (excepté _les morts-vivants_ et ceux possédant également _Aura morbide_) ne peuvent plus être soignés (même pas par _Transfert de force vitale_).
+Tous les personnages _à distance_ (excepté ceux possédant également _Aura morbide_) ne peuvent plus être soignés (même pas par _Transfert de force vitale_).
 
 ### <a name="anchor-contact-necrotique"></a>Contact nécrotique
 

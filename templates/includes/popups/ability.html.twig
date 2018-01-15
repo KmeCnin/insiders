@@ -9,7 +9,7 @@
       <div class="line"></div>
         {% for increase in rule.increases|reverse %}
           <li
-                  data-target="{{ rule.slug ~ '-' ~ loop.revindex }}"
+                  data-target="#in-modal-{{ rule.slug ~ '-' ~ loop.revindex }}"
                   title="Augmentation {{ loop.revindex|roman }}"
                   data-html="true"
                   class="toggle-popover"
@@ -25,7 +25,7 @@
               {{ loop.revindex|roman|raw }}
           </li>
         {% endfor %}
-      <li data-target="{{ rule.slug }}-0" class="active">
+      <li data-target="#in-modal-{{ rule.slug }}-0" class="active">
         <div class="bullets">
           <div class="bullet-active"></div>
           <div class="bullet-default"></div>
@@ -64,11 +64,11 @@
       <div class="modal-body">
         <div class="description increases-description">
           {% for increase in rule.increases|reverse %}
-            <div id="{{ rule.slug ~ '-' ~ loop.revindex }}" class="increases-increase">
+            <div id="in-modal-{{ rule.slug ~ '-' ~ loop.revindex }}" class="increases-increase">
                 {{ increase.description|augment_in_modal(modalId)|raw }}
             </div>
           {% endfor %}
-          <div id="{{ rule.slug }}-0">{{ rule.description|augment_in_modal(modalId)|raw }}</div>
+          <div id="in-modal-{{ rule.slug }}-0">{{ rule.description|augment_in_modal(modalId)|raw }}</div>
         </div>
       </div>
       <div class="gradient-bottom"></div>

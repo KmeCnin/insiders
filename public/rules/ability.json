@@ -70,7 +70,7 @@
         "public": true,
         "arcane": "death",
         "short": "Dégage une atmosphère malsaine",
-        "description": "<p>Le personnage est constamment entour&eacute; d&#39;un nuage mortel qui d&eacute;truit la v&eacute;g&eacute;tation avoisinante et emp&ecirc;che les autres personnages de se soigner.<\/p>\r\n\r\n<p>Tous les personnages [&agrave; distance](lexicon:range) (except&eacute; [les morts-vivants](ability:necromancy) et ceux poss&eacute;dant &eacute;galement <em>Aura morbide<\/em>) ne peuvent plus &ecirc;tre soign&eacute;s (m&ecirc;me pas par [Transfert de force vitale](ability:vital-force)).<\/p>",
+        "description": "<p>Le personnage est constamment entour&eacute; d&#39;un nuage mortel qui d&eacute;truit la v&eacute;g&eacute;tation avoisinante et emp&ecirc;che les autres personnages de se soigner.<\/p>\r\n\r\n<p>Tous les personnages [&agrave; distance](lexicon:range) (except&eacute; ceux poss&eacute;dant &eacute;galement <em>Aura morbide<\/em>) ne peuvent plus &ecirc;tre soign&eacute;s (m&ecirc;me pas par [Transfert de force vitale](ability:vital-force)).<\/p>",
         "increases": [],
         "abilitiesRequired": []
     },
