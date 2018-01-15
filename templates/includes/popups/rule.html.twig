@@ -18,7 +18,7 @@
             linear-gradient(
             to left,
             rgba(0, 0, 0, 1),
-            rgba(0, 0, 0, 0) 90px,
+            rgba(0, 0, 0, 0) 150px,
             rgba(0, 0, 0, 0)
             ),
             url({{ bg }}) no-repeat; 
@@ -34,7 +34,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>{{ rule.description|augment_in_modal|raw }}</p>
+          <p>{{ rule.description|augment_in_modal(modalId)|raw }}</p>
         </div>
         <div class="gradient-bottom"></div>
       </div>

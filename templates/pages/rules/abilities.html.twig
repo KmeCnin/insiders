@@ -9,7 +9,7 @@
 {% set title = 'Capacités '~arcane.owningStyle %}
 
 {% block breadcrumb %}
-    {{ include('includes/breadcrumbs/abilities.html.twig', [arcanes, arcane]) }}
+    {{ include('includes/breadcrumbs/ability.html.twig', [arcanes, arcane]) }}
 {% endblock %}
 
 {% block container %}
@@ -18,7 +18,7 @@
   </div>
 
   {% for ability in abilities %}
-    {% include 'includes/sections/abilities.html.twig' with {
+    {% include 'includes/sections/ability.html.twig' with {
       'title': ability.name,
       'subtitle': ability.short,
       'description': ability.description,

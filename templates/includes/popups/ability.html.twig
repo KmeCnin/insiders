@@ -1,0 +1,77 @@
+<div id="{{ modalId }}" class="modal">
+  {% if rule.code != 'lexicon' %}
+    {% set bg = asset('resources/images/'~rule.code~'/'~rule.id~'.jpg') %}
+  {% else %}
+    {% set bg = asset('resources/images/popup-default.jpg') %}
+  {% endif %}
+  <div class="modal-dialog increases-wrapper" role="document">
+    <ul class="vertical-breadcrumb">
+      <div class="line"></div>
+        {% for increase in rule.increases|reverse %}
+          <li
+                  data-target="{{ rule.slug ~ '-' ~ loop.revindex }}"
+                  title="Augmentation {{ loop.revindex|roman }}"
+                  data-html="true"
+                  class="toggle-popover"
+                  data-content="{{ increase.short }}"
+                  data-trigger="hover"
+                  data-placement="left"
+                  data-container="#{{ modalId }}"
+          >
+            <div class="bullets">
+              <div class="bullet-active"></div>
+              <div class="bullet-default"></div>
+            </div>
+              {{ loop.revindex|roman|raw }}
+          </li>
+        {% endfor %}
+      <li data-target="{{ rule.slug }}-0" class="active">
+        <div class="bullets">
+          <div class="bullet-active"></div>
+          <div class="bullet-default"></div>
+        </div>
+        <span>0</span>
+      </li>
+    </ul>
+    <div
+      class="modal-background"
+      style="background:
+          linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.85),
+          rgba(0, 0, 0, 0) 300px,
+          rgba(0, 0, 0, 0)
+          ),
+          linear-gradient(
+          to left,
+          rgba(0, 0, 0, 1),
+          rgba(0, 0, 0, 0) 150px,
+          rgba(0, 0, 0, 0)
+          ),
+          url({{ bg }}) no-repeat;
+          background-size: cover;
+          background-position: center;"
+    >
+    </div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">{{ rule.name }}</h1>
+        <span class="modal-subtitle">{{ rule.short|default('') }}</span>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="description increases-description">
+          {% for increase in rule.increases|reverse %}
+            <div id="{{ rule.slug ~ '-' ~ loop.revindex }}" class="increases-increase">
+                {{ increase.description|augment_in_modal(modalId)|raw }}
+            </div>
+          {% endfor %}
+          <div id="{{ rule.slug }}-0">{{ rule.description|augment_in_modal(modalId)|raw }}</div>
+        </div>
+      </div>
+      <div class="gradient-bottom"></div>
+    </div>
+  </div>
+</div>

@@ -48,13 +48,13 @@ class TwigExtension extends \Twig_Extension
     public function augmentFilter(?string $text): ?string
     {
         return $this->container->get(RulesAugmenter::class)
-            ->augment($text, RulesAugmenter::CREATE_MODALS);
+            ->augment($text);
     }
 
-    public function augmentInModalFilter(?string $text): ?string
+    public function augmentInModalFilter(?string $text, string $modal): ?string
     {
         return $this->container->get(RulesAugmenter::class)
-            ->augment($text, RulesAugmenter::DO_NOT_CREATE_MODALS);
+            ->augment($text, $modal);
     }
 
     public function clearFilter(?string $text): ?string
@@ -147,11 +147,12 @@ class TwigExtension extends \Twig_Extension
                         sprintf('includes/popups/%s.html.twig', $code),
                         $params
                     );
+                } else {
+                    $rendered .= $template->render(
+                        'includes/popups/rule.html.twig',
+                        $params
+                    );
                 }
-                $rendered .= $template->render(
-                    'includes/popups/rule.html.twig',
-                    $params
-                );
             }
         }
 

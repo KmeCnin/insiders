@@ -6,6 +6,7 @@
         "public": true,
         "fp": 0.9,
         "short": "Inflige une blessure de degré I.",
+        "description": "",
         "kind": "wound",
         "stuffKinds": [
             "armor",
@@ -20,6 +21,7 @@
         "public": true,
         "fp": 1.8,
         "short": "Inflige une blessure de degré II.",
+        "description": "",
         "kind": "wound",
         "stuffKinds": [
             "weapon"
@@ -32,6 +34,7 @@
         "public": true,
         "fp": 3.6,
         "short": "Inflige une blessure de degré III.",
+        "description": "",
         "kind": "wound",
         "stuffKinds": [
             "weapon"
@@ -44,6 +47,7 @@
         "public": true,
         "fp": 0.9,
         "short": "Peut attaquer à distance.",
+        "description": "",
         "kind": "wound",
         "stuffKinds": [
             "weapon"
@@ -56,6 +60,7 @@
         "public": true,
         "fp": 0.5,
         "short": "Confère une résistance contre les brûlures.",
+        "description": "",
         "kind": "default",
         "stuffKinds": [
             "armor",
@@ -69,6 +74,7 @@
         "public": true,
         "fp": 0.5,
         "short": "Confère une résistance contre les électrocutions.",
+        "description": "",
         "kind": "default",
         "stuffKinds": [
             "armor",
@@ -82,6 +88,7 @@
         "public": true,
         "fp": 0.5,
         "short": "Ne peut pas être désarmé.",
+        "description": "",
         "kind": "default",
         "stuffKinds": [
             "object",
@@ -95,6 +102,7 @@
         "public": true,
         "fp": 3.6,
         "short": "Confère une résistance contre les blessures physiques.",
+        "description": "",
         "kind": "default",
         "stuffKinds": [
             "armor",

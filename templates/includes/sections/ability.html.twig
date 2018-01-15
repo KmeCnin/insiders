@@ -1,4 +1,4 @@
-<section class="block block-section">
+<section class="block block-section increases-wrapper">
     <a class="anchor" id="{{ slug }}"></a>
 
     <div class="block-background"
@@ -59,10 +59,10 @@
     {% endif %}
 
     <div class="block-content">
-        <div class="description">
+        <div class="description increases-description">
             {% if increases is defined %}
                 {% for increase in increases|reverse %}
-                    <div id="{{ slug ~ '-' ~ loop.revindex }}" class="block-content-increase">
+                    <div id="{{ slug ~ '-' ~ loop.revindex }}" class="increases-increase">
                         {{ increase.description|augment|raw }}
                     </div>
                 {% endfor %}

@@ -8,9 +8,6 @@ use Symfony\Component\Templating\EngineInterface;
 
 class RulesAugmenter
 {
-    public const CREATE_MODALS = true;
-    public const DO_NOT_CREATE_MODALS = false;
-
     private $em;
     private $rulesHub;
     private $template;
@@ -25,13 +22,12 @@ class RulesAugmenter
         $this->template = $template;
     }
 
-    public function augment(?string $text, bool $createModals = self::CREATE_MODALS): ?string
-    {
+    public function augment(?string $text, string $modal = null): ?string{
         if (null === $text) {
             return null;
         }
 
-        $replace = function (array $matches) use ($createModals) {
+        $replace = function (array $matches) use ($modal) {
             try {
                 [$code, $id] = explode(':', $matches[3]);
             } catch (\Exception $e) {
@@ -51,7 +47,7 @@ class RulesAugmenter
             $params = [
                 'display' => $matches[2],
                 'entity' => $entity,
-                'createModals' => $createModals,
+                'modal' => $modal,
             ];
 
             if ($this->template->exists(sprintf('includes/popovers/%s.html.twig', $code))) {

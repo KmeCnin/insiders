@@ -5,15 +5,15 @@ $(document).ready(function () {
     /*** Nav toggle in sections ***/
     $('.vertical-breadcrumb > li').click(function () {
         // From clicked element, get its <section>
-        var section = $(this).closest('section');
+        let wrapper = $(this).closest('.increases-wrapper');
         // Un-activate all bullets
-        $(section).find('.vertical-breadcrumb > li').removeClass('active');
+        $(wrapper).find('.vertical-breadcrumb > li').removeClass('active');
         // Active the selected bullet
         $(this).addClass('active');
         // Select each content and hide it
-        $(section).find('.block-content > .description > div').hide();
+        $(wrapper).find('.increases-description > div').hide();
         // Get the value of the attribute data-target of the clicked element
-        var target = $(this).attr('data-target');
+        let target = $(this).attr('data-target');
         // Use this value in order to select the related content and show it
         $('#' + target).show();
     });
