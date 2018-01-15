@@ -355,7 +355,7 @@ hr {
 
 .header-content-wrapper {
   position: absolute;
-  max-width: 1100px;
+  width: 100%;
   top: 60%;
   right: 10%;
   display: flex;
@@ -717,8 +717,9 @@ hr {
   height: 740px;
   background-position-y: 5px; }
   .header-home .header-content-wrapper {
-    position: relative;
-    top: 170px;
+    position: absolute;
+    top: 320px;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
