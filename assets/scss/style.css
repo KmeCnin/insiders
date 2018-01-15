@@ -305,7 +305,7 @@ h2 {
 a {
   text-decoration: none; }
 
-a.toggle-link {
+a.toggle-link:hover {
   text-decoration: underline; }
 
 strong {
