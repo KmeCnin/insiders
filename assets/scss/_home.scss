@@ -95,10 +95,10 @@
 
     .border {
       position: absolute;
-      top: 15px;
-      right: 15px;
-      bottom: 15px;
-      left: 15px;
+      top: 7px;
+      right: 7px;
+      bottom: 7px;
+      left: 7px;
 
       border: 1px solid $secondary-color;
       will-change: opacity;
@@ -107,9 +107,9 @@
     .content {
       height: 80px;
       position: absolute;
-      right: 16px;
-      bottom: 16px;
-      left: 16px;
+      right: 8px;
+      bottom: 8px;
+      left: 8px;
       border-top: 1px solid #FECB5B;
       text-align: center;
       background: rgba(0, 0, 0, 0.7);
