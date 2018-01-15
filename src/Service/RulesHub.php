@@ -14,6 +14,7 @@ use App\Entity\Rule\Deity;
 use App\Entity\Rule\LexiconEntry;
 use App\Entity\Rule\Page;
 use App\Entity\Rule\Skill;
+use App\Entity\Rule\StuffProperty;
 use Psr\Log\InvalidArgumentException;
 use Symfony\Component\Routing\RouterInterface;
 
@@ -49,6 +50,8 @@ class RulesHub
                 return Page::class;
             case Skill::CODE:
                 return Skill::class;
+            case StuffProperty::CODE:
+                return StuffProperty::class;
             default:
                 throw new InvalidArgumentException(sprintf(
                     'Unhandled entity code %s',
@@ -71,6 +74,11 @@ class RulesHub
                 return $this->router->generate('rules.attributes').'#'.$rule->getSlug();
             case $rule instanceof Burst:
                 return $this->router->generate('rules.bursts').'#'.$rule->getSlug();
+            case $rule instanceof CanonicalStuff:
+                return $this->router->generate(
+                        'rules.stuff',
+                        ['slug' => $rule->getStuff()->getKind()->getSlug()]
+                    ).'#'.$rule->getSlug();
             case $rule instanceof Characteristic:
                 return $this->router->generate('rules.characteristics').'#'.$rule->getSlug();
             case $rule instanceof Deity:
@@ -81,11 +89,8 @@ class RulesHub
                 return $this->router->generate('page').'#'.$rule->getSlug();
             case $rule instanceof Skill:
                 return $this->router->generate('rules.skills').'#'.$rule->getSlug();
-            case $rule instanceof CanonicalStuff:
-                return $this->router->generate(
-                        'rules.stuff',
-                        ['slug' => $rule->getStuff()->getKind()->getSlug()]
-                    ).'#'.$rule->getSlug();
+            case $rule instanceof StuffProperty:
+                return $this->router->generate('rules.stuff_property').'#'.$rule->getSlug();
             default:
                 throw new \InvalidArgumentException(sprintf('Unhandled rule %s', \get_class($rule)));
         }

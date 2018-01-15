@@ -184,6 +184,14 @@
         "description": "<p>Les continents d&#39;[Atalis](lexicon:atalis) sont constell&eacute;s de <strong>guildes<\/strong> qui pars&egrave;ment leur territoire.<\/p>\r\n\r\n<p>Une guilde est une structure, souvent li&eacute;e &agrave; un lieu physique, regroupant des personnages d&eacute;sirant travailler ensemble. Le plus souvent il s&#39;agit d&#39;initi&eacute;s car ils sont plus &agrave; m&ecirc;me de remplir des missions dangereuses et compliqu&eacute;es.<\/p>\r\n\r\n<p>Le but de ce groupe est de vivre des missions qu&#39;il accomplit en rendant service aussi bien &agrave; de simples particuliers qu&#39;&agrave; de puissants&nbsp;royaumes. Leur motivation &eacute;tant principalement l&#39;argent et la gloire.<\/p>"
     },
     {
+        "id": "incanto",
+        "name": "Incanto",
+        "enabled": true,
+        "public": true,
+        "short": "Organisation mondiale responsable de la monnaie",
+        "description": "<p>Organisation mondiale responsable de la monnaie<\/p>"
+    },
+    {
         "id": "insider",
         "name": "Initié",
         "enabled": true,
@@ -198,6 +206,14 @@
         "public": true,
         "short": "Capacité physique ou mentale de l'entité par rapport à son potentiel inné",
         "description": "<p>L&#39;Instinct repr&eacute;sente le potentiel inn&eacute; d&#39;une [entit&eacute;](lexicon:entity), ce dont elle est naturellement capable.<\/p>\r\n\r\n<p>Pour un personnage, il&nbsp;s&#39;agit&nbsp;de ses capacit&eacute;s physiques ou mentales.<br \/>\r\nPour un objet, il s&#39;agit de son efficacit&eacute;.<\/p>"
+    },
+    {
+        "id": "legion",
+        "name": "Légion",
+        "enabled": true,
+        "public": true,
+        "short": "Organisation garante de l'ordre mondiale",
+        "description": "<p>Organisation garante de l&#39;ordre mondiale<\/p>"
     },
     {
         "id": "proficiency",

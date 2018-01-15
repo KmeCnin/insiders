@@ -17,16 +17,18 @@
   </div>
 
   {% for entry in map %}
-      {# @var category \App\Entity\Rule\StuffCategory #}
-      {% set category = entry['category'] %}
+    {# @var category \App\Entity\Rule\StuffCategory #}
+    {% set category = entry['category'] %}
 
-    <div class="block-title">
-      <div>
-        <img src="{{ asset('resources/images/stuff_category/icons/'~category.id~'.svg') }}" alt="{{ category.name }}">
-        <h1>{{ category.name }}</h1>
+    <a href="{{ path('rules.stuff', {'slug': category.slug}) }}">
+      <div class="block-title">
+        <div>
+          <img src="{{ asset('resources/images/stuff_category/icons/'~category.id~'.svg') }}" alt="{{ category.name }}">
+          <h1>{{ category.name }}</h1>
+        </div>
+        <span>{{ category.short }}</span>
       </div>
-      <span>{{ category.short }}</span>
-    </div>
+    </a>
 
     <div class="block-group">
       {% set stuffList = entry['stuff'] %}

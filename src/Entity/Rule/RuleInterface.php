@@ -4,7 +4,7 @@ namespace App\Entity\Rule;
 
 interface RuleInterface
 {
-    public const CODE = '';
+    public const CODE = 'lexicon';
 
     public function getId(): ?string;
 
