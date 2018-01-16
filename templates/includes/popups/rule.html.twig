@@ -1,5 +1,5 @@
 <div id="{{ modalId }}" class="modal">
-  {% if rule.code != 'lexicon' %}
+  {% if rule.code not in ['lexicon', 'skill'] %}
     {% set bg = asset('resources/images/'~rule.code~'/'~rule.id~'.jpg') %}
   {% else %}
     {% set bg = asset('resources/images/popup-default.jpg') %}

@@ -220,131 +220,70 @@
 ======================== */
 .block-category-wrapper {    
   margin: 40px 0 80px 0;
+  display: flex;
+  flex-wrap: wrap;
 
   @media #{$responsive-phone} {
     margin: 0;
     padding: 15px;
   }
 
-  .blocks-category {
+  .block-category {
+    position: relative;
+    width: 25%;
+    height: 250px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+    background: rgb(0,0,0);
+    color: $primary-color;
+
+    @media #{$responsive-pad} {
+      width: 33.33%;
+      height: 210px;
+    }
 
     @media #{$responsive-phone} {
-      flex-wrap: wrap;
+      width: 50%;
+      height: 190px;
     }
 
-    .blocks-items {
-      width: 25%;
-      height: 250px;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      cursor: pointer;
+    .content {
+      z-index: 2000;
 
-      background: rgb(0,0,0);
-      color: $primary-color;
-
-      @media #{$responsive-phone} {
-        min-width: 50%;
-        height: 190px;
+      img {
+        width: auto;
+        height: 30px;
       }
 
-      .content {
-        z-index: 2000;
+      h3 {
+        font-family: $font-family-primary;
+      }
 
-        img {
-          width: auto;
-          height: 30px;
-        }
-  
-        h3 {
-          font-family: $font-family-primary;
-        }
-  
-        p {
-          font-weight: 300;
-        }
+      p {
+        font-weight: 300;
       }
     }
 
-    .blocks-items:hover .category-bg1,
-    .blocks-items:hover .category-bg2,
-    .blocks-items:hover .category-bg3,
-    .blocks-items:hover .category-bg4,
-    .blocks-items:hover .category-bg5,
-    .blocks-items:hover .category-bg6,
-    .blocks-items:hover .category-bg7,
-    .blocks-items:hover .category-bg8 {
-      opacity: 0.8;
-    }
-
-    .category-bg1,
-    .category-bg2,
-    .category-bg3,
-    .category-bg4,
-    .category-bg5,
-    .category-bg6,
-    .category-bg7,
-    .category-bg8 {
+    .category-bg {
       position: absolute;
       width: 100%;
       height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
 
       opacity: 0.5;
       transition: opacity 0.5s;
     }
+  }
 
-    .category-bg1 {
-      background: url(../../public/resources/images/bg-header-arcanes.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .category-bg2 {
-      background: url(../../public/resources/images/bg-header-deities.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .category-bg3 {
-      background: url(../../public/resources/images/bg-header-attributes.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .category-bg4 {
-      background: url(../../public/resources/images/bg-header-abilities.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .category-bg5 {
-      background: url(../../public/resources/images/bg-header-characteristics.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .category-bg6 {
-      background: url(../../public/resources/images/bg-header-skills.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .category-bg7 {
-      background: url(../../public/resources/images/bg-header-bursts.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .category-bg8 {
-      background: url(../../public/resources/images/bg-header-stuff.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
+  .block-category:hover .category-bg {
+    opacity: 0.8;
   }
 }
 

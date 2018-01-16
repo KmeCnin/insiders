@@ -65,74 +65,19 @@
 
   <section>
     <div class="block-category-wrapper">
-      <div class="blocks-category">
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg1"></div>
-        </div>
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg2"></div>
-        </div>
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg3"></div>
-        </div>
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg4"></div>
+      {% for category in categories %}
+      <div class="block-category" onClick="window.location.href='{{ path(category.route) }}'">
+        <div
+          class="category-bg"
+          style="background-image: url({{ asset('resources/images/bg-header-'~category.id~'.jpg') }})"
+        ></div>
+        <div class="content">
+          <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
+          <h3>{{ category.name }}</h3>
+          <p>{{ category.short }}</p>
         </div>
       </div>
-      <div class="blocks-category">
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg5"></div>
-        </div>
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg6"></div>
-        </div>
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg7"></div>
-        </div>
-        <div class="blocks-items">
-          <div class="content">
-            <img src="{{ asset('resources/images/arcane/icons/arcane.svg') }}" alt="">
-            <h3>Arcanes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="category-bg8"></div>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </section>
 

@@ -1,0 +1,20 @@
+{% extends 'includes/sections/default.html.twig' %}
+
+{% block more %}
+    <hr>
+    <div class="need">
+        <label>Arcane :</label>
+        {% include 'includes/popovers/rule.html.twig' with {
+        'display': rule.arcane.name,
+        'entity': rule.arcane,
+        } %}
+        {% if rule.champion is not null %}
+            <br />
+            <label>Champion :</label>
+            {% include 'includes/popovers/rule.html.twig' with {
+            'display': rule.champion.name,
+            'entity': rule.champion,
+            } %}
+        {% endif %}
+    </div>
+{% endblock %}

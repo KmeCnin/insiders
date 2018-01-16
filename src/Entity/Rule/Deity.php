@@ -47,6 +47,11 @@ class Deity extends AbstractRule
         return $this;
     }
 
+    public function getShort(): ?string
+    {
+        return $this->getDignity();
+    }
+
     public function getArcane(): ?Arcane
     {
         return $this->arcane;

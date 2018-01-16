@@ -52,6 +52,11 @@ class Champion extends AbstractRule
         return $this;
     }
 
+    public function getShort(): ?string
+    {
+        return $this->getDignity();
+    }
+
     public function normalize(): array
     {
         return array_merge(parent::normalize(), [

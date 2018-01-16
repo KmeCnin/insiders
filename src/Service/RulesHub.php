@@ -9,6 +9,7 @@ use App\Entity\Rule\Arcane;
 use App\Entity\Rule\Attribute;
 use App\Entity\Rule\Burst;
 use App\Entity\Rule\CanonicalStuff;
+use App\Entity\Rule\Champion;
 use App\Entity\Rule\Characteristic;
 use App\Entity\Rule\Deity;
 use App\Entity\Rule\LexiconEntry;
@@ -40,6 +41,8 @@ class RulesHub
                 return Burst::class;
             case CanonicalStuff::CODE:
                 return CanonicalStuff::class;
+            case Champion::CODE:
+                return Champion::class;
             case Characteristic::CODE:
                 return Characteristic::class;
             case Deity::CODE:
@@ -74,6 +77,8 @@ class RulesHub
                 return $this->router->generate('rules.attributes').'#'.$rule->getSlug();
             case $rule instanceof Burst:
                 return $this->router->generate('rules.bursts').'#'.$rule->getSlug();
+            case $rule instanceof Champion:
+                return $this->router->generate('rules.champions').'#'.$rule->getSlug();
             case $rule instanceof CanonicalStuff:
                 return $this->router->generate(
                         'rules.stuff',

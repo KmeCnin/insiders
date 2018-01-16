@@ -1,0 +1,15 @@
+{% extends 'includes/sections/default.html.twig' %}
+
+{% block more %}
+    <hr>
+    <div class="need">
+        <label>Compétences :</label>
+        {% for skill in rule.skills %}
+            {% if not loop.first %}, {% endif %}
+            {% include 'includes/popovers/rule.html.twig' with {
+                'display': skill.name,
+                'entity': skill,
+            } %}
+        {% endfor %}
+    </div>
+{% endblock %}
