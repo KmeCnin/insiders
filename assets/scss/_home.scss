@@ -178,6 +178,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      cursor: pointer;
 
       background: rgb(0,0,0);
       color: $primary-color;
@@ -200,6 +201,17 @@
       }
     }
 
+    .blocks-items:hover .category-bg1,
+    .blocks-items:hover .category-bg2,
+    .blocks-items:hover .category-bg3,
+    .blocks-items:hover .category-bg4,
+    .blocks-items:hover .category-bg5,
+    .blocks-items:hover .category-bg6,
+    .blocks-items:hover .category-bg7,
+    .blocks-items:hover .category-bg8 {
+      opacity: 0.8;
+    }
+
     .category-bg1,
     .category-bg2,
     .category-bg3,
@@ -213,6 +225,7 @@
       height: 100%;
 
       opacity: 0.5;
+      transition: opacity 0.5s;
     }
 
     .category-bg1 {
