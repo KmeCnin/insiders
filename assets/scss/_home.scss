@@ -78,10 +78,6 @@
   background-size: cover;
 }
 
-
-
-
-
 .block-presentation-wrapper {
   display: flex;
   justify-content: space-between;
@@ -163,6 +159,113 @@
     background-size: cover;
   }
 }
+
+/* ========================
+===== Blocks category =====
+======================== */
+.block-category-wrapper {    
+  margin: 40px 0 80px 0;
+
+  .blocks-category {
+    display: flex;
+
+    .blocks-items {
+      width: 25%;
+      height: 250px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      background: rgb(0,0,0);
+      color: $primary-color;
+
+      .content {
+        z-index: 2000;
+
+        img {
+          width: auto;
+          height: 30px;
+        }
+  
+        h3 {
+          font-family: $font-family-primary;
+        }
+  
+        p {
+          font-weight: 300;
+        }
+      }
+    }
+
+    .category-bg1,
+    .category-bg2,
+    .category-bg3,
+    .category-bg4,
+    .category-bg5,
+    .category-bg6,
+    .category-bg7,
+    .category-bg8 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      opacity: 0.5;
+    }
+
+    .category-bg1 {
+      background: url(../../public/resources/images/bg-header-arcanes.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .category-bg2 {
+      background: url(../../public/resources/images/bg-header-deities.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .category-bg3 {
+      background: url(../../public/resources/images/bg-header-attributes.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .category-bg4 {
+      background: url(../../public/resources/images/bg-header-abilities.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .category-bg5 {
+      background: url(../../public/resources/images/bg-header-characteristics.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .category-bg6 {
+      background: url(../../public/resources/images/bg-header-skills.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .category-bg7 {
+      background: url(../../public/resources/images/bg-header-bursts.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .category-bg8 {
+      background: url(../../public/resources/images/bg-header-stuff.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
 
 /* ========================
 ======= Blocks user =======
