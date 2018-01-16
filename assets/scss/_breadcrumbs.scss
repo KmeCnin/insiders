@@ -5,6 +5,10 @@
   position: relative;
   z-index: 25;
 
+  @media #{$responsive-phone} {
+    display: none;
+  }
+
   .is-sticky {
     .breadcrumb .breadcrumb-items img {
       display: none;
