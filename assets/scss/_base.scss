@@ -97,7 +97,7 @@ hr {
   margin: auto;
 
   @media #{$responsive-phone} {
-    height: 498px;
+    height: 220px;
   }
 }
 
@@ -110,9 +110,16 @@ hr {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+  text-align: right;
+
+  @media #{$responsive-phone} {
+    width: 92%;
+    top: 40%;
+    right: 15px;
+  }
 
   img {
-    width: 400px;
+    right: 10%;
   }
 
   h1 {
@@ -123,7 +130,8 @@ hr {
     color: $secondary-color;
 
     @media #{$responsive-phone} {
-      font-size: 3em;
+      font-size: 2em;
+      line-height: 1em;
     }
   }
 
@@ -137,8 +145,8 @@ hr {
     top: 14px;
 
     @media #{$responsive-phone} {
-      top: 9px;
-      font-size: 2em;
+      top: 2px;
+      font-size: 1.6em;
     }
   }
 }
@@ -161,6 +169,10 @@ hr {
 .main-default {
   background: url(../../public/resources/images/default.jpg) no-repeat fixed;
   background-size: cover;
+
+  @media #{$responsive-phone} {
+    background: none;
+  }
 }
 
 .main-rules {
@@ -171,6 +183,10 @@ hr {
 .main-universe {
   background: url(../../public/resources/images/universe.jpg) no-repeat fixed;
   background-size: cover;
+
+  @media #{$responsive-phone} {
+    background: none;
+  }
 }
 
 .main-tools {
@@ -203,6 +219,10 @@ hr {
 
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   background-color: black;
+
+  @media #{$responsive-phone} {
+    margin: auto auto 0 auto;
+  }
 }
 
 .block-background {
@@ -217,6 +237,7 @@ hr {
 
   @media #{$responsive-phone} {
     width: 100%;
+    height: 380px;
   }
 }
 
@@ -304,7 +325,7 @@ hr {
       text-shadow: 0 0 16px black;
 
       @media #{$responsive-phone} {
-        font-size: 1.6em;
+        font-size: 1.4em;
       }
     }
   }
@@ -313,6 +334,10 @@ hr {
     font-family: $font-family-secondary;
     font-size: 1.1em;
     color: $secondary-color;
+
+    @media #{$responsive-phone} {
+      font-size: 0.9em;
+    }
   }
 }
 
@@ -327,6 +352,11 @@ hr {
   min-height: 145px;
 
   background: rgba(0, 0, 0, 0.5);
+
+  @media #{$responsive-phone} {
+    margin-top: 135px;
+    padding: 5px 15px;
+  }
 
   div {
     text-align: justify;
@@ -361,7 +391,7 @@ hr {
   @media #{$responsive-phone} {
     width: 100%;
     margin: 0;
-    padding: 15px;
+    padding: 0px 15px;
     box-sizing: border-box;
   }
 }
