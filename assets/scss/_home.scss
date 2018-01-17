@@ -21,6 +21,7 @@
     align-items: center;
 
     @media #{$responsive-phone} {
+      width: 100%;
       top: 220px;
     }
 
@@ -52,6 +53,7 @@
       color: #F0E6D2;
 
       @media #{$responsive-phone} {
+        top: 17px;
         font-size: 2em;
       }
     }
@@ -225,7 +227,7 @@
 
   @media #{$responsive-phone} {
     margin: 0;
-    padding: 15px;
+    padding: 15px 0;
   }
 
   .block-category {
@@ -242,18 +244,18 @@
     background: rgb(0,0,0);
     color: $primary-color;
 
-    @media #{$responsive-pad} {
-      width: 33.33%;
-      height: 210px;
-    }
-
     @media #{$responsive-phone} {
       width: 50%;
       height: 190px;
     }
 
     .content {
-      z-index: 2000;
+      max-width: 200px;
+      z-index: 500;
+
+      @media #{$responsive-phone} {
+        max-width: 160px;
+      }
 
       img {
         width: auto;
@@ -262,6 +264,10 @@
 
       h3 {
         font-family: $font-family-primary;
+
+        @media #{$responsive-phone} {
+          margin: 5px auto;
+        }
       }
 
       p {
