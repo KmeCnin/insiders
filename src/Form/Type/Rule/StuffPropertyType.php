@@ -7,6 +7,7 @@ use App\Entity\Rule\StuffProperty;
 use App\Entity\Rule\StuffPropertyKind;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\NumberType;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -27,6 +28,9 @@ class StuffPropertyType extends AbstractRuleType
         $builder
             ->add('fp', NumberType::class)
             ->add('short', TextType::class, [
+                'empty_data' => '',
+            ])
+            ->add('description', TextareaType::class, [
                 'empty_data' => '',
             ])
             ->add('kind', EntityType::class, [
