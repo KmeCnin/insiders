@@ -5,7 +5,7 @@
         "enabled": true,
         "public": true,
         "short": "Intelligence et lucidité",
-        "description": "<p>La caract&eacute;ristique <strong>D&eacute;voiler<\/strong> d&#39;un personnage repr&eacute;sente son intelligence et sa lucidit&eacute;. Elle d&eacute;termine la capacit&eacute; du personnage &agrave; conna&icirc;tre, &agrave; percevoir, &agrave; d&eacute;celer une supercherie, etc.<\/p>"
+        "description": "<p>La caract&eacute;ristique <strong>D&eacute;voiler<\/strong> d&#39;un personnage repr&eacute;sente son intelligence et sa lucidit&eacute;.<br \/>\r\nElle d&eacute;termine la capacit&eacute; du personnage &agrave; conna&icirc;tre, &agrave; percevoir, &agrave; d&eacute;celer une supercherie, &agrave; comprendre, &agrave; m&eacute;moriser, etc.<\/p>\r\n\r\n<p>Le score d&#39;[Instinct](lexicon:instinct) en D&eacute;voiler d&#39;un individu varie la plupart du temps entre 1, pour un esprit simple et&nbsp;3 pour un sur-dou&eacute; ou une sentinelle aux sens aiguis&eacute;s.<br \/>\r\nQuelques rares prodiges&nbsp;peuvent poss&eacute;der jusqu&#39;&agrave; un score de 4 dans cette caract&eacute;ristique, mais ceux allant au del&agrave;, sont s&ucirc;rement des [initi&eacute;s](lexicon:insider) ayant utilis&eacute; l&#39;[arcanite](lexicon:arcanite) pour d&eacute;cupler leur capacit&eacute; de raisonnement.<\/p>"
     },
     {
         "id": "hide",
@@ -13,7 +13,7 @@
         "enabled": true,
         "public": true,
         "short": "Ruse et charisme",
-        "description": "<p>La caract&eacute;ristique <strong>Dissimuler<\/strong> d&#39;un personnage repr&eacute;sente sa ruse et son charisme. Elle d&eacute;termine la capacit&eacute; du personnage &agrave; &ecirc;tre discret, &agrave; mentir, &agrave; manipuler autrui, etc.<\/p>"
+        "description": "<p>La caract&eacute;ristique <strong>Dissimuler<\/strong> d&#39;un personnage repr&eacute;sente sa ruse et son charisme.<br \/>\r\nElle d&eacute;termine la capacit&eacute; du personnage &agrave; &ecirc;tre discret, &agrave; mentir, &agrave; manipuler autrui, &agrave; voler sans &ecirc;tre vu, etc.<\/p>\r\n\r\n<p>Le score d&#39;[Instinct](lexicon:instinct) en Dissimuler d&#39;un individu varie la plupart du temps entre 1, pour une personnage aux m&oelig;urs&nbsp;simples et&nbsp;3 pour un strat&egrave;ge ou une personnalit&eacute;&nbsp;publique.<br \/>\r\nQuelques rares leaders charismatiques&nbsp;peuvent poss&eacute;der jusqu&#39;&agrave; un score de 4 dans cette caract&eacute;ristique, mais ceux allant au del&agrave;, sont surement des [initi&eacute;s](lexicon:insider) ayant utilis&eacute; l&#39;[arcanite](lexicon:arcanite) pour d&eacute;cupler leur capacit&eacute; de manipulation.<\/p>"
     },
     {
         "id": "force",
@@ -21,7 +21,7 @@
         "enabled": true,
         "public": true,
         "short": "Force et habileté",
-        "description": "<p>La caract&eacute;ristique <strong>Imposer<\/strong> d&#39;un personnage repr&eacute;sente sa force et son habilet&eacute; physique. Elle d&eacute;termine la capacit&eacute; du personnage &agrave; agresser un autre personnage, &agrave; &eacute;voluer dans son environnement, &agrave; viser, etc.<\/p>"
+        "description": "<p>La caract&eacute;ristique <strong>Imposer<\/strong> d&#39;un personnage repr&eacute;sente sa force et son habilet&eacute; physique.<br \/>\r\nElle d&eacute;termine la capacit&eacute; du personnage &agrave; [blesser](lexicon:wound) ou ma&icirc;triser un autre personnage, &agrave; &eacute;voluer dans son environnement, &agrave; viser, &agrave; r&eacute;agir vite, etc.<\/p>\r\n\r\n<p>Le score d&#39;[Instinct](lexicon:instinct) en Imposer d&#39;un individu varie la plupart du temps entre 1, pour une personne sans activit&eacute; physique r&eacute;guli&egrave;re et&nbsp;3 pour un soldat entra&icirc;n&eacute; ou un sportif de haut niveau.<br \/>\r\nQuelques rares individus particuli&egrave;rement imposants et entra&icirc;n&eacute;s peuvent poss&eacute;der jusqu&#39;&agrave; un score de 4 dans cette caract&eacute;ristique, mais ceux allant au del&agrave;, sont surement des [initi&eacute;s](lexicon:insider) ayant utilis&eacute; l&#39;[arcanite](lexicon:arcanite) pour d&eacute;cupler leur force.<\/p>"
     },
     {
         "id": "resist",
@@ -29,6 +29,6 @@
         "enabled": true,
         "public": true,
         "short": "Vigueur et réflexes",
-        "description": "<p>La caract&eacute;ristique <strong>R&eacute;sister<\/strong> d&#39;un personnage repr&eacute;sente sa forme physique et ses r&eacute;flexes. Elle d&eacute;termine la capacit&eacute; du personnage &agrave; se prot&eacute;ger, &agrave; &eacute;viter, &agrave; &ecirc;tre endurant, etc.<\/p>"
+        "description": "<p>La caract&eacute;ristique <strong>R&eacute;sister<\/strong> d&#39;un personnage repr&eacute;sente sa forme physique et ses r&eacute;flexes.<br \/>\r\nElle d&eacute;termine la capacit&eacute; du personnage &agrave; se prot&eacute;ger, &agrave; &eacute;viter, &agrave; &ecirc;tre endurant, &agrave; supporter la douleur, etc.<\/p>\r\n\r\n<p>Le score d&#39;[Instinct](lexicon:instinct) en R&eacute;sister d&#39;un individu varie la plupart du temps entre 1, pour une personne &agrave; la constitution fragile&nbsp;et&nbsp;3 pour un expert en self-d&eacute;fense ou un marathonien confirm&eacute;.<br \/>\r\nQuelques rares forces de la nature&nbsp;peuvent poss&eacute;der jusqu&#39;&agrave; un score de 4 dans cette caract&eacute;ristique, mais ceux allant au del&agrave;, sont surement des [initi&eacute;s](lexicon:insider) ayant utilis&eacute; l&#39;[arcanite](lexicon:arcanite) pour d&eacute;cupler leur r&eacute;sistance.<\/p>"
     }
 ]

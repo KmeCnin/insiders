@@ -527,11 +527,11 @@
         "public": true,
         "arcane": "web",
         "short": "Peut se rendre instantanément dans un lieu déjà visité",
-        "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, mais pas d&#39;autres &ecirc;tres vivants.<\/p>",
+        "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu pr&eacute;cis qu&#39;il a d&eacute;j&agrave; visit&eacute;&nbsp;auparavant.<\/p>\r\n\r\n<p>A tout moment, il peut d&eacute;finir l&#39;endroit o&ugrave; il se trouve comme <em>point d&#39;ancrage<\/em>. Une fois un point d&#39;ancrage d&eacute;finit, le personnage peut se d&eacute;placer en un [tour](lexicon:round) vers le lieu choisit quelque soit sont &eacute;loignement. Il peut red&eacute;finir un nouveau point d&#39;ancrage en passant un tour &agrave; se concentrer.<br \/>\r\nIl ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, mais pas d&#39;autres &ecirc;tres vivants.<\/p>",
         "increases": [
             {
                 "short": "Peut emporter des êtres vivants avec lui",
-                "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, y&nbsp;compris des personnages ou animaux.<\/p>"
+                "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu pr&eacute;cis qu&#39;il a d&eacute;j&agrave; visit&eacute;&nbsp;auparavant.<\/p>\r\n\r\n<p>A tout moment, il peut d&eacute;finir l&#39;endroit o&ugrave; il se trouve comme <em>point d&#39;ancrage<\/em>. Une fois un point d&#39;ancrage d&eacute;finit, le personnage peut se d&eacute;placer en un [tour](lexicon:round) vers le lieu choisit quelque soit sont &eacute;loignement. Il peut red&eacute;finir un nouveau point d&#39;ancrage en passant un tour &agrave; se concentrer.<br \/>\r\nIl ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, y&nbsp;compris d&#39;autres personnages ou animaux.<\/p>"
             }
         ],
         "abilitiesRequired": [

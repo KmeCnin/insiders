@@ -9,6 +9,8 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class StuffCategory extends AbstractRule
 {
+    public const CODE = 'stuff_category';
+
     use ShortTrait;
     use DescriptionTrait;
 

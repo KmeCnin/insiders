@@ -11,6 +11,12 @@
 
 Les personnages (et plus rarement les animaux) peuvent porter sur eux des **équipements** les aidant à combattre (armes, armures, boucliers, etc.) ou à accomplir aisément des tâches spécifiques (capes, cordes, longues-vues, etc.). Certains équipements à usage unique ne confèrent un bonus que lors d&#039;une seule utilisation, on les appelle _consommables_.
 
+Tous les équipements possèdent un _prix_ en _carats_ définissant leur coût d&#039;acquisition et de revente moyen chez un marchant mais il peut varier d&#039;un commerçant à un autre.
+
+Les équipements possèdent également une valeur définissant leur efficacité appelée _allonge_ pour les **armes de corps à corps**, _précision_ pour les **armes à distance**, _protection_ pour les **armures** et **boucliers** et _qualité_ pour lesautres **objets**. Mais dans tous les cas cette valeur représente le bonus conféré par cette équipement au jet de _compétence_ associé. Par exemple une arme avec une allonge de 2, confère un bonus de 2 dés supplémentaires au score d&#039;_Instinct_ en _Imposer_ lorsque le personnage _attaque_ avec.
+
+Certains types d&#039;objets ont des propriétés particulières leur permettant, en plus de conférer un bonus à une compétence, d&#039;infliger des _blessures_, de résister à certains coups, etc.
+
 ## Armes
 
 |Genre|Allonge|Propriété|Prix|
@@ -39,11 +45,14 @@ Armure de cuir|1| |9000
 |Genre|Efficacité|Propriété|Prix|
 |---|---:|---|---:|
 Cape de camouflage|3| |27000
+Longue vue|2| |18000
+Trousse médicale|2| |18000
+Crochet de serrurerie|3| |27000
 
 ## Consommables
 
 |Genre|Efficacité|Propriété|Prix|
 |---|---:|---|---:|
-Bandages|2| |360
+Bandages|1| |180
 Onguent|1| |180
 

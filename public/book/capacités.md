@@ -661,9 +661,10 @@ Grâce à un jet de _Dévoiler_, il peut localiser un objet ou un être vivant a
 **Nécessite:**
 [Localisation](#anchor-localisation)
 
-Le personnage peut se déplacer instantanément dans un lieu où il a déjà été auparavant.
+Le personnage peut se déplacer instantanément dans un lieu précis qu&#039;il a déjà visité auparavant.
 
-Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter, mais pas d&#039;autres êtres vivants.
+A tout moment, il peut définir l&#039;endroit où il se trouve comme _point d&#039;ancrage_. Une fois un point d&#039;ancrage définit, le personnage peut se déplacer en un _tour_ vers le lieu choisit quelque soit sont éloignement. Il peut redéfinir un nouveau point d&#039;ancrage en passant un tour à se concentrer.  
+ Il ne peut emporter avec lui qu’un poids ne dépassant pas ce qu’il aurait été capable de porter, mais pas d&#039;autres êtres vivants.
 
 **Augmentations:**
 - Peut emporter des êtres vivants avec lui
