@@ -10,6 +10,7 @@
 {% block container %}
   <div class="block block-intro">
     <p>{{ description|augment|raw }}</p>
+    <p>{{ skillDescription|augment|raw }}</p>
   </div>
 
   {% for characteristic in characteristics %}

@@ -157,7 +157,7 @@ class CanonicalStuff extends AbstractRule
                 return 'allonge';
             case StuffKind::KIND_ARMOR:
             case StuffKind::KIND_SHIELD:
-                return 'défense';
+                return 'protection';
             default:
                 return 'qualité';
         }

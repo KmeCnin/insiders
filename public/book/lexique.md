@@ -21,7 +21,7 @@ Notion | Résumé
 **[Caractéristique](#anchor-caracteristique)** | Capacité d&#039;une entité à s&#039;opposer à une autre
 **[Carats](#anchor-carats)** | Carats
 **[Charge d&#039;arcanite](#anchor-charge-d-arcanite)** | Unité d&#039;énergie stockée dans un cristal d&#039;arcanite pouvant être absorbé
-**[Compétence](#anchor-competence)** | Compétence
+**[Compétence](#anchor-competence)** | Cas particulier d&#039;usage d&#039;une caractéristique
 **[Contact](#anchor-contact)** | Distance réduite propice aux attaques de mêlée
 **[Décharge d&#039;arcanite](#anchor-decharge-d-arcanite)** | Effet spectaculaire déclenché par la libération d&#039;une charge de cristal d&#039;arcanite
 **[Distance](#anchor-distance)** | Portée à laquelle un personnage est capable d&#039;intéragir
@@ -92,7 +92,7 @@ Les **attributs physiques** représentent des compétences particulières innée
 Une **blessure** est une entité liée à un personnage. Elle représente un handicap suite à un coup reçu, un effet arcanique, de la fatigue, l&#039;effet d&#039;un poison, etc.
 
 Il existe 3 degrés de blessure qui déterminent chacun les scores de _caractéristiques_ de celle-ci.  
- Les **blessures de degré I** possèdent un score d&#039;_Instinct_ de 1 à chaque caractéristique. Il s&#039;agit de blessures superficielles qui gênent les actions du personnage sans pour autant le mettre à danger direct à moins qu&#039;elles soient infligées en nombre.  
+ Les **blessures de degré I** possèdent un score d&#039;_Instinct_ de 1 à chaque caractéristique. Il s&#039;agit de blessures superficielles qui gênent les actions du personnage sans pour autant le mettre en danger direct à moins qu&#039;elles soient infligées en nombre.  
  Les **blessures de degré II** possèdent un score d&#039;Instinct de 2 à chaque caractéristique. Il s&#039;agit de blessures sérieuses qui handicapent grandement le personnage et peuvent facilement causer un évanouissement.  
  Les **blessures de degré III** possèdent un score d&#039;Instinct de 3 à chaque caractéristique. Il s&#039;agit de blessures graves qui menacent directement la vie du personnage.
 
@@ -144,7 +144,7 @@ Ils possèdent cependant tous une certaine quantité d&#039;énergie arcanique q
 L&#039;utilisation d&#039;une charge d&#039;arcanite permet de débloquer l&#039;équivalent d&#039;un _point de création_ pour un _initié_ ou une _aberration_ ou bien d&#039;utilise une _décharge d&#039;arcanite_.
 ## <a name="anchor-competence"></a> Compétence
 
-Compétence
+On appelle **compétence** un exemple d&#039;application particulière d&#039;une _caractéristique_. Par exemple la _compétence_ Attaque est un cas particulier de la _caractéristique_ Imposer. La plupart du temps il n&#039;est pas indispensable de distinguer une compétence de sa caractéristique associée mais dans certains cas, des bonus ou malus s&#039;applique à une compétence changeant ainsi la valeur du jet à utiliser par rapport au score de compétence. Par exemple une _épée_ confère un bonus lors de l&#039;Attaque, le personnage utilisera donc un score plus important lors de ses attaques que son score d&#039;Imposer de base.
 ## <a name="anchor-contact"></a> Contact
 
 Deux _entités_ sont considérées **au contact** si elles se situent assez proches l&#039;une de l&#039;autre pour pouvoir s&#039;attaquer avec des armes de mêlée (dague, épée, bâton...) ou des _attributs physiques_ (griffes, crocs, poings...).
@@ -185,6 +185,12 @@ Par exemple des personnages pourront s&#039;affronter, un équipement améliorer
 ## <a name="anchor-equipement"></a> Équipement
 
 Les personnages (et plus rarement les animaux) peuvent porter sur eux des **équipements** les aidant à combattre (armes, armures, boucliers, etc.) ou à accomplir aisément des tâches spécifiques (capes, cordes, longues-vues, etc.). Certains équipements à usage unique ne confèrent un bonus que lors d&#039;une seule utilisation, on les appelle _consommables_.
+
+Tous les équipements possèdent un _prix_ en _carats_ définissant leur coût d&#039;acquisition et de revente moyen chez un marchant mais il peut varier d&#039;un commerçant à un autre.
+
+Les équipements possèdent également une valeur définissant leur efficacité appelée _allonge_ pour les **armes de corps à corps**, _précision_ pour les **armes à distance**, _protection_ pour les **armures** et **boucliers** et _qualité_ pour lesautres **objets**. Mais dans tous les cas cette valeur représente le bonus conféré par cette équipement au jet de _compétence_ associé. Par exemple une arme avec une allonge de 2, confère un bonus de 2 dés supplémentaires au score d&#039;_Instinct_ en _Imposer_ lorsque le personnage _attaque_ avec.
+
+Certains types d&#039;objets ont des propriétés particulières leur permettant, en plus de conférer un bonus à une compétence, d&#039;infliger des _blessures_, de résister à certains coups, etc.
 ## <a name="anchor-facteur-de-puissance"></a> Facteur de puissance
 
 Le **facteur de puissance** _(FP)_ d&#039;une _entité_ est égale au nombre de _points de création_ utilisés lors de sa _création_ ainsi que ceux qu&#039;il a acquis en absorbant de l&#039;_arcanite_ par la suite.
