@@ -6,6 +6,8 @@
   cursor: pointer;
 }
 .popover {
+  min-width: 180px;
+  max-width: 230px;
   position: relative;
   z-index: 1001;
 
@@ -13,8 +15,7 @@
   color: $primary-color;
   background: 
   linear-gradient(to top, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black),
-  linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black),
-  url(../../public/resources/images/popover.jpg) no-repeat;
+  linear-gradient(to bottom, black, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 90%, black);
   background-size: cover;
 
   .popover-header {
