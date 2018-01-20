@@ -473,3 +473,44 @@ hr {
   top: -120px;
   visibility: hidden;
 }
+
+
+
+/* ==================
+======= Table =======
+================== */
+
+.table-wrapper {
+  width: 100%;
+
+  .table-item {
+    display: flex;
+    padding: 15px;
+
+    text-align: left;
+    font-weight: 300;
+    color: $primary-color;
+    border-bottom: 0.5px solid rgba(254, 203, 91, 0.35);
+    transition: background 0.5s;
+
+    .table-item-name {
+      width: 40%;
+      font-weight: 500;
+    }
+    .table-item-short {
+      width: 60%;
+    }
+  }
+
+  .table-item:nth-of-type(odd) {
+    background: rgba(0,0,0,0.55);
+  }
+  .table-item:nth-of-type(even) {
+    background: rgba(0,0,0,0.3);
+  }
+  .table-item:hover {
+    background: rgba(240, 230, 210, 0.01);
+  }
+}
+
+
