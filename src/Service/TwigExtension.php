@@ -27,7 +27,8 @@ class TwigExtension extends \Twig_Extension
             new \Twig_SimpleFilter('clear', [$this, 'clearFilter']),
             new \Twig_SimpleFilter('roman', [$this, 'romanFilter']),
             new \Twig_SimpleFilter('rule_link', [$this, 'ruleLinkFilter']),
-            new \Twig_SimpleFilter('create_rule_modal', [$this, 'createRuleModal']),
+            new \Twig_SimpleFilter('create_rule_modal', [$this, 'createRuleModalFilter']),
+            new \Twig_SimpleFilter('price', [$this, 'priceFilter']),
         ];
     }
 
@@ -47,13 +48,13 @@ class TwigExtension extends \Twig_Extension
     public function augmentFilter(?string $text): ?string
     {
         return $this->container->get(RulesAugmenter::class)
-            ->augment($text, RulesAugmenter::CREATE_MODALS);
+            ->augment($text);
     }
 
-    public function augmentInModalFilter(?string $text): ?string
+    public function augmentInModalFilter(?string $text, string $modal): ?string
     {
         return $this->container->get(RulesAugmenter::class)
-            ->augment($text, RulesAugmenter::DO_NOT_CREATE_MODALS);
+            ->augment($text, $modal);
     }
 
     public function clearFilter(?string $text): ?string
@@ -91,7 +92,7 @@ class TwigExtension extends \Twig_Extension
             $n %= $number;
         }
 
-        return $res;
+        return '<span class="roman">'.$res.'</span>';
     }
 
     public function removeAugmentation(?string $text): ?string
@@ -103,7 +104,7 @@ class TwigExtension extends \Twig_Extension
         return preg_replace('/(\[(.+)\])\((.+)\)/U', '<em>$2</em>', $text);
     }
 
-    public function createRuleModal(RuleInterface $entity): string
+    public function createRuleModalFilter(RuleInterface $entity): string
     {
         $id = sprintf('modal___%s___%s', $entity::CODE, $entity->getId());
 
@@ -112,6 +113,11 @@ class TwigExtension extends \Twig_Extension
         static::$modals[] = $id;
 
         return $id;
+    }
+
+    public function priceFilter(int $price): string
+    {
+        return number_format($price, 0, ',', ' ').' '.$this->augmentFilter('[Ct](lexicon:carats)');
     }
 
     public function renderRuleModals(): string
@@ -141,11 +147,12 @@ class TwigExtension extends \Twig_Extension
                         sprintf('includes/popups/%s.html.twig', $code),
                         $params
                     );
+                } else {
+                    $rendered .= $template->render(
+                        'includes/popups/rule.html.twig',
+                        $params
+                    );
                 }
-                $rendered .= $template->render(
-                    'includes/popups/rule.html.twig',
-                    $params
-                );
             }
         }
 

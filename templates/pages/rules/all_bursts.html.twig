@@ -4,11 +4,11 @@
 {# @var description #}
 {# @var arcanes \App\Entity\Rule\Arcane[] #}
 
-{% set header_bg = asset('resources/images/bg-header-bursts.jpg') %}
+{% set header_bg = asset('resources/images/bg-header-burst.jpg') %}
 {% set title = 'Décharges d\'arcanite' %}
 
 {% block breadcrumb %}
-    {{ include('includes/breadcrumbs/bursts.html.twig', [arcanes]) }}
+    {{ include('includes/breadcrumbs/burst.html.twig', [arcanes]) }}
 {% endblock %}
 
 {% block container %}
@@ -17,16 +17,18 @@
   </div>
 
     {% for entry in map %}
-        {# @var arcane \App\Entity\Rule\Arcane #}
-        {% set arcane = entry['arcane'] %}
+      {# @var arcane \App\Entity\Rule\Arcane #}
+      {% set arcane = entry['arcane'] %}
 
-      <div class="block-title">
-        <div>
-          <img src="{{ asset('resources/images/arcane/icons/'~arcane.id~'.svg') }}" alt="La Source">
-          <h1>{{ arcane.name }}</h1>
+      <a href="{{ path('rules.abilities', {'slug': arcane.slug}) }}">
+        <div class="block-title">
+          <div>
+            <img src="{{ asset('resources/images/arcane/icons/'~arcane.id~'.svg') }}" alt="La Source">
+            <h1>{{ arcane.name }}</h1>
+          </div>
+          <span>{{ arcane.short }}</span>
         </div>
-        <span>{{ arcane.short }}</span>
-      </div>
+      </a>
 
       <div class="block-group">
           {% set bursts = entry['bursts'] %}

@@ -3,7 +3,7 @@
 {# /règles/attributs-physiques #}
 {# @var attributes \App\Entity\Rule\Attribute #}
 
-{% set header_bg = asset('resources/images/bg-header-attributes.jpg') %}
+{% set header_bg = asset('resources/images/bg-header-attribute.jpg') %}
 {% set title = 'Attributs physiques' %}
 
 {% block container %}
@@ -12,7 +12,7 @@
     </div>
 
     {% for attribute in attributes %}
-        {% include 'includes/sections/attributes.html.twig' with {
+        {% include 'includes/sections/attribute.html.twig' with {
         'title': attribute.name,
         'subtitle': attribute.short,
         'description': attribute.description,

@@ -1,0 +1,21 @@
+{% extends 'includes/sections/default.html.twig' %}
+
+{# @var stuff \App\Entity\Rule\CanonicalStuff #}
+{% block more %}
+  <hr>
+  <div class="need">
+    <label>Prix :</label> {{ stuff.price|price|raw }}<br />
+    <label>{{ stuff.quality|capitalize }} :</label> {{ stuff.effectiveness }}<br />
+    {% if stuff.properties|length > 0 %}
+      <label>Propriété{% if stuff.properties|length > 1 %}s{% endif %} :</label>
+        {% for property in stuff.properties %}
+            {# @var property \App\Entity\Rule\StuffProperty #}
+            {% if not loop.first %}, {% endif %}
+            {% include 'includes/popovers/rule.html.twig' with {
+                'display': property.name,
+                'entity': property,
+            } only %}
+        {% endfor %}
+    {% endif %}
+  </div>
+{% endblock %}

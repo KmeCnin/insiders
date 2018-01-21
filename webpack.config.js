@@ -15,7 +15,7 @@ Encore
     .enableReactPreset()
 
     // Style
-    .addStyleEntry('style/css/style', './public/resources/style/scss/style.scss')
+    .addStyleEntry('style/css/style', './assets/scss/style.scss')
     .enableSassLoader()
 
     // Legacy jQuery

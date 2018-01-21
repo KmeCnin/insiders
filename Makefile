@@ -49,7 +49,11 @@ design:
 	npm run watch
 
 dev:
-	@${MAKE} serve
+	@${MAKE} serve &
+	@${MAKE} design
+
+sam:
+	@$(CONSOLE) server:run --quiet --no-debug &
 	@${MAKE} design
 
 reset-rules:

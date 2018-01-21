@@ -5,11 +5,11 @@
 {# @var arcanes \App\Entity\Rule\Arcane[] #}
 {# @var bursts \App\Entity\Rule\Burst #}
 
-{% set header_bg = asset('resources/images/bg-header-bursts.jpg') %}
+{% set header_bg = asset('resources/images/bg-header-burst.jpg') %}
 {% set title = 'Décharges d\'arcanite '~arcane.owningStyle %}
 
 {% block breadcrumb %}
-    {{ include('includes/breadcrumbs/bursts.html.twig', [arcanes, arcane]) }}
+    {{ include('includes/breadcrumbs/burst.html.twig', [arcanes, arcane]) }}
 {% endblock %}
 
 {% block container %}

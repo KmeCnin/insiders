@@ -1,0 +1,535 @@
+/* ===================
+====== Defaults ======
+=================== */
+
+body {
+  margin: 0;
+  padding-top: 61px;
+
+  font-family: 'Open Sans', sans-serif;
+  color: $text-color;
+  background: #000;
+  font-size: $font-size;
+
+  @media #{$responsive-phone} {
+    padding-top: 0;
+  }
+}
+
+h1 {
+  font-family: $font-family-primary;
+  color: $primary-color;
+}
+
+h2 {
+  font-family: $font-family-primary;
+  color: $secondary-color;
+}
+
+a {
+  text-decoration: none;
+}
+a.toggle-link:hover {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 600;
+  color: $primary-color;
+}
+
+hr {
+  height: 1px;
+  border-style: none;
+
+  background:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      $secondary-color 50%,
+      rgba(0, 0, 0, 0)
+    )
+  ;
+
+  @media #{$responsive-phone} {
+    display: none;
+  }
+
+}
+
+*:focus {outline:none}
+
+/* ===================
+======= Button =======
+=================== */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  margin: 30px 20px;
+  padding: 15px 30px;
+
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid $secondary-color;
+  font-family: $font-family-primary;
+  color: $secondary-color;
+  cursor: pointer;
+
+  @media #{$responsive-phone} {
+    width: 80px;
+    margin: 10px;
+    font-size: 0.8em;
+  }
+}
+
+/* ===================
+======== Text ========
+=================== */
+.roman {
+  font-family: $font-family-augustus;
+}
+
+/* ===================
+======= Header =======
+=================== */
+.header {
+  position: relative;
+  max-width: 1500px;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+
+  @media #{$responsive-phone} {
+    height: 220px;
+  }
+}
+
+.header-content-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+
+  @media #{$responsive-phone} {
+    width: 92%;
+    top: 40%;
+    right: 15px;
+  }
+
+  img {
+    right: 10%;
+  }
+
+  h1 {
+    margin: 0;
+
+    font-size: 4em;
+    text-shadow: 0 2px 4px #000000;
+    color: $secondary-color;
+
+    @media #{$responsive-phone} {
+      font-size: 2em;
+      line-height: 1em;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 3.5em;
+    text-shadow: 0 2px 4px #000000;
+    color: #F0E6D2;
+    text-transform: uppercase;
+    position: relative;
+    top: 14px;
+
+    @media #{$responsive-phone} {
+      top: 2px;
+      font-size: 1.6em;
+    }
+  }
+}
+
+/* ===================
+======== Main ========
+=================== */
+.main {
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+
+    @media #{$responsive-phone} {
+      padding: 0;
+    }
+  }
+}
+
+.main-default {
+  background: url(../../public/resources/images/default.jpg) no-repeat fixed;
+  background-size: cover;
+
+  @media #{$responsive-phone} {
+    background: none;
+  }
+}
+
+.main-rules {
+  background: url(../../public/resources/images/rules.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.main-universe {
+  background: url(../../public/resources/images/universe.jpg) no-repeat fixed;
+  background-size: cover;
+
+  @media #{$responsive-phone} {
+    background: none;
+  }
+}
+
+.main-tools {
+  background: url(../../public/resources/images/tools.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+
+  img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    top: 25px;
+    right: 365px;
+  }
+}
+ 
+/* ===================
+======= Blocks =======
+=================== */
+.block-wrapper {
+  margin-top: 30px;
+}
+
+.block {
+  position: relative;
+  margin: auto auto 40px auto;
+
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  background-color: black;
+
+  @media #{$responsive-phone} {
+    margin: auto auto 0 auto;
+  }
+}
+
+.block-background {
+  position: absolute;
+  z-index: 1;
+  width: 900px;
+  height: 600px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+
+  @media #{$responsive-phone} {
+    width: 100%;
+    height: 380px;
+  }
+}
+
+.block-short {
+  height: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-top: 1px solid $secondary-color;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.70);
+
+  img {
+    position: relative;
+    bottom: 25px;
+  }
+
+  p {
+    max-width: 250px;
+    position: relative;
+    bottom: 23px;
+    margin: auto;
+
+    font-weight: 300;
+    color: $primary-color;
+  }
+}
+
+.block-intro {
+  height: auto;
+  margin: auto auto 50px auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+
+  border-radius: 2px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+
+  @media #{$responsive-phone} {
+    margin: 0;
+    padding: 15px;
+  }
+
+  p {
+    max-width: 850px;
+    margin: 10px auto;
+    
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #F0E6D2;
+  }
+}
+
+.block-title {
+  padding: 20px;
+  text-shadow: 0 0 16px black;
+  position: relative;
+  z-index: 10;
+
+  @media #{$responsive-phone} {
+    padding: 15px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 55px;
+      margin-right: 15px;
+      filter: drop-shadow(0 0 6px #000);
+
+      @media #{$responsive-phone} {
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+
+    h1 {
+      margin: 10px 0;
+      text-shadow: 0 0 16px black;
+
+      @media #{$responsive-phone} {
+        font-size: 1.4em;
+      }
+    }
+  }
+
+  span {
+    font-family: $font-family-secondary;
+    font-size: 1.1em;
+    color: $secondary-color;
+
+    @media #{$responsive-phone} {
+      font-size: 0.9em;
+    }
+  }
+}
+
+.block-content {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding: 5px 90px 5px 20px;
+  margin-top: 335px;
+  min-height: 145px;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  @media #{$responsive-phone} {
+    margin-top: 135px;
+    padding: 5px 15px;
+  }
+
+  div {
+    text-align: justify;
+    font-weight: 300;
+    color: $primary-color;
+  }
+
+  .need {
+    padding: 5px 0;
+    font-size: 0.9em;
+
+    label {
+      font-family: $font-family-primary;
+      color: $primary-color;
+    }
+  }
+}
+.increases-increase {
+  display: none;
+}
+
+.block-group {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 30px 0;
+  padding: 0;
+
+  border: none;
+
+  @media #{$responsive-phone} {
+    width: 100%;
+    margin: 0;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+}
+.block-group:last-of-type {
+  margin: 0 0 100px 0;
+}
+
+.block-group-item {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 10px;
+
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+  @media #{$responsive-phone} {
+    width: 47%;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  div {
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    border-radius: 0 0 2px 2px;
+
+    background: rgba(0, 0, 0, 0.44);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.8)); /* Standard syntax */
+
+    h2 {
+      margin: 0;
+
+      font-size: 0.8em;
+    }
+
+    p {
+      margin: 2px 0 0 0;
+
+      font-size: 0.7em;
+      font-weight: 300;
+      color: #fff;
+
+      @media #{$responsive-phone} {
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+.block-group-item:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* ===================
+======= Anchor =======
+=================== */
+.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+
+
+/* ==================
+======= Table =======
+================== */
+
+.table-wrapper {
+  width: 100%;
+
+  .table-item {
+    display: flex;
+    padding: 15px;
+
+    text-align: left;
+    font-weight: 300;
+    color: $primary-color;
+    border-bottom: 0.5px solid rgba(254, 203, 91, 0.35);
+    transition: background 0.5s;
+
+    @media #{$responsive-phone} {
+      flex-direction: column;
+    }
+
+    .table-item-name {
+      width: 30%;
+
+      font-size: 1.1em;
+      font-weight: 300;
+      color: $secondary-color;
+
+      @media #{$responsive-phone} {
+        width: 100%;
+      }
+    }
+    .table-item-short {
+      width: 70%;
+
+      @media #{$responsive-phone} {
+        width: 100%;
+      }
+    }
+  }
+
+  .table-item:nth-of-type(odd) {
+    background: rgba(0,0,0,0.55);
+  }
+  .table-item:nth-of-type(even) {
+    background: rgba(0,0,0,0.3);
+  }
+  .table-item:hover {
+    background: rgba(240, 230, 210, 0.01);
+  }
+}
+
+

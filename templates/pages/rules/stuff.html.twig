@@ -14,15 +14,16 @@
 
 {% block container %}
   <div class="block block-intro">
-    <p>{{ description|augment|raw }}</p>
+    <p>{{ category|augment|raw }}</p>
   </div>
 
   {% for stuffItem in stuff %}
-    {% include 'includes/sections/default.html.twig' with {
+    {% include 'includes/sections/stuff.html.twig' with {
       'title': stuffItem.name,
       'subtitle': stuffItem.short,
       'description': stuffItem.description,
       'slug': stuffItem.slug,
+      'stuff': stuffItem,
       'bg': asset('resources/images/stuff/'~stuffItem.id~'.jpg'),
     } only %}
   {% endfor %}

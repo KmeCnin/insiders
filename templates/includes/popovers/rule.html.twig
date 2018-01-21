@@ -1,21 +1,22 @@
-{% if createModals is defined and createModals %}
-    <span
-            title="{{ entity.name }}"
-            class="toggle-popover toggle-popup"
-            data-content="{{ entity.short }}"
-            data-toggle="modal"
-            data-target="#{{ entity|create_rule_modal }}"
-            data-trigger="hover"
-            data-placement="top"
-    >{{ display|raw }}</span>
-{% else %}
+{% if modal|default(null) is not empty %}
     <a
-            href="{{ entity|rule_link }}"
-            target="_blank"
-            title="{{ entity.name }}"
-            class="toggle-popover toggle-link"
-            data-content="{{ entity.short }}"
-            data-trigger="hover"
-            data-placement="top"
+        href="{{ entity|rule_link }}"
+        target="_blank"
+        title="{{ entity.name }}"
+        class="toggle-popover toggle-link"
+        data-content="{{ entity.short }}"
+        data-trigger="hover"
+        data-placement="top"
+        data-container="#{{ modal }}"
     >{{ display|raw }}</a>
+{% else %}
+    <span
+        title="{{ entity.name }}"
+        class="toggle-popover toggle-popup"
+        data-content="{{ entity.short }}"
+        data-toggle="modal"
+        data-target="#{{ entity|create_rule_modal }}"
+        data-trigger="hover"
+        data-placement="top"
+    >{{ display|raw }}</span>
 {% endif %}

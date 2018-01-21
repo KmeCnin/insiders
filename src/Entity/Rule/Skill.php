@@ -17,7 +17,7 @@ class Skill extends AbstractRule
     /**
      * @var Characteristic
      *
-     * @ORM\ManyToOne(targetEntity="Characteristic")
+     * @ORM\ManyToOne(targetEntity="Characteristic", inversedBy="skills")
      * @ORM\JoinColumn(nullable=false)
      */
     private $characteristic;

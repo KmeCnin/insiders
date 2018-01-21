@@ -64,13 +64,27 @@
         "abilitiesRequired": []
     },
     {
+        "id": "stasis",
+        "name": "Stase",
+        "enabled": true,
+        "public": true,
+        "arcane": "ether",
+        "short": "Immobilise complètement une cible",
+        "description": "<p>Le personnage est capable d&#39;utiliser simultan&eacute;ment un champ de force [r&eacute;pulsif](ability:push) et [attractif](ability:pull) pour maintenir une cible dans un &eacute;tat d&#39;immobilit&eacute; totale.<br \/>\r\nCela lui permet par exemple d&#39;immobiliser un ennemi, de maintenir un objet en l&#39;air, de cr&eacute;er une passerelle en l&eacute;vitation, bloquer une porte, etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut immobiliser un ennemi qui ne peut alors plus d&eacute;placer ses membres. Les seules actions possibles qu&#39;il lui reste sont parler, bouger les yeux, utiliser des capacit&eacute;s arcaniques mentales.<br \/>\r\nLe personnage doit&nbsp;lancer un nouveau jet d&#39;Imposer chaque tour&nbsp;et ne peut pas faire d&#39;action n&eacute;cessitant un jet de&nbsp;caract&eacute;ristique&nbsp;tant qu&#39;il&nbsp;maintient sa prise.<\/p>\r\n\r\n<p>Il peut &eacute;galement utiliser cette capacit&eacute; sur un objet. Dans ce cas, il ne peut plus &ecirc;tre d&eacute;placer &agrave; moins de r&eacute;ussir un jet de [R&eacute;sister](characteristic:resist) oppos&eacute; au personnage. Si l&#39;objet &eacute;tait en train de tomber, il stop net sa chute et peut supporter un poids &eacute;gale &agrave;&nbsp;celui que le personnage pourrait soulever. Un objet en &eacute;tat de stase ne peut pas &ecirc;tre d&eacute;placer &agrave; distance &agrave; moins que le personnage utilise la capacit&eacute; [Psychokin&egrave;se](ability:psychokinesis) ou qu&#39;un adverse r&eacute;ussisse un jet oppos&eacute; en usant de&nbsp;Psychokin&egrave;se sur l&#39;objet.<\/p>",
+        "increases": [],
+        "abilitiesRequired": [
+            "pull",
+            "push"
+        ]
+    },
+    {
         "id": "morbid-aura",
         "name": "Aura morbide",
         "enabled": true,
         "public": true,
         "arcane": "death",
         "short": "Dégage une atmosphère malsaine",
-        "description": "<p>Le personnage est constamment entour&eacute; d&#39;un nuage mortel qui d&eacute;truit la v&eacute;g&eacute;tation avoisinante et emp&ecirc;che les autres personnages de se soigner.<\/p>\r\n\r\n<p>Tous les personnages [&agrave; distance](lexicon:range) (except&eacute; [les morts-vivants](ability:necromancy) et ceux poss&eacute;dant &eacute;galement <em>Aura morbide<\/em>) ne peuvent plus &ecirc;tre soign&eacute;s (m&ecirc;me pas par [Transfert de force vitale](ability:vital-force)).<\/p>",
+        "description": "<p>Le personnage est constamment entour&eacute; d&#39;un nuage mortel qui d&eacute;truit la v&eacute;g&eacute;tation avoisinante et emp&ecirc;che les autres personnages de se soigner.<\/p>\r\n\r\n<p>Tous les personnages [&agrave; distance](lexicon:range) (except&eacute; ceux poss&eacute;dant &eacute;galement <em>Aura morbide<\/em>) ne peuvent plus &ecirc;tre soign&eacute;s (m&ecirc;me pas par [Transfert de force vitale](ability:vital-force)).<\/p>",
         "increases": [],
         "abilitiesRequired": []
     },
@@ -341,6 +355,17 @@
         "abilitiesRequired": []
     },
     {
+        "id": "ghost",
+        "name": "Forme éthérée",
+        "enabled": true,
+        "public": true,
+        "arcane": "life",
+        "short": "Peut traverser la matière solide",
+        "description": "<p>Le personnage est capable de modifier la densit&eacute; de son corps pour le rendre permeable &agrave; la mati&egrave;re solide.<br \/>\r\nCela lui permet de traverser des murs, des &ecirc;tre-vivants, de fusionner avec une paroi, etc. Il ne peut cependant pas ignorer de [champ de force](ability:force-field) sans faire un jet ni traverser de [barri&egrave;re de force](burst:lock).<\/p>\r\n\r\n<p>Lorsqu&#39;il devient &eacute;th&eacute;r&eacute;, son corps adopte une teinte l&eacute;g&egrave;rement transparente mais le personnage reste nettement visible.<br \/>\r\nDans cet &eacute;tat, Le personnage reste soumis &agrave; la gravit&eacute;. Il peut remonter &agrave; travers une paroi mais ne peut pas l&eacute;viter dans les airs.<br \/>\r\nIl est &eacute;galement capable de fusionner dans n&#39;importe quelle paroi solide et ne laisser d&eacute;passer qu&#39;une partie de son corps (yeux pour voir, oreille pour entendre, etc.).<\/p>",
+        "increases": [],
+        "abilitiesRequired": []
+    },
+    {
         "id": "hypnosis",
         "name": "Hypnose",
         "enabled": true,
@@ -382,11 +407,11 @@
         "public": true,
         "arcane": "spirit",
         "short": "Débloque son potentiel caché",
-        "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>En d&eacute;bloquant cette capacit&eacute; le personnage choisit deux [caract&eacute;ristiques](lexicon:characteristic)&nbsp;et&nbsp;peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) aux caract&eacute;ristiques choisies.<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, on consid&egrave;re dor&eacute;navant qu&#39;il poss&egrave;de un score d&#39;Instinct de 5 et pas de score de Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il gagne de nouveaux points de Ma&icirc;trise, ses scores sont&nbsp;modifi&eacute;s imm&eacute;diatement. Cela fonctionne &eacute;galement avec les points obtenus gr&acirc;ce &agrave; [Partage d&#39;exp&eacute;rience](ability:pooling).<\/p>",
+        "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>En d&eacute;bloquant cette capacit&eacute; le personnage choisit deux [caract&eacute;ristiques](lexicon:characteristic)&nbsp;et&nbsp;peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) aux caract&eacute;ristiques choisies.<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, lorsqu&#39;il doit r&eacute;aliser un jet d&#39;Imposer, il lancera 5 d&egrave;s&nbsp;et les conservera tous comme s&#39;il avait 5 en Instinct et 0 en Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il a besoin d&#39;utiliser directement ses scores de Ma&icirc;trise comme pour&nbsp;[Partage d&#39;exp&eacute;rience](ability:pooling), on consid&egrave;re que ses points ne sont pas chang&eacute;s.<\/p>",
         "increases": [
             {
                 "short": "Améliore toutes ses caractéristiques",
-                "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>Il peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) &agrave; toutes ses [caract&eacute;ristiques](lexicon:characteristic).<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, on consid&egrave;re dor&eacute;navant qu&#39;il poss&egrave;de un score d&#39;Instinct de 5 et pas de score de Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il gagne de nouveaux points de Ma&icirc;trise, ses scores sont&nbsp;modifi&eacute;s imm&eacute;diatement. Cela fonctionne &eacute;galement avec les points obtenus gr&acirc;ce &agrave; [Partage d&#39;exp&eacute;rience](ability:pooling).<\/p>"
+                "description": "<p>Le personnage acqui&egrave;re un contr&ocirc;le total de son esprit lui permettant d&#39;ignorer les verrous psychiques et tirer le plein potentiel de ses capacit&eacute;s physiques et intellectuelles.<\/p>\r\n\r\n<p>Il peut utiliser ses scores de [Ma&icirc;trise](lexicon:proficiency) comme bonus de score d&#39;[Instinct](lexicon:instinct) &agrave; toutes ses [caract&eacute;ristiques](lexicon:characteristic).<br \/>\r\nPar exemple s&#39;il poss&egrave;de un score d&#39;[Instinct](lexicon:instinct) de 3 en Imposer et un score de Ma&icirc;trise de 2, lorsqu&#39;il doit r&eacute;aliser un jet d&#39;Imposer, il lancera 5 d&egrave;s&nbsp;et les conservera tous comme s&#39;il avait 5 en Instinct et 0 en Ma&icirc;trise.<\/p>\r\n\r\n<p>S&#39;il a besoin d&#39;utiliser directement ses scores de Ma&icirc;trise comme pour&nbsp;[Partage d&#39;exp&eacute;rience](ability:pooling), on consid&egrave;re que ses points ne sont pas chang&eacute;s.<\/p>"
             }
         ],
         "abilitiesRequired": [
@@ -430,13 +455,29 @@
         "abilitiesRequired": []
     },
     {
+        "id": "gravity",
+        "name": "Inversion de gravité",
+        "enabled": true,
+        "public": true,
+        "arcane": "web",
+        "short": "Contrôle la direction d'application de la force de gravité",
+        "description": "<p>Le personnage peut modifier la direction dans laquelle s&#39;applique la force gravitationnelle d&#39;un volume pr&eacute;cis.<br \/>\r\nCela lui permet de marcher sur les murs, projeter un ennemi au plafond, d&eacute;placer des objets lourds, d&eacute;vier la trajectoire d&#39;un projectile, etc.<\/p>\r\n\r\n<p>Il peut choisir une surface&nbsp;repr&eacute;sentant environ 1m2&nbsp;&agrave; partir de laquelle la gravit&eacute; s&#39;appliquera comme s&#39;il s&#39;agissait du sol.<br \/>\r\nSeuls les objets et individus enti&egrave;rement en contact avec cette surface subissent le changement de gravit&eacute;. C&#39;est &agrave; dire qu&#39;un individu ayant un pied en contact avec la surface modifi&eacute;e et un pied sur le sol normal ne subira aucun effet jusqu&#39;&agrave; ce qu&#39;il pose ses deux pieds dans la zone affect&eacute;e. De m&ecirc;me, un mur ne subira l&#39;effet que s&#39;il tient enti&egrave;rement sur la surface en question (mais ses fondations risquent de le maintenir tout de m&ecirc;me au sol).<\/p>\r\n\r\n<p>Le personnage peut maintenir la modification tant qu&#39;il se [concentre](lexicon:focus).<\/p>",
+        "increases": [
+            {
+                "short": "Peut maintenir l'effet sans concentration",
+                "description": "<p>Le personnage peut modifier la direction dans laquelle s&#39;applique la force gravitationnelle d&#39;un volume pr&eacute;cis.<br \/>\r\nCela lui permet de marcher sur les murs, projeter un ennemi au plafond, d&eacute;placer des objets lourds, d&eacute;vier la trajectoire d&#39;un projectile, etc.<\/p>\r\n\r\n<p>Il peut choisir une surface&nbsp;repr&eacute;sentant environ 1m2&nbsp;&agrave; partir de laquelle la gravit&eacute; s&#39;appliquera comme s&#39;il s&#39;agissait du sol.<br \/>\r\nSeuls les objets et individus enti&egrave;rement en contact avec cette surface subissent le changement de gravit&eacute;. C&#39;est &agrave; dire qu&#39;un individu ayant un pied en contact avec la surface modifi&eacute;e et un pied sur le sol normal ne subira aucun effet jusqu&#39;&agrave; ce qu&#39;il pose ses deux pieds dans la zone affect&eacute;e. De m&ecirc;me, un mur ne subira l&#39;effet que s&#39;il tient enti&egrave;rement sur la surface en question (mais ses fondations risquent de le maintenir tout de m&ecirc;me au sol).<\/p>"
+            }
+        ],
+        "abilitiesRequired": []
+    },
+    {
         "id": "ghost-walk",
         "name": "Marche fantomatique",
         "enabled": true,
         "public": true,
         "arcane": "veil",
         "short": "Ne fait aucun bruit et ne laisse pas de trace lors des déplacements",
-        "description": "<p>Le personnage ne fait aucun bruit de pas ni d&rsquo;&eacute;quipement lorsqu&rsquo;il se d&eacute;place.<\/p>\r\n\r\n<p>Il ne laisse aucun trace permettant de le pister (en for&ecirc;t, dans la neige, dans le sable...).<\/p>\r\n\r\n<p>Si le personnage est &eacute;quip&eacute; d&#39;un harnois, il ne subit plus le malus en [discr&eacute;tion](skill:discretion).<\/p>",
+        "description": "<p>Le personnage ne fait aucun bruit de pas ni d&rsquo;&eacute;quipement lorsqu&rsquo;il se d&eacute;place.<\/p>\r\n\r\n<p>Il ne laisse aucun trace permettant de le pister (en for&ecirc;t, dans la neige, dans le sable...).<\/p>\r\n\r\n<p>Si le personnage est &eacute;quip&eacute; d&#39;un [harnois](stuff:harness), il ne subit plus le malus en [discr&eacute;tion](skill:discretion).<\/p>",
         "increases": [],
         "abilitiesRequired": []
     },
@@ -527,11 +568,11 @@
         "public": true,
         "arcane": "web",
         "short": "Peut se rendre instantanément dans un lieu déjà visité",
-        "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, mais pas d&#39;autres &ecirc;tres vivants.<\/p>",
+        "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu pr&eacute;cis qu&#39;il a d&eacute;j&agrave; visit&eacute;&nbsp;auparavant.<\/p>\r\n\r\n<p>A tout moment, il peut d&eacute;finir l&#39;endroit o&ugrave; il se trouve comme <em>point d&#39;ancrage<\/em>. Une fois un point d&#39;ancrage d&eacute;finit, le personnage peut se d&eacute;placer en un [tour](lexicon:round) vers le lieu choisit quelque soit sont &eacute;loignement. Il peut red&eacute;finir un nouveau point d&#39;ancrage en passant un tour &agrave; se concentrer.<br \/>\r\nIl ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, mais pas d&#39;autres &ecirc;tres vivants.<\/p>",
         "increases": [
             {
                 "short": "Peut emporter des êtres vivants avec lui",
-                "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu o&ugrave; il a d&eacute;j&agrave; &eacute;t&eacute; auparavant.<\/p>\r\n\r\n<p>Il ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, y&nbsp;compris des personnages ou animaux.<\/p>"
+                "description": "<p>Le personnage peut se d&eacute;placer instantan&eacute;ment dans un lieu pr&eacute;cis qu&#39;il a d&eacute;j&agrave; visit&eacute;&nbsp;auparavant.<\/p>\r\n\r\n<p>A tout moment, il peut d&eacute;finir l&#39;endroit o&ugrave; il se trouve comme <em>point d&#39;ancrage<\/em>. Une fois un point d&#39;ancrage d&eacute;finit, le personnage peut se d&eacute;placer en un [tour](lexicon:round) vers le lieu choisit quelque soit sont &eacute;loignement. Il peut red&eacute;finir un nouveau point d&#39;ancrage en passant un tour &agrave; se concentrer.<br \/>\r\nIl ne peut emporter avec lui qu&rsquo;un poids ne d&eacute;passant pas ce qu&rsquo;il aurait &eacute;t&eacute; capable de porter, y&nbsp;compris d&#39;autres personnages ou animaux.<\/p>"
             }
         ],
         "abilitiesRequired": [
@@ -604,7 +645,7 @@
         "public": true,
         "arcane": "veil",
         "short": "Peut diminuer la luminosité ambiante",
-        "description": "<p>Le personnage peut contr&ocirc;ler l&#39;obscurit&eacute; alentour &agrave; volont&eacute;.<br \/>\r\nCela lui permet de plonger son environnement dans l&#39;ombre, d&#39;aveugler un ennemi, etc.<\/p>\r\n\r\n<p>Il peut diminuer la luminosit&eacute; de la zone autour de lui aussi finement qu&#39;il le souhaite, la faisant varier d&#39;une peine-ombre, &agrave; une nuit sans lune&nbsp;jusqu&#39;&agrave; obtenir une obscurit&eacute; absolument totale dans laquelle m&ecirc;me les animaux [nyctalopes](attribute:night-vision) sont aveugles. La zone affect&eacute;e doit &ecirc;tre une sph&egrave;re centr&eacute;e sur le personnage d&#39;un rayon n&#39;exc&eacute;dant pas [sa port&eacute;e](lexicon:range).<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut cr&eacute;er une petite zone d&#39;obscurit&eacute; totale autour des yeux d&#39;un ennemi pour le rendre aveugle. Le personnage doit lancer un nouveau jet d&#39;Imposer chaque tour pour que la zone d&#39;ombre suive les mouvements de sa cible et ne peut pas faire d&#39;action n&eacute;cessitant un jet de [caract&eacute;ristique](lexicon:characteristic) tant qu&#39;il&nbsp;maintient l&#39;aveuglement.<br \/>\r\nLes yeux du personnage sont habitu&eacute;s &agrave; l&#39;obscurit&eacute;s, il peut voir dans la p&eacute;nombre comme s&#39;il poss&eacute;dait l&#39;[attribut](lexicon:attribute)&nbsp;[nyctalopes](attribute:night-vision).<\/p>",
+        "description": "<p>Le personnage peut contr&ocirc;ler l&#39;obscurit&eacute; alentour &agrave; volont&eacute;.<br \/>\r\nCela lui permet de plonger son environnement dans l&#39;ombre, d&#39;aveugler un ennemi, etc.<\/p>\r\n\r\n<p>Il peut diminuer la luminosit&eacute; de la zone autour de lui aussi finement qu&#39;il le souhaite, la faisant varier d&#39;une peine-ombre, &agrave; une nuit sans lune&nbsp;jusqu&#39;&agrave; obtenir une obscurit&eacute; absolument totale dans laquelle m&ecirc;me les animaux [nyctalopes](attribute:night-vision) sont aveugles. La zone affect&eacute;e doit &ecirc;tre une sph&egrave;re centr&eacute;e sur le personnage d&#39;un rayon n&#39;exc&eacute;dant pas [sa port&eacute;e](lexicon:range).<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) &agrave; [distance](lexicon:range), il peut cr&eacute;er une petite zone d&#39;obscurit&eacute; totale autour des yeux d&#39;un ennemi pour le rendre aveugle. Le personnage doit lancer un nouveau jet d&#39;Imposer chaque tour pour que la zone d&#39;ombre suive les mouvements de sa cible et se [concentrer](lexicon:focus) tant qu&#39;il&nbsp;maintient l&#39;aveuglement.<br \/>\r\nLes yeux du personnage sont habitu&eacute;s &agrave; l&#39;obscurit&eacute;s, il peut voir dans la p&eacute;nombre comme s&#39;il poss&eacute;dait l&#39;[attribut](lexicon:attribute)&nbsp;[nyctalopes](attribute:night-vision).<\/p>",
         "increases": [],
         "abilitiesRequired": []
     },
@@ -654,7 +695,12 @@
         "arcane": "spirit",
         "short": "A conscience des formes de vies qui l'entourent",
         "description": "<p>Le personnage a conscience de l&rsquo;existence des formes de vies alentours (v&eacute;g&eacute;tales et animales).<br \/>\r\nCela lui permet par exemple de&nbsp;percevoir les personnages invisibles, de trouver du gibier, de localiser de la v&eacute;g&eacute;tation, etc.<\/p>\r\n\r\n<p>Le personnage localise pr&eacute;cis&eacute;ment les &ecirc;tres vivants &agrave; distance et est capable, sans le voir, de diff&eacute;rencier un &ecirc;tre intelligent d&#39;un animal ou d&#39;un simple v&eacute;g&eacute;tal. Mais il ne peut cependant pas discerner plus pr&eacute;cis&eacute;ment l&#39;identit&eacute; d&#39;une personne, m&ecirc;me tr&egrave;s bien connue, sans l&#39;avoir en visuel.<\/p>\r\n\r\n<p>Les [simulacres](lexicon:travesty) ne poss&egrave;dent pas d&#39;esprit et ne peuvent donc pas &ecirc;tre per&ccedil;us de la sorte. Ce qui peut &ecirc;tre un inconvenient mais &eacute;galement un avantage pour discerner l&#39;individu original au milieu des faux.<\/p>",
-        "increases": [],
+        "increases": [
+            {
+                "short": "Peut percevoir à travers une cible distante",
+                "description": "<p>Le personnage a conscience de l&rsquo;existence des formes de vies alentours (v&eacute;g&eacute;tales et animales).<br \/>\r\nCela lui permet par exemple de&nbsp;percevoir les personnages invisibles, de trouver du gibier, de localiser de la v&eacute;g&eacute;tation, de voir &agrave; travers l&#39;esprit de cibles environnantes, etc.<\/p>\r\n\r\n<p>Le personnage localise pr&eacute;cis&eacute;ment les &ecirc;tres vivants &agrave; [distance](lexicon:range) et est capable, sans le voir, de diff&eacute;rencier un &ecirc;tre intelligent d&#39;un animal ou d&#39;un simple v&eacute;g&eacute;tal. Mais il ne peut cependant pas discerner plus pr&eacute;cis&eacute;ment l&#39;identit&eacute; d&#39;une personne, m&ecirc;me tr&egrave;s bien connue, sans l&#39;avoir en visuel.<\/p>\r\n\r\n<p>Le personnage est &eacute;galement capable de s&rsquo;immiscer dans l&#39;esprit des cibles dont il per&ccedil;oit l&#39;esprit (il n&#39;est pas oblig&eacute; de les avoir en visuel).<br \/>\r\nLorsqu&#39;il fait ainsi, il voit, entend et resents tous les stimuli ext&eacute;rieurs comme s&#39;il &eacute;tait &agrave; la place de la cible en question. Il ne per&ccedil;oit pas les pens&eacute;es de la cible et ne peut absolument pas agir physiquement sur elle. La cible n&#39;est pas conscience de l&#39;intrusion.<br \/>\r\nPendant ce temps le corps du personnage reste statique et sans d&eacute;fense et perd toutes les perceptions de son vrai corps.&nbsp;Si le personnage subit [une blessure](lexicon:wound) pendant que son esprit se trouve dans sa cible, la capacit&eacute; est alors interrompue de force.<\/p>\r\n\r\n<p>Les [simulacres](lexicon:travesty) ne poss&egrave;dent pas d&#39;esprit et ne peuvent donc pas &ecirc;tre per&ccedil;us de la sorte. Ce qui peut &ecirc;tre un inconvenient mais &eacute;galement un avantage pour discerner l&#39;individu original au milieu des faux.<\/p>"
+            }
+        ],
         "abilitiesRequired": []
     },
     {
@@ -702,11 +748,11 @@
         "public": true,
         "arcane": "source",
         "short": "Peut faire rapidement chuter la température",
-        "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement diminuer la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier de l&#39;eau, geler des tissus vivants au contact,&nbsp;etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I en gelant&nbsp;son adversaire.<br \/>\r\nIl peut rapidement solidifier l&#39;humidit&eacute; de l&#39;air au niveau du point d&#39;impact d&#39;un coup afin d&#39;augmenter de 1 point son jet de [D&eacute;fense](skill:defense)&nbsp;contre les blessures physiques.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux gelures.<\/p>",
+        "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement diminuer la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier de l&#39;eau, geler des tissus vivants au contact,&nbsp;etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; I en gelant&nbsp;son adversaire.<br \/>\r\nIl peut rapidement solidifier l&#39;humidit&eacute; de l&#39;air au niveau du point d&#39;impact d&#39;un coup afin d&#39;augmenter de 1 d&eacute; son jet de [D&eacute;fense](skill:defense)&nbsp;contre les blessures physiques.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux gelures.<\/p>",
         "increases": [
             {
                 "short": "Augmente d'un degré la blessure infligée",
-                "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement diminuer la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier de l&#39;eau, geler des tissus vivants au contact,&nbsp;etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II en gelant&nbsp;son adversaire.<br \/>\r\nIl peut rapidement solidifier l&#39;humidit&eacute; de l&#39;air au niveau du point d&#39;impact d&#39;un coup afin d&#39;augmenter de 1 point son jet de [D&eacute;fense](skill:defense)&nbsp;contre les blessures physiques.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux gelures.<\/p>"
+                "description": "<p>Le personnage ma&icirc;trise les flux thermiques, il peut rapidement diminuer la temp&eacute;rature d&#39;une zone pr&eacute;cise.<br \/>\r\nCela lui permet par exemple de solidifier de l&#39;eau, geler des tissus vivants au contact,&nbsp;etc.<\/p>\r\n\r\n<p>Gr&acirc;ce &agrave; un jet d&#39;[Imposer](characteristic:force) au [contact](lexicon:contact), il peut infliger une [blessure](lexicon:wound) de degr&eacute; II en gelant&nbsp;son adversaire.<br \/>\r\nIl peut rapidement solidifier l&#39;humidit&eacute; de l&#39;air au niveau du point d&#39;impact d&#39;un coup afin d&#39;augmenter de 1 d&eacute; son jet de [D&eacute;fense](skill:defense)&nbsp;contre les blessures physiques.<br \/>\r\nIl poss&egrave;de &eacute;galement une [r&eacute;sistance](lexicon:resistance) aux gelures.<\/p>"
             }
         ],
         "abilitiesRequired": []

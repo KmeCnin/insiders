@@ -3,21 +3,23 @@
 {# /règles/caractéristiques #}
 {# @var characteristics \App\Entity\Rule\Characteristic #}
 
-{% set header_bg = asset('resources/images/bg-header-characteristics.jpg') %}
+{% set header_bg = asset('resources/images/bg-header-characteristic.jpg') %}
 {% set title = 'Caractéristiques' %}
 
 
 {% block container %}
   <div class="block block-intro">
     <p>{{ description|augment|raw }}</p>
+    <p>{{ skillDescription|augment|raw }}</p>
   </div>
 
   {% for characteristic in characteristics %}
-    {% include 'includes/sections/default.html.twig' with {
+    {% include 'includes/sections/characteristic.html.twig' with {
       'title': characteristic.name,
       'subtitle': characteristic.short,
       'description': characteristic.description,
       'slug': characteristic.slug,
+      'rule': characteristic,
       'bg': asset('resources/images/characteristic/'~characteristic.id~'.jpg'),
     } only %}
   {% endfor %}

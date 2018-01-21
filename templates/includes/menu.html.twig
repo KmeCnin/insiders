@@ -8,49 +8,67 @@
       </div>
     </a>
 
+    {% set route = app.request.attributes.get('_route') %}
+    {% set realm = route|split('.')[0] %}
+
+    {% block items %}
     <ul class="tabs">
-      <li>
+      <li{% if realm == 'universe' %} class="active"{% endif %}>
         <a href="{{ path('universe') }}">Univers</a>
         <ul>
           <li><a href="{{ path('universe.arcanes') }}">Arcanes</a></li>
           <li><a href="{{ path('universe.deities') }}">Divinités</a></li>
         </ul>
       </li>
-      <li>
+      <li{% if realm == 'rules' %} class="active"{% endif %}>
         <a href="{{ path('rules') }}">Règles</a>
         <ul>
           <li><a href="{{ path('rules.attributes') }}">Attributs</a></li>
           <li><a href="{{ path('rules.all_abilities') }}">Capacités</a></li>
           <li><a href="{{ path('rules.characteristics') }}">Caractéristiques</a></li>
-          <li><a href="{{ path('rules.skills') }}">Compétences</a></li>
           <li><a href="{{ path('rules.all_bursts') }}">Décharges</a></li>
           <li><a href="{{ path('rules.all_stuff') }}">Equipements</a></li>
         </ul>
       </li>
-      {#<li>#}
-        {#<a href="{{ path('tools') }}">Outils</a>#}
-        {#<ul>#}
-          {#<li><a href="{{ path('tools') }}">Créer une guild</a></li>#}
-          {#<li><a href="{{ path('tools') }}">Créer un personnage</a></li>#}
-        {#</ul>#}
-      {#</li>#}
+      <li>
+        <a href="{{ path('tools') }}">Outils</a>
+        <ul>
+          <li><a href="{{ path('lexicon') }}">Lexique</a></li>
+            {#<li><a href="{{ path('tools') }}">Créer une guild</a></li>#}
+            {#<li><a href="{{ path('tools') }}">Créer un personnage</a></li>#}
+        </ul>
+      </li>
     </ul>
+    {% endblock %}
+  </div>
+</nav>
 
-    <!--<div class="login">
-      <div class="login-user">
-        <span>Pierre-Chanel</span>
-        <span>Maître du jeu</span>
-      </div>
-      <div class="bg-user"></div>
-      <ul class="tabs">
-        <li>
-          <img src="{{ asset('resources/images/arrow-down.svg') }}" alt="arrow-down">
-          <ul>
-            <li><a href="#">Paramètres du compte</a></li>
-            <li><a href="#">Déconnexion</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>-->
+<nav class="navbar-mobile">
+  <div class="navbar-header">
+      <svg class="navbar-toggler" version="1.1" 
+           id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="459px" 
+           height="459px" 
+           viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+        <g>
+          <g id="menu">
+            <path d="M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z"/>
+          </g>
+        </g>
+      </svg>
+      <a class="logo" href="{{ path('home') }}">
+        <img src="{{ asset('resources/images/logo-navbar.svg') }}" alt="Logo Les Initiés"> 
+        <div>
+          <span>Les</span>
+          <span>Initiés</span>
+        </div>
+      </a>
+  </div>
+
+  <div class="burger-wrapper">
+    <div class="filter navbar-toggler"></div>
+    <div class="burger">
+      {{ block('items') }}
+    </div>
   </div>
 </nav>

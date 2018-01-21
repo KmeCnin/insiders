@@ -14,7 +14,7 @@ class CanonicalStuff extends AbstractRule
     use ShortTrait;
     use DescriptionTrait;
 
-    public const CODE = 'canonical_stuff';
+    public const CODE = 'stuff';
 
     /**
      * @var Stuff
@@ -142,6 +142,25 @@ class CanonicalStuff extends AbstractRule
         $this->category = $category;
 
         return $this;
+    }
+
+    public function quality(): string
+    {
+        switch ($this->getKind()->getId()) {
+            case StuffKind::KIND_WEAPON:
+                $properties = array_map(function (StuffProperty $property) {
+                    return $property->getSlug();
+                }, $this->getProperties()->toArray());
+                if (in_array(StuffProperty::PROPERTY_RANGED, $properties)) {
+                    return 'précision';
+                }
+                return 'allonge';
+            case StuffKind::KIND_ARMOR:
+            case StuffKind::KIND_SHIELD:
+                return 'protection';
+            default:
+                return 'qualité';
+        }
     }
 
     public function normalize(): array

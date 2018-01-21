@@ -45,6 +45,15 @@
         "characteristic": "hide"
     },
     {
+        "id": "sabotage",
+        "name": "Sabotage",
+        "enabled": true,
+        "public": true,
+        "short": "Capacité à percer à jour un mécanisme",
+        "description": "<p>Un personnage a recours au sabotage&nbsp;lorsqu&#39;il tente de crocheter une serrure ou&nbsp;d&eacute;samorcer un pi&egrave;ge.<\/p>",
+        "characteristic": "reveal"
+    },
+    {
         "id": "heal",
         "name": "Soin",
         "enabled": true,

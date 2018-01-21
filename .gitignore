@@ -11,7 +11,9 @@
 
 .idea
 config/packages/dev/doctrine_local.yaml
-public/resources/style/.sass-cache
-/public/resources/style/scss/style.css
-/public/resources/style/scss/style.css.map
+assets/style/.sass-cache
+/assets/scss/style.css
+/assets/scss/style.css.map
 /public/resources/build/
+
+node_modules/

@@ -3,7 +3,7 @@
 {# /universe/divinités #}
 {# @var deities \App\Entity\Rule\Deity #}
 
-{% set header_bg = asset('resources/images/bg-header-deities.jpg') %}
+{% set header_bg = asset('resources/images/bg-header-deity.jpg') %}
 {% set title = 'Divinités' %}
 
 {% block container %}
@@ -12,11 +12,12 @@
   </div>
 
   {% for deity in deities %}
-    {% include 'includes/sections/default.html.twig' with {
+    {% include 'includes/sections/deity.html.twig' with {
       'title': deity.name,
       'subtitle': deity.dignity,
       'description': deity.description,
       'slug': deity.slug,
+      'rule': deity,
       'icon': asset('resources/images/arcane/icons/'~deity.arcane.id~'.svg'),
       'bg': asset('resources/images/deity/'~deity.id~'.jpg'),
     } only %}

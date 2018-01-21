@@ -2,14 +2,23 @@
 
 {# /lexique #}
 
-{#{% set header_bg = asset('resources/images/bg-header-lexicon.jpg') %}#}
+{% set header_bg = asset('resources/images/bg-header-lexicon.jpg') %}
 {% set title = 'Lexique' %}
 {% set subtitle = '' %}
 
 {% block container %}
+  {#{% for word in lexicon %}
+    {{ word.name }}: {{ word.short }}<br>
+    {{ word.description|augment|raw }}<br>
+    <br>
+  {% endfor %}#}
+
+  <div class="table-wrapper">
     {% for word in lexicon %}
-        {{ word.name }}: {{ word.short }}<br>
-        {{ word.description|augment|raw }}<br>
-        <br>
+      <a href="#" class="table-item">
+        <div class="table-item-name">{{ word.name }}</div>
+        <div class="table-item-short">{{ word.short }}</div>
+      </a>
     {% endfor %}
+  </div>
 {% endblock %}
