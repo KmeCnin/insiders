@@ -23,4 +23,9 @@ $(document).ready(function () {
         topSpacing: 66,
         bottomSpacing: 50
     });
+
+    /*** Menu burger ***/
+    $('.navbar-toggler').click(function() {
+        $('.navbar-mobile').toggleClass('active');
+    })
 });

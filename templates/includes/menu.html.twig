@@ -38,22 +38,59 @@
         </ul>
       </li>
     </ul>
+  </div>
+</nav>
 
-    <!--<div class="login">
-      <div class="login-user">
-        <span>Pierre-Chanel</span>
-        <span>Maître du jeu</span>
-      </div>
-      <div class="bg-user"></div>
-      <ul class="tabs">
-        <li>
-          <img src="{{ asset('resources/images/arrow-down.svg') }}" alt="arrow-down">
+<nav class="navbar-mobile">
+  <div class="navbar-header">
+      <svg class="navbar-toggler" version="1.1" 
+           id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="459px" 
+           height="459px" 
+           viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+        <g>
+          <g id="menu">
+            <path d="M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z"/>
+          </g>
+        </g>
+      </svg>
+      <a class="logo" href="{{ path('home') }}">
+        <img src="{{ asset('resources/images/logo-navbar.svg') }}" alt="Logo Les Initiés"> 
+        <div>
+          <span>Les</span>
+          <span>Initiés</span>
+        </div>
+      </a>
+  </div>
+
+  <div class="burger-wrapper">
+    <div class="filter navbar-toggler"></div>
+    <div class="burger">
+      <ul>
+        <li class="parent-tabs">
+          <a href="#">Univers</a>
           <ul>
-            <li><a href="#">Paramètres du compte</a></li>
-            <li><a href="#">Déconnexion</a></li>
+            <li><a href="#">sous-item</a></li>
+            <li><a href="#">sous-item</a></li>
+          </ul>
+        </li>
+        <li class="parent-tabs">
+          <a href="#">Règles</a>
+          <ul>
+            <li><a href="#">sous-item</a></li>
+            <li><a href="#">sous-item</a></li>
+            <li><a href="#">sous-item</a></li>
+            <li><a href="#">sous-item</a></li>
+            <li><a href="#">sous-item</a></li>
+          </ul>
+        </li>
+        <li class="parent-tabs">
+          <a href="#">Outils</a>
+          <ul>
+            <li><a href="#">sous-item</a></li>
           </ul>
         </li>
       </ul>
-    </div>-->
+    </div>
   </div>
 </nav>

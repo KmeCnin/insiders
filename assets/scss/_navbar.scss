@@ -10,7 +10,7 @@
   z-index: 1000;
 
   border-bottom: 1px solid $secondary-color;
-  background: $dark-template;
+  background: #101010;
 
   @media #{$responsive-phone} {
     display: none;
@@ -141,51 +141,142 @@
   .tabs > li:hover ul {
     display: block;
   }
+}
 
-  .login {
-    height: 100%;
+
+
+/* ====================
+===== Menu burger =====
+==================== */
+.navbar-mobile {
+  display: none;
+
+  @media #{$responsive-phone} {
+    display: block;
+  }
+
+  .navbar-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 15px;
+    padding: 10px 15px;
 
-    .login-user {
-      text-align: right;
+    background: #101010;
 
-      span {
+    svg {
+      width: auto;
+      height: 15px;
+
+      fill: $primary-color;
+      cursor: pointer;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+  
+      img {
+        height: 23px;
+        margin: 0;
+      }
+
+      div {
+        display: none;
+      }
+  
+      div span {
         display: block;
-
+  
+        font-family: $font-family-primary;
+      }
+  
+      div span:first-of-type {
+        position: relative;
+        top: 3px;
+  
+        font-size: 0.8em;
         color: $primary-color;
       }
-
-      span:first-of-type {
-        font-size: 0.9em;
-      }
-
-      span:last-of-type {
-        font-size: 0.7em;
-        font-weight: 300;
+  
+      div span:last-of-type {
+        color: $secondary-color;
       }
     }
+  }
 
-    .bg-user {
-      width: 40px;
-      height: 40px;
-      margin: 0 15px 0 10px;
+  .filter {
+    display: none;
+    z-index: 4050;
+    position: absolute;
+    top: 40px;
+    right: 0%;
+    bottom: 0;
+    left: 0;
 
-      border-radius: 100%;
-      border: 1px solid $primary-color;
-      background: url(../../public/resources/images/user.jpg);
-      background-size: 110%;
-    }
+    background: rgba(0, 0, 0, 0.63);
+  }
 
-    .tabs > li {
-      padding: 0;
-    }
+  .burger-wrapper {
+      .burger {
+      z-index: 5000;
+      position: absolute;
+      top: 40px;
+      right: 100px;
+      bottom: 0;
+      left: 0;
 
-    img {
-      height: 6px;
-      cursor: pointer;
+      background: #101010;
+      transform: translateX(-300px);
+      transition: transform 0.5s;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        .parent-tabs {
+          ul {
+            li {
+              margin-bottom: 1px;
+
+              a {
+                display: block;
+                padding: 10px 60px;
+
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                color: $primary-color;
+                background: #101010;
+              }
+            }
+          }
+        }
+
+        .parent-tabs a {
+          display: block;
+          margin-bottom: 1px;
+          padding: 15px 30px;
+
+          font-family: $font-family-primary;
+          color: $primary-color;
+          background: rgba(255, 255, 255, 0.03);
+        }
+      }
     }
   }
 }
+
+.navbar-mobile.active {
+  .burger-wrapper {
+    .filter {
+      display: block;
+    }
+
+    .burger {
+      transform: translateX(0);
+    }
+  }
+}
+
+
 

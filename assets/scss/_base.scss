@@ -365,8 +365,7 @@ hr {
   }
 
   .need {
-    margin-bottom: 1em;
-    padding: 15px 0 0 0;
+    padding: 5px 0;
     font-size: 0.9em;
 
     label {
@@ -493,12 +492,27 @@ hr {
     border-bottom: 0.5px solid rgba(254, 203, 91, 0.35);
     transition: background 0.5s;
 
+    @media #{$responsive-phone} {
+      flex-direction: column;
+    }
+
     .table-item-name {
-      width: 40%;
-      font-weight: 500;
+      width: 30%;
+
+      font-size: 1.1em;
+      font-weight: 300;
+      color: $secondary-color;
+
+      @media #{$responsive-phone} {
+        width: 100%;
+      }
     }
     .table-item-short {
-      width: 60%;
+      width: 70%;
+
+      @media #{$responsive-phone} {
+        width: 100%;
+      }
     }
   }
 
