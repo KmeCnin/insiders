@@ -26,6 +26,6 @@ $(document).ready(function () {
 
     /*** Menu burger ***/
     $('.navbar-toggler').click(function() {
-        $('.navbar-mobile').toggleClass('active');
+        $('.navbar-mobile').toggleClass('open');
     })
 });

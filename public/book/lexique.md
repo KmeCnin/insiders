@@ -22,6 +22,7 @@ Notion | Résumé
 **[Carats](#anchor-carats)** | Carats
 **[Charge d&#039;arcanite](#anchor-charge-d-arcanite)** | Unité d&#039;énergie stockée dans un cristal d&#039;arcanite pouvant être absorbé
 **[Compétence](#anchor-competence)** | Cas particulier d&#039;usage d&#039;une caractéristique
+**[Concentration](#anchor-concentration)** | Poursuite d&#039;une tâche unique empêchant les efforts importants
 **[Contact](#anchor-contact)** | Distance réduite propice aux attaques de mêlée
 **[Décharge d&#039;arcanite](#anchor-decharge-d-arcanite)** | Effet spectaculaire déclenché par la libération d&#039;une charge de cristal d&#039;arcanite
 **[Distance](#anchor-distance)** | Portée à laquelle un personnage est capable d&#039;intéragir
@@ -145,6 +146,12 @@ L&#039;utilisation d&#039;une charge d&#039;arcanite permet de débloquer l&#039
 ## <a name="anchor-competence"></a> Compétence
 
 On appelle **compétence** un exemple d&#039;application particulière d&#039;une _caractéristique_. Par exemple la _compétence_ Attaque est un cas particulier de la _caractéristique_ Imposer. La plupart du temps il n&#039;est pas indispensable de distinguer une compétence de sa caractéristique associée mais dans certains cas, des bonus ou malus s&#039;applique à une compétence changeant ainsi la valeur du jet à utiliser par rapport au score de compétence. Par exemple une _épée_ confère un bonus lors de l&#039;Attaque, le personnage utilisera donc un score plus important lors de ses attaques que son score d&#039;Imposer de base.
+## <a name="anchor-concentration"></a> Concentration
+
+Certaines actions ou _capacités arcaniques_ nécessite q&#039;un personnage se **concentre** pour que l&#039;effet perdure.
+
+Lorsqu&#039;un personnage se concentre, il ne peut pas effectuer d&#039;actions nécessitant un jet de _caractéristique_.  
+ S&#039;il devait être forcé d&#039;effectuer un tel jet (dans le cas où il est _attaqué_ par exemple), le personnage peut choisir de maintenir sa concentration et de rater obligatoirement son jet ou bien d&#039;interrompre sa concentration et d&#039;avoir une chance de lancer son jet.
 ## <a name="anchor-contact"></a> Contact
 
 Deux _entités_ sont considérées **au contact** si elles se situent assez proches l&#039;une de l&#039;autre pour pouvoir s&#039;attaquer avec des armes de mêlée (dague, épée, bâton...) ou des _attributs physiques_ (griffes, crocs, poings...).
@@ -184,9 +191,9 @@ On nomme **entité**, toutes les choses, vivantes ou non, possédant au moins 1 
 Par exemple des personnages pourront s&#039;affronter, un équipement améliorera les compétences de son porteur, une blessure restreindra les actions d&#039;un personnage, etc.
 ## <a name="anchor-equipement"></a> Équipement
 
-Les personnages (et plus rarement les animaux) peuvent porter sur eux des **équipements** les aidant à combattre (armes, armures, boucliers, etc.) ou à accomplir aisément des tâches spécifiques (capes, cordes, longues-vues, etc.). Certains équipements à usage unique ne confèrent un bonus que lors d&#039;une seule utilisation, on les appelle _consommables_.
+Les personnages (et plus rarement les animaux) peuvent porter sur eux des **équipements** les aidant à combattre (armes, armures, boucliers, etc.) ou à accomplir aisément des tâches spécifiques (capes, cordes, longues-vues, etc.). Certains équipements à usage unique ne confèrent un bonus que lors d&#039;une seule utilisation, on les appelle **consommables**.
 
-Tous les équipements possèdent un _prix_ en _carats_ définissant leur coût d&#039;acquisition et de revente moyen chez un marchant mais il peut varier d&#039;un commerçant à un autre.
+Tous les équipements possèdent un _prix_ en _carats_ définissant leur coût d&#039;acquisition et de revente moyen chez un marchant mais il peut varier selon le commerce.
 
 Les équipements possèdent également une valeur définissant leur efficacité appelée _allonge_ pour les **armes de corps à corps**, _précision_ pour les **armes à distance**, _protection_ pour les **armures** et **boucliers** et _qualité_ pour lesautres **objets**. Mais dans tous les cas cette valeur représente le bonus conféré par cette équipement au jet de _compétence_ associé. Par exemple une arme avec une allonge de 2, confère un bonus de 2 dés supplémentaires au score d&#039;_Instinct_ en _Imposer_ lorsque le personnage _attaque_ avec.
 

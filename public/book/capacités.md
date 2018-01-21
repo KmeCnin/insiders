@@ -75,9 +75,9 @@ A chaque fois qu&#039;il utilise cette capacité, le personnage subit une _bless
 Le personnage acquière un contrôle total de son esprit lui permettant d&#039;ignorer les verrous psychiques et tirer le plein potentiel de ses capacités physiques et intellectuelles.
 
 En débloquant cette capacité le personnage choisit deux _caractéristiques_ et peut utiliser ses scores de _Maîtrise_ comme bonus de score d&#039;_Instinct_ aux caractéristiques choisies.  
- Par exemple s&#039;il possède un score d&#039;_Instinct_ de 3 en Imposer et un score de Maîtrise de 2, on considère dorénavant qu&#039;il possède un score d&#039;Instinct de 5 et pas de score de Maîtrise.
+ Par exemple s&#039;il possède un score d&#039;_Instinct_ de 3 en Imposer et un score de Maîtrise de 2, lorsqu&#039;il doit réaliser un jet d&#039;Imposer, il lancera 5 dès et les conservera tous comme s&#039;il avait 5 en Instinct et 0 en Maîtrise.
 
-S&#039;il gagne de nouveaux points de Maîtrise, ses scores sont modifiés immédiatement. Cela fonctionne également avec les points obtenus grâce à _Partage d&#039;expérience_.
+S&#039;il a besoin d&#039;utiliser directement ses scores de Maîtrise comme pour _Partage d&#039;expérience_, on considère que ses points ne sont pas changés.
 
 **Augmentations:**
 - Améliore toutes ses caractéristiques
@@ -123,6 +123,10 @@ Le personnage a conscience de l’existence des formes de vies alentours (végé
 Le personnage localise précisément les êtres vivants à distance et est capable, sans le voir, de différencier un être intelligent d&#039;un animal ou d&#039;un simple végétal. Mais il ne peut cependant pas discerner plus précisément l&#039;identité d&#039;une personne, même très bien connue, sans l&#039;avoir en visuel.
 
 Les _simulacres_ ne possèdent pas d&#039;esprit et ne peuvent donc pas être perçus de la sorte. Ce qui peut être un inconvenient mais également un avantage pour discerner l&#039;individu original au milieu des faux.
+
+**Augmentations:**
+- Peut percevoir à travers une cible distante
+
 
 ### <a name="anchor-telepathie"></a>Télépathie
 
@@ -219,6 +223,17 @@ Les doubles possèdent tous les _équipements_ et capacités du personnage ainsi
 **Augmentations:**
 - Chaque clone possède un point dans deux caractéristiques au choix
 
+
+### <a name="anchor-forme-etheree"></a>Forme éthérée
+
+**Peut traverser la matière solide**
+
+Le personnage est capable de modifier la densité de son corps pour le rendre permeable à la matière solide.  
+ Cela lui permet de traverser des murs, des être-vivants, de fusionner avec une paroi, etc. Il ne peut cependant pas ignorer de _champ de force_ sans faire un jet ni traverser de _barrière de force_.
+
+Lorsqu&#039;il devient éthéré, son corps adopte une teinte légèrement transparente mais le personnage reste nettement visible.  
+ Dans cet état, Le personnage reste soumis à la gravité. Il peut remonter à travers une paroi mais ne peut pas léviter dans les airs.  
+ Il est également capable de fusionner dans n&#039;importe quelle paroi solide et ne laisser dépasser qu&#039;une partie de son corps (yeux pour voir, oreille pour entendre, etc.).
 
 ### <a name="anchor-transfert-de-force-vitale"></a>Transfert de force vitale
 
@@ -341,6 +356,21 @@ Le personnage peut générer un champ de force attractif centré sur lui-même.
 Grâce à un jet d&#039;_Imposer_ à _distance_, il peut attirer à lui un objet tenu par un adversaire et le saisir avec une main libre.  
  Grâce à un jet d&#039;Imposer à distance, il peut attirer vers lui un adversaire qui se retrouve alors _au contact_.  
  Les adversaires au contact du joueur doivent d&#039;abord réussir un jet de _Résister_ pour pouvoir s&#039;en éloigner.
+
+### <a name="anchor-stase"></a>Stase
+
+**Immobilise complètement une cible**
+
+**Nécessite:**
+[Attraction](#anchor-attraction), [Répulsion](#anchor-repulsion)
+
+Le personnage est capable d&#039;utiliser simultanément un champ de force _répulsif_ et _attractif_ pour maintenir une cible dans un état d&#039;immobilité totale.  
+ Cela lui permet par exemple d&#039;immobiliser un ennemi, de maintenir un objet en l&#039;air, de créer une passerelle en lévitation, bloquer une porte, etc.
+
+Grâce à un jet d&#039;_Imposer_ à _distance_, il peut immobiliser un ennemi qui ne peut alors plus déplacer ses membres. Les seules actions possibles qu&#039;il lui reste sont parler, bouger les yeux, utiliser des capacités arcaniques mentales.  
+ Le personnage doit lancer un nouveau jet d&#039;Imposer chaque tour et ne peut pas faire d&#039;action nécessitant un jet de caractéristique tant qu&#039;il maintient sa prise.
+
+Il peut également utiliser cette capacité sur un objet. Dans ce cas, il ne peut plus être déplacer à moins de réussir un jet de _Résister_ opposé au personnage. Si l&#039;objet était en train de tomber, il stop net sa chute et peut supporter un poids égale à celui que le personnage pourrait soulever. Un objet en état de stase ne peut pas être déplacer à distance à moins que le personnage utilise la capacité _Psychokinèse_ ou qu&#039;un adverse réussisse un jet opposé en usant de Psychokinèse sur l&#039;objet.
 
 ### <a name="anchor-champ-de-force"></a>Champ de force
 
@@ -597,7 +627,7 @@ Le personnage maîtrise les flux thermiques, il peut rapidement diminuer la temp
  Cela lui permet par exemple de solidifier de l&#039;eau, geler des tissus vivants au contact, etc.
 
 Grâce à un jet d&#039;_Imposer_ au _contact_, il peut infliger une _blessure_ de degré I en gelant son adversaire.  
- Il peut rapidement solidifier l&#039;humidité de l&#039;air au niveau du point d&#039;impact d&#039;un coup afin d&#039;augmenter de 1 point son jet de _Défense_ contre les blessures physiques.  
+ Il peut rapidement solidifier l&#039;humidité de l&#039;air au niveau du point d&#039;impact d&#039;un coup afin d&#039;augmenter de 1 dé son jet de _Défense_ contre les blessures physiques.  
  Il possède également une _résistance_ aux gelures.
 
 **Augmentations:**
@@ -643,6 +673,22 @@ Le personnage peut ralentir le temps sur une zone restreinte pendant un court in
 
 Lorsqu&#039;il effectue un jet d&#039;_Attaque_ ou de _Défense_ au _contact_, il peut ralentir son ennemi pour obtenir un bonus d&#039;un point à son jet.  
  Il peut ralentir des projectiles lancés à porté pour les rendre inefficaces.
+
+### <a name="anchor-inversion-de-gravite"></a>Inversion de gravité
+
+**Contrôle la direction d&#039;application de la force de gravité**
+
+Le personnage peut modifier la direction dans laquelle s&#039;applique la force gravitationnelle d&#039;un volume précis.  
+ Cela lui permet de marcher sur les murs, projeter un ennemi au plafond, déplacer des objets lourds, dévier la trajectoire d&#039;un projectile, etc.
+
+Il peut choisir une surface représentant environ 1m2 à partir de laquelle la gravité s&#039;appliquera comme s&#039;il s&#039;agissait du sol.  
+ Seuls les objets et individus entièrement en contact avec cette surface subissent le changement de gravité. C&#039;est à dire qu&#039;un individu ayant un pied en contact avec la surface modifiée et un pied sur le sol normal ne subira aucun effet jusqu&#039;à ce qu&#039;il pose ses deux pieds dans la zone affectée. De même, un mur ne subira l&#039;effet que s&#039;il tient entièrement sur la surface en question (mais ses fondations risquent de le maintenir tout de même au sol).
+
+Le personnage peut maintenir la modification tant qu&#039;il se _concentre_.
+
+**Augmentations:**
+- Peut maintenir l&#039;effet sans concentration
+
 
 ### <a name="anchor-localisation"></a>Localisation
 
@@ -715,7 +761,7 @@ Le personnage ne fait aucun bruit de pas ni d’équipement lorsqu’il se dépl
 
 Il ne laisse aucun trace permettant de le pister (en forêt, dans la neige, dans le sable...).
 
-Si le personnage est équipé d&#039;un harnois, il ne subit plus le malus en _discrétion_.
+Si le personnage est équipé d&#039;un _harnois_, il ne subit plus le malus en _discrétion_.
 
 ### <a name="anchor-invisibilite"></a>Invisibilité
 
@@ -765,7 +811,7 @@ Le personnage peut contrôler l&#039;obscurité alentour à volonté.
 
 Il peut diminuer la luminosité de la zone autour de lui aussi finement qu&#039;il le souhaite, la faisant varier d&#039;une peine-ombre, à une nuit sans lune jusqu&#039;à obtenir une obscurité absolument totale dans laquelle même les animaux _nyctalopes_ sont aveugles. La zone affectée doit être une sphère centrée sur le personnage d&#039;un rayon n&#039;excédant pas _sa portée_.
 
-Grâce à un jet d&#039;_Imposer_ à _distance_, il peut créer une petite zone d&#039;obscurité totale autour des yeux d&#039;un ennemi pour le rendre aveugle. Le personnage doit lancer un nouveau jet d&#039;Imposer chaque tour pour que la zone d&#039;ombre suive les mouvements de sa cible et ne peut pas faire d&#039;action nécessitant un jet de _caractéristique_ tant qu&#039;il maintient l&#039;aveuglement.  
+Grâce à un jet d&#039;_Imposer_ à _distance_, il peut créer une petite zone d&#039;obscurité totale autour des yeux d&#039;un ennemi pour le rendre aveugle. Le personnage doit lancer un nouveau jet d&#039;Imposer chaque tour pour que la zone d&#039;ombre suive les mouvements de sa cible et se _concentrer_ tant qu&#039;il maintient l&#039;aveuglement.  
  Les yeux du personnage sont habitués à l&#039;obscurités, il peut voir dans la pénombre comme s&#039;il possédait l&#039;_attribut_ _nyctalopes_.
 
 ### <a name="anchor-usurpation-d-identite"></a>Usurpation d&#039;identité

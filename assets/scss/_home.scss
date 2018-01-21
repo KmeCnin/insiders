@@ -245,8 +245,8 @@
     color: $primary-color;
 
     @media #{$responsive-phone} {
-      width: 50%;
-      height: 190px;
+      width: 50vw;
+      height: 50vw;
     }
 
     .content {
@@ -310,7 +310,8 @@
     cursor: pointer;
 
     @media #{$responsive-phone} {
-      height: 250px;
+      width: 50vw;
+      height: 50vw;
     }
 
     .border {

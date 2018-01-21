@@ -11,6 +11,7 @@
     {% set route = app.request.attributes.get('_route') %}
     {% set realm = route|split('.')[0] %}
 
+    {% block items %}
     <ul class="tabs">
       <li{% if realm == 'universe' %} class="active"{% endif %}>
         <a href="{{ path('universe') }}">Univers</a>
@@ -38,6 +39,7 @@
         </ul>
       </li>
     </ul>
+    {% endblock %}
   </div>
 </nav>
 
@@ -66,31 +68,7 @@
   <div class="burger-wrapper">
     <div class="filter navbar-toggler"></div>
     <div class="burger">
-      <ul>
-        <li class="parent-tabs">
-          <a href="#">Univers</a>
-          <ul>
-            <li><a href="#">sous-item</a></li>
-            <li><a href="#">sous-item</a></li>
-          </ul>
-        </li>
-        <li class="parent-tabs">
-          <a href="#">Règles</a>
-          <ul>
-            <li><a href="#">sous-item</a></li>
-            <li><a href="#">sous-item</a></li>
-            <li><a href="#">sous-item</a></li>
-            <li><a href="#">sous-item</a></li>
-            <li><a href="#">sous-item</a></li>
-          </ul>
-        </li>
-        <li class="parent-tabs">
-          <a href="#">Outils</a>
-          <ul>
-            <li><a href="#">sous-item</a></li>
-          </ul>
-        </li>
-      </ul>
+      {{ block('items') }}
     </div>
   </div>
 </nav>

@@ -234,25 +234,23 @@
         padding: 0;
         list-style-type: none;
 
-        .parent-tabs {
-          ul {
-            li {
-              margin-bottom: 1px;
+        ul {
+          li {
+            margin-bottom: 1px;
 
-              a {
-                display: block;
-                padding: 10px 60px;
+            a {
+              display: block;
+              padding: 10px 60px;
 
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 300;
-                color: $primary-color;
-                background: #101010;
-              }
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 300;
+              color: $primary-color;
+              background: #101010;
             }
           }
         }
 
-        .parent-tabs a {
+        a {
           display: block;
           margin-bottom: 1px;
           padding: 15px 30px;
@@ -266,7 +264,7 @@
   }
 }
 
-.navbar-mobile.active {
+.navbar-mobile.open {
   .burger-wrapper {
     .filter {
       display: block;

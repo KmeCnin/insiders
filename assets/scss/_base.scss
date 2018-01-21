@@ -50,6 +50,11 @@ hr {
       rgba(0, 0, 0, 0)
     )
   ;
+
+  @media #{$responsive-phone} {
+    display: none;
+  }
+
 }
 
 *:focus {outline:none}
