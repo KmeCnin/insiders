@@ -518,9 +518,10 @@ hr {
     .table-item-name {
       width: 30%;
 
-      font-size: 1.1em;
+      font-size: 1em;
       font-weight: 300;
-      color: $secondary-color;
+      color: $primary-color;
+      font-family: $font-family-primary;
 
       @media #{$responsive-phone} {
         width: 100%;
