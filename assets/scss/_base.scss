@@ -70,9 +70,12 @@ hr {
   margin: 30px 20px;
   padding: 15px 30px;
 
-  background: rgba(0, 0, 0, 0.6);
-  border: 1px solid $secondary-color;
-  font-family: $font-family-primary;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s;
+  border: 1px solid rgba(254, 203, 91, 0.5);
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
   color: $secondary-color;
   cursor: pointer;
 
@@ -81,6 +84,10 @@ hr {
     margin: 10px;
     font-size: 0.8em;
   }
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /* ===================
