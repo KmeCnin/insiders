@@ -22,14 +22,14 @@
     padding: 0 0 5px 0;
 
     font-size: 0.96em;
-    color: #101010;
+    color: $dark-bg;
   }
 
   .popover-body {
     font-size: 0.9em;
     line-height: 0.9em;
     font-weight: 300;
-    color: #101010;
+    color: $dark-bg;
   }
 }
 .modal .popover {

@@ -10,7 +10,7 @@
   padding: 0 30px;
   z-index: 1000;
 
-  background: #101010;
+  background: $dark-bg;
 
   @media #{$responsive-phone} {
     display: none;
@@ -91,7 +91,7 @@
 
       list-style-type: none;
       border-radius: 2px;
-      background: #101010;
+      background: $dark-bg;
 
       li {
         margin: 0;
@@ -165,7 +165,7 @@
     align-items: center;
     padding: 10px 15px;
 
-    background: #101010;
+    background: $dark-bg;
 
     svg {
       width: auto;
@@ -229,7 +229,7 @@
       bottom: 0;
       left: 0;
 
-      background: #101010;
+      background: $dark-bg;
       transform: translateX(-300px);
       transition: transform 0.5s;
 
@@ -249,7 +249,7 @@
               font-family: 'Open Sans', sans-serif;
               font-weight: 300;
               color: $primary-color;
-              background: #101010;
+              background: $dark-bg;
             }
           }
         }

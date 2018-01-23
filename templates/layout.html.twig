@@ -55,6 +55,34 @@
       </div>
     </main>
 
+    <footer>
+      <div class="container">
+        <p>Copyright © 2018 Insiders-rpg-v0.0.1. Tous droits réservés | Mentions légales | Conditions d’ulisation</p>
+        <p>Wizards of the Coast, Magic: The Gathering, et leur logos sont des marques déposées de Wizards of the Coast LLC aux Etats-Unis et dans les autres pays. ©2014 Wizards. Tous droits réservés.<br>
+        Ce site internet n'est ni affilié, ni recommandé, ni sponsorisé, ni approuvé par Wizards of the Coast.</p>
+
+        <nav class="nav-footer">
+          <ul>
+            <li><a class="parent-tab" href="{{ path('universe') }}">Univers</a></li>
+            <li><a href="{{ path('universe.arcanes') }}">Arcanes</a></li>
+            <li><a href="{{ path('universe.deities') }}">Divinités</a></li>
+          </ul>
+          <ul>
+            <li><a class="parent-tab" href="{{ path('rules') }}">Règles</a></li>
+            <li><a href="{{ path('rules.attributes') }}">Attributs</a></li>
+            <li><a href="{{ path('rules.all_abilities') }}">Capacités</a></li>
+            <li><a href="{{ path('rules.characteristics') }}">Caractéristiques</a></li>
+            <li><a href="{{ path('rules.all_bursts') }}">Décharges</a></li>
+            <li><a href="{{ path('rules.all_stuff') }}">Equipements</a></li>
+          </ul>
+          <ul>
+            <li><a class="parent-tab" href="{{ path('tools') }}">Outils</a></li>
+            <li><a href="{{ path('lexicon') }}">Lexique</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
     {# MODALS #}
     {{ render_rule_modals()|raw }}
 
