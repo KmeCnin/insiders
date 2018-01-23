@@ -10,7 +10,8 @@
 ###< symfony/web-server-bundle ###
 
 .idea
-config/packages/dev/doctrine_local.yaml
+/config/packages/dev/doctrine_local.yaml
+/config/packages/prod/doctrine_local.yaml
 assets/style/.sass-cache
 /assets/scss/style.css
 /assets/scss/style.css.map
