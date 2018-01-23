@@ -143,6 +143,10 @@
 
   list-style-type: none;
   color: $primary-color;
+
+  @media #{$responsive-phone} {
+    display: none;
+  }
 }
   
 .vertical-breadcrumb li {
