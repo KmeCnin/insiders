@@ -20,7 +20,7 @@ $(document).ready(function () {
 
     /*** Sticky Breadcrumbs (https://github.com/garand/sticky) ***/
     $('.breadcrumb').sticky({
-        topSpacing: 66,
+        topSpacing: 65,
         bottomSpacing: 50
     });
 

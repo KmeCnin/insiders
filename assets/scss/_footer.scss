@@ -1,0 +1,53 @@
+/* ===================
+======= Footer =======
+=================== */
+
+footer {
+    background: $dark-bg;
+  
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+  
+      font-weight: 300;
+      font-size: 0.7em;
+      color: $primary-color;
+  
+      @media #{$responsive-phone} {
+        padding: 15px;
+      }
+  
+      p {
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+      }
+  
+      .nav-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+  
+        ul {
+          padding-left: 0;
+          margin: 0 20px;
+          list-style-type: none;
+  
+          li {
+            .parent-tab {
+              display: block;
+              margin-bottom: 10px;
+              font-size: 1.1em;
+              font-weight: 500;
+            }
+  
+            a {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  
