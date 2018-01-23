@@ -35,10 +35,10 @@ Surin|0|Blessure de degré I|9000
 
 |Genre|Protection|Propriété|Prix|
 |---|---:|---|---:|
+Armure de cuir|1| |9000
 Bouclier|1| |9000
 Cotte de mailles|2| |18000
 Harnois|3| |27000
-Armure de cuir|1| |9000
 
 ## Objets
 
