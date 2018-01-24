@@ -16,5 +16,6 @@ assets/style/.sass-cache
 /assets/scss/style.css
 /assets/scss/style.css.map
 /public/resources/build/
+/public/index_prod.php
 
 node_modules/
