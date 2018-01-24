@@ -1,19 +1,15 @@
 ###> symfony/framework-bundle ###
-.env
+/.env
 /public/bundles/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
 
-/.idea###> symfony/web-server-bundle ###
-.web-server-pid
+###> symfony/web-server-bundle ###
+/.web-server-pid
 ###< symfony/web-server-bundle ###
 
-.idea
-config/packages/dev/doctrine_local.yaml
-assets/style/.sass-cache
+/.idea
+/node_modules/
 /assets/scss/style.css
 /assets/scss/style.css.map
-/public/resources/build/
-
-node_modules/

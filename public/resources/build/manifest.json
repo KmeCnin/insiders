@@ -1,0 +1,15 @@
+{
+  "resources/build/app.js": "/resources/build/app.js",
+  "resources/build/fonts/CinzelDecorative-Bold.otf": "/resources/build/fonts/CinzelDecorative-Bold.61d2f3ea.otf",
+  "resources/build/fonts/augustus.ttf": "/resources/build/fonts/augustus.258d71cd.ttf",
+  "resources/build/images/block-mj.jpg": "/resources/build/images/block-mj.7937c1d0.jpg",
+  "resources/build/images/block-player.jpg": "/resources/build/images/block-player.0adb3bdb.jpg",
+  "resources/build/images/default.jpg": "/resources/build/images/default.9bf339a8.jpg",
+  "resources/build/images/home-short-bg1.png": "/resources/build/images/home-short-bg1.81217d97.png",
+  "resources/build/images/home-short-bg2.png": "/resources/build/images/home-short-bg2.08b293f2.png",
+  "resources/build/images/home-short-bg3.png": "/resources/build/images/home-short-bg3.f542f7ab.png",
+  "resources/build/images/rules.jpg": "/resources/build/images/rules.4f1ebe55.jpg",
+  "resources/build/images/tools.jpg": "/resources/build/images/tools.36a2bc07.jpg",
+  "resources/build/images/universe.jpg": "/resources/build/images/universe.3deebf10.jpg",
+  "resources/build/style/css/style.css": "/resources/build/style/css/style.css"
+}
