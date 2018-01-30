@@ -163,13 +163,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 20px 25px;
 
     background: $dark-bg;
 
     svg {
       width: auto;
-      height: 15px;
+      height: 20px;
 
       fill: $primary-color;
       cursor: pointer;
@@ -180,7 +180,7 @@
       align-items: center;
   
       img {
-        height: 23px;
+        height: 28px;
         margin: 0;
       }
 
@@ -230,7 +230,7 @@
       left: 0;
 
       background: $dark-bg;
-      transform: translateX(-350px);
+      transform: translateX(-100%);
       transition: transform 0.5s;
 
       ul {
