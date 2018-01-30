@@ -252,14 +252,18 @@
     .content {
       max-width: 200px;
       z-index: 500;
+      position: absolute;
+      top: 70px;
 
       @media #{$responsive-phone} {
-        max-width: 160px;
+        max-width: 170px;
+        top: 50px;
       }
 
       img {
         width: auto;
         height: 30px;
+        display: none;
       }
 
       h3 {
