@@ -204,3 +204,23 @@
   opacity: 0.3;
   transition: opacity 0.5s;
 }
+
+
+
+/* =========================
+=== Breadcrumbs mobile ===
+========================= */
+.breadcrumb-mobile {
+  display: none;
+
+  @media #{$responsive-phone} {
+    display: block;
+  }
+
+  a {
+    img {
+      width: auto;
+      height: 30px;
+    }
+  }
+}
