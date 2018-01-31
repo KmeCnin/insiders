@@ -40,10 +40,10 @@
   background-size: 100%;
 
   @media #{$responsive-phone} {
-    top: 1%;
-    bottom: 1%;
-    left: 3%;
-    right: 3%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -78,6 +78,10 @@
   display: flex;
   justify-content: space-between;
   z-index: 50;
+
+  @media #{$responsive-phone} {
+    flex-direction: column;
+  }
 
   .modal-header {
     width: 40%;
@@ -118,6 +122,10 @@
       cursor: pointer;
       opacity: 0.7;
       transition: opacity 0.5s;
+
+      @media #{$responsive-phone} {
+        font-size: 3em;
+      }
     }
 
     .close:hover {
@@ -143,9 +151,12 @@
     background: rgba(0, 0, 0, 0.8);
 
     @media #{$responsive-phone} {
+      position: static;
       top: 40%;
       left: 0%;
       padding: 0px 15px 20px 15px;
+      overflow-y: hidden;
+      margin-top: 60%;
     }
   }
 
