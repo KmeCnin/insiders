@@ -7,15 +7,14 @@
 {% set subtitle = '' %}
 
 {% block container %}
-  {#{% for word in lexicon %}
-    {{ word.name }}: {{ word.short }}<br>
-    {{ word.description|augment|raw }}<br>
-    <br>
-  {% endfor %}#}
-
   <div class="table-wrapper">
     {% for word in lexicon %}
-      <a href="#" class="table-item">
+      <a
+        href="{{ word|rule_link }}"
+        class="table-item toggle-popup"
+        data-toggle="modal"
+        data-target="#{{ word|create_rule_modal }}"
+      >
         <div class="table-item-name">{{ word.name }}</div>
         <div class="table-item-short">{{ word.short }}</div>
       </a>

@@ -14,4 +14,4 @@
 /assets/scss/style.css
 /assets/scss/style.css.map
 /public/index_prod.php
-/config/packages/dev/doctrine_local.yaml
+/config/packages/prod/doctrine_local.yaml
