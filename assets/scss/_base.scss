@@ -126,7 +126,7 @@ hr {
 
   @media #{$responsive-phone} {
     width: 92%;
-    top: 40%;
+    top: 55%;
     right: 15px;
   }
 
@@ -234,6 +234,7 @@ hr {
 
   @media #{$responsive-phone} {
     margin: auto auto 0 auto;
+    border-bottom: 1px solid $secondary-color;
   }
 }
 
@@ -321,7 +322,7 @@ hr {
   z-index: 10;
 
   @media #{$responsive-phone} {
-    padding: 15px;
+    padding: 35px 15px 15px 30px;
   }
 
   div {
@@ -375,7 +376,7 @@ hr {
 
   @media #{$responsive-phone} {
     margin-top: 135px;
-    padding: 5px 15px;
+    padding: 15px 15px 35px 15px;
     background: rgba(0, 0, 0, 0.7);
   }
 

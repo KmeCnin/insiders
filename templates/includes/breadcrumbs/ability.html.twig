@@ -21,3 +21,16 @@
     {% endfor %}
   </div>
 </div>
+
+<div class="breadcrumb-mobile">
+  {% for arcaneBreadcrumb in arcanes %}
+    <a href="{{ path('rules.abilities', {'slug': arcaneBreadcrumb.slug}) }}" {% if arcane is defined and arcane == arcaneBreadcrumb %}class="active"{% endif %}>
+      <img src="{{ asset('resources/images/arcane/icons/'~arcaneBreadcrumb.id~'.svg') }}" alt="{{ arcaneBreadcrumb.name }}">
+      <span>{{ arcaneBreadcrumb.name }}</span>
+      <div class="bullets">
+        <div class="bullet-active"></div>
+        <div class="bullet-default"></div>
+      </div>
+    </a>
+  {% endfor %}
+</div>
