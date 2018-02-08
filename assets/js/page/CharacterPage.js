@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 // InputForm
-import MultipleSelect from '../component/MultipleSelect';
-import InputText from '../component/InputText';
-import InputNumber from '../component/InputNumber';
-import InputReadonly from '../component/InputReadonly';
+import MultipleSelect from '../component/MultipleSelect'
+import InputText from '../component/InputText'
+import InputNumber from '../component/InputNumber'
+import InputReadonly from '../component/InputReadonly'
 // StoreData
-import abilities from '../../../public/rules/ability.json';
-import attributes from '../../../public/rules/attribute.json';
-import arcanes from '../../../public/rules/arcane.json';
+import AbilityStore from '../store/AbilityStore'
+import AttributeStore from '../store/AttributeStore'
+import ArcaneStore from '../store/ArcaneStore'
+import IncreaseStore from '../store/IncreaseStore'
 
 export default class CharacterPage extends Component {
 
@@ -24,11 +25,13 @@ export default class CharacterPage extends Component {
             dis: 1,
             abilities: [],
             arcanes: [],
+            increases: [],
             attributes: [],
+            carats: 0,
         }
     }
 
-    handleSubmit(event) {
+    static handleSubmit(event) {
         event.preventDefault()
     }
 
@@ -36,11 +39,9 @@ export default class CharacterPage extends Component {
         return this.state.abilities.length * 2
         + this.state.arcanes.length
         + this.state.attributes.reduce((sum, attributeId) => {
-                var attribute = attributes.find((attribute) => {
-                    return attribute.id === attributeId
-                })
-                return sum + attribute.pc
-            }, 0)
+            return sum + AttributeStore.find(attributeId).pc
+        }, 0)
+        + this.state.increases.length
         + this.state.imp
         + this.state.res
         + this.state.dev
@@ -53,21 +54,6 @@ export default class CharacterPage extends Component {
 
     remainingPC = () => {
         return this.state.FPmax - this.computeFP()
-    }
-
-    getIncreases = () => {
-        var increases = []
-        this.state.abilities.forEach((ability, indexAbility) => {
-            ability.increases.forEach((increase, indexIncrease) => {
-                increases.push({
-                    ability: ability,
-                    index: indexIncrease,
-                    increase: increase,
-                })
-            })
-        })
-
-        return increases
     }
 
     render() {
@@ -135,31 +121,42 @@ export default class CharacterPage extends Component {
                 <MultipleSelect
                     label="Voies arcaniques"
                     selected={this.state.arcanes}
-                    list={arcanes.map((arcane, index) => {
+                    list={ArcaneStore.findAll().map(arcane => {
                         return {
                             key: arcane.id,
                             name: arcane.name,
-                            disabled: !this.isAvailableFor(1) && -1 === this.state.arcanes.indexOf(arcane.id),
+                            disabled: !this.isAvailableFor(1)
+                                && -1 === this.state.arcanes.indexOf(arcane.id),
                         }
                     })}
-                    onChange={(event) => {this.setState({
-                        arcanes: [].slice
-                            .call(event.target.selectedOptions)
-                            .map(o => o.value)
-                    })}}
+                    onChange={(event) => {
+                        // Get new selected arcanes.
+                        this.setState({
+                            arcanes: [].slice
+                                .call(event.target.selectedOptions)
+                                .map(o => o.value)
+                        })
+                        // Remove abilities not in selected arcanes.
+                        this.setState(this.state.abilities.filter(
+                            abilityId => -1 !== this.state.arcanes.indexOf(
+                                AbilityStore.find(abilityId).arcane
+                            )
+                        ))
+                    }}
                 />
                 <MultipleSelect
                     label="Capacités"
                     selected={this.state.abilities}
                     list={
-                        abilities
+                        AbilityStore.findAll()
                             .filter((ability, index) =>
                                 -1 !== this.state.arcanes.indexOf(ability.arcane)
                             )
                             .map((ability, index) => ({
                                 key: ability.id,
                                 name: ability.name,
-                                disabled: !this.isAvailableFor(2) && -1 === this.state.abilities.indexOf(ability.id),
+                                disabled: !this.isAvailableFor(2)
+                                    && -1 === this.state.abilities.indexOf(ability.id),
                             }))
                     }
                     onChange={(event) => {this.setState({
@@ -168,42 +165,52 @@ export default class CharacterPage extends Component {
                             .map(o => o.value)
                     })}}
                 />
-                {/* <MultipleSelect
+                {<MultipleSelect
                     label="Augmentations"
                     selected={this.state.increases}
-                    list={this.getIncreases().map((entry, index) => {
+                    list={IncreaseStore.findByAbilities(this.state.abilities).map(increase => {
+                        const ability = AbilityStore.find(increase.ability)
                         return {
-                            key: entry.ability.id+"-"+entry.index,
-                            name: entry.ability.name+" "+entry.index,
-                            disabled: !this.isAvailableFor(1) && -1 === this.state.increases.indexOf(attribute.id),
+                            key: increase.id,
+                            name: ability.name+' '+increase.rank+' ('+increase.short+')',
+                            disabled: !this.isAvailableFor(1)
+                                && -1 === this.state.increases.indexOf(increase.id),
                         }
                     })}
-                    onChange={(event) => {this.setState({
-                        abilities: [].slice
+                    onChange={(event) => {
+                        console.log(this.state.increases)
+                        this.setState({
+                        increases: [].slice
                             .call(event.target.selectedOptions)
-                            .map(o => {
-                                return o.value
-                            })
+                            .map(o => o.value)
                     })}}
-                /> */}
+                />}
             </div>
             <div className="form-group">
                 <MultipleSelect
                     label="Attributs physiques"
                     selected={this.state.attributes}
-                    list={attributes.map((attribute, index) => {
+                    list={AttributeStore.findAll().map(attribute => {
                         return {
                             key: attribute.id,
                             name: attribute.name,
-                            disabled: !this.isAvailableFor(parseInt(attribute.pc)) && -1 === this.state.attributes.indexOf(attribute.id),
+                            disabled: !this.isAvailableFor(parseInt(attribute.pc))
+                                && -1 === this.state.attributes.indexOf(attribute.id),
                         }
                     })}
                     onChange={(event) => {this.setState({
                         attributes: [].slice
                             .call(event.target.selectedOptions)
-                            .map(o => {
-                                return o.value
-                            })
+                            .map(o => o.value)
+                    })}}
+                />
+            </div>
+            <div className="form-group">
+                <InputNumber
+                    label="Carats"
+                    value={this.state.carats}
+                    onChange={(event) => {this.setState({
+                        carats: parseInt(event.target.value)
                     })}}
                 />
             </div>
